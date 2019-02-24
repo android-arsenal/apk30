@@ -1,0 +1,172 @@
+2018-12-17 20:47:41,919 INFO  DownloadService - Downloading "https://github.com/mahimrocky/TextRecognizer/archive/master.zip", attempt 3
+2018-12-17 20:47:43,709 INFO  DownloadService - Downloaded https://github.com/mahimrocky/TextRecognizer/archive/master.zip, attempt 3
+2018-12-17 20:47:43,709 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/master.zip": 299 KB
+2018-12-17 20:47:43,709 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-17 20:47:43,715 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/master.zip: true
+2018-12-17 20:47:43,715 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src'.
+2018-12-17 20:47:43,746 INFO  FullProcessService - Size of directory with sources: 329 KB
+2018-12-17 20:47:43,746 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src]
+2018-12-17 20:47:43,776 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/.git/
+
+2018-12-17 20:47:43,782 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/gradlew
+2018-12-17 20:47:43,788 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/textrecognizerlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/build.gradle
+2018-12-17 20:47:43,793 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/textrecognizerlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/settings.gradle
+2018-12-17 20:47:43,794 INFO  ProjectBuildService - Remote scripts: none
+2018-12-17 20:47:43,794 INFO  ProjectFixService - Fixing project...
+2018-12-17 20:47:43,807 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/app/local.properties
+2018-12-17 20:47:43,808 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-17 20:47:43,808 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-17 20:47:43,809 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/textrecognizerlibrary/local.properties
+2018-12-17 20:47:43,811 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/textrecognizerlibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-17 20:47:43,811 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/textrecognizerlibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-17 20:47:43,812 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/local.properties
+2018-12-17 20:47:43,813 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-17 20:47:43,814 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-17 20:47:43,816 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-17 20:47:43,816 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-17 20:47:43,817 INFO  ProjectFixService - Project was maybe fixed
+2018-12-17 20:47:43,817 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-17 20:47:43,818 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-17 20:47:51,369 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-17 20:47:51,369 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-17 20:47:51,370 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-17 20:48:26,236 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:textrecognizerlibrary:preBuild UP-TO-DATE
+:textrecognizerlibrary:preDebugBuild UP-TO-DATE
+:textrecognizerlibrary:checkDebugManifest
+:textrecognizerlibrary:processDebugManifest
+:app:preDebugBuild
+:textrecognizerlibrary:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:textrecognizerlibrary:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:textrecognizerlibrary:compileDebugRenderscript
+:textrecognizerlibrary:generateDebugResValues
+:textrecognizerlibrary:generateDebugResources
+:textrecognizerlibrary:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:textrecognizerlibrary:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:textrecognizerlibrary:generateDebugBuildConfig
+:textrecognizerlibrary:prepareLintJar
+:textrecognizerlibrary:generateDebugSources
+:textrecognizerlibrary:javaPreCompileDebug
+:textrecognizerlibrary:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/textrecognizerlibrary/src/main/java/com/skyhope/textrecognizerlibrary/TextScanner.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/textrecognizerlibrary/src/main/java/com/skyhope/textrecognizerlibrary/TextScanner.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:textrecognizerlibrary:processDebugJavaRes NO-SOURCE
+:textrecognizerlibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:textrecognizerlibrary:mergeDebugShaders
+:textrecognizerlibrary:compileDebugShaders
+:textrecognizerlibrary:generateDebugAssets
+:textrecognizerlibrary:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:textrecognizerlibrary:compileDebugNdk NO-SOURCE
+:textrecognizerlibrary:mergeDebugJniLibFolders
+:textrecognizerlibrary:transformNativeLibsWithMergeJniLibsForDebug
+:textrecognizerlibrary:transformNativeLibsWithStripDebugSymbolForDebug
+:textrecognizerlibrary:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:textrecognizerlibrary:preReleaseBuild UP-TO-DATE
+:textrecognizerlibrary:checkReleaseManifest
+:textrecognizerlibrary:processReleaseManifest
+:app:preReleaseBuild
+:textrecognizerlibrary:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:textrecognizerlibrary:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:textrecognizerlibrary:compileReleaseRenderscript
+:textrecognizerlibrary:generateReleaseResValues
+:textrecognizerlibrary:generateReleaseResources
+:textrecognizerlibrary:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:textrecognizerlibrary:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:textrecognizerlibrary:generateReleaseBuildConfig
+:textrecognizerlibrary:generateReleaseSources
+:textrecognizerlibrary:javaPreCompileRelease
+:textrecognizerlibrary:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/textrecognizerlibrary/src/main/java/com/skyhope/textrecognizerlibrary/TextScanner.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/textrecognizerlibrary/src/main/java/com/skyhope/textrecognizerlibrary/TextScanner.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:textrecognizerlibrary:processReleaseJavaRes NO-SOURCE
+:textrecognizerlibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:textrecognizerlibrary:mergeReleaseShaders
+:textrecognizerlibrary:compileReleaseShaders
+:textrecognizerlibrary:generateReleaseAssets
+:textrecognizerlibrary:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:textrecognizerlibrary:compileReleaseNdk NO-SOURCE
+:textrecognizerlibrary:mergeReleaseJniLibFolders
+:textrecognizerlibrary:transformNativeLibsWithMergeJniLibsForRelease
+:textrecognizerlibrary:transformNativeLibsWithStripDebugSymbolForRelease
+:textrecognizerlibrary:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 34s
+90 actionable tasks: 90 executed
+
+2018-12-17 20:48:26,381 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545054461916-0/src/TextRecognizer-master/app/build/outputs/apk/debug/app-debug.apk

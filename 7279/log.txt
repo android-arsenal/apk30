@@ -1,0 +1,174 @@
+2018-11-02 23:16:02,629 INFO  DownloadService - Downloading "https://github.com/appersiano/ImageProgressView/archive/master.zip", attempt 3
+2018-11-02 23:16:05,216 INFO  DownloadService - Downloaded https://github.com/appersiano/ImageProgressView/archive/master.zip, attempt 3
+2018-11-02 23:16:05,217 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/master.zip": 526 KB
+2018-11-02 23:16:05,217 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-02 23:16:05,218 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/master.zip: true
+2018-11-02 23:16:05,218 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src'.
+2018-11-02 23:16:05,245 INFO  FullProcessService - Size of directory with sources: 578 KB
+2018-11-02 23:16:05,246 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src]
+2018-11-02 23:16:05,269 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/.git/
+
+2018-11-02 23:16:05,273 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/gradlew
+2018-11-02 23:16:05,277 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/progressimage/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/build.gradle
+2018-11-02 23:16:05,281 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/progressimage/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/settings.gradle
+2018-11-02 23:16:05,282 INFO  ProjectBuildService - Remote scripts: none
+2018-11-02 23:16:05,282 INFO  ProjectFixService - Fixing project...
+2018-11-02 23:16:05,293 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/app/local.properties
+2018-11-02 23:16:05,295 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-11-02 23:16:05,296 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-11-02 23:16:05,298 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/progressimage/local.properties
+2018-11-02 23:16:05,300 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/progressimage/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-11-02 23:16:05,300 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/progressimage/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-11-02 23:16:05,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/local.properties
+2018-11-02 23:16:05,302 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-11-02 23:16:05,303 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-11-02 23:16:05,305 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-11-02 23:16:05,306 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-11-02 23:16:05,306 INFO  ProjectFixService - Project was maybe fixed
+2018-11-02 23:16:05,306 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-02 23:16:05,306 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-02 23:16:13,233 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-11-02 23:16:13,233 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-02 23:16:13,234 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-02 23:16:52,185 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:progressimage:preBuild UP-TO-DATE
+:progressimage:preDebugBuild UP-TO-DATE
+:progressimage:checkDebugManifest
+:progressimage:processDebugManifest
+:app:preDebugBuild
+:progressimage:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:progressimage:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:progressimage:compileDebugRenderscript
+:progressimage:generateDebugResValues
+:progressimage:generateDebugResources
+:progressimage:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:progressimage:generateDebugRFile
+:app:processDebugResources
+:progressimage:generateDebugBuildConfig
+:progressimage:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/progressimage/src/main/java/com/appersiano/progressimage/ProgressImage.kt: (37, 27): Unsafe use of a nullable receiver of type Drawable.ConstantState?
+:progressimage:prepareLintJar
+:progressimage:generateDebugSources
+:progressimage:javaPreCompileDebug
+:progressimage:compileDebugJavaWithJavac
+:progressimage:processDebugJavaRes NO-SOURCE
+:progressimage:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:progressimage:mergeDebugShaders
+:progressimage:compileDebugShaders
+:progressimage:generateDebugAssets
+:progressimage:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:progressimage:compileDebugNdk NO-SOURCE
+:progressimage:mergeDebugJniLibFolders
+:progressimage:transformNativeLibsWithMergeJniLibsForDebug
+:progressimage:transformNativeLibsWithStripDebugSymbolForDebug
+:progressimage:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:progressimage:preReleaseBuild UP-TO-DATE
+:progressimage:checkReleaseManifest
+:progressimage:processReleaseManifest
+:app:preReleaseBuild
+:progressimage:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:progressimage:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:progressimage:compileReleaseRenderscript
+:progressimage:generateReleaseResValues
+:progressimage:generateReleaseResources
+:progressimage:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:progressimage:generateReleaseRFile
+:app:processReleaseResources
+:progressimage:generateReleaseBuildConfig
+:progressimage:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/progressimage/src/main/java/com/appersiano/progressimage/ProgressImage.kt: (37, 27): Unsafe use of a nullable receiver of type Drawable.ConstantState?
+:progressimage:generateReleaseSources
+:progressimage:javaPreCompileRelease
+:progressimage:compileReleaseJavaWithJavac
+:progressimage:processReleaseJavaRes NO-SOURCE
+:progressimage:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:progressimage:mergeReleaseShaders
+:progressimage:compileReleaseShaders
+:progressimage:generateReleaseAssets
+:progressimage:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:progressimage:compileReleaseNdk NO-SOURCE
+:progressimage:mergeReleaseJniLibFolders
+:progressimage:transformNativeLibsWithMergeJniLibsForRelease
+:progressimage:transformNativeLibsWithStripDebugSymbolForRelease
+:progressimage:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 38s
+94 actionable tasks: 94 executed
+
+2018-11-02 23:16:52,282 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541175362625-0/src/ImageProgressView-master/app/build/outputs/apk/debug/app-debug.apk

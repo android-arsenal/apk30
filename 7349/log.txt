@@ -1,0 +1,1157 @@
+2019-02-19 11:59:35,011 INFO  DownloadService - Downloading "https://github.com/tomasznajda/useful-ktx/archive/master.zip", attempt 3
+2019-02-19 11:59:35,693 INFO  DownloadService - Downloaded https://github.com/tomasznajda/useful-ktx/archive/master.zip, attempt 3
+2019-02-19 11:59:35,693 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/master.zip": 113 KB
+2019-02-19 11:59:35,693 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-19 11:59:35,694 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/master.zip: true
+2019-02-19 11:59:35,694 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src'.
+2019-02-19 11:59:35,728 INFO  FullProcessService - Size of directory with sources: 194 KB
+2019-02-19 11:59:35,728 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src]
+2019-02-19 11:59:35,751 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/.git/
+
+2019-02-19 11:59:35,757 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gradlew
+2019-02-19 11:59:35,763 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/junit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/picasso/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/build.gradle
+2019-02-19 11:59:35,768 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/picasso/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/junit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/settings.gradle
+2019-02-19 11:59:35,769 INFO  ProjectBuildService - Remote scripts: none
+2019-02-19 11:59:35,769 INFO  ProjectFixService - Fixing project...
+2019-02-19 11:59:35,782 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/android/local.properties
+2019-02-19 11:59:35,785 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-19 11:59:35,785 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-19 11:59:35,786 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gson/local.properties
+2019-02-19 11:59:35,788 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gson/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-19 11:59:35,788 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gson/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-19 11:59:35,789 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/junit/local.properties
+2019-02-19 11:59:35,792 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/junit/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-19 11:59:35,793 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/junit/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-19 11:59:35,793 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/kotlin/local.properties
+2019-02-19 11:59:35,797 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-19 11:59:35,797 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-19 11:59:35,798 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/ktx/local.properties
+2019-02-19 11:59:35,800 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/ktx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-19 11:59:35,800 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/ktx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-19 11:59:35,801 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/picasso/local.properties
+2019-02-19 11:59:35,804 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/picasso/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-19 11:59:35,804 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/picasso/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-19 11:59:35,805 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/rxjava2/local.properties
+2019-02-19 11:59:35,808 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/rxjava2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-19 11:59:35,808 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/rxjava2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-19 11:59:35,809 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/local.properties
+2019-02-19 11:59:35,809 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-19 11:59:35,810 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-19 11:59:35,811 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 11:59:35,812 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 11:59:35,812 INFO  ProjectFixService - Project was maybe fixed
+2019-02-19 11:59:35,812 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 11:59:35,812 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 11:59:44,792 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-02-19 11:59:44,792 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-19 11:59:44,793 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-19 12:00:08,312 INFO  SysUtils - Configuration on demand is an incubating feature.
+:android:preBuild UP-TO-DATE
+:android:preDebugBuild UP-TO-DATE
+:android:compileDebugAidl NO-SOURCE
+:android:compileDebugRenderscript
+:android:checkDebugManifest
+:android:generateDebugBuildConfig
+:android:generateDebugResValues
+:android:generateDebugResources
+:android:packageDebugResources
+:android:processDebugManifest
+:android:generateDebugRFile
+:android:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/android/src/main/kotlin/com/tomasznajda/ktx/android/SystemServiceExt.kt: (25, 17): Extension is shadowed by a member: public abstract fun getSystemService(p0: String!): Any!
+:android:prepareLintJar
+:android:generateDebugSources
+:android:javaPreCompileDebug
+:android:compileDebugJavaWithJavac
+:android:extractDebugAnnotations
+:android:mergeDebugConsumerProguardFiles
+:android:mergeDebugShaders
+:android:compileDebugShaders
+:android:generateDebugAssets
+:android:packageDebugAssets
+:android:packageDebugRenderscript NO-SOURCE
+:android:processDebugJavaRes NO-SOURCE
+:android:transformResourcesWithMergeJavaResForDebug
+:android:transformClassesAndResourcesWithSyncLibJarsForDebug
+:android:compileDebugNdk NO-SOURCE
+:android:mergeDebugJniLibFolders
+:android:transformNativeLibsWithMergeJniLibsForDebug
+:android:transformNativeLibsWithStripDebugSymbolForDebug
+:android:transformNativeLibsWithSyncJniLibsForDebug
+:android:bundleDebugAar
+:android:mergeDebugResources
+:android:compileDebugSources
+:android:assembleDebug
+:android:preReleaseBuild UP-TO-DATE
+:android:compileReleaseAidl NO-SOURCE
+:android:compileReleaseRenderscript
+:android:checkReleaseManifest
+:android:generateReleaseBuildConfig
+:android:generateReleaseResValues
+:android:generateReleaseResources
+:android:packageReleaseResources
+:android:processReleaseManifest
+:android:generateReleaseRFile
+:android:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/android/src/main/kotlin/com/tomasznajda/ktx/android/SystemServiceExt.kt: (25, 17): Extension is shadowed by a member: public abstract fun getSystemService(p0: String!): Any!
+:android:generateReleaseSources
+:android:javaPreCompileRelease
+:android:compileReleaseJavaWithJavac
+:android:extractReleaseAnnotations
+:android:mergeReleaseConsumerProguardFiles
+:android:mergeReleaseShaders
+:android:compileReleaseShaders
+:android:generateReleaseAssets
+:android:packageReleaseAssets
+:android:packageReleaseRenderscript NO-SOURCE
+:android:processReleaseJavaRes NO-SOURCE
+:android:transformResourcesWithMergeJavaResForRelease
+:android:transformClassesAndResourcesWithSyncLibJarsForRelease
+:android:compileReleaseNdk NO-SOURCE
+:android:mergeReleaseJniLibFolders
+:android:transformNativeLibsWithMergeJniLibsForRelease
+:android:transformNativeLibsWithStripDebugSymbolForRelease
+:android:transformNativeLibsWithSyncJniLibsForRelease
+:android:bundleReleaseAar
+:android:mergeReleaseResources
+:android:compileReleaseSources
+:android:verifyReleaseResources
+:android:assembleRelease
+:android:javadoc NO-SOURCE
+:android:javadocJar
+:android:sourcesJar
+:android:assemble
+:android:build
+
+BUILD SUCCESSFUL in 22s
+50 actionable tasks: 50 executed
+
+2019-02-19 12:00:08,396 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 12:00:08,396 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 12:00:15,514 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-02-19 12:00:15,514 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-19 12:00:15,515 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-19 12:00:28,684 INFO  SysUtils - Configuration on demand is an incubating feature.
+:gson:preBuild UP-TO-DATE
+:gson:preDebugBuild UP-TO-DATE
+:gson:compileDebugAidl NO-SOURCE
+:gson:compileDebugRenderscript
+:gson:checkDebugManifest
+:gson:generateDebugBuildConfig
+:gson:generateDebugResValues
+:gson:generateDebugResources
+:gson:packageDebugResources
+:gson:processDebugManifest
+:gson:generateDebugRFile
+:gson:compileDebugKotlin
+:gson:prepareLintJar
+:gson:generateDebugSources
+:gson:javaPreCompileDebug
+:gson:compileDebugJavaWithJavac
+:gson:extractDebugAnnotations
+:gson:mergeDebugConsumerProguardFiles
+:gson:mergeDebugShaders
+:gson:compileDebugShaders
+:gson:generateDebugAssets
+:gson:packageDebugAssets
+:gson:packageDebugRenderscript NO-SOURCE
+:gson:processDebugJavaRes NO-SOURCE
+:gson:transformResourcesWithMergeJavaResForDebug
+:gson:transformClassesAndResourcesWithSyncLibJarsForDebug
+:gson:compileDebugNdk NO-SOURCE
+:gson:mergeDebugJniLibFolders
+:gson:transformNativeLibsWithMergeJniLibsForDebug
+:gson:transformNativeLibsWithStripDebugSymbolForDebug
+:gson:transformNativeLibsWithSyncJniLibsForDebug
+:gson:bundleDebugAar
+:gson:mergeDebugResources
+:gson:compileDebugSources
+:gson:assembleDebug
+:gson:preReleaseBuild UP-TO-DATE
+:gson:compileReleaseAidl NO-SOURCE
+:gson:compileReleaseRenderscript
+:gson:checkReleaseManifest
+:gson:generateReleaseBuildConfig
+:gson:generateReleaseResValues
+:gson:generateReleaseResources
+:gson:packageReleaseResources
+:gson:processReleaseManifest
+:gson:generateReleaseRFile
+:gson:compileReleaseKotlin
+:gson:generateReleaseSources
+:gson:javaPreCompileRelease
+:gson:compileReleaseJavaWithJavac
+:gson:extractReleaseAnnotations
+:gson:mergeReleaseConsumerProguardFiles
+:gson:mergeReleaseShaders
+:gson:compileReleaseShaders
+:gson:generateReleaseAssets
+:gson:packageReleaseAssets
+:gson:packageReleaseRenderscript NO-SOURCE
+:gson:processReleaseJavaRes NO-SOURCE
+:gson:transformResourcesWithMergeJavaResForRelease
+:gson:transformClassesAndResourcesWithSyncLibJarsForRelease
+:gson:compileReleaseNdk NO-SOURCE
+:gson:mergeReleaseJniLibFolders
+:gson:transformNativeLibsWithMergeJniLibsForRelease
+:gson:transformNativeLibsWithStripDebugSymbolForRelease
+:gson:transformNativeLibsWithSyncJniLibsForRelease
+:gson:bundleReleaseAar
+:gson:mergeReleaseResources
+:gson:compileReleaseSources
+:gson:verifyReleaseResources
+:gson:assembleRelease
+:gson:javadoc NO-SOURCE
+:gson:javadocJar
+:gson:sourcesJar
+:gson:assemble
+:gson:build
+
+BUILD SUCCESSFUL in 12s
+50 actionable tasks: 50 executed
+
+2019-02-19 12:00:28,791 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 12:00:28,791 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/junit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 12:00:36,279 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-02-19 12:00:36,280 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-19 12:00:36,280 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/junit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-19 12:00:50,172 INFO  SysUtils - Configuration on demand is an incubating feature.
+:junit:preBuild UP-TO-DATE
+:junit:preDebugBuild UP-TO-DATE
+:junit:compileDebugAidl NO-SOURCE
+:junit:compileDebugRenderscript
+:junit:checkDebugManifest
+:junit:generateDebugBuildConfig
+:junit:generateDebugResValues
+:junit:generateDebugResources
+:junit:packageDebugResources
+:junit:processDebugManifest
+:junit:generateDebugRFile
+:junit:compileDebugKotlin
+:junit:prepareLintJar
+:junit:generateDebugSources
+:junit:javaPreCompileDebug
+:junit:compileDebugJavaWithJavac
+:junit:extractDebugAnnotations
+:junit:mergeDebugConsumerProguardFiles
+:junit:mergeDebugShaders
+:junit:compileDebugShaders
+:junit:generateDebugAssets
+:junit:packageDebugAssets
+:junit:packageDebugRenderscript NO-SOURCE
+:junit:processDebugJavaRes NO-SOURCE
+:junit:transformResourcesWithMergeJavaResForDebug
+:junit:transformClassesAndResourcesWithSyncLibJarsForDebug
+:junit:compileDebugNdk NO-SOURCE
+:junit:mergeDebugJniLibFolders
+:junit:transformNativeLibsWithMergeJniLibsForDebug
+:junit:transformNativeLibsWithStripDebugSymbolForDebug
+:junit:transformNativeLibsWithSyncJniLibsForDebug
+:junit:bundleDebugAar
+:junit:mergeDebugResources
+:junit:compileDebugSources
+:junit:assembleDebug
+:junit:preReleaseBuild UP-TO-DATE
+:junit:compileReleaseAidl NO-SOURCE
+:junit:compileReleaseRenderscript
+:junit:checkReleaseManifest
+:junit:generateReleaseBuildConfig
+:junit:generateReleaseResValues
+:junit:generateReleaseResources
+:junit:packageReleaseResources
+:junit:processReleaseManifest
+:junit:generateReleaseRFile
+:junit:compileReleaseKotlin
+:junit:generateReleaseSources
+:junit:javaPreCompileRelease
+:junit:compileReleaseJavaWithJavac
+:junit:extractReleaseAnnotations
+:junit:mergeReleaseConsumerProguardFiles
+:junit:mergeReleaseShaders
+:junit:compileReleaseShaders
+:junit:generateReleaseAssets
+:junit:packageReleaseAssets
+:junit:packageReleaseRenderscript NO-SOURCE
+:junit:processReleaseJavaRes NO-SOURCE
+:junit:transformResourcesWithMergeJavaResForRelease
+:junit:transformClassesAndResourcesWithSyncLibJarsForRelease
+:junit:compileReleaseNdk NO-SOURCE
+:junit:mergeReleaseJniLibFolders
+:junit:transformNativeLibsWithMergeJniLibsForRelease
+:junit:transformNativeLibsWithStripDebugSymbolForRelease
+:junit:transformNativeLibsWithSyncJniLibsForRelease
+:junit:bundleReleaseAar
+:junit:mergeReleaseResources
+:junit:compileReleaseSources
+:junit:verifyReleaseResources
+:junit:assembleRelease
+:junit:javadoc NO-SOURCE
+:junit:javadocJar
+:junit:sourcesJar
+:junit:assemble
+:junit:build
+
+BUILD SUCCESSFUL in 13s
+50 actionable tasks: 50 executed
+
+2019-02-19 12:00:50,273 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 12:00:50,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 12:00:57,813 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-02-19 12:00:57,813 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-19 12:00:57,813 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-19 12:01:11,087 INFO  SysUtils - Configuration on demand is an incubating feature.
+:kotlin:preBuild UP-TO-DATE
+:kotlin:preDebugBuild UP-TO-DATE
+:kotlin:compileDebugAidl NO-SOURCE
+:kotlin:compileDebugRenderscript
+:kotlin:checkDebugManifest
+:kotlin:generateDebugBuildConfig
+:kotlin:generateDebugResValues
+:kotlin:generateDebugResources
+:kotlin:packageDebugResources
+:kotlin:processDebugManifest
+:kotlin:generateDebugRFile
+:kotlin:compileDebugKotlin
+:kotlin:prepareLintJar
+:kotlin:generateDebugSources
+:kotlin:javaPreCompileDebug
+:kotlin:compileDebugJavaWithJavac
+:kotlin:extractDebugAnnotations
+:kotlin:mergeDebugConsumerProguardFiles
+:kotlin:mergeDebugShaders
+:kotlin:compileDebugShaders
+:kotlin:generateDebugAssets
+:kotlin:packageDebugAssets
+:kotlin:packageDebugRenderscript NO-SOURCE
+:kotlin:processDebugJavaRes NO-SOURCE
+:kotlin:transformResourcesWithMergeJavaResForDebug
+:kotlin:transformClassesAndResourcesWithSyncLibJarsForDebug
+:kotlin:compileDebugNdk NO-SOURCE
+:kotlin:mergeDebugJniLibFolders
+:kotlin:transformNativeLibsWithMergeJniLibsForDebug
+:kotlin:transformNativeLibsWithStripDebugSymbolForDebug
+:kotlin:transformNativeLibsWithSyncJniLibsForDebug
+:kotlin:bundleDebugAar
+:kotlin:mergeDebugResources
+:kotlin:compileDebugSources
+:kotlin:assembleDebug
+:kotlin:preReleaseBuild UP-TO-DATE
+:kotlin:compileReleaseAidl NO-SOURCE
+:kotlin:compileReleaseRenderscript
+:kotlin:checkReleaseManifest
+:kotlin:generateReleaseBuildConfig
+:kotlin:generateReleaseResValues
+:kotlin:generateReleaseResources
+:kotlin:packageReleaseResources
+:kotlin:processReleaseManifest
+:kotlin:generateReleaseRFile
+:kotlin:compileReleaseKotlin
+:kotlin:generateReleaseSources
+:kotlin:javaPreCompileRelease
+:kotlin:compileReleaseJavaWithJavac
+:kotlin:extractReleaseAnnotations
+:kotlin:mergeReleaseConsumerProguardFiles
+:kotlin:mergeReleaseShaders
+:kotlin:compileReleaseShaders
+:kotlin:generateReleaseAssets
+:kotlin:packageReleaseAssets
+:kotlin:packageReleaseRenderscript NO-SOURCE
+:kotlin:processReleaseJavaRes NO-SOURCE
+:kotlin:transformResourcesWithMergeJavaResForRelease
+:kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease
+:kotlin:compileReleaseNdk NO-SOURCE
+:kotlin:mergeReleaseJniLibFolders
+:kotlin:transformNativeLibsWithMergeJniLibsForRelease
+:kotlin:transformNativeLibsWithStripDebugSymbolForRelease
+:kotlin:transformNativeLibsWithSyncJniLibsForRelease
+:kotlin:bundleReleaseAar
+:kotlin:mergeReleaseResources
+:kotlin:compileReleaseSources
+:kotlin:verifyReleaseResources
+:kotlin:assembleRelease
+:kotlin:javadoc NO-SOURCE
+:kotlin:javadocJar
+:kotlin:sourcesJar
+:kotlin:assemble
+:kotlin:build
+
+BUILD SUCCESSFUL in 12s
+50 actionable tasks: 50 executed
+
+2019-02-19 12:01:11,198 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 12:01:11,199 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/ktx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 12:01:13,257 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-02-19 12:01:13,257 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-02-19 12:01:13,257 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-02-19 12:01:13,257 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/ktx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-02-19 12:01:15,505 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-19 12:01:15,505 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/ktx/build.gradle' line: 1
+
+* What went wrong:
+A problem occurred evaluating root project 'ktx'.
+> Plugin with id 'com.android.library' not found.
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'ktx'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:204)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:209)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:64)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:667)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:136)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:261)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:173)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:132)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:285)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:258)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:251)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:185)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.android.library' not found.
+	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:123)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:120)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:38)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:86)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:143)
+	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
+	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
+	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
+	at build_4yvwjljlifwym71mk09ty6hsd.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/ktx/build.gradle:1)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+	... 81 more
+
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 2s
+
+2019-02-19 12:01:15,612 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 12:01:15,612 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/picasso/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 12:01:22,614 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-02-19 12:01:22,614 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-19 12:01:22,614 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/picasso/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-19 12:01:37,342 INFO  SysUtils - Configuration on demand is an incubating feature.
+:picasso:preBuild UP-TO-DATE
+:picasso:preDebugBuild UP-TO-DATE
+:picasso:compileDebugAidl NO-SOURCE
+:picasso:compileDebugRenderscript
+:picasso:checkDebugManifest
+:picasso:generateDebugBuildConfig
+:picasso:generateDebugResValues
+:picasso:generateDebugResources
+:picasso:packageDebugResources
+:picasso:processDebugManifest
+:picasso:generateDebugRFile
+:picasso:compileDebugKotlin
+:picasso:prepareLintJar
+:picasso:generateDebugSources
+:picasso:javaPreCompileDebug
+:picasso:compileDebugJavaWithJavac
+:picasso:extractDebugAnnotations
+:picasso:mergeDebugConsumerProguardFiles
+:picasso:mergeDebugShaders
+:picasso:compileDebugShaders
+:picasso:generateDebugAssets
+:picasso:packageDebugAssets
+:picasso:packageDebugRenderscript NO-SOURCE
+:picasso:processDebugJavaRes NO-SOURCE
+:picasso:transformResourcesWithMergeJavaResForDebug
+:picasso:transformClassesAndResourcesWithSyncLibJarsForDebug
+:picasso:compileDebugNdk NO-SOURCE
+:picasso:mergeDebugJniLibFolders
+:picasso:transformNativeLibsWithMergeJniLibsForDebug
+:picasso:transformNativeLibsWithStripDebugSymbolForDebug
+:picasso:transformNativeLibsWithSyncJniLibsForDebug
+:picasso:bundleDebugAar
+:picasso:mergeDebugResources
+:picasso:compileDebugSources
+:picasso:assembleDebug
+:picasso:preReleaseBuild UP-TO-DATE
+:picasso:compileReleaseAidl NO-SOURCE
+:picasso:compileReleaseRenderscript
+:picasso:checkReleaseManifest
+:picasso:generateReleaseBuildConfig
+:picasso:generateReleaseResValues
+:picasso:generateReleaseResources
+:picasso:packageReleaseResources
+:picasso:processReleaseManifest
+:picasso:generateReleaseRFile
+:picasso:compileReleaseKotlin
+:picasso:generateReleaseSources
+:picasso:javaPreCompileRelease
+:picasso:compileReleaseJavaWithJavac
+:picasso:extractReleaseAnnotations
+:picasso:mergeReleaseConsumerProguardFiles
+:picasso:mergeReleaseShaders
+:picasso:compileReleaseShaders
+:picasso:generateReleaseAssets
+:picasso:packageReleaseAssets
+:picasso:packageReleaseRenderscript NO-SOURCE
+:picasso:processReleaseJavaRes NO-SOURCE
+:picasso:transformResourcesWithMergeJavaResForRelease
+:picasso:transformClassesAndResourcesWithSyncLibJarsForRelease
+:picasso:compileReleaseNdk NO-SOURCE
+:picasso:mergeReleaseJniLibFolders
+:picasso:transformNativeLibsWithMergeJniLibsForRelease
+:picasso:transformNativeLibsWithStripDebugSymbolForRelease
+:picasso:transformNativeLibsWithSyncJniLibsForRelease
+:picasso:bundleReleaseAar
+:picasso:mergeReleaseResources
+:picasso:compileReleaseSources
+:picasso:verifyReleaseResources
+:picasso:assembleRelease
+:picasso:javadoc NO-SOURCE
+:picasso:javadocJar
+:picasso:sourcesJar
+:picasso:assemble
+:picasso:build
+
+BUILD SUCCESSFUL in 14s
+50 actionable tasks: 50 executed
+
+2019-02-19 12:01:37,460 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 12:01:37,461 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/rxjava2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 12:01:43,880 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-02-19 12:01:43,881 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-19 12:01:43,881 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/rxjava2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-19 12:02:00,379 INFO  SysUtils - Configuration on demand is an incubating feature.
+:rxjava2:preBuild UP-TO-DATE
+:rxjava2:preDebugBuild UP-TO-DATE
+:rxjava2:compileDebugAidl NO-SOURCE
+:rxjava2:compileDebugRenderscript
+:rxjava2:checkDebugManifest
+:rxjava2:generateDebugBuildConfig
+:rxjava2:generateDebugResValues
+:rxjava2:generateDebugResources
+:rxjava2:packageDebugResources
+:rxjava2:processDebugManifest
+:rxjava2:generateDebugRFile
+:rxjava2:compileDebugKotlin
+:rxjava2:prepareLintJar
+:rxjava2:generateDebugSources
+:rxjava2:javaPreCompileDebug
+:rxjava2:compileDebugJavaWithJavac
+:rxjava2:extractDebugAnnotations
+:rxjava2:mergeDebugConsumerProguardFiles
+:rxjava2:mergeDebugShaders
+:rxjava2:compileDebugShaders
+:rxjava2:generateDebugAssets
+:rxjava2:packageDebugAssets
+:rxjava2:packageDebugRenderscript NO-SOURCE
+:rxjava2:processDebugJavaRes NO-SOURCE
+:rxjava2:transformResourcesWithMergeJavaResForDebug
+:rxjava2:transformClassesAndResourcesWithSyncLibJarsForDebug
+:rxjava2:compileDebugNdk NO-SOURCE
+:rxjava2:mergeDebugJniLibFolders
+:rxjava2:transformNativeLibsWithMergeJniLibsForDebug
+:rxjava2:transformNativeLibsWithStripDebugSymbolForDebug
+:rxjava2:transformNativeLibsWithSyncJniLibsForDebug
+:rxjava2:bundleDebugAar
+:rxjava2:mergeDebugResources
+:rxjava2:compileDebugSources
+:rxjava2:assembleDebug
+:rxjava2:preReleaseBuild UP-TO-DATE
+:rxjava2:compileReleaseAidl NO-SOURCE
+:rxjava2:compileReleaseRenderscript
+:rxjava2:checkReleaseManifest
+:rxjava2:generateReleaseBuildConfig
+:rxjava2:generateReleaseResValues
+:rxjava2:generateReleaseResources
+:rxjava2:packageReleaseResources
+:rxjava2:processReleaseManifest
+:rxjava2:generateReleaseRFile
+:rxjava2:compileReleaseKotlin
+:rxjava2:generateReleaseSources
+:rxjava2:javaPreCompileRelease
+:rxjava2:compileReleaseJavaWithJavac
+:rxjava2:extractReleaseAnnotations
+:rxjava2:mergeReleaseConsumerProguardFiles
+:rxjava2:mergeReleaseShaders
+:rxjava2:compileReleaseShaders
+:rxjava2:generateReleaseAssets
+:rxjava2:packageReleaseAssets
+:rxjava2:packageReleaseRenderscript NO-SOURCE
+:rxjava2:processReleaseJavaRes NO-SOURCE
+:rxjava2:transformResourcesWithMergeJavaResForRelease
+:rxjava2:transformClassesAndResourcesWithSyncLibJarsForRelease
+:rxjava2:compileReleaseNdk NO-SOURCE
+:rxjava2:mergeReleaseJniLibFolders
+:rxjava2:transformNativeLibsWithMergeJniLibsForRelease
+:rxjava2:transformNativeLibsWithStripDebugSymbolForRelease
+:rxjava2:transformNativeLibsWithSyncJniLibsForRelease
+:rxjava2:bundleReleaseAar
+:rxjava2:mergeReleaseResources
+:rxjava2:compileReleaseSources
+:rxjava2:verifyReleaseResources
+:rxjava2:assembleRelease
+:rxjava2:javadoc NO-SOURCE
+:rxjava2:javadocJar
+:rxjava2:sourcesJar
+:rxjava2:assemble
+:rxjava2:build
+
+BUILD SUCCESSFUL in 15s
+50 actionable tasks: 50 executed
+
+2019-02-19 12:02:00,525 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 12:02:00,525 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 12:02:07,800 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-19 12:02:07,801 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-19 12:02:07,801 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552375008-0/src/useful-ktx-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-19 12:02:18,694 INFO  SysUtils - Configuration on demand is an incubating feature.
+:android:preBuild UP-TO-DATE
+:android:preDebugBuild UP-TO-DATE
+:android:compileDebugAidl NO-SOURCE
+:android:compileDebugRenderscript UP-TO-DATE
+:android:checkDebugManifest UP-TO-DATE
+:android:generateDebugBuildConfig UP-TO-DATE
+:android:generateDebugResValues UP-TO-DATE
+:android:generateDebugResources UP-TO-DATE
+:android:packageDebugResources UP-TO-DATE
+:android:processDebugManifest UP-TO-DATE
+:android:generateDebugRFile UP-TO-DATE
+:android:compileDebugKotlin UP-TO-DATE
+:android:prepareLintJar UP-TO-DATE
+:android:generateDebugSources UP-TO-DATE
+:android:javaPreCompileDebug UP-TO-DATE
+:android:compileDebugJavaWithJavac UP-TO-DATE
+:android:extractDebugAnnotations UP-TO-DATE
+:android:mergeDebugConsumerProguardFiles UP-TO-DATE
+:android:mergeDebugShaders UP-TO-DATE
+:android:compileDebugShaders UP-TO-DATE
+:android:generateDebugAssets UP-TO-DATE
+:android:packageDebugAssets UP-TO-DATE
+:android:packageDebugRenderscript NO-SOURCE
+:android:processDebugJavaRes NO-SOURCE
+:android:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:android:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:android:compileDebugNdk NO-SOURCE
+:android:mergeDebugJniLibFolders UP-TO-DATE
+:android:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:android:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:android:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:android:bundleDebugAar UP-TO-DATE
+:android:mergeDebugResources UP-TO-DATE
+:android:compileDebugSources UP-TO-DATE
+:android:assembleDebug UP-TO-DATE
+:android:preReleaseBuild UP-TO-DATE
+:android:compileReleaseAidl NO-SOURCE
+:android:compileReleaseRenderscript UP-TO-DATE
+:android:checkReleaseManifest UP-TO-DATE
+:android:generateReleaseBuildConfig UP-TO-DATE
+:android:generateReleaseResValues UP-TO-DATE
+:android:generateReleaseResources UP-TO-DATE
+:android:packageReleaseResources UP-TO-DATE
+:android:processReleaseManifest UP-TO-DATE
+:android:generateReleaseRFile UP-TO-DATE
+:android:compileReleaseKotlin UP-TO-DATE
+:android:generateReleaseSources UP-TO-DATE
+:android:javaPreCompileRelease UP-TO-DATE
+:android:compileReleaseJavaWithJavac UP-TO-DATE
+:android:extractReleaseAnnotations UP-TO-DATE
+:android:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:android:mergeReleaseShaders UP-TO-DATE
+:android:compileReleaseShaders UP-TO-DATE
+:android:generateReleaseAssets UP-TO-DATE
+:android:packageReleaseAssets UP-TO-DATE
+:android:packageReleaseRenderscript NO-SOURCE
+:android:processReleaseJavaRes NO-SOURCE
+:android:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:android:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:android:compileReleaseNdk NO-SOURCE
+:android:mergeReleaseJniLibFolders UP-TO-DATE
+:android:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:android:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:android:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:android:bundleReleaseAar UP-TO-DATE
+:android:mergeReleaseResources UP-TO-DATE
+:android:compileReleaseSources UP-TO-DATE
+:android:verifyReleaseResources
+:android:assembleRelease
+:android:javadoc NO-SOURCE
+:android:javadocJar UP-TO-DATE
+:android:sourcesJar UP-TO-DATE
+:android:assemble
+:android:build
+:gson:preBuild UP-TO-DATE
+:gson:preDebugBuild UP-TO-DATE
+:gson:compileDebugAidl NO-SOURCE
+:gson:compileDebugRenderscript UP-TO-DATE
+:gson:checkDebugManifest UP-TO-DATE
+:gson:generateDebugBuildConfig UP-TO-DATE
+:gson:generateDebugResValues UP-TO-DATE
+:gson:generateDebugResources UP-TO-DATE
+:gson:packageDebugResources UP-TO-DATE
+:gson:processDebugManifest UP-TO-DATE
+:gson:generateDebugRFile UP-TO-DATE
+:gson:compileDebugKotlin UP-TO-DATE
+:gson:prepareLintJar UP-TO-DATE
+:gson:generateDebugSources UP-TO-DATE
+:gson:javaPreCompileDebug UP-TO-DATE
+:gson:compileDebugJavaWithJavac UP-TO-DATE
+:gson:extractDebugAnnotations UP-TO-DATE
+:gson:mergeDebugConsumerProguardFiles UP-TO-DATE
+:gson:mergeDebugShaders UP-TO-DATE
+:gson:compileDebugShaders UP-TO-DATE
+:gson:generateDebugAssets UP-TO-DATE
+:gson:packageDebugAssets UP-TO-DATE
+:gson:packageDebugRenderscript NO-SOURCE
+:gson:processDebugJavaRes NO-SOURCE
+:gson:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:gson:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:gson:compileDebugNdk NO-SOURCE
+:gson:mergeDebugJniLibFolders UP-TO-DATE
+:gson:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:gson:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:gson:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:gson:bundleDebugAar UP-TO-DATE
+:gson:mergeDebugResources UP-TO-DATE
+:gson:compileDebugSources UP-TO-DATE
+:gson:assembleDebug UP-TO-DATE
+:gson:preReleaseBuild UP-TO-DATE
+:gson:compileReleaseAidl NO-SOURCE
+:gson:compileReleaseRenderscript UP-TO-DATE
+:gson:checkReleaseManifest UP-TO-DATE
+:gson:generateReleaseBuildConfig UP-TO-DATE
+:gson:generateReleaseResValues UP-TO-DATE
+:gson:generateReleaseResources UP-TO-DATE
+:gson:packageReleaseResources UP-TO-DATE
+:gson:processReleaseManifest UP-TO-DATE
+:gson:generateReleaseRFile UP-TO-DATE
+:gson:compileReleaseKotlin UP-TO-DATE
+:gson:generateReleaseSources UP-TO-DATE
+:gson:javaPreCompileRelease UP-TO-DATE
+:gson:compileReleaseJavaWithJavac UP-TO-DATE
+:gson:extractReleaseAnnotations UP-TO-DATE
+:gson:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:gson:mergeReleaseShaders UP-TO-DATE
+:gson:compileReleaseShaders UP-TO-DATE
+:gson:generateReleaseAssets UP-TO-DATE
+:gson:packageReleaseAssets UP-TO-DATE
+:gson:packageReleaseRenderscript NO-SOURCE
+:gson:processReleaseJavaRes NO-SOURCE
+:gson:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:gson:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:gson:compileReleaseNdk NO-SOURCE
+:gson:mergeReleaseJniLibFolders UP-TO-DATE
+:gson:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:gson:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:gson:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:gson:bundleReleaseAar UP-TO-DATE
+:gson:mergeReleaseResources UP-TO-DATE
+:gson:compileReleaseSources UP-TO-DATE
+:gson:verifyReleaseResources
+:gson:assembleRelease
+:gson:javadoc NO-SOURCE
+:gson:javadocJar UP-TO-DATE
+:gson:sourcesJar UP-TO-DATE
+:gson:assemble
+:gson:build
+:junit:preBuild UP-TO-DATE
+:junit:preDebugBuild UP-TO-DATE
+:junit:compileDebugAidl NO-SOURCE
+:junit:compileDebugRenderscript UP-TO-DATE
+:junit:checkDebugManifest UP-TO-DATE
+:junit:generateDebugBuildConfig UP-TO-DATE
+:junit:generateDebugResValues UP-TO-DATE
+:junit:generateDebugResources UP-TO-DATE
+:junit:packageDebugResources UP-TO-DATE
+:junit:processDebugManifest UP-TO-DATE
+:junit:generateDebugRFile UP-TO-DATE
+:junit:compileDebugKotlin UP-TO-DATE
+:junit:prepareLintJar UP-TO-DATE
+:junit:generateDebugSources UP-TO-DATE
+:junit:javaPreCompileDebug UP-TO-DATE
+:junit:compileDebugJavaWithJavac UP-TO-DATE
+:junit:extractDebugAnnotations UP-TO-DATE
+:junit:mergeDebugConsumerProguardFiles UP-TO-DATE
+:junit:mergeDebugShaders UP-TO-DATE
+:junit:compileDebugShaders UP-TO-DATE
+:junit:generateDebugAssets UP-TO-DATE
+:junit:packageDebugAssets UP-TO-DATE
+:junit:packageDebugRenderscript NO-SOURCE
+:junit:processDebugJavaRes NO-SOURCE
+:junit:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:junit:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:junit:compileDebugNdk NO-SOURCE
+:junit:mergeDebugJniLibFolders UP-TO-DATE
+:junit:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:junit:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:junit:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:junit:bundleDebugAar UP-TO-DATE
+:junit:mergeDebugResources UP-TO-DATE
+:junit:compileDebugSources UP-TO-DATE
+:junit:assembleDebug UP-TO-DATE
+:junit:preReleaseBuild UP-TO-DATE
+:junit:compileReleaseAidl NO-SOURCE
+:junit:compileReleaseRenderscript UP-TO-DATE
+:junit:checkReleaseManifest UP-TO-DATE
+:junit:generateReleaseBuildConfig UP-TO-DATE
+:junit:generateReleaseResValues UP-TO-DATE
+:junit:generateReleaseResources UP-TO-DATE
+:junit:packageReleaseResources UP-TO-DATE
+:junit:processReleaseManifest UP-TO-DATE
+:junit:generateReleaseRFile UP-TO-DATE
+:junit:compileReleaseKotlin UP-TO-DATE
+:junit:generateReleaseSources UP-TO-DATE
+:junit:javaPreCompileRelease UP-TO-DATE
+:junit:compileReleaseJavaWithJavac UP-TO-DATE
+:junit:extractReleaseAnnotations UP-TO-DATE
+:junit:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:junit:mergeReleaseShaders UP-TO-DATE
+:junit:compileReleaseShaders UP-TO-DATE
+:junit:generateReleaseAssets UP-TO-DATE
+:junit:packageReleaseAssets UP-TO-DATE
+:junit:packageReleaseRenderscript NO-SOURCE
+:junit:processReleaseJavaRes NO-SOURCE
+:junit:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:junit:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:junit:compileReleaseNdk NO-SOURCE
+:junit:mergeReleaseJniLibFolders UP-TO-DATE
+:junit:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:junit:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:junit:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:junit:bundleReleaseAar UP-TO-DATE
+:junit:mergeReleaseResources UP-TO-DATE
+:junit:compileReleaseSources UP-TO-DATE
+:junit:verifyReleaseResources
+:junit:assembleRelease
+:junit:javadoc NO-SOURCE
+:junit:javadocJar UP-TO-DATE
+:junit:sourcesJar UP-TO-DATE
+:junit:assemble
+:junit:build
+:kotlin:preBuild UP-TO-DATE
+:kotlin:preDebugBuild UP-TO-DATE
+:kotlin:compileDebugAidl NO-SOURCE
+:kotlin:compileDebugRenderscript UP-TO-DATE
+:kotlin:checkDebugManifest UP-TO-DATE
+:kotlin:generateDebugBuildConfig UP-TO-DATE
+:kotlin:generateDebugResValues UP-TO-DATE
+:kotlin:generateDebugResources UP-TO-DATE
+:kotlin:packageDebugResources UP-TO-DATE
+:kotlin:processDebugManifest UP-TO-DATE
+:kotlin:generateDebugRFile UP-TO-DATE
+:kotlin:compileDebugKotlin UP-TO-DATE
+:kotlin:prepareLintJar UP-TO-DATE
+:kotlin:generateDebugSources UP-TO-DATE
+:kotlin:javaPreCompileDebug UP-TO-DATE
+:kotlin:compileDebugJavaWithJavac UP-TO-DATE
+:kotlin:extractDebugAnnotations UP-TO-DATE
+:kotlin:mergeDebugConsumerProguardFiles UP-TO-DATE
+:kotlin:mergeDebugShaders UP-TO-DATE
+:kotlin:compileDebugShaders UP-TO-DATE
+:kotlin:generateDebugAssets UP-TO-DATE
+:kotlin:packageDebugAssets UP-TO-DATE
+:kotlin:packageDebugRenderscript NO-SOURCE
+:kotlin:processDebugJavaRes NO-SOURCE
+:kotlin:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:kotlin:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:kotlin:compileDebugNdk NO-SOURCE
+:kotlin:mergeDebugJniLibFolders UP-TO-DATE
+:kotlin:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:kotlin:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:kotlin:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:kotlin:bundleDebugAar UP-TO-DATE
+:kotlin:mergeDebugResources UP-TO-DATE
+:kotlin:compileDebugSources UP-TO-DATE
+:kotlin:assembleDebug UP-TO-DATE
+:kotlin:preReleaseBuild UP-TO-DATE
+:kotlin:compileReleaseAidl NO-SOURCE
+:kotlin:compileReleaseRenderscript UP-TO-DATE
+:kotlin:checkReleaseManifest UP-TO-DATE
+:kotlin:generateReleaseBuildConfig UP-TO-DATE
+:kotlin:generateReleaseResValues UP-TO-DATE
+:kotlin:generateReleaseResources UP-TO-DATE
+:kotlin:packageReleaseResources UP-TO-DATE
+:kotlin:processReleaseManifest UP-TO-DATE
+:kotlin:generateReleaseRFile UP-TO-DATE
+:kotlin:compileReleaseKotlin UP-TO-DATE
+:kotlin:generateReleaseSources UP-TO-DATE
+:kotlin:javaPreCompileRelease UP-TO-DATE
+:kotlin:compileReleaseJavaWithJavac UP-TO-DATE
+:kotlin:extractReleaseAnnotations UP-TO-DATE
+:kotlin:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:kotlin:mergeReleaseShaders UP-TO-DATE
+:kotlin:compileReleaseShaders UP-TO-DATE
+:kotlin:generateReleaseAssets UP-TO-DATE
+:kotlin:packageReleaseAssets UP-TO-DATE
+:kotlin:packageReleaseRenderscript NO-SOURCE
+:kotlin:processReleaseJavaRes NO-SOURCE
+:kotlin:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:kotlin:compileReleaseNdk NO-SOURCE
+:kotlin:mergeReleaseJniLibFolders UP-TO-DATE
+:kotlin:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:kotlin:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:kotlin:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:kotlin:bundleReleaseAar UP-TO-DATE
+:kotlin:mergeReleaseResources UP-TO-DATE
+:kotlin:compileReleaseSources UP-TO-DATE
+:kotlin:verifyReleaseResources
+:kotlin:assembleRelease
+:kotlin:javadoc NO-SOURCE
+:kotlin:javadocJar UP-TO-DATE
+:kotlin:sourcesJar UP-TO-DATE
+:kotlin:assemble
+:kotlin:build
+:picasso:preBuild UP-TO-DATE
+:picasso:preDebugBuild UP-TO-DATE
+:picasso:compileDebugAidl NO-SOURCE
+:picasso:compileDebugRenderscript UP-TO-DATE
+:picasso:checkDebugManifest UP-TO-DATE
+:picasso:generateDebugBuildConfig UP-TO-DATE
+:picasso:generateDebugResValues UP-TO-DATE
+:picasso:generateDebugResources UP-TO-DATE
+:picasso:packageDebugResources UP-TO-DATE
+:picasso:processDebugManifest UP-TO-DATE
+:picasso:generateDebugRFile UP-TO-DATE
+:picasso:compileDebugKotlin UP-TO-DATE
+:picasso:prepareLintJar UP-TO-DATE
+:picasso:generateDebugSources UP-TO-DATE
+:picasso:javaPreCompileDebug UP-TO-DATE
+:picasso:compileDebugJavaWithJavac UP-TO-DATE
+:picasso:extractDebugAnnotations UP-TO-DATE
+:picasso:mergeDebugConsumerProguardFiles UP-TO-DATE
+:picasso:mergeDebugShaders UP-TO-DATE
+:picasso:compileDebugShaders UP-TO-DATE
+:picasso:generateDebugAssets UP-TO-DATE
+:picasso:packageDebugAssets UP-TO-DATE
+:picasso:packageDebugRenderscript NO-SOURCE
+:picasso:processDebugJavaRes NO-SOURCE
+:picasso:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:picasso:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:picasso:compileDebugNdk NO-SOURCE
+:picasso:mergeDebugJniLibFolders UP-TO-DATE
+:picasso:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:picasso:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:picasso:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:picasso:bundleDebugAar UP-TO-DATE
+:picasso:mergeDebugResources UP-TO-DATE
+:picasso:compileDebugSources UP-TO-DATE
+:picasso:assembleDebug UP-TO-DATE
+:picasso:preReleaseBuild UP-TO-DATE
+:picasso:compileReleaseAidl NO-SOURCE
+:picasso:compileReleaseRenderscript UP-TO-DATE
+:picasso:checkReleaseManifest UP-TO-DATE
+:picasso:generateReleaseBuildConfig UP-TO-DATE
+:picasso:generateReleaseResValues UP-TO-DATE
+:picasso:generateReleaseResources UP-TO-DATE
+:picasso:packageReleaseResources UP-TO-DATE
+:picasso:processReleaseManifest UP-TO-DATE
+:picasso:generateReleaseRFile UP-TO-DATE
+:picasso:compileReleaseKotlin UP-TO-DATE
+:picasso:generateReleaseSources UP-TO-DATE
+:picasso:javaPreCompileRelease UP-TO-DATE
+:picasso:compileReleaseJavaWithJavac UP-TO-DATE
+:picasso:extractReleaseAnnotations UP-TO-DATE
+:picasso:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:picasso:mergeReleaseShaders UP-TO-DATE
+:picasso:compileReleaseShaders UP-TO-DATE
+:picasso:generateReleaseAssets UP-TO-DATE
+:picasso:packageReleaseAssets UP-TO-DATE
+:picasso:packageReleaseRenderscript NO-SOURCE
+:picasso:processReleaseJavaRes NO-SOURCE
+:picasso:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:picasso:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:picasso:compileReleaseNdk NO-SOURCE
+:picasso:mergeReleaseJniLibFolders UP-TO-DATE
+:picasso:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:picasso:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:picasso:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:picasso:bundleReleaseAar UP-TO-DATE
+:picasso:mergeReleaseResources UP-TO-DATE
+:picasso:compileReleaseSources UP-TO-DATE
+:picasso:verifyReleaseResources
+:picasso:assembleRelease
+:picasso:javadoc NO-SOURCE
+:picasso:javadocJar UP-TO-DATE
+:picasso:sourcesJar UP-TO-DATE
+:picasso:assemble
+:picasso:build
+:rxjava2:preBuild UP-TO-DATE
+:rxjava2:preDebugBuild UP-TO-DATE
+:rxjava2:compileDebugAidl NO-SOURCE
+:rxjava2:compileDebugRenderscript UP-TO-DATE
+:rxjava2:checkDebugManifest UP-TO-DATE
+:rxjava2:generateDebugBuildConfig UP-TO-DATE
+:rxjava2:generateDebugResValues UP-TO-DATE
+:rxjava2:generateDebugResources UP-TO-DATE
+:rxjava2:packageDebugResources UP-TO-DATE
+:rxjava2:processDebugManifest UP-TO-DATE
+:rxjava2:generateDebugRFile UP-TO-DATE
+:rxjava2:compileDebugKotlin UP-TO-DATE
+:rxjava2:prepareLintJar UP-TO-DATE
+:rxjava2:generateDebugSources UP-TO-DATE
+:rxjava2:javaPreCompileDebug UP-TO-DATE
+:rxjava2:compileDebugJavaWithJavac UP-TO-DATE
+:rxjava2:extractDebugAnnotations UP-TO-DATE
+:rxjava2:mergeDebugConsumerProguardFiles UP-TO-DATE
+:rxjava2:mergeDebugShaders UP-TO-DATE
+:rxjava2:compileDebugShaders UP-TO-DATE
+:rxjava2:generateDebugAssets UP-TO-DATE
+:rxjava2:packageDebugAssets UP-TO-DATE
+:rxjava2:packageDebugRenderscript NO-SOURCE
+:rxjava2:processDebugJavaRes NO-SOURCE
+:rxjava2:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:rxjava2:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:rxjava2:compileDebugNdk NO-SOURCE
+:rxjava2:mergeDebugJniLibFolders UP-TO-DATE
+:rxjava2:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:rxjava2:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:rxjava2:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:rxjava2:bundleDebugAar UP-TO-DATE
+:rxjava2:mergeDebugResources UP-TO-DATE
+:rxjava2:compileDebugSources UP-TO-DATE
+:rxjava2:assembleDebug UP-TO-DATE
+:rxjava2:preReleaseBuild UP-TO-DATE
+:rxjava2:compileReleaseAidl NO-SOURCE
+:rxjava2:compileReleaseRenderscript UP-TO-DATE
+:rxjava2:checkReleaseManifest UP-TO-DATE
+:rxjava2:generateReleaseBuildConfig UP-TO-DATE
+:rxjava2:generateReleaseResValues UP-TO-DATE
+:rxjava2:generateReleaseResources UP-TO-DATE
+:rxjava2:packageReleaseResources UP-TO-DATE
+:rxjava2:processReleaseManifest UP-TO-DATE
+:rxjava2:generateReleaseRFile UP-TO-DATE
+:rxjava2:compileReleaseKotlin UP-TO-DATE
+:rxjava2:generateReleaseSources UP-TO-DATE
+:rxjava2:javaPreCompileRelease UP-TO-DATE
+:rxjava2:compileReleaseJavaWithJavac UP-TO-DATE
+:rxjava2:extractReleaseAnnotations UP-TO-DATE
+:rxjava2:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:rxjava2:mergeReleaseShaders UP-TO-DATE
+:rxjava2:compileReleaseShaders UP-TO-DATE
+:rxjava2:generateReleaseAssets UP-TO-DATE
+:rxjava2:packageReleaseAssets UP-TO-DATE
+:rxjava2:packageReleaseRenderscript NO-SOURCE
+:rxjava2:processReleaseJavaRes NO-SOURCE
+:rxjava2:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:rxjava2:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:rxjava2:compileReleaseNdk NO-SOURCE
+:rxjava2:mergeReleaseJniLibFolders UP-TO-DATE
+:rxjava2:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:rxjava2:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:rxjava2:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:rxjava2:bundleReleaseAar UP-TO-DATE
+:rxjava2:mergeReleaseResources UP-TO-DATE
+:rxjava2:compileReleaseSources UP-TO-DATE
+:rxjava2:verifyReleaseResources
+:rxjava2:assembleRelease
+:rxjava2:javadoc NO-SOURCE
+:rxjava2:javadocJar UP-TO-DATE
+:rxjava2:sourcesJar UP-TO-DATE
+:rxjava2:assemble
+:rxjava2:build
+
+BUILD SUCCESSFUL in 10s
+300 actionable tasks: 6 executed, 294 up-to-date
+
+2019-02-19 12:02:18,838 ERROR FullProcessService - Project build has not produced APK file
+2019-02-19 12:02:19,134 ERROR FullProcessService - Could not find generated or existed APK file

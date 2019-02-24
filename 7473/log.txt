@@ -1,0 +1,242 @@
+2019-02-23 17:35:52,896 INFO  DownloadService - Downloading "https://github.com/bffcorreia/fole/archive/master.zip", attempt 3
+2019-02-23 17:35:55,157 INFO  DownloadService - Downloaded https://github.com/bffcorreia/fole/archive/master.zip, attempt 3
+2019-02-23 17:35:55,157 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/master.zip": 252 KB
+2019-02-23 17:35:55,157 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-23 17:35:55,157 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/master.zip: true
+2019-02-23 17:35:55,158 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src'.
+2019-02-23 17:35:55,179 INFO  FullProcessService - Size of directory with sources: 281 KB
+2019-02-23 17:35:55,179 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src]
+2019-02-23 17:35:55,199 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/.git/
+
+2019-02-23 17:35:55,203 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/gradlew
+2019-02-23 17:35:55,206 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/fole/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/build.gradle
+2019-02-23 17:35:55,210 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/fole/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/settings.gradle
+2019-02-23 17:35:55,210 INFO  ProjectBuildService - Remote scripts: none
+2019-02-23 17:35:55,210 INFO  ProjectFixService - Fixing project...
+2019-02-23 17:35:55,219 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/fole/local.properties
+2019-02-23 17:35:55,220 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/fole/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-23 17:35:55,220 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/sample/local.properties
+2019-02-23 17:35:55,221 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-23 17:35:55,221 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/local.properties
+2019-02-23 17:35:55,222 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-23 17:35:55,222 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-23 17:35:55,223 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-23 17:35:55,223 INFO  ProjectFixService - Project was maybe fixed
+2019-02-23 17:35:55,223 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 17:35:55,224 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/fole/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 17:36:04,629 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-02-23 17:36:04,630 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-23 17:36:04,630 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/fole/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-23 17:36:18,485 INFO  SysUtils - Configuration on demand is an incubating feature.
+:fole:preBuild UP-TO-DATE
+:fole:preDebugBuild UP-TO-DATE
+:fole:compileDebugAidl
+:fole:compileDebugRenderscript
+:fole:checkDebugManifest
+:fole:generateDebugBuildConfig
+:fole:generateDebugResValues
+:fole:generateDebugResources
+:fole:packageDebugResources
+:fole:platformAttrExtractor
+:fole:processDebugManifest
+:fole:prepareLintJar
+:fole:javaPreCompileDebug
+:fole:mergeDebugConsumerProguardFiles
+:fole:mergeDebugShaders
+:fole:compileDebugShaders
+:fole:generateDebugAssets
+:fole:packageDebugAssets
+:fole:packageDebugRenderscript NO-SOURCE
+:fole:processDebugJavaRes NO-SOURCE
+:fole:compileDebugNdk NO-SOURCE
+:fole:mergeDebugJniLibFolders
+:fole:transformNativeLibsWithMergeJniLibsForDebug
+:fole:transformNativeLibsWithStripDebugSymbolForDebug
+:fole:transformNativeLibsWithSyncJniLibsForDebug
+:fole:preReleaseBuild UP-TO-DATE
+:fole:compileReleaseAidl
+:fole:compileReleaseRenderscript
+:fole:checkReleaseManifest
+:fole:generateReleaseBuildConfig
+:fole:generateReleaseResValues
+:fole:generateReleaseResources
+:fole:packageReleaseResources
+:fole:processReleaseManifest
+:fole:javaPreCompileRelease
+:fole:mergeReleaseConsumerProguardFiles
+:fole:mergeReleaseShaders
+:fole:compileReleaseShaders
+:fole:generateReleaseAssets
+:fole:packageReleaseAssets
+:fole:packageReleaseRenderscript NO-SOURCE
+:fole:processReleaseJavaRes NO-SOURCE
+:fole:compileReleaseNdk NO-SOURCE
+:fole:mergeReleaseJniLibFolders
+:fole:transformNativeLibsWithMergeJniLibsForRelease
+:fole:transformNativeLibsWithStripDebugSymbolForRelease
+:fole:transformNativeLibsWithSyncJniLibsForRelease
+:fole:mergeReleaseResources
+:fole:verifyReleaseResources
+:fole:generateDebugRFile
+:fole:generateDebugSources
+:fole:compileDebugJavaWithJavac
+:fole:extractDebugAnnotations
+:fole:transformResourcesWithMergeJavaResForDebug
+:fole:transformClassesAndResourcesWithSyncLibJarsForDebug
+:fole:bundleDebug
+:fole:compileDebugSources
+:fole:assembleDebug
+:fole:generateReleaseRFile
+:fole:generateReleaseSources
+:fole:compileReleaseJavaWithJavac
+:fole:extractReleaseAnnotations
+:fole:transformResourcesWithMergeJavaResForRelease
+:fole:transformClassesAndResourcesWithSyncLibJarsForRelease
+:fole:bundleRelease
+:fole:compileReleaseSources
+:fole:assembleRelease
+:fole:assemble
+:fole:build
+
+BUILD SUCCESSFUL in 13s
+48 actionable tasks: 48 executed
+
+2019-02-23 17:36:18,542 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 17:36:18,542 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 17:36:24,866 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-23 17:36:24,866 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-23 17:36:24,867 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-23 17:36:55,719 INFO  SysUtils - Configuration on demand is an incubating feature.
+:fole:preBuild UP-TO-DATE
+:fole:preDebugBuild UP-TO-DATE
+:fole:compileDebugAidl UP-TO-DATE
+:fole:compileDebugRenderscript UP-TO-DATE
+:fole:checkDebugManifest UP-TO-DATE
+:fole:generateDebugBuildConfig UP-TO-DATE
+:fole:generateDebugResValues UP-TO-DATE
+:fole:generateDebugResources UP-TO-DATE
+:fole:packageDebugResources UP-TO-DATE
+:fole:platformAttrExtractor UP-TO-DATE
+:fole:processDebugManifest UP-TO-DATE
+:fole:generateDebugRFile UP-TO-DATE
+:fole:prepareLintJar UP-TO-DATE
+:fole:generateDebugSources UP-TO-DATE
+:fole:javaPreCompileDebug UP-TO-DATE
+:fole:compileDebugJavaWithJavac UP-TO-DATE
+:fole:processDebugJavaRes NO-SOURCE
+:fole:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl
+:fole:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:fole:mergeDebugShaders UP-TO-DATE
+:fole:compileDebugShaders UP-TO-DATE
+:fole:generateDebugAssets UP-TO-DATE
+:fole:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:fole:compileDebugNdk NO-SOURCE
+:fole:mergeDebugJniLibFolders UP-TO-DATE
+:fole:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:fole:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:fole:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:fole:preReleaseBuild UP-TO-DATE
+:fole:compileReleaseAidl UP-TO-DATE
+:fole:compileReleaseRenderscript UP-TO-DATE
+:fole:checkReleaseManifest UP-TO-DATE
+:fole:generateReleaseBuildConfig UP-TO-DATE
+:fole:generateReleaseResValues UP-TO-DATE
+:fole:generateReleaseResources UP-TO-DATE
+:fole:packageReleaseResources UP-TO-DATE
+:fole:processReleaseManifest UP-TO-DATE
+:fole:generateReleaseRFile UP-TO-DATE
+:fole:generateReleaseSources UP-TO-DATE
+:fole:javaPreCompileRelease UP-TO-DATE
+:fole:compileReleaseJavaWithJavac UP-TO-DATE
+:fole:processReleaseJavaRes NO-SOURCE
+:fole:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:preReleaseBuild
+:sample:compileReleaseAidl
+:fole:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+Download https://jcenter.bintray.com/com/squareup/assertj/assertj-android/1.1.1/assertj-android-1.1.1.jar
+Download https://jcenter.bintray.com/org/assertj/assertj-core/1.7.1/assertj-core-1.7.1.jar
+Download https://jitpack.io/com/github/bmoliveira/snake-yaml/v1.18-android/snake-yaml-v1.18-android.jar
+Download https://jcenter.bintray.com/joda-time/joda-time/2.9.1/joda-time-2.9.1.jar
+Download https://jitpack.io/com/github/blocoio/faker/1.2.5/faker-1.2.5.jar
+:fole:mergeReleaseShaders UP-TO-DATE
+:fole:compileReleaseShaders UP-TO-DATE
+:fole:generateReleaseAssets UP-TO-DATE
+:fole:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:fole:compileReleaseNdk NO-SOURCE
+:fole:mergeReleaseJniLibFolders UP-TO-DATE
+:fole:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:fole:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:fole:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 30s
+91 actionable tasks: 57 executed, 34 up-to-date
+
+2019-02-23 17:36:55,848 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918152890-0/src/fole-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

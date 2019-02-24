@@ -1,0 +1,164 @@
+2019-02-23 18:12:03,409 INFO  DownloadService - Downloading "https://github.com/MrNouri/GoodPrefs/archive/master.zip", attempt 3
+2019-02-23 18:13:04,303 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-23 18:13:05,360 INFO  GithubDownloadService - Default branch of this repository: master
+2019-02-23 18:13:05,360 INFO  DownloadService - Downloading "https://github.com/MrNouri/GoodPrefs/archive/master.zip", attempt 3
+2019-02-23 18:14:07,233 DEBUG FullProcessService - Repository https://github.com/MrNouri/GoodPrefs available: true
+2019-02-23 18:14:07,233 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-23 18:14:07,233 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/MrNouri/GoodPrefs, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src]
+2019-02-23 18:14:09,139 INFO  SysUtils - 
+2019-02-23 18:14:09,149 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/.git": true
+2019-02-23 18:14:09,153 INFO  FullProcessService - Size of directory with sources: 157 KB
+2019-02-23 18:14:09,153 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src]
+2019-02-23 18:14:09,178 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/.git/
+
+2019-02-23 18:14:09,183 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/gradlew
+2019-02-23 18:14:09,188 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/goodprefslib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/build.gradle
+2019-02-23 18:14:09,192 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/goodprefslib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/settings.gradle
+2019-02-23 18:14:09,193 INFO  ProjectBuildService - Remote scripts: none
+2019-02-23 18:14:09,193 INFO  ProjectFixService - Fixing project...
+2019-02-23 18:14:09,203 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/app/local.properties
+2019-02-23 18:14:09,204 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-23 18:14:09,204 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-23 18:14:09,205 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/goodprefslib/local.properties
+2019-02-23 18:14:09,207 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/goodprefslib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-23 18:14:09,207 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/goodprefslib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-23 18:14:09,208 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/local.properties
+2019-02-23 18:14:09,209 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4.1-all.zip
+2019-02-23 18:14:09,209 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4.1-bin.zip)
+2019-02-23 18:14:09,211 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-23 18:14:09,211 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-23 18:14:09,212 INFO  ProjectFixService - Project was maybe fixed
+2019-02-23 18:14:09,212 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 18:14:09,212 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 18:14:17,377 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-23 18:14:17,377 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-23 18:14:17,378 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-23 18:14:46,965 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:goodprefslib:preBuild UP-TO-DATE
+:goodprefslib:preDebugBuild UP-TO-DATE
+:goodprefslib:checkDebugManifest
+:goodprefslib:processDebugManifest
+:app:preDebugBuild
+:goodprefslib:compileDebugAidl
+:app:compileDebugAidl
+:goodprefslib:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:goodprefslib:compileDebugRenderscript
+:goodprefslib:generateDebugResValues
+:goodprefslib:generateDebugResources
+:goodprefslib:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:goodprefslib:platformAttrExtractor
+:goodprefslib:generateDebugBuildConfig
+:goodprefslib:prepareLintJar
+:goodprefslib:javaPreCompileDebug
+:goodprefslib:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:goodprefslib:mergeDebugShaders
+:goodprefslib:compileDebugShaders
+:goodprefslib:generateDebugAssets
+:goodprefslib:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:goodprefslib:compileDebugNdk NO-SOURCE
+:goodprefslib:mergeDebugJniLibFolders
+:goodprefslib:transformNativeLibsWithMergeJniLibsForDebug
+:goodprefslib:transformNativeLibsWithStripDebugSymbolForDebug
+:goodprefslib:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:goodprefslib:preReleaseBuild UP-TO-DATE
+:goodprefslib:checkReleaseManifest
+:goodprefslib:processReleaseManifest
+:app:preReleaseBuild
+:goodprefslib:compileReleaseAidl
+:app:compileReleaseAidl
+:goodprefslib:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:goodprefslib:compileReleaseRenderscript
+:goodprefslib:generateReleaseResValues
+:goodprefslib:generateReleaseResources
+:goodprefslib:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:goodprefslib:generateReleaseBuildConfig
+:goodprefslib:javaPreCompileRelease
+:goodprefslib:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:goodprefslib:mergeReleaseShaders
+:goodprefslib:compileReleaseShaders
+:goodprefslib:generateReleaseAssets
+:goodprefslib:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:goodprefslib:compileReleaseNdk NO-SOURCE
+:goodprefslib:mergeReleaseJniLibFolders
+:goodprefslib:transformNativeLibsWithMergeJniLibsForRelease
+:goodprefslib:transformNativeLibsWithStripDebugSymbolForRelease
+:goodprefslib:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:goodprefslib:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:goodprefslib:generateDebugSources
+:goodprefslib:compileDebugJavaWithJavac
+:goodprefslib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:goodprefslib:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:goodprefslib:generateReleaseSources
+:goodprefslib:compileReleaseJavaWithJavac
+:goodprefslib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 28s
+91 actionable tasks: 91 executed
+
+2019-02-23 18:14:47,058 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550920323407-0/src/app/build/outputs/apk/debug/app-debug.apk

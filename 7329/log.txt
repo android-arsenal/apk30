@@ -1,0 +1,458 @@
+2019-02-19 12:08:02,745 INFO  DownloadService - Downloading "https://github.com/rehmanmuradali/retum.scanner/archive/master.zip", attempt 3
+2019-02-19 12:08:03,818 INFO  DownloadService - Downloaded https://github.com/rehmanmuradali/retum.scanner/archive/master.zip, attempt 3
+2019-02-19 12:08:03,819 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/master.zip": 586 KB
+2019-02-19 12:08:03,819 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-19 12:08:03,821 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/master.zip: true
+2019-02-19 12:08:03,821 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src'.
+2019-02-19 12:08:03,888 INFO  FullProcessService - Size of directory with sources: 924 KB
+2019-02-19 12:08:03,888 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src]
+2019-02-19 12:08:03,909 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/.git/
+
+2019-02-19 12:08:03,916 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/gradlew
+2019-02-19 12:08:03,925 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/retumscanner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/build.gradle
+2019-02-19 12:08:03,933 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/retumscanner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/settings.gradle
+2019-02-19 12:08:03,933 INFO  ProjectBuildService - Remote scripts: none
+2019-02-19 12:08:03,933 INFO  ProjectFixService - Fixing project...
+2019-02-19 12:08:03,952 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/local.properties
+2019-02-19 12:08:03,953 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 12:08:03,953 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 12:08:03,953 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/retumscanner/local.properties
+2019-02-19 12:08:03,954 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/retumscanner/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 12:08:03,954 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/retumscanner/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 12:08:03,955 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/local.properties
+2019-02-19 12:08:03,956 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-19 12:08:03,956 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-19 12:08:03,957 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 12:08:03,958 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 12:08:03,958 INFO  ProjectFixService - Project was maybe fixed
+2019-02-19 12:08:03,958 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 12:08:03,958 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 12:08:11,218 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-02-19 12:08:11,218 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-19 12:08:11,219 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-19 12:09:47,274 INFO  SysUtils - Configuration on demand is an incubating feature.
+Could not find google-services.json while looking in [src/nullnull/debug, src/debug/nullnull, src/nullnull, src/debug, src/nullnullDebug]
+registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+Could not find google-services.json while looking in [src/nullnull/release, src/release/nullnull, src/nullnull, src/release, src/nullnullRelease]
+registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+:app:preBuild UP-TO-DATE
+:retumscanner:preBuild UP-TO-DATE
+:retumscanner:preDebugBuild UP-TO-DATE
+:retumscanner:checkDebugManifest
+:retumscanner:processDebugManifest
+:app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-basement/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-tasks/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-base/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-base/15.0.1/play-services-base-15.0.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-tasks/15.0.1/play-services-tasks-15.0.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-stats/15.0.1/play-services-stats-15.0.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-basement/15.0.1/play-services-basement-15.0.1.aar
+:retumscanner:compileDebugAidl
+:app:compileDebugAidl
+:retumscanner:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:processDebugGoogleServices
+Parsing json file: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/google-services.json
+:retumscanner:compileDebugRenderscript
+:retumscanner:generateDebugResValues
+:retumscanner:generateDebugResources
+:retumscanner:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:retumscanner:platformAttrExtractor
+:retumscanner:generateDebugBuildConfig
+:retumscanner:prepareLintJar
+:retumscanner:javaPreCompileDebug
+:retumscanner:processDebugJavaRes NO-SOURCE
+:retumscanner:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:retumscanner:generateDebugSources
+:retumscanner:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:retumscanner:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:generateJsonModelDebug
+External native generate JSON debug: starting JSON generation
+External native generate JSON debug: using platform version 16 for ABI ARMEABI_V7A and min SDK version 16
+External native generate JSON debug: rebuilding JSON /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build.json due to:
+External native generate JSON debug: - expected json /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON debug: - missing previous command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_command.txt, will remove stale json folder
+External native generate JSON debug: removing stale contents from '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/armeabi-v7a'
+External native generate JSON debug: created folder '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/armeabi-v7a'
+External native generate JSON debug: executing ndkBuild Executable : /Users/vbauer/Library/Android/sdk/ndk-bundle/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Android.mk
+NDK_APPLICATION_MK=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Application.mk
+APP_ABI=armeabi-v7a
+NDK_ALL_ABIS=armeabi-v7a
+NDK_DEBUG=1
+APP_PLATFORM=android-16
+NDK_OUT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build/intermediates/ndkBuild/debug/obj
+NDK_LIBS_OUT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build/intermediates/ndkBuild/debug/lib
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+
+
+External native generate JSON debug: done executing ndkBuild
+External native generate JSON debug: write build output /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_output.txt
+External native generate JSON debug: parse and convert ndk-build output to build configuration JSON
+External native generate JSON debug: found application make file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Application.mk
+External native generate JSON debug: write command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_command.txt
+External native generate JSON debug: using platform version 21 for ABI ARM64_V8A and min SDK version 16
+External native generate JSON debug: rebuilding JSON /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build.json due to:
+External native generate JSON debug: - expected json /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON debug: - missing previous command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_command.txt, will remove stale json folder
+External native generate JSON debug: removing stale contents from '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a'
+External native generate JSON debug: created folder '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a'
+External native generate JSON debug: executing ndkBuild Executable : /Users/vbauer/Library/Android/sdk/ndk-bundle/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Android.mk
+NDK_APPLICATION_MK=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Application.mk
+APP_ABI=arm64-v8a
+NDK_ALL_ABIS=arm64-v8a
+NDK_DEBUG=1
+APP_PLATFORM=android-21
+NDK_OUT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build/intermediates/ndkBuild/debug/obj
+NDK_LIBS_OUT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build/intermediates/ndkBuild/debug/lib
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+
+
+External native generate JSON debug: done executing ndkBuild
+External native generate JSON debug: write build output /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_output.txt
+External native generate JSON debug: parse and convert ndk-build output to build configuration JSON
+External native generate JSON debug: found application make file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Application.mk
+External native generate JSON debug: write command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_command.txt
+External native generate JSON debug: using platform version 16 for ABI X86 and min SDK version 16
+External native generate JSON debug: rebuilding JSON /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/x86/android_gradle_build.json due to:
+External native generate JSON debug: - expected json /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/x86/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON debug: - missing previous command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/x86/ndkBuild_build_command.txt, will remove stale json folder
+External native generate JSON debug: removing stale contents from '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/x86'
+External native generate JSON debug: created folder '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/x86'
+External native generate JSON debug: executing ndkBuild Executable : /Users/vbauer/Library/Android/sdk/ndk-bundle/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Android.mk
+NDK_APPLICATION_MK=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Application.mk
+APP_ABI=x86
+NDK_ALL_ABIS=x86
+NDK_DEBUG=1
+APP_PLATFORM=android-16
+NDK_OUT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build/intermediates/ndkBuild/debug/obj
+NDK_LIBS_OUT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build/intermediates/ndkBuild/debug/lib
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+
+
+External native generate JSON debug: done executing ndkBuild
+External native generate JSON debug: write build output /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/x86/ndkBuild_build_output.txt
+External native generate JSON debug: parse and convert ndk-build output to build configuration JSON
+External native generate JSON debug: found application make file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Application.mk
+External native generate JSON debug: write command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/x86/ndkBuild_build_command.txt
+External native generate JSON debug: using platform version 21 for ABI X86_64 and min SDK version 16
+External native generate JSON debug: rebuilding JSON /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/x86_64/android_gradle_build.json due to:
+External native generate JSON debug: - expected json /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/x86_64/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON debug: - missing previous command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/x86_64/ndkBuild_build_command.txt, will remove stale json folder
+External native generate JSON debug: removing stale contents from '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/x86_64'
+External native generate JSON debug: created folder '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/x86_64'
+External native generate JSON debug: executing ndkBuild Executable : /Users/vbauer/Library/Android/sdk/ndk-bundle/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Android.mk
+NDK_APPLICATION_MK=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Application.mk
+APP_ABI=x86_64
+NDK_ALL_ABIS=x86_64
+NDK_DEBUG=1
+APP_PLATFORM=android-21
+NDK_OUT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build/intermediates/ndkBuild/debug/obj
+NDK_LIBS_OUT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build/intermediates/ndkBuild/debug/lib
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+
+
+External native generate JSON debug: done executing ndkBuild
+External native generate JSON debug: write build output /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/x86_64/ndkBuild_build_output.txt
+External native generate JSON debug: parse and convert ndk-build output to build configuration JSON
+External native generate JSON debug: found application make file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Application.mk
+External native generate JSON debug: write command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/debug/x86_64/ndkBuild_build_command.txt
+External native generate JSON debug: JSON generation completed without problems
+:app:externalNativeBuildDebug
+Build keys x86_64
+[x86_64] Compile        : keys <= keys.c
+[x86_64] SharedLibrary  : libkeys.so
+Build keys x86
+[x86] Compile        : keys <= keys.c
+[x86] SharedLibrary  : libkeys.so
+Build keys arm64-v8a
+[arm64-v8a] Compile        : keys <= keys.c
+[arm64-v8a] SharedLibrary  : libkeys.so
+Build keys armeabi-v7a
+[armeabi-v7a] Compile thumb  : keys <= keys.c
+[armeabi-v7a] SharedLibrary  : libkeys.so
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:retumscanner:mergeDebugShaders
+:retumscanner:compileDebugShaders
+:retumscanner:generateDebugAssets
+:retumscanner:packageDebugAssets
+:app:mergeDebugAssets
+:app:extractTryWithResourcesSupportJarDebug
+:app:transformClassesWithStackFramesFixerForDebug
+:app:transformClassesWithDesugarForDebug
+:app:transformClassesWithDexBuilderForDebug
+:app:transformClassesWithMultidexlistForDebugWarning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:retumscanner:compileDebugNdk NO-SOURCE
+:retumscanner:mergeDebugJniLibFolders
+:retumscanner:transformNativeLibsWithMergeJniLibsForDebug
+:retumscanner:transformNativeLibsWithStripDebugSymbolForDebug
+:retumscanner:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:retumscanner:preReleaseBuild UP-TO-DATE
+:retumscanner:checkReleaseManifest
+:retumscanner:processReleaseManifest
+:app:preReleaseBuild
+:retumscanner:compileReleaseAidl
+:app:compileReleaseAidl
+:retumscanner:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:processReleaseGoogleServices
+Parsing json file: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/google-services.json
+:retumscanner:compileReleaseRenderscript
+:retumscanner:generateReleaseResValues
+:retumscanner:generateReleaseResources
+:retumscanner:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:retumscanner:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:retumscanner:generateReleaseBuildConfig
+:retumscanner:generateReleaseSources
+:retumscanner:javaPreCompileRelease
+:retumscanner:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:retumscanner:processReleaseJavaRes NO-SOURCE
+:retumscanner:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:generateJsonModelRelease
+External native generate JSON release: starting JSON generation
+External native generate JSON release: using platform version 16 for ABI ARMEABI_V7A and min SDK version 16
+External native generate JSON release: rebuilding JSON /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_build.json due to:
+External native generate JSON release: - expected json /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON release: - missing previous command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/armeabi-v7a/ndkBuild_build_command.txt, will remove stale json folder
+External native generate JSON release: removing stale contents from '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/armeabi-v7a'
+External native generate JSON release: created folder '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/armeabi-v7a'
+External native generate JSON release: executing ndkBuild Executable : /Users/vbauer/Library/Android/sdk/ndk-bundle/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Android.mk
+NDK_APPLICATION_MK=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Application.mk
+APP_ABI=armeabi-v7a
+NDK_ALL_ABIS=armeabi-v7a
+NDK_DEBUG=0
+APP_PLATFORM=android-16
+NDK_OUT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build/intermediates/ndkBuild/release/obj
+NDK_LIBS_OUT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build/intermediates/ndkBuild/release/lib
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+
+
+External native generate JSON release: done executing ndkBuild
+External native generate JSON release: write build output /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/armeabi-v7a/ndkBuild_build_output.txt
+External native generate JSON release: parse and convert ndk-build output to build configuration JSON
+External native generate JSON release: found application make file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Application.mk
+External native generate JSON release: write command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/armeabi-v7a/ndkBuild_build_command.txt
+External native generate JSON release: using platform version 21 for ABI ARM64_V8A and min SDK version 16
+External native generate JSON release: rebuilding JSON /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_build.json due to:
+External native generate JSON release: - expected json /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON release: - missing previous command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/arm64-v8a/ndkBuild_build_command.txt, will remove stale json folder
+External native generate JSON release: removing stale contents from '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/arm64-v8a'
+External native generate JSON release: created folder '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/arm64-v8a'
+External native generate JSON release: executing ndkBuild Executable : /Users/vbauer/Library/Android/sdk/ndk-bundle/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Android.mk
+NDK_APPLICATION_MK=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Application.mk
+APP_ABI=arm64-v8a
+NDK_ALL_ABIS=arm64-v8a
+NDK_DEBUG=0
+APP_PLATFORM=android-21
+NDK_OUT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build/intermediates/ndkBuild/release/obj
+NDK_LIBS_OUT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build/intermediates/ndkBuild/release/lib
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+
+
+External native generate JSON release: done executing ndkBuild
+External native generate JSON release: write build output /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/arm64-v8a/ndkBuild_build_output.txt
+External native generate JSON release: parse and convert ndk-build output to build configuration JSON
+External native generate JSON release: found application make file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Application.mk
+External native generate JSON release: write command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/arm64-v8a/ndkBuild_build_command.txt
+External native generate JSON release: using platform version 16 for ABI X86 and min SDK version 16
+External native generate JSON release: rebuilding JSON /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/x86/android_gradle_build.json due to:
+External native generate JSON release: - expected json /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/x86/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON release: - missing previous command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/x86/ndkBuild_build_command.txt, will remove stale json folder
+External native generate JSON release: removing stale contents from '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/x86'
+External native generate JSON release: created folder '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/x86'
+External native generate JSON release: executing ndkBuild Executable : /Users/vbauer/Library/Android/sdk/ndk-bundle/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Android.mk
+NDK_APPLICATION_MK=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Application.mk
+APP_ABI=x86
+NDK_ALL_ABIS=x86
+NDK_DEBUG=0
+APP_PLATFORM=android-16
+NDK_OUT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build/intermediates/ndkBuild/release/obj
+NDK_LIBS_OUT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build/intermediates/ndkBuild/release/lib
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+
+
+External native generate JSON release: done executing ndkBuild
+External native generate JSON release: write build output /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/x86/ndkBuild_build_output.txt
+External native generate JSON release: parse and convert ndk-build output to build configuration JSON
+External native generate JSON release: found application make file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Application.mk
+External native generate JSON release: write command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/x86/ndkBuild_build_command.txt
+External native generate JSON release: using platform version 21 for ABI X86_64 and min SDK version 16
+External native generate JSON release: rebuilding JSON /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/x86_64/android_gradle_build.json due to:
+External native generate JSON release: - expected json /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/x86_64/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON release: - missing previous command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/x86_64/ndkBuild_build_command.txt, will remove stale json folder
+External native generate JSON release: removing stale contents from '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/x86_64'
+External native generate JSON release: created folder '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/x86_64'
+External native generate JSON release: executing ndkBuild Executable : /Users/vbauer/Library/Android/sdk/ndk-bundle/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Android.mk
+NDK_APPLICATION_MK=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Application.mk
+APP_ABI=x86_64
+NDK_ALL_ABIS=x86_64
+NDK_DEBUG=0
+APP_PLATFORM=android-21
+NDK_OUT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build/intermediates/ndkBuild/release/obj
+NDK_LIBS_OUT=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build/intermediates/ndkBuild/release/lib
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+
+
+External native generate JSON release: done executing ndkBuild
+External native generate JSON release: write build output /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/x86_64/ndkBuild_build_output.txt
+External native generate JSON release: parse and convert ndk-build output to build configuration JSON
+External native generate JSON release: found application make file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/src/main/jni/Application.mk
+External native generate JSON release: write command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/.externalNativeBuild/ndkBuild/release/x86_64/ndkBuild_build_command.txt
+External native generate JSON release: JSON generation completed without problems
+:app:externalNativeBuildRelease
+Build keys x86_64
+[x86_64] Compile        : keys <= keys.c
+[x86_64] SharedLibrary  : libkeys.so
+Build keys x86
+[x86] Compile        : keys <= keys.c
+[x86] SharedLibrary  : libkeys.so
+Build keys arm64-v8a
+[arm64-v8a] Compile        : keys <= keys.c
+[arm64-v8a] SharedLibrary  : libkeys.so
+Build keys armeabi-v7a
+[armeabi-v7a] Compile thumb  : keys <= keys.c
+[armeabi-v7a] SharedLibrary  : libkeys.so
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:retumscanner:mergeReleaseShaders
+:retumscanner:compileReleaseShaders
+:retumscanner:generateReleaseAssets
+:retumscanner:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:extractTryWithResourcesSupportJarRelease
+:app:transformClassesWithStackFramesFixerForRelease
+:app:transformClassesWithDesugarForRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformClassesWithMultidexlistForReleaseWarning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:retumscanner:compileReleaseNdk NO-SOURCE
+:retumscanner:mergeReleaseJniLibFolders
+:retumscanner:transformNativeLibsWithMergeJniLibsForRelease
+:retumscanner:transformNativeLibsWithStripDebugSymbolForRelease
+:retumscanner:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 34s
+103 actionable tasks: 103 executed
+
+2019-02-19 12:09:47,441 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552882741-0/src/retum.scanner-master/app/build/outputs/apk/debug/app-debug.apk

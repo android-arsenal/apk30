@@ -1,0 +1,186 @@
+2019-02-16 19:47:36,977 INFO  DownloadService - Downloading "https://github.com/nongdenchet/NetworkProxy/archive/master.zip", attempt 3
+2019-02-16 19:47:41,909 INFO  DownloadService - Downloaded https://github.com/nongdenchet/NetworkProxy/archive/master.zip, attempt 3
+2019-02-16 19:47:41,909 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/master.zip": 4 MB
+2019-02-16 19:47:41,909 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-16 19:47:41,911 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/master.zip: true
+2019-02-16 19:47:41,911 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src'.
+2019-02-16 19:47:41,989 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-02-16 19:47:41,989 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src]
+2019-02-16 19:47:42,007 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/.git/
+
+2019-02-16 19:47:42,013 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/gradlew
+2019-02-16 19:47:42,020 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/networkproxy-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/networkproxy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/data/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/desktop/build.gradle
+2019-02-16 19:47:42,025 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/desktop/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/networkproxy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/scripts/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/scripts/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/scripts/bintrayConfig.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/networkproxy-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/data/build.gradle
+2019-02-16 19:47:42,026 INFO  ProjectBuildService - Remote scripts: none
+2019-02-16 19:47:42,026 INFO  ProjectFixService - Fixing project...
+2019-02-16 19:47:42,040 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/app/local.properties
+2019-02-16 19:47:42,042 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-16 19:47:42,042 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-16 19:47:42,043 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/networkproxy-no-op/local.properties
+2019-02-16 19:47:42,045 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/networkproxy-no-op/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-16 19:47:42,045 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/networkproxy-no-op/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-16 19:47:42,045 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/networkproxy/local.properties
+2019-02-16 19:47:42,047 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/networkproxy/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-16 19:47:42,047 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/networkproxy/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-16 19:47:42,048 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/local.properties
+2019-02-16 19:47:42,048 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-02-16 19:47:42,049 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-02-16 19:47:42,052 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-16 19:47:42,052 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-16 19:47:42,053 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/data/local.properties
+2019-02-16 19:47:42,056 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/data/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-16 19:47:42,057 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/data/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-16 19:47:42,058 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/desktop/local.properties
+2019-02-16 19:47:42,062 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/desktop/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-16 19:47:42,062 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/desktop/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-16 19:47:42,063 INFO  ProjectFixService - Project was maybe fixed
+2019-02-16 19:47:42,063 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-16 19:47:42,063 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-16 19:47:52,007 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-16 19:47:52,007 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-16 19:47:52,007 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-16 19:48:37,619 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :networkproxy:preBuild UP-TO-DATE
+> Task :networkproxy:preDebugBuild UP-TO-DATE
+> Task :networkproxy:checkDebugManifest
+> Task :networkproxy:processDebugManifest
+> Task :app:preDebugBuild
+> Task :networkproxy:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :networkproxy:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :networkproxy:compileDebugRenderscript
+> Task :networkproxy:generateDebugResValues
+> Task :networkproxy:generateDebugResources
+> Task :networkproxy:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :networkproxy:generateDebugRFile
+> Task :app:processDebugResources
+> Task :networkproxy:generateDebugBuildConfig
+> Task :networkproxy:prepareLintJar
+> Task :networkproxy:generateDebugSources
+> Task :networkproxy:javaPreCompileDebug
+
+> Task :networkproxy:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :networkproxy:processDebugJavaRes NO-SOURCE
+> Task :networkproxy:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:compileDebugKotlin
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :networkproxy:mergeDebugShaders
+> Task :networkproxy:compileDebugShaders
+> Task :networkproxy:generateDebugAssets
+> Task :networkproxy:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :networkproxy:createFullJarDebug
+> Transform full.jar (project :networkproxy) with IdentityTransform
+> Task :app:mergeExtDexDebug
+> Transform full.jar (project :networkproxy) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :networkproxy:compileDebugNdk NO-SOURCE
+> Task :networkproxy:mergeDebugJniLibFolders
+> Task :networkproxy:transformNativeLibsWithMergeJniLibsForDebug
+> Task :networkproxy:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :networkproxy:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :networkproxy-no-op:preBuild UP-TO-DATE
+> Task :networkproxy-no-op:preReleaseBuild UP-TO-DATE
+> Task :networkproxy-no-op:checkReleaseManifest
+> Task :networkproxy-no-op:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :networkproxy-no-op:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :networkproxy-no-op:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :networkproxy-no-op:compileReleaseRenderscript
+> Task :networkproxy-no-op:generateReleaseResValues
+> Task :networkproxy-no-op:generateReleaseResources
+> Task :networkproxy-no-op:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :networkproxy-no-op:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :networkproxy-no-op:generateReleaseBuildConfig
+> Task :networkproxy-no-op:prepareLintJar
+> Task :networkproxy-no-op:generateReleaseSources
+> Task :networkproxy-no-op:javaPreCompileRelease
+> Task :networkproxy-no-op:compileReleaseJavaWithJavac
+> Task :networkproxy-no-op:processReleaseJavaRes NO-SOURCE
+> Task :networkproxy-no-op:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/6b738c01cd856a371052c43d7e14eeb8/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :networkproxy-no-op:createFullJarRelease
+> Transform full.jar (project :networkproxy-no-op) with IdentityTransform
+> Task :app:mergeExtDexRelease
+> Transform full.jar (project :networkproxy-no-op) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :networkproxy-no-op:mergeReleaseShaders
+> Task :networkproxy-no-op:compileReleaseShaders
+> Task :networkproxy-no-op:generateReleaseAssets
+> Task :networkproxy-no-op:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :networkproxy-no-op:compileReleaseNdk NO-SOURCE
+> Task :networkproxy-no-op:mergeReleaseJniLibFolders
+> Task :networkproxy-no-op:transformNativeLibsWithMergeJniLibsForRelease
+> Task :networkproxy-no-op:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :networkproxy-no-op:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 44s
+91 actionable tasks: 91 executed
+
+2019-02-16 19:48:37,705 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321256969-0/src/NetworkProxy-master/app/build/outputs/apk/debug/app-debug.apk

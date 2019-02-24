@@ -1,0 +1,168 @@
+2019-02-16 23:51:02,961 INFO  DownloadService - Downloading "https://github.com/fievx/Polet/archive/master.zip", attempt 3
+2019-02-16 23:51:05,144 INFO  DownloadService - Downloaded https://github.com/fievx/Polet/archive/master.zip, attempt 3
+2019-02-16 23:51:05,145 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/master.zip": 207 KB
+2019-02-16 23:51:05,145 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-16 23:51:05,145 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/master.zip: true
+2019-02-16 23:51:05,145 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src'.
+2019-02-16 23:51:05,173 INFO  FullProcessService - Size of directory with sources: 247 KB
+2019-02-16 23:51:05,173 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src]
+2019-02-16 23:51:05,196 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/.git/
+
+2019-02-16 23:51:05,200 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/gradlew
+2019-02-16 23:51:05,204 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/polet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/build.gradle
+2019-02-16 23:51:05,207 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/polet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/settings.gradle
+2019-02-16 23:51:05,207 INFO  ProjectBuildService - Remote scripts: none
+2019-02-16 23:51:05,207 INFO  ProjectFixService - Fixing project...
+2019-02-16 23:51:05,216 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/app/local.properties
+2019-02-16 23:51:05,216 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-16 23:51:05,216 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-16 23:51:05,217 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/polet/local.properties
+2019-02-16 23:51:05,218 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/polet/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-16 23:51:05,218 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/polet/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-16 23:51:05,219 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/local.properties
+2019-02-16 23:51:05,219 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-16 23:51:05,219 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-16 23:51:05,220 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-16 23:51:05,220 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-16 23:51:05,220 INFO  ProjectFixService - Project was maybe fixed
+2019-02-16 23:51:05,220 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-16 23:51:05,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-16 23:51:11,899 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-16 23:51:11,899 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-16 23:51:11,899 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-16 23:52:01,548 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:polet:preBuild UP-TO-DATE
+:polet:preDebugBuild UP-TO-DATE
+:polet:checkDebugManifest
+:polet:processDebugManifest
+:app:preDebugBuild
+:polet:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:polet:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:polet:compileDebugRenderscript
+:polet:generateDebugResValues
+:polet:generateDebugResources
+:polet:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:polet:generateDebugRFile
+:app:processDebugResources
+:polet:generateDebugBuildConfig
+:polet:compileDebugKotlin
+:polet:prepareLintJar
+:polet:generateDebugSources
+:polet:javaPreCompileDebug
+:polet:compileDebugJavaWithJavac
+:polet:processDebugJavaRes NO-SOURCE
+:polet:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:polet:mergeDebugShaders
+:polet:compileDebugShaders
+:polet:generateDebugAssets
+:polet:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:polet:compileDebugNdk NO-SOURCE
+:polet:mergeDebugJniLibFolders
+:polet:transformNativeLibsWithMergeJniLibsForDebug
+:polet:transformNativeLibsWithStripDebugSymbolForDebug
+:polet:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:polet:preReleaseBuild UP-TO-DATE
+:polet:checkReleaseManifest
+:polet:processReleaseManifest
+:app:preReleaseBuild
+:polet:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:polet:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:polet:compileReleaseRenderscript
+:polet:generateReleaseResValues
+:polet:generateReleaseResources
+:polet:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:polet:generateReleaseRFile
+:app:processReleaseResources
+:polet:generateReleaseBuildConfig
+:polet:compileReleaseKotlin
+:polet:generateReleaseSources
+:polet:javaPreCompileRelease
+:polet:compileReleaseJavaWithJavac
+:polet:processReleaseJavaRes NO-SOURCE
+:polet:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:polet:mergeReleaseShaders
+:polet:compileReleaseShaders
+:polet:generateReleaseAssets
+:polet:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:polet:compileReleaseNdk NO-SOURCE
+:polet:mergeReleaseJniLibFolders
+:polet:transformNativeLibsWithMergeJniLibsForRelease
+:polet:transformNativeLibsWithStripDebugSymbolForRelease
+:polet:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 48s
+94 actionable tasks: 94 executed
+
+2019-02-16 23:52:01,660 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335862957-0/src/Polet-master/app/build/outputs/apk/debug/app-debug.apk

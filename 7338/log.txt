@@ -1,0 +1,171 @@
+2018-12-26 12:03:29,472 INFO  DownloadService - Downloading "https://github.com/imtuann/FloatingActionButtonExpandable/archive/master.zip", attempt 3
+2018-12-26 12:03:33,807 INFO  DownloadService - Downloaded https://github.com/imtuann/FloatingActionButtonExpandable/archive/master.zip, attempt 3
+2018-12-26 12:03:33,808 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/master.zip": 3 MB
+2018-12-26 12:03:33,808 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-26 12:03:33,813 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/master.zip: true
+2018-12-26 12:03:33,813 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src'.
+2018-12-26 12:03:33,867 INFO  FullProcessService - Size of directory with sources: 4 MB
+2018-12-26 12:03:33,867 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src]
+2018-12-26 12:03:33,888 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/.git/
+
+2018-12-26 12:03:33,892 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/gradlew
+2018-12-26 12:03:33,896 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/floatingactionbuttonexpandable/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/build.gradle
+2018-12-26 12:03:33,900 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/floatingactionbuttonexpandable/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/settings.gradle
+2018-12-26 12:03:33,901 INFO  ProjectBuildService - Remote scripts: none
+2018-12-26 12:03:33,901 INFO  ProjectFixService - Fixing project...
+2018-12-26 12:03:33,911 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/app/local.properties
+2018-12-26 12:03:33,914 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-26 12:03:33,914 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-26 12:03:33,916 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/floatingactionbuttonexpandable/local.properties
+2018-12-26 12:03:33,919 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/floatingactionbuttonexpandable/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-26 12:03:33,919 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/floatingactionbuttonexpandable/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-26 12:03:33,921 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/local.properties
+2018-12-26 12:03:33,921 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-26 12:03:33,922 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-26 12:03:33,924 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-26 12:03:33,925 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-26 12:03:33,925 INFO  ProjectFixService - Project was maybe fixed
+2018-12-26 12:03:33,926 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-26 12:03:33,926 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-26 12:03:40,706 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-26 12:03:40,707 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-26 12:03:40,707 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-26 12:04:34,019 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:floatingactionbuttonexpandable:preBuild UP-TO-DATE
+:floatingactionbuttonexpandable:preDebugBuild UP-TO-DATE
+:floatingactionbuttonexpandable:checkDebugManifest
+:floatingactionbuttonexpandable:processDebugManifest
+:app:preDebugBuild
+:floatingactionbuttonexpandable:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:floatingactionbuttonexpandable:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:floatingactionbuttonexpandable:compileDebugRenderscript
+:floatingactionbuttonexpandable:generateDebugResValues
+:floatingactionbuttonexpandable:generateDebugResources
+:floatingactionbuttonexpandable:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:floatingactionbuttonexpandable:generateDebugRFile
+:app:processDebugResources
+:floatingactionbuttonexpandable:generateDebugBuildConfig
+:floatingactionbuttonexpandable:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/floatingactionbuttonexpandable/src/main/java/com/tuann/floatingactionbuttonexpandable/FloatingActionButtonExpandable.kt: (230, 37): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+:floatingactionbuttonexpandable:prepareLintJar
+:floatingactionbuttonexpandable:generateDebugSources
+:floatingactionbuttonexpandable:javaPreCompileDebug
+:floatingactionbuttonexpandable:compileDebugJavaWithJavac
+:floatingactionbuttonexpandable:processDebugJavaRes NO-SOURCE
+:floatingactionbuttonexpandable:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:floatingactionbuttonexpandable:mergeDebugShaders
+:floatingactionbuttonexpandable:compileDebugShaders
+:floatingactionbuttonexpandable:generateDebugAssets
+:floatingactionbuttonexpandable:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:floatingactionbuttonexpandable:compileDebugNdk NO-SOURCE
+:floatingactionbuttonexpandable:mergeDebugJniLibFolders
+:floatingactionbuttonexpandable:transformNativeLibsWithMergeJniLibsForDebug
+:floatingactionbuttonexpandable:transformNativeLibsWithStripDebugSymbolForDebug
+:floatingactionbuttonexpandable:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:floatingactionbuttonexpandable:preReleaseBuild UP-TO-DATE
+:floatingactionbuttonexpandable:checkReleaseManifest
+:floatingactionbuttonexpandable:processReleaseManifest
+:app:preReleaseBuild
+:floatingactionbuttonexpandable:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:floatingactionbuttonexpandable:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:floatingactionbuttonexpandable:compileReleaseRenderscript
+:floatingactionbuttonexpandable:generateReleaseResValues
+:floatingactionbuttonexpandable:generateReleaseResources
+:floatingactionbuttonexpandable:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:floatingactionbuttonexpandable:generateReleaseRFile
+:app:processReleaseResources
+:floatingactionbuttonexpandable:generateReleaseBuildConfig
+:floatingactionbuttonexpandable:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/floatingactionbuttonexpandable/src/main/java/com/tuann/floatingactionbuttonexpandable/FloatingActionButtonExpandable.kt: (230, 37): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+:floatingactionbuttonexpandable:generateReleaseSources
+:floatingactionbuttonexpandable:javaPreCompileRelease
+:floatingactionbuttonexpandable:compileReleaseJavaWithJavac
+:floatingactionbuttonexpandable:processReleaseJavaRes NO-SOURCE
+:floatingactionbuttonexpandable:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/955c80ca0bc5d163fb8da7454931a155/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:floatingactionbuttonexpandable:mergeReleaseShaders
+:floatingactionbuttonexpandable:compileReleaseShaders
+:floatingactionbuttonexpandable:generateReleaseAssets
+:floatingactionbuttonexpandable:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:floatingactionbuttonexpandable:compileReleaseNdk NO-SOURCE
+:floatingactionbuttonexpandable:mergeReleaseJniLibFolders
+:floatingactionbuttonexpandable:transformNativeLibsWithMergeJniLibsForRelease
+:floatingactionbuttonexpandable:transformNativeLibsWithStripDebugSymbolForRelease
+:floatingactionbuttonexpandable:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 52s
+94 actionable tasks: 94 executed
+
+2018-12-26 12:04:34,139 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545800609468-0/src/FloatingActionButtonExpandable-master/app/build/outputs/apk/debug/app-debug.apk

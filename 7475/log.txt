@@ -1,0 +1,168 @@
+2019-01-22 15:14:57,706 INFO  DownloadService - Downloading "https://github.com/iammert/PhotoViewIndicator/archive/master.zip", attempt 3
+2019-01-22 15:15:15,433 INFO  DownloadService - Downloaded https://github.com/iammert/PhotoViewIndicator/archive/master.zip, attempt 3
+2019-01-22 15:15:15,434 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/master.zip": 5 MB
+2019-01-22 15:15:15,434 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-22 15:15:15,440 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/master.zip: true
+2019-01-22 15:15:15,440 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src'.
+2019-01-22 15:15:15,494 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-01-22 15:15:15,494 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src]
+2019-01-22 15:15:15,516 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/.git/
+
+2019-01-22 15:15:15,520 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/gradlew
+2019-01-22 15:15:15,524 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/photoviewindicatorlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/build.gradle
+2019-01-22 15:15:15,528 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/photoviewindicatorlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/settings.gradle
+2019-01-22 15:15:15,528 INFO  ProjectBuildService - Remote scripts: none
+2019-01-22 15:15:15,528 INFO  ProjectFixService - Fixing project...
+2019-01-22 15:15:15,538 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/app/local.properties
+2019-01-22 15:15:15,539 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 15:15:15,540 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 15:15:15,541 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/photoviewindicatorlib/local.properties
+2019-01-22 15:15:15,542 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/photoviewindicatorlib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 15:15:15,542 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/photoviewindicatorlib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 15:15:15,543 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/local.properties
+2019-01-22 15:15:15,544 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-22 15:15:15,544 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-22 15:15:15,546 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 15:15:15,546 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 15:15:15,547 INFO  ProjectFixService - Project was maybe fixed
+2019-01-22 15:15:15,547 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 15:15:15,547 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 15:15:21,914 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-22 15:15:21,915 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-22 15:15:21,915 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-22 15:15:55,813 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:photoviewindicatorlib:preBuild UP-TO-DATE
+:photoviewindicatorlib:preDebugBuild UP-TO-DATE
+:photoviewindicatorlib:checkDebugManifest
+:photoviewindicatorlib:processDebugManifest
+:app:preDebugBuild
+:photoviewindicatorlib:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:photoviewindicatorlib:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:photoviewindicatorlib:compileDebugRenderscript
+:photoviewindicatorlib:generateDebugResValues
+:photoviewindicatorlib:generateDebugResources
+:photoviewindicatorlib:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:photoviewindicatorlib:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:photoviewindicatorlib:generateDebugBuildConfig
+:photoviewindicatorlib:compileDebugKotlin
+:photoviewindicatorlib:prepareLintJar
+:photoviewindicatorlib:generateDebugSources
+:photoviewindicatorlib:javaPreCompileDebug
+:photoviewindicatorlib:compileDebugJavaWithJavac
+:photoviewindicatorlib:processDebugJavaRes NO-SOURCE
+:photoviewindicatorlib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:photoviewindicatorlib:mergeDebugShaders
+:photoviewindicatorlib:compileDebugShaders
+:photoviewindicatorlib:generateDebugAssets
+:photoviewindicatorlib:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:photoviewindicatorlib:compileDebugNdk NO-SOURCE
+:photoviewindicatorlib:mergeDebugJniLibFolders
+:photoviewindicatorlib:transformNativeLibsWithMergeJniLibsForDebug
+:photoviewindicatorlib:transformNativeLibsWithStripDebugSymbolForDebug
+:photoviewindicatorlib:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:photoviewindicatorlib:preReleaseBuild UP-TO-DATE
+:photoviewindicatorlib:checkReleaseManifest
+:photoviewindicatorlib:processReleaseManifest
+:app:preReleaseBuild
+:photoviewindicatorlib:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:photoviewindicatorlib:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:photoviewindicatorlib:compileReleaseRenderscript
+:photoviewindicatorlib:generateReleaseResValues
+:photoviewindicatorlib:generateReleaseResources
+:photoviewindicatorlib:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:photoviewindicatorlib:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:photoviewindicatorlib:generateReleaseBuildConfig
+:photoviewindicatorlib:compileReleaseKotlin
+:photoviewindicatorlib:generateReleaseSources
+:photoviewindicatorlib:javaPreCompileRelease
+:photoviewindicatorlib:compileReleaseJavaWithJavac
+:photoviewindicatorlib:processReleaseJavaRes NO-SOURCE
+:photoviewindicatorlib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:photoviewindicatorlib:mergeReleaseShaders
+:photoviewindicatorlib:compileReleaseShaders
+:photoviewindicatorlib:generateReleaseAssets
+:photoviewindicatorlib:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:photoviewindicatorlib:compileReleaseNdk NO-SOURCE
+:photoviewindicatorlib:mergeReleaseJniLibFolders
+:photoviewindicatorlib:transformNativeLibsWithMergeJniLibsForRelease
+:photoviewindicatorlib:transformNativeLibsWithStripDebugSymbolForRelease
+:photoviewindicatorlib:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 33s
+92 actionable tasks: 92 executed
+
+2019-01-22 15:15:55,924 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144897701-0/src/PhotoViewIndicator-master/app/build/outputs/apk/debug/app-debug.apk

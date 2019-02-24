@@ -1,0 +1,175 @@
+2019-02-03 23:09:53,155 INFO  DownloadService - Downloading "https://github.com/Crysis21/KeyboardHeightProvider/archive/master.zip", attempt 3
+2019-02-03 23:09:55,278 INFO  DownloadService - Downloaded https://github.com/Crysis21/KeyboardHeightProvider/archive/master.zip, attempt 3
+2019-02-03 23:09:55,278 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/master.zip": 145 KB
+2019-02-03 23:09:55,278 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-03 23:09:55,279 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/master.zip: true
+2019-02-03 23:09:55,279 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src'.
+2019-02-03 23:09:55,302 INFO  FullProcessService - Size of directory with sources: 153 KB
+2019-02-03 23:09:55,302 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src]
+2019-02-03 23:09:55,324 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/.git/
+
+2019-02-03 23:09:55,328 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/gradlew
+2019-02-03 23:09:55,332 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/keyboardheightprovider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/build.gradle
+2019-02-03 23:09:55,335 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/keyboardheightprovider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/settings.gradle
+2019-02-03 23:09:55,336 INFO  ProjectBuildService - Remote scripts: none
+2019-02-03 23:09:55,336 INFO  ProjectFixService - Fixing project...
+2019-02-03 23:09:55,345 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/app/local.properties
+2019-02-03 23:09:55,347 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-03 23:09:55,347 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-03 23:09:55,348 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/keyboardheightprovider/local.properties
+2019-02-03 23:09:55,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/keyboardheightprovider/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-03 23:09:55,350 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/keyboardheightprovider/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-03 23:09:55,351 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/local.properties
+2019-02-03 23:09:55,352 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-02-03 23:09:55,352 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-02-03 23:09:55,354 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-03 23:09:55,354 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-03 23:09:55,355 INFO  ProjectFixService - Project was maybe fixed
+2019-02-03 23:09:55,355 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-03 23:09:55,356 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-03 23:10:01,811 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-03 23:10:01,811 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-03 23:10:01,811 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-03 23:10:45,254 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :keyboardheightprovider:preBuild UP-TO-DATE
+> Task :keyboardheightprovider:preDebugBuild UP-TO-DATE
+> Task :keyboardheightprovider:checkDebugManifest
+> Task :keyboardheightprovider:processDebugManifest
+> Task :app:preDebugBuild
+> Task :keyboardheightprovider:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :keyboardheightprovider:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :keyboardheightprovider:compileDebugRenderscript
+> Task :keyboardheightprovider:generateDebugResValues
+> Task :keyboardheightprovider:generateDebugResources
+> Task :keyboardheightprovider:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :keyboardheightprovider:generateDebugRFile
+> Task :app:processDebugResources
+> Task :keyboardheightprovider:generateDebugBuildConfig
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/keyboardheightprovider/src/main/java/com/hold1/keyboardheightprovider/KeyboardHeightProvider.kt: (90, 58): Parameter 'orientation' is never used
+> Task :keyboardheightprovider:compileDebugKotlin
+> Task :keyboardheightprovider:prepareLintJar
+> Task :keyboardheightprovider:generateDebugSources
+> Task :keyboardheightprovider:javaPreCompileDebug
+> Task :keyboardheightprovider:compileDebugJavaWithJavac
+> Task :keyboardheightprovider:processDebugJavaRes NO-SOURCE
+> Task :keyboardheightprovider:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:compileDebugKotlin
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :keyboardheightprovider:mergeDebugShaders
+> Task :keyboardheightprovider:compileDebugShaders
+> Task :keyboardheightprovider:generateDebugAssets
+> Task :keyboardheightprovider:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :keyboardheightprovider:createFullJarDebug
+> Transform full.jar (project :keyboardheightprovider) with IdentityTransform
+> Task :app:mergeExtDexDebug
+> Transform full.jar (project :keyboardheightprovider) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :keyboardheightprovider:compileDebugNdk NO-SOURCE
+> Task :keyboardheightprovider:mergeDebugJniLibFolders
+> Task :keyboardheightprovider:transformNativeLibsWithMergeJniLibsForDebug
+> Task :keyboardheightprovider:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :keyboardheightprovider:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :keyboardheightprovider:preReleaseBuild UP-TO-DATE
+> Task :keyboardheightprovider:checkReleaseManifest
+> Task :keyboardheightprovider:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :keyboardheightprovider:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :keyboardheightprovider:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :keyboardheightprovider:compileReleaseRenderscript
+> Task :keyboardheightprovider:generateReleaseResValues
+> Task :keyboardheightprovider:generateReleaseResources
+> Task :keyboardheightprovider:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :keyboardheightprovider:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :keyboardheightprovider:generateReleaseBuildConfig
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/keyboardheightprovider/src/main/java/com/hold1/keyboardheightprovider/KeyboardHeightProvider.kt: (90, 58): Parameter 'orientation' is never used
+> Task :keyboardheightprovider:compileReleaseKotlin
+> Task :keyboardheightprovider:generateReleaseSources
+> Task :keyboardheightprovider:javaPreCompileRelease
+> Task :keyboardheightprovider:compileReleaseJavaWithJavac
+> Task :keyboardheightprovider:processReleaseJavaRes NO-SOURCE
+> Task :keyboardheightprovider:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/5501da07c658027180d418e7d028dd50/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :keyboardheightprovider:createFullJarRelease
+> Transform full.jar (project :keyboardheightprovider) with IdentityTransform
+> Task :app:mergeExtDexRelease
+> Transform full.jar (project :keyboardheightprovider) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :keyboardheightprovider:mergeReleaseShaders
+> Task :keyboardheightprovider:compileReleaseShaders
+> Task :keyboardheightprovider:generateReleaseAssets
+> Task :keyboardheightprovider:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :keyboardheightprovider:compileReleaseNdk NO-SOURCE
+> Task :keyboardheightprovider:mergeReleaseJniLibFolders
+> Task :keyboardheightprovider:transformNativeLibsWithMergeJniLibsForRelease
+> Task :keyboardheightprovider:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :keyboardheightprovider:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 42s
+92 actionable tasks: 92 executed
+
+2019-02-03 23:10:45,335 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210193151-0/src/KeyboardHeightProvider-master/app/build/outputs/apk/debug/app-debug.apk

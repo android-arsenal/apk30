@@ -1,0 +1,169 @@
+2019-02-03 21:22:02,320 INFO  DownloadService - Downloading "https://github.com/antoxa2584x/TvNoiseView/archive/master.zip", attempt 3
+2019-02-03 21:22:07,488 INFO  DownloadService - Downloaded https://github.com/antoxa2584x/TvNoiseView/archive/master.zip, attempt 3
+2019-02-03 21:22:07,488 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/master.zip": 4 MB
+2019-02-03 21:22:07,488 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-03 21:22:07,495 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/master.zip: true
+2019-02-03 21:22:07,496 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src'.
+2019-02-03 21:22:07,545 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-02-03 21:22:07,545 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src]
+2019-02-03 21:22:07,569 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/.git/
+
+2019-02-03 21:22:07,572 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/gradlew
+2019-02-03 21:22:07,576 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/tvnoiseview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/build.gradle
+2019-02-03 21:22:07,578 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/tvnoiseview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/settings.gradle
+2019-02-03 21:22:07,579 INFO  ProjectBuildService - Remote scripts: none
+2019-02-03 21:22:07,579 INFO  ProjectFixService - Fixing project...
+2019-02-03 21:22:07,586 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/app/local.properties
+2019-02-03 21:22:07,587 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-03 21:22:07,588 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-03 21:22:07,589 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/tvnoiseview/local.properties
+2019-02-03 21:22:07,590 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/tvnoiseview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-03 21:22:07,590 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/tvnoiseview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-03 21:22:07,591 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/local.properties
+2019-02-03 21:22:07,592 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-03 21:22:07,593 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-03 21:22:07,594 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-03 21:22:07,594 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-03 21:22:07,594 INFO  ProjectFixService - Project was maybe fixed
+2019-02-03 21:22:07,595 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-03 21:22:07,595 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-03 21:22:15,239 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-03 21:22:15,239 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-03 21:22:15,240 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-03 21:22:57,533 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:tvnoiseview:preBuild UP-TO-DATE
+:tvnoiseview:preDebugBuild UP-TO-DATE
+:tvnoiseview:checkDebugManifest
+:tvnoiseview:processDebugManifest
+:app:preDebugBuild
+:tvnoiseview:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:tvnoiseview:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:tvnoiseview:compileDebugRenderscript
+:tvnoiseview:generateDebugResValues
+:tvnoiseview:generateDebugResources
+:tvnoiseview:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:tvnoiseview:generateDebugRFile
+:app:processDebugResources
+:tvnoiseview:generateDebugBuildConfig
+:tvnoiseview:compileDebugKotlin
+:tvnoiseview:prepareLintJar
+:tvnoiseview:generateDebugSources
+:tvnoiseview:javaPreCompileDebug
+:tvnoiseview:compileDebugJavaWithJavac
+:tvnoiseview:processDebugJavaRes NO-SOURCE
+:tvnoiseview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:tvnoiseview:mergeDebugShaders
+:tvnoiseview:compileDebugShaders
+:tvnoiseview:generateDebugAssets
+:tvnoiseview:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:tvnoiseview:compileDebugNdk NO-SOURCE
+:tvnoiseview:mergeDebugJniLibFolders
+:tvnoiseview:transformNativeLibsWithMergeJniLibsForDebug
+:tvnoiseview:transformNativeLibsWithStripDebugSymbolForDebug
+:tvnoiseview:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:tvnoiseview:preReleaseBuild UP-TO-DATE
+:tvnoiseview:checkReleaseManifest
+:tvnoiseview:processReleaseManifest
+:app:preReleaseBuild
+:tvnoiseview:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:tvnoiseview:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:tvnoiseview:compileReleaseRenderscript
+:tvnoiseview:generateReleaseResValues
+:tvnoiseview:generateReleaseResources
+:tvnoiseview:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:tvnoiseview:generateReleaseRFile
+:app:processReleaseResources
+:tvnoiseview:generateReleaseBuildConfig
+:tvnoiseview:compileReleaseKotlin
+:tvnoiseview:generateReleaseSources
+:tvnoiseview:javaPreCompileRelease
+:tvnoiseview:compileReleaseJavaWithJavac
+:tvnoiseview:processReleaseJavaRes NO-SOURCE
+:tvnoiseview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/1493acccb6961604cc96cf818aa5227d/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:tvnoiseview:mergeReleaseShaders
+:tvnoiseview:compileReleaseShaders
+:tvnoiseview:generateReleaseAssets
+:tvnoiseview:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:tvnoiseview:compileReleaseNdk NO-SOURCE
+:tvnoiseview:mergeReleaseJniLibFolders
+:tvnoiseview:transformNativeLibsWithMergeJniLibsForRelease
+:tvnoiseview:transformNativeLibsWithStripDebugSymbolForRelease
+:tvnoiseview:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 41s
+94 actionable tasks: 94 executed
+
+2019-02-03 21:22:57,624 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549203722317-0/src/TvNoiseView-master/app/build/outputs/apk/debug/app-debug.apk

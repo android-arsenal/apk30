@@ -1,0 +1,194 @@
+2018-11-12 23:08:08,649 INFO  DownloadService - Downloading "https://github.com/ROKarpov/android-backdrop/archive/master.zip", attempt 3
+2018-11-12 23:08:11,818 INFO  DownloadService - Downloaded https://github.com/ROKarpov/android-backdrop/archive/master.zip, attempt 3
+2018-11-12 23:08:11,819 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/master.zip": 589 KB
+2018-11-12 23:08:11,819 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-12 23:08:11,834 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/master.zip: true
+2018-11-12 23:08:11,835 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src'.
+2018-11-12 23:08:11,884 INFO  FullProcessService - Size of directory with sources: 711 KB
+2018-11-12 23:08:11,888 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src]
+2018-11-12 23:08:11,923 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/.git/
+
+2018-11-12 23:08:11,941 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/gradlew
+2018-11-12 23:08:11,958 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/build.gradle
+2018-11-12 23:08:11,967 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/settings.gradle
+2018-11-12 23:08:11,971 INFO  ProjectBuildService - Remote scripts: none
+2018-11-12 23:08:11,972 INFO  ProjectFixService - Fixing project...
+2018-11-12 23:08:12,029 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2018-11-12 23:08:12,029 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2018-11-12 23:08:12,031 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
+2018-11-12 23:08:12,034 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
+2018-11-12 23:08:12,037 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2018-11-12 23:08:12,038 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
+2018-11-12 23:08:12,039 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/app/local.properties
+2018-11-12 23:08:12,048 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-11-12 23:08:12,052 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-11-12 23:08:12,053 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/local.properties
+2018-11-12 23:08:12,056 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-11-12 23:08:12,056 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-11-12 23:08:12,058 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/local.properties
+2018-11-12 23:08:12,064 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-11-12 23:08:12,065 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-11-12 23:08:12,067 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-11-12 23:08:12,068 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-11-12 23:08:12,068 INFO  ProjectFixService - Project was maybe fixed
+2018-11-12 23:08:12,070 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-12 23:08:12,071 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-12 23:08:23,261 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-11-12 23:08:23,261 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-12 23:08:23,262 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-12 23:09:41,567 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:backdrop:preBuild UP-TO-DATE
+:backdrop:preDebugBuild UP-TO-DATE
+:backdrop:checkDebugManifest
+:backdrop:processDebugManifest
+:app:preDebugBuild
+:backdrop:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:backdrop:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:backdrop:compileDebugRenderscript
+:backdrop:generateDebugResValues
+:backdrop:generateDebugResources
+:backdrop:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:backdrop:generateDebugRFile
+:app:processDebugResources
+:backdrop:generateDebugBuildConfig
+:backdrop:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/src/main/java/io/github/rokarpov/backdrop/BackdropController.kt: (354, 35): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/src/main/java/io/github/rokarpov/backdrop/BackdropFrontLayer.kt: (209, 22): Parameter 'context' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/src/main/java/io/github/rokarpov/backdrop/BackdropFrontLayer.kt: (209, 40): Parameter 'attrs' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/src/main/java/io/github/rokarpov/backdrop/BackdropFrontLayer.kt: (209, 62): Parameter 'defStyleAttr' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/src/main/java/io/github/rokarpov/backdrop/BackdropFrontLayer.kt: (209, 81): Parameter 'defStyleRes' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/src/main/java/io/github/rokarpov/backdrop/ViewUtils.kt: (14, 1): Expected performance impact of inlining 'public inline fun showView(contentView: View): Unit defined in io.github.rokarpov.backdrop in file ViewUtils.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/src/main/java/io/github/rokarpov/backdrop/ViewUtils.kt: (19, 1): Expected performance impact of inlining 'public inline fun hideView(contentView: View): Unit defined in io.github.rokarpov.backdrop in file ViewUtils.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/src/main/java/io/github/rokarpov/backdrop/ViewUtils.kt: (24, 1): Expected performance impact of inlining 'public inline fun addShowAnimator(animatorSet: AnimatorSet, view: View, delay: Long, duration: Long): Unit defined in io.github.rokarpov.backdrop in file ViewUtils.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/src/main/java/io/github/rokarpov/backdrop/ViewUtils.kt: (37, 1): Expected performance impact of inlining 'public inline fun addHideAnimator(animatorSet: AnimatorSet, view: View, delay: Long, duration: Long): Unit defined in io.github.rokarpov.backdrop in file ViewUtils.kt' is insignificant. Inlining works best for functions with parameters of functional types
+:backdrop:prepareLintJar
+:backdrop:generateDebugSources
+:backdrop:javaPreCompileDebug
+:backdrop:compileDebugJavaWithJavac
+:backdrop:processDebugJavaRes NO-SOURCE
+:backdrop:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:backdrop:mergeDebugShaders
+:backdrop:compileDebugShaders
+:backdrop:generateDebugAssets
+:backdrop:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:backdrop:compileDebugNdk NO-SOURCE
+:backdrop:mergeDebugJniLibFolders
+:backdrop:transformNativeLibsWithMergeJniLibsForDebug
+:backdrop:transformNativeLibsWithStripDebugSymbolForDebug
+:backdrop:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:backdrop:preReleaseBuild UP-TO-DATE
+:backdrop:checkReleaseManifest
+:backdrop:processReleaseManifest
+:app:preReleaseBuild
+:backdrop:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:backdrop:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:backdrop:compileReleaseRenderscript
+:backdrop:generateReleaseResValues
+:backdrop:generateReleaseResources
+:backdrop:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:backdrop:generateReleaseRFile
+:app:processReleaseResources
+:backdrop:generateReleaseBuildConfig
+:backdrop:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/src/main/java/io/github/rokarpov/backdrop/BackdropController.kt: (354, 35): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/src/main/java/io/github/rokarpov/backdrop/BackdropFrontLayer.kt: (209, 22): Parameter 'context' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/src/main/java/io/github/rokarpov/backdrop/BackdropFrontLayer.kt: (209, 40): Parameter 'attrs' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/src/main/java/io/github/rokarpov/backdrop/BackdropFrontLayer.kt: (209, 62): Parameter 'defStyleAttr' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/src/main/java/io/github/rokarpov/backdrop/BackdropFrontLayer.kt: (209, 81): Parameter 'defStyleRes' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/src/main/java/io/github/rokarpov/backdrop/ViewUtils.kt: (14, 1): Expected performance impact of inlining 'public inline fun showView(contentView: View): Unit defined in io.github.rokarpov.backdrop in file ViewUtils.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/src/main/java/io/github/rokarpov/backdrop/ViewUtils.kt: (19, 1): Expected performance impact of inlining 'public inline fun hideView(contentView: View): Unit defined in io.github.rokarpov.backdrop in file ViewUtils.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/src/main/java/io/github/rokarpov/backdrop/ViewUtils.kt: (24, 1): Expected performance impact of inlining 'public inline fun addShowAnimator(animatorSet: AnimatorSet, view: View, delay: Long, duration: Long): Unit defined in io.github.rokarpov.backdrop in file ViewUtils.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/backdrop/src/main/java/io/github/rokarpov/backdrop/ViewUtils.kt: (37, 1): Expected performance impact of inlining 'public inline fun addHideAnimator(animatorSet: AnimatorSet, view: View, delay: Long, duration: Long): Unit defined in io.github.rokarpov.backdrop in file ViewUtils.kt' is insignificant. Inlining works best for functions with parameters of functional types
+:backdrop:generateReleaseSources
+:backdrop:javaPreCompileRelease
+:backdrop:compileReleaseJavaWithJavac
+:backdrop:processReleaseJavaRes NO-SOURCE
+:backdrop:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/cd558513020e9b588809826fcfe95cdf/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/337d4616e3e937b2a92f2642d5a7af4b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:backdrop:mergeReleaseShaders
+:backdrop:compileReleaseShaders
+:backdrop:generateReleaseAssets
+:backdrop:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:backdrop:compileReleaseNdk NO-SOURCE
+:backdrop:mergeReleaseJniLibFolders
+:backdrop:transformNativeLibsWithMergeJniLibsForRelease
+:backdrop:transformNativeLibsWithStripDebugSymbolForRelease
+:backdrop:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 17s
+94 actionable tasks: 94 executed
+
+2018-11-12 23:09:41,737 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542038888564-0/src/android-backdrop-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,0 +1,169 @@
+2019-02-23 17:40:13,383 INFO  DownloadService - Downloading "https://github.com/guy-4444/Direction-Line/archive/master.zip", attempt 3
+2019-02-23 17:40:15,553 INFO  DownloadService - Downloaded https://github.com/guy-4444/Direction-Line/archive/master.zip, attempt 3
+2019-02-23 17:40:15,553 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/master.zip": 178 KB
+2019-02-23 17:40:15,553 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-23 17:40:15,559 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/master.zip: true
+2019-02-23 17:40:15,559 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src'.
+2019-02-23 17:40:15,585 INFO  FullProcessService - Size of directory with sources: 206 KB
+2019-02-23 17:40:15,585 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src]
+2019-02-23 17:40:15,609 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/.git/
+
+2019-02-23 17:40:15,613 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/gradlew
+2019-02-23 17:40:15,618 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/directionline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/build.gradle
+2019-02-23 17:40:15,621 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/directionline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/settings.gradle
+2019-02-23 17:40:15,622 INFO  ProjectBuildService - Remote scripts: none
+2019-02-23 17:40:15,622 INFO  ProjectFixService - Fixing project...
+2019-02-23 17:40:15,631 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/app/local.properties
+2019-02-23 17:40:15,632 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-02-23 17:40:15,632 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-02-23 17:40:15,633 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/directionline/local.properties
+2019-02-23 17:40:15,634 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/directionline/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-02-23 17:40:15,634 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/directionline/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-02-23 17:40:15,635 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/local.properties
+2019-02-23 17:40:15,635 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-23 17:40:15,636 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-23 17:40:15,637 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-02-23 17:40:15,637 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-02-23 17:40:15,637 INFO  ProjectFixService - Project was maybe fixed
+2019-02-23 17:40:15,637 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 17:40:15,638 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 17:40:22,607 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-23 17:40:22,607 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-23 17:40:22,607 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-23 17:40:59,028 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:directionline:preBuild UP-TO-DATE
+:directionline:preDebugBuild UP-TO-DATE
+:directionline:checkDebugManifest
+:directionline:processDebugManifest
+:app:preDebugBuild
+:directionline:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:directionline:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:directionline:compileDebugRenderscript
+:directionline:generateDebugResValues
+:directionline:generateDebugResources
+:directionline:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:directionline:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:directionline:generateDebugBuildConfig
+:directionline:prepareLintJar
+:directionline:generateDebugSources
+:directionline:javaPreCompileDebug
+:directionline:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/directionline/src/main/java/directionlineapp/guy4444/com/directionline/DirectionLineView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:directionline:processDebugJavaRes NO-SOURCE
+:directionline:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:directionline:mergeDebugShaders
+:directionline:compileDebugShaders
+:directionline:generateDebugAssets
+:directionline:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:directionline:compileDebugNdk NO-SOURCE
+:directionline:mergeDebugJniLibFolders
+:directionline:transformNativeLibsWithMergeJniLibsForDebug
+:directionline:transformNativeLibsWithStripDebugSymbolForDebug
+:directionline:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:directionline:preReleaseBuild UP-TO-DATE
+:directionline:checkReleaseManifest
+:directionline:processReleaseManifest
+:app:preReleaseBuild
+:directionline:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:directionline:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:directionline:compileReleaseRenderscript
+:directionline:generateReleaseResValues
+:directionline:generateReleaseResources
+:directionline:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:directionline:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:directionline:generateReleaseBuildConfig
+:directionline:generateReleaseSources
+:directionline:javaPreCompileRelease
+:directionline:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/directionline/src/main/java/directionlineapp/guy4444/com/directionline/DirectionLineView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:directionline:processReleaseJavaRes NO-SOURCE
+:directionline:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/c9ee890103cbdede8276617132f84479/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:directionline:mergeReleaseShaders
+:directionline:compileReleaseShaders
+:directionline:generateReleaseAssets
+:directionline:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:directionline:compileReleaseNdk NO-SOURCE
+:directionline:mergeReleaseJniLibFolders
+:directionline:transformNativeLibsWithMergeJniLibsForRelease
+:directionline:transformNativeLibsWithStripDebugSymbolForRelease
+:directionline:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 35s
+90 actionable tasks: 90 executed
+
+2019-02-23 17:40:59,130 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918413379-0/src/Direction-Line-master/app/build/outputs/apk/debug/app-debug.apk

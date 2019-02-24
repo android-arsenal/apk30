@@ -1,0 +1,298 @@
+2019-02-16 19:44:15,847 INFO  DownloadService - Downloading "https://github.com/gilgoldzweig/gencycler/archive/master.zip", attempt 3
+2019-02-16 19:44:18,933 INFO  DownloadService - Downloaded https://github.com/gilgoldzweig/gencycler/archive/master.zip, attempt 3
+2019-02-16 19:44:18,933 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/master.zip": 239 KB
+2019-02-16 19:44:18,933 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-16 19:44:18,939 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/master.zip: true
+2019-02-16 19:44:18,939 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src'.
+2019-02-16 19:44:18,981 INFO  FullProcessService - Size of directory with sources: 297 KB
+2019-02-16 19:44:18,981 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src]
+2019-02-16 19:44:19,012 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/.git/
+
+2019-02-16 19:44:19,021 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gradlew
+2019-02-16 19:44:19,029 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gencycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/compiler/build.gradle
+2019-02-16 19:44:19,037 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gencycler/build.gradle
+2019-02-16 19:44:19,038 INFO  ProjectBuildService - Remote scripts: none
+2019-02-16 19:44:19,038 INFO  ProjectFixService - Fixing project...
+2019-02-16 19:44:19,058 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gencycler/local.properties
+2019-02-16 19:44:19,059 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gencycler/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-16 19:44:19,060 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/sample/local.properties
+2019-02-16 19:44:19,060 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-16 19:44:19,061 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/local.properties
+2019-02-16 19:44:19,065 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-02-16 19:44:19,066 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-02-16 19:44:19,067 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-16 19:44:19,068 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/annotations/local.properties
+2019-02-16 19:44:19,070 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/annotations/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-16 19:44:19,070 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/compiler/local.properties
+2019-02-16 19:44:19,073 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/compiler/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-16 19:44:19,073 INFO  ProjectFixService - Project was maybe fixed
+2019-02-16 19:44:19,073 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-16 19:44:19,073 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gencycler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-16 19:44:28,111 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-02-16 19:44:28,111 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-16 19:44:28,111 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gencycler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-16 19:44:52,235 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :gencycler:preBuild UP-TO-DATE
+> Task :gencycler:preDebugBuild UP-TO-DATE
+> Task :gencycler:compileDebugAidl NO-SOURCE
+> Task :annotations:discoverMainScriptsExtensions
+> Task :annotations:compileKotlin
+> Task :annotations:compileJava NO-SOURCE
+> Task :annotations:processResources NO-SOURCE
+> Task :annotations:classes UP-TO-DATE
+> Task :annotations:inspectClassesForKotlinIC
+> Task :annotations:jar
+> Transform annotations.jar (project :annotations) with IdentityTransform
+> Task :gencycler:compileDebugRenderscript
+> Transform annotations.jar (project :annotations) with IdentityTransform
+> Task :gencycler:checkDebugManifest
+> Task :gencycler:generateDebugBuildConfig SKIPPED
+> Task :gencycler:generateDebugResValues
+> Task :gencycler:generateDebugResources
+> Task :gencycler:packageDebugResources
+> Task :gencycler:processDebugManifest
+> Task :gencycler:generateDebugRFile
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gencycler/src/main/java/goldzweigapps/com/gencycler/filter/GencyclerFilter.kt: (28, 37): Unchecked cast: Any! to List<T>
+> Task :gencycler:compileDebugKotlin
+> Task :gencycler:prepareLintJar
+> Task :gencycler:generateDebugSources
+> Task :gencycler:javaPreCompileDebug
+> Task :gencycler:compileDebugJavaWithJavac
+> Task :gencycler:extractDebugAnnotations
+> Task :gencycler:mergeDebugConsumerProguardFiles
+> Task :gencycler:mergeDebugShaders
+> Task :gencycler:compileDebugShaders
+> Task :gencycler:generateDebugAssets
+> Task :gencycler:packageDebugAssets
+> Task :gencycler:packageDebugRenderscript NO-SOURCE
+> Task :gencycler:processDebugJavaRes NO-SOURCE
+> Task :gencycler:transformResourcesWithMergeJavaResForDebug
+> Task :gencycler:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :gencycler:compileDebugNdk NO-SOURCE
+> Task :gencycler:mergeDebugJniLibFolders
+> Task :gencycler:transformNativeLibsWithMergeJniLibsForDebug
+> Task :gencycler:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :gencycler:transformNativeLibsWithSyncJniLibsForDebug
+> Task :gencycler:bundleDebugAar
+> Task :gencycler:compileDebugSources
+> Task :gencycler:assembleDebug
+> Task :gencycler:preReleaseBuild UP-TO-DATE
+> Task :gencycler:compileReleaseAidl NO-SOURCE
+> Task :gencycler:compileReleaseRenderscript
+> Task :gencycler:checkReleaseManifest
+> Task :gencycler:generateReleaseBuildConfig SKIPPED
+> Task :gencycler:generateReleaseResValues
+> Task :gencycler:generateReleaseResources
+> Task :gencycler:packageReleaseResources
+> Task :gencycler:processReleaseManifest
+> Task :gencycler:generateReleaseRFile
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gencycler/src/main/java/goldzweigapps/com/gencycler/filter/GencyclerFilter.kt: (28, 37): Unchecked cast: Any! to List<T>
+> Task :gencycler:compileReleaseKotlin
+> Task :gencycler:generateReleaseSources
+> Task :gencycler:javaPreCompileRelease
+> Task :gencycler:compileReleaseJavaWithJavac
+> Task :gencycler:extractReleaseAnnotations
+> Task :gencycler:mergeReleaseConsumerProguardFiles
+> Task :gencycler:mergeReleaseShaders
+> Task :gencycler:compileReleaseShaders
+> Task :gencycler:generateReleaseAssets
+> Task :gencycler:packageReleaseAssets
+> Task :gencycler:packageReleaseRenderscript NO-SOURCE
+> Task :gencycler:processReleaseJavaRes NO-SOURCE
+> Task :gencycler:transformResourcesWithMergeJavaResForRelease
+> Task :gencycler:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :gencycler:compileReleaseNdk NO-SOURCE
+> Task :gencycler:mergeReleaseJniLibFolders
+> Task :gencycler:transformNativeLibsWithMergeJniLibsForRelease
+> Task :gencycler:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :gencycler:transformNativeLibsWithSyncJniLibsForRelease
+> Task :gencycler:bundleReleaseAar
+> Task :gencycler:compileReleaseSources
+> Task :gencycler:mergeReleaseResources
+> Task :gencycler:verifyReleaseResources
+> Task :gencycler:assembleRelease
+> Task :gencycler:assemble
+> Task :gencycler:build
+
+BUILD SUCCESSFUL in 23s
+49 actionable tasks: 49 executed
+
+2019-02-16 19:44:52,281 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-16 19:44:52,281 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-16 19:44:59,817 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-16 19:44:59,817 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-16 19:44:59,817 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-16 19:46:20,387 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :annotations:discoverMainScriptsExtensions
+> Task :annotations:compileKotlin UP-TO-DATE
+> Task :annotations:compileJava NO-SOURCE
+> Task :annotations:processResources NO-SOURCE
+> Task :annotations:classes UP-TO-DATE
+> Task :annotations:inspectClassesForKotlinIC UP-TO-DATE
+> Task :annotations:jar UP-TO-DATE
+> Task :gencycler:preBuild UP-TO-DATE
+> Task :gencycler:preDebugBuild UP-TO-DATE
+> Task :gencycler:compileDebugAidl NO-SOURCE
+> Transform annotations.jar (project :annotations) with IdentityTransform
+> Task :gencycler:compileDebugRenderscript UP-TO-DATE
+> Transform annotations.jar (project :annotations) with IdentityTransform
+> Task :gencycler:checkDebugManifest UP-TO-DATE
+> Task :gencycler:generateDebugBuildConfig SKIPPED
+> Task :gencycler:generateDebugResValues UP-TO-DATE
+> Task :gencycler:generateDebugResources UP-TO-DATE
+> Task :gencycler:packageDebugResources UP-TO-DATE
+> Task :gencycler:processDebugManifest UP-TO-DATE
+> Task :gencycler:generateDebugRFile UP-TO-DATE
+> Task :gencycler:compileDebugKotlin UP-TO-DATE
+> Task :gencycler:prepareLintJar UP-TO-DATE
+> Task :gencycler:generateDebugSources UP-TO-DATE
+> Task :gencycler:javaPreCompileDebug UP-TO-DATE
+> Task :gencycler:compileDebugJavaWithJavac UP-TO-DATE
+> Task :gencycler:processDebugJavaRes NO-SOURCE
+> Task :gencycler:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :sample:checkDebugClasspath
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :gencycler:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :compiler:discoverMainScriptsExtensions
+> Task :compiler:compileKotlin
+> Task :compiler:compileJava NO-SOURCE
+> Task :compiler:processResources
+> Task :compiler:classes
+> Task :compiler:inspectClassesForKotlinIC
+> Task :compiler:jar
+> Transform compiler.jar (project :compiler) with IdentityTransform
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:splitsDiscoveryTaskDebug
+> Task :sample:processDebugResources
+> Task :sample:kaptGenerateStubsDebugKotlin
+> Task :sample:kaptDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/sample/build/generated/source/kapt/debug/GeneratedMultiViewTypeAdapter.kt/goldzweigapps/com/gencycler/kotlin/GeneratedMultiViewTypeAdapter.kt: (52, 13): 'when' is exhaustive so 'else' is redundant here
+> Task :sample:compileDebugKotlin
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugNdk NO-SOURCE
+> Task :sample:compileDebugSources
+> Task :gencycler:mergeDebugShaders UP-TO-DATE
+> Task :gencycler:compileDebugShaders UP-TO-DATE
+> Task :gencycler:generateDebugAssets UP-TO-DATE
+> Task :gencycler:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+D8: Stripped invalid locals information from 2 methods.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :sample:transformDexArchiveWithDexMergerForDebug
+> Transform annotations.jar (project :annotations) with IdentityTransform
+> Task :gencycler:compileDebugNdk NO-SOURCE
+> Task :gencycler:mergeDebugJniLibFolders UP-TO-DATE
+> Task :gencycler:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :gencycler:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :gencycler:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:checkDebugLibraries
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :gencycler:preReleaseBuild UP-TO-DATE
+> Task :gencycler:compileReleaseAidl NO-SOURCE
+> Task :gencycler:compileReleaseRenderscript UP-TO-DATE
+> Task :gencycler:checkReleaseManifest UP-TO-DATE
+> Task :gencycler:generateReleaseBuildConfig SKIPPED
+> Task :gencycler:generateReleaseResValues UP-TO-DATE
+> Task :gencycler:generateReleaseResources UP-TO-DATE
+> Task :gencycler:packageReleaseResources UP-TO-DATE
+> Task :gencycler:processReleaseManifest UP-TO-DATE
+> Task :gencycler:generateReleaseRFile UP-TO-DATE
+> Task :gencycler:compileReleaseKotlin UP-TO-DATE
+> Task :gencycler:generateReleaseSources UP-TO-DATE
+> Task :gencycler:javaPreCompileRelease UP-TO-DATE
+> Task :gencycler:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :gencycler:processReleaseJavaRes NO-SOURCE
+> Task :gencycler:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :sample:checkReleaseClasspath
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :gencycler:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:splitsDiscoveryTaskRelease
+> Task :sample:processReleaseResources
+> Task :sample:kaptGenerateStubsReleaseKotlin
+> Task :sample:kaptReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/sample/build/generated/source/kapt/release/GeneratedMultiViewTypeAdapter.kt/goldzweigapps/com/gencycler/kotlin/GeneratedMultiViewTypeAdapter.kt: (52, 13): 'when' is exhaustive so 'else' is redundant here
+> Task :sample:compileReleaseKotlin
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseNdk NO-SOURCE
+> Task :sample:compileReleaseSources
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/3912d9103aad1aad02a8c639ccbbf2bb/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :gencycler:mergeReleaseShaders UP-TO-DATE
+> Task :gencycler:compileReleaseShaders UP-TO-DATE
+> Task :gencycler:generateReleaseAssets UP-TO-DATE
+> Task :gencycler:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :sample:transformDexArchiveWithDexMergerForRelease
+> Task :gencycler:compileReleaseNdk NO-SOURCE
+> Task :gencycler:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :gencycler:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :gencycler:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :gencycler:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:checkReleaseLibraries
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+BUILD SUCCESSFUL in 1m 19s
+105 actionable tasks: 71 executed, 34 up-to-date
+
+2019-02-16 19:46:20,531 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

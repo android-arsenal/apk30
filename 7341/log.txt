@@ -1,0 +1,546 @@
+2019-02-04 10:48:07,645 INFO  DownloadService - Downloading "https://github.com/hummatli/AppCrossPromoter/archive/master.zip", attempt 3
+2019-02-04 10:48:18,926 INFO  DownloadService - Downloaded https://github.com/hummatli/AppCrossPromoter/archive/master.zip, attempt 3
+2019-02-04 10:48:18,927 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/master.zip": 11 MB
+2019-02-04 10:48:18,927 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-04 10:48:18,933 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/master.zip: true
+2019-02-04 10:48:18,934 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src'.
+2019-02-04 10:48:19,065 INFO  FullProcessService - Size of directory with sources: 13 MB
+2019-02-04 10:48:19,065 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src]
+2019-02-04 10:48:19,086 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/.git/
+
+2019-02-04 10:48:19,093 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/gradlew
+2019-02-04 10:48:19,099 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/build.gradle
+2019-02-04 10:48:19,107 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/conf_for_maven/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/conf_for_maven/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/build.gradle
+2019-02-04 10:48:19,107 INFO  ProjectBuildService - Remote scripts: none
+2019-02-04 10:48:19,107 INFO  ProjectFixService - Fixing project...
+2019-02-04 10:48:19,122 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/local.properties
+2019-02-04 10:48:19,124 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-04 10:48:19,124 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-04 10:48:19,125 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/local.properties
+2019-02-04 10:48:19,126 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-04 10:48:19,126 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-04 10:48:19,127 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/local.properties
+2019-02-04 10:48:19,128 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-04 10:48:19,128 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-04 10:48:19,130 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-04 10:48:19,131 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-04 10:48:19,131 INFO  ProjectFixService - Project was maybe fixed
+2019-02-04 10:48:19,131 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-04 10:48:19,132 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-04 10:48:26,753 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-02-04 10:48:26,753 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-04 10:48:26,753 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-04 10:48:59,550 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app-cross-promoter:preBuild UP-TO-DATE
+:app-cross-promoter:preDebugBuild UP-TO-DATE
+:app-cross-promoter:compileDebugAidl NO-SOURCE
+:app-cross-promoter:compileDebugRenderscript
+:app-cross-promoter:checkDebugManifest
+:app-cross-promoter:generateDebugBuildConfig
+:app-cross-promoter:generateDebugResValues
+:app-cross-promoter:generateDebugResources
+:app-cross-promoter:packageDebugResources
+:app-cross-promoter:processDebugManifest
+:app-cross-promoter:generateDebugRFile
+:app-cross-promoter:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPController.kt: (29, 5): '@JvmOverloads' annotation has no effect for methods without default arguments
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPDlgExit.kt: (78, 39): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPDlgExit.kt: (85, 28): Unnecessary non-null assertion (!!) on a non-null receiver of type LayoutInflater
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPDlgExit.kt: (305, 13): Unsafe use of a nullable receiver of type Intent?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPDlgPrograms.kt: (71, 39): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPDlgPrograms.kt: (78, 28): Unnecessary non-null assertion (!!) on a non-null receiver of type LayoutInflater
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPDlgPrograms.kt: (160, 33): Unsafe use of a nullable receiver of type Intent?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ProgramItmAdpt.kt: (27, 142): Unnecessary non-null assertion (!!) on a non-null receiver of type View
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ProgramItmAdpt.kt: (29, 138): Unnecessary non-null assertion (!!) on a non-null receiver of type Unit
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/LocaleUpdater.kt: (16, 23): 'locale: Locale!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/LocaleUpdater.kt: (18, 19): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/Models.kt: (62, 37): Parameter 'context' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/Utils.kt: (23, 17): Variable 'info' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/Utils.kt: (52, 13): Variable 'line' is never used
+:app-cross-promoter:prepareLintJar
+:app-cross-promoter:generateDebugSources
+:app-cross-promoter:javaPreCompileDebug
+:app-cross-promoter:compileDebugJavaWithJavac
+:app-cross-promoter:extractDebugAnnotations
+:app-cross-promoter:mergeDebugConsumerProguardFiles
+:app-cross-promoter:mergeDebugShaders
+:app-cross-promoter:compileDebugShaders
+:app-cross-promoter:generateDebugAssets
+:app-cross-promoter:packageDebugAssets
+:app-cross-promoter:packageDebugRenderscript NO-SOURCE
+:app-cross-promoter:processDebugJavaRes NO-SOURCE
+:app-cross-promoter:transformResourcesWithMergeJavaResForDebug
+:app-cross-promoter:transformClassesAndResourcesWithSyncLibJarsForDebug
+:app-cross-promoter:compileDebugNdk NO-SOURCE
+:app-cross-promoter:mergeDebugJniLibFolders
+:app-cross-promoter:transformNativeLibsWithMergeJniLibsForDebug
+:app-cross-promoter:transformNativeLibsWithStripDebugSymbolForDebug
+:app-cross-promoter:transformNativeLibsWithSyncJniLibsForDebug
+:app-cross-promoter:bundleDebugAar
+:app-cross-promoter:compileDebugSources
+:app-cross-promoter:assembleDebug
+:app-cross-promoter:preReleaseBuild UP-TO-DATE
+:app-cross-promoter:compileReleaseAidl NO-SOURCE
+:app-cross-promoter:compileReleaseRenderscript
+:app-cross-promoter:checkReleaseManifest
+:app-cross-promoter:generateReleaseBuildConfig
+:app-cross-promoter:generateReleaseResValues
+:app-cross-promoter:generateReleaseResources
+:app-cross-promoter:packageReleaseResources
+:app-cross-promoter:processReleaseManifest
+:app-cross-promoter:generateReleaseRFile
+:app-cross-promoter:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPController.kt: (29, 5): '@JvmOverloads' annotation has no effect for methods without default arguments
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPDlgExit.kt: (78, 39): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPDlgExit.kt: (85, 28): Unnecessary non-null assertion (!!) on a non-null receiver of type LayoutInflater
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPDlgExit.kt: (305, 13): Unsafe use of a nullable receiver of type Intent?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPDlgPrograms.kt: (71, 39): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPDlgPrograms.kt: (78, 28): Unnecessary non-null assertion (!!) on a non-null receiver of type LayoutInflater
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPDlgPrograms.kt: (160, 33): Unsafe use of a nullable receiver of type Intent?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ProgramItmAdpt.kt: (27, 142): Unnecessary non-null assertion (!!) on a non-null receiver of type View
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ProgramItmAdpt.kt: (29, 138): Unnecessary non-null assertion (!!) on a non-null receiver of type Unit
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/LocaleUpdater.kt: (16, 23): 'locale: Locale!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/LocaleUpdater.kt: (18, 19): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/Models.kt: (62, 37): Parameter 'context' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/Utils.kt: (23, 17): Variable 'info' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/Utils.kt: (52, 13): Variable 'line' is never used
+:app-cross-promoter:generateReleaseSources
+:app-cross-promoter:javaPreCompileRelease
+:app-cross-promoter:compileReleaseJavaWithJavac
+:app-cross-promoter:extractReleaseAnnotations
+:app-cross-promoter:mergeReleaseConsumerProguardFiles
+:app-cross-promoter:mergeReleaseShaders
+:app-cross-promoter:compileReleaseShaders
+:app-cross-promoter:generateReleaseAssets
+:app-cross-promoter:packageReleaseAssets
+:app-cross-promoter:packageReleaseRenderscript NO-SOURCE
+:app-cross-promoter:processReleaseJavaRes NO-SOURCE
+:app-cross-promoter:transformResourcesWithMergeJavaResForRelease
+:app-cross-promoter:transformClassesAndResourcesWithSyncLibJarsForRelease
+:app-cross-promoter:compileReleaseNdk NO-SOURCE
+:app-cross-promoter:mergeReleaseJniLibFolders
+:app-cross-promoter:transformNativeLibsWithMergeJniLibsForRelease
+:app-cross-promoter:transformNativeLibsWithStripDebugSymbolForRelease
+:app-cross-promoter:transformNativeLibsWithSyncJniLibsForRelease
+:app-cross-promoter:bundleReleaseAar
+:app-cross-promoter:compileReleaseSources
+:app-cross-promoter:mergeReleaseResources
+:app-cross-promoter:verifyReleaseResources
+:app-cross-promoter:assembleRelease
+:app-cross-promoter:javadoc NO-SOURCE
+:app-cross-promoter:javadocJar
+:app-cross-promoter:sourcesJar
+:app-cross-promoter:assemble
+:app-cross-promoter:build
+
+BUILD SUCCESSFUL in 32s
+49 actionable tasks: 49 executed
+
+2019-02-04 10:48:59,633 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-04 10:48:59,633 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-04 10:49:07,454 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-02-04 10:49:07,455 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-04 10:49:07,455 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-04 10:49:52,155 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-04 10:49:52,155 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app-cross-promoter:preBuild UP-TO-DATE
+:app-cross-promoter:preDebugBuild UP-TO-DATE
+:app-cross-promoter:compileDebugAidl NO-SOURCE
+:app-cross-promoter:compileDebugRenderscript UP-TO-DATE
+:app-cross-promoter:checkDebugManifest UP-TO-DATE
+:app-cross-promoter:generateDebugBuildConfig UP-TO-DATE
+:app-cross-promoter:generateDebugResValues UP-TO-DATE
+:app-cross-promoter:generateDebugResources UP-TO-DATE
+:app-cross-promoter:packageDebugResources UP-TO-DATE
+:app-cross-promoter:processDebugManifest UP-TO-DATE
+:app-cross-promoter:generateDebugRFile UP-TO-DATE
+:app-cross-promoter:compileDebugKotlin UP-TO-DATE
+:app-cross-promoter:prepareLintJar UP-TO-DATE
+:app-cross-promoter:generateDebugSources UP-TO-DATE
+:app-cross-promoter:javaPreCompileDebug UP-TO-DATE
+:app-cross-promoter:compileDebugJavaWithJavac UP-TO-DATE
+:app-cross-promoter:processDebugJavaRes NO-SOURCE
+:app-cross-promoter:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample-app:checkDebugClasspath
+:sample-app:preBuild UP-TO-DATE
+:sample-app:preDebugBuild
+:sample-app:compileDebugAidl NO-SOURCE
+:app-cross-promoter:packageDebugRenderscript NO-SOURCE
+:sample-app:compileDebugRenderscript
+:sample-app:checkDebugManifest
+:sample-app:generateDebugBuildConfig
+:sample-app:mainApkListPersistenceDebug
+:sample-app:generateDebugResValues
+:sample-app:generateDebugResources
+:sample-app:mergeDebugResources
+:sample-app:createDebugCompatibleScreenManifests
+:sample-app:processDebugManifest
+:sample-app:splitsDiscoveryTaskDebug
+:sample-app:processDebugResources
+:sample-app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/src/main/java/com/mobapphome/appcrosspromoter/sample/LocaleHelper.kt: (48, 16): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/src/main/java/com/mobapphome/appcrosspromoter/sample/LocaleHelper.kt: (66, 23): 'locale: Locale!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/src/main/java/com/mobapphome/appcrosspromoter/sample/LocaleHelper.kt: (68, 19): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+:sample-app:prepareLintJar
+:sample-app:generateDebugSources
+:sample-app:javaPreCompileDebug
+:sample-app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/src/main/java/com/mobapphome/appcrosspromoter/sample/SampleActivityJava.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sample-app:compileDebugNdk NO-SOURCE
+:sample-app:compileDebugSources
+:app-cross-promoter:mergeDebugShaders UP-TO-DATE
+:app-cross-promoter:compileDebugShaders UP-TO-DATE
+:app-cross-promoter:generateDebugAssets UP-TO-DATE
+:app-cross-promoter:packageDebugAssets UP-TO-DATE
+:sample-app:mergeDebugShaders
+:sample-app:compileDebugShaders
+:sample-app:generateDebugAssets
+:sample-app:mergeDebugAssets
+:sample-app:transformClassesWithDexBuilderForDebug
+:sample-app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample-app:transformDexArchiveWithDexMergerForDebug
+:app-cross-promoter:compileDebugNdk NO-SOURCE
+:app-cross-promoter:mergeDebugJniLibFolders UP-TO-DATE
+:app-cross-promoter:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:app-cross-promoter:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:app-cross-promoter:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample-app:mergeDebugJniLibFolders
+:sample-app:transformNativeLibsWithMergeJniLibsForDebug
+:sample-app:transformNativeLibsWithStripDebugSymbolForDebug
+:sample-app:checkDebugLibraries
+:sample-app:processDebugJavaRes NO-SOURCE
+:sample-app:transformResourcesWithMergeJavaResForDebug
+:sample-app:validateSigningDebug
+:sample-app:packageDebug
+:sample-app:assembleDebug
+:app-cross-promoter:preReleaseBuild UP-TO-DATE
+:app-cross-promoter:compileReleaseAidl NO-SOURCE
+:app-cross-promoter:compileReleaseRenderscript UP-TO-DATE
+:app-cross-promoter:checkReleaseManifest UP-TO-DATE
+:app-cross-promoter:generateReleaseBuildConfig UP-TO-DATE
+:app-cross-promoter:generateReleaseResValues UP-TO-DATE
+:app-cross-promoter:generateReleaseResources UP-TO-DATE
+:app-cross-promoter:packageReleaseResources UP-TO-DATE
+:app-cross-promoter:processReleaseManifest UP-TO-DATE
+:app-cross-promoter:generateReleaseRFile UP-TO-DATE
+:app-cross-promoter:compileReleaseKotlin UP-TO-DATE
+:app-cross-promoter:generateReleaseSources UP-TO-DATE
+:app-cross-promoter:javaPreCompileRelease UP-TO-DATE
+:app-cross-promoter:compileReleaseJavaWithJavac UP-TO-DATE
+:app-cross-promoter:processReleaseJavaRes NO-SOURCE
+:app-cross-promoter:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample-app:checkReleaseClasspath
+:sample-app:extractProguardFiles
+:sample-app:preReleaseBuild
+:sample-app:compileReleaseAidl NO-SOURCE
+:app-cross-promoter:packageReleaseRenderscript NO-SOURCE
+:sample-app:compileReleaseRenderscript
+:sample-app:checkReleaseManifest
+:sample-app:generateReleaseBuildConfig
+:sample-app:mainApkListPersistenceRelease
+:sample-app:generateReleaseResValues
+:sample-app:generateReleaseResources
+:sample-app:mergeReleaseResources
+:sample-app:createReleaseCompatibleScreenManifests
+:sample-app:processReleaseManifest
+:sample-app:splitsDiscoveryTaskRelease
+:sample-app:processReleaseResources
+:sample-app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/src/main/java/com/mobapphome/appcrosspromoter/sample/LocaleHelper.kt: (48, 16): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/src/main/java/com/mobapphome/appcrosspromoter/sample/LocaleHelper.kt: (66, 23): 'locale: Locale!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/src/main/java/com/mobapphome/appcrosspromoter/sample/LocaleHelper.kt: (68, 19): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+:sample-app:generateReleaseSources
+:sample-app:javaPreCompileRelease
+:sample-app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/src/main/java/com/mobapphome/appcrosspromoter/sample/SampleActivityJava.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sample-app:compileReleaseNdk NO-SOURCE
+:sample-app:compileReleaseSources
+:sample-app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/bbb228c3fdedb81e637d8840910f1ec2/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app-cross-promoter:mergeReleaseShaders UP-TO-DATE
+:app-cross-promoter:compileReleaseShaders UP-TO-DATE
+:app-cross-promoter:generateReleaseAssets UP-TO-DATE
+:app-cross-promoter:packageReleaseAssets UP-TO-DATE
+:sample-app:mergeReleaseShaders
+:sample-app:compileReleaseShaders
+:sample-app:generateReleaseAssets
+:sample-app:mergeReleaseAssets
+:app-cross-promoter:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:sample-app:checkReleaseLibraries
+:sample-app:processReleaseJavaRes NO-SOURCE
+:sample-app:transformResourcesWithMergeJavaResForRelease
+:sample-app:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/12a36b40b1c677504dfaff68d3182af9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.10/4d147bf43060dc43d61b096e24da1e67dfe0c032/kotlin-stdlib-jdk7-1.3.10.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/52e376759eefab104bb296bac896b35a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/2aff146de140273003ec3c0c83a589fc/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/7af1931fea603b373a66218cadc312e8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/86740f6244806426f117aab99709bac6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/44b8a7b0dff25526690bc4b9110681de/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/8541e48347d33201e6ee168f96015e82/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/5492a2fef37e8165c2a85ea44c41a6a9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/bb9e90ff1a2697b82ff99a6cd9e51e33/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/21ef173c3173569cd131ecc5d222be59/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/5a2b2ce29c13ae559948c8d5a344aad3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/2e8f15dbe014fc0f018656d9cc46681f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/07075e6955424a0a5157798c67fa4a9e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/215c54aa479ad91a76cfcd54aec47ecd/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/68a8ca229786d3dcafb133367577a4e4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/81b8912a1f7c0ad4f42dced59be56f3c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3a8ee2908a867da1af9923ec34cfe024/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9de5eacb5c4d2cb19065792023e66dcd/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bde2bec047c7343cebc0e74235dc2a60/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/d563841f5c56c6fa7bdf9bd4a0a0b8e2/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/575d1984d75bb374e699dab41e37b61f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ea2c1d8f8220a616bdb351706376ecee/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9aeb71256b6d9a4059dcd08642bc3a98/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5c2d867f45f0ed44c6f56b73f7e904c9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/02ce3b770c5f0b1b1702e186b9e8de22/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/441695399d3cfbe62265b33382e4dc91/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e93adf57e0f585c3e346eeae3bdaf211/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.10.2/33ee82e324f4b1e40167f3dc5e01234a1c5cab61/jsoup-1.10.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf/gson-2.8.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.10/1b19d99229dcedad7caf50534dce38fe82845269/kotlin-stdlib-common-1.3.10.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/build/tmp/kotlin-classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
+Initializing...
+Note: com.google.gson.internal.UnsafeAllocator: can't find dynamically referenced class sun.misc.Unsafe
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.jdk8.JDK8PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE8PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE7PlatformImplementations
+Note: kotlin.jvm.internal.Reflection: can't find dynamically referenced class kotlin.reflect.jvm.internal.ReflectionFactoryImpl
+Note: com.google.gson.internal.UnsafeAllocator accesses a declared field 'theUnsafe' dynamically
+Note: kotlin.coroutines.jvm.internal.DebugMetadataKt accesses a declared field 'label' dynamically
+      Maybe this is program field 'kotlin.collections.SlidingWindowKt$windowedIterator$1 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.experimental.jvm.internal.CoroutineImpl { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$2 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$1 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$2 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$3 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$4 { int label; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1 { int label; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2 { int label; }'
+      Maybe this is library field 'android.R$attr { int label; }'
+      Maybe this is library field 'android.app.LauncherActivity$ListItem { java.lang.CharSequence label; }'
+      Maybe this is library field 'android.appwidget.AppWidgetProviderInfo { java.lang.String label; }'
+      Maybe this is library field 'android.inputmethodservice.Keyboard$Key { java.lang.CharSequence label; }'
+      Maybe this is library field 'android.speech.tts.TextToSpeech$EngineInfo { java.lang.String label; }'
+      Maybe this is library field 'android.view.inputmethod.EditorInfo { java.lang.CharSequence label; }'
+Note: there were 5 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: there were 2 accesses to class members by means of introspection.
+      You should consider explicitly keeping the mentioned class members
+      (using '-keep' or '-keepclassmembers').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
+Ignoring unused library classes...
+  Original number of library classes: 4803
+  Final number of library classes:    1403
+Printing kept classes, fields, and methods...
+Inlining subroutines...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 3222
+  Final number of program classes:    1587
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/12a36b40b1c677504dfaff68d3182af9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.10/4d147bf43060dc43d61b096e24da1e67dfe0c032/kotlin-stdlib-jdk7-1.3.10.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/52e376759eefab104bb296bac896b35a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/2aff146de140273003ec3c0c83a589fc/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/7af1931fea603b373a66218cadc312e8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/86740f6244806426f117aab99709bac6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/44b8a7b0dff25526690bc4b9110681de/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/8541e48347d33201e6ee168f96015e82/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/5492a2fef37e8165c2a85ea44c41a6a9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/bb9e90ff1a2697b82ff99a6cd9e51e33/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/21ef173c3173569cd131ecc5d222be59/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/5a2b2ce29c13ae559948c8d5a344aad3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/2e8f15dbe014fc0f018656d9cc46681f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/07075e6955424a0a5157798c67fa4a9e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/215c54aa479ad91a76cfcd54aec47ecd/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/68a8ca229786d3dcafb133367577a4e4/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/81b8912a1f7c0ad4f42dced59be56f3c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3a8ee2908a867da1af9923ec34cfe024/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9de5eacb5c4d2cb19065792023e66dcd/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bde2bec047c7343cebc0e74235dc2a60/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/d563841f5c56c6fa7bdf9bd4a0a0b8e2/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/575d1984d75bb374e699dab41e37b61f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ea2c1d8f8220a616bdb351706376ecee/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9aeb71256b6d9a4059dcd08642bc3a98/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5c2d867f45f0ed44c6f56b73f7e904c9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/02ce3b770c5f0b1b1702e186b9e8de22/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/441695399d3cfbe62265b33382e4dc91/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e93adf57e0f585c3e346eeae3bdaf211/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.10.2/33ee82e324f4b1e40167f3dc5e01234a1c5cab61/jsoup-1.10.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf/gson-2.8.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.10/1b19d99229dcedad7caf50534dce38fe82845269/kotlin-stdlib-common-1.3.10.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/app-cross-promoter/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/build/tmp/kotlin-classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+:sample-app:transformClassesWithDexBuilderForRelease
+:sample-app:transformDexArchiveWithDexMergerForRelease
+:app-cross-promoter:compileReleaseNdk NO-SOURCE
+:app-cross-promoter:mergeReleaseJniLibFolders UP-TO-DATE
+:app-cross-promoter:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:app-cross-promoter:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:app-cross-promoter:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample-app:mergeReleaseJniLibFolders
+:sample-app:transformNativeLibsWithMergeJniLibsForRelease
+:sample-app:transformNativeLibsWithStripDebugSymbolForRelease
+:sample-app:validateSigningRelease
+:sample-app:packageRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':sample-app:packageRelease'.
+> com.android.ide.common.signing.KeytoolException: Failed to read key appcrosspromoter from store "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/key/keystore_for_test.jks": No key with alias 'appcrosspromoter' found in keystore /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/key/keystore_for_test.jks
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sample-app:packageRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:103)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:256)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:249)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:238)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.tooling.BuildException: com.android.ide.common.signing.KeytoolException: Failed to read key appcrosspromoter from store "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/key/keystore_for_test.jks": No key with alias 'appcrosspromoter' found in keystore /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/key/keystore_for_test.jks
+	at com.android.build.gradle.internal.scope.BuildElements$ExecutorBasedScheduler$transform$2.invoke(BuildElements.kt:133)
+	at com.android.build.gradle.internal.scope.BuildElements$ExecutorBasedScheduler$transform$2.invoke(BuildElements.kt:110)
+	at kotlin.sequences.SequencesKt___SequencesKt$onEach$1.invoke(_Sequences.kt:1260)
+	at kotlin.sequences.TransformingSequence$iterator$1.next(Sequences.kt:149)
+	at kotlin.sequences.FilteringSequence$iterator$1.calcNext(Sequences.kt:109)
+	at kotlin.sequences.FilteringSequence$iterator$1.hasNext(Sequences.kt:133)
+	at kotlin.sequences.TransformingSequence$iterator$1.hasNext(Sequences.kt:153)
+	at kotlin.sequences.SequencesKt___SequencesKt.toCollection(_Sequences.kt:633)
+	at kotlin.sequences.SequencesKt___SequencesKt.toMutableList(_Sequences.kt:663)
+	at kotlin.sequences.SequencesKt___SequencesKt.toList(_Sequences.kt:654)
+	at com.android.build.gradle.internal.scope.BuildElements$ExecutorBasedScheduler.transform(BuildElements.kt:140)
+	at com.android.build.gradle.internal.scope.BuildElements$ExecutorBasedScheduler.into(BuildElements.kt:115)
+	at com.android.build.gradle.internal.scope.BuildElementActionScheduler.into(BuildElementActionScheduler.kt:32)
+	at com.android.build.gradle.tasks.PackageAndroidArtifact.doFullTaskAction(PackageAndroidArtifact.java:401)
+	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.java:106)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
+	... 30 more
+Caused by: java.lang.RuntimeException: com.android.ide.common.signing.KeytoolException: Failed to read key appcrosspromoter from store "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/key/keystore_for_test.jks": No key with alias 'appcrosspromoter' found in keystore /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/key/keystore_for_test.jks
+	at com.android.build.gradle.internal.packaging.IncrementalPackagerBuilder.withSigning(IncrementalPackagerBuilder.java:188)
+	at com.android.build.gradle.tasks.PackageAndroidArtifact.doTask(PackageAndroidArtifact.java:668)
+	at com.android.build.gradle.tasks.PackageAndroidArtifact.splitFullAction(PackageAndroidArtifact.java:515)
+	at com.android.build.gradle.tasks.PackageAndroidArtifact.lambda$doFullTaskAction$3(PackageAndroidArtifact.java:396)
+	at com.android.build.gradle.internal.scope.BuildElements$ExecutorBasedScheduler$transform$$inlined$forEach$lambda$1.call(BuildElements.kt:121)
+	at com.android.build.gradle.internal.scope.BuildElements$ExecutorBasedScheduler$transform$$inlined$forEach$lambda$1.call(BuildElements.kt:110)
+Caused by: com.android.ide.common.signing.KeytoolException: Failed to read key appcrosspromoter from store "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/key/keystore_for_test.jks": No key with alias 'appcrosspromoter' found in keystore /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/key/keystore_for_test.jks
+	at com.android.ide.common.signing.KeystoreHelper.getCertificateInfo(KeystoreHelper.java:212)
+	at com.android.build.gradle.internal.packaging.IncrementalPackagerBuilder.withSigning(IncrementalPackagerBuilder.java:173)
+	... 5 more
+Caused by: com.android.ide.common.signing.KeytoolException: No key with alias 'appcrosspromoter' found in keystore /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/key/keystore_for_test.jks
+	at com.android.ide.common.signing.KeystoreHelper.getCertificateInfo(KeystoreHelper.java:199)
+	... 6 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 44s
+97 actionable tasks: 63 executed, 34 up-to-date
+
+2019-02-04 10:49:52,305 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252087636-0/src/AppCrossPromoter-master/sample-app/build/outputs/apk/debug/sample-app-debug.apk

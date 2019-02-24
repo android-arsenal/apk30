@@ -1,0 +1,189 @@
+2019-02-19 12:29:15,135 INFO  DownloadService - Downloading "https://github.com/prabhat1707/DbExporterHelper/archive/master.zip", attempt 3
+2019-02-19 12:29:16,313 INFO  DownloadService - Downloaded https://github.com/prabhat1707/DbExporterHelper/archive/master.zip, attempt 3
+2019-02-19 12:29:16,313 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/master.zip": 172 KB
+2019-02-19 12:29:16,313 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-19 12:29:16,319 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/master.zip: true
+2019-02-19 12:29:16,319 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src'.
+2019-02-19 12:29:16,347 INFO  FullProcessService - Size of directory with sources: 196 KB
+2019-02-19 12:29:16,347 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src]
+2019-02-19 12:29:16,364 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/.git/
+
+2019-02-19 12:29:16,368 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/gradlew
+2019-02-19 12:29:16,372 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/dbexporterlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/build.gradle
+2019-02-19 12:29:16,375 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/dbexporterlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/settings.gradle
+2019-02-19 12:29:16,376 INFO  ProjectBuildService - Remote scripts: none
+2019-02-19 12:29:16,376 INFO  ProjectFixService - Fixing project...
+2019-02-19 12:29:16,384 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/app/local.properties
+2019-02-19 12:29:16,385 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-02-19 12:29:16,385 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-02-19 12:29:16,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/dbexporterlibrary/local.properties
+2019-02-19 12:29:16,387 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/dbexporterlibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-02-19 12:29:16,387 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/dbexporterlibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-02-19 12:29:16,388 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/local.properties
+2019-02-19 12:29:16,389 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-19 12:29:16,389 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-19 12:29:16,390 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-02-19 12:29:16,390 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-02-19 12:29:16,391 INFO  ProjectFixService - Project was maybe fixed
+2019-02-19 12:29:16,391 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 12:29:16,391 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 12:29:22,382 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-19 12:29:22,382 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-19 12:29:22,382 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-19 12:30:03,922 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:dbexporterlibrary:preBuild UP-TO-DATE
+:dbexporterlibrary:preDebugBuild UP-TO-DATE
+:dbexporterlibrary:checkDebugManifest
+:dbexporterlibrary:processDebugManifest
+:app:preDebugBuild
+:dbexporterlibrary:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:dbexporterlibrary:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:dbexporterlibrary:compileDebugRenderscript
+:dbexporterlibrary:generateDebugResValues
+:dbexporterlibrary:generateDebugResources
+:dbexporterlibrary:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:dbexporterlibrary:generateDebugRFile
+:app:processDebugResources
+:dbexporterlibrary:generateDebugBuildConfig
+:dbexporterlibrary:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/dbexporterlibrary/src/main/java/com/android/dbexporterlibrary/ExportDbUtil.kt: (95, 31): Variable 'curCSV' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/dbexporterlibrary/src/main/java/com/android/dbexporterlibrary/ExportDbUtil.kt: (96, 26): Unnecessary non-null assertion (!!) on a non-null receiver of type SQLiteDatabase
+:dbexporterlibrary:prepareLintJar
+:dbexporterlibrary:generateDebugSources
+:dbexporterlibrary:javaPreCompileDebug
+:dbexporterlibrary:compileDebugJavaWithJavac
+:dbexporterlibrary:processDebugJavaRes NO-SOURCE
+:dbexporterlibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:kaptGenerateStubsDebugKotlin
+:app:kaptDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/app/build/tmp/kapt3/stubs/debug/com/example/android/databaseexpoter/db/dao/SecondTableDao.java:15: warning: The query returns some columns [type] which are not use by com.example.android.databaseexpoter.db.entity.SecondTableEntity. You can use @ColumnInfo annotation on the fields to specify the mapping.  You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, name, type. Fields in com.example.android.databaseexpoter.db.entity.SecondTableEntity: id, name.
+    public abstract android.arch.lifecycle.LiveData<java.util.List<com.example.android.databaseexpoter.db.entity.SecondTableEntity>> getAllData();
+                                                                                                                                     ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/app/build/tmp/kapt3/stubs/debug/com/tanzanite/blubox/db/AppDatabase.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class AppDatabase extends android.arch.persistence.room.RoomDatabase {
+                ^
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:dbexporterlibrary:mergeDebugShaders
+:dbexporterlibrary:compileDebugShaders
+:dbexporterlibrary:generateDebugAssets
+:dbexporterlibrary:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:dbexporterlibrary:compileDebugNdk NO-SOURCE
+:dbexporterlibrary:mergeDebugJniLibFolders
+:dbexporterlibrary:transformNativeLibsWithMergeJniLibsForDebug
+:dbexporterlibrary:transformNativeLibsWithStripDebugSymbolForDebug
+:dbexporterlibrary:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:dbexporterlibrary:preReleaseBuild UP-TO-DATE
+:dbexporterlibrary:checkReleaseManifest
+:dbexporterlibrary:processReleaseManifest
+:app:preReleaseBuild
+:dbexporterlibrary:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:dbexporterlibrary:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:dbexporterlibrary:compileReleaseRenderscript
+:dbexporterlibrary:generateReleaseResValues
+:dbexporterlibrary:generateReleaseResources
+:dbexporterlibrary:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:dbexporterlibrary:generateReleaseRFile
+:app:processReleaseResources
+:dbexporterlibrary:generateReleaseBuildConfig
+:dbexporterlibrary:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/dbexporterlibrary/src/main/java/com/android/dbexporterlibrary/ExportDbUtil.kt: (95, 31): Variable 'curCSV' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/dbexporterlibrary/src/main/java/com/android/dbexporterlibrary/ExportDbUtil.kt: (96, 26): Unnecessary non-null assertion (!!) on a non-null receiver of type SQLiteDatabase
+:dbexporterlibrary:generateReleaseSources
+:dbexporterlibrary:javaPreCompileRelease
+:dbexporterlibrary:compileReleaseJavaWithJavac
+:dbexporterlibrary:processReleaseJavaRes NO-SOURCE
+:dbexporterlibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:kaptGenerateStubsReleaseKotlin
+:app:kaptReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/app/build/tmp/kapt3/stubs/release/com/example/android/databaseexpoter/db/dao/SecondTableDao.java:15: warning: The query returns some columns [type] which are not use by com.example.android.databaseexpoter.db.entity.SecondTableEntity. You can use @ColumnInfo annotation on the fields to specify the mapping.  You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, name, type. Fields in com.example.android.databaseexpoter.db.entity.SecondTableEntity: id, name.
+    public abstract android.arch.lifecycle.LiveData<java.util.List<com.example.android.databaseexpoter.db.entity.SecondTableEntity>> getAllData();
+                                                                                                                                     ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/app/build/tmp/kapt3/stubs/release/com/tanzanite/blubox/db/AppDatabase.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class AppDatabase extends android.arch.persistence.room.RoomDatabase {
+                ^
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/c40fcb3b5f04b3594aac0de21e32ee0a/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:dbexporterlibrary:mergeReleaseShaders
+:dbexporterlibrary:compileReleaseShaders
+:dbexporterlibrary:generateReleaseAssets
+:dbexporterlibrary:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:dbexporterlibrary:compileReleaseNdk NO-SOURCE
+:dbexporterlibrary:mergeReleaseJniLibFolders
+:dbexporterlibrary:transformNativeLibsWithMergeJniLibsForRelease
+:dbexporterlibrary:transformNativeLibsWithStripDebugSymbolForRelease
+:dbexporterlibrary:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 40s
+98 actionable tasks: 98 executed
+
+2019-02-19 12:30:04,031 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550554155133-0/src/DbExporterHelper-master/app/build/outputs/apk/debug/app-debug.apk

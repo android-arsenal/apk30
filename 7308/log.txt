@@ -1,0 +1,566 @@
+2019-02-23 17:52:45,532 INFO  DownloadService - Downloading "https://github.com/netguru/sections-decorator-android/archive/master.zip", attempt 3
+2019-02-23 17:53:46,365 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-23 17:53:47,490 INFO  GithubDownloadService - Default branch of this repository: master
+2019-02-23 17:53:47,491 INFO  DownloadService - Downloading "https://github.com/netguru/sections-decorator-android/archive/master.zip", attempt 3
+2019-02-23 17:54:49,342 DEBUG FullProcessService - Repository https://github.com/netguru/sections-decorator-android available: true
+2019-02-23 17:54:49,343 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-23 17:54:49,343 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/netguru/sections-decorator-android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src]
+2019-02-23 17:54:55,654 INFO  SysUtils - 
+2019-02-23 17:54:55,665 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/.git": true
+2019-02-23 17:54:55,670 INFO  FullProcessService - Size of directory with sources: 7 MB
+2019-02-23 17:54:55,670 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src]
+2019-02-23 17:54:55,688 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/.git/
+
+2019-02-23 17:54:55,692 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/gradlew
+2019-02-23 17:54:55,697 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/sectionsDecorator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/build.gradle
+2019-02-23 17:54:55,701 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/buildsystem/secrets.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/buildsystem/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/buildsystem/bitrise.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/buildsystem/sonarqube.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/sectionsDecorator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/settings.gradle
+2019-02-23 17:54:55,701 INFO  ProjectBuildService - Remote scripts: none
+2019-02-23 17:54:55,701 INFO  ProjectFixService - Fixing project...
+2019-02-23 17:54:55,714 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/local.properties
+2019-02-23 17:54:55,717 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=18,targetSdkVersion=27]
+2019-02-23 17:54:55,717 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=18,targetSdkVersion=27]
+2019-02-23 17:54:55,718 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/sectionsDecorator/local.properties
+2019-02-23 17:54:55,720 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/sectionsDecorator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-02-23 17:54:55,720 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/sectionsDecorator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-02-23 17:54:55,721 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/local.properties
+2019-02-23 17:54:55,722 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-02-23 17:54:55,722 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-02-23 17:54:55,725 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=18,targetSdkVersion=27]
+2019-02-23 17:54:55,725 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=18,targetSdkVersion=27]
+2019-02-23 17:54:55,726 INFO  ProjectFixService - Project was maybe fixed
+2019-02-23 17:54:55,726 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 17:54:55,726 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 17:55:04,818 INFO  ProjectTaskService - Detected possible tasks: 79
+2019-02-23 17:55:04,818 INFO  ProjectTaskService - Excluded tasks (21): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test countDebugDexMethods check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug countReleaseDexMethods
+2019-02-23 17:55:04,818 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, countDebugDexMethods, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, -x, countReleaseDexMethods, build]
+2019-02-23 17:56:46,048 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+WARNING: Configuration 'releaseCompile' is obsolete and has been replaced with 'releaseImplementation' and 'releaseApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'debugCompile' is obsolete and has been replaced with 'debugImplementation' and 'debugApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Task :app:checkDebugClasspath
+> Task :app:preBuild UP-TO-DATE
+> Task :app:extractProguardFiles
+> Task :sectionsDecorator:preBuild UP-TO-DATE
+> Task :sectionsDecorator:preDebugBuild UP-TO-DATE
+> Task :sectionsDecorator:checkDebugManifest
+> Task :sectionsDecorator:processDebugManifest
+> Task :app:preDebugBuild
+> Task :sectionsDecorator:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :sectionsDecorator:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :sectionsDecorator:compileDebugRenderscript
+> Task :sectionsDecorator:generateDebugResValues
+> Task :sectionsDecorator:generateDebugResources
+> Task :sectionsDecorator:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:splitsDiscoveryTaskDebug
+> Task :sectionsDecorator:generateDebugBuildConfig SKIPPED
+> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.0) with IdentityTransform
+> Transform support-core-utils.aar (com.android.support:support-core-utils:27.1.1) with IdentityTransform
+> Transform recyclerview-v7.aar (com.android.support:recyclerview-v7:27.1.1) with IdentityTransform
+> Transform support-core-ui.aar (com.android.support:support-core-ui:27.1.1) with IdentityTransform
+> Transform support-compat.aar (com.android.support:support-compat:27.1.1) with IdentityTransform
+> Task :sectionsDecorator:prepareLintJar
+> Transform support-core-ui.aar (com.android.support:support-core-ui:27.1.1) with ExtractAarTransform
+> Transform recyclerview-v7.aar (com.android.support:recyclerview-v7:27.1.1) with ExtractAarTransform
+> Transform support-core-utils.aar (com.android.support:support-core-utils:27.1.1) with ExtractAarTransform
+> Transform support-compat.aar (com.android.support:support-compat:27.1.1) with ExtractAarTransform
+> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.0) with ExtractAarTransform
+> Task :sectionsDecorator:processDebugJavaRes NO-SOURCE
+> Task :app:prepareLintJar
+> Task :app:compileDebugNdk NO-SOURCE
+> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.0) with LibrarySymbolTableTransform
+> Transform support-core-ui.aar (com.android.support:support-core-ui:27.1.1) with LibrarySymbolTableTransform
+> Transform support-compat.aar (com.android.support:support-compat:27.1.1) with LibrarySymbolTableTransform
+> Transform support-core-utils.aar (com.android.support:support-core-utils:27.1.1) with LibrarySymbolTableTransform
+> Transform recyclerview-v7.aar (com.android.support:recyclerview-v7:27.1.1) with LibrarySymbolTableTransform
+> Task :app:mergeDebugShaders
+> Task :sectionsDecorator:generateDebugRFile
+> Task :app:processDebugResources
+> Task :sectionsDecorator:compileDebugKotlin
+> Task :sectionsDecorator:generateDebugSources
+> Task :sectionsDecorator:javaPreCompileDebug
+> Task :sectionsDecorator:compileDebugJavaWithJavac
+> Task :sectionsDecorator:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:kaptDebugKotlin
+> Task :app:compileDebugKotlin
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+
+> Task :app:compileDebugJavaWithJavac
+no match for this type name: dagger.producers.monitoring.ProductionComponentMonitor [Xlint:invalidAbsoluteTypeName]
+advice defined in com.frogermcs.androiddevmetrics.aspect.Dagger2GraphAnalyzer has not been applied [Xlint:adviceDidNotMatch]
+advice defined in com.frogermcs.androiddevmetrics.aspect.ActivityLifecycleAnalyzer has not been applied [Xlint:adviceDidNotMatch]
+
+> Task :app:compileDebugSources
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :sectionsDecorator:mergeDebugShaders
+> Task :sectionsDecorator:compileDebugShaders
+> Task :sectionsDecorator:generateDebugAssets
+> Task :sectionsDecorator:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:transformClassesWithJacocoForDebug
+> Task :sectionsDecorator:mergeDebugConsumerProguardFiles
+> Task :app:transformClassesWithAndroidGradleClassShrinkerForDebug
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :sectionsDecorator:compileDebugNdk NO-SOURCE
+> Task :sectionsDecorator:mergeDebugJniLibFolders
+> Task :sectionsDecorator:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sectionsDecorator:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sectionsDecorator:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:checkDebugLibraries
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:validateSigningDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:checkReleaseClasspath
+> Task :sectionsDecorator:preReleaseBuild UP-TO-DATE
+> Task :sectionsDecorator:checkReleaseManifest
+> Task :sectionsDecorator:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :sectionsDecorator:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :sectionsDecorator:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :sectionsDecorator:compileReleaseRenderscript
+> Task :sectionsDecorator:generateReleaseResValues
+> Task :sectionsDecorator:generateReleaseResources
+> Task :sectionsDecorator:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:splitsDiscoveryTaskRelease
+> Task :sectionsDecorator:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :sectionsDecorator:generateReleaseBuildConfig SKIPPED
+> Task :sectionsDecorator:compileReleaseKotlin
+> Task :sectionsDecorator:generateReleaseSources
+> Task :sectionsDecorator:javaPreCompileRelease
+> Task :sectionsDecorator:compileReleaseJavaWithJavac
+> Task :sectionsDecorator:processReleaseJavaRes NO-SOURCE
+> Task :sectionsDecorator:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:kaptGenerateStubsReleaseKotlin
+> Task :app:kaptReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/src/release/kotlin/co/netguru/android/sectionsDecoratorDemo/application/DebugMetricsHelper.kt: (23, 23): Parameter 'context' is never used
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/86cfcdee30511f4a896dd3335cc91015/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :sectionsDecorator:mergeReleaseShaders
+> Task :sectionsDecorator:compileReleaseShaders
+> Task :sectionsDecorator:generateReleaseAssets
+> Task :sectionsDecorator:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:checkReleaseLibraries
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :sectionsDecorator:mergeReleaseConsumerProguardFiles
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/ac6c35dd0c3cf061222eedcc527d5239/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mvp-3.1.0.aar/e217ed4fa58183e1712b117a756aef35/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/presentermanager-3.1.0.aar/c6431faed7d905de848bcbc39cbf459a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/ec24a28946e8da0f1969c7686501d758/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-appcompat-v7-commons/0.10.4/c534c17f725260e3eb724cb555256816e1a180ec/anko-appcompat-v7-commons-0.10.4.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-support-v4-commons/0.10.4/4e41a9a011df4f878b90ed37510a946b0089ac16/anko-support-v4-commons-0.10.4.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-commons/0.10.4/436b8634ad86d093f55b1e7226c5c40d9743be5c/anko-commons-0.10.4.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.2.71/60ef1c409203739f498f56462a09b15e60c6fa78/kotlin-android-extensions-runtime-1.2.71.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.71/4ce93f539e2133f172f1167291a911f83400a5d0/kotlin-stdlib-jdk7-1.2.71.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.15.aar/0ad7cb7cbbf704226e4821901053894a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/fff7abd80552f23843ebbf008714340d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/7c5c49380c66d6ca21b7283ccbbce8ad/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/dagger-android-2.15.aar/ac80408a54c324cd137575c58a2b8c74/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.15/13cc1f509deda05c1fe5a315519d7cb743b8333b/dagger-2.15.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava2/2.3.0/f436637f9500ab5b8bc32afe556373180894b4a5/adapter-rxjava2-2.3.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.12/975d34a9f14da5b0aecffa603501e9716aae5aa4/rxjava-2.1.12.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxkotlin/2.2.0/e1e2fbb13b1c7dc6d2d03b6221a016d1501ad5a9/rxkotlin-2.2.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.2.aar/e4cbade774379889b0e02966cf77086d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.10.0/55f574ec622f65ac9c0e2e922d3ffa01dc4f139e/logging-interceptor-3.10.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.3.0/9e09011e9767bb76b5e27c9b8223476b93b14631/converter-gson-2.3.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/bcacde6a8ccedcc56c127403d26b76072fe6214d/retrofit-2.3.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/paperparcel-2.0.5.aar/87c8884f6dc289c747304363ca20001f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/timber-4.7.0.aar/925d07e747ec50c3850e1956c0c79b02/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/androiddevmetrics-runtime-noop-0.6.aar/1c4194bd66827c8692a80caf3f000b7a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/2689c8ae9891df2427f518f09ed8c98d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/ea8cb070590fb640047d4dd62af0bbcd/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/9e863ce98c9fe06d0b87a559836984a9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/8785cd1bb6d5527edf168daab32cd452/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/190c0f8bde801e546b7a3028cb9bf0c3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/9b996b05bee78fe9ee5c967766b05bf3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/d5ea178517fa51c65dc1b84426982760/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/850529781bde88babb1bb2a3de65db39/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.71/ba18ca1aa0e40eb6f1865b324af2f4cbb691c1ec/kotlin-stdlib-common-1.2.71.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/nz.bradcampbell/paperparcel-api/2.0.5/2fad2bd671bb316d8e484f4b0068ad7e2b5aa38c/paperparcel-api-2.0.5.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.hannesdorfmann.mosby3/mvp-common/3.1.0/a99a4226e736cc00c9a10b6006ff3f547b11f59e/mvp-common-3.1.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/utils-fragment-3.1.0.aar/8bcae8f2155e277b0310af61b591cea2/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/7b569eca22b01ebeab67d0256fbc5be6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/4f75dff9fa9f5f9582c5581b34da6f28/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cec7ba78b83a1f277071c379022af9e2/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/aaeddf4241ad2df5d86ce9d5af77c5e0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/sectionsDecorator/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/build/tmp/kotlin-classes/release] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/build/tmp/kapt3/classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.annotation/10.0-b28/30eb3b3cc9cb0863a4edaea5a7575f8ace1b96ba/javax.annotation-10.0-b28.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Initializing...
+Note: the configuration refers to the unknown class 'sun.misc.Unsafe'
+Note: the configuration refers to the unknown class 'com.bumptech.glide.module.GlideModule'
+Note: the configuration refers to the unknown class 'com.bumptech.glide.AppGlideModule'
+Note: com.google.gson.internal.UnsafeAllocator: can't find dynamically referenced class sun.misc.Unsafe
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.jdk8.JDK8PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE8PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE7PlatformImplementations
+Note: kotlin.jvm.internal.Reflection: can't find dynamically referenced class kotlin.reflect.jvm.internal.ReflectionFactoryImpl
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class com.android.org.conscrypt.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform$CloseGuard: can't find dynamically referenced class dalvik.system.CloseGuard
+Note: okhttp3.internal.platform.ConscryptPlatform: can't find dynamically referenced class org.conscrypt.ConscryptEngineSocket
+Note: okhttp3.internal.platform.Platform: can't find dynamically referenced class sun.security.ssl.SSLContextImpl
+
+> Task :app:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+
+Note: the configuration keeps the entry point 'com.hannesdorfmann.mosby3.mvp.layout.MvpFrameLayout { void setPresenter(com.hannesdorfmann.mosby3.mvp.MvpPresenter); }', but not the descriptor class 'com.hannesdorfmann.mosby3.mvp.MvpPresenter'
+Note: the configuration keeps the entry point 'com.hannesdorfmann.mosby3.mvp.layout.MvpLinearLayout { void setPresenter(com.hannesdorfmann.mosby3.mvp.MvpPresenter); }', but not the descriptor class 'com.hannesdorfmann.mosby3.mvp.MvpPresenter'
+Note: the configuration keeps the entry point 'com.hannesdorfmann.mosby3.mvp.layout.MvpRelativeLayout { void setPresenter(com.hannesdorfmann.mosby3.mvp.MvpPresenter); }', but not the descriptor class 'com.hannesdorfmann.mosby3.mvp.MvpPresenter'
+Note: there were 3 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 3 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 10 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 4623
+  Final number of library classes:    1309
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 5507
+  Final number of program classes:    1309
+Optimizing (pass 1/5)...
+  Number of finalized classes:                   544
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           0   (disabled)
+  Number of privatized fields:                   0   (disabled)
+  Number of inlined constant fields:             0   (disabled)
+  Number of privatized methods:                  566
+  Number of staticized methods:                  358
+  Number of finalized methods:                   4068
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        308
+  Number of removed method parameters:           394
+  Number of inlined constant parameters:         93
+  Number of inlined constant return values:      57
+  Number of inlined short method calls:          922
+  Number of inlined unique method calls:         1027
+  Number of inlined tail recursion calls:        14
+  Number of merged code blocks:                  45
+  Number of variable peephole optimizations:     5415
+  Number of arithmetic peephole optimizations:   0   (disabled)
+  Number of cast peephole optimizations:         0   (disabled)
+  Number of field peephole optimizations:        54
+  Number of branch peephole optimizations:       1519
+  Number of object peephole optimizations:       18
+  Number of string peephole optimizations:       323
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             524
+  Number of removed instructions:                3161
+  Number of removed local variables:             237
+  Number of removed exception blocks:            95
+  Number of optimized local variable frames:     1793
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 1309
+  Final number of program classes:    1270
+Optimizing (pass 2/5)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           0   (disabled)
+  Number of privatized fields:                   0   (disabled)
+  Number of inlined constant fields:             0   (disabled)
+  Number of privatized methods:                  3
+  Number of staticized methods:                  13
+  Number of finalized methods:                   41
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        141
+  Number of removed method parameters:           175
+  Number of inlined constant parameters:         106
+  Number of inlined constant return values:      20
+  Number of inlined short method calls:          40
+  Number of inlined unique method calls:         49
+  Number of inlined tail recursion calls:        4
+  Number of merged code blocks:                  8
+  Number of variable peephole optimizations:     407
+  Number of arithmetic peephole optimizations:   0   (disabled)
+  Number of cast peephole optimizations:         0   (disabled)
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       45
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       80
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             163
+  Number of removed instructions:                4126
+  Number of removed local variables:             89
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     140
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 1270
+  Final number of program classes:    1270
+Optimizing (pass 3/5)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           0   (disabled)
+  Number of privatized fields:                   0   (disabled)
+  Number of inlined constant fields:             0   (disabled)
+  Number of privatized methods:                  0
+  Number of staticized methods:                  1
+  Number of finalized methods:                   4
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        42
+  Number of removed method parameters:           58
+  Number of inlined constant parameters:         35
+  Number of inlined constant return values:      19
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         4
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     57
+  Number of arithmetic peephole optimizations:   0   (disabled)
+  Number of cast peephole optimizations:         0   (disabled)
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       9
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             16
+  Number of removed instructions:                612
+  Number of removed local variables:             4
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     21
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 1270
+  Final number of program classes:    1270
+Optimizing (pass 4/5)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           0   (disabled)
+  Number of privatized fields:                   0   (disabled)
+  Number of inlined constant fields:             0   (disabled)
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   1
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        8
+  Number of removed method parameters:           9
+  Number of inlined constant parameters:         7
+  Number of inlined constant return values:      19
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     7
+  Number of arithmetic peephole optimizations:   0   (disabled)
+  Number of cast peephole optimizations:         0   (disabled)
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             4
+  Number of removed instructions:                51
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     1
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 1270
+  Final number of program classes:    1270
+Optimizing (pass 5/5)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           0   (disabled)
+  Number of privatized fields:                   0   (disabled)
+  Number of inlined constant fields:             0   (disabled)
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        2
+  Number of removed method parameters:           2
+  Number of inlined constant parameters:         4
+  Number of inlined constant return values:      19
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     3
+  Number of arithmetic peephole optimizations:   0   (disabled)
+  Number of cast peephole optimizations:         0   (disabled)
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             1
+  Number of removed instructions:                11
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 1270
+  Final number of program classes:    1270
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/build/outputs/mapping/release/mapping.txt]...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/ac6c35dd0c3cf061222eedcc527d5239/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/mvp-3.1.0.aar/e217ed4fa58183e1712b117a756aef35/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/presentermanager-3.1.0.aar/c6431faed7d905de848bcbc39cbf459a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/ec24a28946e8da0f1969c7686501d758/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-appcompat-v7-commons/0.10.4/c534c17f725260e3eb724cb555256816e1a180ec/anko-appcompat-v7-commons-0.10.4.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-support-v4-commons/0.10.4/4e41a9a011df4f878b90ed37510a946b0089ac16/anko-support-v4-commons-0.10.4.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-commons/0.10.4/436b8634ad86d093f55b1e7226c5c40d9743be5c/anko-commons-0.10.4.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.2.71/60ef1c409203739f498f56462a09b15e60c6fa78/kotlin-android-extensions-runtime-1.2.71.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.71/4ce93f539e2133f172f1167291a911f83400a5d0/kotlin-stdlib-jdk7-1.2.71.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.15.aar/0ad7cb7cbbf704226e4821901053894a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/fff7abd80552f23843ebbf008714340d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/7c5c49380c66d6ca21b7283ccbbce8ad/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/dagger-android-2.15.aar/ac80408a54c324cd137575c58a2b8c74/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.15/13cc1f509deda05c1fe5a315519d7cb743b8333b/dagger-2.15.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava2/2.3.0/f436637f9500ab5b8bc32afe556373180894b4a5/adapter-rxjava2-2.3.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.12/975d34a9f14da5b0aecffa603501e9716aae5aa4/rxjava-2.1.12.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxkotlin/2.2.0/e1e2fbb13b1c7dc6d2d03b6221a016d1501ad5a9/rxkotlin-2.2.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.2.aar/e4cbade774379889b0e02966cf77086d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.10.0/55f574ec622f65ac9c0e2e922d3ffa01dc4f139e/logging-interceptor-3.10.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.3.0/9e09011e9767bb76b5e27c9b8223476b93b14631/converter-gson-2.3.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/bcacde6a8ccedcc56c127403d26b76072fe6214d/retrofit-2.3.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/paperparcel-2.0.5.aar/87c8884f6dc289c747304363ca20001f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/timber-4.7.0.aar/925d07e747ec50c3850e1956c0c79b02/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/androiddevmetrics-runtime-noop-0.6.aar/1c4194bd66827c8692a80caf3f000b7a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/2689c8ae9891df2427f518f09ed8c98d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/ea8cb070590fb640047d4dd62af0bbcd/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/9e863ce98c9fe06d0b87a559836984a9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/8785cd1bb6d5527edf168daab32cd452/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/190c0f8bde801e546b7a3028cb9bf0c3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/9b996b05bee78fe9ee5c967766b05bf3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/d5ea178517fa51c65dc1b84426982760/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/850529781bde88babb1bb2a3de65db39/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.71/ba18ca1aa0e40eb6f1865b324af2f4cbb691c1ec/kotlin-stdlib-common-1.2.71.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/nz.bradcampbell/paperparcel-api/2.0.5/2fad2bd671bb316d8e484f4b0068ad7e2b5aa38c/paperparcel-api-2.0.5.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.hannesdorfmann.mosby3/mvp-common/3.1.0/a99a4226e736cc00c9a10b6006ff3f547b11f59e/mvp-common-3.1.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/utils-fragment-3.1.0.aar/8bcae8f2155e277b0310af61b591cea2/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/7b569eca22b01ebeab67d0256fbc5be6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/4f75dff9fa9f5f9582c5581b34da6f28/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cec7ba78b83a1f277071c379022af9e2/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/aaeddf4241ad2df5d86ce9d5af77c5e0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/sectionsDecorator/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/build/tmp/kotlin-classes/release] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/build/tmp/kapt3/classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+Removed unused resources: Binary resource data reduced from 572KB to 543KB: Removed 5%
+> Task :app:transformClassesAndDexWithShrinkResForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :sectionsDecorator:compileReleaseNdk NO-SOURCE
+> Task :sectionsDecorator:mergeReleaseJniLibFolders
+> Task :sectionsDecorator:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sectionsDecorator:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sectionsDecorator:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 1m 40s
+101 actionable tasks: 101 executed
+
+2019-02-23 17:56:46,249 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919165524-0/src/app/build/outputs/apk/debug/app-debug.apk

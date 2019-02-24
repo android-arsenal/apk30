@@ -1,0 +1,167 @@
+2018-11-13 14:10:57,126 INFO  DownloadService - Downloading "https://github.com/hsmnzaydn/image-zoom-view/archive/master.zip", attempt 3
+2018-11-13 14:10:59,201 INFO  DownloadService - Downloaded https://github.com/hsmnzaydn/image-zoom-view/archive/master.zip, attempt 3
+2018-11-13 14:10:59,201 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/master.zip": 206 KB
+2018-11-13 14:10:59,201 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-13 14:10:59,202 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/master.zip: true
+2018-11-13 14:10:59,202 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src'.
+2018-11-13 14:10:59,230 INFO  FullProcessService - Size of directory with sources: 234 KB
+2018-11-13 14:10:59,231 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src]
+2018-11-13 14:10:59,256 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/.git/
+
+2018-11-13 14:10:59,261 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/gradlew
+2018-11-13 14:10:59,265 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/image-zoom-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/build.gradle
+2018-11-13 14:10:59,270 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/image-zoom-view/build.gradle
+2018-11-13 14:10:59,270 INFO  ProjectBuildService - Remote scripts: none
+2018-11-13 14:10:59,270 INFO  ProjectFixService - Fixing project...
+2018-11-13 14:10:59,282 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/app/local.properties
+2018-11-13 14:10:59,283 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-13 14:10:59,284 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-13 14:10:59,285 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/image-zoom-view/local.properties
+2018-11-13 14:10:59,286 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/image-zoom-view/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-13 14:10:59,286 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/image-zoom-view/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-13 14:10:59,287 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/local.properties
+2018-11-13 14:10:59,288 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-11-13 14:10:59,289 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-11-13 14:10:59,290 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-13 14:10:59,290 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-13 14:10:59,291 INFO  ProjectFixService - Project was maybe fixed
+2018-11-13 14:10:59,291 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-13 14:10:59,291 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-13 14:11:05,819 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-11-13 14:11:05,820 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-13 14:11:05,820 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-13 14:11:43,698 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:app:preBuild UP-TO-DATE
+:image-zoom-view:preBuild UP-TO-DATE
+:image-zoom-view:preDebugBuild UP-TO-DATE
+:image-zoom-view:checkDebugManifest
+:image-zoom-view:processDebugManifest
+:app:preDebugBuild
+:image-zoom-view:compileDebugAidl
+:app:compileDebugAidl
+:image-zoom-view:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:image-zoom-view:compileDebugRenderscript
+:image-zoom-view:generateDebugResValues
+:image-zoom-view:generateDebugResources
+:image-zoom-view:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:image-zoom-view:platformAttrExtractor
+:image-zoom-view:generateDebugBuildConfig
+:image-zoom-view:prepareLintJar
+:image-zoom-view:javaPreCompileDebug
+:image-zoom-view:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:image-zoom-view:mergeDebugShaders
+:image-zoom-view:compileDebugShaders
+:image-zoom-view:generateDebugAssets
+:image-zoom-view:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:image-zoom-view:compileDebugNdk NO-SOURCE
+:image-zoom-view:mergeDebugJniLibFolders
+:image-zoom-view:transformNativeLibsWithMergeJniLibsForDebug
+:image-zoom-view:transformNativeLibsWithStripDebugSymbolForDebug
+:image-zoom-view:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:image-zoom-view:preReleaseBuild UP-TO-DATE
+:image-zoom-view:checkReleaseManifest
+:image-zoom-view:processReleaseManifest
+:app:preReleaseBuild
+:image-zoom-view:compileReleaseAidl
+:app:compileReleaseAidl
+:image-zoom-view:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:image-zoom-view:compileReleaseRenderscript
+:image-zoom-view:generateReleaseResValues
+:image-zoom-view:generateReleaseResources
+:image-zoom-view:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:image-zoom-view:generateReleaseBuildConfig
+:image-zoom-view:javaPreCompileRelease
+:image-zoom-view:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:image-zoom-view:mergeReleaseShaders
+:image-zoom-view:compileReleaseShaders
+:image-zoom-view:generateReleaseAssets
+:image-zoom-view:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:image-zoom-view:compileReleaseNdk NO-SOURCE
+:image-zoom-view:mergeReleaseJniLibFolders
+:image-zoom-view:transformNativeLibsWithMergeJniLibsForRelease
+:image-zoom-view:transformNativeLibsWithStripDebugSymbolForRelease
+:image-zoom-view:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:image-zoom-view:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:image-zoom-view:generateDebugSources
+:image-zoom-view:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/image-zoom-view/src/main/java/ozaydin/serkan/com/image_zoom_view/ImageProperties.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:image-zoom-view:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:image-zoom-view:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:image-zoom-view:generateReleaseSources
+:image-zoom-view:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/image-zoom-view/src/main/java/ozaydin/serkan/com/image_zoom_view/ImageProperties.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:image-zoom-view:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 36s
+91 actionable tasks: 91 executed
+
+2018-11-13 14:11:43,807 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542093057121-0/src/image-zoom-view-master/app/build/outputs/apk/debug/app-debug.apk

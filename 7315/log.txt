@@ -1,0 +1,192 @@
+2019-02-04 10:50:06,737 INFO  DownloadService - Downloading "https://github.com/shehabic/sherlock/archive/master.zip", attempt 3
+2019-02-04 10:50:24,333 INFO  DownloadService - Downloaded https://github.com/shehabic/sherlock/archive/master.zip, attempt 3
+2019-02-04 10:50:24,333 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/master.zip": 11 MB
+2019-02-04 10:50:24,333 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-04 10:50:24,339 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/master.zip: true
+2019-02-04 10:50:24,340 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src'.
+2019-02-04 10:50:24,449 INFO  FullProcessService - Size of directory with sources: 12 MB
+2019-02-04 10:50:24,449 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src]
+2019-02-04 10:50:24,466 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/.git/
+
+2019-02-04 10:50:24,471 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/gradlew
+2019-02-04 10:50:24,477 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/sherlock-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/sherlock/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/build.gradle
+2019-02-04 10:50:24,482 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/sherlock/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/gradle/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/gradle/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/sherlock-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/settings.gradle
+2019-02-04 10:50:24,483 INFO  ProjectBuildService - Remote scripts: none
+2019-02-04 10:50:24,483 INFO  ProjectFixService - Fixing project...
+2019-02-04 10:50:24,499 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/app/local.properties
+2019-02-04 10:50:24,502 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-04 10:50:24,502 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-04 10:50:24,503 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/sherlock-no-op/local.properties
+2019-02-04 10:50:24,505 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/sherlock-no-op/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-04 10:50:24,505 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/sherlock-no-op/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-04 10:50:24,506 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/sherlock/local.properties
+2019-02-04 10:50:24,508 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/sherlock/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-04 10:50:24,508 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/sherlock/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-04 10:50:24,509 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/local.properties
+2019-02-04 10:50:24,509 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-04 10:50:24,510 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-04 10:50:24,511 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-04 10:50:24,512 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-04 10:50:24,512 INFO  ProjectFixService - Project was maybe fixed
+2019-02-04 10:50:24,512 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-04 10:50:24,512 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-04 10:50:31,086 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-04 10:50:31,086 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-04 10:50:31,087 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-04 10:51:27,639 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:sherlock:preBuild UP-TO-DATE
+:sherlock:preDebugBuild UP-TO-DATE
+:sherlock:checkDebugManifest
+:sherlock:processDebugManifest
+:app:preDebugBuild
+:sherlock:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:sherlock:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:sherlock:compileDebugRenderscript
+:sherlock:generateDebugResValues
+:sherlock:generateDebugResources
+:sherlock:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:sherlock:generateDebugRFile
+:app:processDebugResources
+:sherlock:generateDebugBuildConfig
+:sherlock:kaptGenerateStubsDebugKotlin
+:sherlock:kaptDebugKotlin
+:sherlock:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/sherlock/src/main/java/com/shehabic/sherlock/db/Db.kt: (33, 5): Modifier 'open' is redundant for 'interface'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/sherlock/src/main/java/com/shehabic/sherlock/ui/NetRequestDetailFragment.kt: (68, 49): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/sherlock/src/main/java/com/shehabic/sherlock/ui/NetRequestDetailFragment.kt: (169, 25): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/sherlock/src/main/java/com/shehabic/sherlock/ui/NetRequestListActivity.kt: (96, 64): Parameter 'd' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/sherlock/src/main/java/com/shehabic/sherlock/ui/NetworkSherlockAnchor.kt: (70, 47): 'getter for width: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/sherlock/src/main/java/com/shehabic/sherlock/ui/NetworkSherlockAnchor.kt: (70, 62): 'getter for height: Int' is deprecated. Deprecated in Java
+:sherlock:prepareLintJar
+:sherlock:generateDebugSources
+:sherlock:javaPreCompileDebug
+:sherlock:compileDebugJavaWithJavac
+:sherlock:processDebugJavaRes NO-SOURCE
+:sherlock:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:kaptGenerateStubsDebugKotlin
+:app:kaptDebugKotlin
+:app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/app/src/main/java/com/shehabic/testsherlock/MainActivity.kt: (38, 34): Parameter 'view' is never used, could be renamed to _
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:sherlock:mergeDebugShaders
+:sherlock:compileDebugShaders
+:sherlock:generateDebugAssets
+:sherlock:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformClassesWithMultidexlistForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:sherlock:compileDebugNdk NO-SOURCE
+:sherlock:mergeDebugJniLibFolders
+:sherlock:transformNativeLibsWithMergeJniLibsForDebug
+:sherlock:transformNativeLibsWithStripDebugSymbolForDebug
+:sherlock:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:sherlock-no-op:preBuild UP-TO-DATE
+:sherlock-no-op:preReleaseBuild UP-TO-DATE
+:sherlock-no-op:checkReleaseManifest
+:sherlock-no-op:processReleaseManifest
+:app:preReleaseBuild
+:sherlock-no-op:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:sherlock-no-op:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:sherlock-no-op:compileReleaseRenderscript
+:sherlock-no-op:generateReleaseResValues
+:sherlock-no-op:generateReleaseResources
+:sherlock-no-op:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:sherlock-no-op:generateReleaseRFile
+:app:processReleaseResources
+:sherlock-no-op:generateReleaseBuildConfig
+:sherlock-no-op:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/sherlock-no-op/src/main/java/com/shehabic/sherlock/NetworkSherlock.kt: (33, 14): Parameter 'context' is never used
+:sherlock-no-op:prepareLintJar
+:sherlock-no-op:generateReleaseSources
+:sherlock-no-op:javaPreCompileRelease
+:sherlock-no-op:compileReleaseJavaWithJavac
+:sherlock-no-op:processReleaseJavaRes NO-SOURCE
+:sherlock-no-op:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:kaptGenerateStubsReleaseKotlin
+:app:kaptReleaseKotlin
+:app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/app/src/main/java/com/shehabic/testsherlock/MainActivity.kt: (38, 34): Parameter 'view' is never used, could be renamed to _
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/b3284a2cdf86383cbabfd09a765b292a/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/f52aa5987f610c3a666e998118bf2d1c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:sherlock-no-op:mergeReleaseShaders
+:sherlock-no-op:compileReleaseShaders
+:sherlock-no-op:generateReleaseAssets
+:sherlock-no-op:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformClassesWithMultidexlistForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:sherlock-no-op:compileReleaseNdk NO-SOURCE
+:sherlock-no-op:mergeReleaseJniLibFolders
+:sherlock-no-op:transformNativeLibsWithMergeJniLibsForRelease
+:sherlock-no-op:transformNativeLibsWithStripDebugSymbolForRelease
+:sherlock-no-op:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 55s
+101 actionable tasks: 101 executed
+
+2019-02-04 10:51:27,751 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549252206732-0/src/sherlock-master/app/build/outputs/apk/debug/app-debug.apk

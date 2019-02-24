@@ -1,0 +1,177 @@
+2019-02-19 11:53:59,976 INFO  DownloadService - Downloading "https://github.com/meet30997/Quicktoast/archive/master.zip", attempt 3
+2019-02-19 11:54:01,819 INFO  DownloadService - Downloaded https://github.com/meet30997/Quicktoast/archive/master.zip, attempt 3
+2019-02-19 11:54:01,819 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/master.zip": 140 KB
+2019-02-19 11:54:01,819 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-19 11:54:01,832 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/master.zip: true
+2019-02-19 11:54:01,833 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src'.
+2019-02-19 11:54:01,854 INFO  FullProcessService - Size of directory with sources: 146 KB
+2019-02-19 11:54:01,854 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src]
+2019-02-19 11:54:01,883 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/.git/
+
+2019-02-19 11:54:01,887 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/gradlew
+2019-02-19 11:54:01,892 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/quicktoast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/build.gradle
+2019-02-19 11:54:01,897 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/quicktoast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/settings.gradle
+2019-02-19 11:54:01,897 INFO  ProjectBuildService - Remote scripts: none
+2019-02-19 11:54:01,897 INFO  ProjectFixService - Fixing project...
+2019-02-19 11:54:01,907 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/app/local.properties
+2019-02-19 11:54:01,908 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-19 11:54:01,908 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-19 11:54:01,910 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/quicktoast/local.properties
+2019-02-19 11:54:01,911 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/quicktoast/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-19 11:54:01,911 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/quicktoast/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-19 11:54:01,912 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/local.properties
+2019-02-19 11:54:01,913 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-19 11:54:01,914 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-19 11:54:01,915 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-19 11:54:01,915 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-19 11:54:01,916 INFO  ProjectFixService - Project was maybe fixed
+2019-02-19 11:54:01,916 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 11:54:01,916 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 11:54:12,204 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-19 11:54:12,205 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-19 11:54:12,205 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-19 11:54:58,378 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:quicktoast:preBuild UP-TO-DATE
+:quicktoast:preDebugBuild UP-TO-DATE
+:quicktoast:checkDebugManifest
+:quicktoast:processDebugManifest
+:app:preDebugBuild
+:quicktoast:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:quicktoast:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:quicktoast:compileDebugRenderscript
+:quicktoast:generateDebugResValues
+:quicktoast:generateDebugResources
+:quicktoast:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:quicktoast:generateDebugRFile
+:app:processDebugResources
+:quicktoast:generateDebugBuildConfig
+:quicktoast:prepareLintJar
+:quicktoast:generateDebugSources
+:quicktoast:javaPreCompileDebug
+:quicktoast:compileDebugJavaWithJavac
+:quicktoast:processDebugJavaRes NO-SOURCE
+:quicktoast:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:quicktoast:mergeDebugShaders
+:quicktoast:compileDebugShaders
+:quicktoast:generateDebugAssets
+:quicktoast:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 2 methods.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:quicktoast:compileDebugNdk NO-SOURCE
+:quicktoast:mergeDebugJniLibFolders
+:quicktoast:transformNativeLibsWithMergeJniLibsForDebug
+:quicktoast:transformNativeLibsWithStripDebugSymbolForDebug
+:quicktoast:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:quicktoast:preReleaseBuild UP-TO-DATE
+:quicktoast:checkReleaseManifest
+:quicktoast:processReleaseManifest
+:app:preReleaseBuild
+:quicktoast:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:quicktoast:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:quicktoast:compileReleaseRenderscript
+:quicktoast:generateReleaseResValues
+:quicktoast:generateReleaseResources
+:quicktoast:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:quicktoast:generateReleaseRFile
+:app:processReleaseResources
+:quicktoast:generateReleaseBuildConfig
+:quicktoast:generateReleaseSources
+:quicktoast:javaPreCompileRelease
+:quicktoast:compileReleaseJavaWithJavac
+:quicktoast:processReleaseJavaRes NO-SOURCE
+:quicktoast:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:quicktoast:mergeReleaseShaders
+:quicktoast:compileReleaseShaders
+:quicktoast:generateReleaseAssets
+:quicktoast:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:quicktoast:compileReleaseNdk NO-SOURCE
+:quicktoast:mergeReleaseJniLibFolders
+:quicktoast:transformNativeLibsWithMergeJniLibsForRelease
+:quicktoast:transformNativeLibsWithStripDebugSymbolForRelease
+:quicktoast:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 45s
+92 actionable tasks: 92 executed
+
+2019-02-19 11:54:58,491 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552039968-0/src/Quicktoast-master/app/build/outputs/apk/debug/app-debug.apk

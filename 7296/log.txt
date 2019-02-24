@@ -1,0 +1,171 @@
+2019-02-19 12:24:17,965 INFO  DownloadService - Downloading "https://github.com/Guilherme-HRamos/OwlBottomSheet/archive/master.zip", attempt 3
+2019-02-19 12:24:33,806 INFO  DownloadService - Downloaded https://github.com/Guilherme-HRamos/OwlBottomSheet/archive/master.zip, attempt 3
+2019-02-19 12:24:33,806 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/master.zip": 10 MB
+2019-02-19 12:24:33,806 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-19 12:24:33,807 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/master.zip: true
+2019-02-19 12:24:33,807 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src'.
+2019-02-19 12:24:33,944 INFO  FullProcessService - Size of directory with sources: 11 MB
+2019-02-19 12:24:33,944 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src]
+2019-02-19 12:24:33,968 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/.git/
+
+2019-02-19 12:24:33,970 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/gradlew
+2019-02-19 12:24:33,973 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/owlbottomsheet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/build.gradle
+2019-02-19 12:24:33,976 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/owlbottomsheet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/settings.gradle
+2019-02-19 12:24:33,977 INFO  ProjectBuildService - Remote scripts: none
+2019-02-19 12:24:33,977 INFO  ProjectFixService - Fixing project...
+2019-02-19 12:24:33,984 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/app/local.properties
+2019-02-19 12:24:33,985 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 12:24:33,985 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 12:24:33,986 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/owlbottomsheet/local.properties
+2019-02-19 12:24:33,987 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/owlbottomsheet/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 12:24:33,987 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/owlbottomsheet/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 12:24:33,988 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/local.properties
+2019-02-19 12:24:33,988 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-19 12:24:33,988 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-19 12:24:33,989 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 12:24:33,989 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 12:24:33,990 INFO  ProjectFixService - Project was maybe fixed
+2019-02-19 12:24:33,990 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 12:24:33,990 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 12:24:51,040 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-02-19 12:24:51,040 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-19 12:24:51,041 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-19 12:25:29,805 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:owlbottomsheet:preBuild UP-TO-DATE
+:owlbottomsheet:preDebugBuild UP-TO-DATE
+:owlbottomsheet:checkDebugManifest
+:owlbottomsheet:processDebugManifest
+:app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/28.0.0-rc01/recyclerview-v7-28.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/cardview-v7/28.0.0-rc01/cardview-v7-28.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/28.0.0-rc01/transition-28.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/28.0.0-rc01/design-28.0.0-rc01.aar
+:owlbottomsheet:compileDebugAidl
+:app:compileDebugAidl
+:owlbottomsheet:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:owlbottomsheet:compileDebugRenderscript
+:owlbottomsheet:generateDebugResValues
+:owlbottomsheet:generateDebugResources
+:owlbottomsheet:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:owlbottomsheet:platformAttrExtractor
+:owlbottomsheet:generateDebugBuildConfig
+:owlbottomsheet:prepareLintJar
+:owlbottomsheet:javaPreCompileDebug
+:owlbottomsheet:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:owlbottomsheet:mergeDebugShaders
+:owlbottomsheet:compileDebugShaders
+:owlbottomsheet:generateDebugAssets
+:owlbottomsheet:packageDebugAssets
+:app:mergeDebugAssets
+:app:extractTryWithResourcesSupportJarDebug
+:app:mergeDebugJniLibFolders
+:owlbottomsheet:compileDebugNdk NO-SOURCE
+:owlbottomsheet:mergeDebugJniLibFolders
+:owlbottomsheet:transformNativeLibsWithMergeJniLibsForDebug
+:owlbottomsheet:transformNativeLibsWithStripDebugSymbolForDebug
+:owlbottomsheet:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:owlbottomsheet:preReleaseBuild UP-TO-DATE
+:owlbottomsheet:checkReleaseManifest
+:owlbottomsheet:processReleaseManifest
+:app:preReleaseBuild
+:owlbottomsheet:compileReleaseAidl
+:app:compileReleaseAidl
+:owlbottomsheet:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:owlbottomsheet:compileReleaseRenderscript
+:owlbottomsheet:generateReleaseResValues
+:owlbottomsheet:generateReleaseResources
+:owlbottomsheet:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:owlbottomsheet:generateReleaseBuildConfig
+:owlbottomsheet:javaPreCompileRelease
+:owlbottomsheet:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:owlbottomsheet:mergeReleaseShaders
+:owlbottomsheet:compileReleaseShaders
+:owlbottomsheet:generateReleaseAssets
+:owlbottomsheet:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:extractTryWithResourcesSupportJarRelease
+:app:mergeReleaseJniLibFolders
+:owlbottomsheet:compileReleaseNdk NO-SOURCE
+:owlbottomsheet:mergeReleaseJniLibFolders
+:owlbottomsheet:transformNativeLibsWithMergeJniLibsForRelease
+:owlbottomsheet:transformNativeLibsWithStripDebugSymbolForRelease
+:owlbottomsheet:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:owlbottomsheet:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:owlbottomsheet:generateDebugSources
+:owlbottomsheet:compileDebugJavaWithJavac
+:owlbottomsheet:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithStackFramesFixerForDebug
+:app:transformClassesWithDesugarForDebug
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:owlbottomsheet:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:owlbottomsheet:generateReleaseSources
+:owlbottomsheet:compileReleaseJavaWithJavac
+:owlbottomsheet:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithStackFramesFixerForRelease
+:app:transformClassesWithDesugarForRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 38s
+97 actionable tasks: 97 executed
+
+2019-02-19 12:25:29,904 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553857962-0/src/OwlBottomSheet-master/app/build/outputs/apk/debug/app-debug.apk

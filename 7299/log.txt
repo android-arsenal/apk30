@@ -1,0 +1,437 @@
+2019-02-19 12:21:00,734 INFO  DownloadService - Downloading "https://github.com/Rohyme/PrettyStateView/archive/master.zip", attempt 3
+2019-02-19 12:21:03,177 INFO  DownloadService - Downloaded https://github.com/Rohyme/PrettyStateView/archive/master.zip, attempt 3
+2019-02-19 12:21:03,177 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/master.zip": 301 KB
+2019-02-19 12:21:03,177 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-19 12:21:03,183 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/master.zip: true
+2019-02-19 12:21:03,183 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src'.
+2019-02-19 12:21:03,209 INFO  FullProcessService - Size of directory with sources: 332 KB
+2019-02-19 12:21:03,209 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src]
+2019-02-19 12:21:03,225 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/.git/
+
+2019-02-19 12:21:03,229 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/gradlew
+2019-02-19 12:21:03,233 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/prettystates/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/build.gradle
+2019-02-19 12:21:03,236 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/prettystates/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/settings.gradle
+2019-02-19 12:21:03,236 INFO  ProjectBuildService - Remote scripts: none
+2019-02-19 12:21:03,236 INFO  ProjectFixService - Fixing project...
+2019-02-19 12:21:03,244 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/local.properties
+2019-02-19 12:21:03,245 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-02-19 12:21:03,245 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-02-19 12:21:03,246 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/prettystates/local.properties
+2019-02-19 12:21:03,246 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/prettystates/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-02-19 12:21:03,246 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/prettystates/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-02-19 12:21:03,247 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/local.properties
+2019-02-19 12:21:03,247 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-02-19 12:21:03,248 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-02-19 12:21:03,249 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-02-19 12:21:03,249 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-02-19 12:21:03,249 INFO  ProjectFixService - Project was maybe fixed
+2019-02-19 12:21:03,249 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 12:21:03,249 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 12:21:13,203 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-19 12:21:13,203 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-19 12:21:13,203 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-19 12:21:26,152 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-19 12:21:26,153 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :prettystates:preBuild UP-TO-DATE
+> Task :prettystates:preDebugBuild UP-TO-DATE
+> Task :prettystates:checkDebugManifest
+> Task :prettystates:processDebugManifest
+> Task :app:preDebugBuild
+> Task :prettystates:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :prettystates:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :prettystates:compileDebugRenderscript
+> Task :prettystates:generateDebugResValues
+> Task :prettystates:generateDebugResources
+> Task :prettystates:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :prettystates:generateDebugRFile
+> Task :app:processDebugResources FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:processDebugResources'.
+> Android resource linking failed
+  /Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/3b6a7c6f1405d0afd5bbbeb35f257192/res/values-v28/values-v28.xml:9:5-12:13: AAPT: error: resource android:attr/dialogCornerRadius not found.
+      
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml:11: AAPT: error: resource android:attr/dialogCornerRadius not found.
+      
+  /Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c0000420703a001609e75fe48ba13268/res/values/values.xml:89:5-125:25: AAPT: error: resource android:attr/fontVariationSettings not found.
+      
+  /Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c0000420703a001609e75fe48ba13268/res/values/values.xml:89:5-125:25: AAPT: error: resource android:attr/ttcIndex not found.
+      
+  error: failed linking references.
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:processDebugResources'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
+	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:277)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:262)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: com.android.builder.internal.aapt.v2.Aapt2Exception: Android resource linking failed
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/3b6a7c6f1405d0afd5bbbeb35f257192/res/values-v28/values-v28.xml:9:5-12:13: AAPT: error: resource android:attr/dialogCornerRadius not found.
+    
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml:11: AAPT: error: resource android:attr/dialogCornerRadius not found.
+    
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c0000420703a001609e75fe48ba13268/res/values/values.xml:89:5-125:25: AAPT: error: resource android:attr/fontVariationSettings not found.
+    
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c0000420703a001609e75fe48ba13268/res/values/values.xml:89:5-125:25: AAPT: error: resource android:attr/ttcIndex not found.
+    
+error: failed linking references.
+	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create(Aapt2Exception.kt:45)
+	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create$default(Aapt2Exception.kt:39)
+	at com.android.build.gradle.internal.res.Aapt2ErrorUtils.rewriteException(Aapt2ErrorUtils.kt:97)
+	at com.android.build.gradle.internal.res.Aapt2ErrorUtils.rewriteLinkException(Aapt2ErrorUtils.kt:73)
+	at com.android.build.gradle.internal.res.LinkApplicationAndroidResourcesTask.invokeAaptForSplit(LinkApplicationAndroidResourcesTask.java:515)
+	at com.android.build.gradle.internal.res.LinkApplicationAndroidResourcesTask.doFullTaskAction(LinkApplicationAndroidResourcesTask.java:257)
+	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.java:106)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:131)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:120)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:99)
+	... 31 more
+Caused by: com.android.builder.internal.aapt.v2.Aapt2Exception: Android resource linking failed
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml:7: error: resource android:attr/dialogCornerRadius not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml:11: error: resource android:attr/dialogCornerRadius not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:2750: error: resource android:attr/fontVariationSettings not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:2751: error: resource android:attr/ttcIndex not found.
+error: failed linking references.
+
+	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create(Aapt2Exception.kt:45)
+	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create$default(Aapt2Exception.kt:39)
+	at com.android.builder.internal.aapt.v2.Aapt2DaemonImpl.doLink(Aapt2DaemonImpl.kt:188)
+	at com.android.builder.internal.aapt.v2.Aapt2Daemon.link(Aapt2Daemon.kt:103)
+	at com.android.builder.internal.aapt.v2.Aapt2DaemonManager$LeasedAaptDaemon.link(Aapt2DaemonManager.kt:176)
+	at com.android.builder.core.AndroidBuilder.processResources(AndroidBuilder.java:839)
+	at com.android.build.gradle.internal.res.LinkApplicationAndroidResourcesTask.invokeAaptForSplit(LinkApplicationAndroidResourcesTask.java:512)
+	... 45 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 12s
+16 actionable tasks: 16 executed
+
+2019-02-19 12:21:26,182 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 12:21:26,182 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/prettystates/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 12:21:35,016 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-02-19 12:21:35,016 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-19 12:21:35,016 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/prettystates/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-19 12:21:58,454 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :prettystates:preBuild UP-TO-DATE
+> Task :prettystates:preDebugBuild UP-TO-DATE
+> Task :prettystates:compileDebugAidl NO-SOURCE
+> Task :prettystates:compileDebugRenderscript UP-TO-DATE
+> Task :prettystates:checkDebugManifest UP-TO-DATE
+> Task :prettystates:generateDebugBuildConfig
+> Task :prettystates:generateDebugResValues UP-TO-DATE
+> Task :prettystates:generateDebugResources UP-TO-DATE
+> Task :prettystates:packageDebugResources UP-TO-DATE
+> Task :prettystates:processDebugManifest UP-TO-DATE
+> Task :prettystates:generateDebugRFile UP-TO-DATE
+> Task :prettystates:kaptGenerateStubsDebugKotlin
+> Task :prettystates:kaptDebugKotlin
+> Task :prettystates:compileDebugKotlin
+> Task :prettystates:prepareLintJar
+> Task :prettystates:generateDebugSources
+> Task :prettystates:javaPreCompileDebug
+> Task :prettystates:compileDebugJavaWithJavac
+> Task :prettystates:extractDebugAnnotations
+> Task :prettystates:mergeDebugConsumerProguardFiles
+> Task :prettystates:mergeDebugShaders
+> Task :prettystates:compileDebugShaders
+> Task :prettystates:generateDebugAssets
+> Task :prettystates:packageDebugAssets
+> Task :prettystates:packageDebugRenderscript NO-SOURCE
+> Task :prettystates:processDebugJavaRes NO-SOURCE
+> Task :prettystates:transformResourcesWithMergeJavaResForDebug
+> Task :prettystates:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :prettystates:compileDebugNdk NO-SOURCE
+> Task :prettystates:mergeDebugJniLibFolders
+> Task :prettystates:transformNativeLibsWithMergeJniLibsForDebug
+> Task :prettystates:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :prettystates:transformNativeLibsWithSyncJniLibsForDebug
+> Task :prettystates:bundleDebugAar
+> Task :prettystates:compileDebugSources
+> Task :prettystates:assembleDebug
+> Task :prettystates:preReleaseBuild UP-TO-DATE
+> Task :prettystates:compileReleaseAidl NO-SOURCE
+> Task :prettystates:compileReleaseRenderscript
+> Task :prettystates:checkReleaseManifest
+> Task :prettystates:generateReleaseBuildConfig
+> Task :prettystates:generateReleaseResValues
+> Task :prettystates:generateReleaseResources
+> Task :prettystates:packageReleaseResources
+> Task :prettystates:processReleaseManifest
+> Task :prettystates:generateReleaseRFile
+> Task :prettystates:kaptGenerateStubsReleaseKotlin
+> Task :prettystates:kaptReleaseKotlin
+> Task :prettystates:compileReleaseKotlin
+> Task :prettystates:generateReleaseSources
+> Task :prettystates:javaPreCompileRelease
+> Task :prettystates:compileReleaseJavaWithJavac
+> Task :prettystates:extractReleaseAnnotations
+> Task :prettystates:mergeReleaseConsumerProguardFiles
+> Task :prettystates:mergeReleaseShaders
+> Task :prettystates:compileReleaseShaders
+> Task :prettystates:generateReleaseAssets
+> Task :prettystates:packageReleaseAssets
+> Task :prettystates:packageReleaseRenderscript NO-SOURCE
+> Task :prettystates:processReleaseJavaRes NO-SOURCE
+> Task :prettystates:transformResourcesWithMergeJavaResForRelease
+> Task :prettystates:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :prettystates:compileReleaseNdk NO-SOURCE
+> Task :prettystates:mergeReleaseJniLibFolders
+> Task :prettystates:transformNativeLibsWithMergeJniLibsForRelease
+> Task :prettystates:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :prettystates:transformNativeLibsWithSyncJniLibsForRelease
+> Task :prettystates:bundleReleaseAar
+> Task :prettystates:compileReleaseSources
+> Task :prettystates:mergeReleaseResources
+> Task :prettystates:verifyReleaseResources
+> Task :prettystates:assembleRelease
+> Task :prettystates:assemble
+> Task :prettystates:build
+
+BUILD SUCCESSFUL in 22s
+51 actionable tasks: 45 executed, 6 up-to-date
+
+2019-02-19 12:21:58,521 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 12:21:58,521 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 12:22:07,634 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-02-19 12:22:07,634 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-19 12:22:07,634 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-19 12:22:17,595 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-19 12:22:17,595 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :prettystates:preBuild UP-TO-DATE
+> Task :prettystates:preDebugBuild UP-TO-DATE
+> Task :prettystates:checkDebugManifest UP-TO-DATE
+> Task :prettystates:processDebugManifest UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :prettystates:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :prettystates:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript UP-TO-DATE
+> Task :app:checkDebugManifest UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:mainApkListPersistenceDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :prettystates:compileDebugRenderscript UP-TO-DATE
+> Task :prettystates:generateDebugResValues UP-TO-DATE
+> Task :prettystates:generateDebugResources UP-TO-DATE
+> Task :prettystates:packageDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :prettystates:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:processDebugResources'.
+> Android resource linking failed
+  /Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/3b6a7c6f1405d0afd5bbbeb35f257192/res/values-v28/values-v28.xml:9:5-12:13: AAPT: error: resource android:attr/dialogCornerRadius not found.
+      
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml:11: AAPT: error: resource android:attr/dialogCornerRadius not found.
+      
+  /Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c0000420703a001609e75fe48ba13268/res/values/values.xml:89:5-125:25: AAPT: error: resource android:attr/fontVariationSettings not found.
+      
+  /Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c0000420703a001609e75fe48ba13268/res/values/values.xml:89:5-125:25: AAPT: error: resource android:attr/ttcIndex not found.
+      
+  error: failed linking references.
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:processDebugResources'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
+	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:277)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:262)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: com.android.builder.internal.aapt.v2.Aapt2Exception: Android resource linking failed
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/3b6a7c6f1405d0afd5bbbeb35f257192/res/values-v28/values-v28.xml:9:5-12:13: AAPT: error: resource android:attr/dialogCornerRadius not found.
+    
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml:11: AAPT: error: resource android:attr/dialogCornerRadius not found.
+    
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c0000420703a001609e75fe48ba13268/res/values/values.xml:89:5-125:25: AAPT: error: resource android:attr/fontVariationSettings not found.
+    
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c0000420703a001609e75fe48ba13268/res/values/values.xml:89:5-125:25: AAPT: error: resource android:attr/ttcIndex not found.
+    
+error: failed linking references.
+	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create(Aapt2Exception.kt:45)
+	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create$default(Aapt2Exception.kt:39)
+	at com.android.build.gradle.internal.res.Aapt2ErrorUtils.rewriteException(Aapt2ErrorUtils.kt:97)
+	at com.android.build.gradle.internal.res.Aapt2ErrorUtils.rewriteLinkException(Aapt2ErrorUtils.kt:73)
+	at com.android.build.gradle.internal.res.LinkApplicationAndroidResourcesTask.invokeAaptForSplit(LinkApplicationAndroidResourcesTask.java:515)
+	at com.android.build.gradle.internal.res.LinkApplicationAndroidResourcesTask.doFullTaskAction(LinkApplicationAndroidResourcesTask.java:257)
+	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.java:106)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:131)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:120)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:99)
+	... 31 more
+Caused by: com.android.builder.internal.aapt.v2.Aapt2Exception: Android resource linking failed
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml:7: error: resource android:attr/dialogCornerRadius not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml:11: error: resource android:attr/dialogCornerRadius not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:2750: error: resource android:attr/fontVariationSettings not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553660732-0/src/PrettyStateView-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:2751: error: resource android:attr/ttcIndex not found.
+error: failed linking references.
+
+	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create(Aapt2Exception.kt:45)
+	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create$default(Aapt2Exception.kt:39)
+	at com.android.builder.internal.aapt.v2.Aapt2DaemonImpl.doLink(Aapt2DaemonImpl.kt:188)
+	at com.android.builder.internal.aapt.v2.Aapt2Daemon.link(Aapt2Daemon.kt:103)
+	at com.android.builder.internal.aapt.v2.Aapt2DaemonManager$LeasedAaptDaemon.link(Aapt2DaemonManager.kt:176)
+	at com.android.builder.core.AndroidBuilder.processResources(AndroidBuilder.java:839)
+	at com.android.build.gradle.internal.res.LinkApplicationAndroidResourcesTask.invokeAaptForSplit(LinkApplicationAndroidResourcesTask.java:512)
+	... 45 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s
+16 actionable tasks: 1 executed, 15 up-to-date
+
+2019-02-19 12:22:17,667 ERROR FullProcessService - Project build has not produced APK file
+2019-02-19 12:22:17,733 ERROR FullProcessService - Could not find generated or existed APK file

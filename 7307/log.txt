@@ -1,0 +1,168 @@
+2019-02-23 17:56:58,135 INFO  DownloadService - Downloading "https://github.com/mahimrocky/WeekDaySelector/archive/master.zip", attempt 3
+2019-02-23 17:57:58,981 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-23 17:58:00,024 INFO  GithubDownloadService - Default branch of this repository: master
+2019-02-23 17:58:00,024 INFO  DownloadService - Downloading "https://github.com/mahimrocky/WeekDaySelector/archive/master.zip", attempt 3
+2019-02-23 17:59:01,686 DEBUG FullProcessService - Repository https://github.com/mahimrocky/WeekDaySelector available: true
+2019-02-23 17:59:01,686 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-23 17:59:01,686 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mahimrocky/WeekDaySelector, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src]
+2019-02-23 17:59:04,136 INFO  SysUtils - 
+2019-02-23 17:59:04,144 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/.git": true
+2019-02-23 17:59:04,148 INFO  FullProcessService - Size of directory with sources: 236 KB
+2019-02-23 17:59:04,149 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src]
+2019-02-23 17:59:04,166 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/.git/
+
+2019-02-23 17:59:04,170 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/gradlew
+2019-02-23 17:59:04,175 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/weekday/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/build.gradle
+2019-02-23 17:59:04,180 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/weekday/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/settings.gradle
+2019-02-23 17:59:04,180 INFO  ProjectBuildService - Remote scripts: none
+2019-02-23 17:59:04,180 INFO  ProjectFixService - Fixing project...
+2019-02-23 17:59:04,190 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/app/local.properties
+2019-02-23 17:59:04,190 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-23 17:59:04,190 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-23 17:59:04,191 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/weekday/local.properties
+2019-02-23 17:59:04,192 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/weekday/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-23 17:59:04,192 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/weekday/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-23 17:59:04,193 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/local.properties
+2019-02-23 17:59:04,193 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-23 17:59:04,193 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-23 17:59:04,194 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-23 17:59:04,194 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-02-23 17:59:04,195 INFO  ProjectFixService - Project was maybe fixed
+2019-02-23 17:59:04,195 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 17:59:04,195 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 17:59:11,349 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-23 17:59:11,349 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-23 17:59:11,349 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-23 17:59:36,850 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:weekday:preBuild UP-TO-DATE
+:weekday:preDebugBuild UP-TO-DATE
+:weekday:checkDebugManifest
+:weekday:processDebugManifest
+:app:preDebugBuild
+:weekday:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:weekday:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:weekday:compileDebugRenderscript
+:weekday:generateDebugResValues
+:weekday:generateDebugResources
+:weekday:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:weekday:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:weekday:generateDebugBuildConfig
+:weekday:prepareLintJar
+:weekday:generateDebugSources
+:weekday:javaPreCompileDebug
+:weekday:compileDebugJavaWithJavac
+:weekday:processDebugJavaRes NO-SOURCE
+:weekday:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:weekday:mergeDebugShaders
+:weekday:compileDebugShaders
+:weekday:generateDebugAssets
+:weekday:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:weekday:compileDebugNdk NO-SOURCE
+:weekday:mergeDebugJniLibFolders
+:weekday:transformNativeLibsWithMergeJniLibsForDebug
+:weekday:transformNativeLibsWithStripDebugSymbolForDebug
+:weekday:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:weekday:preReleaseBuild UP-TO-DATE
+:weekday:checkReleaseManifest
+:weekday:processReleaseManifest
+:app:preReleaseBuild
+:weekday:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:weekday:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:weekday:compileReleaseRenderscript
+:weekday:generateReleaseResValues
+:weekday:generateReleaseResources
+:weekday:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:weekday:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:weekday:generateReleaseBuildConfig
+:weekday:generateReleaseSources
+:weekday:javaPreCompileRelease
+:weekday:compileReleaseJavaWithJavac
+:weekday:processReleaseJavaRes NO-SOURCE
+:weekday:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/35109cbd08327bc3329c428286471136/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:weekday:mergeReleaseShaders
+:weekday:compileReleaseShaders
+:weekday:generateReleaseAssets
+:weekday:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:weekday:compileReleaseNdk NO-SOURCE
+:weekday:mergeReleaseJniLibFolders
+:weekday:transformNativeLibsWithMergeJniLibsForRelease
+:weekday:transformNativeLibsWithStripDebugSymbolForRelease
+:weekday:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 24s
+90 actionable tasks: 90 executed
+
+2019-02-23 17:59:36,931 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550919418126-0/src/app/build/outputs/apk/debug/app-debug.apk

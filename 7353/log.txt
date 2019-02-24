@@ -1,0 +1,248 @@
+2019-02-07 18:31:58,084 INFO  DownloadService - Downloading "https://github.com/AliEsaAssadi/Android-Power-Preference/archive/master.zip", attempt 3
+2019-02-07 18:31:58,814 INFO  DownloadService - Downloaded https://github.com/AliEsaAssadi/Android-Power-Preference/archive/master.zip, attempt 3
+2019-02-07 18:31:58,814 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/master.zip": 176 KB
+2019-02-07 18:31:58,814 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-07 18:31:58,820 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/master.zip: true
+2019-02-07 18:31:58,820 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src'.
+2019-02-07 18:31:58,855 INFO  FullProcessService - Size of directory with sources: 255 KB
+2019-02-07 18:31:58,856 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src]
+2019-02-07 18:31:58,881 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/.git/
+
+2019-02-07 18:31:58,887 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/gradlew
+2019-02-07 18:31:58,893 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/power-preference-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/build.gradle
+2019-02-07 18:31:58,900 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/power-preference-lib/build.gradle
+2019-02-07 18:31:58,901 INFO  ProjectBuildService - Remote scripts: none
+2019-02-07 18:31:58,901 INFO  ProjectFixService - Fixing project...
+2019-02-07 18:31:58,914 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/power-preference-lib/local.properties
+2019-02-07 18:31:58,916 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/power-preference-lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-02-07 18:31:58,916 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/power-preference-lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-02-07 18:31:58,918 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/sample-app/local.properties
+2019-02-07 18:31:58,919 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-02-07 18:31:58,920 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-02-07 18:31:58,921 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/local.properties
+2019-02-07 18:31:58,922 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-07 18:31:58,923 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-07 18:31:58,925 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-02-07 18:31:58,925 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-02-07 18:31:58,926 INFO  ProjectFixService - Project was maybe fixed
+2019-02-07 18:31:58,926 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-07 18:31:58,926 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/power-preference-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-07 18:32:09,812 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-02-07 18:32:09,813 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-07 18:32:09,813 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/power-preference-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-07 18:32:30,985 INFO  SysUtils - Configuration on demand is an incubating feature.
+:power-preference-lib:preBuild UP-TO-DATE
+:power-preference-lib:preDebugBuild UP-TO-DATE
+:power-preference-lib:compileDebugAidl NO-SOURCE
+:power-preference-lib:compileDebugRenderscript
+:power-preference-lib:checkDebugManifest
+:power-preference-lib:generateDebugBuildConfig
+:power-preference-lib:generateDebugResValues
+:power-preference-lib:generateDebugResources
+:power-preference-lib:packageDebugResources
+:power-preference-lib:processDebugManifest
+:power-preference-lib:generateDebugRFile
+:power-preference-lib:prepareLintJar
+:power-preference-lib:generateDebugSources
+:power-preference-lib:javaPreCompileDebug
+:power-preference-lib:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/power-preference-lib/src/main/java/com/preference/PreferenceCreator.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:power-preference-lib:extractDebugAnnotations
+:power-preference-lib:mergeDebugConsumerProguardFiles
+:power-preference-lib:mergeDebugShaders
+:power-preference-lib:compileDebugShaders
+:power-preference-lib:generateDebugAssets
+:power-preference-lib:packageDebugAssets
+:power-preference-lib:packageDebugRenderscript NO-SOURCE
+:power-preference-lib:processDebugJavaRes NO-SOURCE
+:power-preference-lib:transformResourcesWithMergeJavaResForDebug
+:power-preference-lib:transformClassesAndResourcesWithSyncLibJarsForDebug
+:power-preference-lib:compileDebugNdk NO-SOURCE
+:power-preference-lib:mergeDebugJniLibFolders
+:power-preference-lib:transformNativeLibsWithMergeJniLibsForDebug
+:power-preference-lib:transformNativeLibsWithStripDebugSymbolForDebug
+:power-preference-lib:transformNativeLibsWithSyncJniLibsForDebug
+:power-preference-lib:bundleDebugAar
+:power-preference-lib:compileDebugSources
+:power-preference-lib:assembleDebug
+:power-preference-lib:preReleaseBuild UP-TO-DATE
+:power-preference-lib:compileReleaseAidl NO-SOURCE
+:power-preference-lib:compileReleaseRenderscript
+:power-preference-lib:checkReleaseManifest
+:power-preference-lib:generateReleaseBuildConfig
+:power-preference-lib:generateReleaseResValues
+:power-preference-lib:generateReleaseResources
+:power-preference-lib:packageReleaseResources
+:power-preference-lib:processReleaseManifest
+:power-preference-lib:generateReleaseRFile
+:power-preference-lib:generateReleaseSources
+:power-preference-lib:javaPreCompileRelease
+:power-preference-lib:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/power-preference-lib/src/main/java/com/preference/PreferenceCreator.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:power-preference-lib:extractReleaseAnnotations
+:power-preference-lib:mergeReleaseConsumerProguardFiles
+:power-preference-lib:mergeReleaseShaders
+:power-preference-lib:compileReleaseShaders
+:power-preference-lib:generateReleaseAssets
+:power-preference-lib:packageReleaseAssets
+:power-preference-lib:packageReleaseRenderscript NO-SOURCE
+:power-preference-lib:processReleaseJavaRes NO-SOURCE
+:power-preference-lib:transformResourcesWithMergeJavaResForRelease
+:power-preference-lib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:power-preference-lib:compileReleaseNdk NO-SOURCE
+:power-preference-lib:mergeReleaseJniLibFolders
+:power-preference-lib:transformNativeLibsWithMergeJniLibsForRelease
+:power-preference-lib:transformNativeLibsWithStripDebugSymbolForRelease
+:power-preference-lib:transformNativeLibsWithSyncJniLibsForRelease
+:power-preference-lib:bundleReleaseAar
+:power-preference-lib:compileReleaseSources
+:power-preference-lib:mergeReleaseResources
+:power-preference-lib:verifyReleaseResources
+:power-preference-lib:assembleRelease
+:power-preference-lib:assemble
+:power-preference-lib:build
+
+BUILD SUCCESSFUL in 20s
+45 actionable tasks: 45 executed
+
+2019-02-07 18:32:31,063 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-07 18:32:31,063 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-07 18:32:41,170 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-07 18:32:41,170 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-07 18:32:41,171 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-07 18:33:14,836 INFO  SysUtils - Configuration on demand is an incubating feature.
+:power-preference-lib:preBuild UP-TO-DATE
+:power-preference-lib:preDebugBuild UP-TO-DATE
+:power-preference-lib:compileDebugAidl NO-SOURCE
+:power-preference-lib:compileDebugRenderscript UP-TO-DATE
+:power-preference-lib:checkDebugManifest UP-TO-DATE
+:power-preference-lib:generateDebugBuildConfig UP-TO-DATE
+:power-preference-lib:generateDebugResValues UP-TO-DATE
+:power-preference-lib:generateDebugResources UP-TO-DATE
+:power-preference-lib:packageDebugResources UP-TO-DATE
+:power-preference-lib:processDebugManifest UP-TO-DATE
+:power-preference-lib:generateDebugRFile UP-TO-DATE
+:power-preference-lib:prepareLintJar UP-TO-DATE
+:power-preference-lib:generateDebugSources UP-TO-DATE
+:power-preference-lib:javaPreCompileDebug UP-TO-DATE
+:power-preference-lib:compileDebugJavaWithJavac UP-TO-DATE
+:power-preference-lib:processDebugJavaRes NO-SOURCE
+:power-preference-lib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample-app:checkDebugClasspath
+:sample-app:preBuild UP-TO-DATE
+:sample-app:preDebugBuild
+:sample-app:compileDebugAidl NO-SOURCE
+:power-preference-lib:packageDebugRenderscript NO-SOURCE
+:sample-app:compileDebugRenderscript
+:sample-app:checkDebugManifest
+:sample-app:generateDebugBuildConfig
+:sample-app:prepareLintJar
+:sample-app:mainApkListPersistenceDebug
+:sample-app:generateDebugResValues
+:sample-app:generateDebugResources
+:sample-app:mergeDebugResources
+:sample-app:createDebugCompatibleScreenManifests
+:sample-app:processDebugManifest
+:sample-app:splitsDiscoveryTaskDebug
+:sample-app:processDebugResources
+:sample-app:generateDebugSources
+:sample-app:javaPreCompileDebug
+:sample-app:compileDebugJavaWithJavac
+:sample-app:compileDebugNdk NO-SOURCE
+:sample-app:compileDebugSources
+:power-preference-lib:mergeDebugShaders UP-TO-DATE
+:power-preference-lib:compileDebugShaders UP-TO-DATE
+:power-preference-lib:generateDebugAssets UP-TO-DATE
+:power-preference-lib:packageDebugAssets UP-TO-DATE
+:sample-app:mergeDebugShaders
+:sample-app:compileDebugShaders
+:sample-app:generateDebugAssets
+:sample-app:mergeDebugAssets
+:sample-app:transformClassesWithDexBuilderForDebug
+:sample-app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample-app:transformDexArchiveWithDexMergerForDebug
+:power-preference-lib:compileDebugNdk NO-SOURCE
+:power-preference-lib:mergeDebugJniLibFolders UP-TO-DATE
+:power-preference-lib:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:power-preference-lib:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:power-preference-lib:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample-app:mergeDebugJniLibFolders
+:sample-app:transformNativeLibsWithMergeJniLibsForDebug
+:sample-app:transformNativeLibsWithStripDebugSymbolForDebug
+:sample-app:checkDebugLibraries
+:sample-app:processDebugJavaRes NO-SOURCE
+:sample-app:transformResourcesWithMergeJavaResForDebug
+:sample-app:validateSigningDebug
+:sample-app:packageDebug
+:sample-app:assembleDebug
+:power-preference-lib:preReleaseBuild UP-TO-DATE
+:power-preference-lib:compileReleaseAidl NO-SOURCE
+:power-preference-lib:compileReleaseRenderscript UP-TO-DATE
+:power-preference-lib:checkReleaseManifest UP-TO-DATE
+:power-preference-lib:generateReleaseBuildConfig UP-TO-DATE
+:power-preference-lib:generateReleaseResValues UP-TO-DATE
+:power-preference-lib:generateReleaseResources UP-TO-DATE
+:power-preference-lib:packageReleaseResources UP-TO-DATE
+:power-preference-lib:processReleaseManifest UP-TO-DATE
+:power-preference-lib:generateReleaseRFile UP-TO-DATE
+:power-preference-lib:generateReleaseSources UP-TO-DATE
+:power-preference-lib:javaPreCompileRelease UP-TO-DATE
+:power-preference-lib:compileReleaseJavaWithJavac UP-TO-DATE
+:power-preference-lib:processReleaseJavaRes NO-SOURCE
+:power-preference-lib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample-app:checkReleaseClasspath
+:sample-app:preReleaseBuild
+:sample-app:compileReleaseAidl NO-SOURCE
+:power-preference-lib:packageReleaseRenderscript NO-SOURCE
+:sample-app:compileReleaseRenderscript
+:sample-app:checkReleaseManifest
+:sample-app:generateReleaseBuildConfig
+:sample-app:mainApkListPersistenceRelease
+:sample-app:generateReleaseResValues
+:sample-app:generateReleaseResources
+:sample-app:mergeReleaseResources
+:sample-app:createReleaseCompatibleScreenManifests
+:sample-app:processReleaseManifest
+:sample-app:splitsDiscoveryTaskRelease
+:sample-app:processReleaseResources
+:sample-app:generateReleaseSources
+:sample-app:javaPreCompileRelease
+:sample-app:compileReleaseJavaWithJavac
+:sample-app:compileReleaseNdk NO-SOURCE
+:sample-app:compileReleaseSources
+:sample-app:lintVitalRelease
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.7.22/mockito-core-2.7.22.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/39f2e77d9dc0a50917cb66a7426eab6f/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:power-preference-lib:mergeReleaseShaders UP-TO-DATE
+:power-preference-lib:compileReleaseShaders UP-TO-DATE
+:power-preference-lib:generateReleaseAssets UP-TO-DATE
+:power-preference-lib:packageReleaseAssets UP-TO-DATE
+:sample-app:mergeReleaseShaders
+:sample-app:compileReleaseShaders
+:sample-app:generateReleaseAssets
+:sample-app:mergeReleaseAssets
+:sample-app:transformClassesWithDexBuilderForRelease
+:sample-app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample-app:transformDexArchiveWithDexMergerForRelease
+:power-preference-lib:compileReleaseNdk NO-SOURCE
+:power-preference-lib:mergeReleaseJniLibFolders UP-TO-DATE
+:power-preference-lib:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:power-preference-lib:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:power-preference-lib:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample-app:mergeReleaseJniLibFolders
+:sample-app:transformNativeLibsWithMergeJniLibsForRelease
+:sample-app:transformNativeLibsWithStripDebugSymbolForRelease
+:sample-app:checkReleaseLibraries
+:sample-app:processReleaseJavaRes NO-SOURCE
+:sample-app:transformResourcesWithMergeJavaResForRelease
+:sample-app:packageRelease
+:sample-app:assembleRelease
+:sample-app:assemble
+:sample-app:build
+
+BUILD SUCCESSFUL in 32s
+90 actionable tasks: 59 executed, 31 up-to-date
+
+2019-02-07 18:33:14,998 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539118079-0/src/Android-Power-Preference-master/sample-app/build/outputs/apk/release/sample-app-release-unsigned.apk

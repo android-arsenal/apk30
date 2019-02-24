@@ -1,0 +1,179 @@
+2019-02-19 11:58:37,303 INFO  DownloadService - Downloading "https://github.com/UttamPanchasara/PDF-Generator/archive/master.zip", attempt 3
+2019-02-19 11:58:39,475 INFO  DownloadService - Downloaded https://github.com/UttamPanchasara/PDF-Generator/archive/master.zip, attempt 3
+2019-02-19 11:58:39,475 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/master.zip": 277 KB
+2019-02-19 11:58:39,475 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-19 11:58:39,475 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/master.zip: true
+2019-02-19 11:58:39,475 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src'.
+2019-02-19 11:58:39,493 INFO  FullProcessService - Size of directory with sources: 441 KB
+2019-02-19 11:58:39,493 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src]
+2019-02-19 11:58:39,518 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/.git/
+
+2019-02-19 11:58:39,522 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/gradlew
+2019-02-19 11:58:39,525 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/pdfgenerator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/build.gradle
+2019-02-19 11:58:39,529 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/pdfgenerator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/settings.gradle
+2019-02-19 11:58:39,529 INFO  ProjectBuildService - Remote scripts: none
+2019-02-19 11:58:39,529 INFO  ProjectFixService - Fixing project...
+2019-02-19 11:58:39,537 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/app/local.properties
+2019-02-19 11:58:39,538 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-19 11:58:39,538 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-19 11:58:39,539 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/pdfgenerator/local.properties
+2019-02-19 11:58:39,540 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/pdfgenerator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-19 11:58:39,540 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/pdfgenerator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-19 11:58:39,541 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/local.properties
+2019-02-19 11:58:39,542 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-19 11:58:39,542 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-19 11:58:39,543 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-19 11:58:39,544 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-19 11:58:39,544 INFO  ProjectFixService - Project was maybe fixed
+2019-02-19 11:58:39,544 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 11:58:39,544 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 11:58:46,897 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-19 11:58:46,897 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-19 11:58:46,898 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-19 11:59:23,675 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:pdfgenerator:preBuild UP-TO-DATE
+:pdfgenerator:preDebugBuild UP-TO-DATE
+:pdfgenerator:checkDebugManifest
+:pdfgenerator:processDebugManifest
+:app:preDebugBuild
+:pdfgenerator:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:pdfgenerator:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:pdfgenerator:compileDebugRenderscript
+:pdfgenerator:generateDebugResValues
+:pdfgenerator:generateDebugResources
+:pdfgenerator:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:pdfgenerator:generateDebugRFile
+:app:processDebugResources
+:pdfgenerator:generateDebugBuildConfig
+:pdfgenerator:kaptGenerateStubsDebugKotlin
+:pdfgenerator:kaptDebugKotlin
+:pdfgenerator:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/pdfgenerator/src/main/java/com/uttampanchasara/pdfgenerator/CreatePdf.kt: (78, 44): Type mismatch: inferred type is String? but String was expected
+:pdfgenerator:prepareLintJar
+:pdfgenerator:generateDebugSources
+:pdfgenerator:javaPreCompileDebug
+:pdfgenerator:compileDebugJavaWithJavac
+:pdfgenerator:processDebugJavaRes NO-SOURCE
+:pdfgenerator:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:kaptGenerateStubsDebugKotlin
+:app:kaptDebugKotlin
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:pdfgenerator:mergeDebugShaders
+:pdfgenerator:compileDebugShaders
+:pdfgenerator:generateDebugAssets
+:pdfgenerator:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:pdfgenerator:compileDebugNdk NO-SOURCE
+:pdfgenerator:mergeDebugJniLibFolders
+:pdfgenerator:transformNativeLibsWithMergeJniLibsForDebug
+:pdfgenerator:transformNativeLibsWithStripDebugSymbolForDebug
+:pdfgenerator:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:pdfgenerator:preReleaseBuild UP-TO-DATE
+:pdfgenerator:checkReleaseManifest
+:pdfgenerator:processReleaseManifest
+:app:preReleaseBuild
+:pdfgenerator:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:pdfgenerator:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:pdfgenerator:compileReleaseRenderscript
+:pdfgenerator:generateReleaseResValues
+:pdfgenerator:generateReleaseResources
+:pdfgenerator:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:pdfgenerator:generateReleaseRFile
+:app:processReleaseResources
+:pdfgenerator:generateReleaseBuildConfig
+:pdfgenerator:kaptGenerateStubsReleaseKotlin
+:pdfgenerator:kaptReleaseKotlin
+:pdfgenerator:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/pdfgenerator/src/main/java/com/uttampanchasara/pdfgenerator/CreatePdf.kt: (78, 44): Type mismatch: inferred type is String? but String was expected
+:pdfgenerator:generateReleaseSources
+:pdfgenerator:javaPreCompileRelease
+:pdfgenerator:compileReleaseJavaWithJavac
+:pdfgenerator:processReleaseJavaRes NO-SOURCE
+:pdfgenerator:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:kaptGenerateStubsReleaseKotlin
+:app:kaptReleaseKotlin
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/3203cda10910fb620c1e57cb65fb5acf/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:pdfgenerator:mergeReleaseShaders
+:pdfgenerator:compileReleaseShaders
+:pdfgenerator:generateReleaseAssets
+:pdfgenerator:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:pdfgenerator:compileReleaseNdk NO-SOURCE
+:pdfgenerator:mergeReleaseJniLibFolders
+:pdfgenerator:transformNativeLibsWithMergeJniLibsForRelease
+:pdfgenerator:transformNativeLibsWithStripDebugSymbolForRelease
+:pdfgenerator:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 36s
+102 actionable tasks: 102 executed
+
+2019-02-19 11:59:23,769 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552317294-0/src/PDF-Generator-master/app/build/outputs/apk/debug/app-debug.apk

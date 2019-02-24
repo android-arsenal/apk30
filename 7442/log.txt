@@ -1,0 +1,177 @@
+2019-02-16 19:38:35,794 INFO  DownloadService - Downloading "https://github.com/dvird/timerangepicker/archive/master.zip", attempt 3
+2019-02-16 19:38:37,873 INFO  DownloadService - Downloaded https://github.com/dvird/timerangepicker/archive/master.zip, attempt 3
+2019-02-16 19:38:37,873 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/master.zip": 253 KB
+2019-02-16 19:38:37,873 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-16 19:38:37,878 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/master.zip: true
+2019-02-16 19:38:37,879 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src'.
+2019-02-16 19:38:37,909 INFO  FullProcessService - Size of directory with sources: 296 KB
+2019-02-16 19:38:37,909 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src]
+2019-02-16 19:38:37,936 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/.git/
+
+2019-02-16 19:38:37,941 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/gradlew
+2019-02-16 19:38:37,946 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/timesliderrangepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/build.gradle
+2019-02-16 19:38:37,950 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/timesliderrangepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/settings.gradle
+2019-02-16 19:38:37,951 INFO  ProjectBuildService - Remote scripts: none
+2019-02-16 19:38:37,951 INFO  ProjectFixService - Fixing project...
+2019-02-16 19:38:37,962 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/app/local.properties
+2019-02-16 19:38:37,963 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-02-16 19:38:37,963 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-02-16 19:38:37,963 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/timesliderrangepicker/local.properties
+2019-02-16 19:38:37,964 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/timesliderrangepicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-02-16 19:38:37,964 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/timesliderrangepicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-02-16 19:38:37,965 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/local.properties
+2019-02-16 19:38:37,965 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-16 19:38:37,966 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-16 19:38:37,967 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-02-16 19:38:37,967 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-02-16 19:38:37,968 INFO  ProjectFixService - Project was maybe fixed
+2019-02-16 19:38:37,968 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-16 19:38:37,968 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-16 19:38:46,305 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-16 19:38:46,305 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-16 19:38:46,305 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-16 19:39:41,742 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:timesliderrangepicker:preBuild UP-TO-DATE
+:timesliderrangepicker:preDebugBuild UP-TO-DATE
+:timesliderrangepicker:checkDebugManifest
+:timesliderrangepicker:processDebugManifest
+:app:preDebugBuild
+:timesliderrangepicker:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:timesliderrangepicker:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:timesliderrangepicker:compileDebugRenderscript
+:timesliderrangepicker:generateDebugResValues
+:timesliderrangepicker:generateDebugResources
+:timesliderrangepicker:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:timesliderrangepicker:generateDebugRFile
+:app:processDebugResources
+:timesliderrangepicker:generateDebugBuildConfig
+:timesliderrangepicker:compileDebugKotlin
+:timesliderrangepicker:prepareLintJar
+:timesliderrangepicker:generateDebugSources
+:timesliderrangepicker:javaPreCompileDebug
+:timesliderrangepicker:compileDebugJavaWithJavac
+:timesliderrangepicker:processDebugJavaRes NO-SOURCE
+:timesliderrangepicker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:timesliderrangepicker:mergeDebugShaders
+:timesliderrangepicker:compileDebugShaders
+:timesliderrangepicker:generateDebugAssets
+:timesliderrangepicker:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5bc44acc4b3f0d19166ae3e50454b41e8ff29335/kotlin-stdlib-1.2.61.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5bc44acc4b3f0d19166ae3e50454b41e8ff29335/kotlin-stdlib-1.2.61.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:timesliderrangepicker:compileDebugNdk NO-SOURCE
+:timesliderrangepicker:mergeDebugJniLibFolders
+:timesliderrangepicker:transformNativeLibsWithMergeJniLibsForDebug
+:timesliderrangepicker:transformNativeLibsWithStripDebugSymbolForDebug
+:timesliderrangepicker:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:timesliderrangepicker:preReleaseBuild UP-TO-DATE
+:timesliderrangepicker:checkReleaseManifest
+:timesliderrangepicker:processReleaseManifest
+:app:preReleaseBuild
+:timesliderrangepicker:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:timesliderrangepicker:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:timesliderrangepicker:compileReleaseRenderscript
+:timesliderrangepicker:generateReleaseResValues
+:timesliderrangepicker:generateReleaseResources
+:timesliderrangepicker:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:timesliderrangepicker:generateReleaseRFile
+:app:processReleaseResources
+:timesliderrangepicker:generateReleaseBuildConfig
+:timesliderrangepicker:compileReleaseKotlin
+:timesliderrangepicker:generateReleaseSources
+:timesliderrangepicker:javaPreCompileRelease
+:timesliderrangepicker:compileReleaseJavaWithJavac
+:timesliderrangepicker:processReleaseJavaRes NO-SOURCE
+:timesliderrangepicker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/b353aa0282e6ff1f6b24e2b7d0b7873e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:timesliderrangepicker:mergeReleaseShaders
+:timesliderrangepicker:compileReleaseShaders
+:timesliderrangepicker:generateReleaseAssets
+:timesliderrangepicker:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:timesliderrangepicker:compileReleaseNdk NO-SOURCE
+:timesliderrangepicker:mergeReleaseJniLibFolders
+:timesliderrangepicker:transformNativeLibsWithMergeJniLibsForRelease
+:timesliderrangepicker:transformNativeLibsWithStripDebugSymbolForRelease
+:timesliderrangepicker:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 54s
+94 actionable tasks: 94 executed
+
+2019-02-16 19:39:41,830 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550320715789-0/src/timerangepicker-master/app/build/outputs/apk/debug/app-debug.apk

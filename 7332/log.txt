@@ -1,0 +1,250 @@
+2019-02-23 17:46:15,448 INFO  DownloadService - Downloading "https://github.com/hotstu/chartbinding/archive/master.zip", attempt 3
+2019-02-23 17:47:16,395 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-23 17:47:17,665 INFO  GithubDownloadService - Default branch of this repository: master
+2019-02-23 17:47:17,665 INFO  DownloadService - Downloading "https://github.com/hotstu/chartbinding/archive/master.zip", attempt 3
+2019-02-23 17:48:19,734 DEBUG FullProcessService - Repository https://github.com/hotstu/chartbinding available: true
+2019-02-23 17:48:19,734 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-23 17:48:19,735 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/hotstu/chartbinding, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src]
+2019-02-23 17:48:21,912 INFO  SysUtils - 
+2019-02-23 17:48:21,922 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/.git": true
+2019-02-23 17:48:21,926 INFO  FullProcessService - Size of directory with sources: 783 KB
+2019-02-23 17:48:21,926 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src]
+2019-02-23 17:48:21,946 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/.git/
+
+2019-02-23 17:48:21,949 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/gradlew
+2019-02-23 17:48:21,956 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/build.gradle
+2019-02-23 17:48:21,960 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/deployLocalMaven.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/deployBintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/settings.gradle
+2019-02-23 17:48:21,961 INFO  ProjectBuildService - Remote scripts: none
+2019-02-23 17:48:21,961 INFO  ProjectFixService - Fixing project...
+2019-02-23 17:48:21,972 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/app/local.properties
+2019-02-23 17:48:21,975 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-23 17:48:21,975 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-23 17:48:21,976 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/local.properties
+2019-02-23 17:48:21,977 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=27]
+2019-02-23 17:48:21,978 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=27]
+2019-02-23 17:48:21,979 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/local.properties
+2019-02-23 17:48:21,980 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-23 17:48:21,981 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-23 17:48:21,983 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-23 17:48:21,983 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-23 17:48:21,984 INFO  ProjectFixService - Project was maybe fixed
+2019-02-23 17:48:21,984 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 17:48:21,984 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 17:48:29,182 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-23 17:48:29,182 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-23 17:48:29,182 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-23 17:49:26,230 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-runtime/3.2.0/databinding-runtime-3.2.0.aar
+:app:preBuild UP-TO-DATE
+:lib:preBuild UP-TO-DATE
+:lib:preDebugBuild UP-TO-DATE
+:lib:checkDebugManifest
+:lib:processDebugManifest
+:app:preDebugBuild
+:lib:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:lib:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:lib:compileDebugRenderscript
+:lib:generateDebugResValues
+:lib:generateDebugResources
+:lib:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:lib:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:app:dataBindingExportBuildInfoDebug
+:app:dataBindingExportFeaturePackageIdsDebug
+:lib:generateDebugBuildConfig
+:lib:prepareLintJar
+:lib:generateDebugSources
+:lib:dataBindingExportBuildInfoDebug
+:lib:dataBindingMergeDependencyArtifactsDebug
+:lib:mergeDebugResources
+:lib:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+:lib:dataBindingGenBaseClassesDebug
+:lib:javaPreCompileDebug
+ERROR: [TAG] Failed to resolve variable '${project.version}'
+ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler/3.2.0/databinding-compiler-3.2.0.jar
+:lib:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/src/main/java/github/hotstu/chartbinding/BindingAdpater.java:18: warning: Application namespace for attribute bind:globalOptions will be ignored.
+    public static void bindGlobalOptions(Chart chart, GlobalOptions options) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/src/main/java/github/hotstu/chartbinding/BindingAdpater.java:25: warning: Application namespace for attribute bind:customOptions will be ignored.
+    public static void bindCustomOptions(Chart chart, CustomOptions options) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/src/main/java/github/hotstu/chartbinding/BindingAdpater.java:33: warning: Application namespace for attribute bind:legendOptions will be ignored.
+    public static void bindLegendOptions(Chart chart, LegendOptions options) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/src/main/java/github/hotstu/chartbinding/BindingAdpater.java:40: warning: Application namespace for attribute bind:xAxisOptions will be ignored.
+    public static void bindXAxisOptions(Chart chart, XAxisOptions options) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/src/main/java/github/hotstu/chartbinding/BindingAdpater.java:49: warning: Application namespace for attribute bind:leftAxisOptions will be ignored.
+    public static void bindLeftAxisOptions(Chart chart, YAxisOptions options) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/src/main/java/github/hotstu/chartbinding/BindingAdpater.java:65: warning: Application namespace for attribute bind:rightAxisOptions will be ignored.
+    public static void bindRightAxisOptions(Chart chart, YAxisOptions options) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/src/main/java/github/hotstu/chartbinding/BindingAdpater.java:81: warning: Application namespace for attribute bind:animateX will be ignored.
+    public static void bindAnimateX(Chart chart, boolean aniamte) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/src/main/java/github/hotstu/chartbinding/BindingAdpater.java:88: warning: Application namespace for attribute bind:animateY will be ignored.
+    public static void bindAnimateY(Chart chart, boolean aniamte) {
+                       ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+8 warnings
+
+:app:dataBindingMergeDependencyArtifactsDebug
+:app:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+:app:dataBindingGenBaseClassesDebug
+:lib:processDebugJavaRes NO-SOURCE
+:lib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:lib:mergeDebugShaders
+:lib:compileDebugShaders
+:lib:generateDebugAssets
+:lib:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:lib:compileDebugNdk NO-SOURCE
+:lib:mergeDebugJniLibFolders
+:lib:transformNativeLibsWithMergeJniLibsForDebug
+:lib:transformNativeLibsWithStripDebugSymbolForDebug
+:lib:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:lib:preReleaseBuild UP-TO-DATE
+:lib:checkReleaseManifest
+:lib:processReleaseManifest
+:app:preReleaseBuild
+:lib:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:lib:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:lib:compileReleaseRenderscript
+:lib:generateReleaseResValues
+:lib:generateReleaseResources
+:lib:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:lib:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:dataBindingExportBuildInfoRelease
+:app:dataBindingExportFeaturePackageIdsRelease
+:lib:generateReleaseBuildConfig
+:lib:generateReleaseSources
+:lib:dataBindingExportBuildInfoRelease
+:lib:dataBindingMergeDependencyArtifactsRelease
+:lib:mergeReleaseResources
+:lib:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+:lib:dataBindingGenBaseClassesRelease
+:lib:javaPreCompileRelease
+:lib:compileReleaseJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/src/main/java/github/hotstu/chartbinding/BindingAdpater.java:18: warning: Application namespace for attribute bind:globalOptions will be ignored.
+    public static void bindGlobalOptions(Chart chart, GlobalOptions options) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/src/main/java/github/hotstu/chartbinding/BindingAdpater.java:25: warning: Application namespace for attribute bind:customOptions will be ignored.
+    public static void bindCustomOptions(Chart chart, CustomOptions options) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/src/main/java/github/hotstu/chartbinding/BindingAdpater.java:33: warning: Application namespace for attribute bind:legendOptions will be ignored.
+    public static void bindLegendOptions(Chart chart, LegendOptions options) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/src/main/java/github/hotstu/chartbinding/BindingAdpater.java:40: warning: Application namespace for attribute bind:xAxisOptions will be ignored.
+    public static void bindXAxisOptions(Chart chart, XAxisOptions options) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/src/main/java/github/hotstu/chartbinding/BindingAdpater.java:49: warning: Application namespace for attribute bind:leftAxisOptions will be ignored.
+    public static void bindLeftAxisOptions(Chart chart, YAxisOptions options) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/src/main/java/github/hotstu/chartbinding/BindingAdpater.java:65: warning: Application namespace for attribute bind:rightAxisOptions will be ignored.
+    public static void bindRightAxisOptions(Chart chart, YAxisOptions options) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/src/main/java/github/hotstu/chartbinding/BindingAdpater.java:81: warning: Application namespace for attribute bind:animateX will be ignored.
+    public static void bindAnimateX(Chart chart, boolean aniamte) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/lib/src/main/java/github/hotstu/chartbinding/BindingAdpater.java:88: warning: Application namespace for attribute bind:animateY will be ignored.
+    public static void bindAnimateY(Chart chart, boolean aniamte) {
+                       ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+8 warnings
+
+:app:dataBindingMergeDependencyArtifactsRelease
+:app:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+:app:dataBindingGenBaseClassesRelease
+:lib:processReleaseJavaRes NO-SOURCE
+:lib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/12fa9662974c50756acc2bab87d12b51/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:lib:mergeReleaseShaders
+:lib:compileReleaseShaders
+:lib:generateReleaseAssets
+:lib:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:lib:compileReleaseNdk NO-SOURCE
+:lib:mergeReleaseJniLibFolders
+:lib:transformNativeLibsWithMergeJniLibsForRelease
+:lib:transformNativeLibsWithStripDebugSymbolForRelease
+:lib:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 56s
+110 actionable tasks: 110 executed
+
+2019-02-23 17:49:26,389 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550918775445-0/src/app/build/outputs/apk/debug/app-debug.apk

@@ -1,0 +1,384 @@
+2019-02-23 18:31:36,733 INFO  DownloadService - Downloading "https://github.com/jraska/livedata-testing/archive/master.zip", attempt 3
+2019-02-23 18:32:37,683 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-02-23 18:32:38,842 INFO  GithubDownloadService - Default branch of this repository: master
+2019-02-23 18:32:38,842 INFO  DownloadService - Downloading "https://github.com/jraska/livedata-testing/archive/master.zip", attempt 3
+2019-02-23 18:33:40,551 DEBUG FullProcessService - Repository https://github.com/jraska/livedata-testing available: true
+2019-02-23 18:33:40,551 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-02-23 18:33:40,551 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/jraska/livedata-testing, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src]
+2019-02-23 18:33:42,562 INFO  SysUtils - 
+2019-02-23 18:33:42,585 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/.git": true
+2019-02-23 18:33:42,587 INFO  FullProcessService - Size of directory with sources: 147 KB
+2019-02-23 18:33:42,587 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src]
+2019-02-23 18:33:42,605 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/.git/
+
+2019-02-23 18:33:42,608 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/gradlew
+2019-02-23 18:33:42,610 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/testing-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/testing/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/build.gradle
+2019-02-23 18:33:42,612 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/gradle/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/gradle/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/testing/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/testing-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/settings.gradle
+2019-02-23 18:33:42,612 INFO  ProjectBuildService - Remote scripts: none
+2019-02-23 18:33:42,613 INFO  ProjectFixService - Fixing project...
+2019-02-23 18:33:42,618 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/testing-ktx/local.properties
+2019-02-23 18:33:42,619 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/testing-ktx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-23 18:33:42,619 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/testing-ktx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-23 18:33:42,620 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/testing/local.properties
+2019-02-23 18:33:42,621 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/testing/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-23 18:33:42,621 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/testing/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-23 18:33:42,622 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/local.properties
+2019-02-23 18:33:42,622 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-02-23 18:33:42,622 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-02-23 18:33:42,624 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-23 18:33:42,624 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-02-23 18:33:42,624 INFO  ProjectFixService - Project was maybe fixed
+2019-02-23 18:33:42,624 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 18:33:42,624 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/testing-ktx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 18:33:50,314 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-02-23 18:33:50,314 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-23 18:33:50,314 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/testing-ktx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-23 18:34:08,190 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :testing:preBuild UP-TO-DATE
+> Task :testing:preDebugBuild UP-TO-DATE
+> Task :testing:compileDebugAidl NO-SOURCE
+> Task :testing-ktx:preBuild UP-TO-DATE
+> Task :testing-ktx:preDebugBuild UP-TO-DATE
+> Task :testing-ktx:compileDebugAidl NO-SOURCE
+> Task :testing:compileDebugRenderscript
+> Task :testing:checkDebugManifest
+> Task :testing:generateDebugBuildConfig
+> Task :testing:generateDebugResValues
+> Task :testing:generateDebugResources
+> Task :testing:packageDebugResources
+> Task :testing:processDebugManifest
+> Task :testing:generateDebugRFile
+> Task :testing:compileDebugKotlin
+> Task :testing:prepareLintJar
+> Task :testing:generateDebugSources
+> Task :testing:javaPreCompileDebug
+> Task :testing:compileDebugJavaWithJavac
+> Task :testing:processDebugJavaRes NO-SOURCE
+> Task :testing:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :testing:packageDebugRenderscript NO-SOURCE
+> Task :testing-ktx:compileDebugRenderscript
+> Task :testing-ktx:checkDebugManifest
+> Task :testing-ktx:generateDebugBuildConfig
+> Task :testing-ktx:generateDebugResValues
+> Task :testing-ktx:generateDebugResources
+> Task :testing-ktx:packageDebugResources
+> Task :testing-ktx:processDebugManifest
+> Task :testing-ktx:generateDebugRFile
+> Task :testing-ktx:compileDebugKotlin
+> Task :testing-ktx:prepareLintJar
+> Task :testing-ktx:generateDebugSources
+> Task :testing-ktx:javaPreCompileDebug
+> Task :testing-ktx:compileDebugJavaWithJavac
+> Task :testing-ktx:extractDebugAnnotations
+> Task :testing-ktx:mergeDebugConsumerProguardFiles
+> Task :testing-ktx:mergeDebugShaders
+> Task :testing-ktx:compileDebugShaders
+> Task :testing-ktx:generateDebugAssets
+> Task :testing-ktx:packageDebugAssets
+> Task :testing-ktx:packageDebugRenderscript NO-SOURCE
+> Task :testing-ktx:processDebugJavaRes NO-SOURCE
+> Task :testing-ktx:transformResourcesWithMergeJavaResForDebug
+> Task :testing-ktx:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :testing-ktx:compileDebugNdk NO-SOURCE
+> Task :testing-ktx:mergeDebugJniLibFolders
+> Task :testing-ktx:transformNativeLibsWithMergeJniLibsForDebug
+> Task :testing-ktx:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :testing-ktx:transformNativeLibsWithSyncJniLibsForDebug
+> Task :testing-ktx:bundleDebugAar
+> Task :testing-ktx:compileDebugSources
+> Task :testing-ktx:assembleDebug
+> Task :testing:preReleaseBuild UP-TO-DATE
+> Task :testing:compileReleaseAidl NO-SOURCE
+> Task :testing-ktx:preReleaseBuild UP-TO-DATE
+> Task :testing-ktx:compileReleaseAidl NO-SOURCE
+> Task :testing:compileReleaseRenderscript
+> Task :testing:checkReleaseManifest
+> Task :testing:generateReleaseBuildConfig
+> Task :testing:generateReleaseResValues
+> Task :testing:generateReleaseResources
+> Task :testing:packageReleaseResources
+> Task :testing:processReleaseManifest
+> Task :testing:generateReleaseRFile
+> Task :testing:compileReleaseKotlin
+> Task :testing:generateReleaseSources
+> Task :testing:javaPreCompileRelease
+> Task :testing:compileReleaseJavaWithJavac
+> Task :testing:processReleaseJavaRes NO-SOURCE
+> Task :testing:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :testing:packageReleaseRenderscript NO-SOURCE
+> Task :testing-ktx:compileReleaseRenderscript
+> Task :testing-ktx:checkReleaseManifest
+> Task :testing-ktx:generateReleaseBuildConfig
+> Task :testing-ktx:generateReleaseResValues
+> Task :testing-ktx:generateReleaseResources
+> Task :testing-ktx:packageReleaseResources
+> Task :testing-ktx:processReleaseManifest
+> Task :testing-ktx:generateReleaseRFile
+> Task :testing-ktx:compileReleaseKotlin
+> Task :testing-ktx:generateReleaseSources
+> Task :testing-ktx:javaPreCompileRelease
+> Task :testing-ktx:compileReleaseJavaWithJavac
+> Task :testing-ktx:extractReleaseAnnotations
+> Task :testing-ktx:mergeReleaseConsumerProguardFiles
+> Task :testing-ktx:mergeReleaseShaders
+> Task :testing-ktx:compileReleaseShaders
+> Task :testing-ktx:generateReleaseAssets
+> Task :testing-ktx:packageReleaseAssets
+> Task :testing-ktx:packageReleaseRenderscript NO-SOURCE
+> Task :testing-ktx:processReleaseJavaRes NO-SOURCE
+> Task :testing-ktx:transformResourcesWithMergeJavaResForRelease
+> Task :testing-ktx:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :testing-ktx:compileReleaseNdk NO-SOURCE
+> Task :testing-ktx:mergeReleaseJniLibFolders
+> Task :testing-ktx:transformNativeLibsWithMergeJniLibsForRelease
+> Task :testing-ktx:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :testing-ktx:transformNativeLibsWithSyncJniLibsForRelease
+> Task :testing-ktx:bundleReleaseAar
+> Task :testing-ktx:compileReleaseSources
+> Task :testing-ktx:mergeReleaseResources
+> Task :testing-ktx:verifyReleaseResources
+> Task :testing-ktx:assembleRelease
+> Task :testing-ktx:sourcesJar
+> Task :testing-ktx:assemble
+> Task :testing-ktx:build
+
+BUILD SUCCESSFUL in 17s
+71 actionable tasks: 71 executed
+
+2019-02-23 18:34:08,245 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 18:34:08,245 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/testing/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 18:34:14,591 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-02-23 18:34:14,591 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-23 18:34:14,591 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/testing/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-23 18:34:24,286 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :testing:preBuild UP-TO-DATE
+> Task :testing:preDebugBuild UP-TO-DATE
+> Task :testing:compileDebugAidl NO-SOURCE
+> Task :testing:compileDebugRenderscript UP-TO-DATE
+> Task :testing:checkDebugManifest UP-TO-DATE
+> Task :testing:generateDebugBuildConfig UP-TO-DATE
+> Task :testing:generateDebugResValues UP-TO-DATE
+> Task :testing:generateDebugResources UP-TO-DATE
+> Task :testing:packageDebugResources UP-TO-DATE
+> Task :testing:processDebugManifest UP-TO-DATE
+> Task :testing:generateDebugRFile UP-TO-DATE
+> Task :testing:compileDebugKotlin UP-TO-DATE
+> Task :testing:prepareLintJar UP-TO-DATE
+> Task :testing:generateDebugSources UP-TO-DATE
+> Task :testing:javaPreCompileDebug UP-TO-DATE
+> Task :testing:compileDebugJavaWithJavac UP-TO-DATE
+> Task :testing:extractDebugAnnotations
+> Task :testing:mergeDebugConsumerProguardFiles
+> Task :testing:mergeDebugShaders
+> Task :testing:compileDebugShaders
+> Task :testing:generateDebugAssets
+> Task :testing:packageDebugAssets
+> Task :testing:packageDebugRenderscript NO-SOURCE
+> Task :testing:processDebugJavaRes NO-SOURCE
+> Task :testing:transformResourcesWithMergeJavaResForDebug
+> Task :testing:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :testing:compileDebugNdk NO-SOURCE
+> Task :testing:mergeDebugJniLibFolders
+> Task :testing:transformNativeLibsWithMergeJniLibsForDebug
+> Task :testing:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :testing:transformNativeLibsWithSyncJniLibsForDebug
+> Task :testing:bundleDebugAar
+> Task :testing:compileDebugSources UP-TO-DATE
+> Task :testing:assembleDebug
+> Task :testing:preReleaseBuild UP-TO-DATE
+> Task :testing:compileReleaseAidl NO-SOURCE
+> Task :testing:compileReleaseRenderscript UP-TO-DATE
+> Task :testing:checkReleaseManifest UP-TO-DATE
+> Task :testing:generateReleaseBuildConfig UP-TO-DATE
+> Task :testing:generateReleaseResValues UP-TO-DATE
+> Task :testing:generateReleaseResources UP-TO-DATE
+> Task :testing:packageReleaseResources UP-TO-DATE
+> Task :testing:processReleaseManifest UP-TO-DATE
+> Task :testing:generateReleaseRFile UP-TO-DATE
+> Task :testing:compileReleaseKotlin UP-TO-DATE
+> Task :testing:generateReleaseSources UP-TO-DATE
+> Task :testing:javaPreCompileRelease UP-TO-DATE
+> Task :testing:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :testing:extractReleaseAnnotations
+> Task :testing:mergeReleaseConsumerProguardFiles
+> Task :testing:mergeReleaseShaders
+> Task :testing:compileReleaseShaders
+> Task :testing:generateReleaseAssets
+> Task :testing:packageReleaseAssets
+> Task :testing:packageReleaseRenderscript NO-SOURCE
+> Task :testing:processReleaseJavaRes NO-SOURCE
+> Task :testing:transformResourcesWithMergeJavaResForRelease
+> Task :testing:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :testing:compileReleaseNdk NO-SOURCE
+> Task :testing:mergeReleaseJniLibFolders
+> Task :testing:transformNativeLibsWithMergeJniLibsForRelease
+> Task :testing:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :testing:transformNativeLibsWithSyncJniLibsForRelease
+> Task :testing:bundleReleaseAar
+> Task :testing:compileReleaseSources UP-TO-DATE
+> Task :testing:mergeReleaseResources
+> Task :testing:verifyReleaseResources
+> Task :testing:assembleRelease
+> Task :testing:sourcesJar
+> Task :testing:assemble
+> Task :testing:build
+
+BUILD SUCCESSFUL in 9s
+48 actionable tasks: 27 executed, 21 up-to-date
+
+2019-02-23 18:34:24,358 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 18:34:24,358 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 18:34:31,138 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-23 18:34:31,138 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-23 18:34:31,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921496725-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-23 18:34:39,073 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :testing:preBuild UP-TO-DATE
+> Task :testing:preDebugBuild UP-TO-DATE
+> Task :testing:compileDebugAidl NO-SOURCE
+> Task :testing:compileDebugRenderscript UP-TO-DATE
+> Task :testing:checkDebugManifest UP-TO-DATE
+> Task :testing:generateDebugBuildConfig UP-TO-DATE
+> Task :testing:generateDebugResValues UP-TO-DATE
+> Task :testing:generateDebugResources UP-TO-DATE
+> Task :testing:packageDebugResources UP-TO-DATE
+> Task :testing:processDebugManifest UP-TO-DATE
+> Task :testing:generateDebugRFile UP-TO-DATE
+> Task :testing:compileDebugKotlin UP-TO-DATE
+> Task :testing:prepareLintJar UP-TO-DATE
+> Task :testing:generateDebugSources UP-TO-DATE
+> Task :testing:javaPreCompileDebug UP-TO-DATE
+> Task :testing:compileDebugJavaWithJavac UP-TO-DATE
+> Task :testing:extractDebugAnnotations UP-TO-DATE
+> Task :testing:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :testing:mergeDebugShaders UP-TO-DATE
+> Task :testing:compileDebugShaders UP-TO-DATE
+> Task :testing:generateDebugAssets UP-TO-DATE
+> Task :testing:packageDebugAssets UP-TO-DATE
+> Task :testing:packageDebugRenderscript NO-SOURCE
+> Task :testing:processDebugJavaRes NO-SOURCE
+> Task :testing:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :testing:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :testing:compileDebugNdk NO-SOURCE
+> Task :testing:mergeDebugJniLibFolders UP-TO-DATE
+> Task :testing:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :testing:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :testing:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :testing:bundleDebugAar UP-TO-DATE
+> Task :testing:compileDebugSources UP-TO-DATE
+> Task :testing:assembleDebug UP-TO-DATE
+> Task :testing:preReleaseBuild UP-TO-DATE
+> Task :testing:compileReleaseAidl NO-SOURCE
+> Task :testing:compileReleaseRenderscript UP-TO-DATE
+> Task :testing:checkReleaseManifest UP-TO-DATE
+> Task :testing:generateReleaseBuildConfig UP-TO-DATE
+> Task :testing:generateReleaseResValues UP-TO-DATE
+> Task :testing:generateReleaseResources UP-TO-DATE
+> Task :testing:packageReleaseResources UP-TO-DATE
+> Task :testing:processReleaseManifest UP-TO-DATE
+> Task :testing:generateReleaseRFile UP-TO-DATE
+> Task :testing:compileReleaseKotlin UP-TO-DATE
+> Task :testing:generateReleaseSources UP-TO-DATE
+> Task :testing:javaPreCompileRelease UP-TO-DATE
+> Task :testing:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :testing:extractReleaseAnnotations UP-TO-DATE
+> Task :testing:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :testing:mergeReleaseShaders UP-TO-DATE
+> Task :testing:compileReleaseShaders UP-TO-DATE
+> Task :testing:generateReleaseAssets UP-TO-DATE
+> Task :testing:packageReleaseAssets UP-TO-DATE
+> Task :testing:packageReleaseRenderscript NO-SOURCE
+> Task :testing:processReleaseJavaRes NO-SOURCE
+> Task :testing:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :testing:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :testing:compileReleaseNdk NO-SOURCE
+> Task :testing:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :testing:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :testing:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :testing:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :testing:bundleReleaseAar UP-TO-DATE
+> Task :testing:compileReleaseSources UP-TO-DATE
+> Task :testing:mergeReleaseResources UP-TO-DATE
+> Task :testing:verifyReleaseResources UP-TO-DATE
+> Task :testing:assembleRelease UP-TO-DATE
+> Task :testing:sourcesJar UP-TO-DATE
+> Task :testing:assemble UP-TO-DATE
+> Task :testing:build
+> Task :testing-ktx:preBuild UP-TO-DATE
+> Task :testing-ktx:preDebugBuild UP-TO-DATE
+> Task :testing-ktx:compileDebugAidl NO-SOURCE
+> Task :testing:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :testing-ktx:compileDebugRenderscript UP-TO-DATE
+> Task :testing-ktx:checkDebugManifest UP-TO-DATE
+> Task :testing-ktx:generateDebugBuildConfig UP-TO-DATE
+> Task :testing-ktx:generateDebugResValues UP-TO-DATE
+> Task :testing-ktx:generateDebugResources UP-TO-DATE
+> Task :testing-ktx:packageDebugResources UP-TO-DATE
+> Task :testing-ktx:processDebugManifest UP-TO-DATE
+> Task :testing-ktx:generateDebugRFile UP-TO-DATE
+> Task :testing-ktx:compileDebugKotlin UP-TO-DATE
+> Task :testing-ktx:prepareLintJar UP-TO-DATE
+> Task :testing-ktx:generateDebugSources UP-TO-DATE
+> Task :testing-ktx:javaPreCompileDebug UP-TO-DATE
+> Task :testing-ktx:compileDebugJavaWithJavac UP-TO-DATE
+> Task :testing-ktx:extractDebugAnnotations UP-TO-DATE
+> Task :testing-ktx:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :testing-ktx:mergeDebugShaders UP-TO-DATE
+> Task :testing-ktx:compileDebugShaders UP-TO-DATE
+> Task :testing-ktx:generateDebugAssets UP-TO-DATE
+> Task :testing-ktx:packageDebugAssets UP-TO-DATE
+> Task :testing-ktx:packageDebugRenderscript NO-SOURCE
+> Task :testing-ktx:processDebugJavaRes NO-SOURCE
+> Task :testing-ktx:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :testing-ktx:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :testing-ktx:compileDebugNdk NO-SOURCE
+> Task :testing-ktx:mergeDebugJniLibFolders UP-TO-DATE
+> Task :testing-ktx:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :testing-ktx:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :testing-ktx:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :testing-ktx:bundleDebugAar UP-TO-DATE
+> Task :testing-ktx:compileDebugSources UP-TO-DATE
+> Task :testing-ktx:assembleDebug UP-TO-DATE
+> Task :testing-ktx:preReleaseBuild UP-TO-DATE
+> Task :testing-ktx:compileReleaseAidl NO-SOURCE
+> Task :testing:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :testing-ktx:compileReleaseRenderscript UP-TO-DATE
+> Task :testing-ktx:checkReleaseManifest UP-TO-DATE
+> Task :testing-ktx:generateReleaseBuildConfig UP-TO-DATE
+> Task :testing-ktx:generateReleaseResValues UP-TO-DATE
+> Task :testing-ktx:generateReleaseResources UP-TO-DATE
+> Task :testing-ktx:packageReleaseResources UP-TO-DATE
+> Task :testing-ktx:processReleaseManifest UP-TO-DATE
+> Task :testing-ktx:generateReleaseRFile UP-TO-DATE
+> Task :testing-ktx:compileReleaseKotlin UP-TO-DATE
+> Task :testing-ktx:generateReleaseSources UP-TO-DATE
+> Task :testing-ktx:javaPreCompileRelease UP-TO-DATE
+> Task :testing-ktx:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :testing-ktx:extractReleaseAnnotations UP-TO-DATE
+> Task :testing-ktx:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :testing-ktx:mergeReleaseShaders UP-TO-DATE
+> Task :testing-ktx:compileReleaseShaders UP-TO-DATE
+> Task :testing-ktx:generateReleaseAssets UP-TO-DATE
+> Task :testing-ktx:packageReleaseAssets UP-TO-DATE
+> Task :testing-ktx:packageReleaseRenderscript NO-SOURCE
+> Task :testing-ktx:processReleaseJavaRes NO-SOURCE
+> Task :testing-ktx:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :testing-ktx:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :testing-ktx:compileReleaseNdk NO-SOURCE
+> Task :testing-ktx:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :testing-ktx:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :testing-ktx:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :testing-ktx:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :testing-ktx:bundleReleaseAar UP-TO-DATE
+> Task :testing-ktx:compileReleaseSources UP-TO-DATE
+> Task :testing-ktx:mergeReleaseResources UP-TO-DATE
+> Task :testing-ktx:verifyReleaseResources
+> Task :testing-ktx:assembleRelease
+> Task :testing-ktx:sourcesJar UP-TO-DATE
+> Task :testing-ktx:assemble
+> Task :testing-ktx:build
+
+BUILD SUCCESSFUL in 7s
+98 actionable tasks: 1 executed, 97 up-to-date
+
+2019-02-23 18:34:39,152 ERROR FullProcessService - Project build has not produced APK file
+2019-02-23 18:34:39,228 ERROR FullProcessService - Could not find generated or existed APK file

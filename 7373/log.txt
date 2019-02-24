@@ -1,0 +1,202 @@
+2019-02-16 23:46:00,524 INFO  DownloadService - Downloading "https://github.com/smhdk/KM-Quick-Adapter/archive/master.zip", attempt 3
+2019-02-16 23:46:02,560 INFO  DownloadService - Downloaded https://github.com/smhdk/KM-Quick-Adapter/archive/master.zip, attempt 3
+2019-02-16 23:46:02,560 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/master.zip": 158 KB
+2019-02-16 23:46:02,560 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-16 23:46:02,560 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/master.zip: true
+2019-02-16 23:46:02,560 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src'.
+2019-02-16 23:46:02,586 INFO  FullProcessService - Size of directory with sources: 183 KB
+2019-02-16 23:46:02,586 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src]
+2019-02-16 23:46:02,609 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/.git/
+
+2019-02-16 23:46:02,613 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/gradlew
+2019-02-16 23:46:02,617 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/build.gradle
+2019-02-16 23:46:02,622 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/settings.gradle
+2019-02-16 23:46:02,622 INFO  ProjectBuildService - Remote scripts: none
+2019-02-16 23:46:02,622 INFO  ProjectFixService - Fixing project...
+2019-02-16 23:46:02,631 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/app/local.properties
+2019-02-16 23:46:02,632 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-16 23:46:02,632 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-16 23:46:02,633 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/library/local.properties
+2019-02-16 23:46:02,634 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-16 23:46:02,634 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-16 23:46:02,634 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/local.properties
+2019-02-16 23:46:02,634 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-16 23:46:02,635 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-16 23:46:02,636 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-16 23:46:02,636 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-16 23:46:02,637 INFO  ProjectFixService - Project was maybe fixed
+2019-02-16 23:46:02,637 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-16 23:46:02,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-16 23:46:10,360 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-02-16 23:46:10,360 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-16 23:46:10,360 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-16 23:47:02,265 INFO  SysUtils - Configuration on demand is an incubating feature.
+app: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'androidx.databinding:databinding-compiler:3.2.1' and apply the kapt plugin: "apply plugin: 'kotlin-kapt'".
+library: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'androidx.databinding:databinding-compiler:3.2.1', 'androidx.databinding:databinding-compiler:3.2.1' and apply the kapt plugin: "apply plugin: 'kotlin-kapt'".
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:processDebugManifest
+:app:preDebugBuild
+:library:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:library:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:library:compileDebugRenderscript
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:library:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:app:dataBindingExportBuildInfoDebug
+:library:generateDebugBuildConfig
+:library:prepareLintJar
+:library:generateDebugSources
+:library:dataBindingExportBuildInfoDebug
+:library:dataBindingMergeDependencyArtifactsDebug
+:library:mergeDebugResources
+:library:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+:library:dataBindingGenBaseClassesDebug
+:library:compileDebugKotlin
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavac
+:app:dataBindingMergeDependencyArtifactsDebug
+:app:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+:app:dataBindingGenBaseClassesDebug
+:library:processDebugJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/app/src/main/java/com/kodmap/app/kmquickadapter/pagedlistAdapterSample/PagedlistAdapterSampleActivity.kt: (39, 84): Unchecked cast: PagedList<TestModel>? to PagedList<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/app/src/main/java/com/kodmap/app/kmquickadapter/pagedlistAdapterSample/PagedlistAdapterSampleActivity.kt: (45, 38): Parameter 'viewType' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/app/src/main/java/com/kodmap/app/kmquickadapter/simpleAdapterSample/SimpleAdapterSampleActivity.kt: (42, 38): Parameter 'viewType' is never used, could be renamed to _
+:app:dataBindingExportFeaturePackageIdsDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacwarning: Do not explicitly call 'get()' on ObservableFields or 'getValue()' on LiveData in an expression. This support will be removed soon. 'viewModel.item.get()'
+  file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/app/src/main/res/layout/item_adapter.xml Line:14
+1 warning
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:processReleaseManifest
+:app:preReleaseBuild
+:library:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:library:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:library:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:dataBindingExportBuildInfoRelease
+:library:generateReleaseBuildConfig
+:library:generateReleaseSources
+:library:dataBindingExportBuildInfoRelease
+:library:dataBindingMergeDependencyArtifactsRelease
+:library:mergeReleaseResources
+:library:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+:library:dataBindingGenBaseClassesRelease
+:library:compileReleaseKotlin
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
+:app:dataBindingMergeDependencyArtifactsRelease
+:app:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+:app:dataBindingGenBaseClassesRelease
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/app/src/main/java/com/kodmap/app/kmquickadapter/pagedlistAdapterSample/PagedlistAdapterSampleActivity.kt: (39, 84): Unchecked cast: PagedList<TestModel>? to PagedList<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/app/src/main/java/com/kodmap/app/kmquickadapter/pagedlistAdapterSample/PagedlistAdapterSampleActivity.kt: (45, 38): Parameter 'viewType' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/app/src/main/java/com/kodmap/app/kmquickadapter/simpleAdapterSample/SimpleAdapterSampleActivity.kt: (42, 38): Parameter 'viewType' is never used, could be renamed to _
+:app:dataBindingExportFeaturePackageIdsRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacwarning: Do not explicitly call 'get()' on ObservableFields or 'getValue()' on LiveData in an expression. This support will be removed soon. 'viewModel.item.get()'
+  file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/app/src/main/res/layout/item_adapter.xml Line:14
+1 warning
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 51s
+114 actionable tasks: 114 executed
+
+2019-02-16 23:47:02,453 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335560522-0/src/KM-Quick-Adapter-master/app/build/outputs/apk/debug/app-debug.apk

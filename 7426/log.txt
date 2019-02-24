@@ -1,0 +1,190 @@
+2019-02-19 11:55:10,780 INFO  DownloadService - Downloading "https://github.com/ouattararomuald/syndication/archive/master.zip", attempt 3
+2019-02-19 11:55:12,899 INFO  DownloadService - Downloaded https://github.com/ouattararomuald/syndication/archive/master.zip, attempt 3
+2019-02-19 11:55:12,899 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/master.zip": 178 KB
+2019-02-19 11:55:12,899 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-19 11:55:12,900 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/master.zip: true
+2019-02-19 11:55:12,900 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src'.
+2019-02-19 11:55:12,935 INFO  FullProcessService - Size of directory with sources: 350 KB
+2019-02-19 11:55:12,935 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src]
+2019-02-19 11:55:12,960 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/.git/
+
+2019-02-19 11:55:12,965 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/gradlew
+2019-02-19 11:55:12,971 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-feed/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-kotlin-coroutines-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-rxjava2-adapter/build.gradle
+2019-02-19 11:55:12,975 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-rxjava2-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-kotlin-coroutines-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-feed/build.gradle
+2019-02-19 11:55:12,976 INFO  ProjectBuildService - Remote scripts: none
+2019-02-19 11:55:12,976 INFO  ProjectFixService - Fixing project...
+2019-02-19 11:55:12,998 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/local.properties
+2019-02-19 11:55:12,999 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
+2019-02-19 11:55:13,000 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
+2019-02-19 11:55:13,006 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-19 11:55:13,006 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-19 11:55:13,008 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/sample/local.properties
+2019-02-19 11:55:13,013 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-19 11:55:13,013 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-19 11:55:13,015 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-feed/local.properties
+2019-02-19 11:55:13,020 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-feed/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-19 11:55:13,020 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-feed/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-19 11:55:13,021 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-kotlin-coroutines-adapter/local.properties
+2019-02-19 11:55:13,028 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-kotlin-coroutines-adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-19 11:55:13,028 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-kotlin-coroutines-adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-19 11:55:13,030 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-rxjava2-adapter/local.properties
+2019-02-19 11:55:13,037 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-rxjava2-adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-19 11:55:13,037 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-rxjava2-adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-19 11:55:13,038 INFO  ProjectFixService - Project was maybe fixed
+2019-02-19 11:55:13,038 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 11:55:13,038 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 11:55:18,459 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-02-19 11:55:18,459 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-02-19 11:55:18,459 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-02-19 11:55:34,887 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :sample:discoverMainScriptsExtensions
+> Task :syndication-feed:discoverMainScriptsExtensions
+> Task :syndication-feed:compileKotlin
+> Task :syndication-feed:compileJava
+> Task :syndication-kotlin-coroutines-adapter:discoverMainScriptsExtensions
+> Task :syndication-kotlin-coroutines-adapter:compileKotlin
+> Task :syndication-kotlin-coroutines-adapter:compileJava NO-SOURCE
+> Task :syndication-rxjava2-adapter:discoverMainScriptsExtensions
+> Task :syndication-rxjava2-adapter:compileKotlin
+> Task :syndication-rxjava2-adapter:compileJava
+> Task :sample:compileKotlin
+> Task :sample:compileJava NO-SOURCE
+> Task :sample:processResources NO-SOURCE
+> Task :sample:classes UP-TO-DATE
+> Task :sample:inspectClassesForKotlinIC
+> Task :sample:jar
+> Task :sample:assemble
+> Task :sample:build
+> Task :syndication-feed:processResources NO-SOURCE
+> Task :syndication-feed:classes
+> Task :syndication-feed:inspectClassesForKotlinIC
+> Task :syndication-feed:jar
+> Task :syndication-feed:javadocJar
+> Task :syndication-feed:sourcesJar
+> Task :syndication-feed:signArchives SKIPPED
+> Task :syndication-feed:assemble
+> Task :syndication-feed:build
+> Task :syndication-kotlin-coroutines-adapter:processResources NO-SOURCE
+> Task :syndication-kotlin-coroutines-adapter:classes UP-TO-DATE
+> Task :syndication-kotlin-coroutines-adapter:inspectClassesForKotlinIC
+> Task :syndication-kotlin-coroutines-adapter:jar
+> Task :syndication-kotlin-coroutines-adapter:javadocJar
+> Task :syndication-kotlin-coroutines-adapter:sourcesJar
+> Task :syndication-kotlin-coroutines-adapter:signArchives SKIPPED
+> Task :syndication-kotlin-coroutines-adapter:assemble
+> Task :syndication-kotlin-coroutines-adapter:build
+> Task :syndication-rxjava2-adapter:processResources NO-SOURCE
+> Task :syndication-rxjava2-adapter:classes
+> Task :syndication-rxjava2-adapter:inspectClassesForKotlinIC
+> Task :syndication-rxjava2-adapter:jar
+> Task :syndication-rxjava2-adapter:javadocJar
+> Task :syndication-rxjava2-adapter:sourcesJar
+> Task :syndication-rxjava2-adapter:signArchives SKIPPED
+> Task :syndication-rxjava2-adapter:assemble
+> Task :syndication-rxjava2-adapter:build
+
+BUILD SUCCESSFUL in 15s
+24 actionable tasks: 24 executed
+
+2019-02-19 11:55:34,904 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 11:55:34,904 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 11:55:38,823 INFO  ProjectTaskService - Detected possible tasks: 39
+2019-02-19 11:55:38,823 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-02-19 11:55:38,824 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-02-19 11:55:43,581 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :sample:discoverMainScriptsExtensions
+> Task :syndication-feed:discoverMainScriptsExtensions
+> Task :syndication-feed:compileKotlin UP-TO-DATE
+> Task :syndication-feed:compileJava UP-TO-DATE
+> Task :syndication-kotlin-coroutines-adapter:discoverMainScriptsExtensions
+> Task :syndication-kotlin-coroutines-adapter:compileKotlin UP-TO-DATE
+> Task :syndication-kotlin-coroutines-adapter:compileJava NO-SOURCE
+> Task :syndication-rxjava2-adapter:discoverMainScriptsExtensions
+> Task :syndication-rxjava2-adapter:compileKotlin UP-TO-DATE
+> Task :syndication-rxjava2-adapter:compileJava UP-TO-DATE
+> Task :sample:compileKotlin UP-TO-DATE
+> Task :sample:compileJava NO-SOURCE
+> Task :sample:processResources NO-SOURCE
+> Task :sample:classes UP-TO-DATE
+> Task :sample:inspectClassesForKotlinIC UP-TO-DATE
+> Task :sample:jar UP-TO-DATE
+> Task :sample:assemble UP-TO-DATE
+> Task :sample:build
+
+BUILD SUCCESSFUL in 4s
+12 actionable tasks: 4 executed, 8 up-to-date
+
+2019-02-19 11:55:43,596 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 11:55:43,597 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-feed/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 11:55:47,400 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-02-19 11:55:47,400 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-02-19 11:55:47,400 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-feed/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-02-19 11:55:52,012 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :syndication-feed:discoverMainScriptsExtensions
+> Task :syndication-feed:compileKotlin UP-TO-DATE
+> Task :syndication-feed:compileJava UP-TO-DATE
+> Task :syndication-feed:processResources NO-SOURCE
+> Task :syndication-feed:classes UP-TO-DATE
+> Task :syndication-feed:inspectClassesForKotlinIC UP-TO-DATE
+> Task :syndication-feed:jar UP-TO-DATE
+> Task :syndication-feed:javadocJar UP-TO-DATE
+> Task :syndication-feed:sourcesJar UP-TO-DATE
+> Task :syndication-feed:signArchives SKIPPED
+> Task :syndication-feed:assemble UP-TO-DATE
+> Task :syndication-feed:build
+
+BUILD SUCCESSFUL in 4s
+7 actionable tasks: 1 executed, 6 up-to-date
+
+2019-02-19 11:55:52,026 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 11:55:52,026 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-kotlin-coroutines-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 11:55:56,790 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-02-19 11:55:56,790 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-02-19 11:55:56,791 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-kotlin-coroutines-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-02-19 11:56:01,900 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :syndication-feed:discoverMainScriptsExtensions
+> Task :syndication-feed:compileKotlin UP-TO-DATE
+> Task :syndication-feed:compileJava UP-TO-DATE
+> Task :syndication-kotlin-coroutines-adapter:discoverMainScriptsExtensions
+> Task :syndication-kotlin-coroutines-adapter:compileKotlin UP-TO-DATE
+> Task :syndication-kotlin-coroutines-adapter:compileJava NO-SOURCE
+> Task :syndication-kotlin-coroutines-adapter:processResources NO-SOURCE
+> Task :syndication-kotlin-coroutines-adapter:classes UP-TO-DATE
+> Task :syndication-kotlin-coroutines-adapter:inspectClassesForKotlinIC UP-TO-DATE
+> Task :syndication-kotlin-coroutines-adapter:jar UP-TO-DATE
+> Task :syndication-kotlin-coroutines-adapter:javadocJar UP-TO-DATE
+> Task :syndication-kotlin-coroutines-adapter:sourcesJar UP-TO-DATE
+> Task :syndication-kotlin-coroutines-adapter:signArchives SKIPPED
+> Task :syndication-kotlin-coroutines-adapter:assemble UP-TO-DATE
+> Task :syndication-kotlin-coroutines-adapter:build
+
+BUILD SUCCESSFUL in 4s
+9 actionable tasks: 2 executed, 7 up-to-date
+
+2019-02-19 11:56:01,917 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 11:56:01,917 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-rxjava2-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 11:56:05,744 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-02-19 11:56:05,744 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-02-19 11:56:05,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552110776-0/src/syndication-master/syndication-rxjava2-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-02-19 11:56:10,591 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :syndication-feed:discoverMainScriptsExtensions
+> Task :syndication-feed:compileKotlin UP-TO-DATE
+> Task :syndication-feed:compileJava UP-TO-DATE
+> Task :syndication-rxjava2-adapter:discoverMainScriptsExtensions
+> Task :syndication-rxjava2-adapter:compileKotlin UP-TO-DATE
+> Task :syndication-rxjava2-adapter:compileJava UP-TO-DATE
+> Task :syndication-rxjava2-adapter:processResources NO-SOURCE
+> Task :syndication-rxjava2-adapter:classes UP-TO-DATE
+> Task :syndication-rxjava2-adapter:inspectClassesForKotlinIC UP-TO-DATE
+> Task :syndication-rxjava2-adapter:jar UP-TO-DATE
+> Task :syndication-rxjava2-adapter:javadocJar UP-TO-DATE
+> Task :syndication-rxjava2-adapter:sourcesJar UP-TO-DATE
+> Task :syndication-rxjava2-adapter:signArchives SKIPPED
+> Task :syndication-rxjava2-adapter:assemble UP-TO-DATE
+> Task :syndication-rxjava2-adapter:build
+
+BUILD SUCCESSFUL in 4s
+10 actionable tasks: 2 executed, 8 up-to-date
+
+2019-02-19 11:56:10,606 ERROR FullProcessService - Project build has not produced APK file
+2019-02-19 11:56:10,619 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,170 @@
+2018-12-10 14:56:50,262 INFO  DownloadService - Downloading "https://github.com/hsmnzaydn/easy-csv/archive/master.zip", attempt 3
+2018-12-10 14:56:52,416 INFO  DownloadService - Downloaded https://github.com/hsmnzaydn/easy-csv/archive/master.zip, attempt 3
+2018-12-10 14:56:52,416 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/master.zip": 338 KB
+2018-12-10 14:56:52,416 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-10 14:56:52,418 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/master.zip: true
+2018-12-10 14:56:52,418 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src'.
+2018-12-10 14:56:52,445 INFO  FullProcessService - Size of directory with sources: 404 KB
+2018-12-10 14:56:52,445 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src]
+2018-12-10 14:56:52,471 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/.git/
+
+2018-12-10 14:56:52,475 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/gradlew
+2018-12-10 14:56:52,480 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/easy_csv/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/build.gradle
+2018-12-10 14:56:52,483 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/easy_csv/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/settings.gradle
+2018-12-10 14:56:52,484 INFO  ProjectBuildService - Remote scripts: none
+2018-12-10 14:56:52,484 INFO  ProjectFixService - Fixing project...
+2018-12-10 14:56:52,493 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/app/local.properties
+2018-12-10 14:56:52,494 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-10 14:56:52,494 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-10 14:56:52,496 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/easy_csv/local.properties
+2018-12-10 14:56:52,497 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/easy_csv/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-10 14:56:52,497 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/easy_csv/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-10 14:56:52,498 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/local.properties
+2018-12-10 14:56:52,499 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-10 14:56:52,499 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-10 14:56:52,501 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-10 14:56:52,501 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-10 14:56:52,502 INFO  ProjectFixService - Project was maybe fixed
+2018-12-10 14:56:52,502 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-10 14:56:52,502 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-10 14:57:00,186 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-12-10 14:57:00,186 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-10 14:57:00,186 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-10 14:57:31,382 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:easy_csv:preBuild UP-TO-DATE
+:easy_csv:preDebugBuild UP-TO-DATE
+:easy_csv:checkDebugManifest
+:easy_csv:processDebugManifest
+:app:preDebugBuild
+:easy_csv:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:easy_csv:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:easy_csv:compileDebugRenderscript
+:easy_csv:generateDebugResValues
+:easy_csv:generateDebugResources
+:easy_csv:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:easy_csv:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:easy_csv:generateDebugBuildConfig
+:easy_csv:prepareLintJar
+:easy_csv:generateDebugSources
+:easy_csv:javaPreCompileDebug
+:easy_csv:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/easy_csv/src/main/java/net/ozaydin/serkan/easy_csv/EasyCsv.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:easy_csv:processDebugJavaRes NO-SOURCE
+:easy_csv:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:easy_csv:mergeDebugShaders
+:easy_csv:compileDebugShaders
+:easy_csv:generateDebugAssets
+:easy_csv:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:easy_csv:compileDebugNdk NO-SOURCE
+:easy_csv:mergeDebugJniLibFolders
+:easy_csv:transformNativeLibsWithMergeJniLibsForDebug
+:easy_csv:transformNativeLibsWithStripDebugSymbolForDebug
+:easy_csv:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:easy_csv:preReleaseBuild UP-TO-DATE
+:easy_csv:checkReleaseManifest
+:easy_csv:processReleaseManifest
+:app:preReleaseBuild
+:easy_csv:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:easy_csv:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:easy_csv:compileReleaseRenderscript
+:easy_csv:generateReleaseResValues
+:easy_csv:generateReleaseResources
+:easy_csv:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:easy_csv:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:easy_csv:generateReleaseBuildConfig
+:easy_csv:generateReleaseSources
+:easy_csv:javaPreCompileRelease
+:easy_csv:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/easy_csv/src/main/java/net/ozaydin/serkan/easy_csv/EasyCsv.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:easy_csv:processReleaseJavaRes NO-SOURCE
+:easy_csv:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:easy_csv:mergeReleaseShaders
+:easy_csv:compileReleaseShaders
+:easy_csv:generateReleaseAssets
+:easy_csv:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:easy_csv:compileReleaseNdk NO-SOURCE
+:easy_csv:mergeReleaseJniLibFolders
+:easy_csv:transformNativeLibsWithMergeJniLibsForRelease
+:easy_csv:transformNativeLibsWithStripDebugSymbolForRelease
+:easy_csv:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 30s
+90 actionable tasks: 90 executed
+
+2018-12-10 14:57:31,475 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544428610259-0/src/easy-csv-master/app/build/outputs/apk/debug/app-debug.apk

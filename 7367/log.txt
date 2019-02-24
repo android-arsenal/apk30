@@ -1,0 +1,252 @@
+2019-02-23 23:59:43,161 INFO  DownloadService - Downloading "https://github.com/adawoud/BottomSheetTimeRangePicker/archive/master.zip", attempt 3
+2019-02-23 23:59:45,514 INFO  DownloadService - Downloaded https://github.com/adawoud/BottomSheetTimeRangePicker/archive/master.zip, attempt 3
+2019-02-23 23:59:45,514 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/master.zip": 217 KB
+2019-02-23 23:59:45,514 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-23 23:59:45,520 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/master.zip: true
+2019-02-23 23:59:45,520 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src'.
+2019-02-23 23:59:45,541 INFO  FullProcessService - Size of directory with sources: 247 KB
+2019-02-23 23:59:45,541 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src]
+2019-02-23 23:59:45,573 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/.git/
+
+2019-02-23 23:59:45,576 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/gradlew
+2019-02-23 23:59:45,580 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/bottomsheettimerangepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/build.gradle
+2019-02-23 23:59:45,583 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/bottomsheettimerangepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/settings.gradle
+2019-02-23 23:59:45,583 INFO  ProjectBuildService - Remote scripts: none
+2019-02-23 23:59:45,583 INFO  ProjectFixService - Fixing project...
+2019-02-23 23:59:45,591 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/bottomsheettimerangepicker/local.properties
+2019-02-23 23:59:45,592 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/bottomsheettimerangepicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-23 23:59:45,592 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/bottomsheettimerangepicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-23 23:59:45,592 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/sample/local.properties
+2019-02-23 23:59:45,593 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-23 23:59:45,593 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-02-23 23:59:45,594 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/local.properties
+2019-02-23 23:59:45,594 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-23 23:59:45,594 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-23 23:59:45,595 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-23 23:59:45,595 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-23 23:59:45,596 INFO  ProjectFixService - Project was maybe fixed
+2019-02-23 23:59:45,596 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 23:59:45,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/bottomsheettimerangepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 23:59:53,043 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-02-23 23:59:53,043 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-23 23:59:53,043 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/bottomsheettimerangepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-24 00:00:16,066 INFO  SysUtils - Configuration on demand is an incubating feature.
+:bottomsheettimerangepicker:preBuild UP-TO-DATE
+:bottomsheettimerangepicker:preDebugBuild UP-TO-DATE
+:bottomsheettimerangepicker:compileDebugAidl NO-SOURCE
+:bottomsheettimerangepicker:compileDebugRenderscript
+:bottomsheettimerangepicker:checkDebugManifest
+:bottomsheettimerangepicker:generateDebugBuildConfig
+:bottomsheettimerangepicker:generateDebugResValues
+:bottomsheettimerangepicker:generateDebugResources
+:bottomsheettimerangepicker:packageDebugResources
+:bottomsheettimerangepicker:processDebugManifest
+:bottomsheettimerangepicker:generateDebugRFile
+:bottomsheettimerangepicker:compileDebugKotlin
+:bottomsheettimerangepicker:prepareLintJar
+:bottomsheettimerangepicker:generateDebugSources
+:bottomsheettimerangepicker:javaPreCompileDebug
+:bottomsheettimerangepicker:compileDebugJavaWithJavac
+:bottomsheettimerangepicker:extractDebugAnnotations
+:bottomsheettimerangepicker:mergeDebugConsumerProguardFiles
+:bottomsheettimerangepicker:mergeDebugShaders
+:bottomsheettimerangepicker:compileDebugShaders
+:bottomsheettimerangepicker:generateDebugAssets
+:bottomsheettimerangepicker:packageDebugAssets
+:bottomsheettimerangepicker:packageDebugRenderscript NO-SOURCE
+:bottomsheettimerangepicker:processDebugJavaRes NO-SOURCE
+:bottomsheettimerangepicker:transformResourcesWithMergeJavaResForDebug
+:bottomsheettimerangepicker:transformClassesAndResourcesWithSyncLibJarsForDebug
+:bottomsheettimerangepicker:compileDebugNdk NO-SOURCE
+:bottomsheettimerangepicker:mergeDebugJniLibFolders
+:bottomsheettimerangepicker:transformNativeLibsWithMergeJniLibsForDebug
+:bottomsheettimerangepicker:transformNativeLibsWithStripDebugSymbolForDebug
+:bottomsheettimerangepicker:transformNativeLibsWithSyncJniLibsForDebug
+:bottomsheettimerangepicker:bundleDebugAar
+:bottomsheettimerangepicker:compileDebugSources
+:bottomsheettimerangepicker:assembleDebug
+:bottomsheettimerangepicker:preReleaseBuild UP-TO-DATE
+:bottomsheettimerangepicker:compileReleaseAidl NO-SOURCE
+:bottomsheettimerangepicker:compileReleaseRenderscript
+:bottomsheettimerangepicker:checkReleaseManifest
+:bottomsheettimerangepicker:generateReleaseBuildConfig
+:bottomsheettimerangepicker:generateReleaseResValues
+:bottomsheettimerangepicker:generateReleaseResources
+:bottomsheettimerangepicker:packageReleaseResources
+:bottomsheettimerangepicker:processReleaseManifest
+:bottomsheettimerangepicker:generateReleaseRFile
+:bottomsheettimerangepicker:compileReleaseKotlin
+:bottomsheettimerangepicker:generateReleaseSources
+:bottomsheettimerangepicker:javaPreCompileRelease
+:bottomsheettimerangepicker:compileReleaseJavaWithJavac
+:bottomsheettimerangepicker:extractReleaseAnnotations
+:bottomsheettimerangepicker:mergeReleaseConsumerProguardFiles
+:bottomsheettimerangepicker:mergeReleaseShaders
+:bottomsheettimerangepicker:compileReleaseShaders
+:bottomsheettimerangepicker:generateReleaseAssets
+:bottomsheettimerangepicker:packageReleaseAssets
+:bottomsheettimerangepicker:packageReleaseRenderscript NO-SOURCE
+:bottomsheettimerangepicker:processReleaseJavaRes NO-SOURCE
+:bottomsheettimerangepicker:transformResourcesWithMergeJavaResForRelease
+:bottomsheettimerangepicker:transformClassesAndResourcesWithSyncLibJarsForRelease
+:bottomsheettimerangepicker:compileReleaseNdk NO-SOURCE
+:bottomsheettimerangepicker:mergeReleaseJniLibFolders
+:bottomsheettimerangepicker:transformNativeLibsWithMergeJniLibsForRelease
+:bottomsheettimerangepicker:transformNativeLibsWithStripDebugSymbolForRelease
+:bottomsheettimerangepicker:transformNativeLibsWithSyncJniLibsForRelease
+:bottomsheettimerangepicker:bundleReleaseAar
+:bottomsheettimerangepicker:compileReleaseSources
+:bottomsheettimerangepicker:mergeReleaseResources
+:bottomsheettimerangepicker:verifyReleaseResources
+:bottomsheettimerangepicker:assembleRelease
+:bottomsheettimerangepicker:javadoc NO-SOURCE
+:bottomsheettimerangepicker:javadocJar
+:bottomsheettimerangepicker:sourcesJar
+:bottomsheettimerangepicker:assemble
+:bottomsheettimerangepicker:build
+
+BUILD SUCCESSFUL in 22s
+49 actionable tasks: 49 executed
+
+2019-02-24 00:00:16,129 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-24 00:00:16,129 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-24 00:00:21,975 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-24 00:00:21,975 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-24 00:00:21,976 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-24 00:00:59,250 INFO  SysUtils - Configuration on demand is an incubating feature.
+:bottomsheettimerangepicker:preBuild UP-TO-DATE
+:bottomsheettimerangepicker:preDebugBuild UP-TO-DATE
+:bottomsheettimerangepicker:compileDebugAidl NO-SOURCE
+:bottomsheettimerangepicker:compileDebugRenderscript UP-TO-DATE
+:bottomsheettimerangepicker:checkDebugManifest UP-TO-DATE
+:bottomsheettimerangepicker:generateDebugBuildConfig UP-TO-DATE
+:bottomsheettimerangepicker:generateDebugResValues UP-TO-DATE
+:bottomsheettimerangepicker:generateDebugResources UP-TO-DATE
+:bottomsheettimerangepicker:packageDebugResources UP-TO-DATE
+:bottomsheettimerangepicker:processDebugManifest UP-TO-DATE
+:bottomsheettimerangepicker:generateDebugRFile UP-TO-DATE
+:bottomsheettimerangepicker:compileDebugKotlin UP-TO-DATE
+:bottomsheettimerangepicker:prepareLintJar UP-TO-DATE
+:bottomsheettimerangepicker:generateDebugSources UP-TO-DATE
+:bottomsheettimerangepicker:javaPreCompileDebug UP-TO-DATE
+:bottomsheettimerangepicker:compileDebugJavaWithJavac UP-TO-DATE
+:bottomsheettimerangepicker:processDebugJavaRes NO-SOURCE
+:bottomsheettimerangepicker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:checkDebugClasspath
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl NO-SOURCE
+:bottomsheettimerangepicker:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:compileDebugKotlin
+:sample:prepareLintJar
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:bottomsheettimerangepicker:mergeDebugShaders UP-TO-DATE
+:bottomsheettimerangepicker:compileDebugShaders UP-TO-DATE
+:bottomsheettimerangepicker:generateDebugAssets UP-TO-DATE
+:bottomsheettimerangepicker:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:bottomsheettimerangepicker:compileDebugNdk NO-SOURCE
+:bottomsheettimerangepicker:mergeDebugJniLibFolders UP-TO-DATE
+:bottomsheettimerangepicker:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:bottomsheettimerangepicker:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:bottomsheettimerangepicker:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:checkDebugLibraries
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:bottomsheettimerangepicker:preReleaseBuild UP-TO-DATE
+:bottomsheettimerangepicker:compileReleaseAidl NO-SOURCE
+:bottomsheettimerangepicker:compileReleaseRenderscript UP-TO-DATE
+:bottomsheettimerangepicker:checkReleaseManifest UP-TO-DATE
+:bottomsheettimerangepicker:generateReleaseBuildConfig UP-TO-DATE
+:bottomsheettimerangepicker:generateReleaseResValues UP-TO-DATE
+:bottomsheettimerangepicker:generateReleaseResources UP-TO-DATE
+:bottomsheettimerangepicker:packageReleaseResources UP-TO-DATE
+:bottomsheettimerangepicker:processReleaseManifest UP-TO-DATE
+:bottomsheettimerangepicker:generateReleaseRFile UP-TO-DATE
+:bottomsheettimerangepicker:compileReleaseKotlin UP-TO-DATE
+:bottomsheettimerangepicker:generateReleaseSources UP-TO-DATE
+:bottomsheettimerangepicker:javaPreCompileRelease UP-TO-DATE
+:bottomsheettimerangepicker:compileReleaseJavaWithJavac UP-TO-DATE
+:bottomsheettimerangepicker:processReleaseJavaRes NO-SOURCE
+:bottomsheettimerangepicker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:checkReleaseClasspath
+:sample:preReleaseBuild
+:sample:compileReleaseAidl NO-SOURCE
+:bottomsheettimerangepicker:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:compileReleaseKotlin
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/e00dec4eb62acbd1a633639f45411796/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:bottomsheettimerangepicker:mergeReleaseShaders UP-TO-DATE
+:bottomsheettimerangepicker:compileReleaseShaders UP-TO-DATE
+:bottomsheettimerangepicker:generateReleaseAssets UP-TO-DATE
+:bottomsheettimerangepicker:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:bottomsheettimerangepicker:compileReleaseNdk NO-SOURCE
+:bottomsheettimerangepicker:mergeReleaseJniLibFolders UP-TO-DATE
+:bottomsheettimerangepicker:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:bottomsheettimerangepicker:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:bottomsheettimerangepicker:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:checkReleaseLibraries
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 36s
+94 actionable tasks: 61 executed, 33 up-to-date
+
+2019-02-24 00:00:59,389 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941183157-0/src/BottomSheetTimeRangePicker-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

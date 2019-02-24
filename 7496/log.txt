@@ -1,0 +1,170 @@
+2019-02-19 11:52:50,491 INFO  DownloadService - Downloading "https://github.com/sabujak-sabujak/RoundedButton/archive/master.zip", attempt 3
+2019-02-19 11:52:53,139 INFO  DownloadService - Downloaded https://github.com/sabujak-sabujak/RoundedButton/archive/master.zip, attempt 3
+2019-02-19 11:52:53,139 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/master.zip": 812 KB
+2019-02-19 11:52:53,139 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-19 11:52:53,140 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/master.zip: true
+2019-02-19 11:52:53,140 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src'.
+2019-02-19 11:52:53,166 INFO  FullProcessService - Size of directory with sources: 837 KB
+2019-02-19 11:52:53,166 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src]
+2019-02-19 11:52:53,192 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/.git/
+
+2019-02-19 11:52:53,195 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/gradlew
+2019-02-19 11:52:53,199 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/roundedbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/build.gradle
+2019-02-19 11:52:53,204 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/roundedbutton/build.gradle
+2019-02-19 11:52:53,205 INFO  ProjectBuildService - Remote scripts: none
+2019-02-19 11:52:53,205 INFO  ProjectFixService - Fixing project...
+2019-02-19 11:52:53,214 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/app/local.properties
+2019-02-19 11:52:53,217 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-19 11:52:53,217 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-19 11:52:53,218 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/roundedbutton/local.properties
+2019-02-19 11:52:53,222 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/roundedbutton/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-19 11:52:53,222 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/roundedbutton/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-19 11:52:53,223 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/local.properties
+2019-02-19 11:52:53,224 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-02-19 11:52:53,225 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-02-19 11:52:53,227 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-19 11:52:53,227 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-19 11:52:53,228 INFO  ProjectFixService - Project was maybe fixed
+2019-02-19 11:52:53,228 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 11:52:53,229 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 11:52:59,674 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-19 11:52:59,674 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-19 11:52:59,675 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-19 11:53:48,875 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :roundedbutton:preBuild UP-TO-DATE
+> Task :roundedbutton:preDebugBuild UP-TO-DATE
+> Task :roundedbutton:checkDebugManifest
+> Task :roundedbutton:processDebugManifest
+> Task :app:preDebugBuild
+> Task :roundedbutton:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :roundedbutton:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :roundedbutton:compileDebugRenderscript
+> Task :roundedbutton:generateDebugResValues
+> Task :roundedbutton:generateDebugResources
+> Task :roundedbutton:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :roundedbutton:generateDebugRFile
+> Task :app:processDebugResources
+> Task :roundedbutton:generateDebugBuildConfig
+> Task :roundedbutton:compileDebugKotlin
+> Task :roundedbutton:prepareLintJar
+> Task :roundedbutton:generateDebugSources
+> Task :roundedbutton:javaPreCompileDebug
+> Task :roundedbutton:compileDebugJavaWithJavac
+> Task :roundedbutton:processDebugJavaRes NO-SOURCE
+> Task :roundedbutton:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:compileDebugKotlin
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :roundedbutton:mergeDebugShaders
+> Task :roundedbutton:compileDebugShaders
+> Task :roundedbutton:generateDebugAssets
+> Task :roundedbutton:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :roundedbutton:createFullJarDebug
+> Transform full.jar (project :roundedbutton) with IdentityTransform
+> Task :app:mergeExtDexDebug
+> Transform full.jar (project :roundedbutton) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :roundedbutton:compileDebugNdk NO-SOURCE
+> Task :roundedbutton:mergeDebugJniLibFolders
+> Task :roundedbutton:transformNativeLibsWithMergeJniLibsForDebug
+> Task :roundedbutton:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :roundedbutton:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :roundedbutton:preReleaseBuild UP-TO-DATE
+> Task :roundedbutton:checkReleaseManifest
+> Task :roundedbutton:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :roundedbutton:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :roundedbutton:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :roundedbutton:compileReleaseRenderscript
+> Task :roundedbutton:generateReleaseResValues
+> Task :roundedbutton:generateReleaseResources
+> Task :roundedbutton:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :roundedbutton:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :roundedbutton:generateReleaseBuildConfig
+> Task :roundedbutton:compileReleaseKotlin
+> Task :roundedbutton:generateReleaseSources
+> Task :roundedbutton:javaPreCompileRelease
+> Task :roundedbutton:compileReleaseJavaWithJavac
+> Task :roundedbutton:processReleaseJavaRes NO-SOURCE
+> Task :roundedbutton:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :roundedbutton:createFullJarRelease
+> Transform full.jar (project :roundedbutton) with IdentityTransform
+> Task :app:mergeExtDexRelease
+> Transform full.jar (project :roundedbutton) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :roundedbutton:mergeReleaseShaders
+> Task :roundedbutton:compileReleaseShaders
+> Task :roundedbutton:generateReleaseAssets
+> Task :roundedbutton:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :roundedbutton:compileReleaseNdk NO-SOURCE
+> Task :roundedbutton:mergeReleaseJniLibFolders
+> Task :roundedbutton:transformNativeLibsWithMergeJniLibsForRelease
+> Task :roundedbutton:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :roundedbutton:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 48s
+92 actionable tasks: 92 executed
+
+2019-02-19 11:53:48,973 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550551970487-0/src/RoundedButton-master/app/build/outputs/apk/debug/app-debug.apk

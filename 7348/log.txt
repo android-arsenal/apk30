@@ -1,0 +1,374 @@
+2019-02-19 12:02:20,043 INFO  DownloadService - Downloading "https://github.com/tomasznajda/rx-recaptcha/archive/master.zip", attempt 3
+2019-02-19 12:02:22,018 INFO  DownloadService - Downloaded https://github.com/tomasznajda/rx-recaptcha/archive/master.zip, attempt 3
+2019-02-19 12:02:22,018 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/master.zip": 149 KB
+2019-02-19 12:02:22,018 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-19 12:02:22,018 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/master.zip: true
+2019-02-19 12:02:22,019 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src'.
+2019-02-19 12:02:22,038 INFO  FullProcessService - Size of directory with sources: 172 KB
+2019-02-19 12:02:22,038 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src]
+2019-02-19 12:02:22,058 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/.git/
+
+2019-02-19 12:02:22,062 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/gradlew
+2019-02-19 12:02:22,065 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/build.gradle
+2019-02-19 12:02:22,068 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/settings.gradle
+2019-02-19 12:02:22,068 INFO  ProjectBuildService - Remote scripts: none
+2019-02-19 12:02:22,069 INFO  ProjectFixService - Fixing project...
+2019-02-19 12:02:22,076 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/rxrecaptcha/local.properties
+2019-02-19 12:02:22,077 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-19 12:02:22,077 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-19 12:02:22,078 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/local.properties
+2019-02-19 12:02:22,079 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-02-19 12:02:22,080 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-02-19 12:02:22,080 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/local.properties
+2019-02-19 12:02:22,081 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-19 12:02:22,081 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-19 12:02:22,082 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-19 12:02:22,083 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-19 12:02:22,083 INFO  ProjectFixService - Project was maybe fixed
+2019-02-19 12:02:22,083 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 12:02:22,083 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 12:02:29,691 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-02-19 12:02:29,691 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-19 12:02:29,691 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-19 12:02:59,048 INFO  SysUtils - Configuration on demand is an incubating feature.
+:rxrecaptcha:preBuild UP-TO-DATE
+:rxrecaptcha:preDebugBuild UP-TO-DATE
+:rxrecaptcha:compileDebugAidl NO-SOURCE
+:rxrecaptcha:compileDebugRenderscript
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-safetynet/16.0.0/play-services-safetynet-16.0.0.aar
+:rxrecaptcha:checkDebugManifest
+:rxrecaptcha:generateDebugBuildConfig
+:rxrecaptcha:generateDebugResValues
+:rxrecaptcha:generateDebugResources
+:rxrecaptcha:packageDebugResources
+:rxrecaptcha:processDebugManifest
+:rxrecaptcha:generateDebugRFile
+:rxrecaptcha:compileDebugKotlin
+:rxrecaptcha:prepareLintJar
+:rxrecaptcha:generateDebugSources
+:rxrecaptcha:javaPreCompileDebug
+:rxrecaptcha:compileDebugJavaWithJavac
+:rxrecaptcha:extractDebugAnnotations
+:rxrecaptcha:mergeDebugConsumerProguardFiles
+:rxrecaptcha:mergeDebugShaders
+:rxrecaptcha:compileDebugShaders
+:rxrecaptcha:generateDebugAssets
+:rxrecaptcha:packageDebugAssets
+:rxrecaptcha:packageDebugRenderscript NO-SOURCE
+:rxrecaptcha:processDebugJavaRes NO-SOURCE
+:rxrecaptcha:transformResourcesWithMergeJavaResForDebug
+:rxrecaptcha:transformClassesAndResourcesWithSyncLibJarsForDebug
+:rxrecaptcha:compileDebugNdk NO-SOURCE
+:rxrecaptcha:mergeDebugJniLibFolders
+:rxrecaptcha:transformNativeLibsWithMergeJniLibsForDebug
+:rxrecaptcha:transformNativeLibsWithStripDebugSymbolForDebug
+:rxrecaptcha:transformNativeLibsWithSyncJniLibsForDebug
+:rxrecaptcha:bundleDebugAar
+:rxrecaptcha:compileDebugSources
+:rxrecaptcha:assembleDebug
+:rxrecaptcha:preReleaseBuild UP-TO-DATE
+:rxrecaptcha:compileReleaseAidl NO-SOURCE
+:rxrecaptcha:compileReleaseRenderscript
+:rxrecaptcha:checkReleaseManifest
+:rxrecaptcha:generateReleaseBuildConfig
+:rxrecaptcha:generateReleaseResValues
+:rxrecaptcha:generateReleaseResources
+:rxrecaptcha:packageReleaseResources
+:rxrecaptcha:processReleaseManifest
+:rxrecaptcha:generateReleaseRFile
+:rxrecaptcha:compileReleaseKotlin
+:rxrecaptcha:generateReleaseSources
+:rxrecaptcha:javaPreCompileRelease
+:rxrecaptcha:compileReleaseJavaWithJavac
+:rxrecaptcha:extractReleaseAnnotations
+:rxrecaptcha:mergeReleaseConsumerProguardFiles
+:rxrecaptcha:mergeReleaseShaders
+:rxrecaptcha:compileReleaseShaders
+:rxrecaptcha:generateReleaseAssets
+:rxrecaptcha:packageReleaseAssets
+:rxrecaptcha:packageReleaseRenderscript NO-SOURCE
+:rxrecaptcha:processReleaseJavaRes NO-SOURCE
+:rxrecaptcha:transformResourcesWithMergeJavaResForRelease
+:rxrecaptcha:transformClassesAndResourcesWithSyncLibJarsForRelease
+:rxrecaptcha:compileReleaseNdk NO-SOURCE
+:rxrecaptcha:mergeReleaseJniLibFolders
+:rxrecaptcha:transformNativeLibsWithMergeJniLibsForRelease
+:rxrecaptcha:transformNativeLibsWithStripDebugSymbolForRelease
+:rxrecaptcha:transformNativeLibsWithSyncJniLibsForRelease
+:rxrecaptcha:bundleReleaseAar
+:rxrecaptcha:compileReleaseSources
+:rxrecaptcha:mergeReleaseResources
+:rxrecaptcha:verifyReleaseResources
+:rxrecaptcha:assembleRelease
+:rxrecaptcha:javadoc NO-SOURCE
+:rxrecaptcha:javadocJar
+:rxrecaptcha:sourcesJar
+:rxrecaptcha:assemble
+:rxrecaptcha:build
+
+BUILD SUCCESSFUL in 28s
+49 actionable tasks: 49 executed
+
+2019-02-19 12:02:59,113 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 12:02:59,114 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 12:03:09,049 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-19 12:03:09,050 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-19 12:03:09,050 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-19 12:04:16,386 INFO  SysUtils - Configuration on demand is an incubating feature.
+:rxrecaptcha:preBuild UP-TO-DATE
+:rxrecaptcha:preDebugBuild UP-TO-DATE
+:rxrecaptcha:compileDebugAidl NO-SOURCE
+:rxrecaptcha:compileDebugRenderscript UP-TO-DATE
+:rxrecaptcha:checkDebugManifest UP-TO-DATE
+:rxrecaptcha:generateDebugBuildConfig UP-TO-DATE
+:rxrecaptcha:generateDebugResValues UP-TO-DATE
+:rxrecaptcha:generateDebugResources UP-TO-DATE
+:rxrecaptcha:packageDebugResources UP-TO-DATE
+:rxrecaptcha:processDebugManifest UP-TO-DATE
+:rxrecaptcha:generateDebugRFile UP-TO-DATE
+:rxrecaptcha:compileDebugKotlin UP-TO-DATE
+:rxrecaptcha:prepareLintJar UP-TO-DATE
+:rxrecaptcha:generateDebugSources UP-TO-DATE
+:rxrecaptcha:javaPreCompileDebug UP-TO-DATE
+:rxrecaptcha:compileDebugJavaWithJavac UP-TO-DATE
+:rxrecaptcha:processDebugJavaRes NO-SOURCE
+:rxrecaptcha:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:checkDebugClasspath
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxandroid/2.0.0/rxandroid-2.0.0.aar
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-kotlin/2.1.1/rxbinding-kotlin-2.1.1.aar
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl NO-SOURCE
+:rxrecaptcha:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:compileDebugKotlin
+:sample:prepareLintJar
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:rxrecaptcha:mergeDebugShaders UP-TO-DATE
+:rxrecaptcha:compileDebugShaders UP-TO-DATE
+:rxrecaptcha:generateDebugAssets UP-TO-DATE
+:rxrecaptcha:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:rxrecaptcha:compileDebugNdk NO-SOURCE
+:rxrecaptcha:mergeDebugJniLibFolders UP-TO-DATE
+:rxrecaptcha:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:rxrecaptcha:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:rxrecaptcha:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:checkDebugLibraries
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:rxrecaptcha:preReleaseBuild UP-TO-DATE
+:rxrecaptcha:compileReleaseAidl NO-SOURCE
+:rxrecaptcha:compileReleaseRenderscript UP-TO-DATE
+:rxrecaptcha:checkReleaseManifest UP-TO-DATE
+:rxrecaptcha:generateReleaseBuildConfig UP-TO-DATE
+:rxrecaptcha:generateReleaseResValues UP-TO-DATE
+:rxrecaptcha:generateReleaseResources UP-TO-DATE
+:rxrecaptcha:packageReleaseResources UP-TO-DATE
+:rxrecaptcha:processReleaseManifest UP-TO-DATE
+:rxrecaptcha:generateReleaseRFile UP-TO-DATE
+:rxrecaptcha:compileReleaseKotlin UP-TO-DATE
+:rxrecaptcha:generateReleaseSources UP-TO-DATE
+:rxrecaptcha:javaPreCompileRelease UP-TO-DATE
+:rxrecaptcha:compileReleaseJavaWithJavac UP-TO-DATE
+:rxrecaptcha:processReleaseJavaRes NO-SOURCE
+:rxrecaptcha:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:checkReleaseClasspath
+:sample:extractProguardFiles
+:sample:preReleaseBuild
+:sample:compileReleaseAidl NO-SOURCE
+:rxrecaptcha:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:compileReleaseKotlin
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/7bbe708d341367a5a07087d88832f316/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+Download https://jcenter.bintray.com/com/nhaarman/mockito-kotlin/1.4.0/mockito-kotlin-1.4.0.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/5c867528f063e41217dd0b92e1042dde/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:rxrecaptcha:mergeReleaseShaders UP-TO-DATE
+:rxrecaptcha:compileReleaseShaders UP-TO-DATE
+:rxrecaptcha:generateReleaseAssets UP-TO-DATE
+:rxrecaptcha:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:rxrecaptcha:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:sample:checkReleaseLibraries
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.61/bc77c34ff80df88b4d9b0418ea4ae758544573f3/kotlin-stdlib-jdk7-1.2.61.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxkotlin/2.2.0/e1e2fbb13b1c7dc6d2d03b6221a016d1501ad5a9/rxkotlin-2.2.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxbinding-kotlin-2.1.1.aar/6df6ae2826788839987ffdc9c088a88a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxbinding-2.1.1.aar/45be278470035f85f3c2e35b75420a2b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.0.aar/a3a3364142e1632d009abb0e56fb4c57/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.3/f829e7c489f5b3586bca2199c9017a6d6e1e01be/rxjava-2.2.3.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/58b94f363d2155d2e26bf602eab76a05/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e9104a634c50fe1cf7dfc9b857ff9328/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5bc44acc4b3f0d19166ae3e50454b41e8ff29335/kotlin-stdlib-1.2.61.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c3a8556deb0049829e42deded8b2627e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d5edc1675a8b12cfddac1ad50f8d897a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-16.0.0.aar/92a92d9498efc141a816d44ddd6d5034/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/27f5de36cb34e2456f529ce2b7002223/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e2a4dae8797cee6bf4fb89661b8088b2/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/80b9cf40334ede54fd0180da8347803f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/7cfc0d90c945f3eedc8b572b559118cb/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c72e9722952704f79ce7d91e379aa8c8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/5ee5415a0c1a9af4d741fa29fc5da6f5/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/da2bdc80b9fc684c8e92b419d4d74f2a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/2941d9be9534002a0acdcef10cd0a153/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ac1cdc5ff508441db1391895ae3c5012/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4767771c2aa40db06e373d12259ce298/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/8de12300400c232cf28a9603a73f72d7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/28e797388776d975a0b81b5ad4da1335/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/aa1faec335cc633cfc51d0c3a97c706d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.61/772de03e12d932f489e41aef997d26c20a4ebee6/kotlin-stdlib-common-1.2.61.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/rxrecaptcha/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/tmp/kotlin-classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Initializing...
+Note: the configuration refers to the unknown class 'com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian'
+Note: com.google.android.gms.common.util.WorkSourceUtil: can't find dynamically referenced class android.os.WorkSource$WorkChain
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.jdk8.JDK8PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE8PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE7PlatformImplementations
+Note: kotlin.jvm.internal.Reflection: can't find dynamically referenced class kotlin.reflect.jvm.internal.ReflectionFactoryImpl
+Note: the configuration refers to the unknown field 'com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian mResultGuardian' in class 'com.google.android.gms.common.api.internal.BasePendingResult'
+Note: the configuration keeps the entry point 'com.google.android.gms.common.api.internal.LifecycleCallback { com.google.android.gms.common.api.internal.LifecycleFragment getChimeraLifecycleFragmentImpl(com.google.android.gms.common.api.internal.LifecycleActivity); }', but not the descriptor class 'com.google.android.gms.common.api.internal.LifecycleActivity'
+Note: there were 1 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 1 references to unknown class members.
+      You should check your configuration for typos.
+Note: there were 1 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 5 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 4612
+  Final number of library classes:    1183
+Printing kept classes, fields, and methods...
+Inlining subroutines...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 5055
+  Final number of program classes:    1202
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.61/bc77c34ff80df88b4d9b0418ea4ae758544573f3/kotlin-stdlib-jdk7-1.2.61.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxkotlin/2.2.0/e1e2fbb13b1c7dc6d2d03b6221a016d1501ad5a9/rxkotlin-2.2.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxbinding-kotlin-2.1.1.aar/6df6ae2826788839987ffdc9c088a88a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxbinding-2.1.1.aar/45be278470035f85f3c2e35b75420a2b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.0.aar/a3a3364142e1632d009abb0e56fb4c57/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.3/f829e7c489f5b3586bca2199c9017a6d6e1e01be/rxjava-2.2.3.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/58b94f363d2155d2e26bf602eab76a05/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e9104a634c50fe1cf7dfc9b857ff9328/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5bc44acc4b3f0d19166ae3e50454b41e8ff29335/kotlin-stdlib-1.2.61.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c3a8556deb0049829e42deded8b2627e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d5edc1675a8b12cfddac1ad50f8d897a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-16.0.0.aar/92a92d9498efc141a816d44ddd6d5034/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/27f5de36cb34e2456f529ce2b7002223/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e2a4dae8797cee6bf4fb89661b8088b2/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/80b9cf40334ede54fd0180da8347803f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/7cfc0d90c945f3eedc8b572b559118cb/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c72e9722952704f79ce7d91e379aa8c8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/5ee5415a0c1a9af4d741fa29fc5da6f5/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/da2bdc80b9fc684c8e92b419d4d74f2a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/2941d9be9534002a0acdcef10cd0a153/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ac1cdc5ff508441db1391895ae3c5012/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4767771c2aa40db06e373d12259ce298/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/8de12300400c232cf28a9603a73f72d7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/28e797388776d975a0b81b5ad4da1335/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/aa1faec335cc633cfc51d0c3a97c706d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.61/772de03e12d932f489e41aef997d26c20a4ebee6/kotlin-stdlib-common-1.2.61.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/rxrecaptcha/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/tmp/kotlin-classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:rxrecaptcha:compileReleaseNdk NO-SOURCE
+:rxrecaptcha:mergeReleaseJniLibFolders UP-TO-DATE
+:rxrecaptcha:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:rxrecaptcha:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:rxrecaptcha:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 1m 6s
+96 actionable tasks: 62 executed, 34 up-to-date
+
+2019-02-19 12:04:16,501 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

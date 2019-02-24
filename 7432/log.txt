@@ -1,0 +1,246 @@
+2019-01-22 15:24:06,310 INFO  DownloadService - Downloading "https://github.com/durranilab/LabProgressLayout/archive/master.zip", attempt 3
+2019-01-22 15:24:08,773 INFO  DownloadService - Downloaded https://github.com/durranilab/LabProgressLayout/archive/master.zip, attempt 3
+2019-01-22 15:24:08,774 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/master.zip": 175 KB
+2019-01-22 15:24:08,774 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-22 15:24:08,779 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/master.zip: true
+2019-01-22 15:24:08,779 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src'.
+2019-01-22 15:24:08,804 INFO  FullProcessService - Size of directory with sources: 223 KB
+2019-01-22 15:24:08,804 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src]
+2019-01-22 15:24:08,825 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/.git/
+
+2019-01-22 15:24:08,829 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/gradlew
+2019-01-22 15:24:08,833 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/LabProgress/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/build.gradle
+2019-01-22 15:24:08,836 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/LabProgress/build.gradle
+2019-01-22 15:24:08,837 INFO  ProjectBuildService - Remote scripts: none
+2019-01-22 15:24:08,837 INFO  ProjectFixService - Fixing project...
+2019-01-22 15:24:08,847 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/LabProgress/local.properties
+2019-01-22 15:24:08,849 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/LabProgress/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-22 15:24:08,849 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/LabProgress/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-22 15:24:08,850 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/app/local.properties
+2019-01-22 15:24:08,851 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-22 15:24:08,852 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-22 15:24:08,852 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/local.properties
+2019-01-22 15:24:08,853 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-22 15:24:08,853 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-22 15:24:08,854 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-22 15:24:08,855 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-22 15:24:08,855 INFO  ProjectFixService - Project was maybe fixed
+2019-01-22 15:24:08,855 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 15:24:08,855 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/LabProgress/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 15:24:16,654 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-01-22 15:24:16,654 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-22 15:24:16,654 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/LabProgress/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-22 15:24:33,966 INFO  SysUtils - Configuration on demand is an incubating feature.
+:LabProgress:preBuild UP-TO-DATE
+:LabProgress:preDebugBuild UP-TO-DATE
+:LabProgress:compileDebugAidl NO-SOURCE
+:LabProgress:compileDebugRenderscript
+:LabProgress:checkDebugManifest
+:LabProgress:generateDebugBuildConfig
+:LabProgress:generateDebugResValues
+:LabProgress:generateDebugResources
+:LabProgress:packageDebugResources
+:LabProgress:processDebugManifest
+:LabProgress:generateDebugRFile
+:LabProgress:prepareLintJar
+:LabProgress:generateDebugSources
+:LabProgress:javaPreCompileDebug
+:LabProgress:compileDebugJavaWithJavac
+:LabProgress:extractDebugAnnotations
+:LabProgress:mergeDebugConsumerProguardFiles
+:LabProgress:mergeDebugShaders
+:LabProgress:compileDebugShaders
+:LabProgress:generateDebugAssets
+:LabProgress:packageDebugAssets
+:LabProgress:packageDebugRenderscript NO-SOURCE
+:LabProgress:processDebugJavaRes NO-SOURCE
+:LabProgress:transformResourcesWithMergeJavaResForDebug
+:LabProgress:transformClassesAndResourcesWithSyncLibJarsForDebug
+:LabProgress:compileDebugNdk NO-SOURCE
+:LabProgress:mergeDebugJniLibFolders
+:LabProgress:transformNativeLibsWithMergeJniLibsForDebug
+:LabProgress:transformNativeLibsWithStripDebugSymbolForDebug
+:LabProgress:transformNativeLibsWithSyncJniLibsForDebug
+:LabProgress:bundleDebugAar
+:LabProgress:compileDebugSources
+:LabProgress:assembleDebug
+:LabProgress:preReleaseBuild UP-TO-DATE
+:LabProgress:compileReleaseAidl NO-SOURCE
+:LabProgress:compileReleaseRenderscript
+:LabProgress:checkReleaseManifest
+:LabProgress:generateReleaseBuildConfig
+:LabProgress:generateReleaseResValues
+:LabProgress:generateReleaseResources
+:LabProgress:packageReleaseResources
+:LabProgress:processReleaseManifest
+:LabProgress:generateReleaseRFile
+:LabProgress:generateReleaseSources
+:LabProgress:javaPreCompileRelease
+:LabProgress:compileReleaseJavaWithJavac
+:LabProgress:extractReleaseAnnotations
+:LabProgress:mergeReleaseConsumerProguardFiles
+:LabProgress:mergeReleaseShaders
+:LabProgress:compileReleaseShaders
+:LabProgress:generateReleaseAssets
+:LabProgress:packageReleaseAssets
+:LabProgress:packageReleaseRenderscript NO-SOURCE
+:LabProgress:processReleaseJavaRes NO-SOURCE
+:LabProgress:transformResourcesWithMergeJavaResForRelease
+:LabProgress:transformClassesAndResourcesWithSyncLibJarsForRelease
+:LabProgress:compileReleaseNdk NO-SOURCE
+:LabProgress:mergeReleaseJniLibFolders
+:LabProgress:transformNativeLibsWithMergeJniLibsForRelease
+:LabProgress:transformNativeLibsWithStripDebugSymbolForRelease
+:LabProgress:transformNativeLibsWithSyncJniLibsForRelease
+:LabProgress:bundleReleaseAar
+:LabProgress:compileReleaseSources
+:LabProgress:mergeReleaseResources
+:LabProgress:verifyReleaseResources
+:LabProgress:assembleRelease
+:LabProgress:javadoc
+:LabProgress:javadocJar
+:LabProgress:sourcesJar
+:LabProgress:assemble
+:LabProgress:build
+
+BUILD SUCCESSFUL in 16s
+48 actionable tasks: 48 executed
+
+2019-01-22 15:24:34,024 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 15:24:34,024 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 15:24:41,140 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-22 15:24:41,140 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-22 15:24:41,140 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-22 15:25:04,404 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:LabProgress:preBuild UP-TO-DATE
+:LabProgress:preDebugBuild UP-TO-DATE
+:LabProgress:checkDebugManifest UP-TO-DATE
+:LabProgress:processDebugManifest UP-TO-DATE
+:app:preDebugBuild
+:LabProgress:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:LabProgress:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:LabProgress:compileDebugRenderscript UP-TO-DATE
+:LabProgress:generateDebugResValues UP-TO-DATE
+:LabProgress:generateDebugResources UP-TO-DATE
+:LabProgress:packageDebugResources UP-TO-DATE
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:LabProgress:generateDebugRFile UP-TO-DATE
+:app:processDebugResources
+:app:generateDebugSources
+:LabProgress:generateDebugBuildConfig UP-TO-DATE
+:LabProgress:prepareLintJar UP-TO-DATE
+:LabProgress:generateDebugSources UP-TO-DATE
+:LabProgress:javaPreCompileDebug UP-TO-DATE
+:LabProgress:compileDebugJavaWithJavac UP-TO-DATE
+:LabProgress:processDebugJavaRes NO-SOURCE
+:LabProgress:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:LabProgress:mergeDebugShaders UP-TO-DATE
+:LabProgress:compileDebugShaders UP-TO-DATE
+:LabProgress:generateDebugAssets UP-TO-DATE
+:LabProgress:packageDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:LabProgress:compileDebugNdk NO-SOURCE
+:LabProgress:mergeDebugJniLibFolders UP-TO-DATE
+:LabProgress:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:LabProgress:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:LabProgress:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:LabProgress:preReleaseBuild UP-TO-DATE
+:LabProgress:checkReleaseManifest UP-TO-DATE
+:LabProgress:processReleaseManifest UP-TO-DATE
+:app:preReleaseBuild
+:LabProgress:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:LabProgress:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:LabProgress:compileReleaseRenderscript UP-TO-DATE
+:LabProgress:generateReleaseResValues UP-TO-DATE
+:LabProgress:generateReleaseResources UP-TO-DATE
+:LabProgress:packageReleaseResources UP-TO-DATE
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:LabProgress:generateReleaseRFile UP-TO-DATE
+:app:processReleaseResources
+:app:generateReleaseSources
+:LabProgress:generateReleaseBuildConfig UP-TO-DATE
+:LabProgress:generateReleaseSources UP-TO-DATE
+:LabProgress:javaPreCompileRelease UP-TO-DATE
+:LabProgress:compileReleaseJavaWithJavac UP-TO-DATE
+:LabProgress:processReleaseJavaRes NO-SOURCE
+:LabProgress:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/75ea1b58ebb55a12831c38b4842cfb9d/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:LabProgress:mergeReleaseShaders UP-TO-DATE
+:LabProgress:compileReleaseShaders UP-TO-DATE
+:LabProgress:generateReleaseAssets UP-TO-DATE
+:LabProgress:packageReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:LabProgress:compileReleaseNdk NO-SOURCE
+:LabProgress:mergeReleaseJniLibFolders UP-TO-DATE
+:LabProgress:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:LabProgress:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:LabProgress:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 22s
+90 actionable tasks: 59 executed, 31 up-to-date
+
+2019-01-22 15:25:04,531 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548145446301-0/src/LabProgressLayout-master/app/build/outputs/apk/debug/app-debug.apk

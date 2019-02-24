@@ -1,0 +1,1751 @@
+2019-01-22 15:16:06,838 INFO  DownloadService - Downloading "https://github.com/arthur3486/ARVI/archive/master.zip", attempt 3
+2019-01-22 15:16:11,233 INFO  DownloadService - Downloaded https://github.com/arthur3486/ARVI/archive/master.zip, attempt 3
+2019-01-22 15:16:11,233 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/master.zip": 1 MB
+2019-01-22 15:16:11,233 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-22 15:16:11,234 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/master.zip: true
+2019-01-22 15:16:11,234 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src'.
+2019-01-22 15:16:11,343 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-22 15:16:11,343 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src]
+2019-01-22 15:16:11,369 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/.git/
+
+2019-01-22 15:16:11,378 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/gradlew
+2019-01-22 15:16:11,389 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/build.gradle
+2019-01-22 15:16:11,399 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/gradle/script/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/common/constants.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/build.gradle
+2019-01-22 15:16:11,405 INFO  ProjectBuildService - Remote scripts: none
+2019-01-22 15:16:11,405 INFO  ProjectFixService - Fixing project...
+2019-01-22 15:16:11,429 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/local.properties
+2019-01-22 15:16:11,436 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=27]
+2019-01-22 15:16:11,436 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=27]
+2019-01-22 15:16:11,437 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-ktx/local.properties
+2019-01-22 15:16:11,442 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-ktx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=27]
+2019-01-22 15:16:11,443 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-ktx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=27]
+2019-01-22 15:16:11,444 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/local.properties
+2019-01-22 15:16:11,449 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=27]
+2019-01-22 15:16:11,449 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=27]
+2019-01-22 15:16:11,450 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/local.properties
+2019-01-22 15:16:11,457 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=27]
+2019-01-22 15:16:11,457 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=27]
+2019-01-22 15:16:11,458 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/sample/local.properties
+2019-01-22 15:16:11,464 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=27]
+2019-01-22 15:16:11,464 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=27]
+2019-01-22 15:16:11,466 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/local.properties
+2019-01-22 15:16:11,467 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-22 15:16:11,468 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-22 15:16:11,473 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=27]
+2019-01-22 15:16:11,473 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=27]
+2019-01-22 15:16:11,474 INFO  ProjectFixService - Project was maybe fixed
+2019-01-22 15:16:11,474 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 15:16:11,474 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 15:16:20,257 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-01-22 15:16:20,257 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-22 15:16:20,257 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-22 15:16:43,511 INFO  SysUtils - Configuration on demand is an incubating feature.
+:arvi:preBuild UP-TO-DATE
+:arvi:preDebugBuild UP-TO-DATE
+:arvi:compileDebugAidl NO-SOURCE
+:arvi-adapster:preBuild UP-TO-DATE
+:arvi-adapster:preDebugBuild UP-TO-DATE
+:arvi-adapster:compileDebugAidl NO-SOURCE
+:arvi:compileDebugRenderscript
+:arvi:checkDebugManifest
+:arvi:generateDebugBuildConfig
+:arvi:generateDebugResValues
+:arvi:generateDebugResources
+:arvi:packageDebugResources
+:arvi:processDebugManifest
+:arvi:generateDebugRFile
+:arvi:prepareLintJar
+:arvi:generateDebugSources
+:arvi:javaPreCompileDebug
+:arvi:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/CollectionUtils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:arvi:processDebugJavaRes NO-SOURCE
+:arvi:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:arvi:packageDebugRenderscript NO-SOURCE
+:arvi-adapster:compileDebugRenderscript
+:arvi-adapster:checkDebugManifest
+:arvi-adapster:generateDebugBuildConfig
+:arvi-adapster:generateDebugResValues
+:arvi-adapster:generateDebugResources
+:arvi-adapster:packageDebugResources
+:arvi-adapster:processDebugManifest
+:arvi-adapster:generateDebugRFile
+:arvi-adapster:prepareLintJar
+:arvi-adapster:generateDebugSources
+:arvi-adapster:javaPreCompileDebug
+:arvi-adapster:compileDebugJavaWithJavac
+:arvi-adapster:extractDebugAnnotations
+:arvi-adapster:mergeDebugConsumerProguardFiles
+:arvi-adapster:mergeDebugShaders
+:arvi-adapster:compileDebugShaders
+:arvi-adapster:generateDebugAssets
+:arvi-adapster:packageDebugAssets
+:arvi-adapster:packageDebugRenderscript NO-SOURCE
+:arvi-adapster:processDebugJavaRes NO-SOURCE
+:arvi-adapster:transformResourcesWithMergeJavaResForDebug
+:arvi-adapster:transformClassesAndResourcesWithSyncLibJarsForDebug
+:arvi-adapster:compileDebugNdk NO-SOURCE
+:arvi-adapster:mergeDebugJniLibFolders
+:arvi-adapster:transformNativeLibsWithMergeJniLibsForDebug
+:arvi-adapster:transformNativeLibsWithStripDebugSymbolForDebug
+:arvi-adapster:transformNativeLibsWithSyncJniLibsForDebug
+:arvi-adapster:bundleDebugAar
+:arvi-adapster:compileDebugSources
+:arvi-adapster:assembleDebug
+:arvi:preReleaseBuild UP-TO-DATE
+:arvi:compileReleaseAidl NO-SOURCE
+:arvi-adapster:preReleaseBuild UP-TO-DATE
+:arvi-adapster:compileReleaseAidl NO-SOURCE
+:arvi:compileReleaseRenderscript
+:arvi:checkReleaseManifest
+:arvi:generateReleaseBuildConfig
+:arvi:generateReleaseResValues
+:arvi:generateReleaseResources
+:arvi:packageReleaseResources
+:arvi:processReleaseManifest
+:arvi:generateReleaseRFile
+:arvi:generateReleaseSources
+:arvi:javaPreCompileRelease
+:arvi:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/CollectionUtils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:arvi:processReleaseJavaRes NO-SOURCE
+:arvi:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:arvi:packageReleaseRenderscript NO-SOURCE
+:arvi-adapster:compileReleaseRenderscript
+:arvi-adapster:checkReleaseManifest
+:arvi-adapster:generateReleaseBuildConfig
+:arvi-adapster:generateReleaseResValues
+:arvi-adapster:generateReleaseResources
+:arvi-adapster:packageReleaseResources
+:arvi-adapster:processReleaseManifest
+:arvi-adapster:generateReleaseRFile
+:arvi-adapster:generateReleaseSources
+:arvi-adapster:javaPreCompileRelease
+:arvi-adapster:compileReleaseJavaWithJavac
+:arvi-adapster:extractReleaseAnnotations
+:arvi-adapster:mergeReleaseConsumerProguardFiles
+:arvi-adapster:mergeReleaseShaders
+:arvi-adapster:compileReleaseShaders
+:arvi-adapster:generateReleaseAssets
+:arvi-adapster:packageReleaseAssets
+:arvi-adapster:packageReleaseRenderscript NO-SOURCE
+:arvi-adapster:processReleaseJavaRes NO-SOURCE
+:arvi-adapster:transformResourcesWithMergeJavaResForRelease
+:arvi-adapster:transformClassesAndResourcesWithSyncLibJarsForRelease
+:arvi-adapster:compileReleaseNdk NO-SOURCE
+:arvi-adapster:mergeReleaseJniLibFolders
+:arvi-adapster:transformNativeLibsWithMergeJniLibsForRelease
+:arvi-adapster:transformNativeLibsWithStripDebugSymbolForRelease
+:arvi-adapster:transformNativeLibsWithSyncJniLibsForRelease
+:arvi-adapster:bundleReleaseAar
+:arvi-adapster:compileReleaseSources
+:arvi-adapster:mergeReleaseResources
+:arvi-adapster:verifyReleaseResources
+:arvi-adapster:assembleRelease
+:arvi-adapster:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:25: error: package com.arthurivanets.adapster.model does not exist
+import com.arthurivanets.adapster.model.BaseItem;
+                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:26: error: cannot find symbol
+import com.arthurivanets.arvi.Config;
+                             ^
+  symbol:   class Config
+  location: package com.arthurivanets.arvi
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:27: error: cannot find symbol
+import com.arthurivanets.arvi.PlayerProviderImpl;
+                             ^
+  symbol:   class PlayerProviderImpl
+  location: package com.arthurivanets.arvi
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:28: error: package com.arthurivanets.arvi.model does not exist
+import com.arthurivanets.arvi.model.PlaybackInfo;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:29: error: package com.arthurivanets.arvi.model does not exist
+import com.arthurivanets.arvi.model.VolumeInfo;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:30: error: package com.arthurivanets.arvi.player does not exist
+import com.arthurivanets.arvi.player.Player;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:31: error: package com.arthurivanets.arvi.util.cache does not exist
+import com.arthurivanets.arvi.util.cache.PlaybackInfoCache;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:32: error: package com.arthurivanets.arvi.util.misc does not exist
+import com.arthurivanets.arvi.util.misc.ExoPlayerUtils;
+                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:33: error: package com.arthurivanets.arvi.widget does not exist
+import com.arthurivanets.arvi.widget.Playable;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:34: error: package com.arthurivanets.arvi.widget does not exist
+import com.arthurivanets.arvi.widget.PlaybackState;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:35: error: package com.google.android.exoplayer2 does not exist
+import com.google.android.exoplayer2.ExoPlaybackException;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:36: error: package com.google.android.exoplayer2.source does not exist
+import com.google.android.exoplayer2.source.MediaSource;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:37: error: package com.google.android.exoplayer2.source does not exist
+import com.google.android.exoplayer2.source.TrackGroupArray;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:38: error: package com.google.android.exoplayer2.trackselection does not exist
+import com.google.android.exoplayer2.trackselection.TrackSelectionArray;
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:39: error: package com.google.android.exoplayer2.ui does not exist
+import com.google.android.exoplayer2.ui.PlayerView;
+                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:41: error: cannot find symbol
+import androidx.annotation.FloatRange;
+                          ^
+  symbol:   class FloatRange
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:42: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:62: error: package BaseItem does not exist
+public abstract class AdapsterPlayableItemViewHolder<Data> extends BaseItem.ViewHolder<Data> implements Playable,
+                                                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:62: error: cannot find symbol
+public abstract class AdapsterPlayableItemViewHolder<Data> extends BaseItem.ViewHolder<Data> implements Playable,
+                                                                                                        ^
+  symbol: class Playable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:63: error: package Player does not exist
+        Player.AttachmentStateDelegate, Player.EventListener {
+              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:63: error: package Player does not exist
+        Player.AttachmentStateDelegate, Player.EventListener {
+                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:72: error: cannot find symbol
+    public final PlayerView mPlayerView;
+                 ^
+  symbol:   class PlayerView
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:296: error: cannot find symbol
+    private Player getPlayer() {
+            ^
+  symbol:   class Player
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:303: error: cannot find symbol
+    private Player getOrInitPlayer() {
+            ^
+  symbol:   class Player
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:317: error: cannot find symbol
+    private MediaSource createMediaSource() {
+            ^
+  symbol:   class MediaSource
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:328: error: cannot find symbol
+    private void setPlaybackInfo(PlaybackInfo playbackInfo) {
+                                 ^
+  symbol:   class PlaybackInfo
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:336: error: cannot find symbol
+    public final PlaybackInfo getPlaybackInfo() {
+                 ^
+  symbol:   class PlaybackInfo
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:360: error: cannot find symbol
+    public Config getConfig() {
+           ^
+  symbol:   class Config
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:526: error: cannot find symbol
+    public final boolean isAttached(@NonNull Player player) {
+                                             ^
+  symbol:   class Player
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:565: error: cannot find symbol
+    protected void onStateChanged(@NonNull PlaybackState playbackState) {
+                                           ^
+  symbol:   class PlaybackState
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:573: error: cannot find symbol
+    public final void onAttach(@NonNull Player player) {
+                                        ^
+  symbol:   class Player
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:583: error: cannot find symbol
+    public final void onDetach(@NonNull Player player) {
+                                        ^
+  symbol:   class Player
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:674: error: cannot find symbol
+    public final void onTracksChanged(TrackGroupArray trackGroups, TrackSelectionArray trackSelections) {
+                                      ^
+  symbol:   class TrackGroupArray
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:674: error: cannot find symbol
+    public final void onTracksChanged(TrackGroupArray trackGroups, TrackSelectionArray trackSelections) {
+                                                                   ^
+  symbol:   class TrackSelectionArray
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:682: error: cannot find symbol
+    public final void onPlayerError(ExoPlaybackException error) {
+                                    ^
+  symbol:   class ExoPlaybackException
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:358: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:367: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:376: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:401: error: cannot find symbol
+    @FloatRange(from = 0.0, to = 1.0)
+     ^
+  symbol:   class FloatRange
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:417: error: cannot find symbol
+    protected final void setVolume(@FloatRange(from = 0.0, to = 1.0) float audioVolume) {
+                                    ^
+  symbol:   class FloatRange
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:440: error: cannot find symbol
+    @FloatRange(from = 0.0, to = 1.0)
+     ^
+  symbol:   class FloatRange
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:526: error: cannot find symbol
+    public final boolean isAttached(@NonNull Player player) {
+                                     ^
+  symbol:   class NonNull
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:565: error: cannot find symbol
+    protected void onStateChanged(@NonNull PlaybackState playbackState) {
+                                   ^
+  symbol:   class NonNull
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:573: error: cannot find symbol
+    public final void onAttach(@NonNull Player player) {
+                                ^
+  symbol:   class NonNull
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:583: error: cannot find symbol
+    public final void onDetach(@NonNull Player player) {
+                                ^
+  symbol:   class NonNull
+  location: class AdapsterPlayableItemViewHolder<Data>
+  where Data is a type-variable:
+    Data extends Object declared in class AdapsterPlayableItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:413: error: reference not found
+     *      If the playback is the active state, then the volume will be adjusted directly on the corresponding {@link Player} instance.
+                                                                                                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:455: error: reference not found
+     *      If the playback is the active state, then the audio muted state will be adjusted directly on the corresponding {@link Player} instance.
+                                                                                                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:561: error: reference not found
+     * Gets called when the Playback {@link PlaybackState} changes.
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:563: error: reference not found
+     * @param playbackState the new Playback {@link PlaybackState}.
+                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:46: error: reference not found
+ *      A {@link Playable} implementation based on the {@link BaseItem.ViewHolder} designed to
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:46: error: reference not found
+ *      A {@link Playable} implementation based on the {@link BaseItem.ViewHolder} designed to
+                                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:47: error: reference not found
+ *      enable the Video Autoplayability in the {@link androidx.recyclerview.widget.RecyclerView}-based containers.
+                                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:53: error: reference not found
+ *           To enable the proper handling of the Video Playback associated with each corresponding Item {@link BaseItem.ViewHolder}
+                                                                                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:54: error: reference not found
+ *           you should use a {@link androidx.recyclerview.widget.RecyclerView}-based container that supports the aforementioned handling.
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:57: error: reference not found
+ *           Use the {@link com.arthurivanets.arvi.widget.PlayableItemsRecyclerView} which has all the necessary handling and related features implemented for you,
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-adapster/src/main/java/com/arthurivanets/arvi/adapster/AdapsterPlayableItemViewHolder.java:58: error: reference not found
+ *           or create your own {@link androidx.recyclerview.widget.RecyclerView}-based container with your own implementations of the necessary handling functionality.
+                                       ^
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class FloatRange not found.
+
+11 errors
+80 warnings
+:arvi-adapster:javadocJar
+:arvi-adapster:sourcesJar
+:arvi-adapster:assemble
+:arvi-adapster:build
+
+BUILD SUCCESSFUL in 22s
+69 actionable tasks: 69 executed
+
+2019-01-22 15:16:43,614 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 15:16:43,614 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-ktx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 15:16:51,874 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-01-22 15:16:51,875 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-22 15:16:51,875 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-ktx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-22 15:17:11,837 INFO  SysUtils - Configuration on demand is an incubating feature.
+:arvi:preBuild UP-TO-DATE
+:arvi:preDebugBuild UP-TO-DATE
+:arvi:compileDebugAidl NO-SOURCE
+:arvi-ktx:preBuild UP-TO-DATE
+:arvi-ktx:preDebugBuild UP-TO-DATE
+:arvi-ktx:compileDebugAidl NO-SOURCE
+:arvi:compileDebugRenderscript UP-TO-DATE
+:arvi:checkDebugManifest UP-TO-DATE
+:arvi:generateDebugBuildConfig UP-TO-DATE
+:arvi:generateDebugResValues UP-TO-DATE
+:arvi:generateDebugResources UP-TO-DATE
+:arvi:packageDebugResources UP-TO-DATE
+:arvi:processDebugManifest UP-TO-DATE
+:arvi:generateDebugRFile UP-TO-DATE
+:arvi:prepareLintJar UP-TO-DATE
+:arvi:generateDebugSources UP-TO-DATE
+:arvi:javaPreCompileDebug UP-TO-DATE
+:arvi:compileDebugJavaWithJavac UP-TO-DATE
+:arvi:processDebugJavaRes NO-SOURCE
+:arvi:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:arvi:packageDebugRenderscript NO-SOURCE
+:arvi-ktx:compileDebugRenderscript
+:arvi-ktx:checkDebugManifest
+:arvi-ktx:generateDebugBuildConfig
+:arvi-ktx:generateDebugResValues
+:arvi-ktx:generateDebugResources
+:arvi-ktx:packageDebugResources
+:arvi-ktx:processDebugManifest
+:arvi-ktx:generateDebugRFile
+:arvi-ktx:compileDebugKotlin
+:arvi-ktx:prepareLintJar
+:arvi-ktx:generateDebugSources
+:arvi-ktx:javaPreCompileDebug
+:arvi-ktx:compileDebugJavaWithJavac
+:arvi-ktx:extractDebugAnnotations
+:arvi-ktx:mergeDebugConsumerProguardFiles
+:arvi-ktx:mergeDebugShaders
+:arvi-ktx:compileDebugShaders
+:arvi-ktx:generateDebugAssets
+:arvi-ktx:packageDebugAssets
+:arvi-ktx:packageDebugRenderscript NO-SOURCE
+:arvi-ktx:processDebugJavaRes NO-SOURCE
+:arvi-ktx:transformResourcesWithMergeJavaResForDebug
+:arvi-ktx:transformClassesAndResourcesWithSyncLibJarsForDebug
+:arvi-ktx:compileDebugNdk NO-SOURCE
+:arvi-ktx:mergeDebugJniLibFolders
+:arvi-ktx:transformNativeLibsWithMergeJniLibsForDebug
+:arvi-ktx:transformNativeLibsWithStripDebugSymbolForDebug
+:arvi-ktx:transformNativeLibsWithSyncJniLibsForDebug
+:arvi-ktx:bundleDebugAar
+:arvi-ktx:compileDebugSources
+:arvi-ktx:assembleDebug
+:arvi:preReleaseBuild UP-TO-DATE
+:arvi:compileReleaseAidl NO-SOURCE
+:arvi-ktx:preReleaseBuild UP-TO-DATE
+:arvi-ktx:compileReleaseAidl NO-SOURCE
+:arvi:compileReleaseRenderscript UP-TO-DATE
+:arvi:checkReleaseManifest UP-TO-DATE
+:arvi:generateReleaseBuildConfig UP-TO-DATE
+:arvi:generateReleaseResValues UP-TO-DATE
+:arvi:generateReleaseResources UP-TO-DATE
+:arvi:packageReleaseResources UP-TO-DATE
+:arvi:processReleaseManifest UP-TO-DATE
+:arvi:generateReleaseRFile UP-TO-DATE
+:arvi:generateReleaseSources UP-TO-DATE
+:arvi:javaPreCompileRelease UP-TO-DATE
+:arvi:compileReleaseJavaWithJavac UP-TO-DATE
+:arvi:processReleaseJavaRes NO-SOURCE
+:arvi:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:arvi:packageReleaseRenderscript NO-SOURCE
+:arvi-ktx:compileReleaseRenderscript
+:arvi-ktx:checkReleaseManifest
+:arvi-ktx:generateReleaseBuildConfig
+:arvi-ktx:generateReleaseResValues
+:arvi-ktx:generateReleaseResources
+:arvi-ktx:packageReleaseResources
+:arvi-ktx:processReleaseManifest
+:arvi-ktx:generateReleaseRFile
+:arvi-ktx:compileReleaseKotlin
+:arvi-ktx:generateReleaseSources
+:arvi-ktx:javaPreCompileRelease
+:arvi-ktx:compileReleaseJavaWithJavac
+:arvi-ktx:extractReleaseAnnotations
+:arvi-ktx:mergeReleaseConsumerProguardFiles
+:arvi-ktx:mergeReleaseShaders
+:arvi-ktx:compileReleaseShaders
+:arvi-ktx:generateReleaseAssets
+:arvi-ktx:packageReleaseAssets
+:arvi-ktx:packageReleaseRenderscript NO-SOURCE
+:arvi-ktx:processReleaseJavaRes NO-SOURCE
+:arvi-ktx:transformResourcesWithMergeJavaResForRelease
+:arvi-ktx:transformClassesAndResourcesWithSyncLibJarsForRelease
+:arvi-ktx:compileReleaseNdk NO-SOURCE
+:arvi-ktx:mergeReleaseJniLibFolders
+:arvi-ktx:transformNativeLibsWithMergeJniLibsForRelease
+:arvi-ktx:transformNativeLibsWithStripDebugSymbolForRelease
+:arvi-ktx:transformNativeLibsWithSyncJniLibsForRelease
+:arvi-ktx:bundleReleaseAar
+:arvi-ktx:compileReleaseSources
+:arvi-ktx:mergeReleaseResources
+:arvi-ktx:verifyReleaseResources
+:arvi-ktx:assembleRelease
+:arvi-ktx:javadocjavadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-ktx/src/main/java/com/arthurivanets/arvi/ktx/ArviExtensions.kt"
+
+1 error
+:arvi-ktx:javadocJar
+:arvi-ktx:sourcesJar
+:arvi-ktx:assemble
+:arvi-ktx:build
+
+BUILD SUCCESSFUL in 19s
+71 actionable tasks: 50 executed, 21 up-to-date
+
+2019-01-22 15:17:11,987 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 15:17:11,987 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 15:17:19,211 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-01-22 15:17:19,211 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-22 15:17:19,211 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-22 15:17:31,548 INFO  SysUtils - Configuration on demand is an incubating feature.
+:arvi-utils:preBuild UP-TO-DATE
+:arvi-utils:preDebugBuild UP-TO-DATE
+:arvi-utils:compileDebugAidl NO-SOURCE
+:arvi-utils:compileDebugRenderscript
+:arvi-utils:checkDebugManifest
+:arvi-utils:generateDebugBuildConfig
+:arvi-utils:generateDebugResValues
+:arvi-utils:generateDebugResources
+:arvi-utils:packageDebugResources
+:arvi-utils:processDebugManifest
+:arvi-utils:generateDebugRFile
+:arvi-utils:prepareLintJar
+:arvi-utils:generateDebugSources
+:arvi-utils:javaPreCompileDebug
+:arvi-utils:compileDebugJavaWithJavac
+:arvi-utils:extractDebugAnnotations
+:arvi-utils:mergeDebugConsumerProguardFiles
+:arvi-utils:mergeDebugShaders
+:arvi-utils:compileDebugShaders
+:arvi-utils:generateDebugAssets
+:arvi-utils:packageDebugAssets
+:arvi-utils:packageDebugRenderscript NO-SOURCE
+:arvi-utils:processDebugJavaRes NO-SOURCE
+:arvi-utils:transformResourcesWithMergeJavaResForDebug
+:arvi-utils:transformClassesAndResourcesWithSyncLibJarsForDebug
+:arvi-utils:compileDebugNdk NO-SOURCE
+:arvi-utils:mergeDebugJniLibFolders
+:arvi-utils:transformNativeLibsWithMergeJniLibsForDebug
+:arvi-utils:transformNativeLibsWithStripDebugSymbolForDebug
+:arvi-utils:transformNativeLibsWithSyncJniLibsForDebug
+:arvi-utils:bundleDebugAar
+:arvi-utils:compileDebugSources
+:arvi-utils:assembleDebug
+:arvi-utils:preReleaseBuild UP-TO-DATE
+:arvi-utils:compileReleaseAidl NO-SOURCE
+:arvi-utils:compileReleaseRenderscript
+:arvi-utils:checkReleaseManifest
+:arvi-utils:generateReleaseBuildConfig
+:arvi-utils:generateReleaseResValues
+:arvi-utils:generateReleaseResources
+:arvi-utils:packageReleaseResources
+:arvi-utils:processReleaseManifest
+:arvi-utils:generateReleaseRFile
+:arvi-utils:generateReleaseSources
+:arvi-utils:javaPreCompileRelease
+:arvi-utils:compileReleaseJavaWithJavac
+:arvi-utils:extractReleaseAnnotations
+:arvi-utils:mergeReleaseConsumerProguardFiles
+:arvi-utils:mergeReleaseShaders
+:arvi-utils:compileReleaseShaders
+:arvi-utils:generateReleaseAssets
+:arvi-utils:packageReleaseAssets
+:arvi-utils:packageReleaseRenderscript NO-SOURCE
+:arvi-utils:processReleaseJavaRes NO-SOURCE
+:arvi-utils:transformResourcesWithMergeJavaResForRelease
+:arvi-utils:transformClassesAndResourcesWithSyncLibJarsForRelease
+:arvi-utils:compileReleaseNdk NO-SOURCE
+:arvi-utils:mergeReleaseJniLibFolders
+:arvi-utils:transformNativeLibsWithMergeJniLibsForRelease
+:arvi-utils:transformNativeLibsWithStripDebugSymbolForRelease
+:arvi-utils:transformNativeLibsWithSyncJniLibsForRelease
+:arvi-utils:bundleReleaseAar
+:arvi-utils:compileReleaseSources
+:arvi-utils:mergeReleaseResources
+:arvi-utils:verifyReleaseResources
+:arvi-utils:assembleRelease
+:arvi-utils:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/src/main/java/com/arthurivanets/arvi/utils/recyclerview/PreCacheLinearLayoutManager.java:22: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.LinearLayoutManager;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/src/main/java/com/arthurivanets/arvi/utils/recyclerview/PreCacheLinearLayoutManager.java:23: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/src/main/java/com/arthurivanets/arvi/utils/recyclerview/PreCacheLinearLayoutManager.java:28: error: cannot find symbol
+public class PreCacheLinearLayoutManager extends LinearLayoutManager implements HasPreCachingSupport {
+                                                 ^
+  symbol: class LinearLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/src/main/java/com/arthurivanets/arvi/utils/recyclerview/PreCacheLinearLayoutManager.java:80: error: package RecyclerView does not exist
+    protected final int getExtraLayoutSpace(RecyclerView.State state) {
+                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/src/main/java/com/arthurivanets/arvi/utils/recyclerview/PreCacheGridLayoutManager.java:22: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.GridLayoutManager;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/src/main/java/com/arthurivanets/arvi/utils/recyclerview/PreCacheGridLayoutManager.java:23: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/src/main/java/com/arthurivanets/arvi/utils/recyclerview/PreCacheGridLayoutManager.java:28: error: cannot find symbol
+public class PreCacheGridLayoutManager extends GridLayoutManager implements HasPreCachingSupport {
+                                               ^
+  symbol: class GridLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/src/main/java/com/arthurivanets/arvi/utils/recyclerview/PreCacheGridLayoutManager.java:82: error: package RecyclerView does not exist
+    protected final int getExtraLayoutSpace(RecyclerView.State state) {
+                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/src/main/java/com/arthurivanets/arvi/utils/recyclerview/HasPreCachingSupport.java:27: error: bad HTML entity
+     * Sets the extra space that will be used for the view pre-creation & caching purposes.
+                                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/src/main/java/com/arthurivanets/arvi/utils/recyclerview/HasPreCachingSupport.java:21: error: reference not found
+ * the {@link androidx.recyclerview.widget.RecyclerView.LayoutManager}s in order
+              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/src/main/java/com/arthurivanets/arvi/utils/recyclerview/PreCacheGridLayoutManager.java:26: error: reference not found
+ * A {@link GridLayoutManager} with support for the Item View pre-caching.
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi-utils/src/main/java/com/arthurivanets/arvi/utils/recyclerview/PreCacheLinearLayoutManager.java:26: error: reference not found
+ * A {@link LinearLayoutManager} with support for the Item View pre-caching.
+            ^
+
+4 errors
+8 warnings
+:arvi-utils:javadocJar
+:arvi-utils:sourcesJar
+:arvi-utils:assemble
+:arvi-utils:build
+
+BUILD SUCCESSFUL in 12s
+48 actionable tasks: 48 executed
+
+2019-01-22 15:17:31,752 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 15:17:31,752 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 15:17:39,395 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-01-22 15:17:39,395 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-22 15:17:39,395 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-22 15:17:54,357 INFO  SysUtils - Configuration on demand is an incubating feature.
+:arvi:preBuild UP-TO-DATE
+:arvi:preDebugBuild UP-TO-DATE
+:arvi:compileDebugAidl NO-SOURCE
+:arvi:compileDebugRenderscript UP-TO-DATE
+:arvi:checkDebugManifest UP-TO-DATE
+:arvi:generateDebugBuildConfig UP-TO-DATE
+:arvi:generateDebugResValues UP-TO-DATE
+:arvi:generateDebugResources UP-TO-DATE
+:arvi:packageDebugResources UP-TO-DATE
+:arvi:processDebugManifest UP-TO-DATE
+:arvi:generateDebugRFile UP-TO-DATE
+:arvi:prepareLintJar UP-TO-DATE
+:arvi:generateDebugSources UP-TO-DATE
+:arvi:javaPreCompileDebug UP-TO-DATE
+:arvi:compileDebugJavaWithJavac UP-TO-DATE
+:arvi:extractDebugAnnotations
+:arvi:mergeDebugConsumerProguardFiles
+:arvi:mergeDebugShaders
+:arvi:compileDebugShaders
+:arvi:generateDebugAssets
+:arvi:packageDebugAssets
+:arvi:packageDebugRenderscript NO-SOURCE
+:arvi:processDebugJavaRes NO-SOURCE
+:arvi:transformResourcesWithMergeJavaResForDebug
+:arvi:transformClassesAndResourcesWithSyncLibJarsForDebug
+:arvi:compileDebugNdk NO-SOURCE
+:arvi:mergeDebugJniLibFolders
+:arvi:transformNativeLibsWithMergeJniLibsForDebug
+:arvi:transformNativeLibsWithStripDebugSymbolForDebug
+:arvi:transformNativeLibsWithSyncJniLibsForDebug
+:arvi:bundleDebugAar
+:arvi:compileDebugSources UP-TO-DATE
+:arvi:assembleDebug
+:arvi:preReleaseBuild UP-TO-DATE
+:arvi:compileReleaseAidl NO-SOURCE
+:arvi:compileReleaseRenderscript UP-TO-DATE
+:arvi:checkReleaseManifest UP-TO-DATE
+:arvi:generateReleaseBuildConfig UP-TO-DATE
+:arvi:generateReleaseResValues UP-TO-DATE
+:arvi:generateReleaseResources UP-TO-DATE
+:arvi:packageReleaseResources UP-TO-DATE
+:arvi:processReleaseManifest UP-TO-DATE
+:arvi:generateReleaseRFile UP-TO-DATE
+:arvi:generateReleaseSources UP-TO-DATE
+:arvi:javaPreCompileRelease UP-TO-DATE
+:arvi:compileReleaseJavaWithJavac UP-TO-DATE
+:arvi:extractReleaseAnnotations
+:arvi:mergeReleaseConsumerProguardFiles
+:arvi:mergeReleaseShaders
+:arvi:compileReleaseShaders
+:arvi:generateReleaseAssets
+:arvi:packageReleaseAssets
+:arvi:packageReleaseRenderscript NO-SOURCE
+:arvi:processReleaseJavaRes NO-SOURCE
+:arvi:transformResourcesWithMergeJavaResForRelease
+:arvi:transformClassesAndResourcesWithSyncLibJarsForRelease
+:arvi:compileReleaseNdk NO-SOURCE
+:arvi:mergeReleaseJniLibFolders
+:arvi:transformNativeLibsWithMergeJniLibsForRelease
+:arvi:transformNativeLibsWithStripDebugSymbolForRelease
+:arvi:transformNativeLibsWithSyncJniLibsForRelease
+:arvi:bundleReleaseAar
+:arvi:compileReleaseSources UP-TO-DATE
+:arvi:mergeReleaseResources
+:arvi:verifyReleaseResources
+:arvi:assembleRelease
+:arvi:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/PlayerNodePoolImpl.java:28: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/PlayerNodePoolImpl.java:29: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/CollectionUtils.java:25: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/CollectionUtils.java:26: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/PlayerNodePool.java:21: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/PlayerNodePool.java:22: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/PlayerNode.java:24: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/PlayerNode.java:25: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/PlayerNode.java:26: error: cannot find symbol
+import androidx.annotation.RestrictTo;
+                          ^
+  symbol:   class RestrictTo
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/PlayerNode.java:31: error: cannot find symbol
+@RestrictTo(RestrictTo.Scope.LIBRARY)
+ ^
+  symbol: class RestrictTo
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:20: error: package com.google.android.exoplayer2 does not exist
+import com.google.android.exoplayer2.ExoPlaybackException;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:21: error: package com.google.android.exoplayer2.source does not exist
+import com.google.android.exoplayer2.source.MediaSource;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:22: error: package com.google.android.exoplayer2.source does not exist
+import com.google.android.exoplayer2.source.TrackGroupArray;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:23: error: package com.google.android.exoplayer2.trackselection does not exist
+import com.google.android.exoplayer2.trackselection.TrackSelectionArray;
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:24: error: package com.google.android.exoplayer2.ui does not exist
+import com.google.android.exoplayer2.ui.PlayerView;
+                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:29: error: cannot find symbol
+import androidx.annotation.FloatRange;
+                          ^
+  symbol:   class FloatRange
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:30: error: cannot find symbol
+import androidx.annotation.IntDef;
+                          ^
+  symbol:   class IntDef
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:31: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:32: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:102: error: cannot find symbol
+    void attach(@NonNull PlayerView playerView);
+                         ^
+  symbol:   class PlayerView
+  location: interface Player
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:109: error: cannot find symbol
+    void detach(@NonNull PlayerView playerView);
+                         ^
+  symbol:   class PlayerView
+  location: interface Player
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:156: error: cannot find symbol
+    void setMediaSource(@NonNull MediaSource mediaSource);
+                                 ^
+  symbol:   class MediaSource
+  location: interface Player
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:164: error: cannot find symbol
+    MediaSource getMediaSource();
+    ^
+  symbol:   class MediaSource
+  location: interface Player
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/VolumeController.java:19: error: cannot find symbol
+import androidx.annotation.FloatRange;
+                          ^
+  symbol:   class FloatRange
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:224: error: cannot find symbol
+    boolean isAttached(@NonNull PlayerView playerView);
+                                ^
+  symbol:   class PlayerView
+  location: interface Player
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:293: error: cannot find symbol
+        void onTracksChanged(TrackGroupArray trackGroups, TrackSelectionArray trackSelections);
+                             ^
+  symbol:   class TrackGroupArray
+  location: interface EventListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:293: error: cannot find symbol
+        void onTracksChanged(TrackGroupArray trackGroups, TrackSelectionArray trackSelections);
+                                                          ^
+  symbol:   class TrackSelectionArray
+  location: interface EventListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:300: error: cannot find symbol
+        void onPlayerError(ExoPlaybackException error);
+                           ^
+  symbol:   class ExoPlaybackException
+  location: interface EventListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/widget/Playable.java:25: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/model/PlaybackInfo.java:24: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/model/PlaybackInfo.java:25: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/Config.java:21: error: package com.google.android.exoplayer2 does not exist
+import com.google.android.exoplayer2.DefaultLoadControl;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/Config.java:22: error: package com.google.android.exoplayer2 does not exist
+import com.google.android.exoplayer2.DefaultRenderersFactory;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/Config.java:23: error: package com.google.android.exoplayer2 does not exist
+import com.google.android.exoplayer2.LoadControl;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/Config.java:24: error: package com.google.android.exoplayer2.drm does not exist
+import com.google.android.exoplayer2.drm.DrmSessionManager;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/Config.java:25: error: package com.google.android.exoplayer2.upstream does not exist
+import com.google.android.exoplayer2.upstream.DataSource;
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/Config.java:26: error: package com.google.android.exoplayer2.upstream does not exist
+import com.google.android.exoplayer2.upstream.DefaultBandwidthMeter;
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/Config.java:27: error: package com.google.android.exoplayer2.upstream.cache does not exist
+import com.google.android.exoplayer2.upstream.cache.Cache;
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/Config.java:31: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/Config.java:32: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/Preconditions.java:25: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/Preconditions.java:26: error: cannot find symbol
+import androidx.annotation.RestrictTo;
+                          ^
+  symbol:   class RestrictTo
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/Preconditions.java:31: error: cannot find symbol
+@RestrictTo(RestrictTo.Scope.LIBRARY)
+ ^
+  symbol: class RestrictTo
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/Config.java:35: error: package com.google.android.exoplayer2 does not exist
+import static com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_OFF;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/Config.java:35: error: static import only from classes and interfaces
+import static com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_OFF;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/model/VolumeInfo.java:24: error: cannot find symbol
+import androidx.annotation.FloatRange;
+                          ^
+  symbol:   class FloatRange
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/model/VolumeInfo.java:25: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/model/VolumeInfo.java:26: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/model/VolumeInfo.java:27: error: package androidx.core.math does not exist
+import androidx.core.math.MathUtils;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:21: error: package com.google.android.exoplayer2.upstream does not exist
+import com.google.android.exoplayer2.upstream.BandwidthMeter;
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:22: error: package com.google.android.exoplayer2.upstream does not exist
+import com.google.android.exoplayer2.upstream.DataSource;
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:23: error: package com.google.android.exoplayer2.upstream does not exist
+import com.google.android.exoplayer2.upstream.DataSpec;
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:24: error: package com.google.android.exoplayer2.upstream does not exist
+import com.google.android.exoplayer2.upstream.TransferListener;
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:26: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:27: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:32: error: cannot find symbol
+public final class BaseMeter<T extends BandwidthMeter, S extends TransferListener> implements BandwidthMeter, TransferListener {
+                                                                                              ^
+  symbol: class BandwidthMeter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:32: error: cannot find symbol
+public final class BaseMeter<T extends BandwidthMeter, S extends TransferListener> implements BandwidthMeter, TransferListener {
+                                                                                                              ^
+  symbol: class TransferListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:32: error: cannot find symbol
+public final class BaseMeter<T extends BandwidthMeter, S extends TransferListener> implements BandwidthMeter, TransferListener {
+                                       ^
+  symbol: class BandwidthMeter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:32: error: cannot find symbol
+public final class BaseMeter<T extends BandwidthMeter, S extends TransferListener> implements BandwidthMeter, TransferListener {
+                                                                 ^
+  symbol: class TransferListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/Config.java:46: error: cannot find symbol
+    @NonNull public final LoadControl loadControl;
+                          ^
+  symbol:   class LoadControl
+  location: class Config
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:24: error: package com.google.android.exoplayer2 does not exist
+import com.google.android.exoplayer2.C;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:25: error: package com.google.android.exoplayer2.source does not exist
+import com.google.android.exoplayer2.source.ExtractorMediaSource;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:26: error: package com.google.android.exoplayer2.source does not exist
+import com.google.android.exoplayer2.source.LoopingMediaSource;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:27: error: package com.google.android.exoplayer2.source does not exist
+import com.google.android.exoplayer2.source.MediaSource;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:28: error: package com.google.android.exoplayer2.source does not exist
+import com.google.android.exoplayer2.source.MediaSourceEventListener;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:29: error: package com.google.android.exoplayer2.source.dash does not exist
+import com.google.android.exoplayer2.source.dash.DashMediaSource;
+                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:30: error: package com.google.android.exoplayer2.source.dash does not exist
+import com.google.android.exoplayer2.source.dash.DefaultDashChunkSource;
+                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:31: error: package com.google.android.exoplayer2.source.hls does not exist
+import com.google.android.exoplayer2.source.hls.HlsMediaSource;
+                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:32: error: package com.google.android.exoplayer2.source.smoothstreaming does not exist
+import com.google.android.exoplayer2.source.smoothstreaming.DefaultSsChunkSource;
+                                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:33: error: package com.google.android.exoplayer2.source.smoothstreaming does not exist
+import com.google.android.exoplayer2.source.smoothstreaming.SsMediaSource;
+                                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:34: error: package com.google.android.exoplayer2.upstream does not exist
+import com.google.android.exoplayer2.upstream.DataSource;
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:36: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:37: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:26: error: package com.google.android.exoplayer2.source does not exist
+import com.google.android.exoplayer2.source.LoopingMediaSource;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:27: error: package com.google.android.exoplayer2.source does not exist
+import com.google.android.exoplayer2.source.MediaSource;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:28: error: package com.google.android.exoplayer2.source does not exist
+import com.google.android.exoplayer2.source.MediaSourceEventListener;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:29: error: package com.google.android.exoplayer2.upstream.cache does not exist
+import com.google.android.exoplayer2.upstream.cache.Cache;
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:30: error: package com.google.android.exoplayer2.upstream.cache does not exist
+import com.google.android.exoplayer2.upstream.cache.LeastRecentlyUsedCacheEvictor;
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:31: error: package com.google.android.exoplayer2.upstream.cache does not exist
+import com.google.android.exoplayer2.upstream.cache.SimpleCache;
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:33: error: cannot find symbol
+import androidx.annotation.FloatRange;
+                          ^
+  symbol:   class FloatRange
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:34: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:35: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:40: error: package com.google.android.exoplayer2.util does not exist
+import static com.google.android.exoplayer2.util.Util.inferContentType;
+                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:40: error: static import only from classes and interfaces
+import static com.google.android.exoplayer2.util.Util.inferContentType;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/Config.java:48: error: cannot find symbol
+    @NonNull public final DrmSessionManager[] drmSessionManagers;
+                          ^
+  symbol:   class DrmSessionManager
+  location: class Config
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/Config.java:50: error: cannot find symbol
+    @Nullable public final Cache cache;
+                           ^
+  symbol:   class Cache
+  location: class Config
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/Config.java:51: error: package DataSource does not exist
+    @Nullable public final DataSource.Factory dataSourceFactory;
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:51: error: cannot find symbol
+    public final void addEventListener(Handler eventHandler, EventListener eventListener) {
+                                                             ^
+  symbol:   class EventListener
+  location: class BaseMeter<T,S>
+  where T,S are type-variables:
+    T declared in class BaseMeter
+    S declared in class BaseMeter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:59: error: cannot find symbol
+    public final void removeEventListener(EventListener eventListener) {
+                                          ^
+  symbol:   class EventListener
+  location: class BaseMeter<T,S>
+  where T,S are type-variables:
+    T declared in class BaseMeter
+    S declared in class BaseMeter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:68: error: cannot find symbol
+    public final TransferListener getTransferListener() {
+                 ^
+  symbol:   class TransferListener
+  location: class BaseMeter<T,S>
+  where T,S are type-variables:
+    T declared in class BaseMeter
+    S declared in class BaseMeter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:84: error: cannot find symbol
+    public final void onTransferInitializing(DataSource dataSource,
+                                             ^
+  symbol:   class DataSource
+  location: class BaseMeter<T,S>
+  where T,S are type-variables:
+    T declared in class BaseMeter
+    S declared in class BaseMeter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:85: error: cannot find symbol
+                                             DataSpec dataSpec,
+                                             ^
+  symbol:   class DataSpec
+  location: class BaseMeter<T,S>
+  where T,S are type-variables:
+    T declared in class BaseMeter
+    S declared in class BaseMeter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:98: error: cannot find symbol
+    public final void onTransferStart(DataSource dataSource,
+                                      ^
+  symbol:   class DataSource
+  location: class BaseMeter<T,S>
+  where T,S are type-variables:
+    T declared in class BaseMeter
+    S declared in class BaseMeter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:99: error: cannot find symbol
+                                      DataSpec dataSpec,
+                                      ^
+  symbol:   class DataSpec
+  location: class BaseMeter<T,S>
+  where T,S are type-variables:
+    T declared in class BaseMeter
+    S declared in class BaseMeter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:112: error: cannot find symbol
+    public final void onBytesTransferred(DataSource dataSource,
+                                         ^
+  symbol:   class DataSource
+  location: class BaseMeter<T,S>
+  where T,S are type-variables:
+    T declared in class BaseMeter
+    S declared in class BaseMeter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:113: error: cannot find symbol
+                                         DataSpec dataSpec,
+                                         ^
+  symbol:   class DataSpec
+  location: class BaseMeter<T,S>
+  where T,S are type-variables:
+    T declared in class BaseMeter
+    S declared in class BaseMeter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:128: error: cannot find symbol
+    public final void onTransferEnd(DataSource dataSource,
+                                    ^
+  symbol:   class DataSource
+  location: class BaseMeter<T,S>
+  where T,S are type-variables:
+    T declared in class BaseMeter
+    S declared in class BaseMeter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/BaseMeter.java:129: error: cannot find symbol
+                                    DataSpec dataSpec,
+                                    ^
+  symbol:   class DataSpec
+  location: class BaseMeter<T,S>
+  where T,S are type-variables:
+    T declared in class BaseMeter
+    S declared in class BaseMeter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:170: error: package DataSource does not exist
+                                 @NonNull DataSource.Factory manifestDataSourceFactory,
+                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:171: error: package DataSource does not exist
+                                 @NonNull DataSource.Factory mediaDataSourceFactory,
+                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:54: error: reference not found
+     * Creates/retrieves the {@link com.google.android.exoplayer2.ExoPlayer} {@link Cache} of the default
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:54: error: reference not found
+     * Creates/retrieves the {@link com.google.android.exoplayer2.ExoPlayer} {@link Cache} of the default
+                                                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:58: error: reference not found
+     * @return the {@link com.google.android.exoplayer2.ExoPlayer} {@link Cache}
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:58: error: reference not found
+     * @return the {@link com.google.android.exoplayer2.ExoPlayer} {@link Cache}
+                                                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:68: error: reference not found
+     * Creates/retrieves the {@link com.google.android.exoplayer2.ExoPlayer} {@link Cache} of the specified size.
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:68: error: reference not found
+     * Creates/retrieves the {@link com.google.android.exoplayer2.ExoPlayer} {@link Cache} of the specified size.
+                                                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:72: error: reference not found
+     * @return the {@link com.google.android.exoplayer2.ExoPlayer} {@link Cache}
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:72: error: reference not found
+     * @return the {@link com.google.android.exoplayer2.ExoPlayer} {@link Cache}
+                                                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:91: error: reference not found
+     * Calculates the amount of the visibility of the {@link com.google.android.exoplayer2.ui.PlayerView}
+                                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:129: error: reference not found
+     * Determines whether the specified {@link MediaSource} is a looping one ({@link LoopingMediaSource}).
+                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:129: error: reference not found
+     * Determines whether the specified {@link MediaSource} is a looping one ({@link LoopingMediaSource}).
+                                                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:142: error: reference not found
+     * Adds the {@link MediaSourceEventListener} to the specified {@link MediaSource} only if both
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:142: error: reference not found
+     * Adds the {@link MediaSourceEventListener} to the specified {@link MediaSource} only if both
+                                                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:143: error: reference not found
+     * the specified {@link Handler} and {@link MediaSourceEventListener} are not null.
+                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/widget/PlayableItemsContainer.java:73: error: reference not found
+     * (to be used in the corresponding lifecycle method of the {@link android.app.Activity}/{@link androidx.fragment.app.Fragment}, etc.)
+                                                                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/widget/PlayableItemsContainer.java:79: error: reference not found
+     * (to be used in the corresponding lifecycle method of the {@link android.app.Activity}/{@link androidx.fragment.app.Fragment}, etc.)
+                                                                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/widget/PlayableItemsContainer.java:85: error: reference not found
+     * (to be used in the corresponding lifecycle method of the {@link android.app.Activity}/{@link androidx.fragment.app.Fragment}, etc.)
+                                                                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/widget/PlayableItemsRecyclerView.java:39: error: reference not found
+ * A concrete implementation of the {@link PlayableItemsContainer} based on the {@link RecyclerView}
+                                                                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:242: error: reference not found
+         * the handling of the attachment event (Attachment to the {@link PlayerView}).
+                                                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:250: error: reference not found
+         * the handling of the detachment event (Detachment from the {@link PlayerView}).
+                                                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/widget/PlayableItemViewHolder.java:44: error: reference not found
+ *      A {@link Playable} implementation based on the {@link RecyclerView.ViewHolder} designed to
+                                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/widget/PlayableItemViewHolder.java:45: error: reference not found
+ *      enable the Video Autoplayability in the {@link RecyclerView}-based containers.
+                                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/widget/PlayableItemViewHolder.java:51: error: reference not found
+ *           To enable the proper handling of the Video Playback associated with each corresponding Item {@link RecyclerView.ViewHolder}
+                                                                                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/widget/PlayableItemViewHolder.java:52: error: reference not found
+ *           you should use a {@link RecyclerView}-based container that supports the aforementioned handling.
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/widget/PlayableItemViewHolder.java:56: error: reference not found
+ *           or create your own {@link RecyclerView}-based container with your own implementations of the necessary handling functionality.
+                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/creators/PlayerCreator.java:42: error: reference not found
+     * Creates a {@link MediaSource} for the specified {@link Uri}.
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/creators/PlayerCreator.java:45: error: reference not found
+     * @return the created {@link MediaSource}
+                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/creators/PlayerCreator.java:51: error: reference not found
+     * Creates a {@link MediaSource} for the specified {@link Uri} and extension.
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/creators/PlayerCreator.java:55: error: reference not found
+     * @return the created {@link MediaSource}
+                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/creators/PlayerCreator.java:29: error: reference not found
+ * Should be able to create the {@link Player}s and related {@link MediaSource}s.
+                                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/datasource/ArviHttpDataSource.java:25: error: reference not found
+ * An implementation of the {@link DefaultHttpDataSource} with a support
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/datasource/ArviHttpDataSourceFactory.java:27: error: reference not found
+ * An implementation of the {@link HttpDataSource.Factory} with the support for the
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/datasource/ArviHttpDataSourceFactory.java:50: error: reference not found
+     * Constructs an ArviHttpDataSourceFactory. Sets {@link DefaultHttpDataSource#DEFAULT_CONNECT_TIMEOUT_MILLIS} as the connection timeout,
+                                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/datasource/ArviHttpDataSourceFactory.java:51: error: reference not found
+     * {@link DefaultHttpDataSource#DEFAULT_READ_TIMEOUT_MILLIS} as the read timeout and disables cross-protocol redirects.
+              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/datasource/ArviHttpDataSourceFactory.java:63: error: reference not found
+     * Constructs an ArviHttpDataSourceFactory. Sets {@link DefaultHttpDataSource#DEFAULT_CONNECT_TIMEOUT_MILLIS} as the connection timeout,
+                                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/datasource/ArviHttpDataSourceFactory.java:64: error: reference not found
+     * {@link DefaultHttpDataSource#DEFAULT_READ_TIMEOUT_MILLIS} as the read timeout and disables cross-protocol redirects.
+              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/datasource/ArviHttpDataSourceFactory.java:68: error: reference not found
+     * @see #DefaultHttpDataSourceFactory(String, TransferListener, int, int, boolean)
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:98: error: reference not found
+     * Attaches the specified {@link PlayerView} to the current {@link Player} instance.
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:100: error: reference not found
+     * @param playerView the {@link PlayerView} to be attached
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:105: error: reference not found
+     * Detaches the current {@link Player} instance from the specified {@link PlayerView}.
+                                                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:107: error: reference not found
+     * @param playerView the {@link PlayerView} to detach the {@link Player} from
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:113: error: reference not found
+     * about the fact that the current {@link Player} instance has been attached to the {@link PlayerView}.
+                                                                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:119: error: reference not found
+     * about the fact that the current {@link Player} instance has been detached from the {@link PlayerView}.
+                                                                                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:152: error: reference not found
+     * Sets the {@link MediaSource} to be be used for the media data retrieval by the {@link Player}.
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:159: error: reference not found
+     * Retrieves the associated {@link MediaSource}.
+                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:198: error: reference not found
+     * Retrieves the {@link MediaSource}'s looping state.
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:219: error: reference not found
+     * Determines whether the current {@link Player} is attached to the specified {@link PlayerView}.
+                                                                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/Player.java:227: error: reference not found
+     * Determines whether the current {@link Player} is attached to a {@link PlayerView},
+                                                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:40: error: package com.google.android.exoplayer2 does not exist
+public final class ExoPlayerUtils {
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:44: error: package com.google.android.exoplayer2 does not exist
+     * The default size of cache in bytes. (500MB in Bytes)
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:46: error: package com.google.android.exoplayer2 does not exist
+    public static final long DEFAULT_CACHE_SIZE = (500 * 1024 * 1024);
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/util/misc/ExoPlayerUtils.java:53: error: package com.google.android.exoplayer2 does not exist
+    /**
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/DefaultVolumeController.java:26: error: reference not found
+ * volume-related settings of the {@link SimpleExoPlayer}.
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:154: error: reference not found
+     * Builds the {@link MediaSource} for the specified configuration.
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:163: error: reference not found
+     * @return the created {@link MediaSource}
+                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:43: error: reference not found
+ * A base contract to be used by the concrete implementations of the {@link MediaSource} builders.
+                                                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:45: error: reference not found
+ * appropriate {@link MediaSource}s.
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:51: error: reference not found
+     * simple (non-looping) {@link MediaSource}s.
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MediaSourceBuilder.java:127: error: reference not found
+     * simple (looping) {@link MediaSource}s.
+                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/MultiDrmRendererFactory.java:40: error: reference not found
+ * An implementation of the {@link DefaultRenderersFactory} that takes into account the Digital Rights Management.
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/player/util/PlayerEventListenerRegistry.java:36: error: reference not found
+ * A manager for the {@link Player.EventListener}s. Used to observe the {@link com.google.android.exoplayer2.Player.EventListener} events
+                                                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/Config.java:70: error: reference not found
+     * Determines if the {@link Cache} is set.
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/Config.java:80: error: reference not found
+     * Determines if the {@link DataSource.Factory} is set.
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/Config.java:90: error: reference not found
+     * Determines if the {@link DrmSessionManager}s are set.
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/PlayerProvider.java:34: error: reference not found
+     * Creates the a non-looping {@link MediaSource}. (See {@link #createMediaSource(Uri, boolean)})
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/PlayerProvider.java:43: error: reference not found
+     * Creates the {@link MediaSource} for the specified {@link Uri}.
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/PlayerProvider.java:44: error: reference not found
+     * The created {@link MediaSource} can later be used with the {@link Player},
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/PlayerProvider.java:56: error: reference not found
+     * Creates the a non-looping {@link MediaSource}. (See {@link #createMediaSource(Config, Uri, boolean)})
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/PlayerProvider.java:66: error: reference not found
+     * Creates the {@link MediaSource} for the specified {@link Uri} and Player{@link Config}
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/PlayerProvider.java:67: error: reference not found
+     * The created {@link MediaSource} can later be used with the {@link Player},
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/model/PlaybackInfo.java:29: error: reference not found
+ * (This info is, in most cases, used for proper handling of the {@link androidx.recyclerview.widget.RecyclerView}-specific Video Item Playbacks)
+                                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/arvi/src/main/java/com/arthurivanets/arvi/model/VolumeInfo.java:31: error: reference not found
+ * (This info is, in most cases, used for proper handling of the {@link androidx.recyclerview.widget.RecyclerView}-specific Video Item Volume management)
+                                                                        ^
+
+72 errors
+100 warnings
+:arvi:javadocJar
+:arvi:sourcesJar
+:arvi:assemble
+:arvi:build
+
+BUILD SUCCESSFUL in 14s
+48 actionable tasks: 29 executed, 19 up-to-date
+
+2019-01-22 15:17:54,596 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 15:17:54,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 15:18:01,787 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-22 15:18:01,787 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-22 15:18:01,788 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-22 15:19:04,174 INFO  SysUtils - Configuration on demand is an incubating feature.
+:arvi:preBuild UP-TO-DATE
+:arvi:preDebugBuild UP-TO-DATE
+:arvi:compileDebugAidl NO-SOURCE
+:arvi:compileDebugRenderscript UP-TO-DATE
+:arvi:checkDebugManifest UP-TO-DATE
+:arvi:generateDebugBuildConfig UP-TO-DATE
+:arvi:generateDebugResValues UP-TO-DATE
+:arvi:generateDebugResources UP-TO-DATE
+:arvi:packageDebugResources UP-TO-DATE
+:arvi:processDebugManifest UP-TO-DATE
+:arvi:generateDebugRFile UP-TO-DATE
+:arvi:prepareLintJar UP-TO-DATE
+:arvi:generateDebugSources UP-TO-DATE
+:arvi:javaPreCompileDebug UP-TO-DATE
+:arvi:compileDebugJavaWithJavac UP-TO-DATE
+:arvi:processDebugJavaRes NO-SOURCE
+:arvi:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:arvi-adapster:preBuild UP-TO-DATE
+:arvi-adapster:preDebugBuild UP-TO-DATE
+:arvi-adapster:compileDebugAidl NO-SOURCE
+:arvi:packageDebugRenderscript NO-SOURCE
+:arvi-adapster:compileDebugRenderscript UP-TO-DATE
+:arvi-adapster:checkDebugManifest UP-TO-DATE
+:arvi-adapster:generateDebugBuildConfig UP-TO-DATE
+:arvi-adapster:generateDebugResValues UP-TO-DATE
+:arvi-adapster:generateDebugResources UP-TO-DATE
+:arvi-adapster:packageDebugResources UP-TO-DATE
+:arvi-adapster:processDebugManifest UP-TO-DATE
+:arvi-adapster:generateDebugRFile UP-TO-DATE
+:arvi-adapster:prepareLintJar UP-TO-DATE
+:arvi-adapster:generateDebugSources UP-TO-DATE
+:arvi-adapster:javaPreCompileDebug UP-TO-DATE
+:arvi-adapster:compileDebugJavaWithJavac UP-TO-DATE
+:arvi-adapster:processDebugJavaRes NO-SOURCE
+:arvi-adapster:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:arvi-ktx:preBuild UP-TO-DATE
+:arvi-ktx:preDebugBuild UP-TO-DATE
+:arvi-ktx:compileDebugAidl NO-SOURCE
+:arvi-ktx:compileDebugRenderscript UP-TO-DATE
+:arvi-ktx:checkDebugManifest UP-TO-DATE
+:arvi-ktx:generateDebugBuildConfig UP-TO-DATE
+:arvi-ktx:generateDebugResValues UP-TO-DATE
+:arvi-ktx:generateDebugResources UP-TO-DATE
+:arvi-ktx:packageDebugResources UP-TO-DATE
+:arvi-ktx:processDebugManifest UP-TO-DATE
+:arvi-ktx:generateDebugRFile UP-TO-DATE
+:arvi-ktx:compileDebugKotlin UP-TO-DATE
+:arvi-ktx:prepareLintJar UP-TO-DATE
+:arvi-ktx:generateDebugSources UP-TO-DATE
+:arvi-ktx:javaPreCompileDebug UP-TO-DATE
+:arvi-ktx:compileDebugJavaWithJavac UP-TO-DATE
+:arvi-ktx:processDebugJavaRes NO-SOURCE
+:arvi-ktx:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:arvi-utils:preBuild UP-TO-DATE
+:arvi-utils:preDebugBuild UP-TO-DATE
+:arvi-utils:compileDebugAidl NO-SOURCE
+:arvi-utils:compileDebugRenderscript UP-TO-DATE
+:arvi-utils:checkDebugManifest UP-TO-DATE
+:arvi-utils:generateDebugBuildConfig UP-TO-DATE
+:arvi-utils:generateDebugResValues UP-TO-DATE
+:arvi-utils:generateDebugResources UP-TO-DATE
+:arvi-utils:packageDebugResources UP-TO-DATE
+:arvi-utils:processDebugManifest UP-TO-DATE
+:arvi-utils:generateDebugRFile UP-TO-DATE
+:arvi-utils:prepareLintJar UP-TO-DATE
+:arvi-utils:generateDebugSources UP-TO-DATE
+:arvi-utils:javaPreCompileDebug UP-TO-DATE
+:arvi-utils:compileDebugJavaWithJavac UP-TO-DATE
+:arvi-utils:processDebugJavaRes NO-SOURCE
+:arvi-utils:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:checkDebugClasspath
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl NO-SOURCE
+:arvi-adapster:packageDebugRenderscript NO-SOURCE
+:arvi-ktx:packageDebugRenderscript NO-SOURCE
+:arvi-utils:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/sample/src/main/java/com/arthurivanets/sample/adapters/adapster/VideoItemViewHolder.kt: (86, 9): 'when' expression on enum is recommended to be exhaustive, add 'STARTED', 'RESTARTED' branches or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/sample/src/main/java/com/arthurivanets/sample/adapters/basic/BasicVideoItemViewHolder.kt: (89, 9): 'when' expression on enum is recommended to be exhaustive, add 'STARTED', 'RESTARTED' branches or 'else' branch instead
+:sample:prepareLintJar
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:arvi:mergeDebugShaders UP-TO-DATE
+:arvi:compileDebugShaders UP-TO-DATE
+:arvi:generateDebugAssets UP-TO-DATE
+:arvi:packageDebugAssets UP-TO-DATE
+:arvi-adapster:mergeDebugShaders UP-TO-DATE
+:arvi-adapster:compileDebugShaders UP-TO-DATE
+:arvi-adapster:generateDebugAssets UP-TO-DATE
+:arvi-adapster:packageDebugAssets UP-TO-DATE
+:arvi-ktx:mergeDebugShaders UP-TO-DATE
+:arvi-ktx:compileDebugShaders UP-TO-DATE
+:arvi-ktx:generateDebugAssets UP-TO-DATE
+:arvi-ktx:packageDebugAssets UP-TO-DATE
+:arvi-utils:mergeDebugShaders UP-TO-DATE
+:arvi-utils:compileDebugShaders UP-TO-DATE
+:arvi-utils:generateDebugAssets UP-TO-DATE
+:arvi-utils:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:arvi:compileDebugNdk NO-SOURCE
+:arvi:mergeDebugJniLibFolders UP-TO-DATE
+:arvi:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:arvi:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:arvi:transformNativeLibsWithIntermediateJniLibsForDebug
+:arvi-adapster:compileDebugNdk NO-SOURCE
+:arvi-adapster:mergeDebugJniLibFolders UP-TO-DATE
+:arvi-adapster:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:arvi-adapster:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:arvi-adapster:transformNativeLibsWithIntermediateJniLibsForDebug
+:arvi-ktx:compileDebugNdk NO-SOURCE
+:arvi-ktx:mergeDebugJniLibFolders UP-TO-DATE
+:arvi-ktx:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:arvi-ktx:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:arvi-ktx:transformNativeLibsWithIntermediateJniLibsForDebug
+:arvi-utils:compileDebugNdk NO-SOURCE
+:arvi-utils:mergeDebugJniLibFolders UP-TO-DATE
+:arvi-utils:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:arvi-utils:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:arvi-utils:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:checkDebugLibraries
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:arvi:preReleaseBuild UP-TO-DATE
+:arvi:compileReleaseAidl NO-SOURCE
+:arvi:compileReleaseRenderscript UP-TO-DATE
+:arvi:checkReleaseManifest UP-TO-DATE
+:arvi:generateReleaseBuildConfig UP-TO-DATE
+:arvi:generateReleaseResValues UP-TO-DATE
+:arvi:generateReleaseResources UP-TO-DATE
+:arvi:packageReleaseResources UP-TO-DATE
+:arvi:processReleaseManifest UP-TO-DATE
+:arvi:generateReleaseRFile UP-TO-DATE
+:arvi:generateReleaseSources UP-TO-DATE
+:arvi:javaPreCompileRelease UP-TO-DATE
+:arvi:compileReleaseJavaWithJavac UP-TO-DATE
+:arvi:processReleaseJavaRes NO-SOURCE
+:arvi:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:arvi-adapster:preReleaseBuild UP-TO-DATE
+:arvi-adapster:compileReleaseAidl NO-SOURCE
+:arvi:packageReleaseRenderscript NO-SOURCE
+:arvi-adapster:compileReleaseRenderscript UP-TO-DATE
+:arvi-adapster:checkReleaseManifest UP-TO-DATE
+:arvi-adapster:generateReleaseBuildConfig UP-TO-DATE
+:arvi-adapster:generateReleaseResValues UP-TO-DATE
+:arvi-adapster:generateReleaseResources UP-TO-DATE
+:arvi-adapster:packageReleaseResources UP-TO-DATE
+:arvi-adapster:processReleaseManifest UP-TO-DATE
+:arvi-adapster:generateReleaseRFile UP-TO-DATE
+:arvi-adapster:generateReleaseSources UP-TO-DATE
+:arvi-adapster:javaPreCompileRelease UP-TO-DATE
+:arvi-adapster:compileReleaseJavaWithJavac UP-TO-DATE
+:arvi-adapster:processReleaseJavaRes NO-SOURCE
+:arvi-adapster:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:arvi-ktx:preReleaseBuild UP-TO-DATE
+:arvi-ktx:compileReleaseAidl NO-SOURCE
+:arvi-ktx:compileReleaseRenderscript UP-TO-DATE
+:arvi-ktx:checkReleaseManifest UP-TO-DATE
+:arvi-ktx:generateReleaseBuildConfig UP-TO-DATE
+:arvi-ktx:generateReleaseResValues UP-TO-DATE
+:arvi-ktx:generateReleaseResources UP-TO-DATE
+:arvi-ktx:packageReleaseResources UP-TO-DATE
+:arvi-ktx:processReleaseManifest UP-TO-DATE
+:arvi-ktx:generateReleaseRFile UP-TO-DATE
+:arvi-ktx:compileReleaseKotlin UP-TO-DATE
+:arvi-ktx:generateReleaseSources UP-TO-DATE
+:arvi-ktx:javaPreCompileRelease UP-TO-DATE
+:arvi-ktx:compileReleaseJavaWithJavac UP-TO-DATE
+:arvi-ktx:processReleaseJavaRes NO-SOURCE
+:arvi-ktx:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:arvi-utils:preReleaseBuild UP-TO-DATE
+:arvi-utils:compileReleaseAidl NO-SOURCE
+:arvi-utils:compileReleaseRenderscript UP-TO-DATE
+:arvi-utils:checkReleaseManifest UP-TO-DATE
+:arvi-utils:generateReleaseBuildConfig UP-TO-DATE
+:arvi-utils:generateReleaseResValues UP-TO-DATE
+:arvi-utils:generateReleaseResources UP-TO-DATE
+:arvi-utils:packageReleaseResources UP-TO-DATE
+:arvi-utils:processReleaseManifest UP-TO-DATE
+:arvi-utils:generateReleaseRFile UP-TO-DATE
+:arvi-utils:generateReleaseSources UP-TO-DATE
+:arvi-utils:javaPreCompileRelease UP-TO-DATE
+:arvi-utils:compileReleaseJavaWithJavac UP-TO-DATE
+:arvi-utils:processReleaseJavaRes NO-SOURCE
+:arvi-utils:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:checkReleaseClasspath
+:sample:preReleaseBuild
+:sample:compileReleaseAidl NO-SOURCE
+:arvi-adapster:packageReleaseRenderscript NO-SOURCE
+:arvi-ktx:packageReleaseRenderscript NO-SOURCE
+:arvi-utils:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/sample/src/main/java/com/arthurivanets/sample/adapters/adapster/VideoItemViewHolder.kt: (86, 9): 'when' expression on enum is recommended to be exhaustive, add 'STARTED', 'RESTARTED' branches or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/sample/src/main/java/com/arthurivanets/sample/adapters/basic/BasicVideoItemViewHolder.kt: (89, 9): 'when' expression on enum is recommended to be exhaustive, add 'STARTED', 'RESTARTED' branches or 'else' branch instead
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/e34a470d74de05ea2dfb002754613383/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:arvi:mergeReleaseShaders UP-TO-DATE
+:arvi:compileReleaseShaders UP-TO-DATE
+:arvi:generateReleaseAssets UP-TO-DATE
+:arvi:packageReleaseAssets UP-TO-DATE
+:arvi-adapster:mergeReleaseShaders UP-TO-DATE
+:arvi-adapster:compileReleaseShaders UP-TO-DATE
+:arvi-adapster:generateReleaseAssets UP-TO-DATE
+:arvi-adapster:packageReleaseAssets UP-TO-DATE
+:arvi-ktx:mergeReleaseShaders UP-TO-DATE
+:arvi-ktx:compileReleaseShaders UP-TO-DATE
+:arvi-ktx:generateReleaseAssets UP-TO-DATE
+:arvi-ktx:packageReleaseAssets UP-TO-DATE
+:arvi-utils:mergeReleaseShaders UP-TO-DATE
+:arvi-utils:compileReleaseShaders UP-TO-DATE
+:arvi-utils:generateReleaseAssets UP-TO-DATE
+:arvi-utils:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:arvi:compileReleaseNdk NO-SOURCE
+:arvi:mergeReleaseJniLibFolders UP-TO-DATE
+:arvi:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:arvi:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:arvi:transformNativeLibsWithIntermediateJniLibsForRelease
+:arvi-adapster:compileReleaseNdk NO-SOURCE
+:arvi-adapster:mergeReleaseJniLibFolders UP-TO-DATE
+:arvi-adapster:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:arvi-adapster:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:arvi-adapster:transformNativeLibsWithIntermediateJniLibsForRelease
+:arvi-ktx:compileReleaseNdk NO-SOURCE
+:arvi-ktx:mergeReleaseJniLibFolders UP-TO-DATE
+:arvi-ktx:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:arvi-ktx:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:arvi-ktx:transformNativeLibsWithIntermediateJniLibsForRelease
+:arvi-utils:compileReleaseNdk NO-SOURCE
+:arvi-utils:mergeReleaseJniLibFolders UP-TO-DATE
+:arvi-utils:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:arvi-utils:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:arvi-utils:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:checkReleaseLibraries
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 1m 1s
+199 actionable tasks: 71 executed, 128 up-to-date
+
+2019-01-22 15:19:04,516 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548144966835-0/src/ARVI-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

@@ -1,0 +1,165 @@
+2019-02-19 12:26:27,608 INFO  DownloadService - Downloading "https://github.com/shadowalker77/wp7progressbar/archive/master.zip", attempt 3
+2019-02-19 12:26:28,985 INFO  DownloadService - Downloaded https://github.com/shadowalker77/wp7progressbar/archive/master.zip, attempt 3
+2019-02-19 12:26:28,986 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/master.zip": 731 KB
+2019-02-19 12:26:28,986 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-19 12:26:28,991 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/master.zip: true
+2019-02-19 12:26:28,992 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src'.
+2019-02-19 12:26:29,017 INFO  FullProcessService - Size of directory with sources: 869 KB
+2019-02-19 12:26:29,017 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src]
+2019-02-19 12:26:29,034 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/.git/
+
+2019-02-19 12:26:29,037 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/gradlew
+2019-02-19 12:26:29,039 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/wp7progress/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/build.gradle
+2019-02-19 12:26:29,042 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/wp7progress/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/settings.gradle
+2019-02-19 12:26:29,042 INFO  ProjectBuildService - Remote scripts: none
+2019-02-19 12:26:29,042 INFO  ProjectFixService - Fixing project...
+2019-02-19 12:26:29,049 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/app/local.properties
+2019-02-19 12:26:29,049 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-19 12:26:29,050 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-19 12:26:29,050 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/wp7progress/local.properties
+2019-02-19 12:26:29,051 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/wp7progress/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 12:26:29,051 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/wp7progress/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 12:26:29,051 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/local.properties
+2019-02-19 12:26:29,052 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-19 12:26:29,052 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-19 12:26:29,053 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-19 12:26:29,053 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-19 12:26:29,053 INFO  ProjectFixService - Project was maybe fixed
+2019-02-19 12:26:29,053 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 12:26:29,053 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 12:26:34,506 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-19 12:26:34,506 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-19 12:26:34,506 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-19 12:26:56,043 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:wp7progress:preBuild UP-TO-DATE
+:wp7progress:preDebugBuild UP-TO-DATE
+:wp7progress:checkDebugManifest
+:wp7progress:processDebugManifest
+:app:preDebugBuild
+:wp7progress:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:wp7progress:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:wp7progress:compileDebugRenderscript
+:wp7progress:generateDebugResValues
+:wp7progress:generateDebugResources
+:wp7progress:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:wp7progress:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:wp7progress:generateDebugBuildConfig
+:wp7progress:prepareLintJar
+:wp7progress:generateDebugSources
+:wp7progress:javaPreCompileDebug
+:wp7progress:compileDebugJavaWithJavac
+:wp7progress:processDebugJavaRes NO-SOURCE
+:wp7progress:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:wp7progress:mergeDebugShaders
+:wp7progress:compileDebugShaders
+:wp7progress:generateDebugAssets
+:wp7progress:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:wp7progress:compileDebugNdk NO-SOURCE
+:wp7progress:mergeDebugJniLibFolders
+:wp7progress:transformNativeLibsWithMergeJniLibsForDebug
+:wp7progress:transformNativeLibsWithStripDebugSymbolForDebug
+:wp7progress:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:wp7progress:preReleaseBuild UP-TO-DATE
+:wp7progress:checkReleaseManifest
+:wp7progress:processReleaseManifest
+:app:preReleaseBuild
+:wp7progress:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:wp7progress:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:wp7progress:compileReleaseRenderscript
+:wp7progress:generateReleaseResValues
+:wp7progress:generateReleaseResources
+:wp7progress:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:wp7progress:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:wp7progress:generateReleaseBuildConfig
+:wp7progress:generateReleaseSources
+:wp7progress:javaPreCompileRelease
+:wp7progress:compileReleaseJavaWithJavac
+:wp7progress:processReleaseJavaRes NO-SOURCE
+:wp7progress:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/962ff1e5de3cf53f8fd2e3dc9cc66ffa/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:wp7progress:mergeReleaseShaders
+:wp7progress:compileReleaseShaders
+:wp7progress:generateReleaseAssets
+:wp7progress:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:wp7progress:compileReleaseNdk NO-SOURCE
+:wp7progress:mergeReleaseJniLibFolders
+:wp7progress:transformNativeLibsWithMergeJniLibsForRelease
+:wp7progress:transformNativeLibsWithStripDebugSymbolForRelease
+:wp7progress:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 20s
+90 actionable tasks: 90 executed
+
+2019-02-19 12:26:56,106 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550553987605-0/src/wp7progressbar-master/app/build/outputs/apk/debug/app-debug.apk

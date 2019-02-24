@@ -1,0 +1,172 @@
+2019-01-08 18:13:30,628 INFO  DownloadService - Downloading "https://github.com/ngallazzi/DigitalSpeedDashboard/archive/master.zip", attempt 3
+2019-01-08 18:13:42,152 INFO  DownloadService - Downloaded https://github.com/ngallazzi/DigitalSpeedDashboard/archive/master.zip, attempt 3
+2019-01-08 18:13:42,153 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/master.zip": 18 MB
+2019-01-08 18:13:42,153 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-08 18:13:42,154 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/master.zip: true
+2019-01-08 18:13:42,154 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src'.
+2019-01-08 18:13:42,319 INFO  FullProcessService - Size of directory with sources: 20 MB
+2019-01-08 18:13:42,319 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src]
+2019-01-08 18:13:42,338 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/.git/
+
+2019-01-08 18:13:42,343 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/gradlew
+2019-01-08 18:13:42,347 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/views/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/build.gradle
+2019-01-08 18:13:42,352 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/views/build.gradle
+2019-01-08 18:13:42,353 INFO  ProjectBuildService - Remote scripts: none
+2019-01-08 18:13:42,353 INFO  ProjectFixService - Fixing project...
+2019-01-08 18:13:42,365 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/app/local.properties
+2019-01-08 18:13:42,367 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-08 18:13:42,367 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-08 18:13:42,368 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/views/local.properties
+2019-01-08 18:13:42,369 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/views/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-08 18:13:42,370 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/views/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-08 18:13:42,371 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/local.properties
+2019-01-08 18:13:42,371 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-08 18:13:42,372 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-08 18:13:42,375 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-08 18:13:42,375 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-08 18:13:42,375 INFO  ProjectFixService - Project was maybe fixed
+2019-01-08 18:13:42,375 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-08 18:13:42,376 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-08 18:13:51,040 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-01-08 18:13:51,040 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-08 18:13:51,040 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-08 18:14:41,391 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:views:preBuild UP-TO-DATE
+:views:preDebugBuild UP-TO-DATE
+:views:checkDebugManifest
+:views:processDebugManifest
+:app:preDebugBuild
+:views:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:views:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:views:compileDebugRenderscript
+:views:generateDebugResValues
+:views:generateDebugResources
+:views:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:views:generateDebugRFile
+:app:processDebugResources
+:views:generateDebugBuildConfig
+:views:compileDebugKotlin
+:views:prepareLintJar
+:views:generateDebugSources
+:views:javaPreCompileDebug
+:views:compileDebugJavaWithJavac
+:views:processDebugJavaRes NO-SOURCE
+:views:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:views:mergeDebugShaders
+:views:compileDebugShaders
+:views:generateDebugAssets
+:views:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:views:compileDebugNdk NO-SOURCE
+:views:mergeDebugJniLibFolders
+:views:transformNativeLibsWithMergeJniLibsForDebug
+:views:transformNativeLibsWithStripDebugSymbolForDebug
+:views:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:views:preReleaseBuild UP-TO-DATE
+:views:checkReleaseManifest
+:views:processReleaseManifest
+:app:preReleaseBuild
+:views:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:views:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:views:compileReleaseRenderscript
+:views:generateReleaseResValues
+:views:generateReleaseResources
+:views:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:views:generateReleaseRFile
+:app:processReleaseResources
+:views:generateReleaseBuildConfig
+:views:compileReleaseKotlin
+:views:generateReleaseSources
+:views:javaPreCompileRelease
+:views:compileReleaseJavaWithJavac
+:views:processReleaseJavaRes NO-SOURCE
+:views:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:views:mergeReleaseShaders
+:views:compileReleaseShaders
+:views:generateReleaseAssets
+:views:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:views:compileReleaseNdk NO-SOURCE
+:views:mergeReleaseJniLibFolders
+:views:transformNativeLibsWithMergeJniLibsForRelease
+:views:transformNativeLibsWithStripDebugSymbolForRelease
+:views:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 49s
+94 actionable tasks: 94 executed
+
+2019-01-08 18:14:41,503 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946010625-0/src/DigitalSpeedDashboard-master/app/build/outputs/apk/debug/app-debug.apk

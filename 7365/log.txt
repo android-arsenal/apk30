@@ -1,0 +1,44 @@
+2019-02-07 18:31:47,753 INFO  DownloadService - Downloading "https://github.com/rewe-digital-incubator/katana/archive/master.zip", attempt 3
+2019-02-07 18:31:50,193 INFO  DownloadService - Downloaded https://github.com/rewe-digital-incubator/katana/archive/master.zip, attempt 3
+2019-02-07 18:31:50,193 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539107744-0/master.zip": 186 KB
+2019-02-07 18:31:50,193 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-07 18:31:50,199 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539107744-0/master.zip: true
+2019-02-07 18:31:50,199 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539107744-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539107744-0/src'.
+2019-02-07 18:31:50,256 INFO  FullProcessService - Size of directory with sources: 242 KB
+2019-02-07 18:31:50,256 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539107744-0/src]
+2019-02-07 18:31:50,284 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539107744-0/src/.git/
+
+2019-02-07 18:31:50,290 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539107744-0/src/katana-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539107744-0/src/katana-master/android-example/gradlew
+2019-02-07 18:31:50,296 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539107744-0/src/katana-master/android-example/build.gradle
+2019-02-07 18:31:50,303 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539107744-0/src/katana-master/android-example/build.gradle
+2019-02-07 18:31:50,303 INFO  ProjectBuildService - Remote scripts: none
+2019-02-07 18:31:50,303 INFO  ProjectFixService - Fixing project...
+2019-02-07 18:31:50,318 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539107744-0/src/katana-master/android-example/local.properties
+2019-02-07 18:31:50,318 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
+2019-02-07 18:31:50,319 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
+2019-02-07 18:31:50,320 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539107744-0/src/katana-master/android-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-07 18:31:50,320 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539107744-0/src/katana-master/android-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-07 18:31:50,320 INFO  ProjectFixService - Project was maybe fixed
+2019-02-07 18:31:50,321 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-07 18:31:50,321 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539107744-0/src/katana-master/android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539107744-0/src/katana-master/android-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-07 18:31:54,952 INFO  ProjectTaskService - Detected possible tasks: 23
+2019-02-07 18:31:54,952 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-02-07 18:31:54,952 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539107744-0/src/katana-master/android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549539107744-0/src/katana-master/android-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-02-07 18:31:58,020 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Task :buildEnvironment
+
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+classpath
+No dependencies
+
+A web-based, searchable dependency report is available by adding the --scan option.
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+
+2019-02-07 18:31:58,028 ERROR FullProcessService - Project build has not produced APK file
+2019-02-07 18:31:58,035 ERROR FullProcessService - Could not find generated or existed APK file

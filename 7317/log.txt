@@ -1,0 +1,168 @@
+2019-01-15 12:15:44,652 INFO  DownloadService - Downloading "https://github.com/josinSbazin/android_ExpandableLayout/archive/master.zip", attempt 3
+2019-01-15 12:15:46,437 INFO  DownloadService - Downloaded https://github.com/josinSbazin/android_ExpandableLayout/archive/master.zip, attempt 3
+2019-01-15 12:15:46,437 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/master.zip": 156 KB
+2019-01-15 12:15:46,437 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-15 12:15:46,443 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/master.zip: true
+2019-01-15 12:15:46,443 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src'.
+2019-01-15 12:15:46,466 INFO  FullProcessService - Size of directory with sources: 189 KB
+2019-01-15 12:15:46,466 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src]
+2019-01-15 12:15:46,484 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/.git/
+
+2019-01-15 12:15:46,487 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/gradlew
+2019-01-15 12:15:46,490 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/constraintexpandablelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/build.gradle
+2019-01-15 12:15:46,493 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/constraintexpandablelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/settings.gradle
+2019-01-15 12:15:46,493 INFO  ProjectBuildService - Remote scripts: none
+2019-01-15 12:15:46,494 INFO  ProjectFixService - Fixing project...
+2019-01-15 12:15:46,502 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/app/local.properties
+2019-01-15 12:15:46,503 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-15 12:15:46,503 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-15 12:15:46,505 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/constraintexpandablelayout/local.properties
+2019-01-15 12:15:46,506 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/constraintexpandablelayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-15 12:15:46,506 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/constraintexpandablelayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-15 12:15:46,507 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/local.properties
+2019-01-15 12:15:46,508 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-15 12:15:46,508 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-15 12:15:46,510 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-15 12:15:46,510 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-15 12:15:46,510 INFO  ProjectFixService - Project was maybe fixed
+2019-01-15 12:15:46,510 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-15 12:15:46,510 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-15 12:15:52,223 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-15 12:15:52,223 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-15 12:15:52,223 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-15 12:16:30,879 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:constraintexpandablelayout:preBuild UP-TO-DATE
+:constraintexpandablelayout:preDebugBuild UP-TO-DATE
+:constraintexpandablelayout:checkDebugManifest
+:constraintexpandablelayout:processDebugManifest
+:app:preDebugBuild
+:constraintexpandablelayout:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:constraintexpandablelayout:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:constraintexpandablelayout:compileDebugRenderscript
+:constraintexpandablelayout:generateDebugResValues
+:constraintexpandablelayout:generateDebugResources
+:constraintexpandablelayout:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:constraintexpandablelayout:generateDebugRFile
+:app:processDebugResources
+:constraintexpandablelayout:generateDebugBuildConfig
+:constraintexpandablelayout:compileDebugKotlin
+:constraintexpandablelayout:prepareLintJar
+:constraintexpandablelayout:generateDebugSources
+:constraintexpandablelayout:javaPreCompileDebug
+:constraintexpandablelayout:compileDebugJavaWithJavac
+:constraintexpandablelayout:processDebugJavaRes NO-SOURCE
+:constraintexpandablelayout:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:constraintexpandablelayout:mergeDebugShaders
+:constraintexpandablelayout:compileDebugShaders
+:constraintexpandablelayout:generateDebugAssets
+:constraintexpandablelayout:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:constraintexpandablelayout:compileDebugNdk NO-SOURCE
+:constraintexpandablelayout:mergeDebugJniLibFolders
+:constraintexpandablelayout:transformNativeLibsWithMergeJniLibsForDebug
+:constraintexpandablelayout:transformNativeLibsWithStripDebugSymbolForDebug
+:constraintexpandablelayout:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:constraintexpandablelayout:preReleaseBuild UP-TO-DATE
+:constraintexpandablelayout:checkReleaseManifest
+:constraintexpandablelayout:processReleaseManifest
+:app:preReleaseBuild
+:constraintexpandablelayout:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:constraintexpandablelayout:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:constraintexpandablelayout:compileReleaseRenderscript
+:constraintexpandablelayout:generateReleaseResValues
+:constraintexpandablelayout:generateReleaseResources
+:constraintexpandablelayout:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:constraintexpandablelayout:generateReleaseRFile
+:app:processReleaseResources
+:constraintexpandablelayout:generateReleaseBuildConfig
+:constraintexpandablelayout:compileReleaseKotlin
+:constraintexpandablelayout:generateReleaseSources
+:constraintexpandablelayout:javaPreCompileRelease
+:constraintexpandablelayout:compileReleaseJavaWithJavac
+:constraintexpandablelayout:processReleaseJavaRes NO-SOURCE
+:constraintexpandablelayout:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:constraintexpandablelayout:mergeReleaseShaders
+:constraintexpandablelayout:compileReleaseShaders
+:constraintexpandablelayout:generateReleaseAssets
+:constraintexpandablelayout:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:constraintexpandablelayout:compileReleaseNdk NO-SOURCE
+:constraintexpandablelayout:mergeReleaseJniLibFolders
+:constraintexpandablelayout:transformNativeLibsWithMergeJniLibsForRelease
+:constraintexpandablelayout:transformNativeLibsWithStripDebugSymbolForRelease
+:constraintexpandablelayout:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 37s
+94 actionable tasks: 94 executed
+
+2019-01-15 12:16:30,979 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547529344644-0/src/android_ExpandableLayout-master/app/build/outputs/apk/debug/app-debug.apk

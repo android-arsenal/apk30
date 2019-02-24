@@ -1,0 +1,754 @@
+2019-01-18 11:05:53,536 INFO  DownloadService - Downloading "https://github.com/pranavpandey/dynamic-dialogs/archive/master.zip", attempt 3
+2019-01-18 11:05:55,154 INFO  DownloadService - Downloaded https://github.com/pranavpandey/dynamic-dialogs/archive/master.zip, attempt 3
+2019-01-18 11:05:55,154 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/master.zip": 1 MB
+2019-01-18 11:05:55,154 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-18 11:05:55,155 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/master.zip: true
+2019-01-18 11:05:55,155 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src'.
+2019-01-18 11:05:55,201 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-01-18 11:05:55,202 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src]
+2019-01-18 11:05:55,221 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/.git/
+
+2019-01-18 11:05:55,224 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/gradlew
+2019-01-18 11:05:55,229 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/build.gradle
+2019-01-18 11:05:55,233 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/maven.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/settings.gradle
+2019-01-18 11:05:55,233 INFO  ProjectBuildService - Remote scripts: none
+2019-01-18 11:05:55,233 INFO  ProjectFixService - Fixing project...
+2019-01-18 11:05:55,246 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/local.properties
+2019-01-18 11:05:55,250 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-18 11:05:55,251 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-18 11:05:55,253 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/sample/local.properties
+2019-01-18 11:05:55,259 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-18 11:05:55,259 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-18 11:05:55,261 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/local.properties
+2019-01-18 11:05:55,261 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1-milestone-1-all.zip
+2019-01-18 11:05:55,262 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1-bin.zip)
+2019-01-18 11:05:55,268 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-18 11:05:55,268 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-18 11:05:55,270 INFO  ProjectFixService - Project was maybe fixed
+2019-01-18 11:05:55,270 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-18 11:05:55,270 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-18 11:06:22,690 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-18 11:06:22,690 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-18 11:06:22,690 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-18 11:06:55,889 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :dynamic-dialogs:preBuild UP-TO-DATE
+> Task :dynamic-dialogs:preDebugBuild UP-TO-DATE
+> Task :dynamic-dialogs:checkDebugManifest
+> Task :dynamic-dialogs:generateDebugBuildConfig
+> Task :dynamic-dialogs:generateDebugResValues
+> Task :dynamic-dialogs:processDebugManifest
+> Task :dynamic-dialogs:compileDebugRenderscript NO-SOURCE
+> Task :dynamic-dialogs:generateDebugResources
+> Task :dynamic-dialogs:prepareLintJar
+> Task :dynamic-dialogs:compileDebugAidl NO-SOURCE
+> Task :dynamic-dialogs:generateDebugSources
+> Task :dynamic-dialogs:javaPreCompileDebug
+> Task :dynamic-dialogs:mergeDebugConsumerProguardFiles
+> Task :dynamic-dialogs:mergeDebugShaders
+> Task :dynamic-dialogs:compileDebugShaders
+> Task :dynamic-dialogs:generateDebugAssets
+> Task :dynamic-dialogs:packageDebugAssets
+> Task :dynamic-dialogs:packageDebugRenderscript NO-SOURCE
+> Task :dynamic-dialogs:processDebugJavaRes NO-SOURCE
+> Task :dynamic-dialogs:mergeDebugJniLibFolders
+> Task :dynamic-dialogs:transformNativeLibsWithMergeJniLibsForDebug
+> Task :dynamic-dialogs:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :dynamic-dialogs:transformNativeLibsWithSyncJniLibsForDebug
+> Task :dynamic-dialogs:preReleaseBuild UP-TO-DATE
+> Task :dynamic-dialogs:compileReleaseAidl NO-SOURCE
+> Task :dynamic-dialogs:compileReleaseRenderscript NO-SOURCE
+> Task :dynamic-dialogs:checkReleaseManifest
+> Task :dynamic-dialogs:generateReleaseBuildConfig
+> Task :dynamic-dialogs:generateReleaseResValues
+> Task :dynamic-dialogs:generateReleaseResources
+> Task :dynamic-dialogs:processReleaseManifest
+> Task :dynamic-dialogs:generateReleaseSources
+> Task :dynamic-dialogs:javaPreCompileRelease
+> Task :dynamic-dialogs:packageDebugResources
+> Task :dynamic-dialogs:generateDebugRFile
+
+> Task :dynamic-dialogs:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicAlertController.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :dynamic-dialogs:extractDebugAnnotations
+> Task :dynamic-dialogs:transformResourcesWithMergeJavaResForDebug
+> Task :dynamic-dialogs:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :dynamic-dialogs:bundleDebugAar
+> Task :dynamic-dialogs:compileDebugSources
+> Task :dynamic-dialogs:assembleDebug
+> Task :dynamic-dialogs:packageReleaseResources
+> Task :dynamic-dialogs:generateReleaseRFile
+
+> Task :dynamic-dialogs:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicAlertController.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :dynamic-dialogs:extractReleaseAnnotations
+> Task :dynamic-dialogs:mergeReleaseConsumerProguardFiles
+> Task :dynamic-dialogs:mergeReleaseShaders
+> Task :dynamic-dialogs:compileReleaseShaders
+> Task :dynamic-dialogs:generateReleaseAssets
+> Task :dynamic-dialogs:packageReleaseAssets
+> Task :dynamic-dialogs:packageReleaseRenderscript NO-SOURCE
+> Task :dynamic-dialogs:processReleaseJavaRes NO-SOURCE
+> Task :dynamic-dialogs:transformResourcesWithMergeJavaResForRelease
+> Task :dynamic-dialogs:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :dynamic-dialogs:mergeReleaseJniLibFolders
+> Task :dynamic-dialogs:transformNativeLibsWithMergeJniLibsForRelease
+> Task :dynamic-dialogs:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :dynamic-dialogs:transformNativeLibsWithSyncJniLibsForRelease
+> Task :dynamic-dialogs:bundleReleaseAar
+> Task :dynamic-dialogs:compileReleaseSources
+
+> Task :dynamic-dialogs:javadoc
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:36: error: cannot find symbol
+import androidx.annotation.ArrayRes;
+                          ^
+  symbol:   class ArrayRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:37: error: cannot find symbol
+import androidx.annotation.AttrRes;
+                          ^
+  symbol:   class AttrRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:38: error: cannot find symbol
+import androidx.annotation.DrawableRes;
+                          ^
+  symbol:   class DrawableRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:39: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:40: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:41: error: cannot find symbol
+import androidx.annotation.RestrictTo;
+                          ^
+  symbol:   class RestrictTo
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:42: error: cannot find symbol
+import androidx.annotation.StringRes;
+                          ^
+  symbol:   class StringRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:43: error: cannot find symbol
+import androidx.annotation.StyleRes;
+                          ^
+  symbol:   class StyleRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:44: error: package androidx.appcompat.app does not exist
+import androidx.appcompat.app.AppCompatDialog;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:46: error: package androidx.annotation.RestrictTo does not exist
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:46: error: static import only from classes and interfaces
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:74: error: cannot find symbol
+public class DynamicDialog extends AppCompatDialog implements DialogInterface {
+                                   ^
+  symbol: class AppCompatDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicAlertController.java:54: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicAlertController.java:55: error: cannot find symbol
+import androidx.annotation.RestrictTo;
+                          ^
+  symbol:   class RestrictTo
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicAlertController.java:56: error: package androidx.appcompat.app does not exist
+import androidx.appcompat.app.AppCompatDialog;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicAlertController.java:57: error: package androidx.core.view does not exist
+import androidx.core.view.ViewCompat;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicAlertController.java:58: error: package androidx.core.widget does not exist
+import androidx.core.widget.NestedScrollView;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicAlertController.java:59: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicAlertController.java:64: error: package androidx.annotation.RestrictTo does not exist
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicAlertController.java:64: error: static import only from classes and interfaces
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicAlertController.java:66: error: cannot find symbol
+@RestrictTo(LIBRARY_GROUP)
+ ^
+  symbol: class RestrictTo
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicAlertController.java:69: error: cannot find symbol
+    final AppCompatDialog mDialog;
+          ^
+  symbol:   class AppCompatDialog
+  location: class DynamicAlertController
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicAlertController.java:103: error: cannot find symbol
+    NestedScrollView mScrollView;
+    ^
+  symbol:   class NestedScrollView
+  location: class DynamicAlertController
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicAlertController.java:186: error: cannot find symbol
+    public DynamicAlertController(Context context, AppCompatDialog di, Window window) {
+                                                   ^
+  symbol:   class AppCompatDialog
+  location: class DynamicAlertController
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:25: error: cannot find symbol
+import androidx.annotation.ColorInt;
+                          ^
+  symbol:   class ColorInt
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:26: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:27: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:28: error: package androidx.appcompat.app does not exist
+import androidx.appcompat.app.AlertDialog;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:29: error: package androidx.appcompat.app does not exist
+import androidx.appcompat.app.AppCompatDialogFragment;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:30: error: package androidx.fragment.app does not exist
+import androidx.fragment.app.FragmentActivity;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:41: error: cannot find symbol
+public class DynamicDialogFragment extends AppCompatDialogFragment {
+                                           ^
+  symbol: class AppCompatDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:425: error: cannot find symbol
+    public void showDialog(@NonNull FragmentActivity fragmentActivity) {
+                                    ^
+  symbol:   class FragmentActivity
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:88: error: cannot find symbol
+    protected DynamicDialog(@NonNull Context context) {
+                             ^
+  symbol:   class NonNull
+  location: class DynamicDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:98: error: cannot find symbol
+    protected DynamicDialog(@NonNull Context context, @StyleRes int themeResId) {
+                             ^
+  symbol:   class NonNull
+  location: class DynamicDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:98: error: cannot find symbol
+    protected DynamicDialog(@NonNull Context context, @StyleRes int themeResId) {
+                                                       ^
+  symbol:   class StyleRes
+  location: class DynamicDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:103: error: cannot find symbol
+    protected DynamicDialog(@NonNull Context context, boolean cancelable,
+                             ^
+  symbol:   class NonNull
+  location: class DynamicDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:104: error: cannot find symbol
+            @Nullable OnCancelListener cancelListener) {
+             ^
+  symbol:   class Nullable
+  location: class DynamicDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:110: error: cannot find symbol
+    static int resolveDialogTheme(@NonNull Context context, @StyleRes int resid) {
+                                   ^
+  symbol:   class NonNull
+  location: class DynamicDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:110: error: cannot find symbol
+    static int resolveDialogTheme(@NonNull Context context, @StyleRes int resid) {
+                                                             ^
+  symbol:   class StyleRes
+  location: class DynamicDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:203: error: cannot find symbol
+    @RestrictTo(LIBRARY_GROUP)
+     ^
+  symbol:   class RestrictTo
+  location: class DynamicDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicAlertController.java:465: error: cannot find symbol
+    private ViewGroup resolvePanel(@Nullable View customPanel, @Nullable View defaultPanel) {
+                                    ^
+  symbol:   class Nullable
+  location: class DynamicAlertController
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicAlertController.java:465: error: cannot find symbol
+    private ViewGroup resolvePanel(@Nullable View customPanel, @Nullable View defaultPanel) {
+                                                                ^
+  symbol:   class Nullable
+  location: class DynamicAlertController
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicAlertController.java:464: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class DynamicAlertController
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:321: error: cannot find symbol
+        public Builder(@NonNull Context context) {
+                        ^
+  symbol:   class NonNull
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:351: error: cannot find symbol
+        public Builder(@NonNull Context context, @StyleRes int themeResId) {
+                        ^
+  symbol:   class NonNull
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:351: error: cannot find symbol
+        public Builder(@NonNull Context context, @StyleRes int themeResId) {
+                                                  ^
+  symbol:   class StyleRes
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:365: error: cannot find symbol
+        @NonNull
+         ^
+  symbol:   class NonNull
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:375: error: cannot find symbol
+        public Builder setTitle(@StringRes int titleId) {
+                                 ^
+  symbol:   class StringRes
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:385: error: cannot find symbol
+        public Builder setTitle(@Nullable CharSequence title) {
+                                 ^
+  symbol:   class Nullable
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:406: error: cannot find symbol
+        public Builder setCustomTitle(@Nullable View customTitleView) {
+                                       ^
+  symbol:   class Nullable
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:416: error: cannot find symbol
+        public Builder setMessage(@StringRes int messageId) {
+                                   ^
+  symbol:   class StringRes
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:426: error: cannot find symbol
+        public Builder setMessage(@Nullable CharSequence message) {
+                                   ^
+  symbol:   class Nullable
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:438: error: cannot find symbol
+        public Builder setIcon(@DrawableRes int iconId) {
+                                ^
+  symbol:   class DrawableRes
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:453: error: cannot find symbol
+        public Builder setIcon(@Nullable Drawable icon) {
+                                ^
+  symbol:   class Nullable
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:467: error: cannot find symbol
+        public Builder setIconAttribute(@AttrRes int attrId) {
+                                         ^
+  symbol:   class AttrRes
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:481: error: cannot find symbol
+        public Builder setPositiveButton(@StringRes int textId, final OnClickListener listener) {
+                                          ^
+  symbol:   class StringRes
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:517: error: cannot find symbol
+        public Builder setNegativeButton(@StringRes int textId, final OnClickListener listener) {
+                                          ^
+  symbol:   class StringRes
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:553: error: cannot find symbol
+        public Builder setNeutralButton(@StringRes int textId, final OnClickListener listener) {
+                                         ^
+  symbol:   class StringRes
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:639: error: cannot find symbol
+        public Builder setItems(@ArrayRes int itemsId, final OnClickListener listener) {
+                                 ^
+  symbol:   class ArrayRes
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:711: error: cannot find symbol
+        public Builder setMultiChoiceItems(@ArrayRes int itemsId, boolean[] checkedItems,
+                                            ^
+  symbol:   class ArrayRes
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:790: error: cannot find symbol
+        public Builder setSingleChoiceItems(@ArrayRes int itemsId, int checkedItem,
+                                             ^
+  symbol:   class ArrayRes
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:939: error: cannot find symbol
+        @RestrictTo(LIBRARY_GROUP)
+         ^
+  symbol:   class RestrictTo
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:1000: error: cannot find symbol
+        @RestrictTo(LIBRARY_GROUP)
+         ^
+  symbol:   class RestrictTo
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:1015: error: cannot find symbol
+        @NonNull
+         ^
+  symbol:   class NonNull
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:51: error: cannot find symbol
+    private @ColorInt int mButtonColor = ADS_DEFAULT_BUTTON_COLOR;
+             ^
+  symbol:   class ColorInt
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:100: error: cannot find symbol
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+                          ^
+  symbol:   class Nullable
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:107: error: cannot find symbol
+    public @NonNull Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
+                                           ^
+  symbol:   class Nullable
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:107: error: cannot find symbol
+    public @NonNull Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
+            ^
+  symbol:   class NonNull
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:175: error: cannot find symbol
+    public void onDismiss(@NonNull DialogInterface dialog) {
+                           ^
+  symbol:   class NonNull
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:184: error: cannot find symbol
+    public void onCancel(@NonNull DialogInterface dialog) {
+                          ^
+  symbol:   class NonNull
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:201: error: cannot find symbol
+            @NonNull DynamicDialog.Builder dialogBuilder, @Nullable Bundle savedInstanceState) {
+             ^
+  symbol:   class NonNull
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:201: error: cannot find symbol
+            @NonNull DynamicDialog.Builder dialogBuilder, @Nullable Bundle savedInstanceState) {
+                                                           ^
+  symbol:   class Nullable
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:200: error: cannot find symbol
+    protected @NonNull DynamicDialog.Builder onCustomiseBuilder(
+               ^
+  symbol:   class NonNull
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:214: error: cannot find symbol
+    protected @NonNull DynamicDialog onCustomiseDialog(@NonNull DynamicDialog alertDialog,
+                                                        ^
+  symbol:   class NonNull
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:215: error: cannot find symbol
+            @Nullable Bundle savedInstanceState) {
+             ^
+  symbol:   class Nullable
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:214: error: cannot find symbol
+    protected @NonNull DynamicDialog onCustomiseDialog(@NonNull DynamicDialog alertDialog,
+               ^
+  symbol:   class NonNull
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:233: error: cannot find symbol
+    public @ColorInt int getButtonColor() {
+            ^
+  symbol:   class ColorInt
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:245: error: cannot find symbol
+    public DynamicDialogFragment setButtonColor(@ColorInt int buttonColor) {
+                                                 ^
+  symbol:   class ColorInt
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:305: error: cannot find symbol
+    protected @Nullable DynamicDialog.Builder getBuilder() {
+               ^
+  symbol:   class Nullable
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:318: error: cannot find symbol
+            @NonNull DynamicDialog.Builder dynamicAlertDialogBuilder) {
+             ^
+  symbol:   class NonNull
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:329: error: cannot find symbol
+    protected @Nullable DynamicDialog.OnShowListener getOnShowListener() {
+               ^
+  symbol:   class Nullable
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:342: error: cannot find symbol
+            @Nullable DynamicDialog.OnShowListener onShowListener) {
+             ^
+  symbol:   class Nullable
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:353: error: cannot find symbol
+    protected @Nullable DynamicDialog.OnDismissListener getOnDismissListener() {
+               ^
+  symbol:   class Nullable
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:366: error: cannot find symbol
+            @Nullable DynamicDialog.OnDismissListener onDismissListener) {
+             ^
+  symbol:   class Nullable
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:377: error: cannot find symbol
+    protected @Nullable DynamicDialog.OnCancelListener getOnCancelListener() {
+               ^
+  symbol:   class Nullable
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:390: error: cannot find symbol
+            @Nullable DynamicDialog.OnCancelListener onCancelListener) {
+             ^
+  symbol:   class Nullable
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:401: error: cannot find symbol
+    protected @Nullable DynamicDialog.OnKeyListener getOnKeyListener() {
+               ^
+  symbol:   class Nullable
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:414: error: cannot find symbol
+            @Nullable DynamicDialog.OnKeyListener onKeyListener) {
+             ^
+  symbol:   class Nullable
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:425: error: cannot find symbol
+    public void showDialog(@NonNull FragmentActivity fragmentActivity) {
+                            ^
+  symbol:   class NonNull
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/fragment/DynamicDialogFragment.java:434: error: cannot find symbol
+    public @Nullable DynamicDialog getDynamicDialog() {
+            ^
+  symbol:   class Nullable
+  location: class DynamicDialogFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:124: error: reference not found
+     * example, via {@link #show()} or {@link #create()}).
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:124: error: reference not found
+     * example, via {@link #show()} or {@link #create()}).
+                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:151: error: reference not found
+     * This method has no effect if called after {@link #show()}.
+                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:155: warning: no @param for customTitleView
+    public void setCustomTitle(View customTitleView) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:170: error: reference not found
+     * after {@link #show()}.
+                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:172: warning: no @param for view
+    public void setView(View view) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:178: error: reference not found
+     * view.  This method has no effect if called after {@link #show()}.
+                                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:193: error: reference not found
+     * <p>This method has no effect if called after {@link #show()}.
+                                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:195: warning: no @param for view
+    public void setViewRoot(View view) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:210: error: reference not found
+     * after {@link #show()}.
+                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:225: error: reference not found
+     * has no effect if called after {@link #show()}.
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:241: error: reference not found
+     * {@link #show()}.
+              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:96: error: reference not found
+     * to get the dialog's style (such as {@link androidx.appcompat.R.attr#alertDialogTheme}.
+                                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:98: warning: no @param for context
+    protected DynamicDialog(@NonNull Context context, @StyleRes int themeResId) {
+              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:98: warning: no @param for themeResId
+    protected DynamicDialog(@NonNull Context context, @StyleRes int themeResId) {
+              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:131: warning - Tag @link: can't find show() in com.pranavpandey.android.dynamic.dialogs.DynamicDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:131: warning - Tag @link: can't find create() in com.pranavpandey.android.dynamic.dialogs.DynamicDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:234: warning - Tag @link: can't find show() in com.pranavpandey.android.dynamic.dialogs.DynamicDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:251: warning - Tag @link: can't find show() in com.pranavpandey.android.dynamic.dialogs.DynamicDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:219: warning - Tag @link: can't find show() in com.pranavpandey.android.dynamic.dialogs.DynamicDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:937: error: unknown tag: hide
+         * @hide
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:998: error: unknown tag: hide
+         * @hide
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:332: error: reference not found
+         * {@link androidx.appcompat.R.style#Theme_AppCompat_Dialog}, to replace all
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/dynamic-dialogs/src/main/java/com/pranavpandey/android/dynamic/dialogs/DynamicDialog.java:338: error: reference not found
+         * as {@link androidx.appcompat.R.style#ThemeOverlay_AppCompat_Dialog}. This will
+                     ^
+14 errors
+100 warnings
+
+> Task :dynamic-dialogs:mergeReleaseResources
+> Task :dynamic-dialogs:verifyReleaseResources
+> Task :dynamic-dialogs:assembleRelease
+> Task :dynamic-dialogs:javadocJar
+> Task :dynamic-dialogs:sourcesJar
+> Task :dynamic-dialogs:assemble
+> Task :dynamic-dialogs:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 33s
+46 actionable tasks: 46 executed
+
+2019-01-18 11:06:55,956 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-18 11:06:55,956 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-18 11:07:05,450 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-18 11:07:05,451 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-18 11:07:05,451 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-18 11:07:56,002 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :dynamic-dialogs:preBuild UP-TO-DATE
+> Task :dynamic-dialogs:preDebugBuild UP-TO-DATE
+> Task :dynamic-dialogs:checkDebugManifest UP-TO-DATE
+> Task :dynamic-dialogs:generateDebugBuildConfig UP-TO-DATE
+> Task :dynamic-dialogs:compileDebugAidl NO-SOURCE
+> Task :dynamic-dialogs:compileDebugRenderscript NO-SOURCE
+> Task :dynamic-dialogs:generateDebugResValues UP-TO-DATE
+> Task :dynamic-dialogs:generateDebugResources UP-TO-DATE
+> Task :dynamic-dialogs:processDebugManifest UP-TO-DATE
+> Task :dynamic-dialogs:packageDebugResources UP-TO-DATE
+> Task :dynamic-dialogs:generateDebugRFile UP-TO-DATE
+> Task :dynamic-dialogs:prepareLintJar UP-TO-DATE
+> Task :dynamic-dialogs:generateDebugSources UP-TO-DATE
+> Task :dynamic-dialogs:javaPreCompileDebug UP-TO-DATE
+> Task :dynamic-dialogs:compileDebugJavaWithJavac UP-TO-DATE
+> Task :dynamic-dialogs:bundleLibCompileDebug
+> Task :sample:preBuild UP-TO-DATE
+> Task :dynamic-dialogs:packageDebugRenderscript NO-SOURCE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:mergeDebugResources
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
+> Task :sample:compileDebugKotlin
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :dynamic-dialogs:mergeDebugShaders UP-TO-DATE
+> Task :dynamic-dialogs:compileDebugShaders UP-TO-DATE
+> Task :dynamic-dialogs:generateDebugAssets UP-TO-DATE
+> Task :dynamic-dialogs:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :dynamic-dialogs:processDebugJavaRes NO-SOURCE
+> Task :dynamic-dialogs:bundleLibResDebug
+> Task :dynamic-dialogs:bundleLibRuntimeDebug
+> Task :dynamic-dialogs:createFullJarDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :dynamic-dialogs:mergeDebugJniLibFolders UP-TO-DATE
+> Task :dynamic-dialogs:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :dynamic-dialogs:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :dynamic-dialogs:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :dynamic-dialogs:preReleaseBuild UP-TO-DATE
+> Task :dynamic-dialogs:compileReleaseAidl NO-SOURCE
+> Task :dynamic-dialogs:compileReleaseRenderscript NO-SOURCE
+> Task :dynamic-dialogs:checkReleaseManifest UP-TO-DATE
+> Task :dynamic-dialogs:generateReleaseBuildConfig UP-TO-DATE
+> Task :dynamic-dialogs:generateReleaseResValues UP-TO-DATE
+> Task :dynamic-dialogs:generateReleaseResources UP-TO-DATE
+> Task :dynamic-dialogs:packageReleaseResources UP-TO-DATE
+> Task :dynamic-dialogs:processReleaseManifest UP-TO-DATE
+> Task :dynamic-dialogs:generateReleaseRFile UP-TO-DATE
+> Task :dynamic-dialogs:generateReleaseSources UP-TO-DATE
+> Task :dynamic-dialogs:javaPreCompileRelease UP-TO-DATE
+> Task :dynamic-dialogs:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :dynamic-dialogs:bundleLibCompileRelease
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :dynamic-dialogs:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:compileReleaseKotlin
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :dynamic-dialogs:prepareLintJarForPublish
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/1916b380df2935b73dd2f8c617e1eaf7/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :dynamic-dialogs:processReleaseJavaRes NO-SOURCE
+> Task :dynamic-dialogs:bundleLibResRelease
+> Task :dynamic-dialogs:bundleLibRuntimeRelease
+> Task :dynamic-dialogs:createFullJarRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :dynamic-dialogs:mergeReleaseShaders UP-TO-DATE
+> Task :dynamic-dialogs:compileReleaseShaders UP-TO-DATE
+> Task :dynamic-dialogs:generateReleaseAssets UP-TO-DATE
+> Task :dynamic-dialogs:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :dynamic-dialogs:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :dynamic-dialogs:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :dynamic-dialogs:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :dynamic-dialogs:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:mergeExtDexRelease
+> Task :sample:mergeDexRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 49s
+93 actionable tasks: 64 executed, 29 up-to-date
+
+2019-01-18 11:07:56,129 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547784353532-0/src/dynamic-dialogs-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

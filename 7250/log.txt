@@ -1,0 +1,272 @@
+2018-10-21 15:27:16,003 INFO  DownloadService - Downloading "https://github.com/MasayukiSuda/ImageToVideoAndroid/archive/master.zip", attempt 3
+2018-10-21 15:27:19,634 INFO  DownloadService - Downloaded https://github.com/MasayukiSuda/ImageToVideoAndroid/archive/master.zip, attempt 3
+2018-10-21 15:27:19,634 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/master.zip": 486 KB
+2018-10-21 15:27:19,635 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-21 15:27:19,643 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/master.zip: true
+2018-10-21 15:27:19,643 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src'.
+2018-10-21 15:27:19,695 INFO  FullProcessService - Size of directory with sources: 673 KB
+2018-10-21 15:27:19,698 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src]
+2018-10-21 15:27:19,727 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/.git/
+
+2018-10-21 15:27:19,743 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/gradlew
+2018-10-21 15:27:19,756 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/imagetovideo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/build.gradle
+2018-10-21 15:27:19,762 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/imagetovideo/build.gradle
+2018-10-21 15:27:19,765 INFO  ProjectBuildService - Remote scripts: none
+2018-10-21 15:27:19,766 INFO  ProjectFixService - Fixing project...
+2018-10-21 15:27:19,811 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2018-10-21 15:27:19,812 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2018-10-21 15:27:19,814 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
+2018-10-21 15:27:19,818 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
+2018-10-21 15:27:19,821 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2018-10-21 15:27:19,822 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
+2018-10-21 15:27:19,823 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/imagetovideo/local.properties
+2018-10-21 15:27:19,832 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/imagetovideo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-21 15:27:19,836 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/imagetovideo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-21 15:27:19,838 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/sample/local.properties
+2018-10-21 15:27:19,841 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-21 15:27:19,841 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-21 15:27:19,842 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/local.properties
+2018-10-21 15:27:19,843 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-10-21 15:27:19,844 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-10-21 15:27:19,846 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-21 15:27:19,846 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-21 15:27:19,847 INFO  ProjectFixService - Project was maybe fixed
+2018-10-21 15:27:19,849 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-21 15:27:19,850 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/imagetovideo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-21 15:27:28,026 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-10-21 15:27:28,027 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-21 15:27:28,027 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/imagetovideo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-21 15:27:51,974 INFO  SysUtils - Configuration on demand is an incubating feature.
+:imagetovideo:preBuild UP-TO-DATE
+:imagetovideo:preDebugBuild UP-TO-DATE
+:imagetovideo:compileDebugAidl NO-SOURCE
+:imagetovideo:compileDebugRenderscript
+:imagetovideo:checkDebugManifest
+:imagetovideo:generateDebugBuildConfig
+:imagetovideo:generateDebugResValues
+:imagetovideo:generateDebugResources
+:imagetovideo:packageDebugResources
+:imagetovideo:processDebugManifest
+:imagetovideo:generateDebugRFile
+:imagetovideo:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/imagetovideo/src/main/java/com/daasuu/imagetovideo/GLImageOverlay.kt: (33, 13): 'inDither: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/imagetovideo/src/main/java/com/daasuu/imagetovideo/GLImageOverlay.kt: (47, 40): Type mismatch: inferred type is Bitmap? but Bitmap was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/imagetovideo/src/main/java/com/daasuu/imagetovideo/GLImageOverlay.kt: (61, 40): Type mismatch: inferred type is Bitmap? but Bitmap was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/imagetovideo/src/main/java/com/daasuu/imagetovideo/GLImageOverlay.kt: (122, 41): Variable 'exifInterface' initializer is redundant
+:imagetovideo:prepareLintJar
+:imagetovideo:generateDebugSources
+:imagetovideo:javaPreCompileDebug
+:imagetovideo:compileDebugJavaWithJavac
+:imagetovideo:extractDebugAnnotations
+:imagetovideo:mergeDebugConsumerProguardFiles
+:imagetovideo:mergeDebugShaders
+:imagetovideo:compileDebugShaders
+:imagetovideo:generateDebugAssets
+:imagetovideo:packageDebugAssets
+:imagetovideo:packageDebugRenderscript NO-SOURCE
+:imagetovideo:processDebugJavaRes NO-SOURCE
+:imagetovideo:transformResourcesWithMergeJavaResForDebug
+:imagetovideo:transformClassesAndResourcesWithSyncLibJarsForDebug
+:imagetovideo:compileDebugNdk NO-SOURCE
+:imagetovideo:mergeDebugJniLibFolders
+:imagetovideo:transformNativeLibsWithMergeJniLibsForDebug
+:imagetovideo:transformNativeLibsWithStripDebugSymbolForDebug
+:imagetovideo:transformNativeLibsWithSyncJniLibsForDebug
+:imagetovideo:bundleDebugAar
+:imagetovideo:compileDebugSources
+:imagetovideo:assembleDebug
+:imagetovideo:preReleaseBuild UP-TO-DATE
+:imagetovideo:compileReleaseAidl NO-SOURCE
+:imagetovideo:compileReleaseRenderscript
+:imagetovideo:checkReleaseManifest
+:imagetovideo:generateReleaseBuildConfig
+:imagetovideo:generateReleaseResValues
+:imagetovideo:generateReleaseResources
+:imagetovideo:packageReleaseResources
+:imagetovideo:processReleaseManifest
+:imagetovideo:generateReleaseRFile
+:imagetovideo:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/imagetovideo/src/main/java/com/daasuu/imagetovideo/GLImageOverlay.kt: (33, 13): 'inDither: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/imagetovideo/src/main/java/com/daasuu/imagetovideo/GLImageOverlay.kt: (47, 40): Type mismatch: inferred type is Bitmap? but Bitmap was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/imagetovideo/src/main/java/com/daasuu/imagetovideo/GLImageOverlay.kt: (61, 40): Type mismatch: inferred type is Bitmap? but Bitmap was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/imagetovideo/src/main/java/com/daasuu/imagetovideo/GLImageOverlay.kt: (122, 41): Variable 'exifInterface' initializer is redundant
+:imagetovideo:generateReleaseSources
+:imagetovideo:javaPreCompileRelease
+:imagetovideo:compileReleaseJavaWithJavac
+:imagetovideo:extractReleaseAnnotations
+:imagetovideo:mergeReleaseConsumerProguardFiles
+:imagetovideo:mergeReleaseShaders
+:imagetovideo:compileReleaseShaders
+:imagetovideo:generateReleaseAssets
+:imagetovideo:packageReleaseAssets
+:imagetovideo:packageReleaseRenderscript NO-SOURCE
+:imagetovideo:processReleaseJavaRes NO-SOURCE
+:imagetovideo:transformResourcesWithMergeJavaResForRelease
+:imagetovideo:transformClassesAndResourcesWithSyncLibJarsForRelease
+:imagetovideo:compileReleaseNdk NO-SOURCE
+:imagetovideo:mergeReleaseJniLibFolders
+:imagetovideo:transformNativeLibsWithMergeJniLibsForRelease
+:imagetovideo:transformNativeLibsWithStripDebugSymbolForRelease
+:imagetovideo:transformNativeLibsWithSyncJniLibsForRelease
+:imagetovideo:bundleReleaseAar
+:imagetovideo:compileReleaseSources
+:imagetovideo:mergeReleaseResources
+:imagetovideo:verifyReleaseResources
+:imagetovideo:assembleRelease
+:imagetovideo:assemble
+:imagetovideo:build
+
+BUILD SUCCESSFUL in 23s
+47 actionable tasks: 47 executed
+
+2018-10-21 15:27:52,014 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-21 15:27:52,015 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-21 15:27:59,745 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-10-21 15:27:59,745 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-21 15:27:59,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-21 15:28:46,297 INFO  SysUtils - Configuration on demand is an incubating feature.
+:imagetovideo:preBuild UP-TO-DATE
+:imagetovideo:preDebugBuild UP-TO-DATE
+:imagetovideo:compileDebugAidl NO-SOURCE
+:imagetovideo:compileDebugRenderscript UP-TO-DATE
+:imagetovideo:checkDebugManifest UP-TO-DATE
+:imagetovideo:generateDebugBuildConfig UP-TO-DATE
+:imagetovideo:generateDebugResValues UP-TO-DATE
+:imagetovideo:generateDebugResources UP-TO-DATE
+:imagetovideo:packageDebugResources UP-TO-DATE
+:imagetovideo:processDebugManifest UP-TO-DATE
+:imagetovideo:generateDebugRFile UP-TO-DATE
+:imagetovideo:compileDebugKotlin UP-TO-DATE
+:imagetovideo:prepareLintJar UP-TO-DATE
+:imagetovideo:generateDebugSources UP-TO-DATE
+:imagetovideo:javaPreCompileDebug UP-TO-DATE
+:imagetovideo:compileDebugJavaWithJavac UP-TO-DATE
+:imagetovideo:processDebugJavaRes NO-SOURCE
+:imagetovideo:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:checkDebugClasspath
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl NO-SOURCE
+:imagetovideo:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/sample/src/main/java/com/daasuu/imagetovideoandroid/ImageLoader.kt: (64, 11): The value 'null' assigned to 'var file: File? defined in com.daasuu.imagetovideoandroid.ImageLoader.ImageLoadRunnable.run' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/sample/src/main/java/com/daasuu/imagetovideoandroid/MainActivity.kt: (99, 36): The corresponding parameter in the supertype 'ImageLoadListener' is named 'imagePath'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/sample/src/main/java/com/daasuu/imagetovideoandroid/MainActivity.kt: (104, 39): Parameter 'parent' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/sample/src/main/java/com/daasuu/imagetovideoandroid/MainActivity.kt: (104, 47): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/sample/src/main/java/com/daasuu/imagetovideoandroid/MainActivity.kt: (104, 63): Parameter 'id' is never used, could be renamed to _
+:sample:prepareLintJar
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:imagetovideo:mergeDebugShaders UP-TO-DATE
+:imagetovideo:compileDebugShaders UP-TO-DATE
+:imagetovideo:generateDebugAssets UP-TO-DATE
+:imagetovideo:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:imagetovideo:compileDebugNdk NO-SOURCE
+:imagetovideo:mergeDebugJniLibFolders UP-TO-DATE
+:imagetovideo:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:imagetovideo:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:imagetovideo:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:checkDebugLibraries
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:imagetovideo:preReleaseBuild UP-TO-DATE
+:imagetovideo:compileReleaseAidl NO-SOURCE
+:imagetovideo:compileReleaseRenderscript UP-TO-DATE
+:imagetovideo:checkReleaseManifest UP-TO-DATE
+:imagetovideo:generateReleaseBuildConfig UP-TO-DATE
+:imagetovideo:generateReleaseResValues UP-TO-DATE
+:imagetovideo:generateReleaseResources UP-TO-DATE
+:imagetovideo:packageReleaseResources UP-TO-DATE
+:imagetovideo:processReleaseManifest UP-TO-DATE
+:imagetovideo:generateReleaseRFile UP-TO-DATE
+:imagetovideo:compileReleaseKotlin UP-TO-DATE
+:imagetovideo:generateReleaseSources UP-TO-DATE
+:imagetovideo:javaPreCompileRelease UP-TO-DATE
+:imagetovideo:compileReleaseJavaWithJavac UP-TO-DATE
+:imagetovideo:processReleaseJavaRes NO-SOURCE
+:imagetovideo:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:checkReleaseClasspath
+:sample:preReleaseBuild
+:sample:compileReleaseAidl NO-SOURCE
+:imagetovideo:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/sample/src/main/java/com/daasuu/imagetovideoandroid/ImageLoader.kt: (64, 11): The value 'null' assigned to 'var file: File? defined in com.daasuu.imagetovideoandroid.ImageLoader.ImageLoadRunnable.run' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/sample/src/main/java/com/daasuu/imagetovideoandroid/MainActivity.kt: (99, 36): The corresponding parameter in the supertype 'ImageLoadListener' is named 'imagePath'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/sample/src/main/java/com/daasuu/imagetovideoandroid/MainActivity.kt: (104, 39): Parameter 'parent' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/sample/src/main/java/com/daasuu/imagetovideoandroid/MainActivity.kt: (104, 47): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/sample/src/main/java/com/daasuu/imagetovideoandroid/MainActivity.kt: (104, 63): Parameter 'id' is never used, could be renamed to _
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:imagetovideo:mergeReleaseShaders UP-TO-DATE
+:imagetovideo:compileReleaseShaders UP-TO-DATE
+:imagetovideo:generateReleaseAssets UP-TO-DATE
+:imagetovideo:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:imagetovideo:compileReleaseNdk NO-SOURCE
+:imagetovideo:mergeReleaseJniLibFolders UP-TO-DATE
+:imagetovideo:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:imagetovideo:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:imagetovideo:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:checkReleaseLibraries
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 45s
+94 actionable tasks: 61 executed, 33 up-to-date
+
+2018-10-21 15:28:46,474 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540110435916-0/src/ImageToVideoAndroid-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

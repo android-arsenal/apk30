@@ -1,0 +1,17 @@
+2019-02-03 23:10:56,548 INFO  DownloadService - Downloading "https://github.com/pvasa/cameraview-ex/archive/master.zip", attempt 3
+2019-02-03 23:10:58,898 INFO  DownloadService - Downloaded https://github.com/pvasa/cameraview-ex/archive/master.zip, attempt 3
+2019-02-03 23:10:58,898 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210256544-0/master.zip": 617 KB
+2019-02-03 23:10:58,898 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-03 23:10:58,900 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210256544-0/master.zip: true
+2019-02-03 23:10:58,901 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210256544-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210256544-0/src'.
+2019-02-03 23:10:59,040 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-02-03 23:10:59,041 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210256544-0/src]
+2019-02-03 23:10:59,058 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210256544-0/src/.git/
+
+2019-02-03 23:10:59,072 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210256544-0/src/cameraview-ex-master/gradlew
+2019-02-03 23:10:59,085 INFO  ProjectBuildService - Build script(s): none
+2019-02-03 23:10:59,099 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1549210256544-0/src/cameraview-ex-master/cameraViewEx/publish.gradle
+2019-02-03 23:10:59,099 INFO  ProjectBuildService - Remote scripts: none
+2019-02-03 23:10:59,099 ERROR FullProcessService - Project is not correct Gradle project
+2019-02-03 23:10:59,099 ERROR FullProcessService - Project build has not produced APK file
+2019-02-03 23:10:59,113 ERROR FullProcessService - Could not find generated or existed APK file

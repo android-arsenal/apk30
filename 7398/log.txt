@@ -1,0 +1,172 @@
+2019-02-19 11:56:10,709 INFO  DownloadService - Downloading "https://github.com/paveltech/HttpResponseCodeHandling/archive/master.zip", attempt 3
+2019-02-19 11:56:11,399 INFO  DownloadService - Downloaded https://github.com/paveltech/HttpResponseCodeHandling/archive/master.zip, attempt 3
+2019-02-19 11:56:11,399 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/master.zip": 167 KB
+2019-02-19 11:56:11,399 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-19 11:56:11,400 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/master.zip: true
+2019-02-19 11:56:11,400 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src'.
+2019-02-19 11:56:11,420 INFO  FullProcessService - Size of directory with sources: 187 KB
+2019-02-19 11:56:11,420 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src]
+2019-02-19 11:56:11,436 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/.git/
+
+2019-02-19 11:56:11,440 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/gradlew
+2019-02-19 11:56:11,444 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/responsecode/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/build.gradle
+2019-02-19 11:56:11,448 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/responsecode/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/settings.gradle
+2019-02-19 11:56:11,448 INFO  ProjectBuildService - Remote scripts: none
+2019-02-19 11:56:11,449 INFO  ProjectFixService - Fixing project...
+2019-02-19 11:56:11,458 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/app/local.properties
+2019-02-19 11:56:11,459 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 11:56:11,459 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 11:56:11,460 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/responsecode/local.properties
+2019-02-19 11:56:11,460 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/responsecode/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-02-19 11:56:11,461 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/responsecode/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-02-19 11:56:11,462 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/local.properties
+2019-02-19 11:56:11,462 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-19 11:56:11,463 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-19 11:56:11,464 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 11:56:11,464 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-19 11:56:11,464 INFO  ProjectFixService - Project was maybe fixed
+2019-02-19 11:56:11,464 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-19 11:56:11,465 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-19 11:56:17,917 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-19 11:56:17,918 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-19 11:56:17,918 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-19 11:56:48,377 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:responsecode:preBuild UP-TO-DATE
+:responsecode:preDebugBuild UP-TO-DATE
+:responsecode:checkDebugManifest
+:responsecode:processDebugManifest
+:app:preDebugBuild
+:responsecode:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:responsecode:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:responsecode:compileDebugRenderscript
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/26.0.2/support-v4-26.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/26.0.2/support-core-utils-26.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-media-compat/26.0.2/support-media-compat-26.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/26.0.2/support-fragment-26.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/26.0.2/support-compat-26.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/26.0.2/support-core-ui-26.0.2.aar
+:responsecode:generateDebugResValues
+:responsecode:generateDebugResources
+:responsecode:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:responsecode:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:responsecode:generateDebugBuildConfig
+:responsecode:prepareLintJar
+:responsecode:generateDebugSources
+:responsecode:javaPreCompileDebug
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/26.0.2/support-annotations-26.0.2.jar
+:responsecode:compileDebugJavaWithJavac
+:responsecode:processDebugJavaRes NO-SOURCE
+:responsecode:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:responsecode:mergeDebugShaders
+:responsecode:compileDebugShaders
+:responsecode:generateDebugAssets
+:responsecode:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:responsecode:compileDebugNdk NO-SOURCE
+:responsecode:mergeDebugJniLibFolders
+:responsecode:transformNativeLibsWithMergeJniLibsForDebug
+:responsecode:transformNativeLibsWithStripDebugSymbolForDebug
+:responsecode:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:responsecode:preReleaseBuild UP-TO-DATE
+:responsecode:checkReleaseManifest
+:responsecode:processReleaseManifest
+:app:preReleaseBuild
+:responsecode:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:responsecode:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:responsecode:compileReleaseRenderscript
+:responsecode:generateReleaseResValues
+:responsecode:generateReleaseResources
+:responsecode:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:responsecode:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:responsecode:generateReleaseBuildConfig
+:responsecode:generateReleaseSources
+:responsecode:javaPreCompileRelease
+:responsecode:compileReleaseJavaWithJavac
+:responsecode:processReleaseJavaRes NO-SOURCE
+:responsecode:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/c419ea40c935b03ad2f70e53dbeff6ea/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-26/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:responsecode:mergeReleaseShaders
+:responsecode:compileReleaseShaders
+:responsecode:generateReleaseAssets
+:responsecode:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:responsecode:compileReleaseNdk NO-SOURCE
+:responsecode:mergeReleaseJniLibFolders
+:responsecode:transformNativeLibsWithMergeJniLibsForRelease
+:responsecode:transformNativeLibsWithStripDebugSymbolForRelease
+:responsecode:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 29s
+90 actionable tasks: 90 executed
+
+2019-02-19 11:56:48,469 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552170705-0/src/HttpResponseCodeHandling-master/app/build/outputs/apk/debug/app-debug.apk
