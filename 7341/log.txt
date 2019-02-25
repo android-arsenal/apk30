@@ -1,36 +1,36 @@
-2019-02-25 01:06:48,506 INFO  DownloadService - Downloading "https://github.com/hummatli/AppCrossPromoter/archive/master.zip", attempt 3
-2019-02-25 01:06:58,253 INFO  DownloadService - Downloaded https://github.com/hummatli/AppCrossPromoter/archive/master.zip, attempt 3
-2019-02-25 01:06:58,254 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/master.zip": 11 MB
-2019-02-25 01:06:58,254 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-02-25 01:06:58,255 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/master.zip: true
-2019-02-25 01:06:58,255 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src'.
-2019-02-25 01:06:58,380 INFO  FullProcessService - Size of directory with sources: 13 MB
-2019-02-25 01:06:58,380 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src]
-2019-02-25 01:06:58,409 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/.git/
+2019-02-25 11:06:47,514 INFO  DownloadService - Downloading "https://github.com/hummatli/AppCrossPromoter/archive/master.zip", attempt 3
+2019-02-25 11:06:57,241 INFO  DownloadService - Downloaded https://github.com/hummatli/AppCrossPromoter/archive/master.zip, attempt 3
+2019-02-25 11:06:57,242 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/master.zip": 11 MB
+2019-02-25 11:06:57,242 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-25 11:06:57,243 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/master.zip: true
+2019-02-25 11:06:57,243 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src'.
+2019-02-25 11:06:57,369 INFO  FullProcessService - Size of directory with sources: 13 MB
+2019-02-25 11:06:57,370 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src]
+2019-02-25 11:06:57,389 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/.git/
 
-2019-02-25 01:06:58,415 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/gradlew
-2019-02-25 01:06:58,422 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/build.gradle
-2019-02-25 01:06:58,428 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/sample-app/signing_confs/sample_conf.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/conf_for_maven/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/conf_for_maven/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/build.gradle
-2019-02-25 01:06:58,431 INFO  ProjectBuildService - Remote scripts: none
-2019-02-25 01:06:58,431 INFO  ProjectFixService - Fixing project...
-2019-02-25 01:06:58,446 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/local.properties
-2019-02-25 01:06:58,448 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-25 01:06:58,449 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-25 01:06:58,450 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/sample-app/local.properties
-2019-02-25 01:06:58,452 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-25 01:06:58,452 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-25 01:06:58,454 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/local.properties
-2019-02-25 01:06:58,454 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-02-25 01:06:58,455 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-02-25 01:06:58,457 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-25 01:06:58,457 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-25 01:06:58,458 INFO  ProjectFixService - Project was maybe fixed
-2019-02-25 01:06:58,458 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-25 01:06:58,458 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-25 01:07:08,065 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-02-25 01:07:08,065 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-02-25 01:07:08,065 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-02-25 01:11:24,296 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-02-25 11:06:57,396 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/gradlew
+2019-02-25 11:06:57,403 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/build.gradle
+2019-02-25 11:06:57,409 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/sample-app/signing_confs/sample_conf.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/conf_for_maven/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/conf_for_maven/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/build.gradle
+2019-02-25 11:06:57,410 INFO  ProjectBuildService - Remote scripts: none
+2019-02-25 11:06:57,410 INFO  ProjectFixService - Fixing project...
+2019-02-25 11:06:57,427 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/local.properties
+2019-02-25 11:06:57,429 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-25 11:06:57,429 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-25 11:06:57,430 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/sample-app/local.properties
+2019-02-25 11:06:57,432 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-25 11:06:57,433 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-25 11:06:57,434 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/local.properties
+2019-02-25 11:06:57,434 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-02-25 11:06:57,435 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-02-25 11:06:57,438 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-25 11:06:57,438 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-25 11:06:57,438 INFO  ProjectFixService - Project was maybe fixed
+2019-02-25 11:06:57,438 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-25 11:06:57,439 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-25 11:07:04,555 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-25 11:07:04,556 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-25 11:07:04,556 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-25 11:07:30,812 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app-cross-promoter:preBuild UP-TO-DATE
 > Task :app-cross-promoter:preDebugBuild UP-TO-DATE
 > Task :app-cross-promoter:compileDebugAidl NO-SOURCE
@@ -42,18 +42,16 @@
 > Task :app-cross-promoter:packageDebugResources
 > Task :app-cross-promoter:processDebugManifest
 > Task :app-cross-promoter:generateDebugRFile
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPController.kt: (28, 5): '@JvmOverloads' annotation has no effect for methods without default arguments
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPDlgPrograms.kt: (89, 39): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ProgramItmAdpt.kt: (27, 142): Unnecessary non-null assertion (!!) on a non-null receiver of type View
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ProgramItmAdpt.kt: (29, 138): Unnecessary non-null assertion (!!) on a non-null receiver of type Unit
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/LocaleUpdater.kt: (16, 23): 'locale: Locale!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/LocaleUpdater.kt: (18, 19): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/Models.kt: (62, 37): Parameter 'context' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/Utils.kt: (23, 17): Variable 'info' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/Utils.kt: (52, 13): Variable 'line' is never used
 > Task :app-cross-promoter:compileDebugKotlin
-
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPController.kt: (28, 5): '@JvmOverloads' annotation has no effect for methods without default arguments
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPDlgPrograms.kt: (89, 39): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ProgramItmAdpt.kt: (27, 142): Unnecessary non-null assertion (!!) on a non-null receiver of type View
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ProgramItmAdpt.kt: (29, 138): Unnecessary non-null assertion (!!) on a non-null receiver of type Unit
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/LocaleUpdater.kt: (16, 23): 'locale: Locale!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/LocaleUpdater.kt: (18, 19): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/Models.kt: (62, 37): Parameter 'context' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/Utils.kt: (23, 17): Variable 'info' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/Utils.kt: (52, 13): Variable 'line' is never used
-
 > Task :app-cross-promoter:prepareLintJar
 > Task :app-cross-promoter:generateDebugSources
 > Task :app-cross-promoter:javaPreCompileDebug
@@ -86,15 +84,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/
 > Task :app-cross-promoter:packageReleaseResources
 > Task :app-cross-promoter:processReleaseManifest
 > Task :app-cross-promoter:generateReleaseRFile
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPController.kt: (28, 5): '@JvmOverloads' annotation has no effect for methods without default arguments
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPDlgPrograms.kt: (89, 39): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ProgramItmAdpt.kt: (27, 142): Unnecessary non-null assertion (!!) on a non-null receiver of type View
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ProgramItmAdpt.kt: (29, 138): Unnecessary non-null assertion (!!) on a non-null receiver of type Unit
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/LocaleUpdater.kt: (16, 23): 'locale: Locale!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/LocaleUpdater.kt: (18, 19): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/Models.kt: (62, 37): Parameter 'context' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/Utils.kt: (23, 17): Variable 'info' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/Utils.kt: (52, 13): Variable 'line' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPController.kt: (28, 5): '@JvmOverloads' annotation has no effect for methods without default arguments
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ACPDlgPrograms.kt: (89, 39): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ProgramItmAdpt.kt: (27, 142): Unnecessary non-null assertion (!!) on a non-null receiver of type View
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/ProgramItmAdpt.kt: (29, 138): Unnecessary non-null assertion (!!) on a non-null receiver of type Unit
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/LocaleUpdater.kt: (16, 23): 'locale: Locale!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/LocaleUpdater.kt: (18, 19): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/Models.kt: (62, 37): Parameter 'context' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/Utils.kt: (23, 17): Variable 'info' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/app-cross-promoter/src/main/java/com/mobapphome/appcrosspromoter/tools/Utils.kt: (52, 13): Variable 'line' is never used
 > Task :app-cross-promoter:compileReleaseKotlin
 > Task :app-cross-promoter:generateReleaseSources
 > Task :app-cross-promoter:javaPreCompileRelease
@@ -125,16 +123,16 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/
 > Task :app-cross-promoter:assemble
 > Task :app-cross-promoter:build
 
-BUILD SUCCESSFUL in 4m 15s
+BUILD SUCCESSFUL in 25s
 49 actionable tasks: 49 executed
 
-2019-02-25 01:11:24,358 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-25 01:11:24,359 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-25 01:11:28,485 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-02-25 01:11:28,485 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-02-25 01:11:28,485 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-02-25 01:11:28,485 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-02-25 01:11:32,835 ERROR SysUtils - Could not process external command
+2019-02-25 11:07:30,875 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-25 11:07:30,875 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-25 11:07:34,853 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-02-25 11:07:34,853 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-02-25 11:07:34,853 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-02-25 11:07:34,853 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-02-25 11:07:38,800 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -162,7 +160,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-02-25 01:11:32,835 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-02-25 11:07:38,800 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :sample-app
 Project evaluation failed including an error in afterEvaluate {}.
@@ -302,11 +300,11 @@ java.lang.IllegalStateException: compileSdkVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/sample-app/build.gradle' line: 4
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/sample-app/build.gradle' line: 4
 
 * What went wrong:
 A problem occurred evaluating project ':sample-app'.
-> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/sample-app/signing_confs/conf.gradle' as it does not exist.
+> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/sample-app/signing_confs/conf.gradle' as it does not exist.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -418,7 +416,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':sa
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.UncheckedIOException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/sample-app/signing_confs/conf.gradle' as it does not exist.
+Caused by: org.gradle.api.UncheckedIOException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/sample-app/signing_confs/conf.gradle' as it does not exist.
 	at org.gradle.groovy.scripts.internal.DefaultScriptSourceHasher.hash(DefaultScriptSourceHasher.java:48)
 	at org.gradle.groovy.scripts.internal.CrossBuildInMemoryCachingScriptClassCache.getOrCompile(CrossBuildInMemoryCachingScriptClassCache.java:45)
 	at org.gradle.groovy.scripts.internal.BuildScopeInMemoryCachingScriptClassCompiler.compile(BuildScopeInMemoryCachingScriptClassCompiler.java:50)
@@ -441,10 +439,10 @@ Caused by: org.gradle.api.UncheckedIOException: Could not read script '/private/
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_8ok6nfp57jo7gz5jitunwrtzw.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/sample-app/build.gradle:4)
+	at build_dll76azx4uvqoegzy5zueowek.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/sample-app/build.gradle:4)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
-Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/sample-app/signing_confs/conf.gradle (No such file or directory)
+Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/sample-app/signing_confs/conf.gradle (No such file or directory)
 	at org.gradle.internal.hash.DefaultFileHasher.hash(DefaultFileHasher.java:38)
 	at org.gradle.api.internal.changedetection.state.CachingFileHasher.snapshot(CachingFileHasher.java:89)
 	at org.gradle.api.internal.changedetection.state.CachingFileHasher.snapshot(CachingFileHasher.java:72)
@@ -455,15 +453,15 @@ Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2ct
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 3s
 
-2019-02-25 01:11:32,895 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-25 01:11:32,895 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-25 01:11:40,415 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-02-25 01:11:40,415 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-02-25 01:11:40,415 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-02-25 01:11:40,415 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-02-25 01:11:46,342 ERROR SysUtils - Could not process external command
+2019-02-25 11:07:38,860 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-25 11:07:38,861 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-25 11:07:45,360 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-02-25 11:07:45,360 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-02-25 11:07:45,360 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-02-25 11:07:45,360 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-02-25 11:07:52,076 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -491,7 +489,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-02-25 01:11:46,342 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-02-25 11:07:52,076 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :sample-app
 Project evaluation failed including an error in afterEvaluate {}.
@@ -631,11 +629,11 @@ java.lang.IllegalStateException: compileSdkVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/sample-app/build.gradle' line: 4
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/sample-app/build.gradle' line: 4
 
 * What went wrong:
 A problem occurred evaluating project ':sample-app'.
-> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/sample-app/signing_confs/conf.gradle' as it does not exist.
+> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/sample-app/signing_confs/conf.gradle' as it does not exist.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -747,7 +745,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':sa
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.UncheckedIOException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/sample-app/signing_confs/conf.gradle' as it does not exist.
+Caused by: org.gradle.api.UncheckedIOException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/sample-app/signing_confs/conf.gradle' as it does not exist.
 	at org.gradle.groovy.scripts.internal.DefaultScriptSourceHasher.hash(DefaultScriptSourceHasher.java:48)
 	at org.gradle.groovy.scripts.internal.CrossBuildInMemoryCachingScriptClassCache.getOrCompile(CrossBuildInMemoryCachingScriptClassCache.java:45)
 	at org.gradle.groovy.scripts.internal.BuildScopeInMemoryCachingScriptClassCompiler.compile(BuildScopeInMemoryCachingScriptClassCompiler.java:50)
@@ -770,10 +768,10 @@ Caused by: org.gradle.api.UncheckedIOException: Could not read script '/private/
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_8ok6nfp57jo7gz5jitunwrtzw.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/sample-app/build.gradle:4)
+	at build_dll76azx4uvqoegzy5zueowek.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/sample-app/build.gradle:4)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
-Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551031608497-0/src/AppCrossPromoter-master/sample-app/signing_confs/conf.gradle (No such file or directory)
+Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551067607510-0/src/AppCrossPromoter-master/sample-app/signing_confs/conf.gradle (No such file or directory)
 	at org.gradle.internal.hash.DefaultFileHasher.hash(DefaultFileHasher.java:38)
 	at org.gradle.api.internal.changedetection.state.CachingFileHasher.snapshot(CachingFileHasher.java:89)
 	at org.gradle.api.internal.changedetection.state.CachingFileHasher.snapshot(CachingFileHasher.java:72)
@@ -784,7 +782,7 @@ Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2ct
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2019-02-25 01:11:46,398 ERROR FullProcessService - Project build has not produced APK file
-2019-02-25 01:11:46,455 ERROR FullProcessService - Could not find generated or existed APK file
+2019-02-25 11:07:52,137 ERROR FullProcessService - Project build has not produced APK file
+2019-02-25 11:07:52,194 ERROR FullProcessService - Could not find generated or existed APK file
