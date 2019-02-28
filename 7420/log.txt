@@ -1,37 +1,37 @@
-2019-02-16 19:44:15,847 INFO  DownloadService - Downloading "https://github.com/gilgoldzweig/gencycler/archive/master.zip", attempt 3
-2019-02-16 19:44:18,933 INFO  DownloadService - Downloaded https://github.com/gilgoldzweig/gencycler/archive/master.zip, attempt 3
-2019-02-16 19:44:18,933 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/master.zip": 239 KB
-2019-02-16 19:44:18,933 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-02-16 19:44:18,939 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/master.zip: true
-2019-02-16 19:44:18,939 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src'.
-2019-02-16 19:44:18,981 INFO  FullProcessService - Size of directory with sources: 297 KB
-2019-02-16 19:44:18,981 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src]
-2019-02-16 19:44:19,012 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/.git/
+2019-02-28 16:16:24,160 INFO  DownloadService - Downloading "https://github.com/gilgoldzweig/gencycler/archive/master.zip", attempt 3
+2019-02-28 16:16:26,489 INFO  DownloadService - Downloaded https://github.com/gilgoldzweig/gencycler/archive/master.zip, attempt 3
+2019-02-28 16:16:26,489 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/master.zip": 239 KB
+2019-02-28 16:16:26,489 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-28 16:16:26,495 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/master.zip: true
+2019-02-28 16:16:26,495 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src'.
+2019-02-28 16:16:26,534 INFO  FullProcessService - Size of directory with sources: 297 KB
+2019-02-28 16:16:26,534 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src]
+2019-02-28 16:16:26,554 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/.git/
 
-2019-02-16 19:44:19,021 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gradlew
-2019-02-16 19:44:19,029 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gencycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/compiler/build.gradle
-2019-02-16 19:44:19,037 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gencycler/build.gradle
-2019-02-16 19:44:19,038 INFO  ProjectBuildService - Remote scripts: none
-2019-02-16 19:44:19,038 INFO  ProjectFixService - Fixing project...
-2019-02-16 19:44:19,058 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gencycler/local.properties
-2019-02-16 19:44:19,059 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gencycler/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-02-16 19:44:19,060 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/sample/local.properties
-2019-02-16 19:44:19,060 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-02-16 19:44:19,061 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/local.properties
-2019-02-16 19:44:19,065 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-02-16 19:44:19,066 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-02-16 19:44:19,067 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-02-16 19:44:19,068 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/annotations/local.properties
-2019-02-16 19:44:19,070 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/annotations/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-02-16 19:44:19,070 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/compiler/local.properties
-2019-02-16 19:44:19,073 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/compiler/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-02-16 19:44:19,073 INFO  ProjectFixService - Project was maybe fixed
-2019-02-16 19:44:19,073 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-16 19:44:19,073 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gencycler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-16 19:44:28,111 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-02-16 19:44:28,111 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-02-16 19:44:28,111 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gencycler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-02-16 19:44:52,235 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-02-28 16:16:26,559 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/gradlew
+2019-02-28 16:16:26,565 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/gencycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/compiler/build.gradle
+2019-02-28 16:16:26,571 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/gencycler/build.gradle
+2019-02-28 16:16:26,571 INFO  ProjectBuildService - Remote scripts: none
+2019-02-28 16:16:26,571 INFO  ProjectFixService - Fixing project...
+2019-02-28 16:16:26,583 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/gencycler/local.properties
+2019-02-28 16:16:26,584 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/gencycler/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-28 16:16:26,585 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/sample/local.properties
+2019-02-28 16:16:26,585 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-28 16:16:26,586 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/local.properties
+2019-02-28 16:16:26,586 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-02-28 16:16:26,586 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-02-28 16:16:26,587 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-28 16:16:26,588 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/annotations/local.properties
+2019-02-28 16:16:26,589 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/annotations/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-28 16:16:26,590 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/compiler/local.properties
+2019-02-28 16:16:26,592 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/compiler/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-02-28 16:16:26,592 INFO  ProjectFixService - Project was maybe fixed
+2019-02-28 16:16:26,592 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-28 16:16:26,592 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/gencycler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-28 16:16:33,086 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-02-28 16:16:33,087 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-28 16:16:33,087 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/gencycler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-28 16:16:51,128 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :gencycler:preBuild UP-TO-DATE
 > Task :gencycler:preDebugBuild UP-TO-DATE
 > Task :gencycler:compileDebugAidl NO-SOURCE
@@ -52,7 +52,7 @@
 > Task :gencycler:packageDebugResources
 > Task :gencycler:processDebugManifest
 > Task :gencycler:generateDebugRFile
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gencycler/src/main/java/goldzweigapps/com/gencycler/filter/GencyclerFilter.kt: (28, 37): Unchecked cast: Any! to List<T>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/gencycler/src/main/java/goldzweigapps/com/gencycler/filter/GencyclerFilter.kt: (28, 37): Unchecked cast: Any! to List<T>
 > Task :gencycler:compileDebugKotlin
 > Task :gencycler:prepareLintJar
 > Task :gencycler:generateDebugSources
@@ -86,7 +86,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/
 > Task :gencycler:packageReleaseResources
 > Task :gencycler:processReleaseManifest
 > Task :gencycler:generateReleaseRFile
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gencycler/src/main/java/goldzweigapps/com/gencycler/filter/GencyclerFilter.kt: (28, 37): Unchecked cast: Any! to List<T>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/gencycler/src/main/java/goldzweigapps/com/gencycler/filter/GencyclerFilter.kt: (28, 37): Unchecked cast: Any! to List<T>
 > Task :gencycler:compileReleaseKotlin
 > Task :gencycler:generateReleaseSources
 > Task :gencycler:javaPreCompileRelease
@@ -114,15 +114,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/
 > Task :gencycler:assemble
 > Task :gencycler:build
 
-BUILD SUCCESSFUL in 23s
+BUILD SUCCESSFUL in 17s
 49 actionable tasks: 49 executed
 
-2019-02-16 19:44:52,281 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-16 19:44:52,281 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-16 19:44:59,817 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-02-16 19:44:59,817 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-16 19:44:59,817 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-16 19:46:20,387 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-02-28 16:16:51,175 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-28 16:16:51,175 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-28 16:16:58,117 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-28 16:16:58,117 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-28 16:16:58,117 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-28 16:17:36,481 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :annotations:discoverMainScriptsExtensions
 > Task :annotations:compileKotlin UP-TO-DATE
 > Task :annotations:compileJava NO-SOURCE
@@ -176,7 +176,7 @@ BUILD SUCCESSFUL in 23s
 > Task :sample:processDebugResources
 > Task :sample:kaptGenerateStubsDebugKotlin
 > Task :sample:kaptDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/sample/build/generated/source/kapt/debug/GeneratedMultiViewTypeAdapter.kt/goldzweigapps/com/gencycler/kotlin/GeneratedMultiViewTypeAdapter.kt: (52, 13): 'when' is exhaustive so 'else' is redundant here
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/sample/build/generated/source/kapt/debug/GeneratedMultiViewTypeAdapter.kt/goldzweigapps/com/gencycler/kotlin/GeneratedMultiViewTypeAdapter.kt: (52, 13): 'when' is exhaustive so 'else' is redundant here
 > Task :sample:compileDebugKotlin
 > Task :sample:prepareLintJar
 > Task :sample:generateDebugSources
@@ -192,17 +192,6 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
-D8: Stripped invalid locals information from 2 methods.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1.invokeSuspend(java.lang.Object)
-  Attempt to read local this but no local information was associated with the value being read.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.invokeSuspend(java.lang.Object)
-  Attempt to read local this but no local information was associated with the value being read.
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.invokeSuspend(java.lang.Object)
-  Attempt to read local this but no local information was associated with the value being read.
 > Task :sample:transformClassesWithDexBuilderForDebug
 > Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :sample:transformDexArchiveWithDexMergerForDebug
@@ -254,7 +243,7 @@ D8: Stripped invalid locals information from 1 method.
 > Task :sample:processReleaseResources
 > Task :sample:kaptGenerateStubsReleaseKotlin
 > Task :sample:kaptReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/sample/build/generated/source/kapt/release/GeneratedMultiViewTypeAdapter.kt/goldzweigapps/com/gencycler/kotlin/GeneratedMultiViewTypeAdapter.kt: (52, 13): 'when' is exhaustive so 'else' is redundant here
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/sample/build/generated/source/kapt/release/GeneratedMultiViewTypeAdapter.kt/goldzweigapps/com/gencycler/kotlin/GeneratedMultiViewTypeAdapter.kt: (52, 13): 'when' is exhaustive so 'else' is redundant here
 > Task :sample:compileReleaseKotlin
 > Task :sample:generateReleaseSources
 > Task :sample:javaPreCompileRelease
@@ -292,7 +281,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 1m 19s
+BUILD SUCCESSFUL in 37s
 105 actionable tasks: 71 executed, 34 up-to-date
 
-2019-02-16 19:46:20,531 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550321055844-0/src/Gencycler-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-02-28 16:17:36,614 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345384152-0/src/Gencycler-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

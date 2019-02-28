@@ -1,54 +1,61 @@
-2019-02-16 23:28:38,025 INFO  DownloadService - Downloading "https://github.com/akaita/MorphView/archive/master.zip", attempt 3
-2019-02-16 23:28:40,763 INFO  DownloadService - Downloaded https://github.com/akaita/MorphView/archive/master.zip, attempt 3
-2019-02-16 23:28:40,764 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/master.zip": 555 KB
-2019-02-16 23:28:40,764 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-02-16 23:28:40,769 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/master.zip: true
-2019-02-16 23:28:40,770 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src'.
-2019-02-16 23:28:40,821 INFO  FullProcessService - Size of directory with sources: 626 KB
-2019-02-16 23:28:40,822 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src]
-2019-02-16 23:28:40,849 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/.git/
+2019-02-28 16:19:08,928 INFO  DownloadService - Downloading "https://github.com/akaita/MorphView/archive/master.zip", attempt 3
+2019-02-28 16:19:11,636 INFO  DownloadService - Downloaded https://github.com/akaita/MorphView/archive/master.zip, attempt 3
+2019-02-28 16:19:11,636 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/master.zip": 555 KB
+2019-02-28 16:19:11,636 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-28 16:19:11,642 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/master.zip: true
+2019-02-28 16:19:11,642 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src'.
+2019-02-28 16:19:11,690 INFO  FullProcessService - Size of directory with sources: 626 KB
+2019-02-28 16:19:11,690 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src]
+2019-02-28 16:19:11,714 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/.git/
 
-2019-02-16 23:28:40,856 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-kotlin/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-library/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-java/gradlew
-2019-02-16 23:28:40,862 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-java/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-kotlin/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-library/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-library/build.gradle
-2019-02-16 23:28:40,868 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-kotlin/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-kotlin/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-library/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-library/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-java/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-java/settings.gradle
-2019-02-16 23:28:40,869 INFO  ProjectBuildService - Remote scripts: none
-2019-02-16 23:28:40,869 INFO  ProjectFixService - Fixing project...
-2019-02-16 23:28:40,884 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-java/app/local.properties
-2019-02-16 23:28:40,885 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-java/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-02-16 23:28:40,886 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-java/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-02-16 23:28:40,887 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-kotlin/app/local.properties
-2019-02-16 23:28:40,888 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-kotlin/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-02-16 23:28:40,889 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-kotlin/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-02-16 23:28:40,889 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-library/app/local.properties
-2019-02-16 23:28:40,891 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-library/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-02-16 23:28:40,891 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-library/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-02-16 23:28:40,892 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/library/local.properties
-2019-02-16 23:28:40,894 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-02-16 23:28:40,894 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-02-16 23:28:40,895 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-java/local.properties
-2019-02-16 23:28:40,895 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-02-16 23:28:40,895 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-02-16 23:28:40,897 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-java/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-02-16 23:28:40,898 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-java/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-02-16 23:28:40,899 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-kotlin/local.properties
-2019-02-16 23:28:40,899 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-02-16 23:28:40,900 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-02-16 23:28:40,901 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-02-16 23:28:40,901 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-02-16 23:28:40,902 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-library/local.properties
-2019-02-16 23:28:40,903 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-02-16 23:28:40,903 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-02-16 23:28:40,904 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-02-16 23:28:40,905 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-02-16 23:28:40,905 INFO  ProjectFixService - Project was maybe fixed
-2019-02-16 23:28:40,905 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-16 23:28:40,905 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-java/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-java/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-16 23:28:49,398 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-02-16 23:28:49,398 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-16 23:28:49,398 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-java/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-java/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-16 23:29:23,705 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-02-28 16:19:11,720 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-kotlin/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-library/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-java/gradlew
+2019-02-28 16:19:11,727 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-java/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-kotlin/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-library/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-library/build.gradle
+2019-02-28 16:19:11,734 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-kotlin/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-kotlin/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-library/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-library/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-java/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-java/settings.gradle
+2019-02-28 16:19:11,735 INFO  ProjectBuildService - Remote scripts: none
+2019-02-28 16:19:11,735 INFO  ProjectFixService - Fixing project...
+2019-02-28 16:19:11,751 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-java/app/local.properties
+2019-02-28 16:19:11,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-java/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-28 16:19:11,752 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-java/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-28 16:19:11,753 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-kotlin/app/local.properties
+2019-02-28 16:19:11,755 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-kotlin/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-28 16:19:11,755 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-kotlin/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-28 16:19:11,755 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-library/app/local.properties
+2019-02-28 16:19:11,757 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-library/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-28 16:19:11,757 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-library/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-28 16:19:11,758 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/library/local.properties
+2019-02-28 16:19:11,759 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-02-28 16:19:11,759 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-02-28 16:19:11,760 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-java/local.properties
+2019-02-28 16:19:11,760 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-28 16:19:11,761 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-28 16:19:11,762 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-java/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-28 16:19:11,762 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-java/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-28 16:19:11,763 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-kotlin/local.properties
+2019-02-28 16:19:11,763 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-28 16:19:11,764 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-28 16:19:11,765 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-28 16:19:11,765 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-28 16:19:11,766 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-library/local.properties
+2019-02-28 16:19:11,767 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-02-28 16:19:11,767 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-02-28 16:19:11,769 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-28 16:19:11,769 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-02-28 16:19:11,769 INFO  ProjectFixService - Project was maybe fixed
+2019-02-28 16:19:11,770 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-28 16:19:11,770 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-java/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-java/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-28 16:19:20,556 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-28 16:19:20,556 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-28 16:19:20,556 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-java/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-java/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-28 16:19:46,193 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/27.1.0/support-vector-drawable-27.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/27.1.0/support-core-ui-27.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/27.1.0/support-core-utils-27.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/27.1.0/support-fragment-27.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/27.1.0/appcompat-v7-27.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/27.1.0/animated-vector-drawable-27.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/27.1.0/support-compat-27.1.0.aar
 :app:compileDebugAidl
 :app:compileDebugRenderscript
 :app:checkDebugManifest
@@ -64,6 +71,7 @@
 :app:processDebugResources
 :app:generateDebugSources
 :app:javaPreCompileDebug
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.1.0/support-annotations-27.1.0.jar
 :app:compileDebugJavaWithJavac
 :app:compileDebugNdk NO-SOURCE
 :app:compileDebugSources
@@ -101,11 +109,6 @@
 :app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
 :app:lintVitalRelease
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.0/uast-26.1.0.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.0/lint-checks-26.1.0.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.0/lint-api-26.1.0.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.0/intellij-core-26.1.0.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.0/kotlin-compiler-26.1.0.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -123,7 +126,7 @@ Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 33s
+BUILD SUCCESSFUL in 24s
 53 actionable tasks: 53 executed
 
-2019-02-16 23:29:23,769 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550334518022-0/src/MorphView-master/example-java/app/build/outputs/apk/debug/app-debug.apk
+2019-02-28 16:19:46,275 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345548925-0/src/MorphView-master/example-java/app/build/outputs/apk/debug/app-debug.apk

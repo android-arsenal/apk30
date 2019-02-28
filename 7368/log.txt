@@ -1,36 +1,36 @@
-2019-02-16 23:48:33,095 INFO  DownloadService - Downloading "https://github.com/mahimrocky/EventCalender/archive/master.zip", attempt 3
-2019-02-16 23:48:35,353 INFO  DownloadService - Downloaded https://github.com/mahimrocky/EventCalender/archive/master.zip, attempt 3
-2019-02-16 23:48:35,354 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/master.zip": 245 KB
-2019-02-16 23:48:35,354 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-02-16 23:48:35,359 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/master.zip: true
-2019-02-16 23:48:35,360 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src'.
-2019-02-16 23:48:35,390 INFO  FullProcessService - Size of directory with sources: 282 KB
-2019-02-16 23:48:35,390 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src]
-2019-02-16 23:48:35,419 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/.git/
+2019-02-28 16:25:25,945 INFO  DownloadService - Downloading "https://github.com/mahimrocky/EventCalender/archive/master.zip", attempt 3
+2019-02-28 16:25:28,058 INFO  DownloadService - Downloaded https://github.com/mahimrocky/EventCalender/archive/master.zip, attempt 3
+2019-02-28 16:25:28,058 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/master.zip": 245 KB
+2019-02-28 16:25:28,058 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-28 16:25:28,059 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/master.zip: true
+2019-02-28 16:25:28,059 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src'.
+2019-02-28 16:25:28,087 INFO  FullProcessService - Size of directory with sources: 282 KB
+2019-02-28 16:25:28,087 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src]
+2019-02-28 16:25:28,118 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/.git/
 
-2019-02-16 23:48:35,425 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/gradlew
-2019-02-16 23:48:35,431 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/eventcalenderlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/build.gradle
-2019-02-16 23:48:35,437 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/eventcalenderlibrary/build.gradle
-2019-02-16 23:48:35,437 INFO  ProjectBuildService - Remote scripts: none
-2019-02-16 23:48:35,437 INFO  ProjectFixService - Fixing project...
-2019-02-16 23:48:35,450 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/app/local.properties
-2019-02-16 23:48:35,451 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-16 23:48:35,451 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-16 23:48:35,452 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/eventcalenderlibrary/local.properties
-2019-02-16 23:48:35,453 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/eventcalenderlibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-16 23:48:35,453 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/eventcalenderlibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-16 23:48:35,454 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/local.properties
-2019-02-16 23:48:35,454 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-02-16 23:48:35,455 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-02-16 23:48:35,456 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-16 23:48:35,456 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-02-16 23:48:35,456 INFO  ProjectFixService - Project was maybe fixed
-2019-02-16 23:48:35,456 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-16 23:48:35,457 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-16 23:48:43,636 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-02-16 23:48:43,636 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-16 23:48:43,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-16 23:49:10,525 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-02-28 16:25:28,125 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/gradlew
+2019-02-28 16:25:28,129 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/eventcalenderlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/build.gradle
+2019-02-28 16:25:28,133 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/eventcalenderlibrary/build.gradle
+2019-02-28 16:25:28,134 INFO  ProjectBuildService - Remote scripts: none
+2019-02-28 16:25:28,134 INFO  ProjectFixService - Fixing project...
+2019-02-28 16:25:28,143 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/app/local.properties
+2019-02-28 16:25:28,144 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-28 16:25:28,144 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-28 16:25:28,144 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/eventcalenderlibrary/local.properties
+2019-02-28 16:25:28,145 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/eventcalenderlibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-28 16:25:28,145 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/eventcalenderlibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-28 16:25:28,146 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/local.properties
+2019-02-28 16:25:28,146 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-28 16:25:28,146 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-28 16:25:28,147 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-28 16:25:28,147 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-02-28 16:25:28,148 INFO  ProjectFixService - Project was maybe fixed
+2019-02-28 16:25:28,148 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-28 16:25:28,148 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-28 16:25:35,578 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-28 16:25:35,578 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-28 16:25:35,578 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-28 16:26:06,926 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
 :app:preBuild UP-TO-DATE
 :eventcalenderlibrary:preBuild UP-TO-DATE
@@ -158,7 +158,7 @@
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 26s
+BUILD SUCCESSFUL in 30s
 90 actionable tasks: 90 executed
 
-2019-02-16 23:49:10,622 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550335713088-0/src/EventCalender-master/app/build/outputs/apk/debug/app-debug.apk
+2019-02-28 16:26:07,020 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345925937-0/src/EventCalender-master/app/build/outputs/apk/debug/app-debug.apk
