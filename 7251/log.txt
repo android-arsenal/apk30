@@ -1,39 +1,36 @@
-2019-02-23 18:37:25,589 INFO  DownloadService - Downloading "https://github.com/mmoamenn/AnimationsPlus/archive/master.zip", attempt 3
-2019-02-23 18:38:26,500 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-02-23 18:38:27,538 INFO  GithubDownloadService - Default branch of this repository: master
-2019-02-23 18:38:27,538 INFO  DownloadService - Downloading "https://github.com/mmoamenn/AnimationsPlus/archive/master.zip", attempt 3
-2019-02-23 18:39:29,926 DEBUG FullProcessService - Repository https://github.com/mmoamenn/AnimationsPlus available: true
-2019-02-23 18:39:29,926 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-02-23 18:39:29,927 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mmoamenn/AnimationsPlus, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src]
-2019-02-23 18:39:31,919 INFO  SysUtils - 
-2019-02-23 18:39:31,928 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/.git": true
-2019-02-23 18:39:31,933 INFO  FullProcessService - Size of directory with sources: 731 KB
-2019-02-23 18:39:31,933 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src]
-2019-02-23 18:39:31,951 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/.git/
+2019-03-01 21:58:32,608 INFO  DownloadService - Downloading "https://github.com/mmoamenn/AnimationsPlus/archive/master.zip", attempt 3
+2019-03-01 21:58:33,673 INFO  DownloadService - Downloaded https://github.com/mmoamenn/AnimationsPlus/archive/master.zip, attempt 3
+2019-03-01 21:58:33,674 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/master.zip": 356 KB
+2019-03-01 21:58:33,674 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-01 21:58:33,674 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/master.zip: true
+2019-03-01 21:58:33,674 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src'.
+2019-03-01 21:58:33,699 INFO  FullProcessService - Size of directory with sources: 731 KB
+2019-03-01 21:58:33,699 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src]
+2019-03-01 21:58:33,719 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/.git/
 
-2019-02-23 18:39:31,955 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/gradlew
-2019-02-23 18:39:31,959 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/animationplus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/build.gradle
-2019-02-23 18:39:31,963 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/animationplus/build.gradle
-2019-02-23 18:39:31,964 INFO  ProjectBuildService - Remote scripts: none
-2019-02-23 18:39:31,964 INFO  ProjectFixService - Fixing project...
-2019-02-23 18:39:31,973 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/animationplus/local.properties
-2019-02-23 18:39:31,974 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/animationplus/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2019-02-23 18:39:31,974 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/animationplus/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2019-02-23 18:39:31,975 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/app/local.properties
-2019-02-23 18:39:31,976 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2019-02-23 18:39:31,976 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2019-02-23 18:39:31,976 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/local.properties
-2019-02-23 18:39:31,977 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-02-23 18:39:31,977 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-02-23 18:39:31,978 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2019-02-23 18:39:31,978 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
-2019-02-23 18:39:31,979 INFO  ProjectFixService - Project was maybe fixed
-2019-02-23 18:39:31,979 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-23 18:39:31,979 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/animationplus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-23 18:39:39,619 INFO  ProjectTaskService - Detected possible tasks: 64
-2019-02-23 18:39:39,620 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-02-23 18:39:39,620 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/animationplus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-02-23 18:39:51,728 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-01 21:58:33,723 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/gradlew
+2019-03-01 21:58:33,728 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/animationplus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/build.gradle
+2019-03-01 21:58:33,731 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/animationplus/build.gradle
+2019-03-01 21:58:33,732 INFO  ProjectBuildService - Remote scripts: none
+2019-03-01 21:58:33,732 INFO  ProjectFixService - Fixing project...
+2019-03-01 21:58:33,742 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/animationplus/local.properties
+2019-03-01 21:58:33,743 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/animationplus/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-03-01 21:58:33,743 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/animationplus/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-03-01 21:58:33,744 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/app/local.properties
+2019-03-01 21:58:33,745 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-03-01 21:58:33,745 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-03-01 21:58:33,746 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/local.properties
+2019-03-01 21:58:33,746 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-01 21:58:33,747 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-01 21:58:33,748 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-03-01 21:58:33,748 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2019-03-01 21:58:33,749 INFO  ProjectFixService - Project was maybe fixed
+2019-03-01 21:58:33,749 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-01 21:58:33,749 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/animationplus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-01 21:58:40,652 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-03-01 21:58:40,652 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-01 21:58:40,652 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/animationplus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-01 21:58:51,762 INFO  SysUtils - Configuration on demand is an incubating feature.
 :animationplus:preBuild UP-TO-DATE
 :animationplus:preDebugBuild UP-TO-DATE
 :animationplus:compileDebugAidl
@@ -104,15 +101,15 @@
 :animationplus:assemble
 :animationplus:build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 10s
 48 actionable tasks: 48 executed
 
-2019-02-23 18:39:51,778 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-23 18:39:51,778 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-23 18:39:58,195 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-02-23 18:39:58,195 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-23 18:39:58,196 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-23 18:40:25,316 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-01 21:58:51,808 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-01 21:58:51,809 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-01 21:58:58,903 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-01 21:58:58,903 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-01 21:58:58,904 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-01 21:59:23,397 INFO  SysUtils - Configuration on demand is an incubating feature.
 :animationplus:preBuild UP-TO-DATE
 :animationplus:preDebugBuild UP-TO-DATE
 :animationplus:compileDebugAidl UP-TO-DATE
@@ -237,7 +234,7 @@ BUILD SUCCESSFUL in 11s
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 26s
+BUILD SUCCESSFUL in 23s
 91 actionable tasks: 57 executed, 34 up-to-date
 
-2019-02-23 18:40:25,421 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921845587-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-03-01 21:59:23,518 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452312604-0/src/AnimationsPlus-master/app/build/outputs/apk/debug/app-debug.apk
