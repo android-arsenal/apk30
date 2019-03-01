@@ -1,41 +1,41 @@
-2019-01-29 17:09:18,239 INFO  DownloadService - Downloading "https://github.com/AlexanderShniperson/AndroidMvvm/archive/master.zip", attempt 3
-2019-01-29 17:09:18,763 INFO  DownloadService - Downloaded https://github.com/AlexanderShniperson/AndroidMvvm/archive/master.zip, attempt 3
-2019-01-29 17:09:18,764 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/master.zip": 206 KB
-2019-01-29 17:09:18,764 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-29 17:09:18,764 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/master.zip: true
-2019-01-29 17:09:18,764 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src'.
-2019-01-29 17:09:18,788 INFO  FullProcessService - Size of directory with sources: 229 KB
-2019-01-29 17:09:18,788 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src]
-2019-01-29 17:09:18,808 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/.git/
+2019-03-01 10:55:24,160 INFO  DownloadService - Downloading "https://github.com/AlexanderShniperson/AndroidMvvm/archive/master.zip", attempt 3
+2019-03-01 10:55:26,065 INFO  DownloadService - Downloaded https://github.com/AlexanderShniperson/AndroidMvvm/archive/master.zip, attempt 3
+2019-03-01 10:55:26,065 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/master.zip": 206 KB
+2019-03-01 10:55:26,065 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-01 10:55:26,070 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/master.zip: true
+2019-03-01 10:55:26,071 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src'.
+2019-03-01 10:55:26,099 INFO  FullProcessService - Size of directory with sources: 229 KB
+2019-03-01 10:55:26,099 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src]
+2019-03-01 10:55:26,120 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/.git/
 
-2019-01-29 17:09:18,811 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/gradlew
-2019-01-29 17:09:18,815 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/library/stub-android/build.gradle
-2019-01-29 17:09:18,819 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/library/stub-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/settings.gradle
-2019-01-29 17:09:18,819 INFO  ProjectBuildService - Remote scripts: none
-2019-01-29 17:09:18,819 INFO  ProjectFixService - Fixing project...
-2019-01-29 17:09:18,829 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/local.properties
-2019-01-29 17:09:18,829 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-01-29 17:09:18,829 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-01-29 17:09:18,834 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-29 17:09:18,835 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-29 17:09:18,836 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/library/local.properties
-2019-01-29 17:09:18,837 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-29 17:09:18,837 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-29 17:09:18,838 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/local.properties
-2019-01-29 17:09:18,838 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-01-29 17:09:18,838 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-01-29 17:09:18,840 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-29 17:09:18,840 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-29 17:09:18,841 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/library/stub-android/local.properties
-2019-01-29 17:09:18,842 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/library/stub-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-29 17:09:18,842 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/library/stub-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-29 17:09:18,843 INFO  ProjectFixService - Project was maybe fixed
-2019-01-29 17:09:18,843 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-29 17:09:18,843 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-29 17:09:27,628 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-01-29 17:09:27,628 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-29 17:09:27,628 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-29 17:10:23,646 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-01 10:55:26,124 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/gradlew
+2019-03-01 10:55:26,129 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/library/stub-android/build.gradle
+2019-03-01 10:55:26,133 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/library/stub-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/settings.gradle
+2019-03-01 10:55:26,133 INFO  ProjectBuildService - Remote scripts: none
+2019-03-01 10:55:26,133 INFO  ProjectFixService - Fixing project...
+2019-03-01 10:55:26,143 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/local.properties
+2019-03-01 10:55:26,143 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-01 10:55:26,144 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-01 10:55:26,145 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-01 10:55:26,145 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-01 10:55:26,146 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/library/local.properties
+2019-03-01 10:55:26,147 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-01 10:55:26,147 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-01 10:55:26,148 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/local.properties
+2019-03-01 10:55:26,148 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-01 10:55:26,149 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-01 10:55:26,150 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-01 10:55:26,151 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-01 10:55:26,151 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/library/stub-android/local.properties
+2019-03-01 10:55:26,153 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/library/stub-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-01 10:55:26,153 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/library/stub-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-01 10:55:26,153 INFO  ProjectFixService - Project was maybe fixed
+2019-03-01 10:55:26,154 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-01 10:55:26,154 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-01 10:55:34,911 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-03-01 10:55:34,911 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-01 10:55:34,911 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-01 10:56:47,810 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
 :library:compileDebugAidl NO-SOURCE
@@ -54,13 +54,15 @@
 :library:mergeDebugResources
 :library:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
 :library:dataBindingGenBaseClassesDebug
-:stub-android:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+:stub-android:compileJava
+Download https://jcenter.bintray.com/com/google/android/android/4.0.1.2/android-4.0.1.2.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
 1 warning
-
 :stub-android:processResources NO-SOURCE
 :stub-android:classes
 :stub-android:jar
 :library:kaptGenerateStubsDebugKotlin
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler/3.2.1/databinding-compiler-3.2.1.jar
 :library:kaptDebugKotlin
 :library:compileDebugKotlin
 :library:javaPreCompileDebug
@@ -68,6 +70,7 @@
 :library:processDebugJavaRes NO-SOURCE
 :library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :sample:checkDebugClasspath
+Download https://jcenter.bintray.com/ru/terrakok/cicerone/cicerone/4.0.2/cicerone-4.0.2.jar
 :sample:preBuild UP-TO-DATE
 :sample:preDebugBuild
 :sample:compileDebugAidl NO-SOURCE
@@ -93,12 +96,12 @@
 :sample:kaptGenerateStubsDebugKotlin
 :sample:kaptDebugKotlin
 :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/FirstViewModel.kt: (19, 23): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerFirstViewModel.kt: (12, 21): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (14, 25): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (20, 51): Parameter 'dialogInterface' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (20, 68): Parameter 'i' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerThirdViewModel.kt: (12, 22): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/FirstViewModel.kt: (19, 23): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerFirstViewModel.kt: (12, 21): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (14, 25): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (20, 51): Parameter 'dialogInterface' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (20, 68): Parameter 'i' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerThirdViewModel.kt: (12, 22): Parameter 'view' is never used
 :sample:javaPreCompileDebug
 :sample:compileDebugJavaWithJavac
 :sample:compileDebugNdk NO-SOURCE
@@ -176,17 +179,18 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/
 :sample:kaptGenerateStubsReleaseKotlin
 :sample:kaptReleaseKotlin
 :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/FirstViewModel.kt: (19, 23): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerFirstViewModel.kt: (12, 21): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (14, 25): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (20, 51): Parameter 'dialogInterface' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (20, 68): Parameter 'i' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerThirdViewModel.kt: (12, 22): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/FirstViewModel.kt: (19, 23): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerFirstViewModel.kt: (12, 21): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (14, 25): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (20, 51): Parameter 'dialogInterface' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (20, 68): Parameter 'i' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerThirdViewModel.kt: (12, 22): Parameter 'view' is never used
 :sample:javaPreCompileRelease
 :sample:compileReleaseJavaWithJavac
 :sample:compileReleaseNdk NO-SOURCE
 :sample:compileReleaseSources
 :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/dbb93b9fe1fd544bd436e958f4625061/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 :library:mergeReleaseShaders
 :library:compileReleaseShaders
 :library:generateReleaseAssets
@@ -214,7 +218,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/
 :sample:assemble
 :sample:build
 
-BUILD SUCCESSFUL in 55s
+BUILD SUCCESSFUL in 1m 12s
 125 actionable tasks: 125 executed
 
-2019-01-29 17:10:23,803 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548770958235-0/src/AndroidMvvm-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-03-01 10:56:47,988 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412524157-0/src/AndroidMvvm-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

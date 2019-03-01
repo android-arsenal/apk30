@@ -1,35 +1,35 @@
-2019-02-19 12:04:23,662 INFO  DownloadService - Downloading "https://github.com/franticnick/simplegraph/archive/master.zip", attempt 3
-2019-02-19 12:04:25,783 INFO  DownloadService - Downloaded https://github.com/franticnick/simplegraph/archive/master.zip, attempt 3
-2019-02-19 12:04:25,783 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/master.zip": 179 KB
-2019-02-19 12:04:25,783 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-02-19 12:04:25,783 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/master.zip: true
-2019-02-19 12:04:25,784 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src'.
-2019-02-19 12:04:25,809 INFO  FullProcessService - Size of directory with sources: 193 KB
-2019-02-19 12:04:25,809 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src]
-2019-02-19 12:04:25,838 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/.git/
+2019-03-01 11:14:39,252 INFO  DownloadService - Downloading "https://github.com/franticnick/simplegraph/archive/master.zip", attempt 3
+2019-03-01 11:14:41,283 INFO  DownloadService - Downloaded https://github.com/franticnick/simplegraph/archive/master.zip, attempt 3
+2019-03-01 11:14:41,284 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/master.zip": 179 KB
+2019-03-01 11:14:41,284 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-01 11:14:41,284 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/master.zip: true
+2019-03-01 11:14:41,284 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src'.
+2019-03-01 11:14:41,302 INFO  FullProcessService - Size of directory with sources: 193 KB
+2019-03-01 11:14:41,302 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src]
+2019-03-01 11:14:41,329 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/.git/
 
-2019-02-19 12:04:25,844 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/gradlew
-2019-02-19 12:04:25,848 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/simplegraph/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/build.gradle
-2019-02-19 12:04:25,852 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/simplegraph/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/simplegraph/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/settings.gradle
-2019-02-19 12:04:25,853 INFO  ProjectBuildService - Remote scripts: none
-2019-02-19 12:04:25,853 INFO  ProjectFixService - Fixing project...
-2019-02-19 12:04:25,868 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/app/local.properties
-2019-02-19 12:04:25,870 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2019-02-19 12:04:25,870 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2019-02-19 12:04:25,871 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/simplegraph/local.properties
-2019-02-19 12:04:25,873 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/simplegraph/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2019-02-19 12:04:25,874 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/simplegraph/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2019-02-19 12:04:25,875 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/local.properties
-2019-02-19 12:04:25,878 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2019-02-19 12:04:25,879 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2019-02-19 12:04:25,879 INFO  ProjectFixService - Project was maybe fixed
-2019-02-19 12:04:25,879 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-19 12:04:25,879 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-19 12:04:26,067 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-02-19 12:04:26,067 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-02-19 12:04:26,067 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-02-19 12:04:26,067 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-02-19 12:04:26,259 ERROR SysUtils - Could not process external command
+2019-03-01 11:14:41,332 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/gradlew
+2019-03-01 11:14:41,335 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/simplegraph/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/build.gradle
+2019-03-01 11:14:41,339 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/simplegraph/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/simplegraph/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/settings.gradle
+2019-03-01 11:14:41,339 INFO  ProjectBuildService - Remote scripts: none
+2019-03-01 11:14:41,339 INFO  ProjectFixService - Fixing project...
+2019-03-01 11:14:41,349 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/app/local.properties
+2019-03-01 11:14:41,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2019-03-01 11:14:41,350 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2019-03-01 11:14:41,351 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/simplegraph/local.properties
+2019-03-01 11:14:41,352 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/simplegraph/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2019-03-01 11:14:41,352 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/simplegraph/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2019-03-01 11:14:41,353 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/local.properties
+2019-03-01 11:14:41,355 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2019-03-01 11:14:41,355 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2019-03-01 11:14:41,355 INFO  ProjectFixService - Project was maybe fixed
+2019-03-01 11:14:41,355 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-01 11:14:41,355 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-01 11:14:41,514 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-01 11:14:41,514 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-01 11:14:41,514 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-01 11:14:41,514 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-01 11:14:41,667 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -42,8 +42,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -57,15 +56,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-02-19 12:04:26,259 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-03-01 11:14:41,667 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-02-19 12:04:26,264 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-19 12:04:26,264 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/simplegraph/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-19 12:04:26,455 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-02-19 12:04:26,455 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-02-19 12:04:26,455 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-02-19 12:04:26,455 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/simplegraph/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-02-19 12:04:26,670 ERROR SysUtils - Could not process external command
+2019-03-01 11:14:41,671 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-01 11:14:41,671 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/simplegraph/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-01 11:14:41,826 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-01 11:14:41,826 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-01 11:14:41,826 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-01 11:14:41,826 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/simplegraph/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-01 11:14:41,981 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -78,8 +77,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -93,15 +91,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-02-19 12:04:26,670 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-03-01 11:14:41,981 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-02-19 12:04:26,676 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-19 12:04:26,676 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-19 12:04:26,862 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-02-19 12:04:26,862 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-02-19 12:04:26,862 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-02-19 12:04:26,862 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552663659-0/src/simplegraph-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-02-19 12:04:27,028 ERROR SysUtils - Could not process external command
+2019-03-01 11:14:41,985 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-01 11:14:41,985 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-01 11:14:42,135 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-01 11:14:42,135 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-01 11:14:42,135 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-01 11:14:42,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413679248-0/src/simplegraph-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-01 11:14:42,285 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -114,8 +112,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -129,7 +126,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-02-19 12:04:27,029 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-03-01 11:14:42,286 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-02-19 12:04:27,032 ERROR FullProcessService - Project build has not produced APK file
-2019-02-19 12:04:27,036 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-01 11:14:42,290 ERROR FullProcessService - Project build has not produced APK file
+2019-03-01 11:14:42,294 ERROR FullProcessService - Could not find generated or existed APK file

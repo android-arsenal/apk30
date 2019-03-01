@@ -1,42 +1,38 @@
-2019-02-19 12:04:27,064 INFO  DownloadService - Downloading "https://github.com/swabbass/WardRecycler/archive/master.zip", attempt 3
-2019-02-19 12:04:31,266 INFO  DownloadService - Downloaded https://github.com/swabbass/WardRecycler/archive/master.zip, attempt 3
-2019-02-19 12:04:31,266 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/master.zip": 1 MB
-2019-02-19 12:04:31,266 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-02-19 12:04:31,272 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/master.zip: true
-2019-02-19 12:04:31,272 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src'.
-2019-02-19 12:04:31,334 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-02-19 12:04:31,334 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src]
-2019-02-19 12:04:31,358 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/.git/
+2019-03-01 11:14:42,317 INFO  DownloadService - Downloading "https://github.com/swabbass/WardRecycler/archive/master.zip", attempt 3
+2019-03-01 11:14:44,390 INFO  DownloadService - Downloaded https://github.com/swabbass/WardRecycler/archive/master.zip, attempt 3
+2019-03-01 11:14:44,390 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/master.zip": 1 MB
+2019-03-01 11:14:44,390 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-01 11:14:44,391 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/master.zip: true
+2019-03-01 11:14:44,391 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src'.
+2019-03-01 11:14:44,433 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-03-01 11:14:44,433 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src]
+2019-03-01 11:14:44,452 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/.git/
 
-2019-02-19 12:04:31,367 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/gradlew
-2019-02-19 12:04:31,373 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/wrecycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/build.gradle
-2019-02-19 12:04:31,381 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/wrecycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/settings.gradle
-2019-02-19 12:04:31,382 INFO  ProjectBuildService - Remote scripts: none
-2019-02-19 12:04:31,382 INFO  ProjectFixService - Fixing project...
-2019-02-19 12:04:31,396 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/app/local.properties
-2019-02-19 12:04:31,398 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-02-19 12:04:31,398 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-02-19 12:04:31,400 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/wrecycler/local.properties
-2019-02-19 12:04:31,408 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/wrecycler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-02-19 12:04:31,408 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/wrecycler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-02-19 12:04:31,409 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/local.properties
-2019-02-19 12:04:31,410 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-02-19 12:04:31,410 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-02-19 12:04:31,412 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-02-19 12:04:31,412 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-02-19 12:04:31,413 INFO  ProjectFixService - Project was maybe fixed
-2019-02-19 12:04:31,413 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-19 12:04:31,413 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-19 12:04:39,700 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-02-19 12:04:39,700 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-19 12:04:39,700 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-19 12:06:21,004 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-01 11:14:44,456 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/gradlew
+2019-03-01 11:14:44,462 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/wrecycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/build.gradle
+2019-03-01 11:14:44,467 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/wrecycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/settings.gradle
+2019-03-01 11:14:44,467 INFO  ProjectBuildService - Remote scripts: none
+2019-03-01 11:14:44,467 INFO  ProjectFixService - Fixing project...
+2019-03-01 11:14:44,478 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/app/local.properties
+2019-03-01 11:14:44,479 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-03-01 11:14:44,479 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-03-01 11:14:44,480 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/wrecycler/local.properties
+2019-03-01 11:14:44,481 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/wrecycler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-03-01 11:14:44,481 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/wrecycler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-03-01 11:14:44,482 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/local.properties
+2019-03-01 11:14:44,483 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-01 11:14:44,483 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-01 11:14:44,484 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-03-01 11:14:44,484 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-03-01 11:14:44,484 INFO  ProjectFixService - Project was maybe fixed
+2019-03-01 11:14:44,484 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-01 11:14:44,485 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-01 11:14:52,523 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-01 11:14:52,523 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-01 11:14:52,524 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-01 11:15:50,061 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
-Download https://dl.google.com/dl/android/maven2/com/android/support/cardview-v7/27.1.1/cardview-v7-27.1.1.aar
-Download https://jcenter.bintray.com/com/amitshekhar/android/android-networking/1.0.1/android-networking-1.0.1.aar
-Download https://jcenter.bintray.com/com/amitshekhar/android/rx2-android-networking/1.0.1/rx2-android-networking-1.0.1.aar
-Download https://jcenter.bintray.com/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar
-Download https://jcenter.bintray.com/com/asksira/android/webviewsuite/1.0.2/webviewsuite-1.0.2.aar
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.9/rxjava-2.1.9.jar
 :app:preBuild UP-TO-DATE
 :wrecycler:preBuild UP-TO-DATE
 :wrecycler:preDebugBuild UP-TO-DATE
@@ -71,10 +67,10 @@ Download https://jcenter.bintray.com/com/asksira/android/webviewsuite/1.0.2/webv
 :wrecycler:processDebugJavaRes NO-SOURCE
 :wrecycler:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/app/src/main/java/com/wardabbass/redit/ui/fragments/BookmarkedFragment.kt: (72, 42): Parameter 'error' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/app/src/main/java/com/wardabbass/redit/ui/fragments/TopFeedFragment.kt: (49, 37): Parameter 'currentItemCount' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/app/src/main/java/com/wardabbass/redit/ui/fragments/TopFeedFragment.kt: (49, 55): Parameter 'pageSize' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/app/src/main/java/com/wardabbass/redit/ui/viewpager/FragmentAdapter.kt: (24, 48): Unchecked cast: Any to F
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/app/src/main/java/com/wardabbass/redit/ui/fragments/BookmarkedFragment.kt: (72, 42): Parameter 'error' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/app/src/main/java/com/wardabbass/redit/ui/fragments/TopFeedFragment.kt: (49, 37): Parameter 'currentItemCount' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/app/src/main/java/com/wardabbass/redit/ui/fragments/TopFeedFragment.kt: (49, 55): Parameter 'pageSize' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/app/src/main/java/com/wardabbass/redit/ui/viewpager/FragmentAdapter.kt: (24, 48): Unchecked cast: Any to F
 :app:prepareLintJar
 :app:generateDebugSources
 :app:javaPreCompileDebug
@@ -138,18 +134,19 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/
 :wrecycler:processReleaseJavaRes NO-SOURCE
 :wrecycler:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/app/src/main/java/com/wardabbass/redit/ui/fragments/BookmarkedFragment.kt: (72, 42): Parameter 'error' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/app/src/main/java/com/wardabbass/redit/ui/fragments/TopFeedFragment.kt: (49, 37): Parameter 'currentItemCount' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/app/src/main/java/com/wardabbass/redit/ui/fragments/TopFeedFragment.kt: (49, 55): Parameter 'pageSize' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/app/src/main/java/com/wardabbass/redit/ui/viewpager/FragmentAdapter.kt: (24, 48): Unchecked cast: Any to F
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/app/src/main/java/com/wardabbass/redit/ui/fragments/BookmarkedFragment.kt: (72, 42): Parameter 'error' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/app/src/main/java/com/wardabbass/redit/ui/fragments/TopFeedFragment.kt: (49, 37): Parameter 'currentItemCount' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/app/src/main/java/com/wardabbass/redit/ui/fragments/TopFeedFragment.kt: (49, 55): Parameter 'pageSize' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/app/src/main/java/com/wardabbass/redit/ui/viewpager/FragmentAdapter.kt: (24, 48): Unchecked cast: Any to F
 :app:generateReleaseSources
 :app:javaPreCompileRelease
 :app:compileReleaseJavaWithJavac
 :app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
 :app:lintVitalRelease
-Download https://jcenter.bintray.com/com/google/android/apps/common/testing/accessibility/framework/accessibility-test-framework/2.0/accessibility-test-framework-2.0.jar
-Download https://jcenter.bintray.com/org/fluttercode/datafactory/datafactory/0.8/datafactory-0.8.jar
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-agent/1.6.2/byte-buddy-agent-1.6.2.jar
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.6.3/mockito-core-2.6.3.jar
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy/1.6.2/byte-buddy-1.6.2.jar
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/26ab7fa230e0dc8d62d92b870b5c6e0e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
@@ -178,7 +175,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 1m 40s
+BUILD SUCCESSFUL in 56s
 94 actionable tasks: 94 executed
 
-2019-02-19 12:06:21,203 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552667060-0/src/WardRecycler-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-01 11:15:50,188 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413682315-0/src/WardRecycler-master/app/build/outputs/apk/debug/app-debug.apk

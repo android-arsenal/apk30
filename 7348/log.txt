@@ -1,41 +1,47 @@
-2019-02-19 12:02:20,043 INFO  DownloadService - Downloading "https://github.com/tomasznajda/rx-recaptcha/archive/master.zip", attempt 3
-2019-02-19 12:02:22,018 INFO  DownloadService - Downloaded https://github.com/tomasznajda/rx-recaptcha/archive/master.zip, attempt 3
-2019-02-19 12:02:22,018 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/master.zip": 149 KB
-2019-02-19 12:02:22,018 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-02-19 12:02:22,018 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/master.zip: true
-2019-02-19 12:02:22,019 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src'.
-2019-02-19 12:02:22,038 INFO  FullProcessService - Size of directory with sources: 172 KB
-2019-02-19 12:02:22,038 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src]
-2019-02-19 12:02:22,058 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/.git/
+2019-03-01 11:13:01,518 INFO  DownloadService - Downloading "https://github.com/tomasznajda/rx-recaptcha/archive/master.zip", attempt 3
+2019-03-01 11:13:03,463 INFO  DownloadService - Downloaded https://github.com/tomasznajda/rx-recaptcha/archive/master.zip, attempt 3
+2019-03-01 11:13:03,463 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/master.zip": 149 KB
+2019-03-01 11:13:03,463 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-01 11:13:03,465 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/master.zip: true
+2019-03-01 11:13:03,465 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src'.
+2019-03-01 11:13:03,483 INFO  FullProcessService - Size of directory with sources: 172 KB
+2019-03-01 11:13:03,483 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src]
+2019-03-01 11:13:03,502 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/.git/
 
-2019-02-19 12:02:22,062 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/gradlew
-2019-02-19 12:02:22,065 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/build.gradle
-2019-02-19 12:02:22,068 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/settings.gradle
-2019-02-19 12:02:22,068 INFO  ProjectBuildService - Remote scripts: none
-2019-02-19 12:02:22,069 INFO  ProjectFixService - Fixing project...
-2019-02-19 12:02:22,076 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/rxrecaptcha/local.properties
-2019-02-19 12:02:22,077 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-02-19 12:02:22,077 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-02-19 12:02:22,078 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/local.properties
-2019-02-19 12:02:22,079 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-02-19 12:02:22,080 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-02-19 12:02:22,080 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/local.properties
-2019-02-19 12:02:22,081 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-02-19 12:02:22,081 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-02-19 12:02:22,082 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-02-19 12:02:22,083 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-02-19 12:02:22,083 INFO  ProjectFixService - Project was maybe fixed
-2019-02-19 12:02:22,083 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-19 12:02:22,083 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-19 12:02:29,691 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-02-19 12:02:29,691 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-02-19 12:02:29,691 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-02-19 12:02:59,048 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-01 11:13:03,505 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/gradlew
+2019-03-01 11:13:03,508 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/build.gradle
+2019-03-01 11:13:03,511 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/settings.gradle
+2019-03-01 11:13:03,512 INFO  ProjectBuildService - Remote scripts: none
+2019-03-01 11:13:03,512 INFO  ProjectFixService - Fixing project...
+2019-03-01 11:13:03,520 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/rxrecaptcha/local.properties
+2019-03-01 11:13:03,521 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-01 11:13:03,521 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-01 11:13:03,522 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/local.properties
+2019-03-01 11:13:03,524 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-01 11:13:03,524 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-01 11:13:03,525 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/local.properties
+2019-03-01 11:13:03,525 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-01 11:13:03,526 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-01 11:13:03,528 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-01 11:13:03,528 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-01 11:13:03,529 INFO  ProjectFixService - Project was maybe fixed
+2019-03-01 11:13:03,529 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-01 11:13:03,531 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-01 11:13:12,434 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-03-01 11:13:12,435 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-01 11:13:12,435 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-01 11:13:35,607 INFO  SysUtils - Configuration on demand is an incubating feature.
 :rxrecaptcha:preBuild UP-TO-DATE
 :rxrecaptcha:preDebugBuild UP-TO-DATE
 :rxrecaptcha:compileDebugAidl NO-SOURCE
 :rxrecaptcha:compileDebugRenderscript
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-safetynet/16.0.0/play-services-safetynet-16.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-media-compat/26.1.0/support-media-compat-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/26.1.0/support-core-utils-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/26.1.0/support-v4-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/26.1.0/support-compat-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/26.1.0/support-fragment-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.0.0/runtime-1.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/26.1.0/support-core-ui-26.1.0.aar
 :rxrecaptcha:checkDebugManifest
 :rxrecaptcha:generateDebugBuildConfig
 :rxrecaptcha:generateDebugResValues
@@ -44,6 +50,8 @@ Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-ser
 :rxrecaptcha:processDebugManifest
 :rxrecaptcha:generateDebugRFile
 :rxrecaptcha:compileDebugKotlin
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.0.0/common-1.0.0.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.0.0/common-1.0.0.jar
 :rxrecaptcha:prepareLintJar
 :rxrecaptcha:generateDebugSources
 :rxrecaptcha:javaPreCompileDebug
@@ -106,15 +114,15 @@ Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-ser
 :rxrecaptcha:assemble
 :rxrecaptcha:build
 
-BUILD SUCCESSFUL in 28s
+BUILD SUCCESSFUL in 22s
 49 actionable tasks: 49 executed
 
-2019-02-19 12:02:59,113 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-19 12:02:59,114 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-19 12:03:09,049 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-02-19 12:03:09,050 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-19 12:03:09,050 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-19 12:04:16,386 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-01 11:13:35,649 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-01 11:13:35,649 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-01 11:13:42,682 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-01 11:13:42,682 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-01 11:13:42,683 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-01 11:14:32,506 INFO  SysUtils - Configuration on demand is an incubating feature.
 :rxrecaptcha:preBuild UP-TO-DATE
 :rxrecaptcha:preDebugBuild UP-TO-DATE
 :rxrecaptcha:compileDebugAidl NO-SOURCE
@@ -134,8 +142,6 @@ BUILD SUCCESSFUL in 28s
 :rxrecaptcha:processDebugJavaRes NO-SOURCE
 :rxrecaptcha:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :sample:checkDebugClasspath
-Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxandroid/2.0.0/rxandroid-2.0.0.aar
-Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-kotlin/2.1.1/rxbinding-kotlin-2.1.1.aar
 :sample:preBuild UP-TO-DATE
 :sample:preDebugBuild
 :sample:compileDebugAidl NO-SOURCE
@@ -167,6 +173,14 @@ Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-kotlin
 :sample:generateDebugAssets
 :sample:mergeDebugAssets
 :sample:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5bc44acc4b3f0d19166ae3e50454b41e8ff29335/kotlin-stdlib-1.2.61.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5bc44acc4b3f0d19166ae3e50454b41e8ff29335/kotlin-stdlib-1.2.61.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
 :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
 :sample:transformDexArchiveWithDexMergerForDebug
 :rxrecaptcha:compileDebugNdk NO-SOURCE
@@ -223,7 +237,6 @@ Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-kotlin
 :sample:compileReleaseSources
 :sample:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/7bbe708d341367a5a07087d88832f316/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
-Download https://jcenter.bintray.com/com/nhaarman/mockito-kotlin/1.4.0/mockito-kotlin-1.4.0.jar
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/5c867528f063e41217dd0b92e1042dde/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 :rxrecaptcha:mergeReleaseShaders UP-TO-DATE
 :rxrecaptcha:compileReleaseShaders UP-TO-DATE
@@ -274,10 +287,10 @@ Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.61/772de03e12d932f489e41aef997d26c20a4ebee6/kotlin-stdlib-common-1.2.61.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/rxrecaptcha/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/tmp/kotlin-classes/release] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/rxrecaptcha/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/tmp/kotlin-classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
@@ -308,15 +321,15 @@ Ignoring unused library classes...
 Printing kept classes, fields, and methods...
 Inlining subroutines...
 Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/outputs/mapping/release/usage.txt]...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/outputs/mapping/release/usage.txt]...
 Removing unused program classes and class elements...
   Original number of program classes: 5055
   Final number of program classes:    1202
 Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/outputs/mapping/release/mapping.txt]...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/outputs/mapping/release/mapping.txt]...
 Preverifying...
 Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/intermediates/transforms/proguard/release/0.jar]
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/intermediates/transforms/proguard/release/0.jar]
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.61/bc77c34ff80df88b4d9b0418ea4ae758544573f3/kotlin-stdlib-jdk7-1.2.61.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxkotlin/2.2.0/e1e2fbb13b1c7dc6d2d03b6221a016d1501ad5a9/rxkotlin-2.2.0.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxbinding-kotlin-2.1.1.aar/6df6ae2826788839987ffdc9c088a88a/jars/classes.jar] (filtered)
@@ -349,10 +362,10 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.61/772de03e12d932f489e41aef997d26c20a4ebee6/kotlin-stdlib-common-1.2.61.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/rxrecaptcha/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/tmp/kotlin-classes/release] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/rxrecaptcha/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/tmp/kotlin-classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 :sample:transformClassesWithDexBuilderForRelease
 :sample:transformDexArchiveWithDexMergerForRelease
 :rxrecaptcha:compileReleaseNdk NO-SOURCE
@@ -368,7 +381,7 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
 :sample:assemble
 :sample:build
 
-BUILD SUCCESSFUL in 1m 6s
+BUILD SUCCESSFUL in 49s
 96 actionable tasks: 62 executed, 34 up-to-date
 
-2019-02-19 12:04:16,501 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550552540039-0/src/rx-recaptcha-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-03-01 11:14:32,622 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

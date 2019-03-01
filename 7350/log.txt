@@ -1,40 +1,40 @@
-2019-02-16 23:55:22,889 INFO  DownloadService - Downloading "https://github.com/hariprasanths/FloatingToast/archive/master.zip", attempt 3
-2019-02-16 23:55:27,603 INFO  DownloadService - Downloaded https://github.com/hariprasanths/FloatingToast/archive/master.zip, attempt 3
-2019-02-16 23:55:27,603 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/master.zip": 200 KB
-2019-02-16 23:55:27,604 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-02-16 23:55:27,609 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/master.zip: true
-2019-02-16 23:55:27,609 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src'.
-2019-02-16 23:55:27,633 INFO  FullProcessService - Size of directory with sources: 289 KB
-2019-02-16 23:55:27,633 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src]
-2019-02-16 23:55:27,659 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/.git/
+2019-03-01 11:08:57,045 INFO  DownloadService - Downloading "https://github.com/hariprasanths/FloatingToast/archive/master.zip", attempt 3
+2019-03-01 11:09:02,479 INFO  DownloadService - Downloaded https://github.com/hariprasanths/FloatingToast/archive/master.zip, attempt 3
+2019-03-01 11:09:02,479 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/master.zip": 200 KB
+2019-03-01 11:09:02,479 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-01 11:09:02,479 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/master.zip: true
+2019-03-01 11:09:02,479 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src'.
+2019-03-01 11:09:02,503 INFO  FullProcessService - Size of directory with sources: 289 KB
+2019-03-01 11:09:02,503 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src]
+2019-03-01 11:09:02,526 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/.git/
 
-2019-02-16 23:55:27,663 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/gradlew
-2019-02-16 23:55:27,666 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/floatingtoast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/build.gradle
-2019-02-16 23:55:27,669 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/floatingtoast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/settings.gradle
-2019-02-16 23:55:27,670 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-02-16 23:55:27,841 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-02-16 23:55:27,841 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-02-16 23:55:28,013 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-02-16 23:55:28,013 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-02-16 23:55:28,013 INFO  ProjectFixService - Fixing project...
-2019-02-16 23:55:28,024 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/app/local.properties
-2019-02-16 23:55:28,025 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-02-16 23:55:28,026 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-02-16 23:55:28,026 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/floatingtoast/local.properties
-2019-02-16 23:55:28,030 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/floatingtoast/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-02-16 23:55:28,030 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/floatingtoast/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-02-16 23:55:28,031 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/local.properties
-2019-02-16 23:55:28,031 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-02-16 23:55:28,032 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-02-16 23:55:28,033 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-02-16 23:55:28,033 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-02-16 23:55:28,034 INFO  ProjectFixService - Project was maybe fixed
-2019-02-16 23:55:28,034 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-16 23:55:28,034 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-16 23:55:35,522 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-02-16 23:55:35,522 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-16 23:55:35,522 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-16 23:55:41,040 ERROR SysUtils - Could not process external command
+2019-03-01 11:09:02,529 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/gradlew
+2019-03-01 11:09:02,533 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/floatingtoast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/build.gradle
+2019-03-01 11:09:02,538 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/floatingtoast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/settings.gradle
+2019-03-01 11:09:02,538 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-03-01 11:09:03,471 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-03-01 11:09:03,472 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-03-01 11:09:03,596 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-03-01 11:09:03,596 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-03-01 11:09:03,596 INFO  ProjectFixService - Fixing project...
+2019-03-01 11:09:03,605 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/app/local.properties
+2019-03-01 11:09:03,605 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-03-01 11:09:03,605 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-03-01 11:09:03,606 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/floatingtoast/local.properties
+2019-03-01 11:09:03,607 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/floatingtoast/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-03-01 11:09:03,607 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/floatingtoast/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-03-01 11:09:03,609 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/local.properties
+2019-03-01 11:09:03,609 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-01 11:09:03,610 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-01 11:09:03,611 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-03-01 11:09:03,612 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-03-01 11:09:03,612 INFO  ProjectFixService - Project was maybe fixed
+2019-03-01 11:09:03,612 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-01 11:09:03,612 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-01 11:09:11,750 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-01 11:09:11,750 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-01 11:09:11,750 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-01 11:09:17,669 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -61,7 +61,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-02-16 23:55:41,040 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-01 11:09:17,670 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -143,9 +143,9 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 5s
 
-2019-02-16 23:55:41,040 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-02-16 23:55:41,040 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-02-16 23:56:29,136 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-01 11:09:17,670 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-03-01 11:09:17,670 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-01 11:09:52,884 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :floatingtoast:preBuild UP-TO-DATE
 :floatingtoast:preDebugBuild UP-TO-DATE
@@ -276,8 +276,8 @@ BUILD FAILED in 5s
 :app:lint
 Ran lint on variant release: 21 issues found
 Ran lint on variant debug: 21 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/app/build/reports/lint-results.xml
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/app/build/reports/lint-results.xml
 :app:javaPreCompileDebugUnitTest
 :app:compileDebugUnitTestJavaWithJavac
 :app:testDebugUnitTest
@@ -288,7 +288,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 :app:check
 :app:build
 
-BUILD SUCCESSFUL in 47s
+BUILD SUCCESSFUL in 34s
 98 actionable tasks: 98 executed
 
-2019-02-16 23:56:29,237 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550336122885-0/src/FloatingToast-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-01 11:09:52,976 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413337038-0/src/FloatingToast-master/app/build/outputs/apk/debug/app-debug.apk
