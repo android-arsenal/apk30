@@ -1,36 +1,36 @@
-2019-03-01 21:54:56,890 INFO  DownloadService - Downloading "https://github.com/bakhtiyork/gradients/archive/master.zip", attempt 3
-2019-03-01 21:54:59,018 INFO  DownloadService - Downloaded https://github.com/bakhtiyork/gradients/archive/master.zip, attempt 3
-2019-03-01 21:54:59,018 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/master.zip": 420 KB
-2019-03-01 21:54:59,018 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-01 21:54:59,020 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/master.zip: true
-2019-03-01 21:54:59,020 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src'.
-2019-03-01 21:54:59,046 INFO  FullProcessService - Size of directory with sources: 505 KB
-2019-03-01 21:54:59,047 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src]
-2019-03-01 21:54:59,074 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/.git/
+2019-03-02 14:31:55,726 INFO  DownloadService - Downloading "https://github.com/bakhtiyork/gradients/archive/master.zip", attempt 3
+2019-03-02 14:31:56,593 INFO  DownloadService - Downloaded https://github.com/bakhtiyork/gradients/archive/master.zip, attempt 3
+2019-03-02 14:31:56,593 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/master.zip": 420 KB
+2019-03-02 14:31:56,593 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-02 14:31:56,599 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/master.zip: true
+2019-03-02 14:31:56,599 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src'.
+2019-03-02 14:31:56,622 INFO  FullProcessService - Size of directory with sources: 505 KB
+2019-03-02 14:31:56,622 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src]
+2019-03-02 14:31:56,639 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/.git/
 
-2019-03-01 21:54:59,077 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/gradlew
-2019-03-01 21:54:59,081 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/gradients/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/build.gradle
-2019-03-01 21:54:59,085 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/gradle/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/gradients/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/settings.gradle
-2019-03-01 21:54:59,086 INFO  ProjectBuildService - Remote scripts: none
-2019-03-01 21:54:59,086 INFO  ProjectFixService - Fixing project...
-2019-03-01 21:54:59,097 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/app/local.properties
-2019-03-01 21:54:59,098 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-01 21:54:59,098 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-01 21:54:59,100 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/gradients/local.properties
-2019-03-01 21:54:59,101 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/gradients/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-01 21:54:59,101 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/gradients/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-01 21:54:59,102 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/local.properties
-2019-03-01 21:54:59,103 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-03-01 21:54:59,103 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-03-01 21:54:59,105 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-01 21:54:59,105 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-01 21:54:59,106 INFO  ProjectFixService - Project was maybe fixed
-2019-03-01 21:54:59,106 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-01 21:54:59,106 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-01 21:55:08,728 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-03-01 21:55:08,728 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-01 21:55:08,728 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-01 21:56:25,968 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-02 14:31:56,643 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/gradlew
+2019-03-02 14:31:56,646 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/gradients/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/build.gradle
+2019-03-02 14:31:56,649 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/gradle/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/gradients/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/settings.gradle
+2019-03-02 14:31:56,650 INFO  ProjectBuildService - Remote scripts: none
+2019-03-02 14:31:56,650 INFO  ProjectFixService - Fixing project...
+2019-03-02 14:31:56,658 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/app/local.properties
+2019-03-02 14:31:56,659 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-02 14:31:56,659 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-02 14:31:56,660 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/gradients/local.properties
+2019-03-02 14:31:56,661 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/gradients/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-02 14:31:56,661 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/gradients/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-02 14:31:56,662 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/local.properties
+2019-03-02 14:31:56,662 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-02 14:31:56,663 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-02 14:31:56,664 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-02 14:31:56,664 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-02 14:31:56,664 INFO  ProjectFixService - Project was maybe fixed
+2019-03-02 14:31:56,665 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-02 14:31:56,665 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-02 14:32:03,971 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-02 14:32:03,972 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-02 14:32:03,972 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-02 14:32:43,935 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
 :app:preBuild UP-TO-DATE
 :gradients:preBuild UP-TO-DATE
@@ -66,8 +66,8 @@
 :gradients:processDebugJavaRes NO-SOURCE
 :gradients:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/app/src/main/java/com/bakhtiyor/gradients/demo/MainActivity.kt: (29, 71): Parameter 'which' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/app/src/main/java/com/bakhtiyor/gradients/demo/MainActivity.kt: (36, 72): Parameter 'which' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/app/src/main/java/com/bakhtiyor/gradients/demo/MainActivity.kt: (29, 71): Parameter 'which' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/app/src/main/java/com/bakhtiyor/gradients/demo/MainActivity.kt: (36, 72): Parameter 'which' is never used, could be renamed to _
 :app:prepareLintJar
 :app:generateDebugSources
 :app:javaPreCompileDebug
@@ -83,14 +83,6 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/
 :gradients:packageDebugAssets
 :app:mergeDebugAssets
 :app:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
-  Attempt to read local this but no local information was associated with the value being read.
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
-  Attempt to read local this but no local information was associated with the value being read.
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 :app:mergeDebugJniLibFolders
@@ -139,8 +131,8 @@ D8: Stripped invalid locals information from 1 method.
 :gradients:processReleaseJavaRes NO-SOURCE
 :gradients:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/app/src/main/java/com/bakhtiyor/gradients/demo/MainActivity.kt: (29, 71): Parameter 'which' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/app/src/main/java/com/bakhtiyor/gradients/demo/MainActivity.kt: (36, 72): Parameter 'which' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/app/src/main/java/com/bakhtiyor/gradients/demo/MainActivity.kt: (29, 71): Parameter 'which' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/app/src/main/java/com/bakhtiyor/gradients/demo/MainActivity.kt: (36, 72): Parameter 'which' is never used, could be renamed to _
 :app:generateReleaseSources
 :app:javaPreCompileRelease
 :app:compileReleaseJavaWithJavac
@@ -174,7 +166,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 1m 16s
+BUILD SUCCESSFUL in 39s
 94 actionable tasks: 94 executed
 
-2019-03-01 21:56:26,097 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452096885-0/src/gradients-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-02 14:32:44,030 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511915718-0/src/gradients-master/app/build/outputs/apk/debug/app-debug.apk

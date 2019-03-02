@@ -1,36 +1,36 @@
-2019-03-01 21:54:08,884 INFO  DownloadService - Downloading "https://github.com/MrNouri/GoodPrefs/archive/master.zip", attempt 3
-2019-03-01 21:54:11,027 INFO  DownloadService - Downloaded https://github.com/MrNouri/GoodPrefs/archive/master.zip, attempt 3
-2019-03-01 21:54:11,027 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/master.zip": 146 KB
-2019-03-01 21:54:11,027 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-01 21:54:11,029 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/master.zip: true
-2019-03-01 21:54:11,029 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src'.
-2019-03-01 21:54:11,058 INFO  FullProcessService - Size of directory with sources: 157 KB
-2019-03-01 21:54:11,058 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src]
-2019-03-01 21:54:11,084 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/.git/
+2019-03-02 14:31:15,863 INFO  DownloadService - Downloading "https://github.com/MrNouri/GoodPrefs/archive/master.zip", attempt 3
+2019-03-02 14:31:16,690 INFO  DownloadService - Downloaded https://github.com/MrNouri/GoodPrefs/archive/master.zip, attempt 3
+2019-03-02 14:31:16,690 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/master.zip": 146 KB
+2019-03-02 14:31:16,690 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-02 14:31:16,696 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/master.zip: true
+2019-03-02 14:31:16,696 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src'.
+2019-03-02 14:31:16,720 INFO  FullProcessService - Size of directory with sources: 157 KB
+2019-03-02 14:31:16,720 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src]
+2019-03-02 14:31:16,738 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/.git/
 
-2019-03-01 21:54:11,088 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/gradlew
-2019-03-01 21:54:11,092 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/goodprefslib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/build.gradle
-2019-03-01 21:54:11,096 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/goodprefslib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/settings.gradle
-2019-03-01 21:54:11,097 INFO  ProjectBuildService - Remote scripts: none
-2019-03-01 21:54:11,097 INFO  ProjectFixService - Fixing project...
-2019-03-01 21:54:11,108 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/app/local.properties
-2019-03-01 21:54:11,109 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-01 21:54:11,109 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-01 21:54:11,110 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/goodprefslib/local.properties
-2019-03-01 21:54:11,111 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/goodprefslib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-01 21:54:11,111 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/goodprefslib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-01 21:54:11,113 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/local.properties
-2019-03-01 21:54:11,114 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4.1-all.zip
-2019-03-01 21:54:11,114 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4.1-bin.zip)
-2019-03-01 21:54:11,116 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-01 21:54:11,116 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-01 21:54:11,117 INFO  ProjectFixService - Project was maybe fixed
-2019-03-01 21:54:11,117 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-01 21:54:11,118 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-01 21:54:19,812 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-01 21:54:19,812 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-01 21:54:19,812 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-01 21:54:47,496 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-02 14:31:16,742 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/gradlew
+2019-03-02 14:31:16,745 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/goodprefslib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/build.gradle
+2019-03-02 14:31:16,749 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/goodprefslib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/settings.gradle
+2019-03-02 14:31:16,749 INFO  ProjectBuildService - Remote scripts: none
+2019-03-02 14:31:16,749 INFO  ProjectFixService - Fixing project...
+2019-03-02 14:31:16,757 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/app/local.properties
+2019-03-02 14:31:16,758 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-02 14:31:16,758 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-02 14:31:16,759 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/goodprefslib/local.properties
+2019-03-02 14:31:16,760 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/goodprefslib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-02 14:31:16,760 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/goodprefslib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-02 14:31:16,761 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/local.properties
+2019-03-02 14:31:16,761 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4.1-all.zip
+2019-03-02 14:31:16,762 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4.1-bin.zip)
+2019-03-02 14:31:16,763 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-02 14:31:16,763 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-02 14:31:16,763 INFO  ProjectFixService - Project was maybe fixed
+2019-03-02 14:31:16,763 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-02 14:31:16,763 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-02 14:31:24,058 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-02 14:31:24,058 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-02 14:31:24,059 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-02 14:31:46,943 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :goodprefslib:preBuild UP-TO-DATE
 :goodprefslib:preDebugBuild UP-TO-DATE
@@ -155,7 +155,7 @@
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 26s
+BUILD SUCCESSFUL in 22s
 91 actionable tasks: 91 executed
 
-2019-03-01 21:54:47,590 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551452048881-0/src/GoodPrefs-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-02 14:31:47,008 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511875860-0/src/GoodPrefs-master/app/build/outputs/apk/debug/app-debug.apk
