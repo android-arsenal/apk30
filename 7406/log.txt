@@ -1,36 +1,35 @@
-2019-01-07 21:18:37,637 INFO  DownloadService - Downloading "https://github.com/satoshun/CoroutineAutoDispose/archive/master.zip", attempt 3
-2019-01-07 21:18:38,137 INFO  DownloadService - Downloaded https://github.com/satoshun/CoroutineAutoDispose/archive/master.zip, attempt 3
-2019-01-07 21:18:38,137 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/master.zip": 159 KB
-2019-01-07 21:18:38,137 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-07 21:18:38,143 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/master.zip: true
-2019-01-07 21:18:38,143 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src'.
-2019-01-07 21:18:38,168 INFO  FullProcessService - Size of directory with sources: 180 KB
-2019-01-07 21:18:38,168 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src]
-2019-01-07 21:18:38,187 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/.git/
+2019-03-04 16:50:35,527 INFO  DownloadService - Downloading "https://github.com/satoshun/CoroutineAutoDispose/archive/master.zip", attempt 3
+2019-03-04 16:50:37,813 INFO  DownloadService - Downloaded https://github.com/satoshun/CoroutineAutoDispose/archive/master.zip, attempt 3
+2019-03-04 16:50:37,813 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/master.zip": 158 KB
+2019-03-04 16:50:37,813 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-04 16:50:37,819 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/master.zip: true
+2019-03-04 16:50:37,819 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src'.
+2019-03-04 16:50:37,845 INFO  FullProcessService - Size of directory with sources: 177 KB
+2019-03-04 16:50:37,845 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src]
+2019-03-04 16:50:37,864 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/.git/
 
-2019-01-07 21:18:38,190 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/gradlew
-2019-01-07 21:18:38,194 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/autodispose/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/build.gradle
-2019-01-07 21:18:38,199 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/gradle/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/gradle/gradle-mvn-push-kotlin.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/autodispose/build.gradle
-2019-01-07 21:18:38,200 INFO  ProjectBuildService - Remote scripts: none
-2019-01-07 21:18:38,200 INFO  ProjectFixService - Fixing project...
-2019-01-07 21:18:38,211 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/app/local.properties
-2019-01-07 21:18:38,214 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-07 21:18:38,215 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-07 21:18:38,216 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/autodispose/local.properties
-2019-01-07 21:18:38,219 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/autodispose/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-07 21:18:38,219 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/autodispose/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-07 21:18:38,220 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/local.properties
-2019-01-07 21:18:38,220 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-bin.zip
-2019-01-07 21:18:38,223 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-07 21:18:38,224 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-07 21:18:38,224 INFO  ProjectFixService - Project was maybe fixed
-2019-01-07 21:18:38,224 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-07 21:18:38,225 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-07 21:23:39,683 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 143 (Exit value: 143)
-2019-01-07 21:23:39,683 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-07 21:23:39,683 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-07 21:23:39,683 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-07 21:25:11,066 ERROR SysUtils - Could not process external command
+2019-03-04 16:50:37,869 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/gradlew
+2019-03-04 16:50:37,873 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/autodispose/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/build.gradle
+2019-03-04 16:50:37,877 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/gradle/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/autodispose/build.gradle
+2019-03-04 16:50:37,878 INFO  ProjectBuildService - Remote scripts: none
+2019-03-04 16:50:37,878 INFO  ProjectFixService - Fixing project...
+2019-03-04 16:50:37,893 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/app/local.properties
+2019-03-04 16:50:37,896 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-04 16:50:37,896 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-04 16:50:37,897 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/autodispose/local.properties
+2019-03-04 16:50:37,902 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/autodispose/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-04 16:50:37,902 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/autodispose/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-04 16:50:37,904 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/local.properties
+2019-03-04 16:50:37,904 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-bin.zip
+2019-03-04 16:50:37,908 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-04 16:50:37,908 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-04 16:50:37,909 INFO  ProjectFixService - Project was maybe fixed
+2019-03-04 16:50:37,909 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-04 16:50:37,909 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-04 16:50:54,156 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-03-04 16:50:54,156 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-04 16:50:54,156 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-04 16:51:25,898 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -51,184 +50,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-07 21:25:11,066 INFO  SysUtils - The `kotlin-dsl` plugin applied to project ':buildSrc' enables experimental Kotlin compiler features. For more information see https://docs.gradle.org/4.10.3/userguide/kotlin_dsl.html#sec:kotlin-dsl_plugin
-> Task :buildSrc:compileKotlin
-> Task :buildSrc:compileJava NO-SOURCE
-> Task :buildSrc:compileGroovy NO-SOURCE
-> Task :buildSrc:processResources NO-SOURCE
-> Task :buildSrc:classes UP-TO-DATE
-> Task :buildSrc:inspectClassesForKotlinIC
-> Task :buildSrc:jar
-> Task :buildSrc:assemble
-> Task :buildSrc:compileTestKotlin NO-SOURCE
-> Task :buildSrc:compileTestJava NO-SOURCE
-> Task :buildSrc:compileTestGroovy NO-SOURCE
-> Task :buildSrc:processTestResources NO-SOURCE
-> Task :buildSrc:testClasses UP-TO-DATE
-> Task :buildSrc:test NO-SOURCE
-> Task :buildSrc:check UP-TO-DATE
-> Task :buildSrc:build
-Configuration on demand is an incubating feature.
-Failed to analyze exception
-java.lang.OutOfMemoryError: GC overhead limit exceeded
-Could not stop Service CachedClasspathTransformer at GradleUserHomeScopeServices.createCachedClasspathTransformer().
-java.lang.OutOfMemoryError: GC overhead limit exceeded
-Could not stop Service FileAccessTimeJournal at GradleUserHomeScopeServices.createFileAccessTimeJournal().
-java.lang.NoClassDefFoundError: Could not initialize class org.apache.commons.io.filefilter.FileFilterUtils
-	at org.gradle.cache.internal.VersionSpecificCacheDirectoryScanner.listVersionSpecificCacheDirs(VersionSpecificCacheDirectoryScanner.java:61)
-	at org.gradle.cache.internal.VersionSpecificCacheDirectoryScanner.getExistingDirectories(VersionSpecificCacheDirectoryScanner.java:51)
-	at org.gradle.cache.internal.UsedGradleVersionsFromGradleUserHomeCaches.getUsedGradleVersions(UsedGradleVersionsFromGradleUserHomeCaches.java:35)
-	at org.gradle.cache.internal.UnusedVersionsCacheCleanup.getUsedGradleVersionsSmallerThanCurrent(UnusedVersionsCacheCleanup.java:85)
-	at org.gradle.cache.internal.UnusedVersionsCacheCleanup.determineUsedVersions(UnusedVersionsCacheCleanup.java:79)
-	at org.gradle.cache.internal.UnusedVersionsCacheCleanup.clean(UnusedVersionsCacheCleanup.java:73)
-	at org.gradle.cache.internal.CompositeCleanupAction.clean(CompositeCleanupAction.java:45)
-	at org.gradle.cache.internal.DefaultPersistentDirectoryStore$Cleanup.cleanup(DefaultPersistentDirectoryStore.java:211)
-	at org.gradle.cache.internal.DefaultCacheAccess.close(DefaultCacheAccess.java:175)
-	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.close(DefaultPersistentDirectoryStore.java:122)
-	at org.gradle.cache.internal.DefaultCacheFactory$DirCacheReference.close(DefaultCacheFactory.java:146)
-	at org.gradle.cache.internal.DefaultCacheFactory$DirCacheReference.release(DefaultCacheFactory.java:135)
-	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.close(DefaultCacheFactory.java:165)
-	at org.gradle.api.internal.artifacts.ivyservice.DefaultArtifactCacheLockingManager.close(DefaultArtifactCacheLockingManager.java:74)
-	at org.gradle.internal.concurrent.CompositeStoppable$2.stop(CompositeStoppable.java:88)
-	at org.gradle.internal.concurrent.CompositeStoppable.stop(CompositeStoppable.java:103)
-	at org.gradle.internal.service.DefaultServiceRegistry$ManagedObjectServiceProvider.stop(DefaultServiceRegistry.java:594)
-	at org.gradle.internal.concurrent.CompositeStoppable.stop(CompositeStoppable.java:103)
-	at org.gradle.internal.service.DefaultServiceRegistry$ManagedObjectServiceProvider.stop(DefaultServiceRegistry.java:594)
-	at org.gradle.internal.concurrent.CompositeStoppable.stop(CompositeStoppable.java:103)
-	at org.gradle.internal.service.DefaultServiceRegistry$OwnServices.stop(DefaultServiceRegistry.java:486)
-	at org.gradle.internal.concurrent.CompositeStoppable.stop(CompositeStoppable.java:103)
-	at org.gradle.internal.service.DefaultServiceRegistry$CompositeServiceProvider.stop(DefaultServiceRegistry.java:952)
-	at org.gradle.internal.concurrent.CompositeStoppable.stop(CompositeStoppable.java:103)
-	at org.gradle.internal.service.DefaultServiceRegistry.close(DefaultServiceRegistry.java:254)
-	at org.gradle.internal.concurrent.CompositeStoppable$2.stop(CompositeStoppable.java:88)
-	at org.gradle.internal.concurrent.CompositeStoppable.stop(CompositeStoppable.java:103)
-	at org.gradle.internal.service.scopes.DefaultGradleUserHomeScopeServiceRegistry.close(DefaultGradleUserHomeScopeServiceRegistry.java:62)
-	at org.gradle.internal.concurrent.CompositeStoppable$2.stop(CompositeStoppable.java:88)
-	at org.gradle.internal.concurrent.CompositeStoppable.stop(CompositeStoppable.java:103)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:59)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:402)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:375)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:368)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:298)
-	at org.gradle.launcher.Main.doAction(Main.java:36)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:62)
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-java.lang.UnsupportedOperationException (no error message)
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-java.lang.UnsupportedOperationException
-	at org.gradle.internal.service.DefaultServiceRegistry$FixedInstanceService.create(DefaultServiceRegistry.java:871)
-	at org.gradle.internal.service.DefaultServiceRegistry$ManagedObjectServiceProvider.getInstance(DefaultServiceRegistry.java:568)
-	at org.gradle.internal.service.DefaultServiceRegistry$FixedInstanceService.getDisplayName(DefaultServiceRegistry.java:866)
-	at org.gradle.internal.service.DefaultServiceRegistry$SingletonService.toString(DefaultServiceRegistry.java:620)
-	at java.util.Formatter$FormatSpecifier.printString(Formatter.java:2886)
-	at java.util.Formatter$FormatSpecifier.print(Formatter.java:2763)
-	at java.util.Formatter.format(Formatter.java:2520)
-	at java.util.Formatter.format(Formatter.java:2455)
-	at java.lang.String.format(String.java:2940)
-	at org.gradle.internal.concurrent.CompositeStoppable.stop(CompositeStoppable.java:108)
-	at org.gradle.internal.service.DefaultServiceRegistry$OwnServices.stop(DefaultServiceRegistry.java:486)
-	at org.gradle.internal.concurrent.CompositeStoppable.stop(CompositeStoppable.java:103)
-	at org.gradle.internal.service.DefaultServiceRegistry$CompositeServiceProvider.stop(DefaultServiceRegistry.java:952)
-	at org.gradle.internal.concurrent.CompositeStoppable.stop(CompositeStoppable.java:103)
-	at org.gradle.internal.service.DefaultServiceRegistry.close(DefaultServiceRegistry.java:254)
-	at org.gradle.internal.concurrent.CompositeStoppable$2.stop(CompositeStoppable.java:88)
-	at org.gradle.internal.concurrent.CompositeStoppable.stop(CompositeStoppable.java:103)
-	at org.gradle.internal.service.scopes.DefaultGradleUserHomeScopeServiceRegistry.close(DefaultGradleUserHomeScopeServiceRegistry.java:62)
-	at org.gradle.internal.concurrent.CompositeStoppable$2.stop(CompositeStoppable.java:88)
-	at org.gradle.internal.concurrent.CompositeStoppable.stop(CompositeStoppable.java:103)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:59)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:402)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:375)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:368)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:298)
-	at org.gradle.launcher.Main.doAction(Main.java:36)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:62)
-
-
-* Get more help at https://help.gradle.org
-
-2019-01-07 21:25:11,080 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-07 21:25:11,080 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/autodispose/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-07 21:25:28,206 INFO  ProjectTaskService - Detected possible tasks: 77
-2019-01-07 21:25:28,206 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-07 21:25:28,207 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/autodispose/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-07 21:26:22,846 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-01-07 21:26:22,846 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2019-03-04 16:51:25,899 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:processResources NO-SOURCE
@@ -245,185 +74,18 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :buildSrc:check UP-TO-DATE
 > Task :buildSrc:build UP-TO-DATE
 Configuration on demand is an incubating feature.
-> Task :autodispose:preBuild UP-TO-DATE
-> Task :autodispose:preDebugBuild UP-TO-DATE
-> Task :autodispose:compileDebugAidl NO-SOURCE
-> Task :autodispose:compileDebugRenderscript
-> Task :autodispose:checkDebugManifest
-> Task :autodispose:generateDebugBuildConfig
-> Task :autodispose:generateDebugResValues
-> Task :autodispose:generateDebugResources
-> Task :autodispose:packageDebugResources
-> Task :autodispose:processDebugManifest
-> Task :autodispose:generateDebugRFile
-> Task :autodispose:compileDebugKotlin
-> Task :autodispose:prepareLintJar
-> Task :autodispose:generateDebugSources
-> Task :autodispose:javaPreCompileDebug
-> Task :autodispose:compileDebugJavaWithJavac
-> Task :autodispose:extractDebugAnnotations
-> Task :autodispose:mergeDebugConsumerProguardFiles
-> Task :autodispose:mergeDebugShaders
-> Task :autodispose:compileDebugShaders
-> Task :autodispose:generateDebugAssets
-> Task :autodispose:packageDebugAssets
-> Task :autodispose:packageDebugRenderscript NO-SOURCE
-> Task :autodispose:transformClassesWithJacocoForDebug
-> Task :autodispose:processDebugJavaRes NO-SOURCE
-> Task :autodispose:transformResourcesWithMergeJavaResForDebug
-> Task :autodispose:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :autodispose:compileDebugNdk NO-SOURCE
-> Task :autodispose:mergeDebugJniLibFolders
-> Task :autodispose:transformNativeLibsWithMergeJniLibsForDebug
-> Task :autodispose:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :autodispose:transformNativeLibsWithSyncJniLibsForDebug
-> Task :autodispose:bundleDebugAar
-> Task :autodispose:compileDebugSources
-> Task :autodispose:assembleDebug
-> Task :autodispose:preReleaseBuild UP-TO-DATE
-> Task :autodispose:compileReleaseAidl NO-SOURCE
-> Task :autodispose:compileReleaseRenderscript
-> Task :autodispose:checkReleaseManifest
-> Task :autodispose:generateReleaseBuildConfig
-> Task :autodispose:generateReleaseResValues
-> Task :autodispose:generateReleaseResources
-> Task :autodispose:packageReleaseResources
-> Task :autodispose:processReleaseManifest
-> Task :autodispose:generateReleaseRFile
-> Task :autodispose:compileReleaseKotlin
-> Task :autodispose:generateReleaseSources
-> Task :autodispose:javaPreCompileRelease
-> Task :autodispose:compileReleaseJavaWithJavac
-> Task :autodispose:extractReleaseAnnotations
-> Task :autodispose:mergeReleaseConsumerProguardFiles
-> Task :autodispose:mergeReleaseShaders
-> Task :autodispose:compileReleaseShaders
-> Task :autodispose:generateReleaseAssets
-> Task :autodispose:packageReleaseAssets
-> Task :autodispose:packageReleaseRenderscript NO-SOURCE
-> Task :autodispose:processReleaseJavaRes NO-SOURCE
-> Task :autodispose:transformResourcesWithMergeJavaResForRelease
-> Task :autodispose:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :autodispose:compileReleaseNdk NO-SOURCE
-> Task :autodispose:mergeReleaseJniLibFolders
-> Task :autodispose:transformNativeLibsWithMergeJniLibsForRelease
-> Task :autodispose:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :autodispose:transformNativeLibsWithSyncJniLibsForRelease
-> Task :autodispose:bundleReleaseAar
-> Task :autodispose:compileReleaseSources
-> Task :autodispose:mergeReleaseResources
-> Task :autodispose:verifyReleaseResources
-> Task :autodispose:assembleRelease
-> Task :autodispose:dokka FAILED
 
-FAILURE: Build failed with an exception.
+> Configure project :autodispose
+WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
 
-* What went wrong:
-Execution failed for task ':autodispose:dokka'.
-> GC overhead limit exceeded
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':autodispose:dokka'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:110)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:77)
-	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
-	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
-	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
-	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:277)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:262)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: java.lang.OutOfMemoryError: GC overhead limit exceeded
-	at org.jetbrains.kotlin.container.CacheKt.getSetterInfos(Cache.kt:64)
-
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 53s
-49 actionable tasks: 49 executed
-
-2019-01-07 21:26:22,870 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-07 21:26:22,870 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-07 21:26:32,890 INFO  ProjectTaskService - Detected possible tasks: 84
-2019-01-07 21:26:32,891 INFO  ProjectTaskService - Excluded tasks (20): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-07 21:26:32,891 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546870717628-0/src/CoroutineAutoDispose-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-07 21:27:14,226 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-01-07 21:27:14,227 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
-> Task :buildSrc:compileJava NO-SOURCE
-> Task :buildSrc:compileGroovy NO-SOURCE
-> Task :buildSrc:processResources NO-SOURCE
-> Task :buildSrc:classes UP-TO-DATE
-> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
-> Task :buildSrc:jar UP-TO-DATE
-> Task :buildSrc:assemble UP-TO-DATE
-> Task :buildSrc:compileTestKotlin NO-SOURCE
-> Task :buildSrc:compileTestJava NO-SOURCE
-> Task :buildSrc:compileTestGroovy NO-SOURCE
-> Task :buildSrc:processTestResources NO-SOURCE
-> Task :buildSrc:testClasses UP-TO-DATE
-> Task :buildSrc:test NO-SOURCE
-> Task :buildSrc:check UP-TO-DATE
-> Task :buildSrc:build UP-TO-DATE
-Configuration on demand is an incubating feature.
-> Task :app:checkDebugClasspath
 > Task :app:preBuild UP-TO-DATE
 > Task :autodispose:preBuild UP-TO-DATE
 > Task :autodispose:preDebugBuild UP-TO-DATE
-> Task :autodispose:checkDebugManifest UP-TO-DATE
-> Task :autodispose:processDebugManifest UP-TO-DATE
+> Task :autodispose:checkDebugManifest
+> Task :autodispose:processDebugManifest
 > Task :app:preDebugBuild
 > Task :autodispose:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
@@ -434,17 +96,17 @@ Configuration on demand is an incubating feature.
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :autodispose:compileDebugRenderscript UP-TO-DATE
-> Task :autodispose:generateDebugResValues UP-TO-DATE
-> Task :autodispose:generateDebugResources UP-TO-DATE
-> Task :autodispose:packageDebugResources UP-TO-DATE
+> Task :autodispose:compileDebugRenderscript
+> Task :autodispose:generateDebugResValues
+> Task :autodispose:generateDebugResources
+> Task :autodispose:packageDebugResources
 > Task :app:mergeDebugResources FAILED
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
 Execution failed for task ':app:mergeDebugResources'.
-> Java heap space
+> GC overhead limit exceeded
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -483,27 +145,136 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:mer
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: java.lang.OutOfMemoryError: Java heap space
-	at com.android.ide.common.resources.ResourceMergerItem.getKey(ResourceMergerItem.java:254)
-	at com.android.ide.common.resources.ResourceMerger.buildCache(ResourceMerger.java:436)
-	at com.android.ide.common.resources.ResourceMerger.filterAccept(ResourceMerger.java:391)
-	at com.android.ide.common.resources.ResourceMerger.filterAccept(ResourceMerger.java:54)
-	at com.android.ide.common.resources.DataMerger.mergeData(DataMerger.java:259)
-	at com.android.ide.common.resources.ResourceMerger.mergeData(ResourceMerger.java:384)
-	at com.android.build.gradle.tasks.MergeResources.doFullTaskAction(MergeResources.java:316)
+Caused by: java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at com.android.utils.PositionXmlParser$DomBuilder.flushText(PositionXmlParser.java:861)
+	at com.android.utils.PositionXmlParser$DomBuilder.startElement(PositionXmlParser.java:682)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327)
+	at com.android.utils.PositionXmlParser.parse(PositionXmlParser.java:176)
+	at com.android.utils.PositionXmlParser.parse(PositionXmlParser.java:139)
+	at com.android.utils.PositionXmlParser.parse(PositionXmlParser.java:92)
+	at com.android.utils.PositionXmlParser.parse(PositionXmlParser.java:101)
+	at com.android.ide.common.resources.ValueResourceParser2.parseDocument(ValueResourceParser2.java:212)
+	at com.android.ide.common.resources.ValueResourceParser2.parseFile(ValueResourceParser2.java:91)
+	at com.android.ide.common.resources.ResourceSet.createResourceFile(ResourceSet.java:534)
+	at com.android.ide.common.resources.ResourceSet.parseFolder(ResourceSet.java:468)
+	at com.android.ide.common.resources.ResourceSet.readSourceFolder(ResourceSet.java:274)
+	at com.android.ide.common.resources.DataSet.loadFromFiles(DataSet.java:246)
+	at com.android.ide.common.resources.ResourceSet.loadFromFiles(ResourceSet.java:55)
+	at com.android.build.gradle.tasks.MergeResources.doFullTaskAction(MergeResources.java:242)
 	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.java:106)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:131)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:120)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:99)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 31s
+12 actionable tasks: 12 executed
+
+2019-03-04 16:51:25,912 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-04 16:51:25,912 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/autodispose/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-04 16:51:35,540 INFO  ProjectTaskService - Detected possible tasks: 79
+2019-03-04 16:51:35,540 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-04 16:51:35,540 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/autodispose/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-04 16:52:24,872 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-04 16:52:24,872 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:compileTestKotlin NO-SOURCE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
+Configuration on demand is an incubating feature.
+
+> Configure project :autodispose
+WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
+> Task :autodispose:preBuild UP-TO-DATE
+> Task :autodispose:preDebugBuild UP-TO-DATE
+> Task :autodispose:compileDebugAidl NO-SOURCE
+> Task :autodispose:compileDebugRenderscript UP-TO-DATE
+> Task :autodispose:preReleaseBuild UP-TO-DATE
+> Task :autodispose:compileReleaseAidl NO-SOURCE
+> Task :autodispose:compileReleaseRenderscript
+> Task :autodispose:checkDebugManifest UP-TO-DATE
+> Task :autodispose:generateDebugBuildConfig
+> Task :autodispose:generateDebugResValues UP-TO-DATE
+> Task :autodispose:generateDebugResources UP-TO-DATE
+> Task :autodispose:packageDebugResources UP-TO-DATE
+> Task :autodispose:processDebugManifest UP-TO-DATE
+> Task :autodispose:generateDebugRFile
+> Task :autodispose:checkReleaseManifest
+> Task :autodispose:generateReleaseBuildConfig
+> Task :autodispose:generateReleaseResValues
+> Task :autodispose:generateReleaseResources
+> Task :autodispose:packageReleaseResources
+> Task :autodispose:processReleaseManifest
+> Task :autodispose:generateReleaseRFile
+> Task :autodispose:dokka FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':autodispose:dokka'.
+> Front-end Internal error: Failed to analyze declaration LifecycleAutoDisposeInterceptorImpl
+  Cause: GC overhead limit exceeded
+  File being compiled at position: (38,1) in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/autodispose/src/main/java/com/github/satoshun/coroutine/autodispose/lifecycle/LifecycleAutoDisposeInterceptor.kt
+  The root cause was thrown at: InflaterInputStream.java:88
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':autodispose:dokka'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:110)
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:77)
 	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
 	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
@@ -512,12 +283,270 @@ Caused by: java.lang.OutOfMemoryError: Java heap space
 	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
 	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
 	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
+	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:277)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:262)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.jetbrains.kotlin.util.KotlinFrontEndException: Front-end Internal error: Failed to analyze declaration LifecycleAutoDisposeInterceptorImpl
+Cause: GC overhead limit exceeded
+File being compiled at position: (38,1) in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/autodispose/src/main/java/com/github/satoshun/coroutine/autodispose/lifecycle/LifecycleAutoDisposeInterceptor.kt
+The root cause was thrown at: InflaterInputStream.java:88
+	at org.jetbrains.kotlin.resolve.ExceptionWrappingKtVisitorVoid.visitDeclaration(ExceptionWrappingKtVisitorVoid.kt:43)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitDeclaration(KtVisitorVoid.java:453)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitDeclaration(KtVisitorVoid.java:21)
+	at org.jetbrains.kotlin.psi.KtVisitor.visitNamedDeclaration(KtVisitor.java:398)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitNamedDeclaration(KtVisitorVoid.java:381)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitNamedDeclaration(KtVisitorVoid.java:959)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitNamedDeclaration(KtVisitorVoid.java:21)
+	at org.jetbrains.kotlin.psi.KtVisitor.visitClassOrObject(KtVisitor.java:41)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitClassOrObject(KtVisitorVoid.java:37)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitClassOrObject(KtVisitorVoid.java:465)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitClassOrObject(KtVisitorVoid.java:21)
+	at org.jetbrains.kotlin.psi.KtVisitor.visitClass(KtVisitor.java:33)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitClass(KtVisitorVoid.java:33)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitClass(KtVisitorVoid.java:459)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitClass(KtVisitorVoid.java:21)
+	at org.jetbrains.kotlin.psi.KtClass.accept(KtClass.kt:34)
+	at org.jetbrains.kotlin.psi.KtElementImplStub.accept(KtElementImplStub.java:59)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer$analyzeDeclarations$1.registerDeclarations(LazyTopDownAnalyzer.kt:77)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer$analyzeDeclarations$1.visitKtFile(LazyTopDownAnalyzer.kt:95)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitKtFile(KtVisitorVoid.java:513)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitKtFile(KtVisitorVoid.java:21)
+	at org.jetbrains.kotlin.psi.KtFile.accept(KtFile.kt:220)
+	at org.jetbrains.kotlin.psi.KtFile.accept(KtFile.kt:207)
+	at org.jetbrains.kotlin.resolve.ExceptionWrappingKtVisitorVoid.visitElement(ExceptionWrappingKtVisitorVoid.kt:27)
+	at com.intellij.psi.PsiElementVisitor.visitFile(PsiElementVisitor.java:34)
+	at org.jetbrains.kotlin.psi.KtVisitor.visitKtFile(KtVisitor.java:73)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitKtFile(KtVisitorVoid.java:69)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitKtFile(KtVisitorVoid.java:513)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitKtFile(KtVisitorVoid.java:21)
+	at org.jetbrains.kotlin.psi.KtFile.accept(KtFile.kt:220)
+	at org.jetbrains.kotlin.psi.KtFile.accept(KtFile.kt:207)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer.analyzeDeclarations(LazyTopDownAnalyzer.kt:200)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer.analyzeDeclarations$default(LazyTopDownAnalyzer.kt:59)
+	at org.jetbrains.dokka.DokkaGeneratorKt.buildDocumentationModule(DokkaGenerator.kt:141)
+	at org.jetbrains.dokka.DokkaGenerator.appendSourceModule(DokkaGenerator.kt:77)
+	at org.jetbrains.dokka.DokkaGenerator.generate(DokkaGenerator.kt:40)
+	at org.jetbrains.dokka.DokkaBootstrapImpl.generate(DokkaBootstrapImpl.kt:77)
+	at org.jetbrains.dokka.DelegatedInvocationHandler.invoke(ProxyUtils.kt:41)
+	at com.sun.proxy.$Proxy92.generate(Unknown Source)
+	at org.jetbrains.dokka.gradle.DokkaTask.generate(main.kt:326)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:801)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:768)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:131)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:120)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:99)
+	... 31 more
+Caused by: java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at org.jetbrains.kotlin.serialization.deserialization.descriptors.DeserializedClassDescriptor.<init>(DeserializedClassDescriptor.kt:51)
+	at org.jetbrains.kotlin.serialization.deserialization.ClassDeserializer.createClass(ClassDeserializer.kt:69)
+	at org.jetbrains.kotlin.serialization.deserialization.ClassDeserializer.access$createClass(ClassDeserializer.kt:26)
+	at org.jetbrains.kotlin.serialization.deserialization.ClassDeserializer$classes$1.invoke(ClassDeserializer.kt:28)
+	at org.jetbrains.kotlin.serialization.deserialization.ClassDeserializer$classes$1.invoke(ClassDeserializer.kt:26)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$MapBasedMemoizedFunction.invoke(LockBasedStorageManager.java:408)
+	at org.jetbrains.kotlin.serialization.deserialization.ClassDeserializer.deserializeClass(ClassDeserializer.kt:33)
+	at org.jetbrains.kotlin.serialization.deserialization.ClassDeserializer.deserializeClass$default(ClassDeserializer.kt:32)
+	at org.jetbrains.kotlin.serialization.deserialization.DeserializationComponents.deserializeClass(context.kt:54)
+	at org.jetbrains.kotlin.serialization.deserialization.descriptors.DeserializedMemberScope.deserializeClass(DeserializedMemberScope.kt:249)
+	at org.jetbrains.kotlin.serialization.deserialization.descriptors.DeserializedMemberScope.computeDescriptors(DeserializedMemberScope.kt:185)
+	at org.jetbrains.kotlin.serialization.deserialization.descriptors.DeserializedPackageMemberScope.getContributedDescriptors(DeserializedPackageMemberScope.kt:48)
+	at org.jetbrains.kotlin.serialization.deserialization.descriptors.DeserializedPackageMemberScope.getContributedDescriptors(DeserializedPackageMemberScope.kt:33)
+	at org.jetbrains.kotlin.resolve.jvm.platform.JvmPlatform$defaultImports$1$1$1.invoke(JvmPlatform.kt:35)
+	at org.jetbrains.kotlin.resolve.jvm.platform.JvmPlatform$defaultImports$1.invoke(JvmPlatform.kt:41)
+	at org.jetbrains.kotlin.resolve.jvm.platform.JvmPlatform$defaultImports$1.invoke(JvmPlatform.kt:26)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$MapBasedMemoizedFunction.invoke(LockBasedStorageManager.java:408)
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 41s
-13 actionable tasks: 8 executed, 5 up-to-date
+BUILD FAILED in 47s
+15 actionable tasks: 10 executed, 5 up-to-date
 
-2019-01-07 21:27:14,251 ERROR FullProcessService - Project build has not produced APK file
-2019-01-07 21:27:14,272 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-04 16:52:24,887 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-04 16:52:24,888 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-04 16:52:36,202 INFO  ProjectTaskService - Detected possible tasks: 85
+2019-03-04 16:52:36,202 INFO  ProjectTaskService - Excluded tasks (20): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-04 16:52:36,203 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551693035519-0/src/CoroutineAutoDispose-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-04 16:53:01,100 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-04 16:53:01,100 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:compileTestKotlin NO-SOURCE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
+Configuration on demand is an incubating feature.
+
+> Configure project :autodispose
+WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :autodispose:preBuild UP-TO-DATE
+> Task :autodispose:preDebugBuild UP-TO-DATE
+> Task :autodispose:checkDebugManifest UP-TO-DATE
+> Task :autodispose:processDebugManifest UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :autodispose:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :autodispose:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript UP-TO-DATE
+> Task :app:checkDebugManifest UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:mainApkListPersistenceDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :autodispose:compileDebugRenderscript UP-TO-DATE
+> Task :autodispose:generateDebugResValues UP-TO-DATE
+> Task :autodispose:generateDebugResources UP-TO-DATE
+> Task :autodispose:packageDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:mergeDebugResources'.
+> GC overhead limit exceeded
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:mergeDebugResources'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
+	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:277)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:262)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at com.sun.org.apache.xerces.internal.xni.XMLString.toString(XMLString.java:188)
+	at com.sun.org.apache.xerces.internal.util.XMLAttributesImpl.getValue(XMLAttributesImpl.java:524)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$AttributesProxy.getValue(AbstractSAXParser.java:2321)
+	at com.android.utils.PositionXmlParser$DomBuilder.startElement(PositionXmlParser.java:693)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327)
+	at com.android.utils.PositionXmlParser.parse(PositionXmlParser.java:176)
+	at com.android.utils.PositionXmlParser.parse(PositionXmlParser.java:139)
+	at com.android.utils.PositionXmlParser.parse(PositionXmlParser.java:92)
+	at com.android.utils.PositionXmlParser.parse(PositionXmlParser.java:101)
+	at com.android.ide.common.resources.ValueResourceParser2.parseDocument(ValueResourceParser2.java:212)
+	at com.android.ide.common.resources.ValueResourceParser2.parseFile(ValueResourceParser2.java:91)
+	at com.android.ide.common.resources.ResourceSet.createResourceFile(ResourceSet.java:534)
+	at com.android.ide.common.resources.ResourceSet.parseFolder(ResourceSet.java:468)
+	at com.android.ide.common.resources.ResourceSet.readSourceFolder(ResourceSet.java:274)
+	at com.android.ide.common.resources.DataSet.loadFromFiles(DataSet.java:246)
+	at com.android.ide.common.resources.ResourceSet.loadFromFiles(ResourceSet.java:55)
+	at com.android.build.gradle.tasks.MergeResources.doFullTaskAction(MergeResources.java:242)
+	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.java:106)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 24s
+12 actionable tasks: 1 executed, 11 up-to-date
+
+2019-03-04 16:53:01,116 ERROR FullProcessService - Project build has not produced APK file
+2019-03-04 16:53:01,129 ERROR FullProcessService - Could not find generated or existed APK file
