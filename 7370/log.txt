@@ -1,36 +1,36 @@
-2019-03-01 11:05:39,248 INFO  DownloadService - Downloading "https://github.com/1AboveAll/ImageWorker/archive/master.zip", attempt 3
-2019-03-01 11:05:39,873 INFO  DownloadService - Downloaded https://github.com/1AboveAll/ImageWorker/archive/master.zip, attempt 3
-2019-03-01 11:05:39,874 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/master.zip": 169 KB
-2019-03-01 11:05:39,874 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-01 11:05:39,875 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/master.zip: true
-2019-03-01 11:05:39,876 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src'.
-2019-03-01 11:05:39,899 INFO  FullProcessService - Size of directory with sources: 189 KB
-2019-03-01 11:05:39,899 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src]
-2019-03-01 11:05:39,916 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/.git/
+2019-03-09 23:19:55,444 INFO  DownloadService - Downloading "https://github.com/1AboveAll/ImageWorker/archive/master.zip", attempt 3
+2019-03-09 23:19:57,594 INFO  DownloadService - Downloaded https://github.com/1AboveAll/ImageWorker/archive/master.zip, attempt 3
+2019-03-09 23:19:57,595 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/master.zip": 169 KB
+2019-03-09 23:19:57,595 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 23:19:57,595 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/master.zip: true
+2019-03-09 23:19:57,596 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src'.
+2019-03-09 23:19:57,622 INFO  FullProcessService - Size of directory with sources: 189 KB
+2019-03-09 23:19:57,622 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src]
+2019-03-09 23:19:57,647 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/.git/
 
-2019-03-01 11:05:39,919 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/gradlew
-2019-03-01 11:05:39,922 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/imageworker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/build.gradle
-2019-03-01 11:05:39,926 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/imageworker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/settings.gradle
-2019-03-01 11:05:39,926 INFO  ProjectBuildService - Remote scripts: none
-2019-03-01 11:05:39,926 INFO  ProjectFixService - Fixing project...
-2019-03-01 11:05:39,937 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/app/local.properties
-2019-03-01 11:05:39,938 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-03-01 11:05:39,938 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-03-01 11:05:39,939 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/imageworker/local.properties
-2019-03-01 11:05:39,940 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/imageworker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-01 11:05:39,940 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/imageworker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-01 11:05:39,940 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/local.properties
-2019-03-01 11:05:39,941 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-03-01 11:05:39,941 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-03-01 11:05:39,942 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-03-01 11:05:39,942 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-03-01 11:05:39,943 INFO  ProjectFixService - Project was maybe fixed
-2019-03-01 11:05:39,943 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-01 11:05:39,943 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-01 11:05:45,733 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-03-01 11:05:45,733 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-01 11:05:45,733 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-01 11:06:22,827 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-09 23:19:57,651 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/gradlew
+2019-03-09 23:19:57,655 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/imageworker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/build.gradle
+2019-03-09 23:19:57,658 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/imageworker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/settings.gradle
+2019-03-09 23:19:57,659 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 23:19:57,659 INFO  ProjectFixService - Fixing project...
+2019-03-09 23:19:57,667 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/app/local.properties
+2019-03-09 23:19:57,668 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-03-09 23:19:57,668 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-03-09 23:19:57,669 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/imageworker/local.properties
+2019-03-09 23:19:57,670 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/imageworker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-09 23:19:57,670 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/imageworker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-09 23:19:57,671 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/local.properties
+2019-03-09 23:19:57,671 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-09 23:19:57,672 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-09 23:19:57,673 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-03-09 23:19:57,673 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-03-09 23:19:57,674 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 23:19:57,674 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 23:19:57,674 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 23:20:05,119 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-09 23:20:05,119 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-09 23:20:05,119 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-09 23:20:41,535 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
 :app:preBuild UP-TO-DATE
 :imageworker:preBuild UP-TO-DATE
@@ -66,7 +66,7 @@
 :imageworker:processDebugJavaRes NO-SOURCE
 :imageworker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/app/src/main/java/com/himanshurawat/imageworkersample/MainActivity.kt: (27, 13): Variable 'bitmapDrawable' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/app/src/main/java/com/himanshurawat/imageworkersample/MainActivity.kt: (27, 13): Variable 'bitmapDrawable' is never used
 :app:prepareLintJar
 :app:generateDebugSources
 :app:javaPreCompileDebug
@@ -130,7 +130,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/
 :imageworker:processReleaseJavaRes NO-SOURCE
 :imageworker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/app/src/main/java/com/himanshurawat/imageworkersample/MainActivity.kt: (27, 13): Variable 'bitmapDrawable' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/app/src/main/java/com/himanshurawat/imageworkersample/MainActivity.kt: (27, 13): Variable 'bitmapDrawable' is never used
 :app:generateReleaseSources
 :app:javaPreCompileRelease
 :app:compileReleaseJavaWithJavac
@@ -165,7 +165,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 36s
+BUILD SUCCESSFUL in 35s
 94 actionable tasks: 94 executed
 
-2019-03-01 11:06:22,919 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413139246-0/src/ImageWorker-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-09 23:20:41,628 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148395441-0/src/ImageWorker-master/app/build/outputs/apk/debug/app-debug.apk

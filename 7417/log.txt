@@ -1,170 +1,179 @@
-2019-03-01 10:59:05,136 INFO  DownloadService - Downloading "https://github.com/manojbhadane/PaymentCardView/archive/master.zip", attempt 3
-2019-03-01 10:59:08,336 INFO  DownloadService - Downloaded https://github.com/manojbhadane/PaymentCardView/archive/master.zip, attempt 3
-2019-03-01 10:59:08,336 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/master.zip": 1 MB
-2019-03-01 10:59:08,336 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-01 10:59:08,342 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/master.zip: true
-2019-03-01 10:59:08,342 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src'.
-2019-03-01 10:59:08,379 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-03-01 10:59:08,379 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src]
-2019-03-01 10:59:08,397 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/.git/
+2019-03-09 23:18:23,823 INFO  DownloadService - Downloading "https://github.com/manojbhadane/PaymentCardView/archive/master.zip", attempt 3
+2019-03-09 23:18:51,409 INFO  DownloadService - Downloaded https://github.com/manojbhadane/PaymentCardView/archive/master.zip, attempt 3
+2019-03-09 23:18:51,410 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/master.zip": 1 MB
+2019-03-09 23:18:51,410 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 23:18:51,416 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/master.zip: true
+2019-03-09 23:18:51,416 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src'.
+2019-03-09 23:18:51,456 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-03-09 23:18:51,457 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src]
+2019-03-09 23:18:51,474 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/.git/
 
-2019-03-01 10:59:08,401 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/gradlew
-2019-03-01 10:59:08,405 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/paymentcardview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/build.gradle
-2019-03-01 10:59:08,408 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/paymentcardview/build.gradle
-2019-03-01 10:59:08,409 INFO  ProjectBuildService - Remote scripts: none
-2019-03-01 10:59:08,409 INFO  ProjectFixService - Fixing project...
-2019-03-01 10:59:08,418 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/app/local.properties
-2019-03-01 10:59:08,419 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-01 10:59:08,419 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-01 10:59:08,420 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/paymentcardview/local.properties
-2019-03-01 10:59:08,421 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/paymentcardview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-01 10:59:08,421 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/paymentcardview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-01 10:59:08,422 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/local.properties
-2019-03-01 10:59:08,422 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-03-01 10:59:08,422 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-03-01 10:59:08,423 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-01 10:59:08,424 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-01 10:59:08,424 INFO  ProjectFixService - Project was maybe fixed
-2019-03-01 10:59:08,424 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-01 10:59:08,424 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-01 10:59:13,962 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-03-01 10:59:13,962 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-01 10:59:13,963 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-01 10:59:43,058 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:checkDebugClasspath
-:app:preBuild UP-TO-DATE
-:paymentcardview:preBuild UP-TO-DATE
-:paymentcardview:preDebugBuild UP-TO-DATE
-:paymentcardview:checkDebugManifest
-:paymentcardview:processDebugManifest
-:app:preDebugBuild
-:paymentcardview:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:paymentcardview:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:paymentcardview:compileDebugRenderscript
-:paymentcardview:generateDebugResValues
-:paymentcardview:generateDebugResources
-:paymentcardview:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:paymentcardview:generateDebugRFile
-:app:processDebugResources
-:paymentcardview:generateDebugBuildConfig
-:paymentcardview:prepareLintJar
-:paymentcardview:generateDebugSources
-:paymentcardview:javaPreCompileDebug
-:paymentcardview:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/paymentcardview/src/main/java/com/manojbhadane/PaymentCardView.java uses or overrides a deprecated API.
+2019-03-09 23:18:51,478 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/gradlew
+2019-03-09 23:18:51,482 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/paymentcardview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/build.gradle
+2019-03-09 23:18:51,486 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/paymentcardview/build.gradle
+2019-03-09 23:18:51,486 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 23:18:51,486 INFO  ProjectFixService - Fixing project...
+2019-03-09 23:18:51,495 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/app/local.properties
+2019-03-09 23:18:51,496 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-09 23:18:51,497 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-09 23:18:51,498 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/paymentcardview/local.properties
+2019-03-09 23:18:51,499 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/paymentcardview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-09 23:18:51,499 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/paymentcardview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-09 23:18:51,500 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/local.properties
+2019-03-09 23:18:51,501 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-09 23:18:51,501 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-09 23:18:51,502 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-09 23:18:51,502 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-09 23:18:51,503 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 23:18:51,503 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 23:18:51,503 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 23:18:58,265 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-09 23:18:58,265 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-09 23:18:58,265 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-09 23:19:37,756 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :paymentcardview:preBuild UP-TO-DATE
+> Task :paymentcardview:preDebugBuild UP-TO-DATE
+> Task :paymentcardview:checkDebugManifest
+> Task :paymentcardview:processDebugManifest
+> Task :app:preDebugBuild
+> Task :paymentcardview:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :paymentcardview:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :paymentcardview:compileDebugRenderscript
+> Task :paymentcardview:generateDebugResValues
+> Task :paymentcardview:generateDebugResources
+> Task :paymentcardview:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :paymentcardview:generateDebugRFile
+> Task :app:processDebugResources
+> Task :paymentcardview:generateDebugBuildConfig
+> Task :paymentcardview:prepareLintJar
+> Task :paymentcardview:generateDebugSources
+> Task :paymentcardview:javaPreCompileDebug
+
+> Task :paymentcardview:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/paymentcardview/src/main/java/com/manojbhadane/PaymentCardView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:paymentcardview:processDebugJavaRes NO-SOURCE
-:paymentcardview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:compileDebugKotlin
-:app:prepareLintJar
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:paymentcardview:mergeDebugShaders
-:paymentcardview:compileDebugShaders
-:paymentcardview:generateDebugAssets
-:paymentcardview:packageDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:paymentcardview:compileDebugNdk NO-SOURCE
-:paymentcardview:mergeDebugJniLibFolders
-:paymentcardview:transformNativeLibsWithMergeJniLibsForDebug
-:paymentcardview:transformNativeLibsWithStripDebugSymbolForDebug
-:paymentcardview:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
-:paymentcardview:preReleaseBuild UP-TO-DATE
-:paymentcardview:checkReleaseManifest
-:paymentcardview:processReleaseManifest
-:app:preReleaseBuild
-:paymentcardview:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:paymentcardview:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:paymentcardview:compileReleaseRenderscript
-:paymentcardview:generateReleaseResValues
-:paymentcardview:generateReleaseResources
-:paymentcardview:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:paymentcardview:generateReleaseRFile
-:app:processReleaseResources
-:paymentcardview:generateReleaseBuildConfig
-:paymentcardview:generateReleaseSources
-:paymentcardview:javaPreCompileRelease
-:paymentcardview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/paymentcardview/src/main/java/com/manojbhadane/PaymentCardView.java uses or overrides a deprecated API.
+> Task :paymentcardview:processDebugJavaRes NO-SOURCE
+> Task :paymentcardview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:compileDebugKotlin
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :paymentcardview:mergeDebugShaders
+> Task :paymentcardview:compileDebugShaders
+> Task :paymentcardview:generateDebugAssets
+> Task :paymentcardview:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :paymentcardview:createFullJarDebug
+> Transform full.jar (project :paymentcardview) with IdentityTransform
+> Task :app:mergeExtDexDebug
+> Transform full.jar (project :paymentcardview) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :paymentcardview:compileDebugNdk NO-SOURCE
+> Task :paymentcardview:mergeDebugJniLibFolders
+> Task :paymentcardview:transformNativeLibsWithMergeJniLibsForDebug
+> Task :paymentcardview:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :paymentcardview:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :paymentcardview:preReleaseBuild UP-TO-DATE
+> Task :paymentcardview:checkReleaseManifest
+> Task :paymentcardview:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :paymentcardview:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :paymentcardview:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :paymentcardview:compileReleaseRenderscript
+> Task :paymentcardview:generateReleaseResValues
+> Task :paymentcardview:generateReleaseResources
+> Task :paymentcardview:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :paymentcardview:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :paymentcardview:generateReleaseBuildConfig
+> Task :paymentcardview:generateReleaseSources
+> Task :paymentcardview:javaPreCompileRelease
+
+> Task :paymentcardview:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/paymentcardview/src/main/java/com/manojbhadane/PaymentCardView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:paymentcardview:processReleaseJavaRes NO-SOURCE
-:paymentcardview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:compileReleaseKotlin
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:paymentcardview:mergeReleaseShaders
-:paymentcardview:compileReleaseShaders
-:paymentcardview:generateReleaseAssets
-:paymentcardview:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:paymentcardview:compileReleaseNdk NO-SOURCE
-:paymentcardview:mergeReleaseJniLibFolders
-:paymentcardview:transformNativeLibsWithMergeJniLibsForRelease
-:paymentcardview:transformNativeLibsWithStripDebugSymbolForRelease
-:paymentcardview:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:checkReleaseLibraries
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+> Task :paymentcardview:processReleaseJavaRes NO-SOURCE
+> Task :paymentcardview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
 
-BUILD SUCCESSFUL in 28s
-92 actionable tasks: 92 executed
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/cd6bbd351150106ca4b31a01c70685a4/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-2019-03-01 10:59:43,159 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412745128-0/src/PaymentCardView-master/app/build/outputs/apk/debug/app-debug.apk
+> Task :paymentcardview:createFullJarRelease
+> Transform full.jar (project :paymentcardview) with IdentityTransform
+> Task :app:mergeExtDexRelease
+> Transform full.jar (project :paymentcardview) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :paymentcardview:mergeReleaseShaders
+> Task :paymentcardview:compileReleaseShaders
+> Task :paymentcardview:generateReleaseAssets
+> Task :paymentcardview:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :paymentcardview:compileReleaseNdk NO-SOURCE
+> Task :paymentcardview:mergeReleaseJniLibFolders
+> Task :paymentcardview:transformNativeLibsWithMergeJniLibsForRelease
+> Task :paymentcardview:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :paymentcardview:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 38s
+90 actionable tasks: 90 executed
+
+2019-03-09 23:19:37,844 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552148303814-0/src/PaymentCardView-master/app/build/outputs/apk/debug/app-debug.apk
