@@ -1,169 +1,177 @@
-2019-02-28 16:19:55,478 INFO  DownloadService - Downloading "https://github.com/TutorialsAndroid/SEmojis/archive/master.zip", attempt 3
-2019-02-28 16:19:57,761 INFO  DownloadService - Downloaded https://github.com/TutorialsAndroid/SEmojis/archive/master.zip, attempt 3
-2019-02-28 16:19:57,761 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/master.zip": 1 MB
-2019-02-28 16:19:57,761 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-02-28 16:19:57,768 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/master.zip: true
-2019-02-28 16:19:57,768 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src'.
-2019-02-28 16:19:58,096 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-02-28 16:19:58,096 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src]
-2019-02-28 16:19:58,113 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/.git/
+2019-03-22 17:54:48,963 INFO  DownloadService - Downloading "https://github.com/TutorialsAndroid/SEmojis/archive/master.zip", attempt 3
+2019-03-22 17:54:56,612 INFO  DownloadService - Downloaded https://github.com/TutorialsAndroid/SEmojis/archive/master.zip, attempt 3
+2019-03-22 17:54:56,613 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/master.zip": 1 MB
+2019-03-22 17:54:56,613 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-22 17:54:56,616 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/master.zip: true
+2019-03-22 17:54:56,616 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src'.
+2019-03-22 17:54:56,932 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-03-22 17:54:56,932 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src]
+2019-03-22 17:54:56,949 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/.git/
 
-2019-02-28 16:19:58,135 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/gradlew
-2019-02-28 16:19:58,158 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/semojis/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/build.gradle
-2019-02-28 16:19:58,180 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/semojis/build.gradle
-2019-02-28 16:19:58,181 INFO  ProjectBuildService - Remote scripts: none
-2019-02-28 16:19:58,181 INFO  ProjectFixService - Fixing project...
-2019-02-28 16:19:58,228 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/app/local.properties
-2019-02-28 16:19:58,229 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-02-28 16:19:58,229 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-02-28 16:19:58,229 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/semojis/local.properties
-2019-02-28 16:19:58,233 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/semojis/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-02-28 16:19:58,234 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/semojis/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-02-28 16:19:58,234 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/local.properties
-2019-02-28 16:19:58,235 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-02-28 16:19:58,235 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-02-28 16:19:58,236 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-02-28 16:19:58,236 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-02-28 16:19:58,236 INFO  ProjectFixService - Project was maybe fixed
-2019-02-28 16:19:58,236 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-28 16:19:58,236 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-28 16:20:06,275 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-02-28 16:20:06,275 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-28 16:20:06,276 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-28 16:20:40,575 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:checkDebugClasspath
-:app:preBuild UP-TO-DATE
-:semojis:preBuild UP-TO-DATE
-:semojis:preDebugBuild UP-TO-DATE
-:semojis:checkDebugManifest
-:semojis:processDebugManifest
-:app:preDebugBuild
-:semojis:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:semojis:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:prepareLintJar
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:semojis:compileDebugRenderscript
-:semojis:generateDebugResValues
-:semojis:generateDebugResources
-:semojis:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:semojis:generateDebugRFile
-:app:processDebugResources
-:app:generateDebugSources
-:semojis:generateDebugBuildConfig
-:semojis:prepareLintJar
-:semojis:generateDebugSources
-:semojis:javaPreCompileDebug
-:semojis:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+2019-03-22 17:54:56,972 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/gradlew
+2019-03-22 17:54:56,994 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/semojis/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/build.gradle
+2019-03-22 17:54:57,016 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/semojis/build.gradle
+2019-03-22 17:54:57,017 INFO  ProjectBuildService - Remote scripts: none
+2019-03-22 17:54:57,017 INFO  ProjectFixService - Fixing project...
+2019-03-22 17:54:57,061 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/app/local.properties
+2019-03-22 17:54:57,062 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-22 17:54:57,062 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-22 17:54:57,063 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/semojis/local.properties
+2019-03-22 17:54:57,064 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/semojis/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-22 17:54:57,064 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/semojis/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-22 17:54:57,065 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/local.properties
+2019-03-22 17:54:57,065 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-22 17:54:57,066 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-22 17:54:57,067 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-22 17:54:57,067 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-22 17:54:57,067 INFO  ProjectFixService - Project was maybe fixed
+2019-03-22 17:54:57,067 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-22 17:54:57,068 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-22 17:55:03,834 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-22 17:55:03,834 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-22 17:55:03,834 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-22 17:55:38,218 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :semojis:preBuild UP-TO-DATE
+> Task :semojis:preDebugBuild UP-TO-DATE
+> Task :semojis:checkDebugManifest
+> Task :semojis:processDebugManifest
+> Task :app:preDebugBuild
+> Task :semojis:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :semojis:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :semojis:compileDebugRenderscript
+> Task :semojis:generateDebugBuildConfig
+> Task :semojis:generateDebugResValues
+> Task :semojis:generateDebugResources
+> Task :semojis:packageDebugResources
+> Task :semojis:generateDebugRFile
+> Task :semojis:prepareLintJar
+> Task :semojis:generateDebugSources
+> Task :semojis:javaPreCompileDebug
+
+> Task :semojis:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:semojis:processDebugJavaRes NO-SOURCE
-:semojis:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:semojis:mergeDebugShaders
-:semojis:compileDebugShaders
-:semojis:generateDebugAssets
-:semojis:packageDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:semojis:compileDebugNdk NO-SOURCE
-:semojis:mergeDebugJniLibFolders
-:semojis:transformNativeLibsWithMergeJniLibsForDebug
-:semojis:transformNativeLibsWithStripDebugSymbolForDebug
-:semojis:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
-:semojis:preReleaseBuild UP-TO-DATE
-:semojis:checkReleaseManifest
-:semojis:processReleaseManifest
-:app:preReleaseBuild
-:semojis:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:semojis:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:semojis:compileReleaseRenderscript
-:semojis:generateReleaseResValues
-:semojis:generateReleaseResources
-:semojis:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:semojis:generateReleaseRFile
-:app:processReleaseResources
-:app:generateReleaseSources
-:semojis:generateReleaseBuildConfig
-:semojis:generateReleaseSources
-:semojis:javaPreCompileRelease
-:semojis:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+> Task :semojis:processDebugJavaRes NO-SOURCE
+> Task :semojis:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :semojis:mergeDebugShaders
+> Task :semojis:compileDebugShaders
+> Task :semojis:generateDebugAssets
+> Task :semojis:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :semojis:createFullJarDebug
+> Transform full.jar (project :semojis) with IdentityTransform
+> Task :app:mergeExtDexDebug
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :semojis:compileDebugNdk NO-SOURCE
+> Task :semojis:mergeDebugJniLibFolders
+> Transform full.jar (project :semojis) with DexingTransform
+> Task :semojis:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:mergeDexDebug
+> Task :semojis:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :semojis:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :semojis:preReleaseBuild UP-TO-DATE
+> Task :semojis:checkReleaseManifest
+> Task :semojis:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :semojis:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :semojis:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :semojis:compileReleaseRenderscript
+> Task :semojis:generateReleaseBuildConfig
+> Task :semojis:generateReleaseResValues
+> Task :semojis:generateReleaseResources
+> Task :semojis:packageReleaseResources
+> Task :semojis:generateReleaseRFile
+> Task :semojis:generateReleaseSources
+> Task :semojis:javaPreCompileRelease
+
+> Task :semojis:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:semojis:processReleaseJavaRes NO-SOURCE
-:semojis:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/1ffc82ae0ee857e3ecaeb1359293ab76/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:semojis:mergeReleaseShaders
-:semojis:compileReleaseShaders
-:semojis:generateReleaseAssets
-:semojis:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:semojis:compileReleaseNdk NO-SOURCE
-:semojis:mergeReleaseJniLibFolders
-:semojis:transformNativeLibsWithMergeJniLibsForRelease
-:semojis:transformNativeLibsWithStripDebugSymbolForRelease
-:semojis:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:checkReleaseLibraries
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+> Task :semojis:processReleaseJavaRes NO-SOURCE
+> Task :semojis:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/68d7a9140d8caff49181fcd9d423d407/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :semojis:createFullJarRelease
+> Transform full.jar (project :semojis) with IdentityTransform
+> Task :app:mergeExtDexRelease
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :semojis:mergeReleaseShaders
+> Task :semojis:compileReleaseShaders
+> Task :semojis:generateReleaseAssets
+> Task :semojis:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :semojis:compileReleaseNdk NO-SOURCE
+> Task :semojis:mergeReleaseJniLibFolders
+> Task :semojis:transformNativeLibsWithMergeJniLibsForRelease
+> Task :semojis:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :semojis:transformNativeLibsWithIntermediateJniLibsForRelease
+> Transform full.jar (project :semojis) with DexingTransform
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:mergeDexRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
 
 BUILD SUCCESSFUL in 33s
-90 actionable tasks: 90 executed
+88 actionable tasks: 88 executed
 
-2019-02-28 16:20:40,788 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551345595475-0/src/SEmojis-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-22 17:55:38,390 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553252088960-0/src/SEmojis-master/app/build/outputs/apk/debug/app-debug.apk
