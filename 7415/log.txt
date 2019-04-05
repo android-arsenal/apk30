@@ -1,36 +1,36 @@
-2019-04-05 11:41:41,187 INFO  DownloadService - Downloading "https://github.com/Pradyuman7/ChocoBar/archive/master.zip", attempt 3
-2019-04-05 11:41:43,253 INFO  DownloadService - Downloaded https://github.com/Pradyuman7/ChocoBar/archive/master.zip, attempt 3
-2019-04-05 11:41:43,253 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/master.zip": 156 KB
-2019-04-05 11:41:43,253 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-05 11:41:43,259 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/master.zip: true
-2019-04-05 11:41:43,259 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src'.
-2019-04-05 11:41:43,283 INFO  FullProcessService - Size of directory with sources: 185 KB
-2019-04-05 11:41:43,283 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src]
-2019-04-05 11:41:43,301 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/.git/
+2019-04-05 15:29:56,273 INFO  DownloadService - Downloading "https://github.com/Pradyuman7/ChocoBar/archive/master.zip", attempt 3
+2019-04-05 15:29:58,796 INFO  DownloadService - Downloaded https://github.com/Pradyuman7/ChocoBar/archive/master.zip, attempt 3
+2019-04-05 15:29:58,796 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/master.zip": 156 KB
+2019-04-05 15:29:58,796 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-05 15:29:58,801 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/master.zip: true
+2019-04-05 15:29:58,802 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src'.
+2019-04-05 15:29:58,828 INFO  FullProcessService - Size of directory with sources: 185 KB
+2019-04-05 15:29:58,828 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src]
+2019-04-05 15:29:58,851 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/.git/
 
-2019-04-05 11:41:43,305 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/gradlew
-2019-04-05 11:41:43,309 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/chocobar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/build.gradle
-2019-04-05 11:41:43,312 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/chocobar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/settings.gradle
-2019-04-05 11:41:43,312 INFO  ProjectBuildService - Remote scripts: none
-2019-04-05 11:41:43,312 INFO  ProjectFixService - Fixing project...
-2019-04-05 11:41:43,321 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/app/local.properties
-2019-04-05 11:41:43,322 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 11:41:43,322 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 11:41:43,323 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/chocobar/local.properties
-2019-04-05 11:41:43,324 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/chocobar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 11:41:43,324 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/chocobar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 11:41:43,325 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/local.properties
-2019-04-05 11:41:43,325 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-04-05 11:41:43,325 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-04-05 11:41:43,326 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 11:41:43,327 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 11:41:43,327 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 11:41:43,327 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 11:41:43,327 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 11:41:50,814 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-04-05 11:41:50,814 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-05 11:41:50,815 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-05 11:42:23,310 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 15:29:58,855 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/gradlew
+2019-04-05 15:29:58,860 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/chocobar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/build.gradle
+2019-04-05 15:29:58,863 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/chocobar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/settings.gradle
+2019-04-05 15:29:58,863 INFO  ProjectBuildService - Remote scripts: none
+2019-04-05 15:29:58,864 INFO  ProjectFixService - Fixing project...
+2019-04-05 15:29:58,873 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/app/local.properties
+2019-04-05 15:29:58,874 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-05 15:29:58,874 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-05 15:29:58,875 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/chocobar/local.properties
+2019-04-05 15:29:58,882 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/chocobar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-05 15:29:58,882 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/chocobar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-05 15:29:58,883 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/local.properties
+2019-04-05 15:29:58,883 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-04-05 15:29:58,883 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-04-05 15:29:58,884 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-05 15:29:58,884 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-05 15:29:58,885 INFO  ProjectFixService - Project was maybe fixed
+2019-04-05 15:29:58,885 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 15:29:58,885 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 15:30:05,906 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-04-05 15:30:05,906 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-05 15:30:05,906 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-05 15:30:33,647 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :chocobar:preBuild UP-TO-DATE
 :chocobar:preDebugBuild UP-TO-DATE
@@ -88,6 +88,35 @@
 :app:checkReleaseManifest
 :app:generateReleaseBuildConfig
 :app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:chocobar:compileReleaseRenderscript
+:chocobar:generateReleaseResValues
+:chocobar:generateReleaseResources
+:chocobar:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:chocobar:generateReleaseBuildConfig
+:chocobar:javaPreCompileRelease
+:chocobar:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:chocobar:mergeReleaseShaders
+:chocobar:compileReleaseShaders
+:chocobar:generateReleaseAssets
+:chocobar:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:chocobar:compileReleaseNdk NO-SOURCE
+:chocobar:mergeReleaseJniLibFolders
+:chocobar:transformNativeLibsWithMergeJniLibsForRelease
+:chocobar:transformNativeLibsWithStripDebugSymbolForRelease
+:chocobar:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
 :chocobar:generateDebugRFile
 :app:processDebugResources
 :app:generateDebugSources
@@ -105,57 +134,28 @@
 :app:transformResourcesWithMergeJavaResForDebug
 :app:packageDebug
 :app:assembleDebug
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:chocobar:compileReleaseRenderscript
-:chocobar:generateReleaseResValues
-:chocobar:generateReleaseResources
-:chocobar:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
 :chocobar:generateReleaseRFile
 :app:processReleaseResources
 :app:generateReleaseSources
-:chocobar:generateReleaseBuildConfig
 :chocobar:generateReleaseSources
-:chocobar:javaPreCompileRelease
 :chocobar:compileReleaseJavaWithJavac
-:chocobar:processReleaseJavaRes NO-SOURCE
 :chocobar:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :app:javaPreCompileRelease
 :app:compileReleaseJavaWithJavac
-:app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
 :app:lintVitalRelease
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:chocobar:mergeReleaseShaders
-:chocobar:compileReleaseShaders
-:chocobar:generateReleaseAssets
-:chocobar:packageReleaseAssets
-:app:mergeReleaseAssets
 :app:transformClassesWithDexBuilderForRelease
 :app:transformDexArchiveWithExternalLibsDexMergerForRelease
 :app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:chocobar:compileReleaseNdk NO-SOURCE
-:chocobar:mergeReleaseJniLibFolders
-:chocobar:transformNativeLibsWithMergeJniLibsForRelease
-:chocobar:transformNativeLibsWithStripDebugSymbolForRelease
-:chocobar:transformNativeLibsWithIntermediateJniLibsForRelease
 :app:transformNativeLibsWithMergeJniLibsForRelease
 :app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:processReleaseJavaRes NO-SOURCE
 :app:transformResourcesWithMergeJavaResForRelease
 :app:packageRelease
 :app:assembleRelease
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 31s
+BUILD SUCCESSFUL in 26s
 91 actionable tasks: 91 executed
 
-2019-04-05 11:42:23,407 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554439301180-0/src/ChocoBar-master/app/build/outputs/apk/debug/app-debug.apk
+2019-04-05 15:30:33,749 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554452996265-0/src/ChocoBar-master/app/build/outputs/apk/debug/app-debug.apk
