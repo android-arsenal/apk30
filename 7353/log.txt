@@ -1,41 +1,40 @@
-2019-05-05 18:02:31,168 INFO  DownloadService - Downloading "https://github.com/AliAsadi/PowerPreference/archive/master.zip", attempt 3
-2019-05-05 18:02:33,128 INFO  DownloadService - Downloaded https://github.com/AliAsadi/PowerPreference/archive/master.zip, attempt 3
-2019-05-05 18:02:33,128 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/master.zip": 175 KB
-2019-05-05 18:02:33,128 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-05 18:02:33,129 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/master.zip: true
-2019-05-05 18:02:33,129 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src'.
-2019-05-05 18:02:33,158 INFO  FullProcessService - Size of directory with sources: 266 KB
-2019-05-05 18:02:33,158 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src]
-2019-05-05 18:02:33,181 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/.git/
+2019-05-14 14:27:09,595 INFO  DownloadService - Downloading "https://github.com/AliAsadi/PowerPreference/archive/master.zip", attempt 3
+2019-05-14 14:27:10,305 INFO  DownloadService - Downloaded https://github.com/AliAsadi/PowerPreference/archive/master.zip, attempt 3
+2019-05-14 14:27:10,306 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/master.zip": 175 KB
+2019-05-14 14:27:10,306 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-14 14:27:10,306 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/master.zip: true
+2019-05-14 14:27:10,307 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src'.
+2019-05-14 14:27:10,346 INFO  FullProcessService - Size of directory with sources: 266 KB
+2019-05-14 14:27:10,346 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src]
+2019-05-14 14:27:10,366 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/.git/
 
-2019-05-05 18:02:33,186 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/gradlew
-2019-05-05 18:02:33,190 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/power-preference-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/build.gradle
-2019-05-05 18:02:33,194 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/power-preference-lib/build.gradle
-2019-05-05 18:02:33,194 INFO  ProjectBuildService - Remote scripts: none
-2019-05-05 18:02:33,194 INFO  ProjectFixService - Fixing project...
-2019-05-05 18:02:33,204 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/power-preference-lib/local.properties
-2019-05-05 18:02:33,205 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/power-preference-lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
-2019-05-05 18:02:33,206 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/power-preference-lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
-2019-05-05 18:02:33,207 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/sample-app/local.properties
-2019-05-05 18:02:33,208 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
-2019-05-05 18:02:33,208 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
-2019-05-05 18:02:33,209 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/local.properties
-2019-05-05 18:02:33,210 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-05-05 18:02:33,210 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-05-05 18:02:33,211 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
-2019-05-05 18:02:33,211 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
-2019-05-05 18:02:33,212 INFO  ProjectFixService - Project was maybe fixed
-2019-05-05 18:02:33,212 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-05 18:02:33,212 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/power-preference-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-05 18:02:44,767 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-05 18:02:44,768 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-05 18:02:44,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/power-preference-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-05 18:03:06,890 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-14 14:27:10,370 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/gradlew
+2019-05-14 14:27:10,375 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/power-preference-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/build.gradle
+2019-05-14 14:27:10,379 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/power-preference-lib/build.gradle
+2019-05-14 14:27:10,379 INFO  ProjectBuildService - Remote scripts: none
+2019-05-14 14:27:10,379 INFO  ProjectFixService - Fixing project...
+2019-05-14 14:27:10,390 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/power-preference-lib/local.properties
+2019-05-14 14:27:10,392 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/power-preference-lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-05-14 14:27:10,392 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/power-preference-lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-05-14 14:27:10,396 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/sample-app/local.properties
+2019-05-14 14:27:10,397 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-05-14 14:27:10,398 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-05-14 14:27:10,399 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/local.properties
+2019-05-14 14:27:10,400 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-05-14 14:27:10,400 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-05-14 14:27:10,402 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-05-14 14:27:10,402 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-05-14 14:27:10,403 INFO  ProjectFixService - Project was maybe fixed
+2019-05-14 14:27:10,403 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-14 14:27:10,403 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/power-preference-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-14 14:27:18,341 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-05-14 14:27:18,342 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-14 14:27:18,342 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/power-preference-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-14 14:27:37,633 INFO  SysUtils - Configuration on demand is an incubating feature.
 :power-preference-lib:preBuild UP-TO-DATE
 :power-preference-lib:preDebugBuild UP-TO-DATE
 :power-preference-lib:compileDebugAidl NO-SOURCE
 :power-preference-lib:compileDebugRenderscript
-Download https://jcenter.bintray.com/com/thoughtbot/expandablerecyclerview/1.3/expandablerecyclerview-1.3.aar
 :power-preference-lib:checkDebugManifest
 :power-preference-lib:generateDebugBuildConfig
 :power-preference-lib:generateDebugResValues
@@ -48,7 +47,7 @@ Download https://jcenter.bintray.com/com/thoughtbot/expandablerecyclerview/1.3/e
 :power-preference-lib:javaPreCompileDebug
 :power-preference-lib:compileDebugJavaWithJavac
 Download https://jcenter.bintray.com/com/google/errorprone/error_prone_core/maven-metadata.xml
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/power-preference-lib/src/main/java/com/preference/PreferenceCreator.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/power-preference-lib/src/main/java/com/preference/PreferenceCreator.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :power-preference-lib:extractDebugAnnotations
 :power-preference-lib:mergeDebugConsumerProguardFiles
@@ -80,7 +79,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :power-preference-lib:generateReleaseRFile
 :power-preference-lib:generateReleaseSources
 :power-preference-lib:javaPreCompileRelease
-:power-preference-lib:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/power-preference-lib/src/main/java/com/preference/PreferenceCreator.java uses unchecked or unsafe operations.
+:power-preference-lib:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/power-preference-lib/src/main/java/com/preference/PreferenceCreator.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :power-preference-lib:extractReleaseAnnotations
@@ -106,15 +105,15 @@ Note: Recompile with -Xlint:unchecked for details.
 :power-preference-lib:assemble
 :power-preference-lib:build
 
-BUILD SUCCESSFUL in 21s
+BUILD SUCCESSFUL in 18s
 45 actionable tasks: 45 executed
 
-2019-05-05 18:03:06,938 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-05 18:03:06,938 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-05 18:03:13,121 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-05-05 18:03:13,121 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-05 18:03:13,121 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-05 18:03:40,945 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-14 14:27:37,682 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-14 14:27:37,682 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-14 14:27:43,930 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-05-14 14:27:43,930 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-14 14:27:43,931 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-14 14:28:08,912 INFO  SysUtils - Configuration on demand is an incubating feature.
 :power-preference-lib:preBuild UP-TO-DATE
 :power-preference-lib:preDebugBuild UP-TO-DATE
 :power-preference-lib:compileDebugAidl NO-SOURCE
@@ -215,8 +214,9 @@ BUILD SUCCESSFUL in 21s
 :sample-app:compileReleaseNdk NO-SOURCE
 :sample-app:compileReleaseSources
 :sample-app:lintVitalRelease
-Download https://jcenter.bintray.com/org/mockito/mockito-android/2.7.22/mockito-android-2.7.22.jar
-Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-android/1.6.5/byte-buddy-android-1.6.5.jar
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-agent/1.6.11/byte-buddy-agent-1.6.11.jar
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.7.22/mockito-core-2.7.22.jar
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11.jar
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/39f2e77d9dc0a50917cb66a7426eab6f/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 :power-preference-lib:mergeReleaseShaders UP-TO-DATE
 :power-preference-lib:compileReleaseShaders UP-TO-DATE
@@ -245,7 +245,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :sample-app:assemble
 :sample-app:build
 
-BUILD SUCCESSFUL in 27s
+BUILD SUCCESSFUL in 24s
 90 actionable tasks: 59 executed, 31 up-to-date
 
-2019-05-05 18:03:41,066 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054151165-0/src/PowerPreference-master/sample-app/build/outputs/apk/release/sample-app-release-unsigned.apk
+2019-05-14 14:28:09,013 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818829593-0/src/PowerPreference-master/sample-app/build/outputs/apk/release/sample-app-release-unsigned.apk

@@ -1,387 +1,632 @@
-2019-03-01 11:13:01,518 INFO  DownloadService - Downloading "https://github.com/tomasznajda/rx-recaptcha/archive/master.zip", attempt 3
-2019-03-01 11:13:03,463 INFO  DownloadService - Downloaded https://github.com/tomasznajda/rx-recaptcha/archive/master.zip, attempt 3
-2019-03-01 11:13:03,463 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/master.zip": 149 KB
-2019-03-01 11:13:03,463 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-01 11:13:03,465 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/master.zip: true
-2019-03-01 11:13:03,465 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src'.
-2019-03-01 11:13:03,483 INFO  FullProcessService - Size of directory with sources: 172 KB
-2019-03-01 11:13:03,483 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src]
-2019-03-01 11:13:03,502 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/.git/
+2019-05-14 14:28:16,631 INFO  DownloadService - Downloading "https://github.com/tomasznajda/rx-recaptcha/archive/master.zip", attempt 3
+2019-05-14 14:28:18,618 INFO  DownloadService - Downloaded https://github.com/tomasznajda/rx-recaptcha/archive/master.zip, attempt 3
+2019-05-14 14:28:18,618 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/master.zip": 149 KB
+2019-05-14 14:28:18,618 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-14 14:28:18,621 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/master.zip: true
+2019-05-14 14:28:18,621 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src'.
+2019-05-14 14:28:18,642 INFO  FullProcessService - Size of directory with sources: 172 KB
+2019-05-14 14:28:18,642 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src]
+2019-05-14 14:28:18,661 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/.git/
 
-2019-03-01 11:13:03,505 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/gradlew
-2019-03-01 11:13:03,508 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/build.gradle
-2019-03-01 11:13:03,511 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/settings.gradle
-2019-03-01 11:13:03,512 INFO  ProjectBuildService - Remote scripts: none
-2019-03-01 11:13:03,512 INFO  ProjectFixService - Fixing project...
-2019-03-01 11:13:03,520 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/rxrecaptcha/local.properties
-2019-03-01 11:13:03,521 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-01 11:13:03,521 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-01 11:13:03,522 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/local.properties
-2019-03-01 11:13:03,524 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-03-01 11:13:03,524 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-03-01 11:13:03,525 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/local.properties
-2019-03-01 11:13:03,525 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-03-01 11:13:03,526 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-03-01 11:13:03,528 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-01 11:13:03,528 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-01 11:13:03,529 INFO  ProjectFixService - Project was maybe fixed
-2019-03-01 11:13:03,529 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-01 11:13:03,531 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-01 11:13:12,434 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-03-01 11:13:12,435 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-01 11:13:12,435 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-01 11:13:35,607 INFO  SysUtils - Configuration on demand is an incubating feature.
-:rxrecaptcha:preBuild UP-TO-DATE
-:rxrecaptcha:preDebugBuild UP-TO-DATE
-:rxrecaptcha:compileDebugAidl NO-SOURCE
-:rxrecaptcha:compileDebugRenderscript
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-media-compat/26.1.0/support-media-compat-26.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/26.1.0/support-core-utils-26.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/26.1.0/support-v4-26.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/26.1.0/support-compat-26.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/26.1.0/support-fragment-26.1.0.aar
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.0.0/runtime-1.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/26.1.0/support-core-ui-26.1.0.aar
-:rxrecaptcha:checkDebugManifest
-:rxrecaptcha:generateDebugBuildConfig
-:rxrecaptcha:generateDebugResValues
-:rxrecaptcha:generateDebugResources
-:rxrecaptcha:packageDebugResources
-:rxrecaptcha:processDebugManifest
-:rxrecaptcha:generateDebugRFile
-:rxrecaptcha:compileDebugKotlin
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.0.0/common-1.0.0.jar
-Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.0.0/common-1.0.0.jar
-:rxrecaptcha:prepareLintJar
-:rxrecaptcha:generateDebugSources
-:rxrecaptcha:javaPreCompileDebug
-:rxrecaptcha:compileDebugJavaWithJavac
-:rxrecaptcha:extractDebugAnnotations
-:rxrecaptcha:mergeDebugConsumerProguardFiles
-:rxrecaptcha:mergeDebugShaders
-:rxrecaptcha:compileDebugShaders
-:rxrecaptcha:generateDebugAssets
-:rxrecaptcha:packageDebugAssets
-:rxrecaptcha:packageDebugRenderscript NO-SOURCE
-:rxrecaptcha:processDebugJavaRes NO-SOURCE
-:rxrecaptcha:transformResourcesWithMergeJavaResForDebug
-:rxrecaptcha:transformClassesAndResourcesWithSyncLibJarsForDebug
-:rxrecaptcha:compileDebugNdk NO-SOURCE
-:rxrecaptcha:mergeDebugJniLibFolders
-:rxrecaptcha:transformNativeLibsWithMergeJniLibsForDebug
-:rxrecaptcha:transformNativeLibsWithStripDebugSymbolForDebug
-:rxrecaptcha:transformNativeLibsWithSyncJniLibsForDebug
-:rxrecaptcha:bundleDebugAar
-:rxrecaptcha:compileDebugSources
-:rxrecaptcha:assembleDebug
-:rxrecaptcha:preReleaseBuild UP-TO-DATE
-:rxrecaptcha:compileReleaseAidl NO-SOURCE
-:rxrecaptcha:compileReleaseRenderscript
-:rxrecaptcha:checkReleaseManifest
-:rxrecaptcha:generateReleaseBuildConfig
-:rxrecaptcha:generateReleaseResValues
-:rxrecaptcha:generateReleaseResources
-:rxrecaptcha:packageReleaseResources
-:rxrecaptcha:processReleaseManifest
-:rxrecaptcha:generateReleaseRFile
-:rxrecaptcha:compileReleaseKotlin
-:rxrecaptcha:generateReleaseSources
-:rxrecaptcha:javaPreCompileRelease
-:rxrecaptcha:compileReleaseJavaWithJavac
-:rxrecaptcha:extractReleaseAnnotations
-:rxrecaptcha:mergeReleaseConsumerProguardFiles
-:rxrecaptcha:mergeReleaseShaders
-:rxrecaptcha:compileReleaseShaders
-:rxrecaptcha:generateReleaseAssets
-:rxrecaptcha:packageReleaseAssets
-:rxrecaptcha:packageReleaseRenderscript NO-SOURCE
-:rxrecaptcha:processReleaseJavaRes NO-SOURCE
-:rxrecaptcha:transformResourcesWithMergeJavaResForRelease
-:rxrecaptcha:transformClassesAndResourcesWithSyncLibJarsForRelease
-:rxrecaptcha:compileReleaseNdk NO-SOURCE
-:rxrecaptcha:mergeReleaseJniLibFolders
-:rxrecaptcha:transformNativeLibsWithMergeJniLibsForRelease
-:rxrecaptcha:transformNativeLibsWithStripDebugSymbolForRelease
-:rxrecaptcha:transformNativeLibsWithSyncJniLibsForRelease
-:rxrecaptcha:bundleReleaseAar
-:rxrecaptcha:compileReleaseSources
-:rxrecaptcha:mergeReleaseResources
-:rxrecaptcha:verifyReleaseResources
-:rxrecaptcha:assembleRelease
-:rxrecaptcha:javadoc NO-SOURCE
-:rxrecaptcha:javadocJar
-:rxrecaptcha:sourcesJar
-:rxrecaptcha:assemble
-:rxrecaptcha:build
+2019-05-14 14:28:18,664 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/gradlew
+2019-05-14 14:28:18,668 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/build.gradle
+2019-05-14 14:28:18,671 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/settings.gradle
+2019-05-14 14:28:18,671 INFO  ProjectBuildService - Remote scripts: none
+2019-05-14 14:28:18,671 INFO  ProjectFixService - Fixing project...
+2019-05-14 14:28:18,679 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/rxrecaptcha/local.properties
+2019-05-14 14:28:18,680 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-14 14:28:18,680 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-14 14:28:18,681 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/sample/local.properties
+2019-05-14 14:28:18,682 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-14 14:28:18,682 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-14 14:28:18,683 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/local.properties
+2019-05-14 14:28:18,683 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-05-14 14:28:18,683 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-05-14 14:28:18,685 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-14 14:28:18,685 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-14 14:28:18,685 INFO  ProjectFixService - Project was maybe fixed
+2019-05-14 14:28:18,685 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-14 14:28:18,685 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-14 14:28:28,075 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-05-14 14:28:28,075 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-14 14:28:28,075 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/rxrecaptcha/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-14 14:28:47,226 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-BUILD SUCCESSFUL in 22s
+> Configure project :rxrecaptcha
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
+> Task :rxrecaptcha:preBuild UP-TO-DATE
+> Task :rxrecaptcha:preDebugBuild UP-TO-DATE
+> Task :rxrecaptcha:compileDebugAidl NO-SOURCE
+> Task :rxrecaptcha:compileDebugRenderscript
+> Task :rxrecaptcha:checkDebugManifest
+> Task :rxrecaptcha:generateDebugBuildConfig
+> Task :rxrecaptcha:generateDebugResValues
+> Task :rxrecaptcha:generateDebugResources
+> Task :rxrecaptcha:packageDebugResources
+> Task :rxrecaptcha:processDebugManifest
+> Task :rxrecaptcha:generateDebugRFile
+> Task :rxrecaptcha:compileDebugKotlin
+> Task :rxrecaptcha:prepareLintJar
+> Task :rxrecaptcha:generateDebugSources
+> Task :rxrecaptcha:javaPreCompileDebug
+> Task :rxrecaptcha:compileDebugJavaWithJavac
+> Task :rxrecaptcha:extractDebugAnnotations
+> Task :rxrecaptcha:mergeDebugConsumerProguardFiles
+> Task :rxrecaptcha:mergeDebugShaders
+> Task :rxrecaptcha:compileDebugShaders
+> Task :rxrecaptcha:generateDebugAssets
+> Task :rxrecaptcha:packageDebugAssets
+> Task :rxrecaptcha:packageDebugRenderscript NO-SOURCE
+> Task :rxrecaptcha:processDebugJavaRes NO-SOURCE
+> Task :rxrecaptcha:transformResourcesWithMergeJavaResForDebug
+> Task :rxrecaptcha:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :rxrecaptcha:compileDebugNdk NO-SOURCE
+> Task :rxrecaptcha:mergeDebugJniLibFolders
+> Task :rxrecaptcha:transformNativeLibsWithMergeJniLibsForDebug
+> Task :rxrecaptcha:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :rxrecaptcha:transformNativeLibsWithSyncJniLibsForDebug
+> Task :rxrecaptcha:bundleDebugAar
+> Task :rxrecaptcha:compileDebugSources
+> Task :rxrecaptcha:assembleDebug
+> Task :rxrecaptcha:preReleaseBuild UP-TO-DATE
+> Task :rxrecaptcha:compileReleaseAidl NO-SOURCE
+> Task :rxrecaptcha:compileReleaseRenderscript
+> Task :rxrecaptcha:checkReleaseManifest
+> Task :rxrecaptcha:generateReleaseBuildConfig
+> Task :rxrecaptcha:generateReleaseResValues
+> Task :rxrecaptcha:generateReleaseResources
+> Task :rxrecaptcha:packageReleaseResources
+> Task :rxrecaptcha:processReleaseManifest
+> Task :rxrecaptcha:generateReleaseRFile
+> Task :rxrecaptcha:compileReleaseKotlin
+> Task :rxrecaptcha:generateReleaseSources
+> Task :rxrecaptcha:javaPreCompileRelease
+> Task :rxrecaptcha:compileReleaseJavaWithJavac
+> Task :rxrecaptcha:extractReleaseAnnotations
+> Task :rxrecaptcha:mergeReleaseConsumerProguardFiles
+> Task :rxrecaptcha:mergeReleaseShaders
+> Task :rxrecaptcha:compileReleaseShaders
+> Task :rxrecaptcha:generateReleaseAssets
+> Task :rxrecaptcha:packageReleaseAssets
+> Task :rxrecaptcha:packageReleaseRenderscript NO-SOURCE
+> Task :rxrecaptcha:processReleaseJavaRes NO-SOURCE
+> Task :rxrecaptcha:transformResourcesWithMergeJavaResForRelease
+> Task :rxrecaptcha:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :rxrecaptcha:compileReleaseNdk NO-SOURCE
+> Task :rxrecaptcha:mergeReleaseJniLibFolders
+> Task :rxrecaptcha:transformNativeLibsWithMergeJniLibsForRelease
+> Task :rxrecaptcha:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :rxrecaptcha:transformNativeLibsWithSyncJniLibsForRelease
+> Task :rxrecaptcha:bundleReleaseAar
+> Task :rxrecaptcha:compileReleaseSources
+> Task :rxrecaptcha:mergeReleaseResources
+> Task :rxrecaptcha:verifyReleaseResources
+> Task :rxrecaptcha:assembleRelease
+> Task :rxrecaptcha:javadoc NO-SOURCE
+> Task :rxrecaptcha:javadocJar
+> Task :rxrecaptcha:sourcesJar
+> Task :rxrecaptcha:assemble
+> Task :rxrecaptcha:build
+
+BUILD SUCCESSFUL in 18s
 49 actionable tasks: 49 executed
 
-2019-03-01 11:13:35,649 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-01 11:13:35,649 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-01 11:13:42,682 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-03-01 11:13:42,682 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-01 11:13:42,683 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-01 11:14:32,506 INFO  SysUtils - Configuration on demand is an incubating feature.
-:rxrecaptcha:preBuild UP-TO-DATE
-:rxrecaptcha:preDebugBuild UP-TO-DATE
-:rxrecaptcha:compileDebugAidl NO-SOURCE
-:rxrecaptcha:compileDebugRenderscript UP-TO-DATE
-:rxrecaptcha:checkDebugManifest UP-TO-DATE
-:rxrecaptcha:generateDebugBuildConfig UP-TO-DATE
-:rxrecaptcha:generateDebugResValues UP-TO-DATE
-:rxrecaptcha:generateDebugResources UP-TO-DATE
-:rxrecaptcha:packageDebugResources UP-TO-DATE
-:rxrecaptcha:processDebugManifest UP-TO-DATE
-:rxrecaptcha:generateDebugRFile UP-TO-DATE
-:rxrecaptcha:compileDebugKotlin UP-TO-DATE
-:rxrecaptcha:prepareLintJar UP-TO-DATE
-:rxrecaptcha:generateDebugSources UP-TO-DATE
-:rxrecaptcha:javaPreCompileDebug UP-TO-DATE
-:rxrecaptcha:compileDebugJavaWithJavac UP-TO-DATE
-:rxrecaptcha:processDebugJavaRes NO-SOURCE
-:rxrecaptcha:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:sample:checkDebugClasspath
-:sample:preBuild UP-TO-DATE
-:sample:preDebugBuild
-:sample:compileDebugAidl NO-SOURCE
-:rxrecaptcha:packageDebugRenderscript NO-SOURCE
-:sample:compileDebugRenderscript
-:sample:checkDebugManifest
-:sample:generateDebugBuildConfig
-:sample:mainApkListPersistenceDebug
-:sample:generateDebugResValues
-:sample:generateDebugResources
-:sample:mergeDebugResources
-:sample:createDebugCompatibleScreenManifests
-:sample:processDebugManifest
-:sample:splitsDiscoveryTaskDebug
-:sample:processDebugResources
-:sample:compileDebugKotlin
-:sample:prepareLintJar
-:sample:generateDebugSources
-:sample:javaPreCompileDebug
-:sample:compileDebugJavaWithJavac
-:sample:compileDebugNdk NO-SOURCE
-:sample:compileDebugSources
-:rxrecaptcha:mergeDebugShaders UP-TO-DATE
-:rxrecaptcha:compileDebugShaders UP-TO-DATE
-:rxrecaptcha:generateDebugAssets UP-TO-DATE
-:rxrecaptcha:packageDebugAssets UP-TO-DATE
-:sample:mergeDebugShaders
-:sample:compileDebugShaders
-:sample:generateDebugAssets
-:sample:mergeDebugAssets
-:sample:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5bc44acc4b3f0d19166ae3e50454b41e8ff29335/kotlin-stdlib-1.2.61.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
-  Attempt to read local this but no local information was associated with the value being read.
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5bc44acc4b3f0d19166ae3e50454b41e8ff29335/kotlin-stdlib-1.2.61.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
-  Attempt to read local this but no local information was associated with the value being read.
-:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
-:sample:transformDexArchiveWithDexMergerForDebug
-:rxrecaptcha:compileDebugNdk NO-SOURCE
-:rxrecaptcha:mergeDebugJniLibFolders UP-TO-DATE
-:rxrecaptcha:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:rxrecaptcha:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:rxrecaptcha:transformNativeLibsWithIntermediateJniLibsForDebug
-:sample:mergeDebugJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForDebug
-:sample:transformNativeLibsWithStripDebugSymbolForDebug
-:sample:checkDebugLibraries
-:sample:processDebugJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForDebug
-:sample:validateSigningDebug
-:sample:packageDebug
-:sample:assembleDebug
-:rxrecaptcha:preReleaseBuild UP-TO-DATE
-:rxrecaptcha:compileReleaseAidl NO-SOURCE
-:rxrecaptcha:compileReleaseRenderscript UP-TO-DATE
-:rxrecaptcha:checkReleaseManifest UP-TO-DATE
-:rxrecaptcha:generateReleaseBuildConfig UP-TO-DATE
-:rxrecaptcha:generateReleaseResValues UP-TO-DATE
-:rxrecaptcha:generateReleaseResources UP-TO-DATE
-:rxrecaptcha:packageReleaseResources UP-TO-DATE
-:rxrecaptcha:processReleaseManifest UP-TO-DATE
-:rxrecaptcha:generateReleaseRFile UP-TO-DATE
-:rxrecaptcha:compileReleaseKotlin UP-TO-DATE
-:rxrecaptcha:generateReleaseSources UP-TO-DATE
-:rxrecaptcha:javaPreCompileRelease UP-TO-DATE
-:rxrecaptcha:compileReleaseJavaWithJavac UP-TO-DATE
-:rxrecaptcha:processReleaseJavaRes NO-SOURCE
-:rxrecaptcha:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:sample:checkReleaseClasspath
-:sample:extractProguardFiles
-:sample:preReleaseBuild
-:sample:compileReleaseAidl NO-SOURCE
-:rxrecaptcha:packageReleaseRenderscript NO-SOURCE
-:sample:compileReleaseRenderscript
-:sample:checkReleaseManifest
-:sample:generateReleaseBuildConfig
-:sample:mainApkListPersistenceRelease
-:sample:generateReleaseResValues
-:sample:generateReleaseResources
-:sample:mergeReleaseResources
-:sample:createReleaseCompatibleScreenManifests
-:sample:processReleaseManifest
-:sample:splitsDiscoveryTaskRelease
-:sample:processReleaseResources
-:sample:compileReleaseKotlin
-:sample:generateReleaseSources
-:sample:javaPreCompileRelease
-:sample:compileReleaseJavaWithJavac
-:sample:compileReleaseNdk NO-SOURCE
-:sample:compileReleaseSources
-:sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/7bbe708d341367a5a07087d88832f316/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/5c867528f063e41217dd0b92e1042dde/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-:rxrecaptcha:mergeReleaseShaders UP-TO-DATE
-:rxrecaptcha:compileReleaseShaders UP-TO-DATE
-:rxrecaptcha:generateReleaseAssets UP-TO-DATE
-:rxrecaptcha:packageReleaseAssets UP-TO-DATE
-:sample:mergeReleaseShaders
-:sample:compileReleaseShaders
-:sample:generateReleaseAssets
-:sample:mergeReleaseAssets
-:rxrecaptcha:mergeReleaseConsumerProguardFiles UP-TO-DATE
-:sample:checkReleaseLibraries
-:sample:processReleaseJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForRelease
-:sample:transformClassesAndResourcesWithProguardForRelease
-Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
-thread-pool size=4
-ProGuard, version 6.0.3
-Reading input...
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.61/bc77c34ff80df88b4d9b0418ea4ae758544573f3/kotlin-stdlib-jdk7-1.2.61.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxkotlin/2.2.0/e1e2fbb13b1c7dc6d2d03b6221a016d1501ad5a9/rxkotlin-2.2.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxbinding-kotlin-2.1.1.aar/6df6ae2826788839987ffdc9c088a88a/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxbinding-2.1.1.aar/45be278470035f85f3c2e35b75420a2b/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.0.aar/a3a3364142e1632d009abb0e56fb4c57/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.3/f829e7c489f5b3586bca2199c9017a6d6e1e01be/rxjava-2.2.3.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/58b94f363d2155d2e26bf602eab76a05/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e9104a634c50fe1cf7dfc9b857ff9328/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5bc44acc4b3f0d19166ae3e50454b41e8ff29335/kotlin-stdlib-1.2.61.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c3a8556deb0049829e42deded8b2627e/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d5edc1675a8b12cfddac1ad50f8d897a/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-16.0.0.aar/92a92d9498efc141a816d44ddd6d5034/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/27f5de36cb34e2456f529ce2b7002223/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e2a4dae8797cee6bf4fb89661b8088b2/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/80b9cf40334ede54fd0180da8347803f/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/7cfc0d90c945f3eedc8b572b559118cb/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c72e9722952704f79ce7d91e379aa8c8/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/5ee5415a0c1a9af4d741fa29fc5da6f5/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/da2bdc80b9fc684c8e92b419d4d74f2a/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/2941d9be9534002a0acdcef10cd0a153/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ac1cdc5ff508441db1391895ae3c5012/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4767771c2aa40db06e373d12259ce298/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/8de12300400c232cf28a9603a73f72d7/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/28e797388776d975a0b81b5ad4da1335/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/aa1faec335cc633cfc51d0c3a97c706d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.61/772de03e12d932f489e41aef997d26c20a4ebee6/kotlin-stdlib-common-1.2.61.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/rxrecaptcha/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/tmp/kotlin-classes/release] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
-Initializing...
-Note: the configuration refers to the unknown class 'com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian'
-Note: com.google.android.gms.common.util.WorkSourceUtil: can't find dynamically referenced class android.os.WorkSource$WorkChain
-Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.jdk8.JDK8PlatformImplementations
-Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE8PlatformImplementations
-Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE7PlatformImplementations
-Note: kotlin.jvm.internal.Reflection: can't find dynamically referenced class kotlin.reflect.jvm.internal.ReflectionFactoryImpl
-Note: the configuration refers to the unknown field 'com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian mResultGuardian' in class 'com.google.android.gms.common.api.internal.BasePendingResult'
-Note: the configuration keeps the entry point 'com.google.android.gms.common.api.internal.LifecycleCallback { com.google.android.gms.common.api.internal.LifecycleFragment getChimeraLifecycleFragmentImpl(com.google.android.gms.common.api.internal.LifecycleActivity); }', but not the descriptor class 'com.google.android.gms.common.api.internal.LifecycleActivity'
-Note: there were 1 references to unknown classes.
-      You should check your configuration for typos.
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
-Note: there were 1 references to unknown class members.
-      You should check your configuration for typos.
-Note: there were 1 unkept descriptor classes in kept class members.
-      You should consider explicitly keeping the mentioned classes
-      (using '-keep').
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
-Note: there were 5 unresolved dynamic references to classes or interfaces.
-      You should check if you need to specify additional program jars.
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
-Ignoring unused library classes...
-  Original number of library classes: 4612
-  Final number of library classes:    1183
-Printing kept classes, fields, and methods...
-Inlining subroutines...
-Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/outputs/mapping/release/usage.txt]...
-Removing unused program classes and class elements...
-  Original number of program classes: 5055
-  Final number of program classes:    1202
-Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/outputs/mapping/release/mapping.txt]...
-Preverifying...
-Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/intermediates/transforms/proguard/release/0.jar]
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.61/bc77c34ff80df88b4d9b0418ea4ae758544573f3/kotlin-stdlib-jdk7-1.2.61.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxkotlin/2.2.0/e1e2fbb13b1c7dc6d2d03b6221a016d1501ad5a9/rxkotlin-2.2.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxbinding-kotlin-2.1.1.aar/6df6ae2826788839987ffdc9c088a88a/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxbinding-2.1.1.aar/45be278470035f85f3c2e35b75420a2b/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.0.aar/a3a3364142e1632d009abb0e56fb4c57/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.3/f829e7c489f5b3586bca2199c9017a6d6e1e01be/rxjava-2.2.3.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/58b94f363d2155d2e26bf602eab76a05/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e9104a634c50fe1cf7dfc9b857ff9328/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5bc44acc4b3f0d19166ae3e50454b41e8ff29335/kotlin-stdlib-1.2.61.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c3a8556deb0049829e42deded8b2627e/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d5edc1675a8b12cfddac1ad50f8d897a/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-16.0.0.aar/92a92d9498efc141a816d44ddd6d5034/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/27f5de36cb34e2456f529ce2b7002223/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e2a4dae8797cee6bf4fb89661b8088b2/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/80b9cf40334ede54fd0180da8347803f/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/7cfc0d90c945f3eedc8b572b559118cb/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c72e9722952704f79ce7d91e379aa8c8/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/5ee5415a0c1a9af4d741fa29fc5da6f5/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/da2bdc80b9fc684c8e92b419d4d74f2a/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/2941d9be9534002a0acdcef10cd0a153/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ac1cdc5ff508441db1391895ae3c5012/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4767771c2aa40db06e373d12259ce298/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/8de12300400c232cf28a9603a73f72d7/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/28e797388776d975a0b81b5ad4da1335/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/aa1faec335cc633cfc51d0c3a97c706d/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.61/772de03e12d932f489e41aef997d26c20a4ebee6/kotlin-stdlib-common-1.2.61.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/rxrecaptcha/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/tmp/kotlin-classes/release] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-:sample:transformClassesWithDexBuilderForRelease
-:sample:transformDexArchiveWithDexMergerForRelease
-:rxrecaptcha:compileReleaseNdk NO-SOURCE
-:rxrecaptcha:mergeReleaseJniLibFolders UP-TO-DATE
-:rxrecaptcha:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:rxrecaptcha:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:rxrecaptcha:transformNativeLibsWithIntermediateJniLibsForRelease
-:sample:mergeReleaseJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForRelease
-:sample:transformNativeLibsWithStripDebugSymbolForRelease
-:sample:packageRelease
-:sample:assembleRelease
-:sample:assemble
-:sample:build
+2019-05-14 14:28:47,265 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-14 14:28:47,265 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-14 14:28:54,653 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-14 14:28:54,653 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-14 14:28:54,653 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-14 14:29:21,785 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-14 14:29:21,788 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-BUILD SUCCESSFUL in 49s
-96 actionable tasks: 62 executed, 34 up-to-date
+> Configure project :rxrecaptcha
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
 
-2019-03-01 11:14:32,622 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413581515-0/src/rx-recaptcha-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+> Task :rxrecaptcha:preBuild UP-TO-DATE
+> Task :rxrecaptcha:preDebugBuild UP-TO-DATE
+> Task :rxrecaptcha:compileDebugAidl NO-SOURCE
+> Task :rxrecaptcha:compileDebugRenderscript UP-TO-DATE
+> Task :rxrecaptcha:checkDebugManifest UP-TO-DATE
+> Task :rxrecaptcha:generateDebugBuildConfig UP-TO-DATE
+> Task :rxrecaptcha:generateDebugResValues UP-TO-DATE
+> Task :rxrecaptcha:generateDebugResources UP-TO-DATE
+> Task :rxrecaptcha:packageDebugResources UP-TO-DATE
+> Task :rxrecaptcha:processDebugManifest UP-TO-DATE
+> Task :rxrecaptcha:generateDebugRFile UP-TO-DATE
+> Task :rxrecaptcha:compileDebugKotlin UP-TO-DATE
+> Task :rxrecaptcha:prepareLintJar UP-TO-DATE
+> Task :rxrecaptcha:generateDebugSources UP-TO-DATE
+> Task :rxrecaptcha:javaPreCompileDebug UP-TO-DATE
+> Task :rxrecaptcha:compileDebugJavaWithJavac UP-TO-DATE
+> Task :rxrecaptcha:processDebugJavaRes NO-SOURCE
+> Task :rxrecaptcha:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :rxrecaptcha:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
+> Task :sample:compileDebugKotlin
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugNdk NO-SOURCE
+> Task :sample:compileDebugSources
+> Task :rxrecaptcha:mergeDebugShaders UP-TO-DATE
+> Task :rxrecaptcha:compileDebugShaders UP-TO-DATE
+> Task :rxrecaptcha:generateDebugAssets UP-TO-DATE
+> Task :rxrecaptcha:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :rxrecaptcha:createFullJarDebug
+> Transform full.jar (project :rxrecaptcha) with IdentityTransform
+
+> Task :sample:mergeExtDexDebug
+AGPBI: {"kind":"error","text":"Invoke-customs are only supported starting with Android O (--min-api 26)","sources":[{}],"tool":"D8"}
+
+> Task :sample:mergeExtDexDebug FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not resolve all files for configuration ':sample:debugRuntimeClasspath'.
+> Failed to transform file 'classes.jar' to match attributes {artifactType=android-dex, dexing-is-debuggable=true, dexing-min-sdk=14} using transform DexingTransform
+   > Error while dexing.
+     The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
+     android {
+         compileOptions {
+             sourceCompatibility 1.8
+             targetCompatibility 1.8
+         }
+     }
+     See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 26 or above.
+
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':sample:debugRuntimeClasspath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:1054)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1700(DefaultConfiguration.java:123)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:1028)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:76)
+	at org.gradle.api.internal.changedetection.state.DefaultFileSystemSnapshotter$FileCollectionVisitorImpl.visitCollection(DefaultFileSystemSnapshotter.java:257)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitRootElements(AbstractFileCollection.java:282)
+	at org.gradle.api.internal.file.CompositeFileCollection.visitRootElements(CompositeFileCollection.java:206)
+	at org.gradle.api.internal.changedetection.state.DefaultFileSystemSnapshotter.snapshot(DefaultFileSystemSnapshotter.java:142)
+	at org.gradle.internal.fingerprint.impl.AbstractFileCollectionFingerprinter.fingerprint(AbstractFileCollectionFingerprinter.java:54)
+	at org.gradle.internal.fingerprint.impl.AbstractPathOnlyFileCollectionFingerprinter.fingerprint(AbstractPathOnlyFileCollectionFingerprinter.java:37)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.fingerprintTaskFiles(CacheBackedTaskHistoryRepository.java:358)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.createExecution(CacheBackedTaskHistoryRepository.java:163)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.access$100(CacheBackedTaskHistoryRepository.java:76)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository$1.getCurrentExecution(CacheBackedTaskHistoryRepository.java:123)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.getStates(DefaultTaskArtifactStateRepository.java:200)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.isUpToDate(DefaultTaskArtifactStateRepository.java:94)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:50)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
+	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:277)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:262)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.artifacts.transform.ArtifactTransformException: Failed to transform file 'classes.jar' to match attributes {artifactType=android-dex, dexing-is-debuggable=true, dexing-min-sdk=14} using transform DexingTransform
+	at org.gradle.api.internal.artifacts.transform.UserCodeBackedTransformer.transform(UserCodeBackedTransformer.java:90)
+	at org.gradle.api.internal.artifacts.transform.ChainedTransformer.transform(ChainedTransformer.java:39)
+	at org.gradle.api.internal.artifacts.transform.TransformArtifactOperation.run(TransformArtifactOperation.java:51)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:48)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:342)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:154)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	... 3 more
+Caused by: com.android.builder.dexing.DexArchiveBuilderException: Error while dexing.
+The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
+android {
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+}
+See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 26 or above.
+
+	at com.android.builder.dexing.D8DexArchiveBuilder.getExceptionToRethrow(D8DexArchiveBuilder.java:124)
+	at com.android.builder.dexing.D8DexArchiveBuilder.convert(D8DexArchiveBuilder.java:101)
+	at com.android.build.gradle.internal.dependency.DexingTransform.transform(DexingTransform.kt:56)
+	at org.gradle.api.internal.artifacts.transform.TransformArtifactsAction.apply(TransformArtifactsAction.java:44)
+	at org.gradle.api.internal.artifacts.transform.TransformArtifactsAction.apply(TransformArtifactsAction.java:29)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformedFileCache$TransformAction.execute(DefaultTransformedFileCache.java:251)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformedFileCache$TransformAction.execute(DefaultTransformedFileCache.java:238)
+	at org.gradle.internal.resource.local.DefaultPathKeyFileStore$1.execute(DefaultPathKeyFileStore.java:91)
+	at org.gradle.internal.resource.local.DefaultPathKeyFileStore$1.execute(DefaultPathKeyFileStore.java:87)
+	at org.gradle.internal.resource.local.DefaultPathKeyFileStore.doAdd(DefaultPathKeyFileStore.java:137)
+	at org.gradle.internal.resource.local.DefaultPathKeyFileStore.doAdd(DefaultPathKeyFileStore.java:127)
+	at org.gradle.internal.resource.local.DefaultPathKeyFileStore.add(DefaultPathKeyFileStore.java:87)
+	at org.gradle.internal.resource.local.DefaultPathKeyFileStore.add(DefaultPathKeyFileStore.java:50)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformedFileCache$1$1.create(DefaultTransformedFileCache.java:163)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformedFileCache$1$1.create(DefaultTransformedFileCache.java:142)
+	at org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess.withFileLock(LockOnDemandCrossProcessCacheAccess.java:90)
+	at org.gradle.cache.internal.DefaultCacheAccess.withFileLock(DefaultCacheAccess.java:193)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.withFileLock(DefaultPersistentDirectoryStore.java:170)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.withFileLock(DefaultCacheFactory.java:195)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformedFileCache$1.create(DefaultTransformedFileCache.java:142)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformedFileCache$1.create(DefaultTransformedFileCache.java:135)
+	at org.gradle.cache.internal.ProducerGuard$AdaptiveProducerGuard.guardByKey(ProducerGuard.java:97)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformedFileCache.loadIntoCache(DefaultTransformedFileCache.java:135)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformedFileCache.getResult(DefaultTransformedFileCache.java:127)
+	at org.gradle.api.internal.artifacts.transform.UserCodeBackedTransformer.transform(UserCodeBackedTransformer.java:88)
+	... 17 more
+Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed to complete
+	at com.android.tools.r8.utils.ExceptionUtils.withCompilationHandler(ExceptionUtils.java:70)
+	at com.android.tools.r8.utils.ExceptionUtils.withD8CompilationHandler(ExceptionUtils.java:43)
+	at com.android.tools.r8.D8.run(D8.java:94)
+	at com.android.builder.dexing.D8DexArchiveBuilder.convert(D8DexArchiveBuilder.java:99)
+	... 40 more
+Caused by: com.android.tools.r8.utils.AbortException: Error: Invoke-customs are only supported starting with Android O (--min-api 26)
+	at com.android.tools.r8.utils.Reporter.failIfPendingErrors(Reporter.java:89)
+	at com.android.tools.r8.utils.Reporter.fatalError(Reporter.java:60)
+	at com.android.tools.r8.utils.ExceptionUtils.withCompilationHandler(ExceptionUtils.java:64)
+	... 43 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 26s
+34 actionable tasks: 20 executed, 14 up-to-date
+
+2019-05-14 14:29:21,851 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-14 14:29:21,851 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-14 14:29:30,047 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-05-14 14:29:30,047 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-14 14:29:30,047 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818896622-0/src/rx-recaptcha-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-14 14:29:41,150 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-14 14:29:41,150 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :rxrecaptcha
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
+> Task :rxrecaptcha:preBuild UP-TO-DATE
+> Task :rxrecaptcha:preDebugBuild UP-TO-DATE
+> Task :rxrecaptcha:compileDebugAidl NO-SOURCE
+> Task :rxrecaptcha:compileDebugRenderscript UP-TO-DATE
+> Task :rxrecaptcha:checkDebugManifest UP-TO-DATE
+> Task :rxrecaptcha:generateDebugBuildConfig UP-TO-DATE
+> Task :rxrecaptcha:generateDebugResValues UP-TO-DATE
+> Task :rxrecaptcha:generateDebugResources UP-TO-DATE
+> Task :rxrecaptcha:packageDebugResources UP-TO-DATE
+> Task :rxrecaptcha:processDebugManifest UP-TO-DATE
+> Task :rxrecaptcha:generateDebugRFile UP-TO-DATE
+> Task :rxrecaptcha:compileDebugKotlin UP-TO-DATE
+> Task :rxrecaptcha:prepareLintJar UP-TO-DATE
+> Task :rxrecaptcha:generateDebugSources UP-TO-DATE
+> Task :rxrecaptcha:javaPreCompileDebug UP-TO-DATE
+> Task :rxrecaptcha:compileDebugJavaWithJavac UP-TO-DATE
+> Task :rxrecaptcha:extractDebugAnnotations UP-TO-DATE
+> Task :rxrecaptcha:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :rxrecaptcha:mergeDebugShaders UP-TO-DATE
+> Task :rxrecaptcha:compileDebugShaders UP-TO-DATE
+> Task :rxrecaptcha:generateDebugAssets UP-TO-DATE
+> Task :rxrecaptcha:packageDebugAssets UP-TO-DATE
+> Task :rxrecaptcha:packageDebugRenderscript NO-SOURCE
+> Task :rxrecaptcha:processDebugJavaRes NO-SOURCE
+> Task :rxrecaptcha:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :rxrecaptcha:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :rxrecaptcha:compileDebugNdk NO-SOURCE
+> Task :rxrecaptcha:mergeDebugJniLibFolders UP-TO-DATE
+> Task :rxrecaptcha:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :rxrecaptcha:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :rxrecaptcha:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :rxrecaptcha:bundleDebugAar UP-TO-DATE
+> Task :rxrecaptcha:compileDebugSources UP-TO-DATE
+> Task :rxrecaptcha:assembleDebug UP-TO-DATE
+> Task :rxrecaptcha:preReleaseBuild UP-TO-DATE
+> Task :rxrecaptcha:compileReleaseAidl NO-SOURCE
+> Task :rxrecaptcha:compileReleaseRenderscript UP-TO-DATE
+> Task :rxrecaptcha:checkReleaseManifest UP-TO-DATE
+> Task :rxrecaptcha:generateReleaseBuildConfig UP-TO-DATE
+> Task :rxrecaptcha:generateReleaseResValues UP-TO-DATE
+> Task :rxrecaptcha:generateReleaseResources UP-TO-DATE
+> Task :rxrecaptcha:packageReleaseResources UP-TO-DATE
+> Task :rxrecaptcha:processReleaseManifest UP-TO-DATE
+> Task :rxrecaptcha:generateReleaseRFile UP-TO-DATE
+> Task :rxrecaptcha:compileReleaseKotlin UP-TO-DATE
+> Task :rxrecaptcha:generateReleaseSources UP-TO-DATE
+> Task :rxrecaptcha:javaPreCompileRelease UP-TO-DATE
+> Task :rxrecaptcha:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :rxrecaptcha:extractReleaseAnnotations UP-TO-DATE
+> Task :rxrecaptcha:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :rxrecaptcha:mergeReleaseShaders UP-TO-DATE
+> Task :rxrecaptcha:compileReleaseShaders UP-TO-DATE
+> Task :rxrecaptcha:generateReleaseAssets UP-TO-DATE
+> Task :rxrecaptcha:packageReleaseAssets UP-TO-DATE
+> Task :rxrecaptcha:packageReleaseRenderscript NO-SOURCE
+> Task :rxrecaptcha:processReleaseJavaRes NO-SOURCE
+> Task :rxrecaptcha:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :rxrecaptcha:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :rxrecaptcha:compileReleaseNdk NO-SOURCE
+> Task :rxrecaptcha:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :rxrecaptcha:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :rxrecaptcha:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :rxrecaptcha:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :rxrecaptcha:bundleReleaseAar UP-TO-DATE
+> Task :rxrecaptcha:compileReleaseSources UP-TO-DATE
+> Task :rxrecaptcha:mergeReleaseResources UP-TO-DATE
+> Task :rxrecaptcha:verifyReleaseResources
+> Task :rxrecaptcha:assembleRelease
+> Task :rxrecaptcha:javadoc NO-SOURCE
+> Task :rxrecaptcha:javadocJar UP-TO-DATE
+> Task :rxrecaptcha:sourcesJar UP-TO-DATE
+> Task :rxrecaptcha:assemble
+> Task :rxrecaptcha:build
+> Task :rxrecaptcha:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild UP-TO-DATE
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugRenderscript UP-TO-DATE
+> Task :sample:checkDebugManifest UP-TO-DATE
+> Task :sample:generateDebugBuildConfig UP-TO-DATE
+> Task :sample:mainApkListPersistenceDebug UP-TO-DATE
+> Task :sample:generateDebugResValues UP-TO-DATE
+> Task :sample:generateDebugResources UP-TO-DATE
+> Task :sample:mergeDebugResources UP-TO-DATE
+> Task :sample:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :sample:processDebugManifest UP-TO-DATE
+> Task :sample:processDebugResources UP-TO-DATE
+> Task :sample:compileDebugKotlin UP-TO-DATE
+> Task :sample:prepareLintJar UP-TO-DATE
+> Task :sample:generateDebugSources UP-TO-DATE
+> Task :sample:javaPreCompileDebug UP-TO-DATE
+> Task :sample:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sample:compileDebugNdk NO-SOURCE
+> Task :sample:compileDebugSources UP-TO-DATE
+> Task :sample:mergeDebugShaders UP-TO-DATE
+> Task :sample:compileDebugShaders UP-TO-DATE
+> Task :sample:generateDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugAssets UP-TO-DATE
+> Task :rxrecaptcha:createFullJarDebug UP-TO-DATE
+> Transform full.jar (project :rxrecaptcha) with IdentityTransform
+
+> Task :sample:mergeExtDexDebug FAILED
+AGPBI: {"kind":"error","text":"Invoke-customs are only supported starting with Android O (--min-api 26)","sources":[{}],"tool":"D8"}
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not resolve all files for configuration ':sample:debugRuntimeClasspath'.
+> Failed to transform file 'classes.jar' to match attributes {artifactType=android-dex, dexing-is-debuggable=true, dexing-min-sdk=14} using transform DexingTransform
+   > Error while dexing.
+     The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
+     android {
+         compileOptions {
+             sourceCompatibility 1.8
+             targetCompatibility 1.8
+         }
+     }
+     See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 26 or above.
+
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':sample:debugRuntimeClasspath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:1054)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1700(DefaultConfiguration.java:123)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:1028)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:76)
+	at org.gradle.api.internal.changedetection.state.DefaultFileSystemSnapshotter$FileCollectionVisitorImpl.visitCollection(DefaultFileSystemSnapshotter.java:257)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitRootElements(AbstractFileCollection.java:282)
+	at org.gradle.api.internal.file.CompositeFileCollection.visitRootElements(CompositeFileCollection.java:206)
+	at org.gradle.api.internal.changedetection.state.DefaultFileSystemSnapshotter.snapshot(DefaultFileSystemSnapshotter.java:142)
+	at org.gradle.internal.fingerprint.impl.AbstractFileCollectionFingerprinter.fingerprint(AbstractFileCollectionFingerprinter.java:54)
+	at org.gradle.internal.fingerprint.impl.AbstractPathOnlyFileCollectionFingerprinter.fingerprint(AbstractPathOnlyFileCollectionFingerprinter.java:37)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.fingerprintTaskFiles(CacheBackedTaskHistoryRepository.java:358)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.createExecution(CacheBackedTaskHistoryRepository.java:163)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.access$100(CacheBackedTaskHistoryRepository.java:76)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository$1.getCurrentExecution(CacheBackedTaskHistoryRepository.java:123)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.getStates(DefaultTaskArtifactStateRepository.java:200)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.isUpToDate(DefaultTaskArtifactStateRepository.java:94)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:50)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
+	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:277)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:262)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.artifacts.transform.ArtifactTransformException: Failed to transform file 'classes.jar' to match attributes {artifactType=android-dex, dexing-is-debuggable=true, dexing-min-sdk=14} using transform DexingTransform
+	at org.gradle.api.internal.artifacts.transform.UserCodeBackedTransformer.transform(UserCodeBackedTransformer.java:90)
+	at org.gradle.api.internal.artifacts.transform.ChainedTransformer.transform(ChainedTransformer.java:39)
+	at org.gradle.api.internal.artifacts.transform.TransformArtifactOperation.run(TransformArtifactOperation.java:51)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:48)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:342)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:154)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	... 3 more
+Caused by: com.android.builder.dexing.DexArchiveBuilderException: Error while dexing.
+The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
+android {
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+}
+See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 26 or above.
+
+	at com.android.builder.dexing.D8DexArchiveBuilder.getExceptionToRethrow(D8DexArchiveBuilder.java:124)
+	at com.android.builder.dexing.D8DexArchiveBuilder.convert(D8DexArchiveBuilder.java:101)
+	at com.android.build.gradle.internal.dependency.DexingTransform.transform(DexingTransform.kt:56)
+	at org.gradle.api.internal.artifacts.transform.TransformArtifactsAction.apply(TransformArtifactsAction.java:44)
+	at org.gradle.api.internal.artifacts.transform.TransformArtifactsAction.apply(TransformArtifactsAction.java:29)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformedFileCache$TransformAction.execute(DefaultTransformedFileCache.java:251)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformedFileCache$TransformAction.execute(DefaultTransformedFileCache.java:238)
+	at org.gradle.internal.resource.local.DefaultPathKeyFileStore$1.execute(DefaultPathKeyFileStore.java:91)
+	at org.gradle.internal.resource.local.DefaultPathKeyFileStore$1.execute(DefaultPathKeyFileStore.java:87)
+	at org.gradle.internal.resource.local.DefaultPathKeyFileStore.doAdd(DefaultPathKeyFileStore.java:137)
+	at org.gradle.internal.resource.local.DefaultPathKeyFileStore.doAdd(DefaultPathKeyFileStore.java:127)
+	at org.gradle.internal.resource.local.DefaultPathKeyFileStore.add(DefaultPathKeyFileStore.java:87)
+	at org.gradle.internal.resource.local.DefaultPathKeyFileStore.add(DefaultPathKeyFileStore.java:50)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformedFileCache$1$1.create(DefaultTransformedFileCache.java:163)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformedFileCache$1$1.create(DefaultTransformedFileCache.java:142)
+	at org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess.withFileLock(LockOnDemandCrossProcessCacheAccess.java:90)
+	at org.gradle.cache.internal.DefaultCacheAccess.withFileLock(DefaultCacheAccess.java:193)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.withFileLock(DefaultPersistentDirectoryStore.java:170)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.withFileLock(DefaultCacheFactory.java:195)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformedFileCache$1.create(DefaultTransformedFileCache.java:142)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformedFileCache$1.create(DefaultTransformedFileCache.java:135)
+	at org.gradle.cache.internal.ProducerGuard$AdaptiveProducerGuard.guardByKey(ProducerGuard.java:97)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformedFileCache.loadIntoCache(DefaultTransformedFileCache.java:135)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformedFileCache.getResult(DefaultTransformedFileCache.java:127)
+	at org.gradle.api.internal.artifacts.transform.UserCodeBackedTransformer.transform(UserCodeBackedTransformer.java:88)
+	... 17 more
+Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed to complete
+	at com.android.tools.r8.utils.ExceptionUtils.withCompilationHandler(ExceptionUtils.java:70)
+	at com.android.tools.r8.utils.ExceptionUtils.withD8CompilationHandler(ExceptionUtils.java:43)
+	at com.android.tools.r8.D8.run(D8.java:94)
+	at com.android.builder.dexing.D8DexArchiveBuilder.convert(D8DexArchiveBuilder.java:99)
+	... 40 more
+Caused by: com.android.tools.r8.utils.AbortException: Error: Invoke-customs are only supported starting with Android O (--min-api 26)
+	at com.android.tools.r8.utils.Reporter.failIfPendingErrors(Reporter.java:89)
+	at com.android.tools.r8.utils.Reporter.fatalError(Reporter.java:60)
+	at com.android.tools.r8.utils.ExceptionUtils.withCompilationHandler(ExceptionUtils.java:64)
+	... 43 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s
+69 actionable tasks: 2 executed, 67 up-to-date
+
+2019-05-14 14:29:41,216 ERROR FullProcessService - Project build has not produced APK file
+2019-05-14 14:29:41,280 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,36 +1,36 @@
-2019-04-12 12:19:51,981 INFO  DownloadService - Downloading "https://github.com/Ferfalk/SimpleSearchView/archive/master.zip", attempt 3
-2019-04-12 12:19:53,130 INFO  DownloadService - Downloaded https://github.com/Ferfalk/SimpleSearchView/archive/master.zip, attempt 3
-2019-04-12 12:19:53,131 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/master.zip": 170 KB
-2019-04-12 12:19:53,131 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-12 12:19:53,132 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/master.zip: true
-2019-04-12 12:19:53,132 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src'.
-2019-04-12 12:19:53,163 INFO  FullProcessService - Size of directory with sources: 231 KB
-2019-04-12 12:19:53,164 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src]
-2019-04-12 12:19:53,184 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/.git/
+2019-05-14 14:33:56,954 INFO  DownloadService - Downloading "https://github.com/Ferfalk/SimpleSearchView/archive/master.zip", attempt 3
+2019-05-14 14:33:59,170 INFO  DownloadService - Downloaded https://github.com/Ferfalk/SimpleSearchView/archive/master.zip, attempt 3
+2019-05-14 14:33:59,171 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/master.zip": 171 KB
+2019-05-14 14:33:59,171 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-14 14:33:59,172 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/master.zip: true
+2019-05-14 14:33:59,172 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src'.
+2019-05-14 14:33:59,197 INFO  FullProcessService - Size of directory with sources: 231 KB
+2019-05-14 14:33:59,197 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src]
+2019-05-14 14:33:59,227 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/.git/
 
-2019-04-12 12:19:53,190 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/gradlew
-2019-04-12 12:19:53,194 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/simplesearchview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/build.gradle
-2019-04-12 12:19:53,199 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/simplesearchview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/settings.gradle
-2019-04-12 12:19:53,200 INFO  ProjectBuildService - Remote scripts: none
-2019-04-12 12:19:53,200 INFO  ProjectFixService - Fixing project...
-2019-04-12 12:19:53,212 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/app/local.properties
-2019-04-12 12:19:53,214 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=<null>]
-2019-04-12 12:19:53,214 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-04-12 12:19:53,215 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/simplesearchview/local.properties
-2019-04-12 12:19:53,217 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/simplesearchview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=<null>]
-2019-04-12 12:19:53,217 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/simplesearchview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-04-12 12:19:53,219 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/local.properties
-2019-04-12 12:19:53,220 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-04-12 12:19:53,220 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-04-12 12:19:53,222 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=<null>]
-2019-04-12 12:19:53,223 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-04-12 12:19:53,223 INFO  ProjectFixService - Project was maybe fixed
-2019-04-12 12:19:53,224 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-12 12:19:53,224 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-12 12:20:00,690 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-04-12 12:20:00,691 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-12 12:20:00,691 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-12 12:20:42,559 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-14 14:33:59,231 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/gradlew
+2019-05-14 14:33:59,234 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/simplesearchview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/build.gradle
+2019-05-14 14:33:59,238 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/simplesearchview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/settings.gradle
+2019-05-14 14:33:59,240 INFO  ProjectBuildService - Remote scripts: none
+2019-05-14 14:33:59,240 INFO  ProjectFixService - Fixing project...
+2019-05-14 14:33:59,249 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/app/local.properties
+2019-05-14 14:33:59,250 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=<null>]
+2019-05-14 14:33:59,250 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-14 14:33:59,251 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/simplesearchview/local.properties
+2019-05-14 14:33:59,252 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/simplesearchview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=<null>]
+2019-05-14 14:33:59,253 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/simplesearchview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-14 14:33:59,254 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/local.properties
+2019-05-14 14:33:59,254 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-05-14 14:33:59,255 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-05-14 14:33:59,256 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=<null>]
+2019-05-14 14:33:59,256 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-14 14:33:59,256 INFO  ProjectFixService - Project was maybe fixed
+2019-05-14 14:33:59,256 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-14 14:33:59,256 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-14 14:34:06,440 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-05-14 14:34:06,440 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-14 14:34:06,440 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-14 14:34:44,726 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
 :app:preBuild UP-TO-DATE
 :simplesearchview:preBuild UP-TO-DATE
@@ -63,7 +63,7 @@
 :simplesearchview:prepareLintJar
 :simplesearchview:generateDebugSources
 :simplesearchview:javaPreCompileDebug
-:simplesearchview:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/simplesearchview/src/main/java/com/ferfalk/simplesearchview/SimpleSearchView.java uses or overrides a deprecated API.
+:simplesearchview:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/simplesearchview/src/main/java/com/ferfalk/simplesearchview/SimpleSearchView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :simplesearchview:processDebugJavaRes NO-SOURCE
@@ -125,7 +125,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :simplesearchview:generateReleaseBuildConfig
 :simplesearchview:generateReleaseSources
 :simplesearchview:javaPreCompileRelease
-:simplesearchview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/simplesearchview/src/main/java/com/ferfalk/simplesearchview/SimpleSearchView.java uses or overrides a deprecated API.
+:simplesearchview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/simplesearchview/src/main/java/com/ferfalk/simplesearchview/SimpleSearchView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :simplesearchview:processReleaseJavaRes NO-SOURCE
@@ -163,7 +163,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 41s
+BUILD SUCCESSFUL in 37s
 90 actionable tasks: 90 executed
 
-2019-04-12 12:20:42,672 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046391977-0/src/SimpleSearchView-master/app/build/outputs/apk/debug/app-debug.apk
+2019-05-14 14:34:44,829 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557819236950-0/src/SimpleSearchView-master/app/build/outputs/apk/debug/app-debug.apk
