@@ -1,40 +1,40 @@
-2019-05-05 18:00:20,184 INFO  DownloadService - Downloading "https://github.com/anggrayudi/MaterialPreference/archive/master.zip", attempt 3
-2019-05-05 18:00:26,549 INFO  DownloadService - Downloaded https://github.com/anggrayudi/MaterialPreference/archive/master.zip, attempt 3
-2019-05-05 18:00:26,550 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/master.zip": 951 KB
-2019-05-05 18:00:26,550 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-05 18:00:26,550 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/master.zip: true
-2019-05-05 18:00:26,551 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src'.
-2019-05-05 18:00:26,617 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-05-05 18:00:26,617 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src]
-2019-05-05 18:00:26,636 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/.git/
+2019-05-16 12:36:18,947 INFO  DownloadService - Downloading "https://github.com/anggrayudi/MaterialPreference/archive/master.zip", attempt 3
+2019-05-16 12:36:19,902 INFO  DownloadService - Downloaded https://github.com/anggrayudi/MaterialPreference/archive/master.zip, attempt 3
+2019-05-16 12:36:19,902 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/master.zip": 951 KB
+2019-05-16 12:36:19,902 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-16 12:36:19,908 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/master.zip: true
+2019-05-16 12:36:19,908 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src'.
+2019-05-16 12:36:19,979 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-05-16 12:36:19,979 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src]
+2019-05-16 12:36:19,997 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/.git/
 
-2019-05-05 18:00:26,643 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/gradlew
-2019-05-05 18:00:26,651 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/processor/build.gradle
-2019-05-05 18:00:26,658 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/android-release-aar.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/settings.gradle
-2019-05-05 18:00:26,661 INFO  ProjectBuildService - Remote scripts: none
-2019-05-05 18:00:26,661 INFO  ProjectFixService - Fixing project...
-2019-05-05 18:00:26,678 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/local.properties
-2019-05-05 18:00:26,681 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/build.gradle": [buildToolsVersion=29-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-05-05 18:00:26,681 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-05-05 18:00:26,682 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/sample/local.properties
-2019-05-05 18:00:26,685 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/sample/build.gradle": [buildToolsVersion=29-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-05-05 18:00:26,686 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/sample/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-05-05 18:00:26,687 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/local.properties
-2019-05-05 18:00:26,687 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-05 18:00:26,687 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-05 18:00:26,688 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/build.gradle": [buildToolsVersion=29-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-05-05 18:00:26,688 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-05-05 18:00:26,689 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/annotation/local.properties
-2019-05-05 18:00:26,692 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/annotation/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-05-05 18:00:26,692 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/processor/local.properties
-2019-05-05 18:00:26,694 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/processor/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-05-05 18:00:26,694 INFO  ProjectFixService - Project was maybe fixed
-2019-05-05 18:00:26,695 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-05 18:00:26,695 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-05 18:00:38,584 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-05-05 18:00:38,584 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-05 18:00:38,584 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-05 18:01:26,085 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-16 12:36:20,005 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/gradlew
+2019-05-16 12:36:20,013 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/processor/build.gradle
+2019-05-16 12:36:20,020 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/android-release-aar.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/settings.gradle
+2019-05-16 12:36:20,021 INFO  ProjectBuildService - Remote scripts: none
+2019-05-16 12:36:20,021 INFO  ProjectFixService - Fixing project...
+2019-05-16 12:36:20,038 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/local.properties
+2019-05-16 12:36:20,041 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/build.gradle": [buildToolsVersion=29-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-16 12:36:20,041 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-16 12:36:20,043 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/sample/local.properties
+2019-05-16 12:36:20,046 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/sample/build.gradle": [buildToolsVersion=29-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-16 12:36:20,046 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/sample/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-16 12:36:20,047 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/local.properties
+2019-05-16 12:36:20,047 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-05-16 12:36:20,048 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-05-16 12:36:20,048 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/build.gradle": [buildToolsVersion=29-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-16 12:36:20,048 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-16 12:36:20,049 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/annotation/local.properties
+2019-05-16 12:36:20,052 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/annotation/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-16 12:36:20,053 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/processor/local.properties
+2019-05-16 12:36:20,055 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/processor/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-16 12:36:20,055 INFO  ProjectFixService - Project was maybe fixed
+2019-05-16 12:36:20,056 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-16 12:36:20,056 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-16 12:36:27,903 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-05-16 12:36:27,904 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-16 12:36:27,904 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-16 12:37:12,994 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :materialpreference
 WARNING: The specified Android SDK Build Tools version (17.0.0) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.4.0.
@@ -54,47 +54,47 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :materialpreference:generateDebugBuildConfig
 > Task :materialpreference:generateDebugResValues
 > Task :materialpreference:processDebugManifest
+> Task :materialpreference:prepareLintJar
 > Task :materialpreference:compileDebugRenderscript NO-SOURCE
 > Task :materialpreference:compileDebugAidl NO-SOURCE
 > Task :materialpreference:generateDebugResources
 > Task :materialpreference:packageDebugResources
-> Task :materialpreference:prepareLintJar
-> Task :materialpreference:generateDebugSources
-> Task :materialpreference:mergeDebugConsumerProguardFiles
 > Task :materialpreference:generateDebugRFile
-> Task :materialpreference:mergeDebugShaders
 
 > Task :materialpreference:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (701, 37): Parameter 'a' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (701, 52): Parameter 'index' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (1110, 38): Parameter 'dependency' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (1127, 34): Parameter 'parent' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (53, 19): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (53, 32): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (67, 22): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (67, 35): Parameter 'values' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (81, 16): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (81, 29): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (95, 17): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (95, 30): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (109, 18): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (109, 31): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (123, 20): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (123, 33): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (135, 19): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (145, 22): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (155, 16): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (165, 17): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (175, 18): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (185, 20): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceFragmentMaterial.kt: (458, 44): Parameter 'preference' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceFragmentMaterial.kt: (458, 69): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/dialog/RingtonePreferenceDialogFragment.kt: (155, 34): Parameter 'requestCode' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/dialog/SeekBarPreferenceDialogFragment.kt: (78, 44): Parameter 'max' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (701, 37): Parameter 'a' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (701, 52): Parameter 'index' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (1110, 38): Parameter 'dependency' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (1127, 34): Parameter 'parent' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (53, 19): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (53, 32): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (67, 22): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (67, 35): Parameter 'values' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (81, 16): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (81, 29): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (95, 17): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (95, 30): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (109, 18): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (109, 31): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (123, 20): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (123, 33): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (135, 19): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (145, 22): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (155, 16): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (165, 17): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (175, 18): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (185, 20): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceFragmentMaterial.kt: (458, 44): Parameter 'preference' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceFragmentMaterial.kt: (458, 69): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/dialog/RingtonePreferenceDialogFragment.kt: (155, 34): Parameter 'requestCode' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/dialog/SeekBarPreferenceDialogFragment.kt: (78, 44): Parameter 'max' is never used
 
+> Task :materialpreference:generateDebugSources
 > Task :materialpreference:javaPreCompileDebug
 > Task :materialpreference:compileDebugJavaWithJavac
 > Task :materialpreference:extractDebugAnnotations
+> Task :materialpreference:mergeDebugConsumerProguardFiles
+> Task :materialpreference:mergeDebugShaders
 > Task :materialpreference:compileDebugShaders
 > Task :materialpreference:generateDebugAssets
 > Task :materialpreference:packageDebugAssets
@@ -122,32 +122,32 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/
 > Task :materialpreference:generateReleaseRFile
 
 > Task :materialpreference:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (701, 37): Parameter 'a' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (701, 52): Parameter 'index' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (1110, 38): Parameter 'dependency' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (1127, 34): Parameter 'parent' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (53, 19): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (53, 32): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (67, 22): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (67, 35): Parameter 'values' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (81, 16): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (81, 29): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (95, 17): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (95, 30): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (109, 18): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (109, 31): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (123, 20): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (123, 33): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (135, 19): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (145, 22): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (155, 16): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (165, 17): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (175, 18): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (185, 20): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceFragmentMaterial.kt: (458, 44): Parameter 'preference' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceFragmentMaterial.kt: (458, 69): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/dialog/RingtonePreferenceDialogFragment.kt: (155, 34): Parameter 'requestCode' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/dialog/SeekBarPreferenceDialogFragment.kt: (78, 44): Parameter 'max' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (701, 37): Parameter 'a' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (701, 52): Parameter 'index' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (1110, 38): Parameter 'dependency' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (1127, 34): Parameter 'parent' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (53, 19): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (53, 32): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (67, 22): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (67, 35): Parameter 'values' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (81, 16): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (81, 29): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (95, 17): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (95, 30): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (109, 18): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (109, 31): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (123, 20): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (123, 33): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (135, 19): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (145, 22): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (155, 16): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (165, 17): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (175, 18): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (185, 20): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceFragmentMaterial.kt: (458, 44): Parameter 'preference' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceFragmentMaterial.kt: (458, 69): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/dialog/RingtonePreferenceDialogFragment.kt: (155, 34): Parameter 'requestCode' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/dialog/SeekBarPreferenceDialogFragment.kt: (78, 44): Parameter 'max' is never used
 
 > Task :materialpreference:generateReleaseSources
 > Task :materialpreference:javaPreCompileRelease
@@ -178,16 +178,16 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 46s
+BUILD SUCCESSFUL in 44s
 48 actionable tasks: 48 executed
 
-2019-05-05 18:01:26,163 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-05 18:01:26,163 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-05 18:01:30,751 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-05-05 18:01:30,752 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-05-05 18:01:30,752 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-05-05 18:01:30,752 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-05-05 18:01:35,122 ERROR SysUtils - Could not process external command
+2019-05-16 12:37:13,077 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-16 12:37:13,077 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-16 12:37:17,835 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-16 12:37:17,835 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-16 12:37:17,835 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-16 12:37:17,835 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-16 12:37:23,341 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -208,21 +208,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-05 18:01:35,122 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-16 12:37:23,341 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build completed with 2 failures.
 
 1: Task failed with an exception.
 -----------
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/sample/build.gradle' line: 14
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/sample/build.gradle' line: 14
 
 * What went wrong:
 A problem occurred evaluating project ':sample'.
@@ -375,7 +375,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:78)
-	at build_6o842arytuyl6aysy6kg1d7at$_run_closure1$_closure4$_closure9.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/sample/build.gradle:14)
+	at build_2pnd7ifwby1xv1cr805bnd5ef$_run_closure1$_closure4$_closure9.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/sample/build.gradle:14)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -384,7 +384,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:88)
 	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:39)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:66)
-	at build_6o842arytuyl6aysy6kg1d7at$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/sample/build.gradle:10)
+	at build_2pnd7ifwby1xv1cr805bnd5ef$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/sample/build.gradle:10)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:142)
@@ -399,7 +399,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:57)
-	at build_6o842arytuyl6aysy6kg1d7at$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/sample/build.gradle:9)
+	at build_2pnd7ifwby1xv1cr805bnd5ef$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/sample/build.gradle:9)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -414,7 +414,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_6o842arytuyl6aysy6kg1d7at.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/sample/build.gradle:8)
+	at build_2pnd7ifwby1xv1cr805bnd5ef.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/sample/build.gradle:8)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 123 more
 
@@ -588,15 +588,15 @@ Caused by: java.lang.IllegalStateException: compileSdkVersion is not specified.
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 5s
 
-2019-05-05 18:01:35,199 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-05 18:01:35,199 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-05 18:01:43,877 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-05-05 18:01:43,877 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-05-05 18:01:43,877 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-05-05 18:01:43,877 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-05-05 18:01:51,637 ERROR SysUtils - Could not process external command
+2019-05-16 12:37:23,423 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-16 12:37:23,423 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-16 12:37:31,539 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-16 12:37:31,539 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-16 12:37:31,539 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-16 12:37:31,539 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-16 12:37:39,212 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -617,14 +617,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-05 18:01:51,637 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-16 12:37:39,213 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :materialpreference
 WARNING: The specified Android SDK Build Tools version (17.0.0) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.4.0.
@@ -640,7 +640,7 @@ FAILURE: Build completed with 2 failures.
 1: Task failed with an exception.
 -----------
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/sample/build.gradle' line: 14
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/sample/build.gradle' line: 14
 
 * What went wrong:
 A problem occurred evaluating project ':sample'.
@@ -793,7 +793,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:78)
-	at build_6o842arytuyl6aysy6kg1d7at$_run_closure1$_closure4$_closure9.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/sample/build.gradle:14)
+	at build_2pnd7ifwby1xv1cr805bnd5ef$_run_closure1$_closure4$_closure9.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/sample/build.gradle:14)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -802,7 +802,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:88)
 	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:39)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:66)
-	at build_6o842arytuyl6aysy6kg1d7at$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/sample/build.gradle:10)
+	at build_2pnd7ifwby1xv1cr805bnd5ef$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/sample/build.gradle:10)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:142)
@@ -817,7 +817,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:57)
-	at build_6o842arytuyl6aysy6kg1d7at$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/sample/build.gradle:9)
+	at build_2pnd7ifwby1xv1cr805bnd5ef$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/sample/build.gradle:9)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -832,7 +832,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_6o842arytuyl6aysy6kg1d7at.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/sample/build.gradle:8)
+	at build_2pnd7ifwby1xv1cr805bnd5ef.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/sample/build.gradle:8)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 123 more
 
@@ -1008,12 +1008,12 @@ Caused by: java.lang.IllegalStateException: compileSdkVersion is not specified.
 
 BUILD FAILED in 7s
 
-2019-05-05 18:01:51,716 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-05 18:01:51,716 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-05 18:01:56,304 INFO  ProjectTaskService - Detected possible tasks: 42
-2019-05-05 18:01:56,305 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-05-05 18:01:56,305 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-05-05 18:02:06,287 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-16 12:37:39,301 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-16 12:37:39,301 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-16 12:37:44,068 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-05-16 12:37:44,069 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-05-16 12:37:44,069 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-05-16 12:37:53,395 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :annotation:compileKotlin
 > Task :annotation:compileJava NO-SOURCE
 > Task :annotation:processResources NO-SOURCE
@@ -1025,15 +1025,15 @@ BUILD FAILED in 7s
 > Task :annotation:assemble
 > Task :annotation:build
 
-BUILD SUCCESSFUL in 9s
+BUILD SUCCESSFUL in 8s
 5 actionable tasks: 5 executed
 
-2019-05-05 18:02:06,368 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-05 18:02:06,369 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-05 18:02:11,887 INFO  ProjectTaskService - Detected possible tasks: 42
-2019-05-05 18:02:11,887 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-05-05 18:02:11,887 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054020180-0/src/MaterialPreference-master/processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-05-05 18:02:30,475 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-16 12:37:53,474 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-16 12:37:53,474 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-16 12:37:57,792 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-05-16 12:37:57,792 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-05-16 12:37:57,793 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984978943-0/src/MaterialPreference-master/processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-05-16 12:38:10,017 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :annotation:compileKotlin UP-TO-DATE
 > Task :annotation:compileJava NO-SOURCE
 > Task :annotation:processResources NO-SOURCE
@@ -1053,8 +1053,8 @@ BUILD SUCCESSFUL in 9s
 > Task :processor:assemble
 > Task :processor:build
 
-BUILD SUCCESSFUL in 18s
+BUILD SUCCESSFUL in 11s
 10 actionable tasks: 7 executed, 3 up-to-date
 
-2019-05-05 18:02:30,561 ERROR FullProcessService - Project build has not produced APK file
-2019-05-05 18:02:30,644 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-16 12:38:10,101 ERROR FullProcessService - Project build has not produced APK file
+2019-05-16 12:38:10,187 ERROR FullProcessService - Could not find generated or existed APK file
