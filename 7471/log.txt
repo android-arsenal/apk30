@@ -1,42 +1,43 @@
-2019-02-16 19:25:27,464 INFO  DownloadService - Downloading "https://github.com/LordSaac/ProgressLottieIGB/archive/master.zip", attempt 3
-2019-02-16 19:25:28,137 INFO  DownloadService - Downloaded https://github.com/LordSaac/ProgressLottieIGB/archive/master.zip, attempt 3
-2019-02-16 19:25:28,138 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/master.zip": 308 KB
-2019-02-16 19:25:28,138 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-02-16 19:25:28,139 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/master.zip: true
-2019-02-16 19:25:28,139 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src'.
-2019-02-16 19:25:28,170 INFO  FullProcessService - Size of directory with sources: 635 KB
-2019-02-16 19:25:28,170 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src]
-2019-02-16 19:25:28,189 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/.git/
+2019-05-26 16:42:25,569 INFO  DownloadService - Downloading "https://github.com/LordSaac/ProgressLottieIGB/archive/master.zip", attempt 3
+2019-05-26 16:42:27,999 INFO  DownloadService - Downloaded https://github.com/LordSaac/ProgressLottieIGB/archive/master.zip, attempt 3
+2019-05-26 16:42:28,000 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/master.zip": 308 KB
+2019-05-26 16:42:28,000 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-26 16:42:28,001 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/master.zip: true
+2019-05-26 16:42:28,002 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src'.
+2019-05-26 16:42:28,028 INFO  FullProcessService - Size of directory with sources: 636 KB
+2019-05-26 16:42:28,028 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src]
+2019-05-26 16:42:28,050 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/.git/
 
-2019-02-16 19:25:28,194 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/gradlew
-2019-02-16 19:25:28,199 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/progresslitieigb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/build.gradle
-2019-02-16 19:25:28,203 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/progresslitieigb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/settings.gradle
-2019-02-16 19:25:28,203 INFO  ProjectBuildService - Remote scripts: none
-2019-02-16 19:25:28,203 INFO  ProjectFixService - Fixing project...
-2019-02-16 19:25:28,213 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/app/local.properties
-2019-02-16 19:25:28,214 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-02-16 19:25:28,214 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-02-16 19:25:28,215 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/progresslitieigb/local.properties
-2019-02-16 19:25:28,216 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/progresslitieigb/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2019-02-16 19:25:28,217 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/progresslitieigb/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2019-02-16 19:25:28,218 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/local.properties
-2019-02-16 19:25:28,218 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-02-16 19:25:28,218 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-02-16 19:25:28,220 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-02-16 19:25:28,221 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-02-16 19:25:28,221 INFO  ProjectFixService - Project was maybe fixed
-2019-02-16 19:25:28,221 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-16 19:25:28,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-16 19:25:37,231 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-02-16 19:25:37,232 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-16 19:25:37,232 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-16 19:26:39,610 INFO  SysUtils - Configuration on demand is an incubating feature.
-Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-api/2.12.1/build-info-api-2.12.1.jar
+2019-05-26 16:42:28,054 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/gradlew
+2019-05-26 16:42:28,058 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/progresslitieigb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/build.gradle
+2019-05-26 16:42:28,061 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/progresslitieigb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/settings.gradle
+2019-05-26 16:42:28,061 INFO  ProjectBuildService - Remote scripts: none
+2019-05-26 16:42:28,061 INFO  ProjectFixService - Fixing project...
+2019-05-26 16:42:28,070 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/app/local.properties
+2019-05-26 16:42:28,071 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-05-26 16:42:28,071 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-05-26 16:42:28,072 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/progresslitieigb/local.properties
+2019-05-26 16:42:28,073 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/progresslitieigb/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2019-05-26 16:42:28,073 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/progresslitieigb/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2019-05-26 16:42:28,074 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/local.properties
+2019-05-26 16:42:28,075 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-05-26 16:42:28,075 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-05-26 16:42:28,076 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-05-26 16:42:28,076 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-05-26 16:42:28,077 INFO  ProjectFixService - Project was maybe fixed
+2019-05-26 16:42:28,077 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-26 16:42:28,077 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-26 16:42:35,657 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-05-26 16:42:35,657 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-26 16:42:35,657 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-26 16:43:29,459 INFO  SysUtils - Configuration on demand is an incubating feature.
 Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor/2.12.1/build-info-extractor-2.12.1.jar
-Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor-gradle/4.8.1/build-info-extractor-gradle-4.8.1.jar
 Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-client/2.12.1/build-info-client-2.12.1.jar
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-extractor-gradle/4.8.1/build-info-extractor-gradle-4.8.1.jar
+Download https://jcenter.bintray.com/org/jfrog/buildinfo/build-info-api/2.12.1/build-info-api-2.12.1.jar
 user: key:
 :app:checkDebugClasspath
+Download https://jcenter.bintray.com/com/airbnb/android/lottie/2.5.0/lottie-2.5.0.aar
 :app:preBuild UP-TO-DATE
 :progresslitieigb:preBuild UP-TO-DATE
 :progresslitieigb:preDebugBuild UP-TO-DATE
@@ -53,6 +54,14 @@ user: key:
 :app:generateDebugResValues
 :app:generateDebugResources
 :progresslitieigb:compileDebugRenderscript
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/27.0.2/animated-vector-drawable-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/27.0.2/support-core-utils-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/27.0.2/support-fragment-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/27.0.2/appcompat-v7-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/27.0.2/support-core-ui-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/27.0.2/support-vector-drawable-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/27.0.2/support-compat-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.0.3/runtime-1.0.3.aar
 :progresslitieigb:generateDebugResValues
 :progresslitieigb:generateDebugResources
 :progresslitieigb:packageDebugResources
@@ -64,6 +73,8 @@ user: key:
 :app:processDebugResources
 :progresslitieigb:generateDebugBuildConfig
 :progresslitieigb:kaptGenerateStubsDebugKotlin
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.0.2/support-annotations-27.0.2.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.0.3/common-1.0.3.jar
 :progresslitieigb:kaptDebugKotlin
 :progresslitieigb:compileDebugKotlin
 :progresslitieigb:prepareLintJar
@@ -73,9 +84,9 @@ user: key:
 :progresslitieigb:processDebugJavaRes NO-SOURCE
 :progresslitieigb:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (21, 15): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (33, 22): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (42, 23): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (21, 15): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (33, 22): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (42, 23): Parameter 'view' is never used
 :app:prepareLintJar
 :app:generateDebugSources
 :app:javaPreCompileDebug
@@ -91,6 +102,14 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/
 :progresslitieigb:packageDebugAssets
 :app:mergeDebugAssets
 :app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 :app:mergeDebugJniLibFolders
@@ -141,9 +160,9 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/
 :progresslitieigb:processReleaseJavaRes NO-SOURCE
 :progresslitieigb:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (21, 15): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (33, 22): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (42, 23): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (21, 15): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (33, 22): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (42, 23): Parameter 'view' is never used
 :app:generateReleaseSources
 :app:javaPreCompileRelease
 :app:compileReleaseJavaWithJavac
@@ -179,7 +198,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 1m 1s
+BUILD SUCCESSFUL in 53s
 98 actionable tasks: 98 executed
 
-2019-02-16 19:26:39,771 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550319927461-0/src/ProgressLottieIGB-master/app/build/outputs/apk/debug/app-debug.apk
+2019-05-26 16:43:29,540 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863745565-0/src/ProgressLottieIGB-master/app/build/outputs/apk/debug/app-debug.apk

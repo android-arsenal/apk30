@@ -1,183 +1,189 @@
-2019-04-07 22:37:29,491 INFO  DownloadService - Downloading "https://github.com/hendrawd/HintedImageButton/archive/master.zip", attempt 3
-2019-04-07 22:37:31,493 INFO  DownloadService - Downloaded https://github.com/hendrawd/HintedImageButton/archive/master.zip, attempt 3
-2019-04-07 22:37:31,494 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/master.zip": 145 KB
-2019-04-07 22:37:31,494 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-07 22:37:31,499 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/master.zip: true
-2019-04-07 22:37:31,500 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src'.
-2019-04-07 22:37:31,522 INFO  FullProcessService - Size of directory with sources: 152 KB
-2019-04-07 22:37:31,522 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src]
-2019-04-07 22:37:31,547 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/.git/
+2019-05-26 16:58:32,453 INFO  DownloadService - Downloading "https://github.com/hendrawd/HintedImageButton/archive/master.zip", attempt 3
+2019-05-26 16:58:45,289 INFO  DownloadService - Downloaded https://github.com/hendrawd/HintedImageButton/archive/master.zip, attempt 3
+2019-05-26 16:58:45,289 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/master.zip": 149 KB
+2019-05-26 16:58:45,289 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-26 16:58:45,295 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/master.zip: true
+2019-05-26 16:58:45,295 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src'.
+2019-05-26 16:58:45,314 INFO  FullProcessService - Size of directory with sources: 160 KB
+2019-05-26 16:58:45,314 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src]
+2019-05-26 16:58:45,333 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/.git/
 
-2019-04-07 22:37:31,550 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/gradlew
-2019-04-07 22:37:31,554 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/build.gradle
-2019-04-07 22:37:31,557 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/settings.gradle
-2019-04-07 22:37:31,558 INFO  ProjectBuildService - Remote scripts: none
-2019-04-07 22:37:31,558 INFO  ProjectFixService - Fixing project...
-2019-04-07 22:37:31,566 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/example/local.properties
-2019-04-07 22:37:31,569 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/example/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-04-07 22:37:31,569 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/library/local.properties
-2019-04-07 22:37:31,571 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/library/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-04-07 22:37:31,572 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/local.properties
-2019-04-07 22:37:31,572 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-04-07 22:37:31,573 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-04-07 22:37:31,573 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-04-07 22:37:31,573 INFO  ProjectFixService - Project was maybe fixed
-2019-04-07 22:37:31,573 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-07 22:37:31,574 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-07 22:37:39,523 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-04-07 22:37:39,523 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-07 22:37:39,523 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-07 22:38:31,743 INFO  SysUtils - Configuration on demand is an incubating feature.
-:example:checkDebugClasspath
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7-commons/0.10.5/anko-appcompat-v7-commons-0.10.5.jar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7/0.10.5/anko-appcompat-v7-0.10.5.jar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-commons/0.10.5/anko-commons-0.10.5.jar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-support-v4/0.10.5/anko-support-v4-0.10.5.jar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-support-v4-commons/0.10.5/anko-support-v4-commons-0.10.5.jar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sdk25/0.10.5/anko-sdk25-0.10.5.jar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-common/0.10.5/anko-common-0.10.5.jar
-:example:preBuild UP-TO-DATE
-:library:preBuild UP-TO-DATE
-:library:preDebugBuild UP-TO-DATE
-:library:checkDebugManifest
-:library:processDebugManifest
-:example:preDebugBuild
-:library:compileDebugAidl NO-SOURCE
-:example:compileDebugAidl NO-SOURCE
-:library:packageDebugRenderscript NO-SOURCE
-:example:compileDebugRenderscript
-:example:checkDebugManifest
-:example:generateDebugBuildConfig
-:example:mainApkListPersistenceDebug
-:example:generateDebugResValues
-:example:generateDebugResources
-:library:compileDebugRenderscript
-:library:generateDebugResValues
-:library:generateDebugResources
-:library:packageDebugResources
-:example:mergeDebugResources
-:example:createDebugCompatibleScreenManifests
-:example:processDebugManifest
-:example:splitsDiscoveryTaskDebug
-:library:generateDebugRFile
-:example:processDebugResources
-:library:generateDebugBuildConfig
-:library:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/library/src/main/java/hendrawd/library/customview/Views.kt: (11, 1): Expected performance impact of inlining 'public inline fun ViewManager.hintedImageButton(): HintedImageButton defined in hendrawd.library.customview in file Views.kt' is insignificant. Inlining works best for functions with parameters of functional types
-:library:prepareLintJar
-:library:generateDebugSources
-:library:javaPreCompileDebug
-:library:compileDebugJavaWithJavac
-:library:processDebugJavaRes NO-SOURCE
-:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:example:compileDebugKotlin
-:example:prepareLintJar
-:example:generateDebugSources
-:example:javaPreCompileDebug
-:example:compileDebugJavaWithJavac
-:example:compileDebugNdk NO-SOURCE
-:example:compileDebugSources
-:example:mergeDebugShaders
-:example:compileDebugShaders
-:example:generateDebugAssets
-:library:mergeDebugShaders
-:library:compileDebugShaders
-:library:generateDebugAssets
-:library:packageDebugAssets
-:example:mergeDebugAssets
-:example:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
-  Attempt to read local this but no local information was associated with the value being read.
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
-  Attempt to read local this but no local information was associated with the value being read.
-:example:transformDexArchiveWithExternalLibsDexMergerForDebug
-:example:transformDexArchiveWithDexMergerForDebug
-:example:mergeDebugJniLibFolders
-:library:compileDebugNdk NO-SOURCE
-:library:mergeDebugJniLibFolders
-:library:transformNativeLibsWithMergeJniLibsForDebug
-:library:transformNativeLibsWithStripDebugSymbolForDebug
-:library:transformNativeLibsWithIntermediateJniLibsForDebug
-:example:transformNativeLibsWithMergeJniLibsForDebug
-:example:transformNativeLibsWithStripDebugSymbolForDebug
-:example:checkDebugLibraries
-:example:processDebugJavaRes NO-SOURCE
-:example:transformResourcesWithMergeJavaResForDebug
-:example:validateSigningDebug
-:example:packageDebug
-:example:assembleDebug
-:example:checkReleaseClasspath
-:library:preReleaseBuild UP-TO-DATE
-:library:checkReleaseManifest
-:library:processReleaseManifest
-:example:preReleaseBuild
-:library:compileReleaseAidl NO-SOURCE
-:example:compileReleaseAidl NO-SOURCE
-:library:packageReleaseRenderscript NO-SOURCE
-:example:compileReleaseRenderscript
-:example:checkReleaseManifest
-:example:generateReleaseBuildConfig
-:example:mainApkListPersistenceRelease
-:example:generateReleaseResValues
-:example:generateReleaseResources
-:library:compileReleaseRenderscript
-:library:generateReleaseResValues
-:library:generateReleaseResources
-:library:packageReleaseResources
-:example:mergeReleaseResources
-:example:createReleaseCompatibleScreenManifests
-:example:processReleaseManifest
-:example:splitsDiscoveryTaskRelease
-:library:generateReleaseRFile
-:example:processReleaseResources
-:library:generateReleaseBuildConfig
-:library:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/library/src/main/java/hendrawd/library/customview/Views.kt: (11, 1): Expected performance impact of inlining 'public inline fun ViewManager.hintedImageButton(): HintedImageButton defined in hendrawd.library.customview in file Views.kt' is insignificant. Inlining works best for functions with parameters of functional types
-:library:generateReleaseSources
-:library:javaPreCompileRelease
-:library:compileReleaseJavaWithJavac
-:library:processReleaseJavaRes NO-SOURCE
-:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:example:compileReleaseKotlin
-:example:generateReleaseSources
-:example:javaPreCompileRelease
-:example:compileReleaseJavaWithJavac
-:example:compileReleaseNdk NO-SOURCE
-:example:compileReleaseSources
-:example:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/2b63a9cc21284a95e93ee3a12eab3e6c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
-:example:mergeReleaseShaders
-:example:compileReleaseShaders
-:example:generateReleaseAssets
-:library:mergeReleaseShaders
-:library:compileReleaseShaders
-:library:generateReleaseAssets
-:library:packageReleaseAssets
-:example:mergeReleaseAssets
-:example:transformClassesWithDexBuilderForRelease
-:example:transformDexArchiveWithExternalLibsDexMergerForRelease
-:example:transformDexArchiveWithDexMergerForRelease
-:example:mergeReleaseJniLibFolders
-:library:compileReleaseNdk NO-SOURCE
-:library:mergeReleaseJniLibFolders
-:library:transformNativeLibsWithMergeJniLibsForRelease
-:library:transformNativeLibsWithStripDebugSymbolForRelease
-:library:transformNativeLibsWithIntermediateJniLibsForRelease
-:example:transformNativeLibsWithMergeJniLibsForRelease
-:example:transformNativeLibsWithStripDebugSymbolForRelease
-:example:checkReleaseLibraries
-:example:processReleaseJavaRes NO-SOURCE
-:example:transformResourcesWithMergeJavaResForRelease
-:example:packageRelease
-:example:assembleRelease
-:example:assemble
-:example:build
+2019-05-26 16:58:45,336 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/gradlew
+2019-05-26 16:58:45,339 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/build.gradle
+2019-05-26 16:58:45,342 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/settings.gradle
+2019-05-26 16:58:45,342 INFO  ProjectBuildService - Remote scripts: none
+2019-05-26 16:58:45,342 INFO  ProjectFixService - Fixing project...
+2019-05-26 16:58:45,349 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/example/local.properties
+2019-05-26 16:58:45,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-26 16:58:45,351 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-26 16:58:45,351 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/library/local.properties
+2019-05-26 16:58:45,353 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-26 16:58:45,353 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-26 16:58:45,354 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/local.properties
+2019-05-26 16:58:45,354 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4-all.zip
+2019-05-26 16:58:45,355 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4-bin.zip)
+2019-05-26 16:58:45,355 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-26 16:58:45,356 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-26 16:58:45,356 INFO  ProjectFixService - Project was maybe fixed
+2019-05-26 16:58:45,357 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-26 16:58:45,357 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-26 16:58:55,648 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-26 16:58:55,649 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-26 16:58:55,649 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-26 16:59:49,480 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-BUILD SUCCESSFUL in 51s
-94 actionable tasks: 94 executed
+> Configure project :library
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
-2019-04-07 22:38:31,834 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651449482-0/src/HintedImageButton-master/example/build/outputs/apk/release/example-release-unsigned.apk
+> Task :example:preBuild UP-TO-DATE
+> Task :library:preBuild UP-TO-DATE
+> Task :library:preDebugBuild UP-TO-DATE
+> Task :library:checkDebugManifest
+> Task :library:processDebugManifest
+> Task :example:preDebugBuild
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :example:compileDebugAidl NO-SOURCE
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :example:checkDebugManifest
+> Task :example:compileDebugRenderscript NO-SOURCE
+> Task :example:generateDebugBuildConfig
+> Task :example:mainApkListPersistenceDebug
+> Task :example:generateDebugResValues
+> Task :example:generateDebugResources
+> Task :library:generateDebugResValues
+> Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:generateDebugResources
+> Task :example:createDebugCompatibleScreenManifests
+> Task :example:processDebugManifest
+> Task :library:packageDebugResources
+> Task :example:mergeDebugResources
+> Task :library:generateDebugRFile
+> Task :example:processDebugResources
+> Task :library:generateDebugBuildConfig
+> Task :library:prepareLintJar
+
+> Task :library:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/library/src/main/java/hendrawd/library/customview/Views.kt: (11, 1): Expected performance impact of inlining 'public inline fun ViewManager.hintedImageButton(): HintedImageButton defined in hendrawd.library.customview in file Views.kt' is insignificant. Inlining works best for functions with parameters of functional types
+
+> Task :library:generateDebugSources
+> Task :library:javaPreCompileDebug
+> Task :library:compileDebugJavaWithJavac
+> Task :library:bundleLibCompileDebug
+> Task :example:compileDebugKotlin
+> Task :example:prepareLintJar
+> Task :example:generateDebugSources
+> Task :example:javaPreCompileDebug
+> Task :example:compileDebugJavaWithJavac
+> Task :example:compileDebugSources
+> Task :example:mergeDebugShaders
+> Task :example:compileDebugShaders
+> Task :example:generateDebugAssets
+> Task :library:mergeDebugShaders
+> Task :library:compileDebugShaders
+> Task :library:generateDebugAssets
+> Task :library:packageDebugAssets
+> Task :example:mergeDebugAssets
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:bundleLibResDebug
+> Task :library:bundleLibRuntimeDebug
+> Task :library:createFullJarDebug
+> Task :example:checkDebugDuplicateClasses
+> Task :example:transformClassesWithDexBuilderForDebug
+> Task :example:validateSigningDebug
+> Task :example:signingConfigWriterDebug
+> Task :example:mergeDebugJniLibFolders
+> Task :library:mergeDebugJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForDebug
+> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :example:transformNativeLibsWithMergeJniLibsForDebug
+> Task :example:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :example:processDebugJavaRes NO-SOURCE
+> Task :example:transformResourcesWithMergeJavaResForDebug
+> Task :library:preReleaseBuild UP-TO-DATE
+> Task :library:checkReleaseManifest
+> Task :library:processReleaseManifest
+> Task :example:preReleaseBuild
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :example:compileReleaseAidl NO-SOURCE
+> Task :library:packageReleaseRenderscript NO-SOURCE
+> Task :example:compileReleaseRenderscript NO-SOURCE
+> Task :example:checkReleaseManifest
+> Task :example:generateReleaseBuildConfig
+> Task :example:mainApkListPersistenceRelease
+> Task :example:generateReleaseResValues
+> Task :example:generateReleaseResources
+> Task :library:compileReleaseRenderscript NO-SOURCE
+> Task :library:generateReleaseResValues
+> Task :library:generateReleaseResources
+> Task :library:packageReleaseResources
+> Task :example:mergeReleaseResources
+> Task :example:createReleaseCompatibleScreenManifests
+> Task :example:processReleaseManifest
+> Task :library:generateReleaseRFile
+> Task :example:processReleaseResources
+> Task :library:generateReleaseBuildConfig
+
+> Task :library:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/library/src/main/java/hendrawd/library/customview/Views.kt: (11, 1): Expected performance impact of inlining 'public inline fun ViewManager.hintedImageButton(): HintedImageButton defined in hendrawd.library.customview in file Views.kt' is insignificant. Inlining works best for functions with parameters of functional types
+
+> Task :library:generateReleaseSources
+> Task :library:javaPreCompileRelease
+> Task :library:compileReleaseJavaWithJavac
+> Task :library:bundleLibCompileRelease
+> Task :example:compileReleaseKotlin
+> Task :example:mergeExtDexDebug
+> Task :example:mergeDexDebug
+> Task :example:packageDebug
+> Task :example:assembleDebug
+> Task :example:generateReleaseSources
+> Task :example:javaPreCompileRelease
+> Task :example:compileReleaseJavaWithJavac
+> Task :example:compileReleaseSources
+> Task :library:prepareLintJarForPublish
+
+> Task :example:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/7e4979cbb06692c4129604a4a6f295fe/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:bundleLibResRelease
+> Task :library:bundleLibRuntimeRelease
+> Task :library:createFullJarRelease
+> Task :example:checkReleaseDuplicateClasses
+> Task :example:transformClassesWithDexBuilderForRelease
+> Task :example:mergeReleaseShaders
+> Task :example:compileReleaseShaders
+> Task :example:generateReleaseAssets
+> Task :library:mergeReleaseShaders
+> Task :library:compileReleaseShaders
+> Task :library:generateReleaseAssets
+> Task :library:packageReleaseAssets
+> Task :example:mergeReleaseAssets
+> Task :example:signingConfigWriterRelease
+> Task :example:mergeReleaseJniLibFolders
+> Task :library:mergeReleaseJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForRelease
+> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :example:transformNativeLibsWithMergeJniLibsForRelease
+> Task :example:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :example:processReleaseJavaRes NO-SOURCE
+> Task :example:transformResourcesWithMergeJavaResForRelease
+> Task :example:mergeExtDexRelease
+> Task :example:mergeDexRelease
+> Task :example:packageRelease
+> Task :example:assembleRelease
+> Task :example:assemble
+> Task :example:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 53s
+95 actionable tasks: 95 executed
+
+2019-05-26 16:59:49,552 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558864712450-0/src/HintedImageButton-master/example/build/outputs/apk/release/example-release-unsigned.apk
