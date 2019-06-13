@@ -1,36 +1,36 @@
-2019-03-09 19:47:04,081 INFO  DownloadService - Downloading "https://github.com/jraska/livedata-testing/archive/master.zip", attempt 3
-2019-03-09 19:47:06,381 INFO  DownloadService - Downloaded https://github.com/jraska/livedata-testing/archive/master.zip, attempt 3
-2019-03-09 19:47:06,381 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/master.zip": 114 KB
-2019-03-09 19:47:06,381 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-09 19:47:06,386 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/master.zip: true
-2019-03-09 19:47:06,387 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src'.
-2019-03-09 19:47:06,403 INFO  FullProcessService - Size of directory with sources: 148 KB
-2019-03-09 19:47:06,403 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src]
-2019-03-09 19:47:06,424 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/.git/
+2019-06-13 10:55:44,904 INFO  DownloadService - Downloading "https://github.com/jraska/livedata-testing/archive/master.zip", attempt 3
+2019-06-13 10:55:46,773 INFO  DownloadService - Downloaded https://github.com/jraska/livedata-testing/archive/master.zip, attempt 3
+2019-06-13 10:55:46,773 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/master.zip": 114 KB
+2019-06-13 10:55:46,774 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-13 10:55:46,775 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/master.zip: true
+2019-06-13 10:55:46,775 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src'.
+2019-06-13 10:55:46,789 INFO  FullProcessService - Size of directory with sources: 148 KB
+2019-06-13 10:55:46,789 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src]
+2019-06-13 10:55:46,810 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/.git/
 
-2019-03-09 19:47:06,427 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/gradlew
-2019-03-09 19:47:06,431 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/testing-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/testing/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/build.gradle
-2019-03-09 19:47:06,433 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/gradle/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/gradle/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/testing/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/testing-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/settings.gradle
-2019-03-09 19:47:06,434 INFO  ProjectBuildService - Remote scripts: none
-2019-03-09 19:47:06,434 INFO  ProjectFixService - Fixing project...
-2019-03-09 19:47:06,442 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/testing-ktx/local.properties
-2019-03-09 19:47:06,443 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/testing-ktx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-09 19:47:06,444 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/testing-ktx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-09 19:47:06,445 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/testing/local.properties
-2019-03-09 19:47:06,446 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/testing/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-09 19:47:06,446 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/testing/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-09 19:47:06,447 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/local.properties
-2019-03-09 19:47:06,448 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
-2019-03-09 19:47:06,448 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
-2019-03-09 19:47:06,450 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-09 19:47:06,451 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-09 19:47:06,451 INFO  ProjectFixService - Project was maybe fixed
-2019-03-09 19:47:06,451 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-09 19:47:06,452 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/testing-ktx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-09 19:47:15,692 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-09 19:47:15,692 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-09 19:47:15,693 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/testing-ktx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-09 19:47:32,676 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-13 10:55:46,812 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/gradlew
+2019-06-13 10:55:46,816 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/testing-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/testing/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/build.gradle
+2019-06-13 10:55:46,818 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/gradle/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/gradle/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/testing/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/testing-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/settings.gradle
+2019-06-13 10:55:46,819 INFO  ProjectBuildService - Remote scripts: none
+2019-06-13 10:55:46,819 INFO  ProjectFixService - Fixing project...
+2019-06-13 10:55:46,828 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/testing-ktx/local.properties
+2019-06-13 10:55:46,830 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/testing-ktx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-13 10:55:46,831 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/testing-ktx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-13 10:55:46,832 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/testing/local.properties
+2019-06-13 10:55:46,834 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/testing/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-13 10:55:46,834 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/testing/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-13 10:55:46,835 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/local.properties
+2019-06-13 10:55:46,835 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-06-13 10:55:46,836 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-06-13 10:55:46,840 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-13 10:55:46,840 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-13 10:55:46,841 INFO  ProjectFixService - Project was maybe fixed
+2019-06-13 10:55:46,841 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-13 10:55:46,841 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/testing-ktx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-13 10:55:55,471 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-13 10:55:55,471 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-13 10:55:55,471 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/testing-ktx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-13 10:56:12,720 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :testing:preBuild UP-TO-DATE
 > Task :testing:preDebugBuild UP-TO-DATE
 > Task :testing:compileDebugAidl NO-SOURCE
@@ -142,12 +142,12 @@
 BUILD SUCCESSFUL in 16s
 71 actionable tasks: 71 executed
 
-2019-03-09 19:47:32,707 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-09 19:47:32,708 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/testing/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-09 19:47:39,653 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-09 19:47:39,653 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-09 19:47:39,654 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/testing/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-09 19:47:48,574 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-13 10:56:12,753 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-13 10:56:12,753 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/testing/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-13 10:56:20,253 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-13 10:56:20,253 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-13 10:56:20,254 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/testing/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-13 10:56:29,859 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :testing:preBuild UP-TO-DATE
 > Task :testing:preDebugBuild UP-TO-DATE
 > Task :testing:compileDebugAidl NO-SOURCE
@@ -220,15 +220,15 @@ BUILD SUCCESSFUL in 16s
 > Task :testing:assemble
 > Task :testing:build
 
-BUILD SUCCESSFUL in 8s
+BUILD SUCCESSFUL in 9s
 48 actionable tasks: 27 executed, 21 up-to-date
 
-2019-03-09 19:47:48,627 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-09 19:47:48,628 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-09 19:47:55,811 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-03-09 19:47:55,811 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-09 19:47:55,811 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552135624078-0/src/livedata-testing-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-09 19:48:03,709 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-13 10:56:29,901 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-13 10:56:29,902 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-13 10:56:37,299 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-06-13 10:56:37,299 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-13 10:56:37,300 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560398144901-0/src/livedata-testing-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-13 10:56:45,573 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :testing:preBuild UP-TO-DATE
 > Task :testing:preDebugBuild UP-TO-DATE
 > Task :testing:compileDebugAidl NO-SOURCE
@@ -374,8 +374,8 @@ BUILD SUCCESSFUL in 8s
 > Task :testing-ktx:assemble
 > Task :testing-ktx:build
 
-BUILD SUCCESSFUL in 7s
+BUILD SUCCESSFUL in 8s
 98 actionable tasks: 2 executed, 96 up-to-date
 
-2019-03-09 19:48:03,760 ERROR FullProcessService - Project build has not produced APK file
-2019-03-09 19:48:03,808 ERROR FullProcessService - Could not find generated or existed APK file
+2019-06-13 10:56:45,615 ERROR FullProcessService - Project build has not produced APK file
+2019-06-13 10:56:45,652 ERROR FullProcessService - Could not find generated or existed APK file
