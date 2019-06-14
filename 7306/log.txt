@@ -1,53 +1,65 @@
-2019-03-01 11:20:41,569 INFO  DownloadService - Downloading "https://github.com/lnicolet/HiddenSearchWithRecyclerView/archive/master.zip", attempt 3
-2019-03-01 11:20:47,544 INFO  DownloadService - Downloaded https://github.com/lnicolet/HiddenSearchWithRecyclerView/archive/master.zip, attempt 3
-2019-03-01 11:20:47,544 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/master.zip": 4 MB
-2019-03-01 11:20:47,544 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-01 11:20:47,551 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/master.zip: true
-2019-03-01 11:20:47,551 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src'.
-2019-03-01 11:20:47,609 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-03-01 11:20:47,609 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src]
-2019-03-01 11:20:47,636 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/.git/
+2019-06-14 11:02:42,936 INFO  DownloadService - Downloading "https://github.com/lnicolet/HiddenSearchWithRecyclerView/archive/master.zip", attempt 3
+2019-06-14 11:02:47,137 INFO  DownloadService - Downloaded https://github.com/lnicolet/HiddenSearchWithRecyclerView/archive/master.zip, attempt 3
+2019-06-14 11:02:47,137 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/master.zip": 2 MB
+2019-06-14 11:02:47,137 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-14 11:02:47,143 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/master.zip: true
+2019-06-14 11:02:47,144 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src'.
+2019-06-14 11:02:47,186 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-06-14 11:02:47,186 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src]
+2019-06-14 11:02:47,211 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/.git/
 
-2019-03-01 11:20:47,639 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/gradlew
-2019-03-01 11:20:47,643 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/hiddensearchwithrecyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/build.gradle
-2019-03-01 11:20:47,647 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/hiddensearchwithrecyclerview/build.gradle
-2019-03-01 11:20:47,647 INFO  ProjectBuildService - Remote scripts: none
-2019-03-01 11:20:47,647 INFO  ProjectFixService - Fixing project...
-2019-03-01 11:20:47,655 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/app/local.properties
-2019-03-01 11:20:47,656 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-01 11:20:47,656 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-01 11:20:47,657 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/hiddensearchwithrecyclerview/local.properties
-2019-03-01 11:20:47,658 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/hiddensearchwithrecyclerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-01 11:20:47,658 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/hiddensearchwithrecyclerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-01 11:20:47,659 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/local.properties
-2019-03-01 11:20:47,660 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-03-01 11:20:47,660 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-03-01 11:20:47,662 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-01 11:20:47,662 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-01 11:20:47,662 INFO  ProjectFixService - Project was maybe fixed
-2019-03-01 11:20:47,662 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-01 11:20:47,662 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-01 11:20:55,461 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-01 11:20:55,461 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-01 11:20:55,461 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-01 11:21:47,679 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-14 11:02:47,214 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/gradlew
+2019-06-14 11:02:47,217 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/hiddensearchwithrecyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/build.gradle
+2019-06-14 11:02:47,220 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/hiddensearchwithrecyclerview/build.gradle
+2019-06-14 11:02:47,220 INFO  ProjectBuildService - Remote scripts: none
+2019-06-14 11:02:47,220 INFO  ProjectFixService - Fixing project...
+2019-06-14 11:02:47,228 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/app/local.properties
+2019-06-14 11:02:47,229 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-14 11:02:47,229 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-14 11:02:47,230 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/hiddensearchwithrecyclerview/local.properties
+2019-06-14 11:02:47,231 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/hiddensearchwithrecyclerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-14 11:02:47,231 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/hiddensearchwithrecyclerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-14 11:02:47,232 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/local.properties
+2019-06-14 11:02:47,233 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-06-14 11:02:47,233 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-06-14 11:02:47,235 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-14 11:02:47,235 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-14 11:02:47,235 INFO  ProjectFixService - Project was maybe fixed
+2019-06-14 11:02:47,235 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-14 11:02:47,236 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-14 11:02:57,441 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-06-14 11:02:57,442 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-14 11:02:57,442 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-14 11:03:58,055 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
+
+> Configure project :hiddensearchwithrecyclerview
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
 > Task :app:preBuild UP-TO-DATE
 > Task :hiddensearchwithrecyclerview:preBuild UP-TO-DATE
 > Task :hiddensearchwithrecyclerview:preDebugBuild UP-TO-DATE
 > Task :hiddensearchwithrecyclerview:checkDebugManifest
 > Task :hiddensearchwithrecyclerview:processDebugManifest
-> Task :app:preDebugBuild
-> Task :hiddensearchwithrecyclerview:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
 > Task :hiddensearchwithrecyclerview:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript
+> Task :hiddensearchwithrecyclerview:generateDebugResValues
+> Task :hiddensearchwithrecyclerview:generateDebugBuildConfig
+> Task :hiddensearchwithrecyclerview:prepareLintJar
+> Task :app:prepareLintJar
+> Task :hiddensearchwithrecyclerview:compileDebugAidl NO-SOURCE
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :hiddensearchwithrecyclerview:compileDebugRenderscript
-> Task :hiddensearchwithrecyclerview:generateDebugResValues
+> Task :hiddensearchwithrecyclerview:compileDebugRenderscript NO-SOURCE
 > Task :hiddensearchwithrecyclerview:generateDebugResources
 > Task :hiddensearchwithrecyclerview:packageDebugResources
 > Task :app:mergeDebugResources
@@ -55,21 +67,18 @@
 > Task :app:processDebugManifest
 > Task :hiddensearchwithrecyclerview:generateDebugRFile
 > Task :app:processDebugResources
-> Task :hiddensearchwithrecyclerview:generateDebugBuildConfig
-> Task :hiddensearchwithrecyclerview:compileDebugKotlin
-> Task :hiddensearchwithrecyclerview:prepareLintJar
 > Task :hiddensearchwithrecyclerview:generateDebugSources
+> Task :hiddensearchwithrecyclerview:compileDebugKotlin
 > Task :hiddensearchwithrecyclerview:javaPreCompileDebug
 > Task :hiddensearchwithrecyclerview:compileDebugJavaWithJavac
-> Task :hiddensearchwithrecyclerview:processDebugJavaRes NO-SOURCE
-> Task :hiddensearchwithrecyclerview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/app/src/main/java/com/nicolettilu/hiddensearchwithrecyclerviewsample/SimpleAdapter.kt: (36, 54): Unchecked cast: Any? to List<String>
+> Task :hiddensearchwithrecyclerview:bundleLibCompileDebug
+
 > Task :app:compileDebugKotlin
-> Task :app:prepareLintJar
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/app/src/main/java/com/nicolettilu/hiddensearchwithrecyclerviewsample/SimpleAdapter.kt: (36, 54): Unchecked cast: Any? to List<String>
+
 > Task :app:generateDebugSources
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugNdk NO-SOURCE
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -79,16 +88,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/
 > Task :hiddensearchwithrecyclerview:generateDebugAssets
 > Task :hiddensearchwithrecyclerview:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :hiddensearchwithrecyclerview:processDebugJavaRes NO-SOURCE
+> Task :hiddensearchwithrecyclerview:bundleLibResDebug
+> Task :hiddensearchwithrecyclerview:bundleLibRuntimeDebug
 > Task :hiddensearchwithrecyclerview:createFullJarDebug
-> Transform full.jar (project :hiddensearchwithrecyclerview) with IdentityTransform
-> Task :app:mergeExtDexDebug
-> Transform full.jar (project :hiddensearchwithrecyclerview) with DexingTransform
+> Task :app:checkDebugDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:mergeDexDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :hiddensearchwithrecyclerview:compileDebugNdk NO-SOURCE
 > Task :hiddensearchwithrecyclerview:mergeDebugJniLibFolders
 > Task :hiddensearchwithrecyclerview:transformNativeLibsWithMergeJniLibsForDebug
 > Task :hiddensearchwithrecyclerview:transformNativeLibsWithStripDebugSymbolForDebug
@@ -97,8 +105,6 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :hiddensearchwithrecyclerview:preReleaseBuild UP-TO-DATE
 > Task :hiddensearchwithrecyclerview:checkReleaseManifest
 > Task :hiddensearchwithrecyclerview:processReleaseManifest
@@ -106,13 +112,13 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/
 > Task :hiddensearchwithrecyclerview:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :hiddensearchwithrecyclerview:packageReleaseRenderscript NO-SOURCE
-> Task :app:compileReleaseRenderscript
+> Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :hiddensearchwithrecyclerview:compileReleaseRenderscript
+> Task :hiddensearchwithrecyclerview:compileReleaseRenderscript NO-SOURCE
 > Task :hiddensearchwithrecyclerview:generateReleaseResValues
 > Task :hiddensearchwithrecyclerview:generateReleaseResources
 > Task :hiddensearchwithrecyclerview:packageReleaseResources
@@ -126,25 +132,30 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/
 > Task :hiddensearchwithrecyclerview:generateReleaseSources
 > Task :hiddensearchwithrecyclerview:javaPreCompileRelease
 > Task :hiddensearchwithrecyclerview:compileReleaseJavaWithJavac
-> Task :hiddensearchwithrecyclerview:processReleaseJavaRes NO-SOURCE
-> Task :hiddensearchwithrecyclerview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/app/src/main/java/com/nicolettilu/hiddensearchwithrecyclerviewsample/SimpleAdapter.kt: (36, 54): Unchecked cast: Any? to List<String>
+> Task :hiddensearchwithrecyclerview:bundleLibCompileRelease
+
 > Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/app/src/main/java/com/nicolettilu/hiddensearchwithrecyclerviewsample/SimpleAdapter.kt: (36, 54): Unchecked cast: Any? to List<String>
+
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
+> Task :hiddensearchwithrecyclerview:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/bf26c7ca558532595f028ba03f29e7b9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/03a0281fbea73c8e7a4554d2e9c486e9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
+> Task :hiddensearchwithrecyclerview:processReleaseJavaRes NO-SOURCE
+> Task :hiddensearchwithrecyclerview:bundleLibResRelease
+> Task :hiddensearchwithrecyclerview:bundleLibRuntimeRelease
 > Task :hiddensearchwithrecyclerview:createFullJarRelease
-> Transform full.jar (project :hiddensearchwithrecyclerview) with IdentityTransform
-> Task :app:mergeExtDexRelease
-> Transform full.jar (project :hiddensearchwithrecyclerview) with DexingTransform
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:mergeDexRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -155,7 +166,6 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:mergeReleaseAssets
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
-> Task :hiddensearchwithrecyclerview:compileReleaseNdk NO-SOURCE
 > Task :hiddensearchwithrecyclerview:mergeReleaseJniLibFolders
 > Task :hiddensearchwithrecyclerview:transformNativeLibsWithMergeJniLibsForRelease
 > Task :hiddensearchwithrecyclerview:transformNativeLibsWithStripDebugSymbolForRelease
@@ -164,12 +174,18 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 51s
-92 actionable tasks: 92 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-03-01 11:21:47,772 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551414041565-0/src/HiddenSearchWithRecyclerView-master/app/build/outputs/apk/debug/app-debug.apk
+BUILD SUCCESSFUL in 1m 0s
+95 actionable tasks: 95 executed
+
+2019-06-14 11:03:58,128 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560484962928-0/src/HiddenSearchWithRecyclerView-master/app/build/outputs/apk/debug/app-debug.apk
