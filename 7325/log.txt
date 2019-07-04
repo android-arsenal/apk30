@@ -1,134 +1,195 @@
-2019-03-01 11:17:23,714 INFO  DownloadService - Downloading "https://github.com/stfalcon-studio/StfalconPriceRangeBar-android/archive/master.zip", attempt 3
-2019-03-01 11:17:25,675 INFO  DownloadService - Downloaded https://github.com/stfalcon-studio/StfalconPriceRangeBar-android/archive/master.zip, attempt 3
-2019-03-01 11:17:25,676 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/master.zip": 290 KB
-2019-03-01 11:17:25,676 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-01 11:17:25,676 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/master.zip: true
-2019-03-01 11:17:25,676 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src'.
-2019-03-01 11:17:25,698 INFO  FullProcessService - Size of directory with sources: 376 KB
-2019-03-01 11:17:25,698 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src]
-2019-03-01 11:17:25,717 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/.git/
+2019-07-04 23:14:27,329 INFO  DownloadService - Downloading "https://github.com/stfalcon-studio/StfalconPriceRangeBar-android/archive/master.zip", attempt 3
+2019-07-04 23:14:29,959 INFO  DownloadService - Downloaded https://github.com/stfalcon-studio/StfalconPriceRangeBar-android/archive/master.zip, attempt 3
+2019-07-04 23:14:29,960 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/master.zip": 337 KB
+2019-07-04 23:14:29,960 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-04 23:14:29,965 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/master.zip: true
+2019-07-04 23:14:29,966 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src'.
+2019-07-04 23:14:29,986 INFO  FullProcessService - Size of directory with sources: 429 KB
+2019-07-04 23:14:29,987 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src]
+2019-07-04 23:14:30,003 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/.git/
 
-2019-03-01 11:17:25,720 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/gradlew
-2019-03-01 11:17:25,724 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/stfalconpricerangebar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/build.gradle
-2019-03-01 11:17:25,727 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/stfalconpricerangebar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/settings.gradle
-2019-03-01 11:17:25,728 INFO  ProjectBuildService - Remote scripts: none
-2019-03-01 11:17:25,728 INFO  ProjectFixService - Fixing project...
-2019-03-01 11:17:25,735 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/sample/local.properties
-2019-03-01 11:17:25,736 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-01 11:17:25,736 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-01 11:17:25,736 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/stfalconpricerangebar/local.properties
-2019-03-01 11:17:25,737 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/stfalconpricerangebar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-01 11:17:25,737 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/stfalconpricerangebar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-01 11:17:25,738 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/local.properties
-2019-03-01 11:17:25,738 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-03-01 11:17:25,739 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-03-01 11:17:25,740 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-01 11:17:25,740 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-01 11:17:25,741 INFO  ProjectFixService - Project was maybe fixed
-2019-03-01 11:17:25,741 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-01 11:17:25,741 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-01 11:17:25,901 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-01 11:17:25,901 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-01 11:17:25,901 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-01 11:17:25,901 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-01 11:17:26,065 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-03-01 11:17:26,066 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-07-04 23:14:30,005 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/gradlew
+2019-07-04 23:14:30,008 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/stfalconpricerangebar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/build.gradle
+2019-07-04 23:14:30,010 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/stfalconpricerangebar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/settings.gradle
+2019-07-04 23:14:30,011 INFO  ProjectBuildService - Remote scripts: none
+2019-07-04 23:14:30,011 INFO  ProjectFixService - Fixing project...
+2019-07-04 23:14:30,016 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/sample/local.properties
+2019-07-04 23:14:30,017 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-04 23:14:30,017 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-04 23:14:30,018 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/stfalconpricerangebar/local.properties
+2019-07-04 23:14:30,019 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/stfalconpricerangebar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-04 23:14:30,020 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/stfalconpricerangebar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-04 23:14:30,020 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/local.properties
+2019-07-04 23:14:30,021 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-04 23:14:30,021 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-04 23:14:30,022 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-04 23:14:30,023 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-07-04 23:14:30,023 INFO  ProjectFixService - Project was maybe fixed
+2019-07-04 23:14:30,023 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-04 23:14:30,023 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-04 23:14:37,203 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-04 23:14:37,203 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-04 23:14:37,203 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-04 23:15:35,481 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-2019-03-01 11:17:26,069 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-01 11:17:26,069 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/stfalconpricerangebar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-01 11:17:26,223 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-01 11:17:26,223 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-01 11:17:26,223 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-01 11:17:26,223 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/stfalconpricerangebar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-01 11:17:26,379 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-03-01 11:17:26,380 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+> Configure project :stfalconpricerangebar
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
-2019-03-01 11:17:26,383 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-01 11:17:26,383 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-01 11:17:26,527 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-01 11:17:26,527 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-01 11:17:26,528 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-01 11:17:26,528 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551413843710-0/src/StfalconPriceRangeBar-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-01 11:17:26,676 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-03-01 11:17:26,676 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+> Task :sample:preBuild UP-TO-DATE
+> Task :stfalconpricerangebar:preBuild UP-TO-DATE
+> Task :stfalconpricerangebar:preDebugBuild UP-TO-DATE
+> Task :stfalconpricerangebar:checkDebugManifest
+> Task :stfalconpricerangebar:processDebugManifest
+> Task :sample:preDebugBuild
+> Task :stfalconpricerangebar:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :stfalconpricerangebar:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :stfalconpricerangebar:compileDebugRenderscript NO-SOURCE
+> Task :stfalconpricerangebar:generateDebugResValues
+> Task :stfalconpricerangebar:generateDebugResources
+> Task :stfalconpricerangebar:packageDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :stfalconpricerangebar:generateDebugRFile
+> Task :sample:processDebugResources
+> Task :stfalconpricerangebar:generateDebugBuildConfig
 
-2019-03-01 11:17:26,680 ERROR FullProcessService - Project build has not produced APK file
-2019-03-01 11:17:26,683 ERROR FullProcessService - Could not find generated or existed APK file
+> Task :stfalconpricerangebar:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/stfalconpricerangebar/src/main/java/com/stfalcon/pricerangebar/SimpleRangeView.kt: (871, 29): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+
+> Task :stfalconpricerangebar:prepareLintJar
+> Task :stfalconpricerangebar:generateDebugSources
+> Task :stfalconpricerangebar:javaPreCompileDebug
+> Task :stfalconpricerangebar:compileDebugJavaWithJavac
+> Task :stfalconpricerangebar:bundleLibCompileDebug
+> Task :sample:compileDebugKotlin
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :stfalconpricerangebar:mergeDebugShaders
+> Task :stfalconpricerangebar:compileDebugShaders
+> Task :stfalconpricerangebar:generateDebugAssets
+> Task :stfalconpricerangebar:packageDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :stfalconpricerangebar:bundleLibRuntimeDebug
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :sample:transformDexArchiveWithDexMergerForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :stfalconpricerangebar:processDebugJavaRes NO-SOURCE
+> Task :stfalconpricerangebar:bundleLibResDebug
+> Task :stfalconpricerangebar:mergeDebugJniLibFolders
+> Task :stfalconpricerangebar:transformNativeLibsWithMergeJniLibsForDebug
+> Task :stfalconpricerangebar:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :stfalconpricerangebar:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :stfalconpricerangebar:preReleaseBuild UP-TO-DATE
+> Task :stfalconpricerangebar:checkReleaseManifest
+> Task :stfalconpricerangebar:processReleaseManifest
+> Task :sample:preReleaseBuild
+> Task :stfalconpricerangebar:compileReleaseAidl NO-SOURCE
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :stfalconpricerangebar:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :stfalconpricerangebar:compileReleaseRenderscript NO-SOURCE
+> Task :stfalconpricerangebar:generateReleaseResValues
+> Task :stfalconpricerangebar:generateReleaseResources
+> Task :stfalconpricerangebar:packageReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :stfalconpricerangebar:generateReleaseRFile
+> Task :sample:processReleaseResources
+> Task :stfalconpricerangebar:generateReleaseBuildConfig
+
+> Task :stfalconpricerangebar:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/stfalconpricerangebar/src/main/java/com/stfalcon/pricerangebar/SimpleRangeView.kt: (871, 29): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+
+> Task :stfalconpricerangebar:generateReleaseSources
+> Task :stfalconpricerangebar:javaPreCompileRelease
+> Task :stfalconpricerangebar:compileReleaseJavaWithJavac
+> Task :stfalconpricerangebar:bundleLibCompileRelease
+> Task :sample:compileReleaseKotlin
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :stfalconpricerangebar:prepareLintJarForPublish
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f2c8257b1de9d29bade4dcee57350723/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :stfalconpricerangebar:mergeReleaseShaders
+> Task :stfalconpricerangebar:compileReleaseShaders
+> Task :stfalconpricerangebar:generateReleaseAssets
+> Task :stfalconpricerangebar:packageReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :stfalconpricerangebar:bundleLibRuntimeRelease
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :sample:transformDexArchiveWithDexMergerForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :stfalconpricerangebar:processReleaseJavaRes NO-SOURCE
+> Task :stfalconpricerangebar:bundleLibResRelease
+> Task :stfalconpricerangebar:mergeReleaseJniLibFolders
+> Task :stfalconpricerangebar:transformNativeLibsWithMergeJniLibsForRelease
+> Task :stfalconpricerangebar:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :stfalconpricerangebar:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 57s
+93 actionable tasks: 93 executed
+
+2019-07-04 23:15:35,544 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256867320-0/src/StfalconPriceRangeBar-android-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

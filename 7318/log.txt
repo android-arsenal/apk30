@@ -1,35 +1,46 @@
-2018-12-02 00:59:46,537 INFO  DownloadService - Downloading "https://github.com/arbelkilani/Beauty-Compass/archive/master.zip", attempt 3
-2018-12-02 00:59:58,462 INFO  DownloadService - Downloaded https://github.com/arbelkilani/Beauty-Compass/archive/master.zip, attempt 3
-2018-12-02 00:59:58,462 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/master.zip": 24 MB
-2018-12-02 00:59:58,462 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-02 00:59:58,468 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/master.zip: true
-2018-12-02 00:59:58,468 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src'.
-2018-12-02 00:59:58,605 INFO  FullProcessService - Size of directory with sources: 25 MB
-2018-12-02 00:59:58,605 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src]
-2018-12-02 00:59:58,631 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/.git/
+2019-07-04 23:15:46,532 INFO  DownloadService - Downloading "https://github.com/arbelkilani/Beauty-Compass/archive/master.zip", attempt 3
+2019-07-04 23:16:10,427 INFO  DownloadService - Downloaded https://github.com/arbelkilani/Beauty-Compass/archive/master.zip, attempt 3
+2019-07-04 23:16:10,427 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/master.zip": 24 MB
+2019-07-04 23:16:10,428 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-04 23:16:10,429 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/master.zip: true
+2019-07-04 23:16:10,429 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src'.
+2019-07-04 23:16:10,540 INFO  FullProcessService - Size of directory with sources: 25 MB
+2019-07-04 23:16:10,540 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src]
+2019-07-04 23:16:10,556 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/.git/
 
-2018-12-02 00:59:58,636 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/gradlew
-2018-12-02 00:59:58,639 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/build.gradle
-2018-12-02 00:59:58,643 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/settings.gradle
-2018-12-02 00:59:58,644 INFO  ProjectBuildService - Remote scripts: none
-2018-12-02 00:59:58,644 INFO  ProjectFixService - Fixing project...
-2018-12-02 00:59:58,654 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/app/local.properties
-2018-12-02 00:59:58,655 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2018-12-02 00:59:58,656 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2018-12-02 00:59:58,657 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/local.properties
-2018-12-02 00:59:58,657 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-12-02 00:59:58,658 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-12-02 00:59:58,659 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2018-12-02 00:59:58,659 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2018-12-02 00:59:58,660 INFO  ProjectFixService - Project was maybe fixed
-2018-12-02 00:59:58,660 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-02 00:59:58,660 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-02 01:00:06,869 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-12-02 01:00:06,869 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-02 01:00:06,869 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-02 01:00:59,698 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-04 23:16:10,559 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/gradlew
+2019-07-04 23:16:10,561 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/build.gradle
+2019-07-04 23:16:10,564 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/settings.gradle
+2019-07-04 23:16:10,564 INFO  ProjectBuildService - Remote scripts: none
+2019-07-04 23:16:10,564 INFO  ProjectFixService - Fixing project...
+2019-07-04 23:16:10,570 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/app/local.properties
+2019-07-04 23:16:10,571 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-07-04 23:16:10,571 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-07-04 23:16:10,572 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/local.properties
+2019-07-04 23:16:10,572 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-07-04 23:16:10,572 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-07-04 23:16:10,573 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-07-04 23:16:10,573 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-07-04 23:16:10,574 INFO  ProjectFixService - Project was maybe fixed
+2019-07-04 23:16:10,574 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-04 23:16:10,574 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-04 23:16:17,830 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-04 23:16:17,830 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-04 23:16:17,830 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-04 23:17:10,738 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-base/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-basement/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-places-placereport/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-tasks/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/1.1.0/constraint-layout-1.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-basement/15.0.1/play-services-basement-15.0.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-base/15.0.1/play-services-base-15.0.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-tasks/15.0.1/play-services-tasks-15.0.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-location/15.0.1/play-services-location-15.0.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-places-placereport/15.0.1/play-services-places-placereport-15.0.1.aar
+Download https://jitpack.io/com/github/arbelkilani/Compass-View/v1.1.1/Compass-View-v1.1.1.aar
 :app:compileDebugAidl
 :app:compileDebugRenderscript
 :app:checkDebugManifest
@@ -45,6 +56,7 @@
 :app:processDebugResources
 :app:generateDebugSources
 :app:javaPreCompileDebug
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/1.1.0/constraint-layout-solver-1.1.0.jar
 :app:compileDebugJavaWithJavac
 :app:compileDebugNdk NO-SOURCE
 :app:compileDebugSources
@@ -118,8 +130,8 @@ Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/05f14190ec191eb79ab0eb8503f81964/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/app/build/intermediates/classes/release] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/app/build/intermediates/classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
 Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
@@ -160,16 +172,16 @@ Ignoring unused library classes...
   Final number of library classes:    1212
 Printing kept classes, fields, and methods...
 Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/app/build/outputs/mapping/release/usage.txt]...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/app/build/outputs/mapping/release/usage.txt]...
 Removing unused program classes and class elements...
   Original number of program classes: 2518
   Final number of program classes:    1044
 Inlining subroutines...
 Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/app/build/outputs/mapping/release/mapping.txt]...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/app/build/outputs/mapping/release/mapping.txt]...
 Preverifying...
 Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/app/build/intermediates/transforms/proguard/release/0.jar]
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/app/build/intermediates/transforms/proguard/release/0.jar]
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/Compass-View-v1.1.1.aar/0fa01446b4370ee8becccaa14eb17615/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/7ed1ba1ef2872b8dc18868b90f46440a/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e5137d96b1131245164852a3f87c57bb/jars/classes.jar] (filtered)
@@ -194,9 +206,9 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/05f14190ec191eb79ab0eb8503f81964/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/app/build/intermediates/classes/release] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/app/build/outputs/mapping/release/dump.txt]...
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/app/build/intermediates/classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/app/build/outputs/mapping/release/dump.txt]...
 :app:transformClassesWithDexBuilderForRelease
 :app:transformDexArchiveWithDexMergerForRelease
 :app:mergeReleaseJniLibFolders
@@ -210,4 +222,4 @@ Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/15
 BUILD SUCCESSFUL in 52s
 54 actionable tasks: 54 executed
 
-2018-12-02 01:00:59,776 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687186533-0/src/Beauty-Compass-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-04 23:17:10,785 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562256946524-0/src/Beauty-Compass-master/app/build/outputs/apk/debug/app-debug.apk

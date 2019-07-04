@@ -1,36 +1,36 @@
-2019-03-02 14:22:12,665 INFO  DownloadService - Downloading "https://github.com/arbelkilani/Clock-view/archive/master.zip", attempt 3
-2019-03-02 14:22:31,074 INFO  DownloadService - Downloaded https://github.com/arbelkilani/Clock-view/archive/master.zip, attempt 3
-2019-03-02 14:22:31,074 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/master.zip": 12 MB
-2019-03-02 14:22:31,074 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-02 14:22:31,076 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/master.zip: true
-2019-03-02 14:22:31,076 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src'.
-2019-03-02 14:22:31,206 INFO  FullProcessService - Size of directory with sources: 12 MB
-2019-03-02 14:22:31,206 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src]
-2019-03-02 14:22:31,226 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/.git/
+2019-07-04 23:23:56,748 INFO  DownloadService - Downloading "https://github.com/arbelkilani/Clock-view/archive/master.zip", attempt 3
+2019-07-04 23:24:19,036 INFO  DownloadService - Downloaded https://github.com/arbelkilani/Clock-view/archive/master.zip, attempt 3
+2019-07-04 23:24:19,037 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/master.zip": 12 MB
+2019-07-04 23:24:19,037 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-04 23:24:19,038 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/master.zip: true
+2019-07-04 23:24:19,039 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src'.
+2019-07-04 23:24:19,135 INFO  FullProcessService - Size of directory with sources: 12 MB
+2019-07-04 23:24:19,136 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src]
+2019-07-04 23:24:19,152 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/.git/
 
-2019-03-02 14:22:31,231 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/gradlew
-2019-03-02 14:22:31,236 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/clock/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/build.gradle
-2019-03-02 14:22:31,241 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/clock/build.gradle
-2019-03-02 14:22:31,242 INFO  ProjectBuildService - Remote scripts: none
-2019-03-02 14:22:31,242 INFO  ProjectFixService - Fixing project...
-2019-03-02 14:22:31,254 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/app/local.properties
-2019-03-02 14:22:31,255 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-02 14:22:31,255 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-02 14:22:31,256 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/clock/local.properties
-2019-03-02 14:22:31,257 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/clock/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-02 14:22:31,258 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/clock/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-02 14:22:31,259 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/local.properties
-2019-03-02 14:22:31,259 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-03-02 14:22:31,260 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-03-02 14:22:31,262 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-02 14:22:31,262 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-02 14:22:31,262 INFO  ProjectFixService - Project was maybe fixed
-2019-03-02 14:22:31,263 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-02 14:22:31,263 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-02 14:22:37,376 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-03-02 14:22:37,376 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-02 14:22:37,376 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-02 14:23:06,575 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-04 23:24:19,155 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/gradlew
+2019-07-04 23:24:19,159 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/clock/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/build.gradle
+2019-07-04 23:24:19,162 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/clock/build.gradle
+2019-07-04 23:24:19,162 INFO  ProjectBuildService - Remote scripts: none
+2019-07-04 23:24:19,162 INFO  ProjectFixService - Fixing project...
+2019-07-04 23:24:19,170 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/app/local.properties
+2019-07-04 23:24:19,170 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-04 23:24:19,170 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-04 23:24:19,171 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/clock/local.properties
+2019-07-04 23:24:19,172 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/clock/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-04 23:24:19,172 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/clock/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-04 23:24:19,173 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/local.properties
+2019-07-04 23:24:19,174 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-07-04 23:24:19,174 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-07-04 23:24:19,175 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-04 23:24:19,175 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-04 23:24:19,175 INFO  ProjectFixService - Project was maybe fixed
+2019-07-04 23:24:19,176 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-04 23:24:19,176 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-04 23:24:24,269 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-04 23:24:24,269 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-04 23:24:24,269 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-04 23:24:55,379 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild
@@ -106,7 +106,7 @@
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 28s
+BUILD SUCCESSFUL in 30s
 55 actionable tasks: 55 executed
 
-2019-03-02 14:23:06,652 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511332657-0/src/Clock-view-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-04 23:24:55,432 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257436739-0/src/Clock-view-master/app/build/outputs/apk/debug/app-debug.apk

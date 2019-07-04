@@ -1,46 +1,53 @@
-2019-05-19 16:56:57,055 INFO  DownloadService - Downloading "https://github.com/skydoves/TheMovies/archive/master.zip", attempt 3
-2019-05-19 16:56:57,980 INFO  DownloadService - Downloaded https://github.com/skydoves/TheMovies/archive/master.zip, attempt 3
-2019-05-19 16:56:57,981 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/master.zip": 292 KB
-2019-05-19 16:56:57,981 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-19 16:56:57,987 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/master.zip: true
-2019-05-19 16:56:57,987 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src'.
-2019-05-19 16:56:58,061 INFO  FullProcessService - Size of directory with sources: 442 KB
-2019-05-19 16:56:58,061 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src]
-2019-05-19 16:56:58,080 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/.git/
+2019-07-04 23:20:56,815 INFO  DownloadService - Downloading "https://github.com/skydoves/TheMovies/archive/master.zip", attempt 3
+2019-07-04 23:21:03,906 INFO  DownloadService - Downloaded https://github.com/skydoves/TheMovies/archive/master.zip, attempt 3
+2019-07-04 23:21:03,906 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/master.zip": 363 KB
+2019-07-04 23:21:03,906 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-04 23:21:03,912 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/master.zip: true
+2019-07-04 23:21:03,913 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src'.
+2019-07-04 23:21:03,964 INFO  FullProcessService - Size of directory with sources: 568 KB
+2019-07-04 23:21:03,964 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src]
+2019-07-04 23:21:03,981 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/.git/
 
-2019-05-19 16:56:58,088 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/gradlew
-2019-05-19 16:56:58,096 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/build.gradle
-2019-05-19 16:56:58,103 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/spotless.gradle
-2019-05-19 16:56:58,107 INFO  ProjectBuildService - Remote scripts: none
-2019-05-19 16:56:58,108 INFO  ProjectFixService - Fixing project...
-2019-05-19 16:56:58,128 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/app/local.properties
-2019-05-19 16:56:58,131 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-19 16:56:58,131 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-19 16:56:58,132 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/local.properties
-2019-05-19 16:56:58,132 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-19 16:56:58,133 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-19 16:56:58,135 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-19 16:56:58,136 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-19 16:56:58,137 INFO  ProjectFixService - Project was maybe fixed
-2019-05-19 16:56:58,137 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 16:56:58,137 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 16:57:10,173 INFO  ProjectTaskService - Detected possible tasks: 75
-2019-05-19 16:57:10,174 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-19 16:57:10,174 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-19 16:58:44,756 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-04 23:21:03,986 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/gradlew
+2019-07-04 23:21:03,990 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/build.gradle
+2019-07-04 23:21:03,995 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/spotless.gradle
+2019-07-04 23:21:03,998 INFO  ProjectBuildService - Remote scripts: none
+2019-07-04 23:21:03,998 INFO  ProjectFixService - Fixing project...
+2019-07-04 23:21:04,008 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/app/local.properties
+2019-07-04 23:21:04,010 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-04 23:21:04,011 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-04 23:21:04,012 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/local.properties
+2019-07-04 23:21:04,012 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-04 23:21:04,012 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-04 23:21:04,014 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-04 23:21:04,014 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-04 23:21:04,014 INFO  ProjectFixService - Project was maybe fixed
+2019-07-04 23:21:04,014 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-04 23:21:04,015 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-04 23:21:11,831 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-07-04 23:21:11,831 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-04 23:21:11,831 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-04 23:22:51,309 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 No such property tmdb_api_key in file local.properties
 > Task :app:preBuild UP-TO-DATE
+> Task :app:prepareLintJar
 > Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :app:checkDebugManifest
 > Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
-> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugSources
+> Task :app:dataBindingExportBuildInfoDebug
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :app:dataBindingMergeGenClassesDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :app:mergeDebugResources
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :app:dataBindingExportFeaturePackageIdsDebug
+> Task :app:mainApkListPersistenceDebug
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
 > Task :app:processDebugResources
@@ -48,17 +55,12 @@ No such property tmdb_api_key in file local.properties
 > Task :app:kaptDebugKotlin
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/app/src/main/java/com/skydoves/themovies/models/Resource.kt: (64, 31): Parameter 'onLastPage' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/app/src/main/java/com/skydoves/themovies/view/ui/main/MainPagerAdapter.kt: (12, 47): 'constructor FragmentPagerAdapter(FragmentManager)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/app/src/main/java/com/skydoves/themovies/models/Resource.kt: (82, 31): Parameter 'onLastPage' is never used
 
-> Task :app:prepareLintJar
-> Task :app:generateDebugSources
 > Task :app:javaPreCompileDebug
 
 > Task :app:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/app/build/generated/source/kapt/debug/com/skydoves/themovies/di/DaggerAppComponent.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/app/build/generated/source/kapt/debug/com/skydoves/themovies/di/DaggerAppComponent.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/app/build/generated/source/kapt/debug/com/skydoves/themovies/di/DaggerAppComponent.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :app:compileDebugSources
@@ -69,6 +71,8 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:checkDebugDuplicateClasses
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/906d1afaba70ba9fa6e8bccf8caff3e3/jars/classes.jar: D8: Type `androidx.paging.PositionalDataSource` was not found, it is required for default or static interface methods desugaring of `boolean androidx.room.paging.LimitOffsetDataSource.isInvalid()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.11.0/75966e05a49046ca2ae734e5626f28837a8d1e82/okhttp-3.11.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :app:transformDexArchiveWithDexMergerForDebug
@@ -84,10 +88,16 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
-> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseSources
+> Task :app:dataBindingExportBuildInfoRelease
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :app:dataBindingMergeGenClassesRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :app:mergeReleaseResources
+> Task :app:dataBindingGenBaseClassesRelease
+> Task :app:dataBindingExportFeaturePackageIdsRelease
+> Task :app:mainApkListPersistenceRelease
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
 > Task :app:processReleaseResources
@@ -95,26 +105,27 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:kaptReleaseKotlin
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/app/src/main/java/com/skydoves/themovies/models/Resource.kt: (64, 31): Parameter 'onLastPage' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/app/src/main/java/com/skydoves/themovies/view/ui/main/MainPagerAdapter.kt: (12, 47): 'constructor FragmentPagerAdapter(FragmentManager)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/app/src/main/java/com/skydoves/themovies/models/Resource.kt: (82, 31): Parameter 'onLastPage' is never used
 
-> Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
 
 > Task :app:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/app/build/generated/source/kapt/release/com/skydoves/themovies/di/DaggerAppComponent.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/app/build/generated/source/kapt/release/com/skydoves/themovies/di/DaggerAppComponent.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/app/build/generated/source/kapt/release/com/skydoves/themovies/di/DaggerAppComponent.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :app:compileReleaseSources
 > Task :app:mergeReleaseShaders
+
 > Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/fe266b820fdb5e6a678c16307d7ef2f0/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:signingConfigWriterRelease
 > Task :app:checkReleaseDuplicateClasses
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/906d1afaba70ba9fa6e8bccf8caff3e3/jars/classes.jar: D8: Type `androidx.paging.PositionalDataSource` was not found, it is required for default or static interface methods desugaring of `boolean androidx.room.paging.LimitOffsetDataSource.isInvalid()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.11.0/75966e05a49046ca2ae734e5626f28837a8d1e82/okhttp-3.11.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
 > Task :app:transformDexArchiveWithDexMergerForRelease
@@ -132,7 +143,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 33s
-57 actionable tasks: 57 executed
+BUILD SUCCESSFUL in 1m 38s
+67 actionable tasks: 67 executed
 
-2019-05-19 16:58:44,997 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558259817050-0/src/TheMovies-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-04 23:22:51,436 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562257256806-0/src/TheMovies-master/app/build/outputs/apk/debug/app-debug.apk
