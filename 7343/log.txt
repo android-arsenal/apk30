@@ -1,64 +1,64 @@
-2019-05-05 18:03:49,140 INFO  DownloadService - Downloading "https://github.com/DeweyReed/ChromeMenu/archive/master.zip", attempt 3
-2019-05-05 18:03:51,929 INFO  DownloadService - Downloaded https://github.com/DeweyReed/ChromeMenu/archive/master.zip, attempt 3
-2019-05-05 18:03:51,929 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/master.zip": 697 KB
-2019-05-05 18:03:51,929 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-05 18:03:51,930 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/master.zip: true
-2019-05-05 18:03:51,930 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src'.
-2019-05-05 18:03:51,966 INFO  FullProcessService - Size of directory with sources: 803 KB
-2019-05-05 18:03:51,966 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src]
-2019-05-05 18:03:51,994 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/.git/
+2019-07-04 22:26:01,924 INFO  DownloadService - Downloading "https://github.com/DeweyReed/ChromeMenu/archive/master.zip", attempt 3
+2019-07-04 22:26:04,422 INFO  DownloadService - Downloaded https://github.com/DeweyReed/ChromeMenu/archive/master.zip, attempt 3
+2019-07-04 22:26:04,422 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/master.zip": 704 KB
+2019-07-04 22:26:04,423 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-04 22:26:04,428 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/master.zip: true
+2019-07-04 22:26:04,429 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src'.
+2019-07-04 22:26:04,459 INFO  FullProcessService - Size of directory with sources: 815 KB
+2019-07-04 22:26:04,459 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src]
+2019-07-04 22:26:04,474 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/.git/
 
-2019-05-05 18:03:51,999 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/gradlew
-2019-05-05 18:03:52,003 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/build.gradle
-2019-05-05 18:03:52,007 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/settings.gradle
-2019-05-05 18:03:52,008 INFO  ProjectBuildService - Remote scripts: none
-2019-05-05 18:03:52,008 INFO  ProjectFixService - Fixing project...
-2019-05-05 18:03:52,019 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/app/local.properties
-2019-05-05 18:03:52,021 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-05 18:03:52,021 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-05 18:03:52,022 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/library/local.properties
-2019-05-05 18:03:52,024 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-05 18:03:52,025 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-05 18:03:52,025 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/local.properties
-2019-05-05 18:03:52,026 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-all.zip
-2019-05-05 18:03:52,026 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2.1-bin.zip)
-2019-05-05 18:03:52,028 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-05 18:03:52,029 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-05 18:03:52,029 INFO  ProjectFixService - Project was maybe fixed
-2019-05-05 18:03:52,029 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-05 18:03:52,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-05 18:04:01,199 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-05-05 18:04:01,199 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-05 18:04:01,199 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-05 18:04:41,384 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-04 22:26:04,476 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/gradlew
+2019-07-04 22:26:04,479 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/build.gradle
+2019-07-04 22:26:04,482 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/settings.gradle
+2019-07-04 22:26:04,482 INFO  ProjectBuildService - Remote scripts: none
+2019-07-04 22:26:04,482 INFO  ProjectFixService - Fixing project...
+2019-07-04 22:26:04,488 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/app/local.properties
+2019-07-04 22:26:04,489 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-04 22:26:04,489 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-04 22:26:04,490 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/library/local.properties
+2019-07-04 22:26:04,492 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-04 22:26:04,492 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-04 22:26:04,492 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/local.properties
+2019-07-04 22:26:04,493 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-07-04 22:26:04,493 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-07-04 22:26:04,494 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-04 22:26:04,494 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-04 22:26:04,495 INFO  ProjectFixService - Project was maybe fixed
+2019-07-04 22:26:04,495 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-04 22:26:04,495 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-04 22:26:11,144 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-04 22:26:11,144 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-04 22:26:11,144 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-04 22:26:50,055 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :library
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
 > Task :app:preBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:checkDebugManifest
 > Task :library:processDebugManifest
-> Task :library:compileDebugAidl NO-SOURCE
 > Task :app:preDebugBuild
+> Task :library:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :library:packageDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
-> Task :app:compileDebugRenderscript
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :library:compileDebugRenderscript
 > Task :library:generateDebugResValues
+> Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
@@ -71,14 +71,12 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :library:generateDebugSources
 > Task :library:javaPreCompileDebug
 > Task :library:compileDebugJavaWithJavac
-> Task :library:processDebugJavaRes NO-SOURCE
-> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :library:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
 > Task :app:prepareLintJar
 > Task :app:generateDebugSources
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugNdk NO-SOURCE
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -88,12 +86,15 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :library:generateDebugAssets
 > Task :library:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:bundleLibResDebug
+> Task :library:bundleLibRuntimeDebug
 > Task :library:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :library:compileDebugNdk NO-SOURCE
 > Task :library:mergeDebugJniLibFolders
 > Task :library:transformNativeLibsWithMergeJniLibsForDebug
 > Task :library:transformNativeLibsWithStripDebugSymbolForDebug
@@ -109,13 +110,13 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :library:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :library:packageReleaseRenderscript NO-SOURCE
-> Task :app:compileReleaseRenderscript
+> Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :library:compileReleaseRenderscript
+> Task :library:compileReleaseRenderscript NO-SOURCE
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
@@ -128,8 +129,7 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :library:generateReleaseSources
 > Task :library:javaPreCompileRelease
 > Task :library:compileReleaseJavaWithJavac
-> Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :library:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
 > Task :app:mergeExtDexDebug
 > Task :app:mergeDexDebug
@@ -138,13 +138,17 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
-> Task :library:createFullJarRelease
+> Task :library:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/b3342608d1e1b5fc339cd2f07451acee/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/5aa53eec9aedd3940c1d0b9633365c90/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:bundleLibResRelease
+> Task :library:bundleLibRuntimeRelease
+> Task :library:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -156,7 +160,6 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:mergeReleaseAssets
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
-> Task :library:compileReleaseNdk NO-SOURCE
 > Task :library:mergeReleaseJniLibFolders
 > Task :library:transformNativeLibsWithMergeJniLibsForRelease
 > Task :library:transformNativeLibsWithStripDebugSymbolForRelease
@@ -174,9 +177,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 39s
-90 actionable tasks: 90 executed
+BUILD SUCCESSFUL in 38s
+93 actionable tasks: 93 executed
 
-2019-05-05 18:04:41,472 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557054229137-0/src/ChromeMenu-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-04 22:26:50,118 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562253961916-0/src/ChromeMenu-master/app/build/outputs/apk/debug/app-debug.apk
