@@ -1,38 +1,38 @@
-2019-03-24 01:14:02,107 INFO  DownloadService - Downloading "https://github.com/AlexanderShniperson/AndroidMvvm/archive/master.zip", attempt 3
-2019-03-24 01:14:04,487 INFO  DownloadService - Downloaded https://github.com/AlexanderShniperson/AndroidMvvm/archive/master.zip, attempt 3
-2019-03-24 01:14:04,488 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/master.zip": 212 KB
-2019-03-24 01:14:04,488 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-24 01:14:04,489 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/master.zip: true
-2019-03-24 01:14:04,490 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src'.
-2019-03-24 01:14:04,535 INFO  FullProcessService - Size of directory with sources: 238 KB
-2019-03-24 01:14:04,535 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src]
-2019-03-24 01:14:04,558 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/.git/
+2019-07-22 11:39:06,087 INFO  DownloadService - Downloading "https://github.com/AlexanderShniperson/AndroidMvvm/archive/master.zip", attempt 3
+2019-07-22 11:39:08,522 INFO  DownloadService - Downloaded https://github.com/AlexanderShniperson/AndroidMvvm/archive/master.zip, attempt 3
+2019-07-22 11:39:08,522 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/master.zip": 218 KB
+2019-07-22 11:39:08,522 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-22 11:39:08,523 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/master.zip: true
+2019-07-22 11:39:08,523 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src'.
+2019-07-22 11:39:08,555 INFO  FullProcessService - Size of directory with sources: 250 KB
+2019-07-22 11:39:08,555 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src]
+2019-07-22 11:39:08,589 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/.git/
 
-2019-03-24 01:14:04,564 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/gradlew
-2019-03-24 01:14:04,571 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/build.gradle
-2019-03-24 01:14:04,578 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/settings.gradle
-2019-03-24 01:14:04,579 INFO  ProjectBuildService - Remote scripts: none
-2019-03-24 01:14:04,579 INFO  ProjectFixService - Fixing project...
-2019-03-24 01:14:04,596 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/local.properties
-2019-03-24 01:14:04,597 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-03-24 01:14:04,598 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-03-24 01:14:04,601 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-24 01:14:04,601 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-24 01:14:04,603 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/library/local.properties
-2019-03-24 01:14:04,604 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-24 01:14:04,605 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-24 01:14:04,607 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/local.properties
-2019-03-24 01:14:04,608 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-bin.zip
-2019-03-24 01:14:04,611 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-24 01:14:04,611 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-24 01:14:04,612 INFO  ProjectFixService - Project was maybe fixed
-2019-03-24 01:14:04,612 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-24 01:14:04,613 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-24 01:14:18,220 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-24 01:14:18,220 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-24 01:14:18,220 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-24 01:14:18,220 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-24 01:14:23,098 ERROR SysUtils - Could not process external command
+2019-07-22 11:39:08,592 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/gradlew
+2019-07-22 11:39:08,596 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/build.gradle
+2019-07-22 11:39:08,599 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/settings.gradle
+2019-07-22 11:39:08,599 INFO  ProjectBuildService - Remote scripts: none
+2019-07-22 11:39:08,599 INFO  ProjectFixService - Fixing project...
+2019-07-22 11:39:08,607 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/local.properties
+2019-07-22 11:39:08,608 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-07-22 11:39:08,609 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-07-22 11:39:08,611 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-22 11:39:08,611 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-22 11:39:08,612 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/library/local.properties
+2019-07-22 11:39:08,613 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-22 11:39:08,614 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-22 11:39:08,615 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/local.properties
+2019-07-22 11:39:08,615 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-bin.zip
+2019-07-22 11:39:08,617 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-22 11:39:08,617 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-22 11:39:08,617 INFO  ProjectFixService - Project was maybe fixed
+2019-07-22 11:39:08,617 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-22 11:39:08,618 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-22 11:39:26,647 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-22 11:39:26,647 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-22 11:39:26,647 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-22 11:39:26,648 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-22 11:39:30,177 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -53,24 +53,24 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-24 01:14:23,099 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-22 11:39:30,177 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':sample'.
 > Failed to apply plugin [id 'com.android.application']
-   > Minimum supported Gradle version is 4.10.1. Current version is 4.6. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-4.10.1-all.zip
+   > Minimum supported Gradle version is 5.1.1. Current version is 4.6. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-5.1.1-all.zip
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -183,16 +183,16 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_31jp59u5nez2d8zx9x4w4b25i.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/build.gradle:1)
+	at build_dl9edo6uhou1nfdv7g8cxccon.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 95 more
-Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 4.10.1. Current version is 4.6. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-4.10.1-all.zip
-	at com.android.build.gradle.BasePlugin.checkGradleVersion(BasePlugin.java:683)
-	at com.android.build.gradle.BasePlugin.basePluginApply(BasePlugin.java:258)
-	at com.android.build.gradle.BasePlugin.lambda$apply$0(BasePlugin.java:247)
+Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 5.1.1. Current version is 4.6. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-5.1.1-all.zip
+	at com.android.build.gradle.BasePlugin.checkGradleVersion(BasePlugin.java:678)
+	at com.android.build.gradle.BasePlugin.basePluginApply(BasePlugin.java:256)
+	at com.android.build.gradle.BasePlugin.lambda$apply$0(BasePlugin.java:245)
 	at com.android.build.gradle.internal.crash.CrashReporting.runAction(crash_reporting.kt:27)
-	at com.android.build.gradle.BasePlugin.apply(BasePlugin.java:245)
-	at com.android.build.gradle.BasePlugin.apply(BasePlugin.java:138)
+	at com.android.build.gradle.BasePlugin.apply(BasePlugin.java:243)
+	at com.android.build.gradle.BasePlugin.apply(BasePlugin.java:136)
 	at org.gradle.api.internal.plugins.ImperativeOnlyPluginTarget.applyImperative(ImperativeOnlyPluginTarget.java:42)
 	at org.gradle.api.internal.plugins.RuleBasedPluginTarget.applyImperative(RuleBasedPluginTarget.java:50)
 	at org.gradle.api.internal.plugins.DefaultPluginManager.addPlugin(DefaultPluginManager.java:164)
@@ -208,44 +208,33 @@ Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 4.10.
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 3s
 
-2019-03-24 01:14:23,107 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-24 01:14:23,107 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-24 01:14:34,701 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-03-24 01:14:34,702 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-24 01:14:34,702 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-24 01:15:20,997 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.2.1/userguide/gradle_daemon.html.
+2019-07-22 11:39:30,184 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-22 11:39:30,185 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-22 11:39:43,959 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-07-22 11:39:43,959 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-22 11:39:43,959 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-22 11:40:22,692 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.2.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
-
-> Transform artifact error_prone_annotations.jar (com.google.errorprone:error_prone_annotations:2.1.3) with JetifyTransform
-ERROR: [TAG] Failed to resolve variable '${junit.version}'
-
+> Task :library:compileDebugAidl NO-SOURCE
 > Task :library:checkDebugManifest
+> Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugBuildConfig
 > Task :library:prepareLintJar
-> Task :library:compileDebugRenderscript
-> Task :library:compileDebugAidl NO-SOURCE
 > Task :library:generateDebugSources
 > Task :library:dataBindingExportBuildInfoDebug
 > Task :library:dataBindingMergeDependencyArtifactsDebug
+> Task :library:dataBindingMergeGenClassesDebug
 > Task :library:generateDebugResValues
 > Task :library:generateDebugResources
-> Task :library:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
-
-> Transform artifact antlr4.jar (org.antlr:antlr4:4.5.3) with JetifyTransform
-ERROR: [TAG] Failed to resolve variable '${project.version}'
-
-> Transform artifact guava.jar (com.google.guava:guava:26.0-jre) with JetifyTransform
-ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
-
+> Task :library:processDebugManifest
 > Task :library:mergeDebugResources
 > Task :library:dataBindingGenBaseClassesDebug
 > Task :library:packageDebugResources
-> Task :library:processDebugManifest
 > Task :library:generateDebugRFile
 > Task :library:kaptGenerateStubsDebugKotlin
 > Task :library:kaptDebugKotlin
@@ -259,10 +248,10 @@ ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
 > Task :library:generateDebugAssets
 > Task :library:packageDebugAssets
 > Task :library:packageDebugRenderscript NO-SOURCE
+> Task :library:prepareLintJarForPublish
 > Task :library:processDebugJavaRes NO-SOURCE
 > Task :library:transformResourcesWithMergeJavaResForDebug
 > Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :library:compileDebugNdk NO-SOURCE
 > Task :library:mergeDebugJniLibFolders
 > Task :library:transformNativeLibsWithMergeJniLibsForDebug
 > Task :library:transformNativeLibsWithStripDebugSymbolForDebug
@@ -273,16 +262,16 @@ ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
 > Task :library:extractProguardFiles
 > Task :library:preReleaseBuild
 > Task :library:compileReleaseAidl NO-SOURCE
-> Task :library:compileReleaseRenderscript
+> Task :library:compileReleaseRenderscript NO-SOURCE
 > Task :library:checkReleaseManifest
 > Task :library:generateReleaseBuildConfig
 > Task :library:generateReleaseSources
 > Task :library:dataBindingExportBuildInfoRelease
 > Task :library:dataBindingMergeDependencyArtifactsRelease
+> Task :library:dataBindingMergeGenClassesRelease
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:mergeReleaseResources
-> Task :library:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
 > Task :library:dataBindingGenBaseClassesRelease
 > Task :library:packageReleaseResources
 > Task :library:processReleaseManifest
@@ -301,164 +290,15 @@ ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :library:processReleaseJavaRes NO-SOURCE
 > Task :library:transformResourcesWithMergeJavaResForRelease
-ProGuard, version 6.0.3
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/library/build/intermediates/compile_only_not_namespaced_r_class_jar/release/generateReleaseRFile/R.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/library/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/library/build/tmp/kotlin-classes/release] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/library/build/tmp/kapt3/classes/release] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/library/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/84d3590996a61ff7f7f5ac950f5118c9/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/e210c4b75cda1a276e1a75d8ea8c634b/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/3.3.2/c3d3a2bd4075de662778b79f7bcf480ca1d4e0d9/databinding-common-3.3.2.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.21/d0634d54452abc421db494ad32dd215e6591c49f/kotlin-stdlib-jdk8-1.3.21.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5782d07ef10b948357c5b7caaa5e835c/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5e1fc566819473eaf2862807e1199ed3/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/866b049600ae0ea2a1ee325a169689ca/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/202c39cde4472c53c458aea226d48131/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/717b62973d2cb958d87435819dfcc38f/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/7d64626019e3b0acde24c9a226560b22/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/56a01238dad5f8c78db37cf0698b3eca/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b5daf1ffb30c97da083beb9bc37cc4fb/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c3ddf06b33c33892e59633c8673a52ac/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ec484b6694f44fb61c7bc939a739f05f/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f97b9404514d7e594647994304520b60/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ca3468ec274564d6017bfeea0eee5b41/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/d861899829107787d209f6e0904318c7/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/0dd59857087b2ab30e0311e41914c547/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/e8103c0245128bbb20fab79e7d3eacd8/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/52d4e61f1c673dfc515bc3a0f637d8fd/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/862b280d161213e3820c7e5df32da558/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/435b97d048eadf65a90dae0ac2ad510d/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ce667a0f033b1b7424ebbc4d1e3ea41f/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/0d1a74c1bcfe107175ba78db2e3e6727/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f28eca4edea685ed16b3830bcc895dcd/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/216197bcfe24c5c2f5ad37737d09a09e/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/2856ab7a807343c6544d4b331261275f/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0-alpha02/4a15b3969c1392eb8413c6c734337f0bd2cd29d0/collection-1.1.0-alpha02.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.21/d207ce2c9bcf17dc8e51bab4dbfdac4d013e7138/kotlin-stdlib-jdk7-1.3.21.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f9beec89ff0863d584999334eacf44e9/jetified-kotlinx-coroutines-android-1.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.0.0/a33c4bf7581f71f01d4ed660b09ca199abbb44da/kotlinx-coroutines-core-1.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9b063472819d6f7b4a946c1fef1b61eb/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/68a1aa2139ccf7d8738c43f3ad6a809c/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/dc04e4bc644f0e0892b8bf508b730768/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/01d12713c56b9fd9501514140a12a211/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/161a2eacdb70af5dfe8099164ab32d31/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.savedstate/savedstate-common/1.0.0-alpha01/9144496fb7c11280ef621854908a17c5a83f8dc5/savedstate-common-1.0.0-alpha01.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.1.0-alpha02/6053cb532d61ab5ce57ac070c50cfdfe9389a5de/lifecycle-common-2.1.0-alpha02.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.concurrent/concurrent-futures/1.0.0-alpha02/b4a4a1ada5a1ba3f8df9f9e6384a0a404ccc48cb/concurrent-futures-1.0.0-alpha02.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6f8c614e1227710fd2b09192fede1b59/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f2f9ad29c7df26bdb1b5c62623e7aac7/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/3e524b334863f81e8f8095250e925236/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/dd0887cc623aa82622b63060aa98ee05/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0-alpha01/7740fa3bdddfdbf7b05d2483987a11c3da1d052c/annotation-1.1.0-alpha01.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-common/1.0.0/5f7551ec1edc068deaa0397100a1f14f32270274/kotlinx-coroutines-core-common-1.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/1.0/c949a840a6acbc5268d088e47b04177bf90b3cad/listenablefuture-1.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/84d3590996a61ff7f7f5ac950f5118c9/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/e210c4b75cda1a276e1a75d8ea8c634b/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/3.3.2/c3d3a2bd4075de662778b79f7bcf480ca1d4e0d9/databinding-common-3.3.2.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.21/d0634d54452abc421db494ad32dd215e6591c49f/kotlin-stdlib-jdk8-1.3.21.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5782d07ef10b948357c5b7caaa5e835c/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5e1fc566819473eaf2862807e1199ed3/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/866b049600ae0ea2a1ee325a169689ca/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/202c39cde4472c53c458aea226d48131/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/717b62973d2cb958d87435819dfcc38f/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/7d64626019e3b0acde24c9a226560b22/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/56a01238dad5f8c78db37cf0698b3eca/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b5daf1ffb30c97da083beb9bc37cc4fb/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c3ddf06b33c33892e59633c8673a52ac/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ec484b6694f44fb61c7bc939a739f05f/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f97b9404514d7e594647994304520b60/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ca3468ec274564d6017bfeea0eee5b41/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/d861899829107787d209f6e0904318c7/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/0dd59857087b2ab30e0311e41914c547/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/e8103c0245128bbb20fab79e7d3eacd8/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/52d4e61f1c673dfc515bc3a0f637d8fd/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/862b280d161213e3820c7e5df32da558/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/435b97d048eadf65a90dae0ac2ad510d/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ce667a0f033b1b7424ebbc4d1e3ea41f/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/0d1a74c1bcfe107175ba78db2e3e6727/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f28eca4edea685ed16b3830bcc895dcd/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/216197bcfe24c5c2f5ad37737d09a09e/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/2856ab7a807343c6544d4b331261275f/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0-alpha02/4a15b3969c1392eb8413c6c734337f0bd2cd29d0/collection-1.1.0-alpha02.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.21/d207ce2c9bcf17dc8e51bab4dbfdac4d013e7138/kotlin-stdlib-jdk7-1.3.21.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f9beec89ff0863d584999334eacf44e9/jetified-kotlinx-coroutines-android-1.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.0.0/a33c4bf7581f71f01d4ed660b09ca199abbb44da/kotlinx-coroutines-core-1.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9b063472819d6f7b4a946c1fef1b61eb/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/68a1aa2139ccf7d8738c43f3ad6a809c/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/dc04e4bc644f0e0892b8bf508b730768/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/01d12713c56b9fd9501514140a12a211/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/161a2eacdb70af5dfe8099164ab32d31/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.savedstate/savedstate-common/1.0.0-alpha01/9144496fb7c11280ef621854908a17c5a83f8dc5/savedstate-common-1.0.0-alpha01.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.1.0-alpha02/6053cb532d61ab5ce57ac070c50cfdfe9389a5de/lifecycle-common-2.1.0-alpha02.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.concurrent/concurrent-futures/1.0.0-alpha02/b4a4a1ada5a1ba3f8df9f9e6384a0a404ccc48cb/concurrent-futures-1.0.0-alpha02.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6f8c614e1227710fd2b09192fede1b59/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f2f9ad29c7df26bdb1b5c62623e7aac7/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/3e524b334863f81e8f8095250e925236/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/dd0887cc623aa82622b63060aa98ee05/jars/classes.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0-alpha01/7740fa3bdddfdbf7b05d2483987a11c3da1d052c/annotation-1.1.0-alpha01.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-common/1.0.0/5f7551ec1edc068deaa0397100a1f14f32270274/kotlinx-coroutines-core-common-1.0.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/1.0/c949a840a6acbc5268d088e47b04177bf90b3cad/listenablefuture-1.0.jar] (filtered)
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
-Note: duplicate definition of library class [java.lang.invoke.CallSite]
-Note: duplicate definition of library class [java.lang.invoke.LambdaConversionException]
-Note: duplicate definition of library class [java.lang.invoke.MethodHandle]
-Note: duplicate definition of library class [java.lang.invoke.MethodHandles$Lookup]
-Note: duplicate definition of library class [java.lang.invoke.MethodHandles]
-Note: duplicate definition of library class [java.lang.invoke.MethodType]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
-Note: duplicate definition of library class [android.net.http.HttpResponseCache]
-Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
-Note: duplicate definition of library class [android.net.http.SslCertificate]
-Note: duplicate definition of library class [android.net.http.SslError]
-Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
-Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
-Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
-Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
-Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
-Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
-Note: duplicate definition of library class [org.apache.http.params.HttpParams]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
-Note: there were 17 duplicate class definitions.
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
-Note: the configuration refers to the unknown class 'android.databinding.DataBinderMapper'
-      Maybe you meant the fully qualified name 'androidx.databinding.DataBinderMapper'?
-Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
-      Maybe you meant the fully qualified name 'androidx.annotation.Keep'?
-Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
-      Maybe you meant the fully qualified name 'androidx.annotation.Keep'?
-Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
-      Maybe you meant the fully qualified name 'androidx.annotation.Keep'?
-Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
-      Maybe you meant the fully qualified name 'androidx.annotation.Keep'?
-Note: there were 5 references to unknown classes.
-      You should check your configuration for typos.
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
 
-> Task :library:transformClassesAndResourcesWithProguardForRelease
-Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
-thread-pool size=4
+> Task :library:transformClassesAndResourcesWithR8ForRelease
+R8 is the new Android code shrinker. If you experience any issues, please file a bug at
+https://issuetracker.google.com, using 'Shrinker (R8)' as component name. You can
+disable R8 by updating gradle.properties with 'android.enableR8=false'.
+Current version is: 1.4.94 (build 390954928f0db9c3b888a367f7f128ce3bbfb160 from go/r8bot (luci-r8-ci-archive-0-5g74)).
 
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/library/build/intermediates/transforms/proguard/release/0.jar]
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/library/build/intermediates/compile_only_not_namespaced_r_class_jar/release/generateReleaseRFile/R.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/library/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/library/build/tmp/kotlin-classes/release] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/library/build/tmp/kapt3/classes/release] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/library/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 
 > Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :library:compileReleaseNdk NO-SOURCE
 > Task :library:mergeReleaseJniLibFolders
 > Task :library:transformNativeLibsWithMergeJniLibsForRelease
 > Task :library:transformNativeLibsWithStripDebugSymbolForRelease
@@ -474,31 +314,31 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 45s
-62 actionable tasks: 62 executed
+BUILD SUCCESSFUL in 38s
+61 actionable tasks: 61 executed
 
-2019-03-24 01:15:21,085 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-24 01:15:21,085 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-24 01:15:33,116 INFO  ProjectTaskService - Detected possible tasks: 72
-2019-03-24 01:15:33,116 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-24 01:15:33,117 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-24 01:16:42,516 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.2.1/userguide/gradle_daemon.html.
+2019-07-22 11:40:22,788 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-22 11:40:22,788 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-22 11:40:31,031 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-22 11:40:31,032 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-22 11:40:31,032 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-22 11:41:54,782 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.2.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:compileDebugAidl NO-SOURCE
 > Task :library:checkDebugManifest UP-TO-DATE
-> Task :library:compileDebugRenderscript UP-TO-DATE
+> Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugBuildConfig UP-TO-DATE
 > Task :library:prepareLintJar UP-TO-DATE
 > Task :library:generateDebugSources UP-TO-DATE
 > Task :library:dataBindingExportBuildInfoDebug UP-TO-DATE
-> Task :library:generateDebugResValues UP-TO-DATE
 > Task :library:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :library:generateDebugResValues UP-TO-DATE
+> Task :library:dataBindingMergeGenClassesDebug UP-TO-DATE
 > Task :library:generateDebugResources UP-TO-DATE
 > Task :library:mergeDebugResources UP-TO-DATE
-> Task :library:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
 > Task :library:dataBindingGenBaseClassesDebug UP-TO-DATE
 > Task :library:packageDebugResources UP-TO-DATE
 > Task :library:processDebugManifest UP-TO-DATE
@@ -515,30 +355,30 @@ Configuration on demand is an incubating feature.
 > Task :library:generateDebugAssets UP-TO-DATE
 > Task :library:packageDebugAssets UP-TO-DATE
 > Task :library:packageDebugRenderscript NO-SOURCE
+> Task :library:prepareLintJarForPublish UP-TO-DATE
 > Task :library:processDebugJavaRes NO-SOURCE
 > Task :library:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
 > Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
-> Task :library:compileDebugNdk NO-SOURCE
 > Task :library:mergeDebugJniLibFolders UP-TO-DATE
 > Task :library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
 > Task :library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
 > Task :library:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
-> Task :library:bundleDebugAar
+> Task :library:bundleDebugAar UP-TO-DATE
 > Task :library:compileDebugSources UP-TO-DATE
-> Task :library:assembleDebug
+> Task :library:assembleDebug UP-TO-DATE
 > Task :library:extractProguardFiles UP-TO-DATE
 > Task :library:preReleaseBuild UP-TO-DATE
 > Task :library:compileReleaseAidl NO-SOURCE
-> Task :library:compileReleaseRenderscript UP-TO-DATE
+> Task :library:compileReleaseRenderscript NO-SOURCE
 > Task :library:checkReleaseManifest UP-TO-DATE
 > Task :library:generateReleaseBuildConfig UP-TO-DATE
 > Task :library:generateReleaseSources UP-TO-DATE
 > Task :library:dataBindingExportBuildInfoRelease UP-TO-DATE
 > Task :library:dataBindingMergeDependencyArtifactsRelease UP-TO-DATE
+> Task :library:dataBindingMergeGenClassesRelease UP-TO-DATE
 > Task :library:generateReleaseResValues UP-TO-DATE
 > Task :library:generateReleaseResources UP-TO-DATE
 > Task :library:mergeReleaseResources UP-TO-DATE
-> Task :library:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease UP-TO-DATE
 > Task :library:dataBindingGenBaseClassesRelease UP-TO-DATE
 > Task :library:packageReleaseResources UP-TO-DATE
 > Task :library:processReleaseManifest UP-TO-DATE
@@ -557,121 +397,126 @@ Configuration on demand is an incubating feature.
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :library:processReleaseJavaRes NO-SOURCE
 > Task :library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
-> Task :library:transformClassesAndResourcesWithProguardForRelease UP-TO-DATE
+> Task :library:transformClassesAndResourcesWithR8ForRelease UP-TO-DATE
 > Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
-> Task :library:compileReleaseNdk NO-SOURCE
 > Task :library:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
 > Task :library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
 > Task :library:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
-> Task :library:bundleReleaseAar
+> Task :library:bundleReleaseAar UP-TO-DATE
 > Task :library:compileReleaseSources UP-TO-DATE
 > Task :library:verifyReleaseResources
 > Task :library:assembleRelease
 > Task :library:assemble
 > Task :library:build
-> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :library:bundleLibCompileDebug
 > Task :sample:preBuild UP-TO-DATE
-> Task :sample:prepareLintJar
 > Task :sample:preDebugBuild
 > Task :sample:compileDebugAidl NO-SOURCE
-> Task :sample:compileDebugRenderscript
 > Task :sample:checkDebugManifest
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
+> Task :sample:prepareLintJar
 > Task :sample:generateDebugSources
 > Task :sample:dataBindingExportBuildInfoDebug
-> Task :sample:generateDebugResValues
-> Task :sample:generateDebugResources
 > Task :sample:dataBindingMergeDependencyArtifactsDebug
+> Task :sample:generateDebugResValues
+> Task :sample:dataBindingMergeGenClassesDebug
+> Task :sample:generateDebugResources
 > Task :sample:mergeDebugResources
-> Task :sample:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
 > Task :sample:dataBindingGenBaseClassesDebug
 > Task :sample:dataBindingExportFeaturePackageIdsDebug
 > Task :sample:mainApkListPersistenceDebug
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:processDebugManifest
 > Task :sample:processDebugResources
-> Task :sample:compileDebugNdk NO-SOURCE
 > Task :sample:mergeDebugShaders
 > Task :sample:compileDebugShaders
-> Task :sample:kaptGenerateStubsDebugKotlin
-> Task :sample:kaptDebugKotlin
-
-> Task :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/FirstViewModel.kt: (19, 23): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerFirstViewModel.kt: (12, 21): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (14, 25): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (20, 51): Parameter 'dialogInterface' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (20, 68): Parameter 'i' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerThirdViewModel.kt: (12, 22): Parameter 'view' is never used
-
-> Task :sample:javaPreCompileDebug
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
 > Task :sample:validateSigningDebug
 > Task :sample:signingConfigWriterDebug
-> Task :sample:transformClassesWithDexBuilderForDebug
-> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :sample:transformDexArchiveWithDexMergerForDebug
+> Task :library:bundleLibRuntimeDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :library:bundleLibResDebug
 > Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :sample:mergeDebugJniLibFolders
 > Task :sample:transformNativeLibsWithMergeJniLibsForDebug
 > Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :sample:processDebugJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
-> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :library:bundleLibCompileRelease
 > Task :sample:preReleaseBuild
 > Task :sample:compileReleaseAidl NO-SOURCE
-> Task :sample:compileReleaseRenderscript
+> Task :sample:compileReleaseRenderscript NO-SOURCE
 > Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
 > Task :sample:generateReleaseSources
 > Task :sample:dataBindingExportBuildInfoRelease
 > Task :sample:dataBindingMergeDependencyArtifactsRelease
+> Task :sample:dataBindingMergeGenClassesRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
 > Task :sample:mergeReleaseResources
-> Task :sample:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
 > Task :sample:dataBindingGenBaseClassesRelease
 > Task :sample:dataBindingExportFeaturePackageIdsRelease
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
 > Task :sample:processReleaseResources
-> Task :sample:kaptGenerateStubsReleaseKotlin
-> Task :sample:kaptReleaseKotlin
-
-> Task :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/FirstViewModel.kt: (19, 23): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerFirstViewModel.kt: (12, 21): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (14, 25): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (20, 51): Parameter 'dialogInterface' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (20, 68): Parameter 'i' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerThirdViewModel.kt: (12, 22): Parameter 'view' is never used
-
-> Task :sample:javaPreCompileRelease
-> Task :sample:compileReleaseJavaWithJavac
-> Task :sample:compileReleaseNdk NO-SOURCE
-> Task :sample:compileReleaseSources
 > Task :sample:mergeReleaseShaders
-
-> Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/8209408cef3dc8b549b213d97eb93656/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :sample:compileReleaseShaders
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
 > Task :sample:signingConfigWriterRelease
-> Task :sample:transformClassesWithDexBuilderForRelease
-> Task :sample:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :sample:transformDexArchiveWithDexMergerForRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :library:bundleLibRuntimeRelease
+> Task :library:bundleLibResRelease
 > Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :sample:mergeReleaseJniLibFolders
 > Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:kaptGenerateStubsDebugKotlin
+> Task :sample:kaptDebugKotlin
+
+> Task :sample:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/FirstViewModel.kt: (19, 23): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/FirstViewModel.kt: (23, 30): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerFirstViewModel.kt: (12, 21): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (14, 25): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (20, 51): Parameter 'dialogInterface' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (20, 68): Parameter 'i' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerThirdViewModel.kt: (12, 22): Parameter 'view' is never used
+
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :sample:transformDexArchiveWithDexMergerForDebug
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:kaptGenerateStubsReleaseKotlin
+> Task :sample:kaptReleaseKotlin
+
+> Task :sample:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/FirstViewModel.kt: (19, 23): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/FirstViewModel.kt: (23, 30): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerFirstViewModel.kt: (12, 21): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (14, 25): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (20, 51): Parameter 'dialogInterface' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerSecondViewModel.kt: (20, 68): Parameter 'i' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/src/main/java/net/orionlab/androidmvvm/sample/viewModel/ViewPagerThirdViewModel.kt: (12, 22): Parameter 'view' is never used
+
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/eab805a8047c30d4c85c8b800998b99d/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :sample:transformDexArchiveWithDexMergerForRelease
 > Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :sample:processReleaseJavaRes NO-SOURCE
 > Task :sample:transformResourcesWithMergeJavaResForRelease
@@ -684,7 +529,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 8s
-133 actionable tasks: 74 executed, 59 up-to-date
+BUILD SUCCESSFUL in 1m 23s
+136 actionable tasks: 76 executed, 60 up-to-date
 
-2019-03-24 01:16:42,734 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553364842101-0/src/AndroidMvvm-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-07-22 11:41:54,959 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563770346082-0/src/AndroidMvvm-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
