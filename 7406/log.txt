@@ -1,35 +1,35 @@
-2019-05-14 14:23:18,632 INFO  DownloadService - Downloading "https://github.com/satoshun/CoroutineAutoDispose/archive/master.zip", attempt 3
-2019-05-14 14:23:19,314 INFO  DownloadService - Downloaded https://github.com/satoshun/CoroutineAutoDispose/archive/master.zip, attempt 3
-2019-05-14 14:23:19,314 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/master.zip": 162 KB
-2019-05-14 14:23:19,314 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-14 14:23:19,319 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/master.zip: true
-2019-05-14 14:23:19,320 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src'.
-2019-05-14 14:23:19,344 INFO  FullProcessService - Size of directory with sources: 185 KB
-2019-05-14 14:23:19,344 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src]
-2019-05-14 14:23:19,361 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/.git/
+2019-08-11 20:33:04,656 INFO  DownloadService - Downloading "https://github.com/satoshun/CoroutineAutoDispose/archive/master.zip", attempt 3
+2019-08-11 20:33:06,680 INFO  DownloadService - Downloaded https://github.com/satoshun/CoroutineAutoDispose/archive/master.zip, attempt 3
+2019-08-11 20:33:06,680 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/master.zip": 162 KB
+2019-08-11 20:33:06,680 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-11 20:33:06,686 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/master.zip: true
+2019-08-11 20:33:06,686 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src'.
+2019-08-11 20:33:06,709 INFO  FullProcessService - Size of directory with sources: 185 KB
+2019-08-11 20:33:06,709 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src]
+2019-08-11 20:33:06,725 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/.git/
 
-2019-05-14 14:23:19,364 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/gradlew
-2019-05-14 14:23:19,368 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/autodispose/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/build.gradle
-2019-05-14 14:23:19,371 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/gradle/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/autodispose/build.gradle
-2019-05-14 14:23:19,372 INFO  ProjectBuildService - Remote scripts: none
-2019-05-14 14:23:19,372 INFO  ProjectFixService - Fixing project...
-2019-05-14 14:23:19,381 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/app/local.properties
-2019-05-14 14:23:19,383 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-14 14:23:19,383 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-14 14:23:19,384 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/autodispose/local.properties
-2019-05-14 14:23:19,386 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/autodispose/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-14 14:23:19,386 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/autodispose/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-14 14:23:19,387 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/local.properties
-2019-05-14 14:23:19,388 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4-bin.zip
-2019-05-14 14:23:19,389 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-14 14:23:19,389 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-14 14:23:19,390 INFO  ProjectFixService - Project was maybe fixed
-2019-05-14 14:23:19,390 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-14 14:23:19,390 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-14 14:24:10,570 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-05-14 14:24:10,571 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-14 14:24:10,571 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-14 14:25:17,759 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4/userguide/gradle_daemon.html.
+2019-08-11 20:33:06,728 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/gradlew
+2019-08-11 20:33:06,732 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/autodispose/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/build.gradle
+2019-08-11 20:33:06,735 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/gradle/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/autodispose/build.gradle
+2019-08-11 20:33:06,735 INFO  ProjectBuildService - Remote scripts: none
+2019-08-11 20:33:06,735 INFO  ProjectFixService - Fixing project...
+2019-08-11 20:33:06,746 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/app/local.properties
+2019-08-11 20:33:06,748 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-11 20:33:06,748 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-11 20:33:06,749 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/autodispose/local.properties
+2019-08-11 20:33:06,751 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/autodispose/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-11 20:33:06,751 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/autodispose/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-11 20:33:06,752 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/local.properties
+2019-08-11 20:33:06,752 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5.1-bin.zip
+2019-08-11 20:33:06,755 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-11 20:33:06,755 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-11 20:33:06,756 INFO  ProjectFixService - Project was maybe fixed
+2019-08-11 20:33:06,756 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-11 20:33:06,756 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-11 20:33:41,253 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-08-11 20:33:41,253 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-11 20:33:41,253 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-11 20:34:35,548 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.5.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
@@ -53,10 +53,6 @@ Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
 > Configure project :autodispose
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
@@ -112,9 +108,6 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :app:checkDebugDuplicateClasses
 > Task :autodispose:jacocoDebug
 > Task :autodispose:bundleLibRuntimeDebug
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.agent/0.7.9/a6ac9cca89d889222a40dab9dd5039bfd22a4cff/org.jacoco.agent-0.7.9-runtime.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.jacoco.agent.rt.internal_8ff85ea.core.runtime.ModifiedSystemClassRuntime$1` is correct. Desugaring will assume that this interface has no default method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.agent/0.7.9/a6ac9cca89d889222a40dab9dd5039bfd22a4cff/org.jacoco.agent-0.7.9-runtime.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `void org.jacoco.agent.rt.internal_8ff85ea.JmxRegistration.<init>(org.jacoco.agent.rt.IAgent)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.agent/0.7.9/a6ac9cca89d889222a40dab9dd5039bfd22a4cff/org.jacoco.agent-0.7.9-runtime.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.jacoco.agent.rt.internal_8ff85ea.CoverageTransformer` is correct. Desugaring will assume that this interface has no default method.
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :app:transformDexArchiveWithDexMergerForDebug
@@ -167,7 +160,7 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :autodispose:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/dcb26427fcf8a7e467a7ad678457e10f/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/a30ed3491e42e43f153d825f5a1704c0/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -202,9 +195,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.5.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 6s
+BUILD SUCCESSFUL in 53s
 95 actionable tasks: 95 executed
 
-2019-05-14 14:25:17,897 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557818598629-0/src/CoroutineAutoDispose-master/app/build/outputs/apk/debug/app-debug.apk
+2019-08-11 20:34:35,646 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530384648-0/src/CoroutineAutoDispose-master/app/build/outputs/apk/debug/app-debug.apk
