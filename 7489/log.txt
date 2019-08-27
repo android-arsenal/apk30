@@ -1,38 +1,38 @@
-2019-05-14 14:11:57,055 INFO  DownloadService - Downloading "https://github.com/sephiroth74/NumberSlidingPicker/archive/master.zip", attempt 3
-2019-05-14 14:12:00,303 INFO  DownloadService - Downloaded https://github.com/sephiroth74/NumberSlidingPicker/archive/master.zip, attempt 3
-2019-05-14 14:12:00,303 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/master.zip": 1 MB
-2019-05-14 14:12:00,303 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-14 14:12:00,310 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/master.zip: true
-2019-05-14 14:12:00,310 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src'.
-2019-05-14 14:12:00,352 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-05-14 14:12:00,352 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src]
-2019-05-14 14:12:00,380 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/.git/
+2019-08-27 10:55:11,324 INFO  DownloadService - Downloading "https://github.com/sephiroth74/NumberSlidingPicker/archive/master.zip", attempt 3
+2019-08-27 10:55:13,809 INFO  DownloadService - Downloaded https://github.com/sephiroth74/NumberSlidingPicker/archive/master.zip, attempt 3
+2019-08-27 10:55:13,809 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/master.zip": 1 MB
+2019-08-27 10:55:13,809 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-27 10:55:13,815 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/master.zip: true
+2019-08-27 10:55:13,815 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src'.
+2019-08-27 10:55:13,857 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-08-27 10:55:13,857 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src]
+2019-08-27 10:55:13,873 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/.git/
 
-2019-05-14 14:12:00,385 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/gradlew
-2019-05-14 14:12:00,389 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/numberpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/build.gradle
-2019-05-14 14:12:00,393 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/numberpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/settings.gradle
-2019-05-14 14:12:00,394 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/sephiroth74/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
-2019-05-14 14:12:01,173 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/sephiroth74/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
-2019-05-14 14:12:01,173 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/sephiroth74/gradle-mvn-push/master/gradle-mvn-push.gradle
-2019-05-14 14:12:01,173 INFO  ProjectFixService - Fixing project...
-2019-05-14 14:12:01,191 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/app/local.properties
-2019-05-14 14:12:01,192 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-14 14:12:01,193 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-14 14:12:01,194 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/numberpicker/local.properties
-2019-05-14 14:12:01,196 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/numberpicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-14 14:12:01,196 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/numberpicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-14 14:12:01,197 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/local.properties
-2019-05-14 14:12:01,197 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.3-all.zip
-2019-05-14 14:12:01,198 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.3-bin.zip)
-2019-05-14 14:12:01,199 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-14 14:12:01,199 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-14 14:12:01,200 INFO  ProjectFixService - Project was maybe fixed
-2019-05-14 14:12:01,200 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-14 14:12:01,200 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-14 14:12:24,416 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-05-14 14:12:24,416 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-14 14:12:24,416 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-14 14:12:31,080 ERROR SysUtils - Could not process external command
+2019-08-27 10:55:13,877 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/gradlew
+2019-08-27 10:55:13,880 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/numberpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/build.gradle
+2019-08-27 10:55:13,883 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/numberpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/settings.gradle
+2019-08-27 10:55:13,884 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/sephiroth74/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2019-08-27 10:55:14,146 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/sephiroth74/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2019-08-27 10:55:14,146 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/sephiroth74/gradle-mvn-push/master/gradle-mvn-push.gradle
+2019-08-27 10:55:14,146 INFO  ProjectFixService - Fixing project...
+2019-08-27 10:55:14,160 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/local.properties
+2019-08-27 10:55:14,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-08-27 10:55:14,161 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-08-27 10:55:14,162 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/numberpicker/local.properties
+2019-08-27 10:55:14,165 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/numberpicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-08-27 10:55:14,165 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/numberpicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-08-27 10:55:14,166 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/local.properties
+2019-08-27 10:55:14,167 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-08-27 10:55:14,167 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-08-27 10:55:14,168 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-08-27 10:55:14,168 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-08-27 10:55:14,169 INFO  ProjectFixService - Project was maybe fixed
+2019-08-27 10:55:14,169 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-27 10:55:14,169 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-27 10:55:27,365 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-08-27 10:55:27,365 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-27 10:55:27,365 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-27 10:55:32,749 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -53,14 +53,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-14 14:12:31,080 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-27 10:55:32,749 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -159,186 +159,224 @@ org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2019-05-14 14:12:31,080 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-05-14 14:12:31,080 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-05-14 14:13:54,372 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-27 10:55:32,750 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-08-27 10:55:32,750 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-27 10:57:03,965 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :numberpicker:preBuild UP-TO-DATE
 > Task :numberpicker:preDebugBuild UP-TO-DATE
-> Task :numberpicker:checkDebugManifest
-> Task :numberpicker:processDebugManifest
 > Task :numberpicker:packageDebugRenderscript NO-SOURCE
-> Task :numberpicker:generateDebugResValues
-
-> Transform artifact org.jacoco.agent-runtime.jar (org.jacoco:org.jacoco.agent:0.7.9) with JetifyTransform
-ERROR: [TAG] Failed to resolve variable '${project.groupId}'
-
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:prepareLintJarForPublish
+> Task :numberpicker:checkDebugManifest
 > Task :numberpicker:generateDebugBuildConfig
 > Task :numberpicker:prepareLintJar
-> Task :app:prepareLintJar
+> Task :numberpicker:prepareLintJarForPublish
+> Task :numberpicker:generateDebugResValues
+> Task :numberpicker:processDebugManifest
+> Task :numberpicker:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:generateDebugSources
+> Task :app:dataBindingExportBuildInfoDebug
+> Task :numberpicker:compileDebugRenderscript NO-SOURCE
+> Task :numberpicker:generateDebugSources
+> Task :numberpicker:dataBindingExportBuildInfoDebug
+> Task :numberpicker:generateDebugResources
+> Task :numberpicker:packageDebugResources
+> Task :numberpicker:dataBindingMergeGenClassesDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :numberpicker:dataBindingMergeDependencyArtifactsDebug
+> Task :numberpicker:dataBindingGenBaseClassesDebug
+> Task :app:mergeDebugResources
+> Task :numberpicker:parseDebugLibraryResources
+> Task :app:dataBindingExportFeaturePackageIdsDebug
+> Task :app:dataBindingMergeGenClassesDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
 > Task :numberpicker:mergeDebugShaders
 > Task :numberpicker:compileDebugShaders
 > Task :numberpicker:generateDebugAssets
 > Task :numberpicker:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :numberpicker:generateDebugRFile
+> Task :numberpicker:kaptGenerateStubsDebugKotlin
+> Task :numberpicker:kaptDebugKotlin
+
+> Task :numberpicker:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/numberpicker/src/main/java/it/sephiroth/android/library/numberpicker/NumberPickerBindingAdapter.kt: (39, 26): Parameter 'attrChanged' is never used
+
+> Task :app:processDebugResources
+> Task :numberpicker:javaPreCompileDebug
+> Task :numberpicker:compileDebugJavaWithJavac
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :numberpicker:bundleLibCompileDebug
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:kaptDebugKotlin
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (46, 31): Parameter 'numberPicker' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (46, 74): Parameter 'fromUser' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (51, 29): Parameter 'numberPicker' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (55, 28): Parameter 'numberPicker' is never used
+
+> Task :app:processDebugJavaRes NO-SOURCE
 > Task :numberpicker:processDebugJavaRes NO-SOURCE
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :numberpicker:bundleLibResDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:checkDebugDuplicateClasses
+> Task :app:desugarDebugFileDependencies
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :numberpicker:bundleLibRuntimeDebug
+> Task :numberpicker:createFullJarDebug
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDebugJniLibFolders
 > Task :numberpicker:mergeDebugJniLibFolders
-> Task :numberpicker:transformNativeLibsWithMergeJniLibsForDebug
-> Task :numberpicker:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :numberpicker:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :numberpicker:preReleaseBuild UP-TO-DATE
-> Task :numberpicker:checkReleaseManifest
-> Task :numberpicker:processReleaseManifest
+> Task :numberpicker:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
 > Task :numberpicker:packageReleaseRenderscript NO-SOURCE
-> Task :numberpicker:generateReleaseResValues
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :app:dataBindingExportBuildInfoRelease
+> Task :numberpicker:compileReleaseRenderscript NO-SOURCE
+> Task :numberpicker:checkReleaseManifest
 > Task :numberpicker:generateReleaseBuildConfig
-> Task :numberpicker:prepareLintJarForPublish
+> Task :numberpicker:generateReleaseSources
+> Task :numberpicker:dataBindingExportBuildInfoRelease
+> Task :numberpicker:mergeDebugNativeLibs
+> Task :numberpicker:stripDebugDebugSymbols
+> Task :numberpicker:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :numberpicker:dataBindingMergeDependencyArtifactsRelease
+> Task :numberpicker:dataBindingMergeGenClassesRelease
+> Task :numberpicker:generateReleaseResValues
+> Task :numberpicker:generateReleaseResources
+> Task :numberpicker:packageReleaseResources
+> Task :numberpicker:dataBindingGenBaseClassesRelease
+> Task :numberpicker:parseReleaseLibraryResources
+> Task :numberpicker:processReleaseManifest
+> Task :app:mergeLibDexDebug
+> Task :app:mergeProjectDexDebug
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:dataBindingExportFeaturePackageIdsRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :numberpicker:generateReleaseRFile
+> Task :numberpicker:kaptGenerateStubsReleaseKotlin
+> Task :numberpicker:kaptReleaseKotlin
+
+> Task :numberpicker:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/numberpicker/src/main/java/it/sephiroth/android/library/numberpicker/NumberPickerBindingAdapter.kt: (39, 26): Parameter 'attrChanged' is never used
+
+> Task :app:processReleaseManifest
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:dataBindingMergeGenClassesRelease
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :numberpicker:javaPreCompileRelease
+> Task :numberpicker:compileReleaseJavaWithJavac
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :app:dataBindingGenBaseClassesRelease
+> Task :numberpicker:bundleLibCompileRelease
+> Task :app:kaptGenerateStubsReleaseKotlin
+> Task :app:kaptReleaseKotlin
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (46, 31): Parameter 'numberPicker' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (46, 74): Parameter 'fromUser' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (51, 29): Parameter 'numberPicker' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (55, 28): Parameter 'numberPicker' is never used
+
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :numberpicker:processReleaseJavaRes NO-SOURCE
+> Task :app:lintVitalRelease SKIPPED
+> Task :app:checkReleaseDuplicateClasses
+> Task :numberpicker:bundleLibResRelease
+> Task :numberpicker:bundleLibRuntimeRelease
+> Task :numberpicker:createFullJarRelease
+> Task :app:desugarReleaseFileDependencies
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
 > Task :numberpicker:mergeReleaseShaders
 > Task :numberpicker:compileReleaseShaders
 > Task :numberpicker:generateReleaseAssets
 > Task :numberpicker:packageReleaseAssets
-> Task :numberpicker:processReleaseJavaRes NO-SOURCE
-> Task :numberpicker:mergeReleaseJniLibFolders
-> Task :numberpicker:transformNativeLibsWithMergeJniLibsForRelease
-> Task :numberpicker:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :numberpicker:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:generateDebugUnitTestSources
-> Task :app:preDebugUnitTestBuild UP-TO-DATE
-> Task :app:processDebugUnitTestJavaRes NO-SOURCE
-> Task :app:generateReleaseUnitTestSources
-> Task :app:preReleaseUnitTestBuild UP-TO-DATE
-> Task :app:processReleaseUnitTestJavaRes NO-SOURCE
-> Task :numberpicker:compileDebugAidl NO-SOURCE
-> Task :app:preDebugBuild
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
-> Task :app:generateDebugBuildConfig
-> Task :app:mainApkListPersistenceDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :numberpicker:compileDebugRenderscript NO-SOURCE
-> Task :numberpicker:generateDebugResources
-> Task :numberpicker:packageDebugResources
-> Task :app:mergeDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :numberpicker:generateDebugSources
-> Task :numberpicker:generateDebugRFile
-> Task :app:processDebugResources
-> Task :numberpicker:compileDebugKotlin
-> Task :numberpicker:javaPreCompileDebug
-> Task :numberpicker:compileDebugJavaWithJavac
-> Task :numberpicker:bundleLibCompileDebug
-
-> Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (16, 33): Parameter 'numberPicker' is never used, could be renamed to _
-
-> Task :app:generateDebugSources
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
-> Task :app:mergeDebugAssets
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
-> Task :numberpicker:bundleLibRuntimeDebug
-> Task :app:checkDebugDuplicateClasses
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/65bb23cf11742775bac51534a5fb8c29/jetified-org.jacoco.agent-0.7.9-runtime.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `void org.jacoco.agent.rt.internal_8ff85ea.JmxRegistration.<init>(org.jacoco.agent.rt.IAgent)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/65bb23cf11742775bac51534a5fb8c29/jetified-org.jacoco.agent-0.7.9-runtime.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.jacoco.agent.rt.internal_8ff85ea.CoverageTransformer` is correct. Desugaring will assume that this interface has no default method.
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/65bb23cf11742775bac51534a5fb8c29/jetified-org.jacoco.agent-0.7.9-runtime.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.jacoco.agent.rt.internal_8ff85ea.core.runtime.ModifiedSystemClassRuntime$1` is correct. Desugaring will assume that this interface has no default method.
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :app:transformDexArchiveWithDexMergerForDebug
-> Task :app:mergeDebugJniLibFolders
-> Task :numberpicker:bundleLibResDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :app:preReleaseBuild
-> Task :numberpicker:compileReleaseAidl NO-SOURCE
-> Task :app:compileReleaseAidl NO-SOURCE
-> Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
-> Task :app:generateReleaseBuildConfig
-> Task :app:mainApkListPersistenceRelease
-> Task :app:generateReleaseResValues
-> Task :app:generateReleaseResources
-> Task :numberpicker:compileReleaseRenderscript NO-SOURCE
-> Task :numberpicker:generateReleaseResources
-> Task :numberpicker:packageReleaseResources
-> Task :app:mergeReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
-> Task :numberpicker:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :numberpicker:compileReleaseKotlin
-> Task :numberpicker:generateReleaseSources
-> Task :numberpicker:javaPreCompileRelease
-> Task :numberpicker:compileReleaseJavaWithJavac
-> Task :numberpicker:bundleLibCompileRelease
-
-> Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (16, 33): Parameter 'numberPicker' is never used, could be renamed to _
-
-> Task :app:generateReleaseSources
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
-> Task :app:mergeReleaseShaders
-> Task :app:lintVitalRelease SKIPPED
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
 > Task :app:mergeReleaseAssets
-> Task :app:signingConfigWriterRelease
-> Task :app:checkReleaseDuplicateClasses
-> Task :numberpicker:bundleLibRuntimeRelease
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/65bb23cf11742775bac51534a5fb8c29/jetified-org.jacoco.agent-0.7.9-runtime.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `void org.jacoco.agent.rt.internal_8ff85ea.JmxRegistration.<init>(org.jacoco.agent.rt.IAgent)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/65bb23cf11742775bac51534a5fb8c29/jetified-org.jacoco.agent-0.7.9-runtime.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.jacoco.agent.rt.internal_8ff85ea.CoverageTransformer` is correct. Desugaring will assume that this interface has no default method.
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/65bb23cf11742775bac51534a5fb8c29/jetified-org.jacoco.agent-0.7.9-runtime.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.jacoco.agent.rt.internal_8ff85ea.core.runtime.ModifiedSystemClassRuntime$1` is correct. Desugaring will assume that this interface has no default method.
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :app:transformDexArchiveWithDexMergerForRelease
-> Task :app:mergeReleaseJniLibFolders
-> Task :numberpicker:bundleLibResRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
-> Task :app:packageRelease
-> Task :app:assembleRelease
-> Task :app:assemble
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :numberpicker:mergeReleaseJniLibFolders
 
 > Task :app:lint
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/b91e0304ccbf9a9a5bcfed837e0913b7/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant release: 10 issues found
-Ran lint on variant debug: 11 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/app/build/reports/lint-results.xml
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/15b2de114eb32936bef9d1adcaaf1337/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Ran lint on variant debug: 9 issues found
+Ran lint on variant release: 8 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build/reports/lint-results.xml
 
+> Task :numberpicker:mergeReleaseNativeLibs
+> Task :numberpicker:stripReleaseDebugSymbols
+> Task :numberpicker:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseJavaResource
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:processDebugUnitTestJavaRes NO-SOURCE
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :app:kaptGenerateStubsDebugUnitTestKotlin
+> Task :app:kaptDebugUnitTestKotlin
 > Task :app:compileDebugUnitTestKotlin
-> Task :app:javaPreCompileDebugUnitTest
-> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
-> Task :app:testDebugUnitTest
+> Task :app:kaptGenerateStubsReleaseUnitTestKotlin
+> Task :app:kaptReleaseUnitTestKotlin
 > Task :app:compileReleaseUnitTestKotlin
+> Task :app:mergeExtDexRelease
 > Task :app:javaPreCompileReleaseUnitTest
 > Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
 > Task :app:testReleaseUnitTest
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:javaPreCompileDebugUnitTest
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:testDebugUnitTest
 > Task :app:test
 > Task :app:check
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
 > Task :app:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.3/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 22s
-99 actionable tasks: 99 executed
+BUILD SUCCESSFUL in 1m 30s
+135 actionable tasks: 135 executed
 
-2019-05-14 14:13:54,483 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817917051-0/src/NumberSlidingPicker-master/app/build/outputs/apk/debug/app-debug.apk
+2019-08-27 10:57:04,069 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build/outputs/apk/debug/app-debug.apk
