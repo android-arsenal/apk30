@@ -1,36 +1,36 @@
-2019-08-09 12:17:51,598 INFO  DownloadService - Downloading "https://github.com/UttamPanchasara/PDF-Generator/archive/master.zip", attempt 3
-2019-08-09 12:17:53,799 INFO  DownloadService - Downloaded https://github.com/UttamPanchasara/PDF-Generator/archive/master.zip, attempt 3
-2019-08-09 12:17:53,799 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/master.zip": 310 KB
-2019-08-09 12:17:53,799 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-09 12:17:53,805 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/master.zip: true
-2019-08-09 12:17:53,805 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src'.
-2019-08-09 12:17:53,824 INFO  FullProcessService - Size of directory with sources: 602 KB
-2019-08-09 12:17:53,824 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src]
-2019-08-09 12:17:53,851 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/.git/
+2019-08-29 10:51:59,430 INFO  DownloadService - Downloading "https://github.com/UttamPanchasara/PDF-Generator/archive/master.zip", attempt 3
+2019-08-29 10:52:01,626 INFO  DownloadService - Downloaded https://github.com/UttamPanchasara/PDF-Generator/archive/master.zip, attempt 3
+2019-08-29 10:52:01,626 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/master.zip": 311 KB
+2019-08-29 10:52:01,626 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-29 10:52:01,628 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/master.zip: true
+2019-08-29 10:52:01,628 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src'.
+2019-08-29 10:52:01,649 INFO  FullProcessService - Size of directory with sources: 603 KB
+2019-08-29 10:52:01,649 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src]
+2019-08-29 10:52:01,676 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/.git/
 
-2019-08-09 12:17:53,852 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/gradlew
-2019-08-09 12:17:53,855 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/pdfgenerator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/build.gradle
-2019-08-09 12:17:53,857 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/pdfgenerator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/settings.gradle
-2019-08-09 12:17:53,857 INFO  ProjectBuildService - Remote scripts: none
-2019-08-09 12:17:53,857 INFO  ProjectFixService - Fixing project...
-2019-08-09 12:17:53,862 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/app/local.properties
-2019-08-09 12:17:53,863 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-09 12:17:53,863 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-09 12:17:53,864 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/pdfgenerator/local.properties
-2019-08-09 12:17:53,865 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/pdfgenerator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-09 12:17:53,865 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/pdfgenerator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-09 12:17:53,866 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/local.properties
-2019-08-09 12:17:53,866 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-08-09 12:17:53,867 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-08-09 12:17:53,868 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-09 12:17:53,868 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-09 12:17:53,868 INFO  ProjectFixService - Project was maybe fixed
-2019-08-09 12:17:53,868 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-09 12:17:53,868 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-09 12:18:01,829 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-08-09 12:18:01,830 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-09 12:18:01,830 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-09 12:18:45,623 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-29 10:52:01,678 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/gradlew
+2019-08-29 10:52:01,680 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/pdfgenerator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/build.gradle
+2019-08-29 10:52:01,682 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/pdfgenerator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/settings.gradle
+2019-08-29 10:52:01,682 INFO  ProjectBuildService - Remote scripts: none
+2019-08-29 10:52:01,683 INFO  ProjectFixService - Fixing project...
+2019-08-29 10:52:01,688 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/app/local.properties
+2019-08-29 10:52:01,689 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-08-29 10:52:01,689 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-08-29 10:52:01,690 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/pdfgenerator/local.properties
+2019-08-29 10:52:01,691 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/pdfgenerator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-08-29 10:52:01,691 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/pdfgenerator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-08-29 10:52:01,691 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/local.properties
+2019-08-29 10:52:01,692 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-08-29 10:52:01,692 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-08-29 10:52:01,693 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-08-29 10:52:01,693 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-08-29 10:52:01,694 INFO  ProjectFixService - Project was maybe fixed
+2019-08-29 10:52:01,694 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-29 10:52:01,694 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-29 10:52:09,998 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-29 10:52:09,998 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-29 10:52:09,998 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-29 10:52:55,661 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :pdfgenerator
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -69,7 +69,7 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :pdfgenerator:generateDebugBuildConfig
 > Task :pdfgenerator:kaptGenerateStubsDebugKotlin
 > Task :pdfgenerator:kaptDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/pdfgenerator/src/main/java/com/uttampanchasara/pdfgenerator/CreatePdf.kt: (109, 24): Variable 'filePath' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/pdfgenerator/src/main/java/com/uttampanchasara/pdfgenerator/CreatePdf.kt: (109, 24): Variable 'filePath' initializer is redundant
 > Task :pdfgenerator:compileDebugKotlin
 > Task :pdfgenerator:prepareLintJar
 > Task :pdfgenerator:generateDebugSources
@@ -140,7 +140,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/
 > Task :pdfgenerator:generateReleaseBuildConfig
 > Task :pdfgenerator:kaptGenerateStubsReleaseKotlin
 > Task :pdfgenerator:kaptReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/pdfgenerator/src/main/java/com/uttampanchasara/pdfgenerator/CreatePdf.kt: (109, 24): Variable 'filePath' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/pdfgenerator/src/main/java/com/uttampanchasara/pdfgenerator/CreatePdf.kt: (109, 24): Variable 'filePath' initializer is redundant
 > Task :pdfgenerator:compileReleaseKotlin
 > Task :pdfgenerator:generateReleaseSources
 > Task :pdfgenerator:javaPreCompileRelease
@@ -193,7 +193,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 43s
+BUILD SUCCESSFUL in 44s
 101 actionable tasks: 101 executed
 
-2019-08-09 12:18:45,686 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327871590-0/src/PDF-Generator-master/app/build/outputs/apk/debug/app-debug.apk
+2019-08-29 10:52:55,736 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050719428-0/src/PDF-Generator-master/app/build/outputs/apk/debug/app-debug.apk

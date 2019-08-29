@@ -1,40 +1,40 @@
-2019-08-06 12:29:04,547 INFO  DownloadService - Downloading "https://github.com/nowfalsalahudeen/KdroidExt/archive/master.zip", attempt 3
-2019-08-06 12:29:09,386 INFO  DownloadService - Downloaded https://github.com/nowfalsalahudeen/KdroidExt/archive/master.zip, attempt 3
-2019-08-06 12:29:09,387 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/master.zip": 2 MB
-2019-08-06 12:29:09,387 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-06 12:29:09,393 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/master.zip: true
-2019-08-06 12:29:09,394 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src'.
-2019-08-06 12:29:09,466 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-08-06 12:29:09,466 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src]
-2019-08-06 12:29:09,486 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/.git/
+2019-08-29 10:45:53,106 INFO  DownloadService - Downloading "https://github.com/nowfalsalahudeen/KdroidExt/archive/master.zip", attempt 3
+2019-08-29 10:45:57,175 INFO  DownloadService - Downloaded https://github.com/nowfalsalahudeen/KdroidExt/archive/master.zip, attempt 3
+2019-08-29 10:45:57,175 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/master.zip": 2 MB
+2019-08-29 10:45:57,175 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-29 10:45:57,181 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/master.zip: true
+2019-08-29 10:45:57,181 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src'.
+2019-08-29 10:45:57,252 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-08-29 10:45:57,252 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src]
+2019-08-29 10:45:57,281 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/.git/
 
-2019-08-06 12:29:09,491 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/gradlew
-2019-08-06 12:29:09,498 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/build.gradle
-2019-08-06 12:29:09,503 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/settings.gradle
-2019-08-06 12:29:09,504 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-08-06 12:29:09,915 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-08-06 12:29:09,915 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-08-06 12:29:10,141 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-08-06 12:29:10,141 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-08-06 12:29:10,141 INFO  ProjectFixService - Fixing project...
-2019-08-06 12:29:10,158 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/app/local.properties
-2019-08-06 12:29:10,159 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-08-06 12:29:10,159 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-08-06 12:29:10,160 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/local.properties
-2019-08-06 12:29:10,164 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-08-06 12:29:10,164 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-08-06 12:29:10,165 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/local.properties
-2019-08-06 12:29:10,165 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-08-06 12:29:10,166 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-08-06 12:29:10,167 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-08-06 12:29:10,168 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-08-06 12:29:10,169 INFO  ProjectFixService - Project was maybe fixed
-2019-08-06 12:29:10,169 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-06 12:29:10,169 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-06 12:29:28,315 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-08-06 12:29:28,315 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-06 12:29:28,315 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-06 12:29:34,276 ERROR SysUtils - Could not process external command
+2019-08-29 10:45:57,286 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/gradlew
+2019-08-29 10:45:57,292 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/build.gradle
+2019-08-29 10:45:57,297 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/settings.gradle
+2019-08-29 10:45:57,297 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-08-29 10:45:57,487 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-08-29 10:45:57,487 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-08-29 10:45:57,672 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-08-29 10:45:57,672 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-08-29 10:45:57,672 INFO  ProjectFixService - Fixing project...
+2019-08-29 10:45:57,687 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/app/local.properties
+2019-08-29 10:45:57,688 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-29 10:45:57,688 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-29 10:45:57,689 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/local.properties
+2019-08-29 10:45:57,690 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-29 10:45:57,690 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-29 10:45:57,691 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/local.properties
+2019-08-29 10:45:57,692 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-08-29 10:45:57,692 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-08-29 10:45:57,694 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-29 10:45:57,694 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-29 10:45:57,694 INFO  ProjectFixService - Project was maybe fixed
+2019-08-29 10:45:57,694 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-29 10:45:57,694 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-29 10:46:06,356 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-08-29 10:46:06,356 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-29 10:46:06,356 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-29 10:46:11,915 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,14 +55,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-06 12:29:34,276 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-29 10:46:11,915 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -163,16 +163,12 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 5s
 
-2019-08-06 12:29:34,276 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-08-06 12:29:34,276 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-06 12:31:12,990 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-29 10:46:11,915 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-08-29 10:46:11,916 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-29 10:47:44,162 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :kdroidext
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
@@ -181,8 +177,8 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :kdroidext:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :kdroidext:packageDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
 > Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
@@ -194,7 +190,6 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :app:createDebugCompatibleScreenManifests
 > Task :kdroidext:checkDebugManifest
 > Task :app:mergeDebugResources
-> Task :kdroidext:parseDebugLibraryResources
 > Task :kdroidext:processDebugManifest
 > Task :app:processDebugManifest
 > Task :kdroidext:generateDebugBuildConfig
@@ -209,105 +204,103 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :kdroidext:processDebugJavaRes NO-SOURCE
 > Task :app:checkDebugDuplicateClasses
+> Task :kdroidext:parseDebugLibraryResources
 > Task :kdroidext:generateDebugRFile
 > Task :app:processDebugResources
 
 > Task :kdroidext:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/DateTimeUtils/KDateExt.kt: (85, 12): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/DateTimeUtils/KDateExt.kt: (85, 76): Type mismatch: inferred type is Locale? but Locale was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/DateTimeUtils/KDateExt.kt: (101, 12): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/DateTimeUtils/KDateExt.kt: (101, 82): Type mismatch: inferred type is Locale? but Locale was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (58, 28): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (70, 28): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (255, 14): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (262, 18): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (270, 18): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ActivityFragmentExtensions.kt: (243, 107): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ActivityFragmentExtensions.kt: (249, 5): 'startActivityFromFragment(Fragment, Intent!, Int, Bundle?): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ActivityFragmentExtensions.kt: (252, 102): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ActivityFragmentExtensions.kt: (258, 5): 'startActivityFromFragment(Fragment, Intent!, Int): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/FileExtensions.kt: (32, 72): 'DATA: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/FileExtensions.kt: (48, 17): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ImageExtensions.kt: (45, 40): 'insertImage(ContentResolver!, Bitmap!, String!, String!): String!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ImageExtensions.kt: (52, 40): 'insertImage(ContentResolver!, Bitmap!, String!, String!): String!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ImageExtensions.kt: (59, 40): 'insertImage(ContentResolver!, Bitmap!, String!, String!): String!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ImageExtensions.kt: (108, 36): 'getBitmap(ContentResolver!, Uri!): Bitmap!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KContext.kt: (52, 27): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KContext.kt: (245, 13): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KContext.kt: (245, 31): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (19, 20): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (20, 20): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (33, 5): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (37, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (49, 5): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (53, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (65, 5): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (65, 81): 'getter for activity: Activity!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (69, 5): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (72, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (73, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (78, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (81, 5): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (84, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (85, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (90, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (93, 5): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (96, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (97, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (102, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (105, 5): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (108, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (109, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (114, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (121, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (122, 5): 'constructor ProgressDialog(Context!)' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (122, 5): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (123, 5): 'setter for isIndeterminate: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (124, 25): 'setProgressStyle(Int): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (124, 42): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (124, 57): 'STYLE_HORIZONTAL: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (125, 26): 'setMessage(CharSequence!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (131, 5): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (135, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (20, 27): 'Preference' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (21, 27): 'PreferenceFragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (22, 27): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (27, 53): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (27, 71): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (37, 25): 'Preference' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (37, 37): 'PreferenceFragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (37, 83): 'findPreference(CharSequence!): Preference!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KIntent.kt: (21, 20): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KIntent.kt: (33, 44): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KIntent.kt: (33, 83): 'startActivityForResult(Intent!, Int): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/Utils.kt: (142, 32): Unnecessary non-null assertion (!!) on a non-null receiver of type View
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/Utils.kt: (252, 32): Unnecessary non-null assertion (!!) on a non-null receiver of type View
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/WidgetExtensions.kt: (9, 32): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (17, 27): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (79, 13): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (79, 31): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (106, 33): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (106, 52): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (118, 75): 'versionCode: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/FragmentCompat.kt: (11, 27): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Parcel.kt: (12, 12): Extension is shadowed by a member: public open fun writeBoolean(p0: Boolean): Unit
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Parcel.kt: (19, 12): Extension is shadowed by a member: public open fun readBoolean(): Boolean
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/types/DateTime.kt: (534, 55): Type mismatch: inferred type is Date? but Date was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/types/DateTime.kt: (542, 51): Type mismatch: inferred type is Date? but Date was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/types/MutableDateTime.kt: (300, 62): Type mismatch: inferred type is Date? but Date was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/types/MutableDateTime.kt: (308, 58): Type mismatch: inferred type is Date? but Date was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/DateTimeUtils/KDateExt.kt: (85, 12): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/DateTimeUtils/KDateExt.kt: (85, 76): Type mismatch: inferred type is Locale? but Locale was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/DateTimeUtils/KDateExt.kt: (101, 12): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/DateTimeUtils/KDateExt.kt: (101, 82): Type mismatch: inferred type is Locale? but Locale was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (58, 28): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (70, 28): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (255, 14): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (262, 18): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (270, 18): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ActivityFragmentExtensions.kt: (243, 107): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ActivityFragmentExtensions.kt: (249, 5): 'startActivityFromFragment(Fragment, Intent!, Int, Bundle?): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ActivityFragmentExtensions.kt: (252, 102): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ActivityFragmentExtensions.kt: (258, 5): 'startActivityFromFragment(Fragment, Intent!, Int): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/FileExtensions.kt: (32, 72): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ImageExtensions.kt: (45, 40): 'insertImage(ContentResolver!, Bitmap!, String!, String!): String!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ImageExtensions.kt: (52, 40): 'insertImage(ContentResolver!, Bitmap!, String!, String!): String!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ImageExtensions.kt: (59, 40): 'insertImage(ContentResolver!, Bitmap!, String!, String!): String!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ImageExtensions.kt: (108, 36): 'getBitmap(ContentResolver!, Uri!): Bitmap!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KContext.kt: (52, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KContext.kt: (245, 13): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KContext.kt: (245, 31): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (19, 20): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (20, 20): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (33, 5): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (37, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (49, 5): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (53, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (65, 5): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (65, 81): 'getter for activity: Activity!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (69, 5): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (72, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (73, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (78, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (81, 5): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (84, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (85, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (90, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (93, 5): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (96, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (97, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (102, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (105, 5): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (108, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (109, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (114, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (121, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (122, 5): 'constructor ProgressDialog(Context!)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (122, 5): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (123, 5): 'setter for isIndeterminate: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (124, 25): 'setProgressStyle(Int): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (124, 42): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (124, 57): 'STYLE_HORIZONTAL: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (125, 26): 'setMessage(CharSequence!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (131, 5): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (135, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (20, 27): 'Preference' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (21, 27): 'PreferenceFragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (22, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (27, 53): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (27, 71): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (37, 25): 'Preference' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (37, 37): 'PreferenceFragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (37, 83): 'findPreference(CharSequence!): Preference!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KIntent.kt: (21, 20): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KIntent.kt: (33, 44): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KIntent.kt: (33, 83): 'startActivityForResult(Intent!, Int): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/WidgetExtensions.kt: (9, 32): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (17, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (79, 13): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (79, 31): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (106, 33): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (106, 52): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (118, 75): 'versionCode: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/FragmentCompat.kt: (11, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Parcel.kt: (12, 12): Extension is shadowed by a member: public open fun writeBoolean(p0: Boolean): Unit
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Parcel.kt: (19, 12): Extension is shadowed by a member: public open fun readBoolean(): Boolean
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/types/DateTime.kt: (534, 55): Type mismatch: inferred type is Date? but Date was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/types/DateTime.kt: (542, 51): Type mismatch: inferred type is Date? but Date was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/types/MutableDateTime.kt: (300, 62): Type mismatch: inferred type is Date? but Date was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/types/MutableDateTime.kt: (308, 58): Type mismatch: inferred type is Date? but Date was expected
 
 > Task :kdroidext:javaPreCompileDebug
 
 > Task :kdroidext:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/pref/KPrefHelper.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/pref/KPrefHelper.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :kdroidext:bundleLibResDebug
-> Task :kdroidext:bundleLibRuntimeDebug
-> Task :kdroidext:createFullJarDebug
 > Task :kdroidext:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
+> Task :kdroidext:bundleLibRuntimeDebug
+> Task :kdroidext:createFullJarDebug
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
@@ -334,119 +327,116 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :kdroidext:packageReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :kdroidext:checkReleaseManifest
+> Task :kdroidext:processReleaseManifest
+> Task :app:processReleaseManifest
 > Task :kdroidext:generateReleaseBuildConfig
+> Task :kdroidext:parseReleaseLibraryResources
 > Task :kdroidext:mergeDebugNativeLibs
 > Task :kdroidext:stripDebugDebugSymbols
 > Task :kdroidext:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :kdroidext:processReleaseManifest
-> Task :app:processReleaseManifest
-> Task :kdroidext:parseReleaseLibraryResources
 > Task :app:mergeReleaseResources
-> Task :app:prepareLintJar
-> Task :kdroidext:processReleaseJavaRes NO-SOURCE
-> Task :app:checkReleaseDuplicateClasses
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
 > Task :kdroidext:generateReleaseRFile
 > Task :app:processReleaseResources
 
 > Task :kdroidext:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/DateTimeUtils/KDateExt.kt: (85, 12): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/DateTimeUtils/KDateExt.kt: (85, 76): Type mismatch: inferred type is Locale? but Locale was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/DateTimeUtils/KDateExt.kt: (101, 12): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/DateTimeUtils/KDateExt.kt: (101, 82): Type mismatch: inferred type is Locale? but Locale was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (58, 28): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (70, 28): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (255, 14): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (262, 18): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (270, 18): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ActivityFragmentExtensions.kt: (243, 107): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ActivityFragmentExtensions.kt: (249, 5): 'startActivityFromFragment(Fragment, Intent!, Int, Bundle?): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ActivityFragmentExtensions.kt: (252, 102): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ActivityFragmentExtensions.kt: (258, 5): 'startActivityFromFragment(Fragment, Intent!, Int): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/FileExtensions.kt: (32, 72): 'DATA: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/FileExtensions.kt: (48, 17): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ImageExtensions.kt: (45, 40): 'insertImage(ContentResolver!, Bitmap!, String!, String!): String!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ImageExtensions.kt: (52, 40): 'insertImage(ContentResolver!, Bitmap!, String!, String!): String!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ImageExtensions.kt: (59, 40): 'insertImage(ContentResolver!, Bitmap!, String!, String!): String!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ImageExtensions.kt: (108, 36): 'getBitmap(ContentResolver!, Uri!): Bitmap!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KContext.kt: (52, 27): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KContext.kt: (245, 13): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KContext.kt: (245, 31): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (19, 20): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (20, 20): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (33, 5): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (37, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (49, 5): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (53, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (65, 5): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (65, 81): 'getter for activity: Activity!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (69, 5): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (72, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (73, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (78, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (81, 5): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (84, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (85, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (90, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (93, 5): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (96, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (97, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (102, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (105, 5): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (108, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (109, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (114, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (121, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (122, 5): 'constructor ProgressDialog(Context!)' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (122, 5): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (123, 5): 'setter for isIndeterminate: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (124, 25): 'setProgressStyle(Int): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (124, 42): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (124, 57): 'STYLE_HORIZONTAL: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (125, 26): 'setMessage(CharSequence!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (131, 5): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (135, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (20, 27): 'Preference' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (21, 27): 'PreferenceFragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (22, 27): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (27, 53): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (27, 71): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (37, 25): 'Preference' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (37, 37): 'PreferenceFragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (37, 83): 'findPreference(CharSequence!): Preference!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KIntent.kt: (21, 20): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KIntent.kt: (33, 44): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KIntent.kt: (33, 83): 'startActivityForResult(Intent!, Int): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/Utils.kt: (142, 32): Unnecessary non-null assertion (!!) on a non-null receiver of type View
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/Utils.kt: (252, 32): Unnecessary non-null assertion (!!) on a non-null receiver of type View
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/WidgetExtensions.kt: (9, 32): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (17, 27): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (79, 13): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (79, 31): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (106, 33): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (106, 52): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (118, 75): 'versionCode: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/FragmentCompat.kt: (11, 27): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Parcel.kt: (12, 12): Extension is shadowed by a member: public open fun writeBoolean(p0: Boolean): Unit
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Parcel.kt: (19, 12): Extension is shadowed by a member: public open fun readBoolean(): Boolean
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/types/DateTime.kt: (534, 55): Type mismatch: inferred type is Date? but Date was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/types/DateTime.kt: (542, 51): Type mismatch: inferred type is Date? but Date was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/types/MutableDateTime.kt: (300, 62): Type mismatch: inferred type is Date? but Date was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/types/MutableDateTime.kt: (308, 58): Type mismatch: inferred type is Date? but Date was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/DateTimeUtils/KDateExt.kt: (85, 12): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/DateTimeUtils/KDateExt.kt: (85, 76): Type mismatch: inferred type is Locale? but Locale was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/DateTimeUtils/KDateExt.kt: (101, 12): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/DateTimeUtils/KDateExt.kt: (101, 82): Type mismatch: inferred type is Locale? but Locale was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (58, 28): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (70, 28): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (255, 14): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (262, 18): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/Utils/Tools.kt: (270, 18): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ActivityFragmentExtensions.kt: (243, 107): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ActivityFragmentExtensions.kt: (249, 5): 'startActivityFromFragment(Fragment, Intent!, Int, Bundle?): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ActivityFragmentExtensions.kt: (252, 102): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ActivityFragmentExtensions.kt: (258, 5): 'startActivityFromFragment(Fragment, Intent!, Int): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/FileExtensions.kt: (32, 72): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ImageExtensions.kt: (45, 40): 'insertImage(ContentResolver!, Bitmap!, String!, String!): String!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ImageExtensions.kt: (52, 40): 'insertImage(ContentResolver!, Bitmap!, String!, String!): String!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ImageExtensions.kt: (59, 40): 'insertImage(ContentResolver!, Bitmap!, String!, String!): String!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/ImageExtensions.kt: (108, 36): 'getBitmap(ContentResolver!, Uri!): Bitmap!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KContext.kt: (52, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KContext.kt: (245, 13): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KContext.kt: (245, 31): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (19, 20): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (20, 20): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (33, 5): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (37, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (49, 5): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (53, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (65, 5): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (65, 81): 'getter for activity: Activity!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (69, 5): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (72, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (73, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (78, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (81, 5): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (84, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (85, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (90, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (93, 5): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (96, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (97, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (102, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (105, 5): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (108, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (109, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (114, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (121, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (122, 5): 'constructor ProgressDialog(Context!)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (122, 5): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (123, 5): 'setter for isIndeterminate: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (124, 25): 'setProgressStyle(Int): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (124, 42): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (124, 57): 'STYLE_HORIZONTAL: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (125, 26): 'setMessage(CharSequence!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (131, 5): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KDialog.kt: (135, 5): 'getter for activity: Activity!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (20, 27): 'Preference' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (21, 27): 'PreferenceFragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (22, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (27, 53): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (27, 71): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (37, 25): 'Preference' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (37, 37): 'PreferenceFragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KFragment.kt: (37, 83): 'findPreference(CharSequence!): Preference!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KIntent.kt: (21, 20): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KIntent.kt: (33, 44): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/KIntent.kt: (33, 83): 'startActivityForResult(Intent!, Int): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kex/WidgetExtensions.kt: (9, 32): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (17, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (79, 13): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (79, 31): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (106, 33): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (106, 52): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Context.kt: (118, 75): 'versionCode: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/FragmentCompat.kt: (11, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Parcel.kt: (12, 12): Extension is shadowed by a member: public open fun writeBoolean(p0: Boolean): Unit
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/ext/app/Parcel.kt: (19, 12): Extension is shadowed by a member: public open fun readBoolean(): Boolean
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/types/DateTime.kt: (534, 55): Type mismatch: inferred type is Date? but Date was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/types/DateTime.kt: (542, 51): Type mismatch: inferred type is Date? but Date was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/types/MutableDateTime.kt: (300, 62): Type mismatch: inferred type is Date? but Date was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/kotx/types/MutableDateTime.kt: (308, 58): Type mismatch: inferred type is Date? but Date was expected
 
-> Task :kdroidext:prepareLintJarForPublish
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :kdroidext:javaPreCompileRelease
 
 > Task :kdroidext:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/pref/KPrefHelper.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/kdroidext/src/main/java/com/nowfal/kdroidext/pref/KPrefHelper.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
+> Task :app:prepareLintJar
+> Task :kdroidext:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
 > Task :kdroidext:bundleLibResRelease
-> Task :kdroidext:bundleLibCompileRelease
-> Task :app:compileReleaseKotlin
+> Task :kdroidext:prepareLintJarForPublish
 > Task :kdroidext:bundleLibRuntimeRelease
 > Task :kdroidext:createFullJarRelease
+> Task :kdroidext:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
@@ -470,25 +460,23 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :kdroidext:transformNativeLibsWithIntermediateJniLibsForRelease
 
 > Task :app:lint
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/40d003540b343d7c929b8a4e16e388c7/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/be1491edacb8a965c5f02ef87a9d2760/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 Ran lint on variant debug: 3 issues found
 Ran lint on variant release: 3 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/app/build/reports/lint-results.xml
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/app/build/reports/lint-results.xml
 
 > Task :app:mergeReleaseJavaResource
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
-> Task :app:compileDebugUnitTestKotlin
 > Task :app:preDebugUnitTestBuild UP-TO-DATE
 > Task :app:processDebugUnitTestJavaRes NO-SOURCE
-> Task :app:compileReleaseUnitTestKotlin
-> Task :app:mergeExtDexRelease
 > Task :app:preReleaseUnitTestBuild UP-TO-DATE
 > Task :app:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :app:compileDebugUnitTestKotlin
+> Task :app:compileReleaseUnitTestKotlin
+> Task :app:mergeExtDexRelease
 > Task :app:javaPreCompileDebugUnitTest
 > Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
 > Task :app:testDebugUnitTest
@@ -498,6 +486,8 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 > Task :app:test
 > Task :app:check
 > Task :app:mergeDexRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
@@ -507,7 +497,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 37s
+BUILD SUCCESSFUL in 1m 31s
 100 actionable tasks: 100 executed
 
-2019-08-06 12:31:13,088 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069344543-0/src/KdroidExt-master/app/build/outputs/apk/debug/app-debug.apk
+2019-08-29 10:47:44,259 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050353103-0/src/KdroidExt-master/app/build/outputs/apk/debug/app-debug.apk

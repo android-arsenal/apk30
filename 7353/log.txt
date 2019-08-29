@@ -1,250 +1,480 @@
-2019-06-16 15:58:11,505 INFO  DownloadService - Downloading "https://github.com/AliAsadi/PowerPreference/archive/master.zip", attempt 3
-2019-06-16 15:58:12,199 INFO  DownloadService - Downloaded https://github.com/AliAsadi/PowerPreference/archive/master.zip, attempt 3
-2019-06-16 15:58:12,199 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/master.zip": 247 KB
-2019-06-16 15:58:12,199 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-16 15:58:12,201 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/master.zip: true
-2019-06-16 15:58:12,201 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src'.
-2019-06-16 15:58:12,233 INFO  FullProcessService - Size of directory with sources: 346 KB
-2019-06-16 15:58:12,233 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src]
-2019-06-16 15:58:12,252 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/.git/
+2019-08-29 10:53:07,843 INFO  DownloadService - Downloading "https://github.com/AliAsadi/PowerPreference/archive/master.zip", attempt 3
+2019-08-29 10:53:09,811 INFO  DownloadService - Downloaded https://github.com/AliAsadi/PowerPreference/archive/master.zip, attempt 3
+2019-08-29 10:53:09,812 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/master.zip": 246 KB
+2019-08-29 10:53:09,812 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-29 10:53:09,812 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/master.zip: true
+2019-08-29 10:53:09,812 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src'.
+2019-08-29 10:53:09,849 INFO  FullProcessService - Size of directory with sources: 341 KB
+2019-08-29 10:53:09,849 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src]
+2019-08-29 10:53:09,882 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/.git/
 
-2019-06-16 15:58:12,256 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/gradlew
-2019-06-16 15:58:12,260 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/power-preference-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/build.gradle
-2019-06-16 15:58:12,264 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/power-preference-lib/build.gradle
-2019-06-16 15:58:12,265 INFO  ProjectBuildService - Remote scripts: none
-2019-06-16 15:58:12,265 INFO  ProjectFixService - Fixing project...
-2019-06-16 15:58:12,274 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/power-preference-lib/local.properties
-2019-06-16 15:58:12,276 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/power-preference-lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
-2019-06-16 15:58:12,276 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/power-preference-lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
-2019-06-16 15:58:12,277 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/sample-app/local.properties
-2019-06-16 15:58:12,278 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
-2019-06-16 15:58:12,279 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
-2019-06-16 15:58:12,280 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/local.properties
-2019-06-16 15:58:12,281 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-06-16 15:58:12,281 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-06-16 15:58:12,282 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
-2019-06-16 15:58:12,283 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
-2019-06-16 15:58:12,283 INFO  ProjectFixService - Project was maybe fixed
-2019-06-16 15:58:12,283 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-16 15:58:12,284 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/power-preference-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-16 15:58:23,547 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-16 15:58:23,547 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-06-16 15:58:23,548 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/power-preference-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-06-16 15:58:44,191 INFO  SysUtils - Configuration on demand is an incubating feature.
-:power-preference-lib:preBuild UP-TO-DATE
-:power-preference-lib:preDebugBuild UP-TO-DATE
-:power-preference-lib:compileDebugAidl NO-SOURCE
-:power-preference-lib:compileDebugRenderscript
-Download https://jcenter.bintray.com/com/thoughtbot/expandablerecyclerview/1.3/expandablerecyclerview-1.3.aar
-:power-preference-lib:checkDebugManifest
-:power-preference-lib:generateDebugBuildConfig
-:power-preference-lib:generateDebugResValues
-:power-preference-lib:generateDebugResources
-:power-preference-lib:packageDebugResources
-:power-preference-lib:processDebugManifest
-:power-preference-lib:generateDebugRFile
-:power-preference-lib:prepareLintJar
-:power-preference-lib:generateDebugSources
-:power-preference-lib:javaPreCompileDebug
-:power-preference-lib:compileDebugJavaWithJavac
-Download https://jcenter.bintray.com/com/google/errorprone/error_prone_core/maven-metadata.xml
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/power-preference-lib/src/main/java/com/preference/PreferenceCreator.java uses unchecked or unsafe operations.
+2019-08-29 10:53:09,886 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/gradlew
+2019-08-29 10:53:09,891 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/build.gradle
+2019-08-29 10:53:09,895 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/settings.gradle
+2019-08-29 10:53:09,895 INFO  ProjectBuildService - Remote scripts: none
+2019-08-29 10:53:09,895 INFO  ProjectFixService - Fixing project...
+2019-08-29 10:53:09,906 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/local.properties
+2019-08-29 10:53:09,908 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-08-29 10:53:09,908 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-08-29 10:53:09,909 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/sample-app/local.properties
+2019-08-29 10:53:09,911 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-08-29 10:53:09,911 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-08-29 10:53:09,912 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/local.properties
+2019-08-29 10:53:09,912 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-29 10:53:09,913 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-29 10:53:09,914 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-08-29 10:53:09,914 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-08-29 10:53:09,915 INFO  ProjectFixService - Project was maybe fixed
+2019-08-29 10:53:09,915 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-29 10:53:09,915 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-29 10:53:21,198 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-08-29 10:53:21,198 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-29 10:53:21,198 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-29 10:53:41,014 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :power-preference:preBuild UP-TO-DATE
+> Task :power-preference:preDebugBuild UP-TO-DATE
+> Task :power-preference:compileDebugAidl NO-SOURCE
+> Task :power-preference:compileDebugRenderscript NO-SOURCE
+> Task :power-preference:checkDebugManifest
+> Task :power-preference:generateDebugBuildConfig
+> Task :power-preference:generateDebugResValues
+> Task :power-preference:generateDebugResources
+> Task :power-preference:packageDebugResources
+> Task :power-preference:processDebugManifest
+> Task :power-preference:generateDebugRFile
+> Task :power-preference:prepareLintJar
+> Task :power-preference:generateDebugSources
+> Task :power-preference:javaPreCompileDebug
+
+> Task :power-preference:compileDebugJavaWithJavac
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/Preference.java:325: warning: [TypeParameterUnusedInFormals] Declaring a type parameter that is only used in the return type is a misuse of generics: operations on the type parameter are unchecked, it hides unsafe casts at invocations of the method, and it interacts badly with method overload resolution.
+    <T extends AbstractMap> T getMap(String key, MapStructure structure);
+                              ^
+    (see https://errorprone.info/bugpattern/TypeParameterUnusedInFormals)
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/PreferenceCreator.java:632: warning: [TypeParameterUnusedInFormals] Declaring a type parameter that is only used in the return type is a misuse of generics: operations on the type parameter are unchecked, it hides unsafe casts at invocations of the method, and it interacts badly with method overload resolution.
+    public @Nullable <T extends AbstractMap> T getMap(String key, MapStructure structure) {
+                                               ^
+    (see https://errorprone.info/bugpattern/TypeParameterUnusedInFormals)
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/PreferenceCreator.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/PreferenceCreator.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
-:power-preference-lib:extractDebugAnnotations
-:power-preference-lib:mergeDebugConsumerProguardFiles
-:power-preference-lib:mergeDebugShaders
-:power-preference-lib:compileDebugShaders
-:power-preference-lib:generateDebugAssets
-:power-preference-lib:packageDebugAssets
-:power-preference-lib:packageDebugRenderscript NO-SOURCE
-:power-preference-lib:processDebugJavaRes NO-SOURCE
-:power-preference-lib:transformResourcesWithMergeJavaResForDebug
-:power-preference-lib:transformClassesAndResourcesWithSyncLibJarsForDebug
-:power-preference-lib:compileDebugNdk NO-SOURCE
-:power-preference-lib:mergeDebugJniLibFolders
-:power-preference-lib:transformNativeLibsWithMergeJniLibsForDebug
-:power-preference-lib:transformNativeLibsWithStripDebugSymbolForDebug
-:power-preference-lib:transformNativeLibsWithSyncJniLibsForDebug
-:power-preference-lib:bundleDebugAar
-:power-preference-lib:compileDebugSources
-:power-preference-lib:assembleDebug
-:power-preference-lib:preReleaseBuild UP-TO-DATE
-:power-preference-lib:compileReleaseAidl NO-SOURCE
-:power-preference-lib:compileReleaseRenderscript
-:power-preference-lib:checkReleaseManifest
-:power-preference-lib:generateReleaseBuildConfig
-:power-preference-lib:generateReleaseResValues
-:power-preference-lib:generateReleaseResources
-:power-preference-lib:packageReleaseResources
-:power-preference-lib:processReleaseManifest
-:power-preference-lib:generateReleaseRFile
-:power-preference-lib:generateReleaseSources
-:power-preference-lib:javaPreCompileRelease
-:power-preference-lib:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/power-preference-lib/src/main/java/com/preference/PreferenceCreator.java uses unchecked or unsafe operations.
+2 warnings
+
+> Task :power-preference:extractDebugAnnotations
+> Task :power-preference:mergeDebugConsumerProguardFiles
+> Task :power-preference:mergeDebugShaders
+> Task :power-preference:compileDebugShaders
+> Task :power-preference:generateDebugAssets
+> Task :power-preference:packageDebugAssets
+> Task :power-preference:packageDebugRenderscript NO-SOURCE
+> Task :power-preference:prepareLintJarForPublish
+> Task :power-preference:processDebugJavaRes NO-SOURCE
+> Task :power-preference:transformResourcesWithMergeJavaResForDebug
+> Task :power-preference:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :power-preference:mergeDebugJniLibFolders
+> Task :power-preference:transformNativeLibsWithMergeJniLibsForDebug
+> Task :power-preference:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :power-preference:transformNativeLibsWithSyncJniLibsForDebug
+> Task :power-preference:bundleDebugAar
+> Task :power-preference:compileDebugSources
+> Task :power-preference:assembleDebug
+> Task :power-preference:preReleaseBuild UP-TO-DATE
+> Task :power-preference:compileReleaseAidl NO-SOURCE
+> Task :power-preference:compileReleaseRenderscript NO-SOURCE
+> Task :power-preference:checkReleaseManifest
+> Task :power-preference:generateReleaseBuildConfig
+> Task :power-preference:generateReleaseResValues
+> Task :power-preference:generateReleaseResources
+> Task :power-preference:packageReleaseResources
+> Task :power-preference:processReleaseManifest
+> Task :power-preference:generateReleaseRFile
+> Task :power-preference:generateReleaseSources
+> Task :power-preference:javaPreCompileRelease
+
+> Task :power-preference:compileReleaseJavaWithJavac
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/Preference.java:325: warning: [TypeParameterUnusedInFormals] Declaring a type parameter that is only used in the return type is a misuse of generics: operations on the type parameter are unchecked, it hides unsafe casts at invocations of the method, and it interacts badly with method overload resolution.
+    <T extends AbstractMap> T getMap(String key, MapStructure structure);
+                              ^
+    (see https://errorprone.info/bugpattern/TypeParameterUnusedInFormals)
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/PreferenceCreator.java:632: warning: [TypeParameterUnusedInFormals] Declaring a type parameter that is only used in the return type is a misuse of generics: operations on the type parameter are unchecked, it hides unsafe casts at invocations of the method, and it interacts badly with method overload resolution.
+    public @Nullable <T extends AbstractMap> T getMap(String key, MapStructure structure) {
+                                               ^
+    (see https://errorprone.info/bugpattern/TypeParameterUnusedInFormals)
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/PreferenceCreator.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/PreferenceCreator.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
+2 warnings
 
-:power-preference-lib:extractReleaseAnnotations
-:power-preference-lib:mergeReleaseConsumerProguardFiles
-:power-preference-lib:mergeReleaseShaders
-:power-preference-lib:compileReleaseShaders
-:power-preference-lib:generateReleaseAssets
-:power-preference-lib:packageReleaseAssets
-:power-preference-lib:packageReleaseRenderscript NO-SOURCE
-:power-preference-lib:processReleaseJavaRes NO-SOURCE
-:power-preference-lib:transformResourcesWithMergeJavaResForRelease
-:power-preference-lib:transformClassesAndResourcesWithSyncLibJarsForRelease
-:power-preference-lib:compileReleaseNdk NO-SOURCE
-:power-preference-lib:mergeReleaseJniLibFolders
-:power-preference-lib:transformNativeLibsWithMergeJniLibsForRelease
-:power-preference-lib:transformNativeLibsWithStripDebugSymbolForRelease
-:power-preference-lib:transformNativeLibsWithSyncJniLibsForRelease
-:power-preference-lib:bundleReleaseAar
-:power-preference-lib:compileReleaseSources
-:power-preference-lib:mergeReleaseResources
-:power-preference-lib:verifyReleaseResources
-:power-preference-lib:assembleRelease
-:power-preference-lib:assemble
-:power-preference-lib:build
+> Task :power-preference:extractReleaseAnnotations
+> Task :power-preference:mergeReleaseConsumerProguardFiles
+> Task :power-preference:mergeReleaseShaders
+> Task :power-preference:compileReleaseShaders
+> Task :power-preference:generateReleaseAssets
+> Task :power-preference:packageReleaseAssets
+> Task :power-preference:packageReleaseRenderscript NO-SOURCE
+> Task :power-preference:processReleaseJavaRes NO-SOURCE
+> Task :power-preference:transformResourcesWithMergeJavaResForRelease
+> Task :power-preference:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :power-preference:mergeReleaseJniLibFolders
+> Task :power-preference:transformNativeLibsWithMergeJniLibsForRelease
+> Task :power-preference:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :power-preference:transformNativeLibsWithSyncJniLibsForRelease
+> Task :power-preference:bundleReleaseAar
+> Task :power-preference:compileReleaseSources
+> Task :power-preference:mergeReleaseResources
+> Task :power-preference:verifyReleaseResources
+> Task :power-preference:assembleRelease
+> Task :power-preference:assemble
+> Task :power-preference:build
 
-BUILD SUCCESSFUL in 20s
-45 actionable tasks: 45 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-06-16 15:58:44,240 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-16 15:58:44,240 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-16 15:58:51,433 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-06-16 15:58:51,433 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-06-16 15:58:51,433 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-06-16 15:59:21,818 INFO  SysUtils - Configuration on demand is an incubating feature.
-:power-preference-lib:preBuild UP-TO-DATE
-:power-preference-lib:preDebugBuild UP-TO-DATE
-:power-preference-lib:compileDebugAidl NO-SOURCE
-:power-preference-lib:compileDebugRenderscript UP-TO-DATE
-:power-preference-lib:checkDebugManifest UP-TO-DATE
-:power-preference-lib:generateDebugBuildConfig UP-TO-DATE
-:power-preference-lib:generateDebugResValues UP-TO-DATE
-:power-preference-lib:generateDebugResources UP-TO-DATE
-:power-preference-lib:packageDebugResources UP-TO-DATE
-:power-preference-lib:processDebugManifest UP-TO-DATE
-:power-preference-lib:generateDebugRFile UP-TO-DATE
-:power-preference-lib:prepareLintJar UP-TO-DATE
-:power-preference-lib:generateDebugSources UP-TO-DATE
-:power-preference-lib:javaPreCompileDebug UP-TO-DATE
-:power-preference-lib:compileDebugJavaWithJavac UP-TO-DATE
-:power-preference-lib:processDebugJavaRes NO-SOURCE
-:power-preference-lib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:sample-app:checkDebugClasspath
-:sample-app:preBuild UP-TO-DATE
-:sample-app:preDebugBuild
-:sample-app:compileDebugAidl NO-SOURCE
-:power-preference-lib:packageDebugRenderscript NO-SOURCE
-:sample-app:compileDebugRenderscript
-:sample-app:checkDebugManifest
-:sample-app:generateDebugBuildConfig
-:sample-app:prepareLintJar
-:sample-app:mainApkListPersistenceDebug
-:sample-app:generateDebugResValues
-:sample-app:generateDebugResources
-:sample-app:mergeDebugResources
-:sample-app:createDebugCompatibleScreenManifests
-:sample-app:processDebugManifest
-:sample-app:splitsDiscoveryTaskDebug
-:sample-app:processDebugResources
-:sample-app:generateDebugSources
-:sample-app:javaPreCompileDebug
-:sample-app:compileDebugJavaWithJavac
-:sample-app:compileDebugNdk NO-SOURCE
-:sample-app:compileDebugSources
-:power-preference-lib:mergeDebugShaders UP-TO-DATE
-:power-preference-lib:compileDebugShaders UP-TO-DATE
-:power-preference-lib:generateDebugAssets UP-TO-DATE
-:power-preference-lib:packageDebugAssets UP-TO-DATE
-:sample-app:mergeDebugShaders
-:sample-app:compileDebugShaders
-:sample-app:generateDebugAssets
-:sample-app:mergeDebugAssets
-:sample-app:transformClassesWithDexBuilderForDebug
-:sample-app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:sample-app:transformDexArchiveWithDexMergerForDebug
-:power-preference-lib:compileDebugNdk NO-SOURCE
-:power-preference-lib:mergeDebugJniLibFolders UP-TO-DATE
-:power-preference-lib:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:power-preference-lib:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:power-preference-lib:transformNativeLibsWithIntermediateJniLibsForDebug
-:sample-app:mergeDebugJniLibFolders
-:sample-app:transformNativeLibsWithMergeJniLibsForDebug
-:sample-app:transformNativeLibsWithStripDebugSymbolForDebug
-:sample-app:checkDebugLibraries
-:sample-app:processDebugJavaRes NO-SOURCE
-:sample-app:transformResourcesWithMergeJavaResForDebug
-:sample-app:validateSigningDebug
-:sample-app:packageDebug
-:sample-app:assembleDebug
-:power-preference-lib:preReleaseBuild UP-TO-DATE
-:power-preference-lib:compileReleaseAidl NO-SOURCE
-:power-preference-lib:compileReleaseRenderscript UP-TO-DATE
-:power-preference-lib:checkReleaseManifest UP-TO-DATE
-:power-preference-lib:generateReleaseBuildConfig UP-TO-DATE
-:power-preference-lib:generateReleaseResValues UP-TO-DATE
-:power-preference-lib:generateReleaseResources UP-TO-DATE
-:power-preference-lib:packageReleaseResources UP-TO-DATE
-:power-preference-lib:processReleaseManifest UP-TO-DATE
-:power-preference-lib:generateReleaseRFile UP-TO-DATE
-:power-preference-lib:generateReleaseSources UP-TO-DATE
-:power-preference-lib:javaPreCompileRelease UP-TO-DATE
-:power-preference-lib:compileReleaseJavaWithJavac UP-TO-DATE
-:power-preference-lib:processReleaseJavaRes NO-SOURCE
-:power-preference-lib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:sample-app:checkReleaseClasspath
-:sample-app:preReleaseBuild
-:sample-app:compileReleaseAidl NO-SOURCE
-:power-preference-lib:packageReleaseRenderscript NO-SOURCE
-:sample-app:compileReleaseRenderscript
-:sample-app:checkReleaseManifest
-:sample-app:generateReleaseBuildConfig
-:sample-app:mainApkListPersistenceRelease
-:sample-app:generateReleaseResValues
-:sample-app:generateReleaseResources
-:sample-app:mergeReleaseResources
-:sample-app:createReleaseCompatibleScreenManifests
-:sample-app:processReleaseManifest
-:sample-app:splitsDiscoveryTaskRelease
-:sample-app:processReleaseResources
-:sample-app:generateReleaseSources
-:sample-app:javaPreCompileRelease
-:sample-app:compileReleaseJavaWithJavac
-:sample-app:compileReleaseNdk NO-SOURCE
-:sample-app:compileReleaseSources
-:sample-app:lintVitalRelease
-Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-android/1.6.5/byte-buddy-android-1.6.5.jar
-Download https://jcenter.bintray.com/org/mockito/mockito-android/2.7.22/mockito-android-2.7.22.jar
-:power-preference-lib:mergeReleaseShaders UP-TO-DATE
-:power-preference-lib:compileReleaseShaders UP-TO-DATE
-:power-preference-lib:generateReleaseAssets UP-TO-DATE
-:power-preference-lib:packageReleaseAssets UP-TO-DATE
-:sample-app:mergeReleaseShaders
-:sample-app:compileReleaseShaders
-:sample-app:generateReleaseAssets
-:sample-app:mergeReleaseAssets
-:sample-app:transformClassesWithDexBuilderForRelease
-:sample-app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:sample-app:transformDexArchiveWithDexMergerForRelease
-:power-preference-lib:compileReleaseNdk NO-SOURCE
-:power-preference-lib:mergeReleaseJniLibFolders UP-TO-DATE
-:power-preference-lib:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:power-preference-lib:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:power-preference-lib:transformNativeLibsWithIntermediateJniLibsForRelease
-:sample-app:mergeReleaseJniLibFolders
-:sample-app:transformNativeLibsWithMergeJniLibsForRelease
-:sample-app:transformNativeLibsWithStripDebugSymbolForRelease
-:sample-app:checkReleaseLibraries
-:sample-app:processReleaseJavaRes NO-SOURCE
-:sample-app:transformResourcesWithMergeJavaResForRelease
-:sample-app:packageRelease
-:sample-app:assembleRelease
-:sample-app:assemble
-:sample-app:build
+BUILD SUCCESSFUL in 19s
+44 actionable tasks: 44 executed
 
-BUILD SUCCESSFUL in 29s
-90 actionable tasks: 59 executed, 31 up-to-date
+2019-08-29 10:53:41,048 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-29 10:53:41,048 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-29 10:53:47,216 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-29 10:53:47,217 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-29 10:53:47,217 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-29 10:54:14,447 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-29 10:54:14,448 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :power-preference:preBuild UP-TO-DATE
+> Task :power-preference:preDebugBuild UP-TO-DATE
+> Task :power-preference:compileDebugAidl NO-SOURCE
+> Task :power-preference:compileDebugRenderscript NO-SOURCE
+> Task :power-preference:checkDebugManifest UP-TO-DATE
+> Task :power-preference:generateDebugBuildConfig UP-TO-DATE
+> Task :power-preference:generateDebugResValues UP-TO-DATE
+> Task :power-preference:generateDebugResources UP-TO-DATE
+> Task :power-preference:packageDebugResources UP-TO-DATE
+> Task :power-preference:processDebugManifest UP-TO-DATE
+> Task :power-preference:generateDebugRFile UP-TO-DATE
+> Task :power-preference:prepareLintJar UP-TO-DATE
+> Task :power-preference:generateDebugSources UP-TO-DATE
+> Task :power-preference:javaPreCompileDebug UP-TO-DATE
+> Task :power-preference:compileDebugJavaWithJavac UP-TO-DATE
+> Task :power-preference:bundleLibCompileDebug
+> Task :sample-app:preBuild UP-TO-DATE
+> Task :sample-app:preDebugBuild
+> Task :sample-app:compileDebugAidl NO-SOURCE
+> Task :power-preference:packageDebugRenderscript NO-SOURCE
+> Task :sample-app:compileDebugRenderscript NO-SOURCE
+> Task :sample-app:checkDebugManifest
+> Task :sample-app:generateDebugBuildConfig
+> Task :sample-app:prepareLintJar
+> Task :sample-app:generateDebugSources
+> Task :sample-app:javaPreCompileDebug
+> Task :sample-app:mainApkListPersistenceDebug
+> Task :sample-app:generateDebugResValues
+> Task :sample-app:generateDebugResources
+> Task :sample-app:mergeDebugResources
+> Task :sample-app:createDebugCompatibleScreenManifests
+> Task :sample-app:processDebugManifest
+> Task :sample-app:processDebugResources
+> Task :sample-app:compileDebugJavaWithJavac
+> Task :sample-app:compileDebugSources
+> Task :power-preference:mergeDebugShaders UP-TO-DATE
+> Task :power-preference:compileDebugShaders UP-TO-DATE
+> Task :power-preference:generateDebugAssets UP-TO-DATE
+> Task :power-preference:packageDebugAssets UP-TO-DATE
+> Task :sample-app:mergeDebugShaders
+> Task :sample-app:compileDebugShaders
+> Task :sample-app:generateDebugAssets
+> Task :sample-app:mergeDebugAssets
+> Task :power-preference:processDebugJavaRes NO-SOURCE
+> Task :power-preference:bundleLibResDebug
+> Task :power-preference:bundleLibRuntimeDebug
+> Task :power-preference:createFullJarDebug
+> Task :sample-app:checkDebugDuplicateClasses
+> Task :sample-app:mergeExtDexDebug
+> Task :sample-app:transformClassesWithDexBuilderForDebug
+> Task :sample-app:mergeDexDebug
+> Task :sample-app:validateSigningDebug
+> Task :sample-app:signingConfigWriterDebug
+> Task :power-preference:mergeDebugJniLibFolders UP-TO-DATE
+> Task :power-preference:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :power-preference:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :power-preference:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample-app:mergeDebugJniLibFolders
+> Task :sample-app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample-app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample-app:processDebugJavaRes NO-SOURCE
+> Task :sample-app:transformResourcesWithMergeJavaResForDebug
+> Task :sample-app:packageDebug
+> Task :sample-app:assembleDebug
+> Task :power-preference:preReleaseBuild UP-TO-DATE
+> Task :power-preference:compileReleaseAidl NO-SOURCE
+> Task :power-preference:compileReleaseRenderscript NO-SOURCE
+> Task :power-preference:checkReleaseManifest UP-TO-DATE
+> Task :power-preference:generateReleaseBuildConfig UP-TO-DATE
+> Task :power-preference:generateReleaseResValues UP-TO-DATE
+> Task :power-preference:generateReleaseResources UP-TO-DATE
+> Task :power-preference:packageReleaseResources UP-TO-DATE
+> Task :power-preference:processReleaseManifest UP-TO-DATE
+> Task :power-preference:generateReleaseRFile UP-TO-DATE
+> Task :power-preference:generateReleaseSources UP-TO-DATE
+> Task :power-preference:javaPreCompileRelease UP-TO-DATE
+> Task :power-preference:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :power-preference:bundleLibCompileRelease
+> Task :sample-app:preReleaseBuild
+> Task :sample-app:compileReleaseAidl NO-SOURCE
+> Task :power-preference:packageReleaseRenderscript NO-SOURCE
+> Task :sample-app:compileReleaseRenderscript NO-SOURCE
+> Task :sample-app:checkReleaseManifest
+> Task :sample-app:generateReleaseBuildConfig
+> Task :sample-app:generateReleaseSources
+> Task :sample-app:javaPreCompileRelease
+> Task :sample-app:mainApkListPersistenceRelease
+> Task :sample-app:generateReleaseResValues
+> Task :sample-app:generateReleaseResources
+> Task :sample-app:mergeReleaseResources
+> Task :sample-app:createReleaseCompatibleScreenManifests
+> Task :sample-app:processReleaseManifest
+> Task :sample-app:processReleaseResources
+> Task :sample-app:compileReleaseJavaWithJavac
+> Task :sample-app:compileReleaseSources
+> Task :power-preference:prepareLintJarForPublish UP-TO-DATE
+> Task :sample-app:lintVitalRelease FAILED
 
-2019-06-16 15:59:21,907 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675491496-0/src/PowerPreference-master/sample-app/build/outputs/apk/release/sample-app-release-unsigned.apk
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':sample-app:lintVitalRelease'.
+> Could not resolve all artifacts for configuration ':sample-app:debugAndroidTestRuntimeClasspath'.
+   > Could not resolve com.android.support:support-annotations:{strictly 25.0.0}.
+     Required by:
+         project :sample-app
+      > Cannot find a version of 'com.android.support:support-annotations' that satisfies the version constraints: 
+           Dependency path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+           Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+           Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+           Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+           Dependency path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support.test:monitor:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+           Dependency path 'PowerPreference-master:sample-app:unspecified' --> 'PowerPreference-master:power-preference:unspecified' --> 'com.android.support:recyclerview-v7:25.0.0' --> 'com.android.support:support-annotations:25.0.0'
+           Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+           Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+           Dependency path 'PowerPreference-master:sample-app:unspecified' --> 'PowerPreference-master:power-preference:unspecified' --> 'com.android.support:recyclerview-v7:25.0.0' --> 'com.android.support:support-compat:25.0.0' --> 'com.android.support:support-annotations:25.0.0'
+           Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+
+   > Could not resolve com.android.support:support-annotations:27.1.1.
+     Required by:
+         project :sample-app > com.android.support.test:runner:1.0.2
+         project :sample-app > com.android.support.test:runner:1.0.2 > com.android.support.test:monitor:1.0.2
+      > Cannot find a version of 'com.android.support:support-annotations' that satisfies the version constraints: 
+           Dependency path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+           Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+           Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+           Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+           Dependency path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support.test:monitor:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+           Dependency path 'PowerPreference-master:sample-app:unspecified' --> 'PowerPreference-master:power-preference:unspecified' --> 'com.android.support:recyclerview-v7:25.0.0' --> 'com.android.support:support-annotations:25.0.0'
+           Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+           Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+           Dependency path 'PowerPreference-master:sample-app:unspecified' --> 'PowerPreference-master:power-preference:unspecified' --> 'com.android.support:recyclerview-v7:25.0.0' --> 'com.android.support:support-compat:25.0.0' --> 'com.android.support:support-annotations:25.0.0'
+           Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+
+   > Could not resolve com.android.support:support-annotations:25.0.0.
+     Required by:
+         project :sample-app > com.android.support:recyclerview-v7:25.0.0
+         project :sample-app > com.android.support:support-compat:25.0.0
+      > Cannot find a version of 'com.android.support:support-annotations' that satisfies the version constraints: 
+           Dependency path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+           Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+           Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+           Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+           Dependency path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support.test:monitor:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+           Dependency path 'PowerPreference-master:sample-app:unspecified' --> 'PowerPreference-master:power-preference:unspecified' --> 'com.android.support:recyclerview-v7:25.0.0' --> 'com.android.support:support-annotations:25.0.0'
+           Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+           Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+           Dependency path 'PowerPreference-master:sample-app:unspecified' --> 'PowerPreference-master:power-preference:unspecified' --> 'com.android.support:recyclerview-v7:25.0.0' --> 'com.android.support:support-compat:25.0.0' --> 'com.android.support:support-annotations:25.0.0'
+           Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sample-app:lintVitalRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:119)
+	at org.gradle.api.internal.tasks.execution.ResolvePreviousStateExecuter.execute(ResolvePreviousStateExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:93)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:45)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:94)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:67)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all artifacts for configuration ':sample-app:debugAndroidTestRuntimeClasspath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:1175)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$2100(DefaultConfiguration.java:135)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationArtifactCollection.ensureResolved(DefaultConfiguration.java:1630)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationArtifactCollection.getArtifacts(DefaultConfiguration.java:1602)
+	at com.android.build.gradle.internal.dependency.SubtractingArtifactCollection.getArtifacts(SubtractingArtifactCollection.java:74)
+	at com.android.build.gradle.internal.ide.dependencies.ArtifactDependencyGraph.createDependencies(ArtifactDependencyGraph.java:227)
+	at com.android.build.gradle.internal.ide.ModelBuilder.getDependencies(ModelBuilder.java:790)
+	at com.android.build.gradle.internal.ide.ModelBuilder.createAndroidArtifact(ModelBuilder.java:849)
+	at com.android.build.gradle.internal.ide.ModelBuilder.createVariant(ModelBuilder.java:592)
+	at com.android.build.gradle.internal.ide.ModelBuilder.buildAndroidProject(ModelBuilder.java:385)
+	at com.android.build.gradle.internal.ide.ModelBuilder.buildAll(ModelBuilder.java:198)
+	at com.android.build.gradle.internal.AppModelBuilder.buildAll(AppModelBuilder.kt:64)
+	at org.gradle.tooling.provider.model.internal.DefaultToolingModelBuilderRegistry$BuildOperationWrappingToolingModelBuilder$1$1.create(DefaultToolingModelBuilderRegistry.java:102)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:132)
+	at org.gradle.tooling.provider.model.internal.DefaultToolingModelBuilderRegistry$BuildOperationWrappingToolingModelBuilder$1.call(DefaultToolingModelBuilderRegistry.java:98)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.tooling.provider.model.internal.DefaultToolingModelBuilderRegistry$BuildOperationWrappingToolingModelBuilder.buildAll(DefaultToolingModelBuilderRegistry.java:95)
+	at com.android.tools.lint.gradle.LintGradleExecution.createAndroidProject(LintGradleExecution.java:365)
+	at com.android.tools.lint.gradle.LintGradleExecution.analyze(LintGradleExecution.java:85)
+	at com.android.tools.lint.gradle.api.ReflectiveLintRunner.runLint(ReflectiveLintRunner.kt:38)
+	at com.android.build.gradle.tasks.LintBaseTask.runLint(LintBaseTask.java:95)
+	at com.android.build.gradle.tasks.LintPerVariantTask.lint(LintPerVariantTask.java:57)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:48)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:704)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:671)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$2.run(ExecuteActionsTaskExecuter.java:284)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:273)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:258)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:67)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:145)
+	at org.gradle.internal.execution.impl.steps.ExecuteStep.execute(ExecuteStep.java:49)
+	at org.gradle.internal.execution.impl.steps.CancelExecutionStep.execute(CancelExecutionStep.java:34)
+	at org.gradle.internal.execution.impl.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:69)
+	at org.gradle.internal.execution.impl.steps.TimeoutStep.execute(TimeoutStep.java:49)
+	at org.gradle.internal.execution.impl.steps.CatchExceptionStep.execute(CatchExceptionStep.java:33)
+	at org.gradle.internal.execution.impl.steps.CreateOutputsStep.execute(CreateOutputsStep.java:50)
+	at org.gradle.internal.execution.impl.steps.SnapshotOutputStep.execute(SnapshotOutputStep.java:43)
+	at org.gradle.internal.execution.impl.steps.SnapshotOutputStep.execute(SnapshotOutputStep.java:29)
+	at org.gradle.internal.execution.impl.steps.CacheStep.executeWithoutCache(CacheStep.java:134)
+	at org.gradle.internal.execution.impl.steps.CacheStep.lambda$execute$3(CacheStep.java:83)
+	at org.gradle.internal.execution.impl.steps.CacheStep.execute(CacheStep.java:82)
+	at org.gradle.internal.execution.impl.steps.CacheStep.execute(CacheStep.java:36)
+	at org.gradle.internal.execution.impl.steps.PrepareCachingStep.execute(PrepareCachingStep.java:33)
+	at org.gradle.internal.execution.impl.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:38)
+	at org.gradle.internal.execution.impl.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:23)
+	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
+	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:89)
+	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:52)
+	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:36)
+	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:34)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:91)
+	... 32 more
+Caused by: org.gradle.internal.resolve.ModuleVersionResolveException: Could not resolve com.android.support:support-annotations:{strictly 25.0.0}.
+Required by:
+    project :sample-app
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.EdgeState.failWith(EdgeState.java:155)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.attachFailureToEdges(DependencyGraphBuilder.java:382)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.validateGraph(DependencyGraphBuilder.java:326)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.resolve(DependencyGraphBuilder.java:133)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver.resolve(DefaultArtifactDependencyResolver.java:121)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolveGraph(DefaultConfigurationResolver.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ShortCircuitEmptyConfigurationResolver.resolveGraph(ShortCircuitEmptyConfigurationResolver.java:86)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver.resolveGraph(ErrorHandlingConfigurationResolver.java:73)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$7.run(DefaultConfiguration.java:580)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphIfRequired(DefaultConfiguration.java:571)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$600(DefaultConfiguration.java:135)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$6.run(DefaultConfiguration.java:551)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$SafeExclusiveLockImpl.withLock(DefaultProjectStateRegistry.java:244)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveExclusively(DefaultConfiguration.java:547)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveToStateOrLater(DefaultConfiguration.java:542)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$2200(DefaultConfiguration.java:135)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getSelectedArtifacts(DefaultConfiguration.java:1158)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.access$3600(DefaultConfiguration.java:1093)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationArtifactCollection.ensureResolved(DefaultConfiguration.java:1624)
+	... 92 more
+Caused by: org.gradle.api.GradleException: Cannot find a version of 'com.android.support:support-annotations' that satisfies the version constraints: 
+   Dependency path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+   Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+   Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+   Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+   Dependency path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support.test:monitor:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
+   Dependency path 'PowerPreference-master:sample-app:unspecified' --> 'PowerPreference-master:power-preference:unspecified' --> 'com.android.support:recyclerview-v7:25.0.0' --> 'com.android.support:support-annotations:25.0.0'
+   Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+   Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+   Dependency path 'PowerPreference-master:sample-app:unspecified' --> 'PowerPreference-master:power-preference:unspecified' --> 'com.android.support:recyclerview-v7:25.0.0' --> 'com.android.support:support-compat:25.0.0' --> 'com.android.support:support-annotations:25.0.0'
+   Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
+
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.validateGraph(DependencyGraphBuilder.java:325)
+	... 113 more
+
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 26s
+68 actionable tasks: 44 executed, 24 up-to-date
+
+2019-08-29 10:54:14,666 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/sample-app/build/outputs/apk/debug/sample-app-debug.apk
