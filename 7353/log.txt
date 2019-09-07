@@ -1,36 +1,36 @@
-2019-08-29 10:53:07,843 INFO  DownloadService - Downloading "https://github.com/AliAsadi/PowerPreference/archive/master.zip", attempt 3
-2019-08-29 10:53:09,811 INFO  DownloadService - Downloaded https://github.com/AliAsadi/PowerPreference/archive/master.zip, attempt 3
-2019-08-29 10:53:09,812 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/master.zip": 246 KB
-2019-08-29 10:53:09,812 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-29 10:53:09,812 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/master.zip: true
-2019-08-29 10:53:09,812 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src'.
-2019-08-29 10:53:09,849 INFO  FullProcessService - Size of directory with sources: 341 KB
-2019-08-29 10:53:09,849 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src]
-2019-08-29 10:53:09,882 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/.git/
+2019-09-07 14:44:03,422 INFO  DownloadService - Downloading "https://github.com/AliAsadi/PowerPreference/archive/master.zip", attempt 3
+2019-09-07 14:44:05,529 INFO  DownloadService - Downloaded https://github.com/AliAsadi/PowerPreference/archive/master.zip, attempt 3
+2019-09-07 14:44:05,529 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/master.zip": 246 KB
+2019-09-07 14:44:05,529 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-07 14:44:05,534 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/master.zip: true
+2019-09-07 14:44:05,535 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src'.
+2019-09-07 14:44:05,558 INFO  FullProcessService - Size of directory with sources: 341 KB
+2019-09-07 14:44:05,558 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src]
+2019-09-07 14:44:05,586 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/.git/
 
-2019-08-29 10:53:09,886 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/gradlew
-2019-08-29 10:53:09,891 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/build.gradle
-2019-08-29 10:53:09,895 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/settings.gradle
-2019-08-29 10:53:09,895 INFO  ProjectBuildService - Remote scripts: none
-2019-08-29 10:53:09,895 INFO  ProjectFixService - Fixing project...
-2019-08-29 10:53:09,906 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/local.properties
-2019-08-29 10:53:09,908 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
-2019-08-29 10:53:09,908 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
-2019-08-29 10:53:09,909 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/sample-app/local.properties
-2019-08-29 10:53:09,911 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
-2019-08-29 10:53:09,911 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
-2019-08-29 10:53:09,912 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/local.properties
-2019-08-29 10:53:09,912 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-29 10:53:09,913 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-29 10:53:09,914 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
-2019-08-29 10:53:09,914 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
-2019-08-29 10:53:09,915 INFO  ProjectFixService - Project was maybe fixed
-2019-08-29 10:53:09,915 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 10:53:09,915 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 10:53:21,198 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-08-29 10:53:21,198 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-08-29 10:53:21,198 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-08-29 10:53:41,014 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-07 14:44:05,589 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/gradlew
+2019-09-07 14:44:05,592 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/power-preference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/build.gradle
+2019-09-07 14:44:05,595 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/power-preference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/settings.gradle
+2019-09-07 14:44:05,595 INFO  ProjectBuildService - Remote scripts: none
+2019-09-07 14:44:05,595 INFO  ProjectFixService - Fixing project...
+2019-09-07 14:44:05,602 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/power-preference/local.properties
+2019-09-07 14:44:05,603 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/power-preference/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-09-07 14:44:05,603 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/power-preference/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-09-07 14:44:05,604 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/sample-app/local.properties
+2019-09-07 14:44:05,604 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-09-07 14:44:05,604 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-09-07 14:44:05,605 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/local.properties
+2019-09-07 14:44:05,605 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-09-07 14:44:05,606 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-09-07 14:44:05,607 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-09-07 14:44:05,607 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=20,targetSdkVersion=28]
+2019-09-07 14:44:05,607 INFO  ProjectFixService - Project was maybe fixed
+2019-09-07 14:44:05,607 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-07 14:44:05,608 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/power-preference/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-07 14:44:12,047 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-09-07 14:44:12,048 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-09-07 14:44:12,048 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/power-preference/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-09-07 14:44:27,609 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :power-preference:preBuild UP-TO-DATE
 > Task :power-preference:preDebugBuild UP-TO-DATE
 > Task :power-preference:compileDebugAidl NO-SOURCE
@@ -47,17 +47,17 @@
 > Task :power-preference:javaPreCompileDebug
 
 > Task :power-preference:compileDebugJavaWithJavac
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/Preference.java:325: warning: [TypeParameterUnusedInFormals] Declaring a type parameter that is only used in the return type is a misuse of generics: operations on the type parameter are unchecked, it hides unsafe casts at invocations of the method, and it interacts badly with method overload resolution.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/Preference.java:325: warning: [TypeParameterUnusedInFormals] Declaring a type parameter that is only used in the return type is a misuse of generics: operations on the type parameter are unchecked, it hides unsafe casts at invocations of the method, and it interacts badly with method overload resolution.
     <T extends AbstractMap> T getMap(String key, MapStructure structure);
                               ^
     (see https://errorprone.info/bugpattern/TypeParameterUnusedInFormals)
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/PreferenceCreator.java:632: warning: [TypeParameterUnusedInFormals] Declaring a type parameter that is only used in the return type is a misuse of generics: operations on the type parameter are unchecked, it hides unsafe casts at invocations of the method, and it interacts badly with method overload resolution.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/PreferenceCreator.java:632: warning: [TypeParameterUnusedInFormals] Declaring a type parameter that is only used in the return type is a misuse of generics: operations on the type parameter are unchecked, it hides unsafe casts at invocations of the method, and it interacts badly with method overload resolution.
     public @Nullable <T extends AbstractMap> T getMap(String key, MapStructure structure) {
                                                ^
     (see https://errorprone.info/bugpattern/TypeParameterUnusedInFormals)
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/PreferenceCreator.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/PreferenceCreator.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/PreferenceCreator.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/PreferenceCreator.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 2 warnings
 
@@ -93,17 +93,17 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :power-preference:javaPreCompileRelease
 
 > Task :power-preference:compileReleaseJavaWithJavac
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/Preference.java:325: warning: [TypeParameterUnusedInFormals] Declaring a type parameter that is only used in the return type is a misuse of generics: operations on the type parameter are unchecked, it hides unsafe casts at invocations of the method, and it interacts badly with method overload resolution.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/Preference.java:325: warning: [TypeParameterUnusedInFormals] Declaring a type parameter that is only used in the return type is a misuse of generics: operations on the type parameter are unchecked, it hides unsafe casts at invocations of the method, and it interacts badly with method overload resolution.
     <T extends AbstractMap> T getMap(String key, MapStructure structure);
                               ^
     (see https://errorprone.info/bugpattern/TypeParameterUnusedInFormals)
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/PreferenceCreator.java:632: warning: [TypeParameterUnusedInFormals] Declaring a type parameter that is only used in the return type is a misuse of generics: operations on the type parameter are unchecked, it hides unsafe casts at invocations of the method, and it interacts badly with method overload resolution.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/PreferenceCreator.java:632: warning: [TypeParameterUnusedInFormals] Declaring a type parameter that is only used in the return type is a misuse of generics: operations on the type parameter are unchecked, it hides unsafe casts at invocations of the method, and it interacts badly with method overload resolution.
     public @Nullable <T extends AbstractMap> T getMap(String key, MapStructure structure) {
                                                ^
     (see https://errorprone.info/bugpattern/TypeParameterUnusedInFormals)
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/PreferenceCreator.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/PreferenceCreator.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/PreferenceCreator.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/power-preference/src/main/java/com/preference/PreferenceCreator.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 2 warnings
 
@@ -133,15 +133,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 19s
+BUILD SUCCESSFUL in 15s
 44 actionable tasks: 44 executed
 
-2019-08-29 10:53:41,048 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 10:53:41,048 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 10:53:47,216 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-08-29 10:53:47,217 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-29 10:53:47,217 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-29 10:54:14,447 ERROR SysUtils - Could not process external command
+2019-09-07 14:44:27,643 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-07 14:44:27,644 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-07 14:44:33,718 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-07 14:44:33,718 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-07 14:44:33,718 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-07 14:44:57,411 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -169,7 +169,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-29 10:54:14,448 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-07 14:44:57,411 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :power-preference:preBuild UP-TO-DATE
 > Task :power-preference:preDebugBuild UP-TO-DATE
 > Task :power-preference:compileDebugAidl NO-SOURCE
@@ -356,9 +356,85 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sample-
 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at org.gradle.execution.plan.DefaultPlanExecutor.process(DefaultPlanExecutor.java:74)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.executeWithServices(DefaultTaskExecutionGraph.java:178)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.execute(DefaultTaskExecutionGraph.java:154)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:41)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:40)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:24)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:46)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:49)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:40)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$ExecuteTasks.run(DefaultGradleLauncher.java:383)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.runTasks(DefaultGradleLauncher.java:247)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:159)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:134)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:58)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:55)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:82)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:75)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:55)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:49)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:44)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:44)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:403)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:376)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:369)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:299)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all artifacts for configuration ':sample-app:debugAndroidTestRuntimeClasspath'.
 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:1175)
 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$2100(DefaultConfiguration.java:135)
@@ -423,7 +499,7 @@ Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfigurat
 	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:36)
 	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:34)
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:91)
-	... 32 more
+	... 108 more
 Caused by: org.gradle.internal.resolve.ModuleVersionResolveException: Could not resolve com.android.support:support-annotations:{strictly 25.0.0}.
 Required by:
     project :sample-app
@@ -451,7 +527,7 @@ Required by:
 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getSelectedArtifacts(DefaultConfiguration.java:1158)
 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.access$3600(DefaultConfiguration.java:1093)
 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationArtifactCollection.ensureResolved(DefaultConfiguration.java:1624)
-	... 92 more
+	... 168 more
 Caused by: org.gradle.api.GradleException: Cannot find a version of 'com.android.support:support-annotations' that satisfies the version constraints: 
    Dependency path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support.test:runner:1.0.2' --> 'com.android.support:support-annotations:27.1.1'
    Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
@@ -465,7 +541,7 @@ Caused by: org.gradle.api.GradleException: Cannot find a version of 'com.android
    Constraint path 'PowerPreference-master:sample-app:unspecified' --> 'com.android.support:support-annotations:{strictly 25.0.0}' because of the following reason: debugRuntimeClasspath uses version 25.0.0
 
 	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.validateGraph(DependencyGraphBuilder.java:325)
-	... 113 more
+	... 189 more
 
 
 * Get more help at https://help.gradle.org
@@ -474,7 +550,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 26s
+BUILD FAILED in 22s
 68 actionable tasks: 44 executed, 24 up-to-date
 
-2019-08-29 10:54:14,666 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050787835-0/src/PowerPreference-master/sample-app/build/outputs/apk/debug/sample-app-debug.apk
+2019-09-07 14:44:57,483 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842243417-0/src/PowerPreference-master/sample-app/build/outputs/apk/debug/sample-app-debug.apk
