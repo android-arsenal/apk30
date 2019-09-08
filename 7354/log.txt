@@ -1,41 +1,41 @@
-2019-08-29 14:01:00,245 INFO  DownloadService - Downloading "https://github.com/psinetron/slycalendarview/archive/master.zip", attempt 3
-2019-08-29 14:01:05,789 INFO  DownloadService - Downloading "https://github.com/psinetron/slycalendarview/archive/master.zip", attempt 2
-2019-08-29 14:01:11,804 INFO  DownloadService - Downloading "https://github.com/psinetron/slycalendarview/archive/master.zip", attempt 1
-2019-08-29 14:02:12,102 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-08-29 14:02:13,208 INFO  GithubDownloadService - Default branch of this repository: dev
-2019-08-29 14:02:13,209 INFO  DownloadService - Downloading "https://github.com/psinetron/slycalendarview/archive/dev.zip", attempt 3
-2019-08-29 14:03:15,092 DEBUG FullProcessService - Repository https://github.com/psinetron/slycalendarview available: true
-2019-08-29 14:03:15,092 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-08-29 14:03:15,092 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/psinetron/slycalendarview, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src]
-2019-08-29 14:03:17,089 INFO  SysUtils - 
-2019-08-29 14:03:17,100 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/.git": true
-2019-08-29 14:03:17,105 INFO  FullProcessService - Size of directory with sources: 152 KB
-2019-08-29 14:03:17,105 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src]
-2019-08-29 14:03:17,127 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/.git/
+2019-09-08 21:07:14,994 INFO  DownloadService - Downloading "https://github.com/psinetron/slycalendarview/archive/master.zip", attempt 3
+2019-09-08 21:07:21,736 INFO  DownloadService - Downloading "https://github.com/psinetron/slycalendarview/archive/master.zip", attempt 2
+2019-09-08 21:07:27,667 INFO  DownloadService - Downloading "https://github.com/psinetron/slycalendarview/archive/master.zip", attempt 1
+2019-09-08 21:08:27,929 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-09-08 21:08:28,927 INFO  GithubDownloadService - Default branch of this repository: dev
+2019-09-08 21:08:28,927 INFO  DownloadService - Downloading "https://github.com/psinetron/slycalendarview/archive/dev.zip", attempt 3
+2019-09-08 21:09:30,271 DEBUG FullProcessService - Repository https://github.com/psinetron/slycalendarview available: true
+2019-09-08 21:09:30,271 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-09-08 21:09:30,271 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/psinetron/slycalendarview, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src]
+2019-09-08 21:09:32,114 INFO  SysUtils - 
+2019-09-08 21:09:32,122 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/.git": true
+2019-09-08 21:09:32,125 INFO  FullProcessService - Size of directory with sources: 152 KB
+2019-09-08 21:09:32,126 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src]
+2019-09-08 21:09:32,142 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/.git/
 
-2019-08-29 14:03:17,130 INFO  ProjectBuildService - Gradle wrapper(s): none
-2019-08-29 14:03:17,130 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2019-08-29 14:03:17,135 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/slycalendarview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/build.gradle
-2019-08-29 14:03:17,138 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/slycalendarview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/settings.gradle
-2019-08-29 14:03:17,139 INFO  ProjectBuildService - Remote scripts: none
-2019-08-29 14:03:17,139 INFO  ProjectFixService - Fixing project...
-2019-08-29 14:03:17,145 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/sample/local.properties
-2019-08-29 14:03:17,146 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-08-29 14:03:17,146 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-08-29 14:03:17,147 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/slycalendarview/local.properties
-2019-08-29 14:03:17,148 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/slycalendarview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-08-29 14:03:17,148 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/slycalendarview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-08-29 14:03:17,149 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/local.properties
-2019-08-29 14:03:17,151 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-08-29 14:03:17,151 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-08-29 14:03:17,152 INFO  ProjectFixService - Project was maybe fixed
-2019-08-29 14:03:17,152 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 14:03:17,152 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 14:03:17,156 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-08-29 14:03:17,156 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-29 14:03:17,157 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-29 14:03:17,157 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-29 14:03:17,161 ERROR SysUtils - Could not process external command
+2019-09-08 21:09:32,145 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-09-08 21:09:32,145 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-09-08 21:09:32,148 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/slycalendarview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/build.gradle
+2019-09-08 21:09:32,150 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/slycalendarview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/settings.gradle
+2019-09-08 21:09:32,150 INFO  ProjectBuildService - Remote scripts: none
+2019-09-08 21:09:32,150 INFO  ProjectFixService - Fixing project...
+2019-09-08 21:09:32,156 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/sample/local.properties
+2019-09-08 21:09:32,157 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-09-08 21:09:32,157 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-09-08 21:09:32,158 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/slycalendarview/local.properties
+2019-09-08 21:09:32,159 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/slycalendarview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-09-08 21:09:32,159 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/slycalendarview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-09-08 21:09:32,160 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/local.properties
+2019-09-08 21:09:32,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-09-08 21:09:32,161 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-09-08 21:09:32,161 INFO  ProjectFixService - Project was maybe fixed
+2019-09-08 21:09:32,161 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-08 21:09:32,161 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-08 21:09:32,176 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-09-08 21:09:32,176 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-08 21:09:32,176 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-08 21:09:32,176 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-08 21:09:32,180 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -73,14 +73,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-08-29 14:03:17,162 INFO  SysUtils - 
-2019-08-29 14:03:17,165 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 14:03:17,165 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/slycalendarview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 14:03:17,171 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-08-29 14:03:17,171 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-29 14:03:17,171 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-29 14:03:17,171 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/slycalendarview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-29 14:03:17,176 ERROR SysUtils - Could not process external command
+2019-09-08 21:09:32,181 INFO  SysUtils - 
+2019-09-08 21:09:32,183 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-08 21:09:32,184 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/slycalendarview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-08 21:09:32,188 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-09-08 21:09:32,188 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-08 21:09:32,188 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-08 21:09:32,188 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/slycalendarview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-08 21:09:32,192 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -118,14 +118,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-08-29 14:03:17,177 INFO  SysUtils - 
-2019-08-29 14:03:17,180 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 14:03:17,180 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 14:03:17,186 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-08-29 14:03:17,186 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-29 14:03:17,186 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-29 14:03:17,186 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062060237-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-29 14:03:17,191 ERROR SysUtils - Could not process external command
+2019-09-08 21:09:32,193 INFO  SysUtils - 
+2019-09-08 21:09:32,195 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-08 21:09:32,196 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-08 21:09:32,200 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-09-08 21:09:32,200 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-08 21:09:32,200 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-08 21:09:32,200 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951634991-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-08 21:09:32,204 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -163,6 +163,6 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-08-29 14:03:17,191 INFO  SysUtils - 
-2019-08-29 14:03:17,193 ERROR FullProcessService - Project build has not produced APK file
-2019-08-29 14:03:17,196 ERROR FullProcessService - Could not find generated or existed APK file
+2019-09-08 21:09:32,205 INFO  SysUtils - 
+2019-09-08 21:09:32,207 ERROR FullProcessService - Project build has not produced APK file
+2019-09-08 21:09:32,210 ERROR FullProcessService - Could not find generated or existed APK file
