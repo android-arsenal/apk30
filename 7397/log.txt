@@ -1,88 +1,54 @@
-2019-08-27 10:58:43,959 INFO  DownloadService - Downloading "https://github.com/Link184/KidAdapter/archive/master.zip", attempt 3
-2019-08-27 10:58:46,264 INFO  DownloadService - Downloaded https://github.com/Link184/KidAdapter/archive/master.zip, attempt 3
-2019-08-27 10:58:46,264 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/master.zip": 248 KB
-2019-08-27 10:58:46,264 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-27 10:58:46,264 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/master.zip: true
-2019-08-27 10:58:46,265 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src'.
-2019-08-27 10:58:46,291 INFO  FullProcessService - Size of directory with sources: 325 KB
-2019-08-27 10:58:46,291 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src]
-2019-08-27 10:58:46,308 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/.git/
+2019-09-26 15:02:09,859 INFO  DownloadService - Downloading "https://github.com/Link184/KidAdapter/archive/master.zip", attempt 3
+2019-09-26 15:02:11,872 INFO  DownloadService - Downloaded https://github.com/Link184/KidAdapter/archive/master.zip, attempt 3
+2019-09-26 15:02:11,872 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/master.zip": 248 KB
+2019-09-26 15:02:11,872 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-26 15:02:11,873 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/master.zip: true
+2019-09-26 15:02:11,874 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src'.
+2019-09-26 15:02:11,900 INFO  FullProcessService - Size of directory with sources: 325 KB
+2019-09-26 15:02:11,900 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src]
+2019-09-26 15:02:11,919 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/.git/
 
-2019-08-27 10:58:46,311 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/gradlew
-2019-08-27 10:58:46,314 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/build.gradle
-2019-08-27 10:58:46,317 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/settings.gradle
-2019-08-27 10:58:46,318 INFO  ProjectBuildService - Remote scripts: none
-2019-08-27 10:58:46,318 INFO  ProjectFixService - Fixing project...
-2019-08-27 10:58:46,326 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/local.properties
-2019-08-27 10:58:46,327 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-08-27 10:58:46,328 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-08-27 10:58:46,329 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/sample/local.properties
-2019-08-27 10:58:46,330 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-08-27 10:58:46,330 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-08-27 10:58:46,331 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/local.properties
-2019-08-27 10:58:46,331 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-27 10:58:46,332 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-27 10:58:46,333 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-08-27 10:58:46,333 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-08-27 10:58:46,333 INFO  ProjectFixService - Project was maybe fixed
-2019-08-27 10:58:46,334 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-27 10:58:46,334 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-27 10:58:54,910 INFO  ProjectTaskService - Detected possible tasks: 73
-2019-08-27 10:58:54,910 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-08-27 10:58:54,910 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-08-27 10:59:16,730 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-26 15:02:11,922 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/gradlew
+2019-09-26 15:02:11,926 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/build.gradle
+2019-09-26 15:02:11,929 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/settings.gradle
+2019-09-26 15:02:11,930 INFO  ProjectBuildService - Remote scripts: none
+2019-09-26 15:02:11,930 INFO  ProjectFixService - Fixing project...
+2019-09-26 15:02:11,940 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/local.properties
+2019-09-26 15:02:11,941 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-09-26 15:02:11,942 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-09-26 15:02:11,943 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/sample/local.properties
+2019-09-26 15:02:11,944 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-09-26 15:02:11,944 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-09-26 15:02:11,946 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/local.properties
+2019-09-26 15:02:11,946 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-09-26 15:02:11,947 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-09-26 15:02:11,949 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-09-26 15:02:11,949 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-09-26 15:02:11,949 INFO  ProjectFixService - Project was maybe fixed
+2019-09-26 15:02:11,949 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 15:02:11,950 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 15:02:20,485 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-09-26 15:02:20,485 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-09-26 15:02:20,486 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-09-26 15:02:40,811 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:androidSourcesJar
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:checkDebugManifest
 > Task :library:generateDebugBuildConfig
-> Task :library:compileDebugAidl NO-SOURCE
-> Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugResValues
-> Task :library:generateDebugResources
-> Task :library:processDebugManifest
-> Task :library:packageDebugResources
-> Task :library:generateDebugRFile
-> Task :library:prepareLintJar
-> Task :library:generateDebugSources
-
-> Task :library:compileDebugKotlin
-w: Argument -module-name is passed multiple times. Only the last value will be used: com.link184.kid-adapter
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/simple/SingleKidAdapterConfiguration.kt: (19, 63): Parameter 'item' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/simple/SingleKidAdapterConfiguration.kt: (19, 69): Parameter 'i' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (33, 32): Unchecked cast: MutableList<T> to MutableList<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (63, 52): Unchecked cast: (T, T) -> Boolean to (Any, Any) -> Boolean
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (72, 48): Unchecked cast: (T, T) -> Boolean to (Any, Any) -> Boolean
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (92, 36): Unchecked cast: View.(T, Int) -> Unit to View.(Any, Int) -> Unit
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (101, 29): Unchecked cast: View.(T) -> Unit to View.(Any) -> Unit
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/TypedKidAdapter.kt: (81, 105): Unchecked cast: KidList<Any> to List<T>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/TypedKidAdapter.kt: (83, 68): Unchecked cast: MutableList<Any> to List<T>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/TypedKidAdapterConfiguration.kt: (91, 15): Unchecked cast: MutableList<Any> to MutableList<T>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/TypedKidAdapterConfiguration.kt: (109, 45): Name shadowed: adapterViewType
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/update/UpdateConfiguration.kt: (163, 24): Unchecked cast: List<Any?> to MutableList<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/update/UpdateConfiguration.kt: (173, 60): Unchecked cast: List<Any?> to MutableList<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/update/UpdateConfiguration.kt: (183, 70): Unchecked cast: List<Any?> to MutableList<Any>
-
-> Task :library:javaPreCompileDebug
-> Task :library:compileDebugJavaWithJavac
-> Task :library:extractDebugAnnotations
-> Task :library:mergeDebugConsumerProguardFiles
 > Task :library:mergeDebugShaders
 > Task :library:compileDebugShaders
 > Task :library:generateDebugAssets
 > Task :library:packageDebugAssets
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :library:prepareLintJarForPublish
 > Task :library:processDebugJavaRes NO-SOURCE
-> Task :library:transformResourcesWithMergeJavaResForDebug
-> Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :library:mergeDebugJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForDebug
-> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :library:transformNativeLibsWithSyncJniLibsForDebug
-> Task :library:bundleDebugAar
-> Task :library:compileDebugSources
-> Task :library:assembleDebug
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:generateDebugResources
+> Task :library:packageDebugResources
+> Task :library:processDebugManifest
 > Task :library:preReleaseBuild UP-TO-DATE
 > Task :library:compileReleaseAidl NO-SOURCE
 > Task :library:compileReleaseRenderscript NO-SOURCE
@@ -91,65 +57,100 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
-> Task :library:processReleaseManifest
-> Task :library:generateReleaseRFile
-
-> Task :library:compileReleaseKotlin
-w: Argument -module-name is passed multiple times. Only the last value will be used: com.link184.kid-adapter
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/simple/SingleKidAdapterConfiguration.kt: (19, 63): Parameter 'item' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/simple/SingleKidAdapterConfiguration.kt: (19, 69): Parameter 'i' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (33, 32): Unchecked cast: MutableList<T> to MutableList<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (63, 52): Unchecked cast: (T, T) -> Boolean to (Any, Any) -> Boolean
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (72, 48): Unchecked cast: (T, T) -> Boolean to (Any, Any) -> Boolean
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (92, 36): Unchecked cast: View.(T, Int) -> Unit to View.(Any, Int) -> Unit
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (101, 29): Unchecked cast: View.(T) -> Unit to View.(Any) -> Unit
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/TypedKidAdapter.kt: (81, 105): Unchecked cast: KidList<Any> to List<T>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/TypedKidAdapter.kt: (83, 68): Unchecked cast: MutableList<Any> to List<T>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/TypedKidAdapterConfiguration.kt: (91, 15): Unchecked cast: MutableList<Any> to MutableList<T>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/TypedKidAdapterConfiguration.kt: (109, 45): Name shadowed: adapterViewType
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/update/UpdateConfiguration.kt: (163, 24): Unchecked cast: List<Any?> to MutableList<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/update/UpdateConfiguration.kt: (173, 60): Unchecked cast: List<Any?> to MutableList<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/update/UpdateConfiguration.kt: (183, 70): Unchecked cast: List<Any?> to MutableList<Any>
-
-> Task :library:generateReleaseSources
-> Task :library:javaPreCompileRelease
-> Task :library:compileReleaseJavaWithJavac
-> Task :library:extractReleaseAnnotations
-> Task :library:mergeReleaseConsumerProguardFiles
 > Task :library:mergeReleaseShaders
 > Task :library:compileReleaseShaders
 > Task :library:generateReleaseAssets
 > Task :library:packageReleaseAssets
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:transformResourcesWithMergeJavaResForRelease
-> Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :library:mergeReleaseJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForRelease
-> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :library:mergeDebugNativeLibs
+> Task :library:stripDebugDebugSymbols
+> Task :library:transformNativeLibsWithSyncJniLibsForDebug
+> Task :library:mergeReleaseNativeLibs
+> Task :library:stripReleaseDebugSymbols
 > Task :library:transformNativeLibsWithSyncJniLibsForRelease
-> Task :library:bundleReleaseAar
-> Task :library:compileReleaseSources
-> Task :library:signArchives SKIPPED
+> Task :library:processReleaseManifest
+> Task :library:prepareLintJarForPublish
+> Task :library:parseDebugLibraryResources
+> Task :library:parseReleaseLibraryResources
 > Task :library:mergeReleaseResources
+> Task :library:generateReleaseRFile
+
+> Task :library:compileReleaseKotlin
+w: Argument -module-name is passed multiple times. Only the last value will be used: com.link184.kid-adapter
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/simple/SingleKidAdapterConfiguration.kt: (19, 63): Parameter 'item' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/simple/SingleKidAdapterConfiguration.kt: (19, 69): Parameter 'i' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (33, 32): Unchecked cast: MutableList<T> to MutableList<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (63, 52): Unchecked cast: (T, T) -> Boolean to (Any, Any) -> Boolean
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (72, 48): Unchecked cast: (T, T) -> Boolean to (Any, Any) -> Boolean
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (92, 36): Unchecked cast: View.(T, Int) -> Unit to View.(Any, Int) -> Unit
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (101, 29): Unchecked cast: View.(T) -> Unit to View.(Any) -> Unit
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/TypedKidAdapter.kt: (81, 105): Unchecked cast: KidList<Any> to List<T>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/TypedKidAdapter.kt: (83, 68): Unchecked cast: MutableList<Any> to List<T>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/TypedKidAdapterConfiguration.kt: (91, 15): Unchecked cast: MutableList<Any> to MutableList<T>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/TypedKidAdapterConfiguration.kt: (109, 45): Name shadowed: adapterViewType
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/update/UpdateConfiguration.kt: (163, 24): Unchecked cast: List<Any?> to MutableList<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/update/UpdateConfiguration.kt: (173, 60): Unchecked cast: List<Any?> to MutableList<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/update/UpdateConfiguration.kt: (183, 70): Unchecked cast: List<Any?> to MutableList<Any>
+
+> Task :library:generateDebugRFile
+
+> Task :library:compileDebugKotlin
+w: Argument -module-name is passed multiple times. Only the last value will be used: com.link184.kid-adapter
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/simple/SingleKidAdapterConfiguration.kt: (19, 63): Parameter 'item' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/simple/SingleKidAdapterConfiguration.kt: (19, 69): Parameter 'i' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (33, 32): Unchecked cast: MutableList<T> to MutableList<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (63, 52): Unchecked cast: (T, T) -> Boolean to (Any, Any) -> Boolean
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (72, 48): Unchecked cast: (T, T) -> Boolean to (Any, Any) -> Boolean
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (92, 36): Unchecked cast: View.(T, Int) -> Unit to View.(Any, Int) -> Unit
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/AdapterViewTypeConfiguration.kt: (101, 29): Unchecked cast: View.(T) -> Unit to View.(Any) -> Unit
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/TypedKidAdapter.kt: (81, 105): Unchecked cast: KidList<Any> to List<T>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/TypedKidAdapter.kt: (83, 68): Unchecked cast: MutableList<Any> to List<T>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/TypedKidAdapterConfiguration.kt: (91, 15): Unchecked cast: MutableList<Any> to MutableList<T>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/TypedKidAdapterConfiguration.kt: (109, 45): Name shadowed: adapterViewType
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/update/UpdateConfiguration.kt: (163, 24): Unchecked cast: List<Any?> to MutableList<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/update/UpdateConfiguration.kt: (173, 60): Unchecked cast: List<Any?> to MutableList<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/library/src/main/java/com/link184/kidadapter/typed/update/UpdateConfiguration.kt: (183, 70): Unchecked cast: List<Any?> to MutableList<Any>
+
 > Task :library:verifyReleaseResources
+> Task :library:javaPreCompileDebug
+> Task :library:compileDebugJavaWithJavac
+> Task :library:extractDebugAnnotations
+> Task :library:mergeDebugGeneratedProguardFiles
+> Task :library:mergeDebugConsumerProguardFiles
+> Task :library:compileDebugSources
+> Task :library:javaPreCompileRelease
+> Task :library:compileReleaseJavaWithJavac
+> Task :library:extractReleaseAnnotations
+> Task :library:mergeReleaseGeneratedProguardFiles
+> Task :library:mergeReleaseConsumerProguardFiles
+> Task :library:compileReleaseSources
+> Task :library:mergeDebugJavaResource
+> Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :library:bundleDebugAar
+> Task :library:assembleDebug
+> Task :library:mergeReleaseJavaResource
+> Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :library:bundleReleaseAar
 > Task :library:assembleRelease
+> Task :library:signArchives SKIPPED
 > Task :library:assemble
 > Task :library:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 21s
-47 actionable tasks: 47 executed
+BUILD SUCCESSFUL in 19s
+50 actionable tasks: 50 executed
 
-2019-08-27 10:59:16,759 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-27 10:59:16,759 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-27 10:59:23,065 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-08-27 10:59:23,065 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-27 10:59:23,065 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-27 11:00:19,313 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-26 15:02:40,838 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 15:02:40,839 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 15:02:46,260 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-26 15:02:46,261 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-26 15:02:46,261 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-26 15:03:50,839 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:compileDebugAidl NO-SOURCE
@@ -158,32 +159,29 @@ BUILD SUCCESSFUL in 21s
 > Task :library:generateDebugBuildConfig UP-TO-DATE
 > Task :library:generateDebugResValues UP-TO-DATE
 > Task :library:generateDebugResources UP-TO-DATE
-> Task :library:processDebugManifest UP-TO-DATE
 > Task :library:packageDebugResources UP-TO-DATE
+> Task :library:parseDebugLibraryResources UP-TO-DATE
+> Task :library:processDebugManifest UP-TO-DATE
 > Task :library:generateDebugRFile UP-TO-DATE
 > Task :library:compileDebugKotlin UP-TO-DATE
-> Task :library:prepareLintJar UP-TO-DATE
-> Task :library:generateDebugSources UP-TO-DATE
 > Task :library:javaPreCompileDebug UP-TO-DATE
 > Task :library:compileDebugJavaWithJavac UP-TO-DATE
-> Task :library:bundleLibCompileDebug
 > Task :sample:preBuild UP-TO-DATE
-> Task :sample:preDebugBuild
+> Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:checkDebugManifest
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
+> Task :library:bundleLibCompileDebug
 > Task :sample:mainApkListPersistenceDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
 > Task :sample:createDebugCompatibleScreenManifests
-> Task :sample:mergeDebugResources
 > Task :sample:processDebugManifest
+> Task :sample:mergeDebugResources
 > Task :sample:processDebugResources
 > Task :sample:compileDebugKotlin
-> Task :sample:prepareLintJar
-> Task :sample:generateDebugSources
 > Task :sample:javaPreCompileDebug
 > Task :sample:compileDebugJavaWithJavac
 > Task :sample:compileDebugSources
@@ -196,22 +194,20 @@ BUILD SUCCESSFUL in 21s
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
 > Task :library:processDebugJavaRes NO-SOURCE
+> Task :sample:processDebugJavaRes NO-SOURCE
 > Task :library:bundleLibResDebug
 > Task :library:bundleLibRuntimeDebug
 > Task :library:createFullJarDebug
 > Task :sample:checkDebugDuplicateClasses
+> Task :sample:mergeDebugJavaResource
 > Task :sample:transformClassesWithDexBuilderForDebug
 > Task :sample:validateSigningDebug
 > Task :sample:signingConfigWriterDebug
 > Task :library:mergeDebugJniLibFolders UP-TO-DATE
-> Task :library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-> Task :library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :library:mergeDebugNativeLibs UP-TO-DATE
+> Task :library:stripDebugDebugSymbols UP-TO-DATE
 > Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :sample:mergeDebugJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
-> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :sample:processDebugJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForDebug
 > Task :library:preReleaseBuild UP-TO-DATE
 > Task :library:compileReleaseAidl NO-SOURCE
 > Task :library:compileReleaseRenderscript NO-SOURCE
@@ -220,14 +216,13 @@ BUILD SUCCESSFUL in 21s
 > Task :library:generateReleaseResValues UP-TO-DATE
 > Task :library:generateReleaseResources UP-TO-DATE
 > Task :library:packageReleaseResources UP-TO-DATE
+> Task :library:parseReleaseLibraryResources UP-TO-DATE
 > Task :library:processReleaseManifest UP-TO-DATE
 > Task :library:generateReleaseRFile UP-TO-DATE
 > Task :library:compileReleaseKotlin UP-TO-DATE
-> Task :library:generateReleaseSources UP-TO-DATE
 > Task :library:javaPreCompileRelease UP-TO-DATE
 > Task :library:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :library:bundleLibCompileRelease
-> Task :sample:preReleaseBuild
+> Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
@@ -236,32 +231,32 @@ BUILD SUCCESSFUL in 21s
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:mergeReleaseResources
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
+> Task :library:bundleLibCompileRelease
+> Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
 > Task :sample:compileReleaseKotlin
-> Task :sample:generateReleaseSources
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
-> Task :sample:mergeExtDexDebug
-> Task :sample:mergeDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
 > Task :sample:compileReleaseSources
 > Task :library:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:prepareLintJar
+> Task :library:processReleaseJavaRes NO-SOURCE
 
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/883d7de81ae9c04884bec9eabb07af5b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/dc1b72012189f94191a7899c6fbe0812/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e10c488f04770b2dafd33b54dbd89940/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/cf245417c8083af1f545d32b172bbc6b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :sample:checkReleaseDuplicateClasses
 > Task :library:bundleLibResRelease
 > Task :library:bundleLibRuntimeRelease
 > Task :library:createFullJarRelease
-> Task :sample:checkReleaseDuplicateClasses
 > Task :sample:transformClassesWithDexBuilderForRelease
 > Task :library:mergeReleaseShaders UP-TO-DATE
+> Task :sample:mergeExtDexDebug
 > Task :library:compileReleaseShaders UP-TO-DATE
 > Task :library:generateReleaseAssets UP-TO-DATE
 > Task :library:packageReleaseAssets UP-TO-DATE
@@ -269,16 +264,19 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:compileReleaseShaders
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
+> Task :sample:processReleaseJavaRes NO-SOURCE
 > Task :sample:signingConfigWriterRelease
 > Task :library:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-> Task :library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :library:mergeReleaseNativeLibs UP-TO-DATE
+> Task :library:stripReleaseDebugSymbols UP-TO-DATE
 > Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :sample:mergeReleaseJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
-> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols
+> Task :sample:mergeReleaseJavaResource
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
 > Task :sample:mergeExtDexRelease
 > Task :sample:mergeDexRelease
 > Task :sample:packageRelease
@@ -288,9 +286,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 55s
-95 actionable tasks: 63 executed, 32 up-to-date
+BUILD SUCCESSFUL in 1m 3s
+94 actionable tasks: 61 executed, 33 up-to-date
 
-2019-08-27 11:00:19,403 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878323954-0/src/KidAdapter-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-09-26 15:03:50,935 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569484929850-0/src/KidAdapter-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
