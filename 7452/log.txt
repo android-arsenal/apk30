@@ -1,48 +1,48 @@
-2019-06-17 10:51:44,042 INFO  DownloadService - Downloading "https://github.com/netguru/Kissme/archive/master.zip", attempt 3
-2019-06-17 10:51:46,065 INFO  DownloadService - Downloaded https://github.com/netguru/Kissme/archive/master.zip, attempt 3
-2019-06-17 10:51:46,065 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/master.zip": 239 KB
-2019-06-17 10:51:46,065 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-17 10:51:46,070 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/master.zip: true
-2019-06-17 10:51:46,071 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src'.
-2019-06-17 10:51:46,103 INFO  FullProcessService - Size of directory with sources: 416 KB
-2019-06-17 10:51:46,103 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src]
-2019-06-17 10:51:46,121 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/.git/
+2019-10-08 13:13:10,949 INFO  DownloadService - Downloading "https://github.com/netguru/Kissme/archive/master.zip", attempt 3
+2019-10-08 13:13:13,270 INFO  DownloadService - Downloaded https://github.com/netguru/Kissme/archive/master.zip, attempt 3
+2019-10-08 13:13:13,271 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/master.zip": 239 KB
+2019-10-08 13:13:13,271 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-08 13:13:13,271 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/master.zip: true
+2019-10-08 13:13:13,271 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src'.
+2019-10-08 13:13:13,297 INFO  FullProcessService - Size of directory with sources: 416 KB
+2019-10-08 13:13:13,297 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src]
+2019-10-08 13:13:13,330 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/.git/
 
-2019-06-17 10:51:46,125 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/gradlew
-2019-06-17 10:51:46,130 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/ios/build.gradle
-2019-06-17 10:51:46,133 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/buildsystem/secrets.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/buildsystem/publish-bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/buildsystem/bitrise.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/ios/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/settings.gradle
-2019-06-17 10:51:46,135 INFO  ProjectBuildService - Remote scripts: none
-2019-06-17 10:51:46,135 INFO  ProjectFixService - Fixing project...
-2019-06-17 10:51:46,151 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/android/local.properties
-2019-06-17 10:51:46,160 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=28]
-2019-06-17 10:51:46,160 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-17 10:51:46,163 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/app/local.properties
-2019-06-17 10:51:46,169 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=28]
-2019-06-17 10:51:46,170 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-17 10:51:46,171 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/local.properties
-2019-06-17 10:51:46,171 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
-2019-06-17 10:51:46,172 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
-2019-06-17 10:51:46,178 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=28]
-2019-06-17 10:51:46,178 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-17 10:51:46,179 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/local.properties
-2019-06-17 10:51:46,179 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.7-all.zip
-2019-06-17 10:51:46,180 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.7-bin.zip)
-2019-06-17 10:51:46,185 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=28]
-2019-06-17 10:51:46,185 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-17 10:51:46,186 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/common/local.properties
-2019-06-17 10:51:46,191 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=28]
-2019-06-17 10:51:46,191 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-17 10:51:46,192 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/ios/local.properties
-2019-06-17 10:51:46,198 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/ios/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=28]
-2019-06-17 10:51:46,199 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/ios/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-17 10:51:46,199 INFO  ProjectFixService - Project was maybe fixed
-2019-06-17 10:51:46,199 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-17 10:51:46,199 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-17 10:51:58,916 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-06-17 10:51:58,916 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-06-17 10:51:58,916 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-06-17 10:51:58,916 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-06-17 10:52:01,846 ERROR SysUtils - Could not process external command
+2019-10-08 13:13:13,334 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/gradlew
+2019-10-08 13:13:13,338 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/ios/build.gradle
+2019-10-08 13:13:13,341 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/buildsystem/secrets.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/buildsystem/publish-bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/buildsystem/bitrise.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/ios/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/settings.gradle
+2019-10-08 13:13:13,342 INFO  ProjectBuildService - Remote scripts: none
+2019-10-08 13:13:13,342 INFO  ProjectFixService - Fixing project...
+2019-10-08 13:13:13,353 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/android/local.properties
+2019-10-08 13:13:13,357 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=28]
+2019-10-08 13:13:13,357 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=28]
+2019-10-08 13:13:13,358 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/app/local.properties
+2019-10-08 13:13:13,362 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=28]
+2019-10-08 13:13:13,362 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=28]
+2019-10-08 13:13:13,363 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/local.properties
+2019-10-08 13:13:13,364 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
+2019-10-08 13:13:13,364 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
+2019-10-08 13:13:13,368 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=28]
+2019-10-08 13:13:13,369 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=28]
+2019-10-08 13:13:13,370 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/local.properties
+2019-10-08 13:13:13,370 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.7-all.zip
+2019-10-08 13:13:13,370 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.7-bin.zip)
+2019-10-08 13:13:13,375 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=28]
+2019-10-08 13:13:13,375 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=28]
+2019-10-08 13:13:13,376 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/common/local.properties
+2019-10-08 13:13:13,380 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=28]
+2019-10-08 13:13:13,380 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=28]
+2019-10-08 13:13:13,381 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/ios/local.properties
+2019-10-08 13:13:13,385 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/ios/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=28]
+2019-10-08 13:13:13,385 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/ios/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=28]
+2019-10-08 13:13:13,386 INFO  ProjectFixService - Project was maybe fixed
+2019-10-08 13:13:13,386 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 13:13:13,386 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 13:13:22,907 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-08 13:13:22,907 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-08 13:13:22,907 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-08 13:13:22,907 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-08 13:13:25,719 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -63,25 +63,25 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-06-17 10:52:01,847 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 13:13:25,719 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/secret.properties
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/secret.properties
 FAILURE: Build failed with an exception.
 
 * Where:
-Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/buildsystem/secrets.gradle' line: 28
+Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/buildsystem/secrets.gradle' line: 28
 
 * What went wrong:
 A problem occurred evaluating script.
-> File /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/secret.properties not found
+> File /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/secret.properties not found
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -112,7 +112,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:57)
-	at build_5pao76x52cvttvzxv42sv87ju$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/build.gradle:29)
+	at build_bb485uqp2gfizkq4d5qxwgyx6$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/build.gradle:29)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -144,7 +144,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_5pao76x52cvttvzxv42sv87ju.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/build.gradle:19)
+	at build_bb485uqp2gfizkq4d5qxwgyx6.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/build.gradle:19)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:206)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -236,8 +236,8 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.io.FileNotFoundException: File /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/secret.properties not found
-	at secrets_50166uozquptm3e8h1fth8f0b$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/buildsystem/secrets.gradle:28)
+Caused by: java.io.FileNotFoundException: File /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/secret.properties not found
+	at secrets_8kkt976cgzbaz2uer9juzysnr$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/buildsystem/secrets.gradle:28)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -252,7 +252,7 @@ Caused by: java.io.FileNotFoundException: File /private/var/folders/bq/vtzpc5ns5
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at secrets_50166uozquptm3e8h1fth8f0b.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/buildsystem/secrets.gradle:5)
+	at secrets_8kkt976cgzbaz2uer9juzysnr.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/buildsystem/secrets.gradle:5)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 147 more
 
@@ -261,13 +261,13 @@ Caused by: java.io.FileNotFoundException: File /private/var/folders/bq/vtzpc5ns5
 
 BUILD FAILED in 2s
 
-2019-06-17 10:52:01,852 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-17 10:52:01,852 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-17 10:52:49,176 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-06-17 10:52:49,176 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-06-17 10:52:49,176 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-06-17 10:52:49,176 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-06-17 10:53:01,796 ERROR SysUtils - Could not process external command
+2019-10-08 13:13:25,725 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 13:13:25,725 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 13:14:43,017 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-08 13:14:43,018 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-08 13:14:43,018 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-08 13:14:43,018 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-08 13:14:54,258 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -288,14 +288,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-06-17 10:53:01,796 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 13:14:54,258 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 Kotlin Multiplatform Projects are an experimental feature.
@@ -507,15 +507,15 @@ Required by:
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 12s
+BUILD FAILED in 11s
 
-2019-06-17 10:53:01,802 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-17 10:53:01,802 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-17 10:53:04,898 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-06-17 10:53:04,898 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-06-17 10:53:04,898 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-06-17 10:53:04,898 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-06-17 10:53:08,259 ERROR SysUtils - Could not process external command
+2019-10-08 13:14:54,264 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 13:14:54,264 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 13:14:57,023 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-08 13:14:57,024 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-08 13:14:57,024 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-08 13:14:57,024 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-08 13:14:59,895 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -536,25 +536,25 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-06-17 10:53:08,259 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 13:14:59,895 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/secret.properties
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/secret.properties
 FAILURE: Build failed with an exception.
 
 * Where:
-Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/buildsystem/secrets.gradle' line: 28
+Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/buildsystem/secrets.gradle' line: 28
 
 * What went wrong:
 A problem occurred evaluating script.
-> File /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/secret.properties not found
+> File /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/secret.properties not found
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -585,7 +585,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:57)
-	at build_5pao76x52cvttvzxv42sv87ju$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/build.gradle:29)
+	at build_bb485uqp2gfizkq4d5qxwgyx6$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/build.gradle:29)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -617,7 +617,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_5pao76x52cvttvzxv42sv87ju.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/build.gradle:19)
+	at build_bb485uqp2gfizkq4d5qxwgyx6.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/build.gradle:19)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:206)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -709,8 +709,8 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.io.FileNotFoundException: File /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/secret.properties not found
-	at secrets_50166uozquptm3e8h1fth8f0b$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/buildsystem/secrets.gradle:28)
+Caused by: java.io.FileNotFoundException: File /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/secret.properties not found
+	at secrets_8kkt976cgzbaz2uer9juzysnr$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/buildsystem/secrets.gradle:28)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -725,22 +725,22 @@ Caused by: java.io.FileNotFoundException: File /private/var/folders/bq/vtzpc5ns5
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at secrets_50166uozquptm3e8h1fth8f0b.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/buildsystem/secrets.gradle:5)
+	at secrets_8kkt976cgzbaz2uer9juzysnr.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/buildsystem/secrets.gradle:5)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 147 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 3s
+BUILD FAILED in 2s
 
-2019-06-17 10:53:08,265 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-17 10:53:08,265 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-17 10:53:19,963 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-06-17 10:53:19,964 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-06-17 10:53:19,964 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-06-17 10:53:19,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-06-17 10:53:31,943 ERROR SysUtils - Could not process external command
+2019-10-08 13:14:59,900 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 13:14:59,900 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 13:15:10,933 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-08 13:15:10,933 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-08 13:15:10,933 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-08 13:15:10,933 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-08 13:15:22,606 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -761,14 +761,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-06-17 10:53:31,944 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 13:15:22,606 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 Kotlin Multiplatform Projects are an experimental feature.
@@ -982,13 +982,13 @@ Required by:
 
 BUILD FAILED in 11s
 
-2019-06-17 10:53:31,948 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-17 10:53:31,948 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-17 10:53:34,939 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-06-17 10:53:34,940 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-06-17 10:53:34,940 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-06-17 10:53:34,940 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-06-17 10:53:38,133 ERROR SysUtils - Could not process external command
+2019-10-08 13:15:22,617 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 13:15:22,617 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 13:15:25,556 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-08 13:15:25,557 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-08 13:15:25,557 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-08 13:15:25,557 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-08 13:15:28,293 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1009,25 +1009,25 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-06-17 10:53:38,133 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 13:15:28,293 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/secret.properties
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/secret.properties
 FAILURE: Build failed with an exception.
 
 * Where:
-Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/buildsystem/secrets.gradle' line: 28
+Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/buildsystem/secrets.gradle' line: 28
 
 * What went wrong:
 A problem occurred evaluating script.
-> File /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/secret.properties not found
+> File /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/secret.properties not found
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -1058,7 +1058,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:57)
-	at build_5pao76x52cvttvzxv42sv87ju$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/build.gradle:29)
+	at build_bb485uqp2gfizkq4d5qxwgyx6$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/build.gradle:29)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -1090,7 +1090,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_5pao76x52cvttvzxv42sv87ju.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/build.gradle:19)
+	at build_bb485uqp2gfizkq4d5qxwgyx6.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/build.gradle:19)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:206)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -1182,8 +1182,8 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.io.FileNotFoundException: File /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/secret.properties not found
-	at secrets_50166uozquptm3e8h1fth8f0b$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/buildsystem/secrets.gradle:28)
+Caused by: java.io.FileNotFoundException: File /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/secret.properties not found
+	at secrets_8kkt976cgzbaz2uer9juzysnr$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/buildsystem/secrets.gradle:28)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -1198,7 +1198,7 @@ Caused by: java.io.FileNotFoundException: File /private/var/folders/bq/vtzpc5ns5
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at secrets_50166uozquptm3e8h1fth8f0b.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/buildsystem/secrets.gradle:5)
+	at secrets_8kkt976cgzbaz2uer9juzysnr.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/buildsystem/secrets.gradle:5)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 147 more
 
@@ -1207,13 +1207,13 @@ Caused by: java.io.FileNotFoundException: File /private/var/folders/bq/vtzpc5ns5
 
 BUILD FAILED in 2s
 
-2019-06-17 10:53:38,139 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-17 10:53:38,139 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/ios/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-17 10:53:41,644 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-06-17 10:53:41,645 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-06-17 10:53:41,645 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-06-17 10:53:41,645 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/ios/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-06-17 10:53:44,637 ERROR SysUtils - Could not process external command
+2019-10-08 13:15:28,298 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 13:15:28,299 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/ios/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 13:15:31,182 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-08 13:15:31,183 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-08 13:15:31,183 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-08 13:15:31,183 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/ios/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-08 13:15:34,084 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1234,25 +1234,25 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-06-17 10:53:44,637 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 13:15:34,084 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/secret.properties
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/secret.properties
 FAILURE: Build failed with an exception.
 
 * Where:
-Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/buildsystem/secrets.gradle' line: 28
+Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/buildsystem/secrets.gradle' line: 28
 
 * What went wrong:
 A problem occurred evaluating script.
-> File /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/secret.properties not found
+> File /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/secret.properties not found
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -1283,7 +1283,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:57)
-	at build_5pao76x52cvttvzxv42sv87ju$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/build.gradle:29)
+	at build_bb485uqp2gfizkq4d5qxwgyx6$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/build.gradle:29)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -1315,7 +1315,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_5pao76x52cvttvzxv42sv87ju.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/build.gradle:19)
+	at build_bb485uqp2gfizkq4d5qxwgyx6.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/build.gradle:19)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:206)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -1407,8 +1407,8 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.io.FileNotFoundException: File /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/secret.properties not found
-	at secrets_50166uozquptm3e8h1fth8f0b$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/buildsystem/secrets.gradle:28)
+Caused by: java.io.FileNotFoundException: File /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/secret.properties not found
+	at secrets_8kkt976cgzbaz2uer9juzysnr$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/buildsystem/secrets.gradle:28)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:155)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -1423,7 +1423,7 @@ Caused by: java.io.FileNotFoundException: File /private/var/folders/bq/vtzpc5ns5
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at secrets_50166uozquptm3e8h1fth8f0b.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743504038-0/src/Kissme-master/buildsystem/secrets.gradle:5)
+	at secrets_8kkt976cgzbaz2uer9juzysnr.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570515190946-0/src/Kissme-master/buildsystem/secrets.gradle:5)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 147 more
 
@@ -1432,5 +1432,5 @@ Caused by: java.io.FileNotFoundException: File /private/var/folders/bq/vtzpc5ns5
 
 BUILD FAILED in 2s
 
-2019-06-17 10:53:44,643 ERROR FullProcessService - Project build has not produced APK file
-2019-06-17 10:53:44,648 ERROR FullProcessService - Could not find generated or existed APK file
+2019-10-08 13:15:34,090 ERROR FullProcessService - Project build has not produced APK file
+2019-10-08 13:15:34,095 ERROR FullProcessService - Could not find generated or existed APK file
