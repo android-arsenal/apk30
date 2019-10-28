@@ -1,38 +1,38 @@
-2019-08-27 10:55:11,324 INFO  DownloadService - Downloading "https://github.com/sephiroth74/NumberSlidingPicker/archive/master.zip", attempt 3
-2019-08-27 10:55:13,809 INFO  DownloadService - Downloaded https://github.com/sephiroth74/NumberSlidingPicker/archive/master.zip, attempt 3
-2019-08-27 10:55:13,809 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/master.zip": 1 MB
-2019-08-27 10:55:13,809 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-27 10:55:13,815 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/master.zip: true
-2019-08-27 10:55:13,815 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src'.
-2019-08-27 10:55:13,857 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-08-27 10:55:13,857 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src]
-2019-08-27 10:55:13,873 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/.git/
+2019-10-28 14:39:36,553 INFO  DownloadService - Downloading "https://github.com/sephiroth74/NumberSlidingPicker/archive/master.zip", attempt 3
+2019-10-28 14:39:40,117 INFO  DownloadService - Downloaded https://github.com/sephiroth74/NumberSlidingPicker/archive/master.zip, attempt 3
+2019-10-28 14:39:40,118 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/master.zip": 1 MB
+2019-10-28 14:39:40,118 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-28 14:39:40,118 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/master.zip: true
+2019-10-28 14:39:40,118 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src'.
+2019-10-28 14:39:40,159 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-10-28 14:39:40,159 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src]
+2019-10-28 14:39:40,184 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/.git/
 
-2019-08-27 10:55:13,877 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/gradlew
-2019-08-27 10:55:13,880 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/numberpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/build.gradle
-2019-08-27 10:55:13,883 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/numberpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/settings.gradle
-2019-08-27 10:55:13,884 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/sephiroth74/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
-2019-08-27 10:55:14,146 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/sephiroth74/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
-2019-08-27 10:55:14,146 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/sephiroth74/gradle-mvn-push/master/gradle-mvn-push.gradle
-2019-08-27 10:55:14,146 INFO  ProjectFixService - Fixing project...
-2019-08-27 10:55:14,160 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/local.properties
-2019-08-27 10:55:14,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-27 10:55:14,161 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-27 10:55:14,162 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/numberpicker/local.properties
-2019-08-27 10:55:14,165 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/numberpicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-27 10:55:14,165 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/numberpicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-27 10:55:14,166 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/local.properties
-2019-08-27 10:55:14,167 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-08-27 10:55:14,167 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-08-27 10:55:14,168 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-27 10:55:14,168 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-27 10:55:14,169 INFO  ProjectFixService - Project was maybe fixed
-2019-08-27 10:55:14,169 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-27 10:55:14,169 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-27 10:55:27,365 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-08-27 10:55:27,365 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-27 10:55:27,365 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-27 10:55:32,749 ERROR SysUtils - Could not process external command
+2019-10-28 14:39:40,188 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/gradlew
+2019-10-28 14:39:40,191 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/numberpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/build.gradle
+2019-10-28 14:39:40,195 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/numberpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/settings.gradle
+2019-10-28 14:39:40,200 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/sephiroth74/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2019-10-28 14:39:41,124 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/sephiroth74/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2019-10-28 14:39:41,124 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/sephiroth74/gradle-mvn-push/master/gradle-mvn-push.gradle
+2019-10-28 14:39:41,124 INFO  ProjectFixService - Fixing project...
+2019-10-28 14:39:41,135 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/local.properties
+2019-10-28 14:39:41,137 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-28 14:39:41,137 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-28 14:39:41,138 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/numberpicker/local.properties
+2019-10-28 14:39:41,139 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/numberpicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-28 14:39:41,139 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/numberpicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-28 14:39:41,139 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/local.properties
+2019-10-28 14:39:41,140 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-28 14:39:41,140 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-28 14:39:41,141 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-28 14:39:41,141 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-28 14:39:41,142 INFO  ProjectFixService - Project was maybe fixed
+2019-10-28 14:39:41,142 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-28 14:39:41,142 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-28 14:39:52,781 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-10-28 14:39:52,781 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-28 14:39:52,781 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-28 14:39:58,265 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -60,7 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-27 10:55:32,749 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-28 14:39:58,265 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -161,9 +161,9 @@ org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in
 
 BUILD FAILED in 5s
 
-2019-08-27 10:55:32,750 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-08-27 10:55:32,750 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-27 10:57:03,965 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-28 14:39:58,266 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-10-28 14:39:58,266 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-28 14:41:32,719 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :numberpicker:preBuild UP-TO-DATE
@@ -178,8 +178,6 @@ BUILD FAILED in 5s
 > Task :numberpicker:generateDebugBuildConfig
 > Task :numberpicker:prepareLintJar
 > Task :numberpicker:prepareLintJarForPublish
-> Task :numberpicker:generateDebugResValues
-> Task :numberpicker:processDebugManifest
 > Task :numberpicker:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:generateDebugSources
@@ -187,34 +185,28 @@ BUILD FAILED in 5s
 > Task :numberpicker:compileDebugRenderscript NO-SOURCE
 > Task :numberpicker:generateDebugSources
 > Task :numberpicker:dataBindingExportBuildInfoDebug
+> Task :numberpicker:generateDebugResValues
+> Task :numberpicker:dataBindingMergeDependencyArtifactsDebug
 > Task :numberpicker:generateDebugResources
 > Task :numberpicker:packageDebugResources
 > Task :numberpicker:dataBindingMergeGenClassesDebug
+> Task :numberpicker:dataBindingGenBaseClassesDebug
+> Task :app:dataBindingMergeGenClassesDebug
+> Task :numberpicker:parseDebugLibraryResources
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :numberpicker:dataBindingMergeDependencyArtifactsDebug
-> Task :numberpicker:dataBindingGenBaseClassesDebug
-> Task :app:mergeDebugResources
-> Task :numberpicker:parseDebugLibraryResources
 > Task :app:dataBindingExportFeaturePackageIdsDebug
-> Task :app:dataBindingMergeGenClassesDebug
+> Task :numberpicker:processDebugManifest
 > Task :app:mainApkListPersistenceDebug
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
-> Task :numberpicker:mergeDebugShaders
-> Task :numberpicker:compileDebugShaders
-> Task :numberpicker:generateDebugAssets
-> Task :numberpicker:packageDebugAssets
-> Task :app:mergeDebugAssets
+> Task :app:mergeDebugResources
 > Task :numberpicker:generateDebugRFile
 > Task :numberpicker:kaptGenerateStubsDebugKotlin
 > Task :numberpicker:kaptDebugKotlin
 
 > Task :numberpicker:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/numberpicker/src/main/java/it/sephiroth/android/library/numberpicker/NumberPickerBindingAdapter.kt: (39, 26): Parameter 'attrChanged' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/numberpicker/src/main/java/it/sephiroth/android/library/numberpicker/NumberPickerBindingAdapter.kt: (39, 26): Parameter 'attrChanged' is never used
 
 > Task :app:processDebugResources
 > Task :numberpicker:javaPreCompileDebug
@@ -226,25 +218,34 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/
 > Task :app:kaptDebugKotlin
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (46, 31): Parameter 'numberPicker' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (46, 74): Parameter 'fromUser' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (51, 29): Parameter 'numberPicker' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (55, 28): Parameter 'numberPicker' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (46, 31): Parameter 'numberPicker' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (46, 74): Parameter 'fromUser' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (51, 29): Parameter 'numberPicker' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (55, 28): Parameter 'numberPicker' is never used
 
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :numberpicker:processDebugJavaRes NO-SOURCE
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :numberpicker:mergeDebugShaders
+> Task :numberpicker:compileDebugShaders
+> Task :numberpicker:generateDebugAssets
+> Task :numberpicker:packageDebugAssets
+> Task :app:mergeDebugAssets
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :numberpicker:processDebugJavaRes NO-SOURCE
 > Task :numberpicker:bundleLibResDebug
 > Task :app:mergeDebugJavaResource
 > Task :app:checkDebugDuplicateClasses
 > Task :app:desugarDebugFileDependencies
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
 > Task :numberpicker:bundleLibRuntimeDebug
 > Task :numberpicker:createFullJarDebug
 > Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeLibDexDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :numberpicker:mergeDebugJniLibFolders
 > Task :app:preReleaseBuild UP-TO-DATE
@@ -266,58 +267,57 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/
 > Task :numberpicker:stripDebugDebugSymbols
 > Task :numberpicker:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :numberpicker:dataBindingMergeDependencyArtifactsRelease
-> Task :numberpicker:dataBindingMergeGenClassesRelease
 > Task :numberpicker:generateReleaseResValues
 > Task :numberpicker:generateReleaseResources
 > Task :numberpicker:packageReleaseResources
+> Task :numberpicker:dataBindingMergeGenClassesRelease
 > Task :numberpicker:dataBindingGenBaseClassesRelease
-> Task :numberpicker:parseReleaseLibraryResources
-> Task :numberpicker:processReleaseManifest
-> Task :app:mergeLibDexDebug
 > Task :app:mergeProjectDexDebug
+> Task :numberpicker:processReleaseManifest
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :app:dataBindingExportFeaturePackageIdsRelease
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:dataBindingMergeGenClassesRelease
 > Task :app:mainApkListPersistenceRelease
 > Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:dataBindingExportFeaturePackageIdsRelease
+> Task :numberpicker:parseReleaseLibraryResources
+> Task :app:mergeReleaseResources
 > Task :numberpicker:generateReleaseRFile
 > Task :numberpicker:kaptGenerateStubsReleaseKotlin
 > Task :numberpicker:kaptReleaseKotlin
 
 > Task :numberpicker:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/numberpicker/src/main/java/it/sephiroth/android/library/numberpicker/NumberPickerBindingAdapter.kt: (39, 26): Parameter 'attrChanged' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/numberpicker/src/main/java/it/sephiroth/android/library/numberpicker/NumberPickerBindingAdapter.kt: (39, 26): Parameter 'attrChanged' is never used
 
-> Task :app:processReleaseManifest
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :app:dataBindingMergeGenClassesRelease
-> Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
 > Task :numberpicker:javaPreCompileRelease
 > Task :numberpicker:compileReleaseJavaWithJavac
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :numberpicker:bundleLibCompileRelease
 > Task :app:dataBindingMergeDependencyArtifactsRelease
 > Task :app:dataBindingGenBaseClassesRelease
-> Task :numberpicker:bundleLibCompileRelease
 > Task :app:kaptGenerateStubsReleaseKotlin
 > Task :app:kaptReleaseKotlin
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (46, 31): Parameter 'numberPicker' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (46, 74): Parameter 'fromUser' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (51, 29): Parameter 'numberPicker' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (55, 28): Parameter 'numberPicker' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (46, 31): Parameter 'numberPicker' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (46, 74): Parameter 'fromUser' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (51, 29): Parameter 'numberPicker' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/src/main/java/it/sephiroth/android/numberpicker/demo/MainActivity.kt: (55, 28): Parameter 'numberPicker' is never used
 
-> Task :app:mergeExtDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :numberpicker:processReleaseJavaRes NO-SOURCE
 > Task :app:lintVitalRelease SKIPPED
 > Task :app:checkReleaseDuplicateClasses
-> Task :numberpicker:bundleLibResRelease
 > Task :numberpicker:bundleLibRuntimeRelease
+> Task :numberpicker:bundleLibResRelease
 > Task :numberpicker:createFullJarRelease
 > Task :app:desugarReleaseFileDependencies
 > Task :app:transformClassesWithDexBuilderForRelease
@@ -336,10 +336,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/
 
 > Task :app:lint
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/15b2de114eb32936bef9d1adcaaf1337/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant debug: 9 issues found
-Ran lint on variant release: 8 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build/reports/lint-results.xml
+Ran lint on variant debug: 14 issues found
+Ran lint on variant release: 13 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/build/reports/lint-results.xml
 
 > Task :numberpicker:mergeReleaseNativeLibs
 > Task :numberpicker:stripReleaseDebugSymbols
@@ -359,14 +359,14 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 > Task :app:javaPreCompileReleaseUnitTest
 > Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
 > Task :app:testReleaseUnitTest
-> Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
 > Task :app:javaPreCompileDebugUnitTest
 > Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
 > Task :app:testDebugUnitTest
 > Task :app:test
 > Task :app:check
 > Task :app:mergeDexRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
@@ -376,7 +376,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 30s
+BUILD SUCCESSFUL in 1m 33s
 135 actionable tasks: 135 executed
 
-2019-08-27 10:57:04,069 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878111321-0/src/NumberSlidingPicker-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-28 14:41:32,823 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572248376550-0/src/NumberSlidingPicker-master/app/build/outputs/apk/debug/app-debug.apk
