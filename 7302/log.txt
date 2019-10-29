@@ -1,167 +1,174 @@
-2019-08-29 10:55:40,236 INFO  DownloadService - Downloading "https://github.com/mike14u/shimmer-recyclerview-x/archive/master.zip", attempt 3
-2019-08-29 10:55:47,356 INFO  DownloadService - Downloaded https://github.com/mike14u/shimmer-recyclerview-x/archive/master.zip, attempt 3
-2019-08-29 10:55:47,356 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/master.zip": 4 MB
-2019-08-29 10:55:47,356 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-29 10:55:47,357 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/master.zip: true
-2019-08-29 10:55:47,358 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src'.
-2019-08-29 10:55:47,397 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-08-29 10:55:47,397 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src]
-2019-08-29 10:55:47,421 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/.git/
+2019-10-29 18:14:56,679 INFO  DownloadService - Downloading "https://github.com/mike14u/shimmer-recyclerview-x/archive/master.zip", attempt 3
+2019-10-29 18:15:02,027 INFO  DownloadService - Downloaded https://github.com/mike14u/shimmer-recyclerview-x/archive/master.zip, attempt 3
+2019-10-29 18:15:02,027 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/master.zip": 2 MB
+2019-10-29 18:15:02,027 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-29 18:15:02,033 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/master.zip: true
+2019-10-29 18:15:02,034 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src'.
+2019-10-29 18:15:02,069 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-10-29 18:15:02,069 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src]
+2019-10-29 18:15:02,090 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/.git/
 
-2019-08-29 10:55:47,423 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/gradlew
-2019-08-29 10:55:47,426 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/shimmer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/build.gradle
-2019-08-29 10:55:47,428 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/shimmer/build.gradle
-2019-08-29 10:55:47,429 INFO  ProjectBuildService - Remote scripts: none
-2019-08-29 10:55:47,429 INFO  ProjectFixService - Fixing project...
-2019-08-29 10:55:47,434 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/app/local.properties
-2019-08-29 10:55:47,434 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-29 10:55:47,435 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/shimmer/local.properties
-2019-08-29 10:55:47,435 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/shimmer/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-29 10:55:47,435 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/local.properties
-2019-08-29 10:55:47,436 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-08-29 10:55:47,436 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-08-29 10:55:47,436 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-29 10:55:47,437 INFO  ProjectFixService - Project was maybe fixed
-2019-08-29 10:55:47,437 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 10:55:47,437 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 10:55:55,460 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-08-29 10:55:55,461 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-29 10:55:55,461 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-29 10:56:25,503 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:checkDebugClasspath
-Download https://jcenter.bintray.com/io/supercharge/shimmerlayout/2.1.0/shimmerlayout-2.1.0.aar
-:app:preBuild UP-TO-DATE
-:shimmer:preBuild UP-TO-DATE
-:shimmer:preDebugBuild UP-TO-DATE
-:shimmer:checkDebugManifest
-:shimmer:processDebugManifest
-:app:preDebugBuild
-:shimmer:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:shimmer:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:prepareLintJar
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:shimmer:compileDebugRenderscript
-:shimmer:generateDebugResValues
-:shimmer:generateDebugResources
-:shimmer:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:shimmer:generateDebugRFile
-:app:processDebugResources
-:app:generateDebugSources
-:shimmer:generateDebugBuildConfig
-:shimmer:prepareLintJar
-:shimmer:generateDebugSources
-:shimmer:javaPreCompileDebug
-:shimmer:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+2019-10-29 18:15:02,092 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/gradlew
+2019-10-29 18:15:02,095 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/shimmer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/build.gradle
+2019-10-29 18:15:02,097 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/shimmer/build.gradle
+2019-10-29 18:15:02,098 INFO  ProjectBuildService - Remote scripts: none
+2019-10-29 18:15:02,098 INFO  ProjectFixService - Fixing project...
+2019-10-29 18:15:02,103 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/app/local.properties
+2019-10-29 18:15:02,103 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-10-29 18:15:02,104 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/shimmer/local.properties
+2019-10-29 18:15:02,104 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/shimmer/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-10-29 18:15:02,104 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/local.properties
+2019-10-29 18:15:02,104 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-29 18:15:02,105 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-29 18:15:02,105 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-10-29 18:15:02,105 INFO  ProjectFixService - Project was maybe fixed
+2019-10-29 18:15:02,105 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-29 18:15:02,106 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-29 18:15:07,650 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-29 18:15:07,651 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-29 18:15:07,651 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-29 18:15:37,800 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :shimmer:preBuild UP-TO-DATE
+> Task :shimmer:preDebugBuild UP-TO-DATE
+> Task :shimmer:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :shimmer:checkDebugManifest
+> Task :shimmer:generateDebugBuildConfig
+> Task :shimmer:generateDebugResValues
+> Task :shimmer:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :shimmer:compileDebugRenderscript NO-SOURCE
+> Task :shimmer:generateDebugResources
+> Task :shimmer:packageDebugResources
+> Task :shimmer:processDebugManifest
+> Task :shimmer:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :shimmer:parseDebugLibraryResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :shimmer:generateDebugRFile
+
+> Task :shimmer:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:shimmer:processDebugJavaRes NO-SOURCE
-:shimmer:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:shimmer:mergeDebugShaders
-:shimmer:compileDebugShaders
-:shimmer:generateDebugAssets
-:shimmer:packageDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:shimmer:compileDebugNdk NO-SOURCE
-:shimmer:mergeDebugJniLibFolders
-:shimmer:transformNativeLibsWithMergeJniLibsForDebug
-:shimmer:transformNativeLibsWithStripDebugSymbolForDebug
-:shimmer:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
-:shimmer:preReleaseBuild UP-TO-DATE
-:shimmer:checkReleaseManifest
-:shimmer:processReleaseManifest
-:app:preReleaseBuild
-:shimmer:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:shimmer:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:shimmer:compileReleaseRenderscript
-:shimmer:generateReleaseResValues
-:shimmer:generateReleaseResources
-:shimmer:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:shimmer:generateReleaseRFile
-:app:processReleaseResources
-:app:generateReleaseSources
-:shimmer:generateReleaseBuildConfig
-:shimmer:generateReleaseSources
-:shimmer:javaPreCompileRelease
-:shimmer:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+> Task :app:processDebugResources
+> Task :shimmer:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :shimmer:mergeDebugShaders
+> Task :shimmer:compileDebugShaders
+> Task :shimmer:generateDebugAssets
+> Task :shimmer:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :shimmer:processDebugJavaRes NO-SOURCE
+> Task :shimmer:bundleLibResDebug
+> Task :shimmer:bundleLibRuntimeDebug
+> Task :shimmer:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :shimmer:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :shimmer:preReleaseBuild UP-TO-DATE
+> Task :shimmer:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :shimmer:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :shimmer:compileReleaseRenderscript NO-SOURCE
+> Task :shimmer:checkReleaseManifest
+> Task :shimmer:generateReleaseBuildConfig
+> Task :shimmer:generateReleaseResValues
+> Task :shimmer:generateReleaseResources
+> Task :shimmer:packageReleaseResources
+> Task :shimmer:mergeDebugNativeLibs
+> Task :shimmer:stripDebugDebugSymbols
+> Task :shimmer:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :shimmer:processReleaseManifest
+> Task :shimmer:parseReleaseLibraryResources
+> Task :shimmer:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :shimmer:generateReleaseRFile
+
+> Task :shimmer:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:shimmer:processReleaseJavaRes NO-SOURCE
-:shimmer:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/2196aa9aa3749343e67d4b3272ac2a82/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:shimmer:mergeReleaseShaders
-:shimmer:compileReleaseShaders
-:shimmer:generateReleaseAssets
-:shimmer:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:shimmer:compileReleaseNdk NO-SOURCE
-:shimmer:mergeReleaseJniLibFolders
-:shimmer:transformNativeLibsWithMergeJniLibsForRelease
-:shimmer:transformNativeLibsWithStripDebugSymbolForRelease
-:shimmer:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:checkReleaseLibraries
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :shimmer:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:prepareLintJar
+> Task :shimmer:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :shimmer:prepareLintJarForPublish
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/65f61026172aa65e6fab308e7266a90b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :shimmer:bundleLibRuntimeRelease
+> Task :shimmer:bundleLibResRelease
+> Task :shimmer:createFullJarRelease
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :shimmer:mergeReleaseShaders
+> Task :shimmer:compileReleaseShaders
+> Task :shimmer:generateReleaseAssets
+> Task :shimmer:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :shimmer:mergeReleaseJniLibFolders
+> Task :app:mergeExtDexDebug
+> Task :shimmer:mergeReleaseNativeLibs
+> Task :shimmer:stripReleaseDebugSymbols
+> Task :shimmer:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
 BUILD SUCCESSFUL in 29s
 90 actionable tasks: 90 executed
 
-2019-08-29 10:56:25,572 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050940233-0/src/shimmer-recyclerview-x-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-29 18:15:37,862 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347696675-0/src/shimmer-recyclerview-x-master/app/build/outputs/apk/debug/app-debug.apk

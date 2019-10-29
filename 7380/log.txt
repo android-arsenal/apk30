@@ -1,48 +1,39 @@
-2019-08-29 10:48:35,199 INFO  DownloadService - Downloading "https://github.com/anggrayudi/MaterialPreference/archive/master.zip", attempt 3
-2019-08-29 10:48:36,247 INFO  DownloadService - Downloaded https://github.com/anggrayudi/MaterialPreference/archive/master.zip, attempt 3
-2019-08-29 10:48:36,247 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/master.zip": 955 KB
-2019-08-29 10:48:36,247 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-29 10:48:36,248 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/master.zip: true
-2019-08-29 10:48:36,248 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src'.
-2019-08-29 10:48:36,297 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-08-29 10:48:36,297 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src]
-2019-08-29 10:48:36,315 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/.git/
+2019-10-29 18:09:25,203 INFO  DownloadService - Downloading "https://github.com/anggrayudi/MaterialPreference/archive/master.zip", attempt 3
+2019-10-29 18:09:28,809 INFO  DownloadService - Downloaded https://github.com/anggrayudi/MaterialPreference/archive/master.zip, attempt 3
+2019-10-29 18:09:28,809 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/master.zip": 950 KB
+2019-10-29 18:09:28,809 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-29 18:09:28,815 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/master.zip: true
+2019-10-29 18:09:28,816 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src'.
+2019-10-29 18:09:28,866 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-10-29 18:09:28,866 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src]
+2019-10-29 18:09:28,886 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/.git/
 
-2019-08-29 10:48:36,319 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/gradlew
-2019-08-29 10:48:36,324 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/processor/build.gradle
-2019-08-29 10:48:36,329 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/android-release-aar.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/settings.gradle
-2019-08-29 10:48:36,329 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle", attempt 3
-2019-08-29 10:48:36,582 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle, attempt 3
-2019-08-29 10:48:36,582 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle
-2019-08-29 10:48:36,582 INFO  ProjectFixService - Fixing project...
-2019-08-29 10:48:36,605 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/local.properties
-2019-08-29 10:48:36,607 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-08-29 10:48:36,607 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-08-29 10:48:36,608 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/sample/local.properties
-2019-08-29 10:48:36,611 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-08-29 10:48:36,611 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-08-29 10:48:36,612 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/local.properties
-2019-08-29 10:48:36,613 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-29 10:48:36,613 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-29 10:48:36,613 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-08-29 10:48:36,614 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-08-29 10:48:36,615 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/annotation/local.properties
-2019-08-29 10:48:36,617 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/annotation/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-08-29 10:48:36,617 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/processor/local.properties
-2019-08-29 10:48:36,619 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/processor/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-08-29 10:48:36,619 INFO  ProjectFixService - Project was maybe fixed
-2019-08-29 10:48:36,619 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 10:48:36,620 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 10:48:46,153 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-08-29 10:48:46,153 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-08-29 10:48:46,153 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-08-29 10:49:30,702 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :materialpreference
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.4.2.
-Android SDK Build Tools 28.0.3 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
-
+2019-10-29 18:09:28,891 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/gradlew
+2019-10-29 18:09:28,896 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/processor/build.gradle
+2019-10-29 18:09:28,900 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/android-release-aar.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/settings.gradle
+2019-10-29 18:09:28,901 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle", attempt 3
+2019-10-29 18:09:29,179 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle, attempt 3
+2019-10-29 18:09:29,180 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle
+2019-10-29 18:09:29,180 INFO  ProjectFixService - Fixing project...
+2019-10-29 18:09:29,194 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/local.properties
+2019-10-29 18:09:29,197 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-10-29 18:09:29,198 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/sample/local.properties
+2019-10-29 18:09:29,201 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-10-29 18:09:29,201 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/local.properties
+2019-10-29 18:09:29,202 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-29 18:09:29,202 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-29 18:09:29,202 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-10-29 18:09:29,203 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/annotation/local.properties
+2019-10-29 18:09:29,205 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/annotation/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-10-29 18:09:29,206 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/processor/local.properties
+2019-10-29 18:09:29,208 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/processor/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-10-29 18:09:29,208 INFO  ProjectFixService - Project was maybe fixed
+2019-10-29 18:09:29,208 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-29 18:09:29,208 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-29 18:09:35,789 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-29 18:09:35,789 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-29 18:09:35,790 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-29 18:10:22,577 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :materialpreference:androidJavadocs NO-SOURCE
 > Task :materialpreference:androidJavadocsJar
 > Task :materialpreference:androidSourcesJar
@@ -55,59 +46,13 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :materialpreference:generateDebugResValues
 > Task :materialpreference:generateDebugResources
 > Task :materialpreference:packageDebugResources
-> Task :materialpreference:processDebugManifest
-> Task :materialpreference:generateDebugRFile
-
-> Task :materialpreference:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (700, 37): Parameter 'a' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (700, 52): Parameter 'index' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (1089, 38): Parameter 'dependency' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (1106, 34): Parameter 'parent' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (53, 19): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (53, 32): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (67, 22): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (67, 35): Parameter 'values' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (81, 16): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (81, 29): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (95, 17): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (95, 30): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (109, 18): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (109, 31): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (123, 20): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (123, 33): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (135, 19): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (145, 22): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (155, 16): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (165, 17): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (175, 18): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (185, 20): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceFragmentMaterial.kt: (458, 44): Parameter 'preference' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceFragmentMaterial.kt: (458, 69): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/dialog/RingtonePreferenceDialogFragment.kt: (155, 34): Parameter 'requestCode' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/dialog/SeekBarPreferenceDialogFragment.kt: (78, 44): Parameter 'max' is never used
-
-> Task :materialpreference:prepareLintJar
-> Task :materialpreference:generateDebugSources
-> Task :materialpreference:javaPreCompileDebug
-> Task :materialpreference:compileDebugJavaWithJavac
-> Task :materialpreference:extractDebugAnnotations
-> Task :materialpreference:mergeDebugConsumerProguardFiles
 > Task :materialpreference:mergeDebugShaders
 > Task :materialpreference:compileDebugShaders
 > Task :materialpreference:generateDebugAssets
 > Task :materialpreference:packageDebugAssets
 > Task :materialpreference:packageDebugRenderscript NO-SOURCE
-> Task :materialpreference:prepareLintJarForPublish
 > Task :materialpreference:processDebugJavaRes NO-SOURCE
-> Task :materialpreference:transformResourcesWithMergeJavaResForDebug
-> Task :materialpreference:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :materialpreference:mergeDebugJniLibFolders
-> Task :materialpreference:transformNativeLibsWithMergeJniLibsForDebug
-> Task :materialpreference:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :materialpreference:transformNativeLibsWithSyncJniLibsForDebug
-> Task :materialpreference:bundleDebugAar
-> Task :materialpreference:compileDebugSources
-> Task :materialpreference:assembleDebug
 > Task :materialpreference:preReleaseBuild UP-TO-DATE
 > Task :materialpreference:compileReleaseAidl NO-SOURCE
 > Task :materialpreference:compileReleaseRenderscript NO-SOURCE
@@ -116,76 +61,123 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/
 > Task :materialpreference:generateReleaseResValues
 > Task :materialpreference:generateReleaseResources
 > Task :materialpreference:packageReleaseResources
-> Task :materialpreference:processReleaseManifest
-> Task :materialpreference:generateReleaseRFile
-
-> Task :materialpreference:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (700, 37): Parameter 'a' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (700, 52): Parameter 'index' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (1089, 38): Parameter 'dependency' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (1106, 34): Parameter 'parent' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (53, 19): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (53, 32): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (67, 22): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (67, 35): Parameter 'values' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (81, 16): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (81, 29): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (95, 17): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (95, 30): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (109, 18): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (109, 31): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (123, 20): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (123, 33): Parameter 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (135, 19): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (145, 22): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (155, 16): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (165, 17): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (175, 18): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (185, 20): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceFragmentMaterial.kt: (458, 44): Parameter 'preference' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceFragmentMaterial.kt: (458, 69): Parameter 'key' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/dialog/RingtonePreferenceDialogFragment.kt: (155, 34): Parameter 'requestCode' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/dialog/SeekBarPreferenceDialogFragment.kt: (78, 44): Parameter 'max' is never used
-
-> Task :materialpreference:generateReleaseSources
-> Task :materialpreference:javaPreCompileRelease
-> Task :materialpreference:compileReleaseJavaWithJavac
-> Task :materialpreference:extractReleaseAnnotations
-> Task :materialpreference:mergeReleaseConsumerProguardFiles
+> Task :materialpreference:mergeDebugNativeLibs
+> Task :materialpreference:stripDebugDebugSymbols
+> Task :materialpreference:transformNativeLibsWithSyncJniLibsForDebug
 > Task :materialpreference:mergeReleaseShaders
 > Task :materialpreference:compileReleaseShaders
 > Task :materialpreference:generateReleaseAssets
 > Task :materialpreference:packageReleaseAssets
 > Task :materialpreference:packageReleaseRenderscript NO-SOURCE
 > Task :materialpreference:processReleaseJavaRes NO-SOURCE
-> Task :materialpreference:transformResourcesWithMergeJavaResForRelease
-> Task :materialpreference:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :materialpreference:mergeReleaseJniLibFolders
-> Task :materialpreference:transformNativeLibsWithMergeJniLibsForRelease
-> Task :materialpreference:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :materialpreference:transformNativeLibsWithSyncJniLibsForRelease
-> Task :materialpreference:bundleReleaseAar
-> Task :materialpreference:compileReleaseSources
 > Task :materialpreference:mergeReleaseResources
+> Task :materialpreference:mergeReleaseNativeLibs
+> Task :materialpreference:stripReleaseDebugSymbols
+> Task :materialpreference:transformNativeLibsWithSyncJniLibsForRelease
+> Task :materialpreference:prepareLintJarForPublish
+> Task :materialpreference:parseDebugLibraryResources
+> Task :materialpreference:processReleaseManifest
+> Task :materialpreference:processDebugManifest
+> Task :materialpreference:parseReleaseLibraryResources
+> Task :materialpreference:generateReleaseRFile
+
+> Task :materialpreference:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (700, 37): Parameter 'a' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (700, 52): Parameter 'index' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (1089, 38): Parameter 'dependency' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (1106, 34): Parameter 'parent' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (53, 19): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (53, 32): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (67, 22): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (67, 35): Parameter 'values' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (81, 16): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (81, 29): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (95, 17): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (95, 30): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (109, 18): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (109, 31): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (123, 20): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (123, 33): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (135, 19): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (145, 22): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (155, 16): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (165, 17): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (175, 18): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (185, 20): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceFragmentMaterial.kt: (458, 44): Parameter 'preference' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceFragmentMaterial.kt: (458, 69): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/dialog/RingtonePreferenceDialogFragment.kt: (155, 34): Parameter 'requestCode' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/dialog/SeekBarPreferenceDialogFragment.kt: (78, 44): Parameter 'max' is never used
+
 > Task :materialpreference:verifyReleaseResources
+> Task :materialpreference:generateDebugRFile
+
+> Task :materialpreference:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (700, 37): Parameter 'a' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (700, 52): Parameter 'index' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (1089, 38): Parameter 'dependency' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/Preference.kt: (1106, 34): Parameter 'parent' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (53, 19): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (53, 32): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (67, 22): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (67, 35): Parameter 'values' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (81, 16): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (81, 29): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (95, 17): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (95, 30): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (109, 18): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (109, 31): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (123, 20): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (123, 33): Parameter 'value' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (135, 19): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (145, 22): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (155, 16): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (165, 17): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (175, 18): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceDataStore.kt: (185, 20): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceFragmentMaterial.kt: (458, 44): Parameter 'preference' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/PreferenceFragmentMaterial.kt: (458, 69): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/dialog/RingtonePreferenceDialogFragment.kt: (155, 34): Parameter 'requestCode' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/materialpreference/src/main/java/com/anggrayudi/materialpreference/dialog/SeekBarPreferenceDialogFragment.kt: (78, 44): Parameter 'max' is never used
+
+> Task :materialpreference:javaPreCompileRelease
+> Task :materialpreference:compileReleaseJavaWithJavac
+> Task :materialpreference:extractReleaseAnnotations
+> Task :materialpreference:mergeReleaseGeneratedProguardFiles
+> Task :materialpreference:mergeReleaseConsumerProguardFiles
+> Task :materialpreference:compileReleaseSources
+> Task :materialpreference:javaPreCompileDebug
+> Task :materialpreference:compileDebugJavaWithJavac
+> Task :materialpreference:extractDebugAnnotations
+> Task :materialpreference:mergeDebugGeneratedProguardFiles
+> Task :materialpreference:mergeDebugConsumerProguardFiles
+> Task :materialpreference:mergeReleaseJavaResource
+> Task :materialpreference:compileDebugSources
+> Task :materialpreference:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :materialpreference:bundleReleaseAar
 > Task :materialpreference:assembleRelease
+> Task :materialpreference:mergeDebugJavaResource
+> Task :materialpreference:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :materialpreference:bundleDebugAar
+> Task :materialpreference:assembleDebug
 > Task :materialpreference:assemble
 > Task :materialpreference:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 43s
-48 actionable tasks: 48 executed
+BUILD SUCCESSFUL in 46s
+51 actionable tasks: 51 executed
 
-2019-08-29 10:49:30,761 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 10:49:30,761 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 10:49:35,013 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-29 10:49:35,014 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-29 10:49:35,014 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-29 10:49:35,014 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-29 10:49:39,124 ERROR SysUtils - Could not process external command
+2019-10-29 18:10:22,633 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-29 18:10:22,633 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-29 18:10:26,908 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-29 18:10:26,908 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-29 18:10:26,908 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-29 18:10:26,908 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-29 18:10:30,839 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -213,14 +205,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-29 10:49:39,124 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-29 18:10:30,839 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build completed with 2 failures.
 
 1: Task failed with an exception.
 -----------
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/sample/build.gradle' line: 14
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/sample/build.gradle' line: 14
 
 * What went wrong:
 A problem occurred evaluating project ':sample'.
@@ -232,14 +224,16 @@ Run with --info or --debug option to get more log output. Run with --scan to get
 * Exception is:
 org.gradle.api.GradleScriptException: A problem occurred evaluating project ':sample'.
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:206)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:221)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:211)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:226)
 	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:66)
 	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:63)
@@ -257,14 +251,16 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':sa
 	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:192)
 	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:186)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:95)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:67)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:693)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:141)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:695)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:143)
 	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
 	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
 	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
@@ -287,10 +283,12 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':sa
 	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:124)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:39)
 	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:333)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:218)
 	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:155)
@@ -308,14 +306,16 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':sa
 	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
 	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
 	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:49)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:44)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:44)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
 	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
@@ -340,13 +340,13 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':sa
 	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
 	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
 	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:403)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:376)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:208)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:394)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:367)
 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:369)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:299)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:360)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:292)
 	at org.gradle.launcher.Main.doAction(Main.java:36)
 	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
 	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
@@ -356,24 +356,24 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':sa
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: java.lang.IllegalArgumentException: path may not be null or empty string. path='null'
-	at org.gradle.api.internal.file.AbstractBaseDirFileResolver.doResolve(AbstractBaseDirFileResolver.java:65)
-	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:86)
-	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:65)
-	at org.gradle.api.internal.file.DefaultFileOperations.file(DefaultFileOperations.java:103)
-	at org.gradle.groovy.scripts.DefaultScript.file(DefaultScript.java:148)
+	at org.gradle.api.internal.file.AbstractBaseDirFileResolver.doResolve(AbstractBaseDirFileResolver.java:64)
+	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:79)
+	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:58)
+	at org.gradle.api.internal.file.DefaultFileOperations.file(DefaultFileOperations.java:89)
+	at org.gradle.groovy.scripts.DefaultScript.file(DefaultScript.java:154)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
-	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:129)
-	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:78)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:128)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
 	at org.gradle.internal.metaobject.BeanDynamicObject$GroovyObjectAdapter.invokeOpaqueMethod(BeanDynamicObject.java:579)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
-	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:78)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
 	at org.gradle.internal.metaobject.BeanDynamicObject$GroovyObjectAdapter.invokeOpaqueMethod(BeanDynamicObject.java:579)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
-	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:78)
-	at build_colt1btziwojv6f001ogutfxf$_run_closure1$_closure4$_closure9.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/sample/build.gradle:14)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
+	at build_bz16zyld90hv1cnr3g6pft8pi$_run_closure1$_closure4$_closure9.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/sample/build.gradle:14)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -381,8 +381,8 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:96)
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:88)
 	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:39)
-	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:66)
-	at build_colt1btziwojv6f001ogutfxf$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/sample/build.gradle:10)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:65)
+	at build_bz16zyld90hv1cnr3g6pft8pi$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/sample/build.gradle:10)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:142)
@@ -390,31 +390,31 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:39)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:103)
 	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:166)
-	at com.android.build.gradle.BaseExtension.signingConfigs(BaseExtension.java:430)
+	at com.android.build.gradle.BaseExtension.signingConfigs(BaseExtension.java:424)
 	at com.android.build.gradle.internal.dsl.BaseAppModuleExtension_Decorated.signingConfigs(Unknown Source)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
-	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
-	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:57)
-	at build_colt1btziwojv6f001ogutfxf$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/sample/build.gradle:9)
+	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:56)
+	at build_bz16zyld90hv1cnr3g6pft8pi$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/sample/build.gradle:9)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
 	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:166)
-	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:173)
-	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:64)
-	at org.gradle.api.internal.plugins.DefaultConvention.configureExtension(DefaultConvention.java:390)
-	at org.gradle.api.internal.plugins.DefaultConvention.access$500(DefaultConvention.java:43)
-	at org.gradle.api.internal.plugins.DefaultConvention$ExtensionsDynamicObject.tryInvokeMethod(DefaultConvention.java:327)
+	at org.gradle.internal.extensibility.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:173)
+	at org.gradle.internal.extensibility.ExtensionsStorage.configureExtension(ExtensionsStorage.java:64)
+	at org.gradle.internal.extensibility.DefaultConvention.configureExtension(DefaultConvention.java:372)
+	at org.gradle.internal.extensibility.DefaultConvention.access$500(DefaultConvention.java:44)
+	at org.gradle.internal.extensibility.DefaultConvention$ExtensionsDynamicObject.tryInvokeMethod(DefaultConvention.java:309)
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
-	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
-	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
+	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:132)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
-	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_colt1btziwojv6f001ogutfxf.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/sample/build.gradle:8)
+	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:81)
+	at build_bz16zyld90hv1cnr3g6pft8pi.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/sample/build.gradle:8)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
-	... 123 more
+	... 131 more
 
 ==============================================================================
 
@@ -437,14 +437,16 @@ org.gradle.api.ProjectConfigurationException: A problem occurred configuring pro
 	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:192)
 	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:186)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:95)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:67)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:693)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:141)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:695)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:143)
 	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
 	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
 	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
@@ -467,10 +469,12 @@ org.gradle.api.ProjectConfigurationException: A problem occurred configuring pro
 	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:124)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:39)
 	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:333)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:218)
 	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:155)
@@ -488,14 +492,16 @@ org.gradle.api.ProjectConfigurationException: A problem occurred configuring pro
 	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
 	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
 	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:49)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:44)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:44)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
 	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
@@ -520,13 +526,13 @@ org.gradle.api.ProjectConfigurationException: A problem occurred configuring pro
 	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
 	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
 	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:403)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:376)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:208)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:394)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:367)
 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:369)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:299)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:360)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:292)
 	at org.gradle.launcher.Main.doAction(Main.java:36)
 	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -545,18 +551,20 @@ org.gradle.api.ProjectConfigurationException: A problem occurred configuring pro
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: java.lang.IllegalStateException: compileSdkVersion is not specified.
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:507)
-	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:688)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
-	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:646)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:653)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:82)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$5(BasePlugin.java:613)
 	at com.android.build.gradle.internal.crash.CrashReporting$afterEvaluate$1.execute(crash_reporting.kt:37)
 	at com.android.build.gradle.internal.crash.CrashReporting$afterEvaluate$1.execute(crash_reporting.kt)
 	at org.gradle.configuration.internal.DefaultListenerBuildOperationDecorator$BuildOperationEmittingAction$1$1.run(DefaultListenerBuildOperationDecorator.java:150)
 	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.reapply(DefaultUserCodeApplicationContext.java:58)
 	at org.gradle.configuration.internal.DefaultListenerBuildOperationDecorator$BuildOperationEmittingAction$1.run(DefaultListenerBuildOperationDecorator.java:147)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.configuration.internal.DefaultListenerBuildOperationDecorator$BuildOperationEmittingAction.execute(DefaultListenerBuildOperationDecorator.java:144)
 	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
 	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
@@ -572,15 +580,17 @@ Caused by: java.lang.IllegalStateException: compileSdkVersion is not specified.
 	at com.sun.proxy.$Proxy24.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$NotifyAfterEvaluate$1.execute(LifecycleProjectEvaluator.java:190)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$NotifyAfterEvaluate$1.execute(LifecycleProjectEvaluator.java:187)
-	at org.gradle.api.internal.project.DefaultProject.stepEvaluationListener(DefaultProject.java:1419)
+	at org.gradle.api.internal.project.DefaultProject.stepEvaluationListener(DefaultProject.java:1424)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$NotifyAfterEvaluate.run(LifecycleProjectEvaluator.java:196)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject$1.run(LifecycleProjectEvaluator.java:111)
-	... 110 more
+	... 116 more
 
 ==============================================================================
 
@@ -588,13 +598,13 @@ Caused by: java.lang.IllegalStateException: compileSdkVersion is not specified.
 
 BUILD FAILED in 3s
 
-2019-08-29 10:49:39,176 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 10:49:39,176 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 10:49:47,176 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-29 10:49:47,176 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-29 10:49:47,176 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-29 10:49:47,176 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-29 10:49:55,738 ERROR SysUtils - Could not process external command
+2019-10-29 18:10:30,892 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-29 18:10:30,892 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-29 18:10:37,087 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-29 18:10:37,087 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-29 18:10:37,087 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-29 18:10:37,087 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-29 18:10:42,986 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -622,19 +632,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-29 10:49:55,738 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :materialpreference
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.4.2.
-Android SDK Build Tools 28.0.3 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+2019-10-29 18:10:42,986 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build completed with 2 failures.
 
 1: Task failed with an exception.
 -----------
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/sample/build.gradle' line: 14
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/sample/build.gradle' line: 14
 
 * What went wrong:
 A problem occurred evaluating project ':sample'.
@@ -646,14 +651,16 @@ Run with --info or --debug option to get more log output. Run with --scan to get
 * Exception is:
 org.gradle.api.GradleScriptException: A problem occurred evaluating project ':sample'.
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:206)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:221)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:211)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:226)
 	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:66)
 	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:63)
@@ -671,14 +678,16 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':sa
 	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:192)
 	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:186)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:95)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:67)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:693)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:141)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:695)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:143)
 	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
 	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
 	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
@@ -701,10 +710,12 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':sa
 	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:124)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:39)
 	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:333)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:218)
 	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:155)
@@ -722,14 +733,16 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':sa
 	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
 	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
 	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:49)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:44)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:44)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
 	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
@@ -754,13 +767,13 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':sa
 	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
 	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
 	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:403)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:376)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:208)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:394)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:367)
 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:369)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:299)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:360)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:292)
 	at org.gradle.launcher.Main.doAction(Main.java:36)
 	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
 	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
@@ -770,24 +783,24 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':sa
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: java.lang.IllegalArgumentException: path may not be null or empty string. path='null'
-	at org.gradle.api.internal.file.AbstractBaseDirFileResolver.doResolve(AbstractBaseDirFileResolver.java:65)
-	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:86)
-	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:65)
-	at org.gradle.api.internal.file.DefaultFileOperations.file(DefaultFileOperations.java:103)
-	at org.gradle.groovy.scripts.DefaultScript.file(DefaultScript.java:148)
+	at org.gradle.api.internal.file.AbstractBaseDirFileResolver.doResolve(AbstractBaseDirFileResolver.java:64)
+	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:79)
+	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:58)
+	at org.gradle.api.internal.file.DefaultFileOperations.file(DefaultFileOperations.java:89)
+	at org.gradle.groovy.scripts.DefaultScript.file(DefaultScript.java:154)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
-	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:129)
-	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:78)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:128)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
 	at org.gradle.internal.metaobject.BeanDynamicObject$GroovyObjectAdapter.invokeOpaqueMethod(BeanDynamicObject.java:579)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
-	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:78)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
 	at org.gradle.internal.metaobject.BeanDynamicObject$GroovyObjectAdapter.invokeOpaqueMethod(BeanDynamicObject.java:579)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
-	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:78)
-	at build_colt1btziwojv6f001ogutfxf$_run_closure1$_closure4$_closure9.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/sample/build.gradle:14)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
+	at build_bz16zyld90hv1cnr3g6pft8pi$_run_closure1$_closure4$_closure9.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/sample/build.gradle:14)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -795,8 +808,8 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:96)
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:88)
 	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:39)
-	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:66)
-	at build_colt1btziwojv6f001ogutfxf$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/sample/build.gradle:10)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:65)
+	at build_bz16zyld90hv1cnr3g6pft8pi$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/sample/build.gradle:10)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:142)
@@ -804,31 +817,31 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:39)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:103)
 	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:166)
-	at com.android.build.gradle.BaseExtension.signingConfigs(BaseExtension.java:430)
+	at com.android.build.gradle.BaseExtension.signingConfigs(BaseExtension.java:424)
 	at com.android.build.gradle.internal.dsl.BaseAppModuleExtension_Decorated.signingConfigs(Unknown Source)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
-	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
-	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:57)
-	at build_colt1btziwojv6f001ogutfxf$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/sample/build.gradle:9)
+	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:56)
+	at build_bz16zyld90hv1cnr3g6pft8pi$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/sample/build.gradle:9)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
 	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:166)
-	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:173)
-	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:64)
-	at org.gradle.api.internal.plugins.DefaultConvention.configureExtension(DefaultConvention.java:390)
-	at org.gradle.api.internal.plugins.DefaultConvention.access$500(DefaultConvention.java:43)
-	at org.gradle.api.internal.plugins.DefaultConvention$ExtensionsDynamicObject.tryInvokeMethod(DefaultConvention.java:327)
+	at org.gradle.internal.extensibility.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:173)
+	at org.gradle.internal.extensibility.ExtensionsStorage.configureExtension(ExtensionsStorage.java:64)
+	at org.gradle.internal.extensibility.DefaultConvention.configureExtension(DefaultConvention.java:372)
+	at org.gradle.internal.extensibility.DefaultConvention.access$500(DefaultConvention.java:44)
+	at org.gradle.internal.extensibility.DefaultConvention$ExtensionsDynamicObject.tryInvokeMethod(DefaultConvention.java:309)
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
-	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
-	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
+	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:132)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
-	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_colt1btziwojv6f001ogutfxf.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/sample/build.gradle:8)
+	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:81)
+	at build_bz16zyld90hv1cnr3g6pft8pi.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/sample/build.gradle:8)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
-	... 123 more
+	... 131 more
 
 ==============================================================================
 
@@ -851,14 +864,16 @@ org.gradle.api.ProjectConfigurationException: A problem occurred configuring pro
 	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:192)
 	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:186)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:95)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:67)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:693)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:141)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:695)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:143)
 	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
 	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
 	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
@@ -881,10 +896,12 @@ org.gradle.api.ProjectConfigurationException: A problem occurred configuring pro
 	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:124)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:39)
 	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:333)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:218)
 	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:155)
@@ -902,14 +919,16 @@ org.gradle.api.ProjectConfigurationException: A problem occurred configuring pro
 	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
 	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
 	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:49)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:44)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:44)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
 	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
@@ -934,13 +953,13 @@ org.gradle.api.ProjectConfigurationException: A problem occurred configuring pro
 	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
 	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
 	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:403)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:376)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:208)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:394)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:367)
 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:369)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:299)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:360)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:292)
 	at org.gradle.launcher.Main.doAction(Main.java:36)
 	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -959,18 +978,20 @@ org.gradle.api.ProjectConfigurationException: A problem occurred configuring pro
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: java.lang.IllegalStateException: compileSdkVersion is not specified.
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:507)
-	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:688)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
-	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:646)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:653)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:82)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$5(BasePlugin.java:613)
 	at com.android.build.gradle.internal.crash.CrashReporting$afterEvaluate$1.execute(crash_reporting.kt:37)
 	at com.android.build.gradle.internal.crash.CrashReporting$afterEvaluate$1.execute(crash_reporting.kt)
 	at org.gradle.configuration.internal.DefaultListenerBuildOperationDecorator$BuildOperationEmittingAction$1$1.run(DefaultListenerBuildOperationDecorator.java:150)
 	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.reapply(DefaultUserCodeApplicationContext.java:58)
 	at org.gradle.configuration.internal.DefaultListenerBuildOperationDecorator$BuildOperationEmittingAction$1.run(DefaultListenerBuildOperationDecorator.java:147)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.configuration.internal.DefaultListenerBuildOperationDecorator$BuildOperationEmittingAction.execute(DefaultListenerBuildOperationDecorator.java:144)
 	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
 	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
@@ -986,28 +1007,30 @@ Caused by: java.lang.IllegalStateException: compileSdkVersion is not specified.
 	at com.sun.proxy.$Proxy24.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$NotifyAfterEvaluate$1.execute(LifecycleProjectEvaluator.java:190)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$NotifyAfterEvaluate$1.execute(LifecycleProjectEvaluator.java:187)
-	at org.gradle.api.internal.project.DefaultProject.stepEvaluationListener(DefaultProject.java:1419)
+	at org.gradle.api.internal.project.DefaultProject.stepEvaluationListener(DefaultProject.java:1424)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$NotifyAfterEvaluate.run(LifecycleProjectEvaluator.java:196)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject$1.run(LifecycleProjectEvaluator.java:111)
-	... 110 more
+	... 116 more
 
 ==============================================================================
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 8s
+BUILD FAILED in 5s
 
-2019-08-29 10:49:55,799 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 10:49:55,799 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 10:50:00,291 INFO  ProjectTaskService - Detected possible tasks: 42
-2019-08-29 10:50:00,291 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-08-29 10:50:00,291 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-08-29 10:50:09,607 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-29 18:10:43,042 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-29 18:10:43,042 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-29 18:10:46,917 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-10-29 18:10:46,917 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-10-29 18:10:46,918 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-10-29 18:10:55,054 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :annotation:compileKotlin
 > Task :annotation:compileJava NO-SOURCE
 > Task :annotation:processResources NO-SOURCE
@@ -1019,15 +1042,15 @@ BUILD FAILED in 8s
 > Task :annotation:assemble
 > Task :annotation:build
 
-BUILD SUCCESSFUL in 8s
+BUILD SUCCESSFUL in 7s
 5 actionable tasks: 5 executed
 
-2019-08-29 10:50:09,666 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 10:50:09,666 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 10:50:13,670 INFO  ProjectTaskService - Detected possible tasks: 42
-2019-08-29 10:50:13,670 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-08-29 10:50:13,670 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567050515196-0/src/MaterialPreference-master/processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-08-29 10:50:29,527 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-29 18:10:55,111 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-29 18:10:55,111 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-29 18:10:59,117 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-10-29 18:10:59,118 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-10-29 18:10:59,118 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347365199-0/src/MaterialPreference-master/processor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-10-29 18:11:15,534 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :annotation:compileKotlin UP-TO-DATE
 > Task :annotation:compileJava NO-SOURCE
 > Task :annotation:processResources NO-SOURCE
@@ -1035,7 +1058,10 @@ BUILD SUCCESSFUL in 8s
 > Task :annotation:inspectClassesForKotlinIC UP-TO-DATE
 > Task :annotation:jar UP-TO-DATE
 > Task :processor:kaptGenerateStubsKotlin
+
 > Task :processor:kaptKotlin
+w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: com.google.auto.service.processor.AutoServiceProcessor (NON_INCREMENTAL).
+
 > Task :processor:compileKotlin
 > Task :processor:compileJava NO-SOURCE
 > Task :processor:processResources NO-SOURCE
@@ -1050,5 +1076,5 @@ BUILD SUCCESSFUL in 8s
 BUILD SUCCESSFUL in 15s
 10 actionable tasks: 7 executed, 3 up-to-date
 
-2019-08-29 10:50:29,588 ERROR FullProcessService - Project build has not produced APK file
-2019-08-29 10:50:29,644 ERROR FullProcessService - Could not find generated or existed APK file
+2019-10-29 18:11:15,594 ERROR FullProcessService - Project build has not produced APK file
+2019-10-29 18:11:15,654 ERROR FullProcessService - Could not find generated or existed APK file
