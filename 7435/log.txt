@@ -1,57 +1,43 @@
-2019-07-20 11:30:28,013 INFO  DownloadService - Downloading "https://github.com/erkutaras/StateLayout/archive/master.zip", attempt 3
-2019-07-20 11:30:31,723 INFO  DownloadService - Downloaded https://github.com/erkutaras/StateLayout/archive/master.zip, attempt 3
-2019-07-20 11:30:31,723 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/master.zip": 2 MB
-2019-07-20 11:30:31,723 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-20 11:30:31,725 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/master.zip: true
-2019-07-20 11:30:31,725 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src'.
-2019-07-20 11:30:31,761 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-07-20 11:30:31,761 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src]
-2019-07-20 11:30:31,790 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/.git/
+2019-10-30 12:21:47,024 INFO  DownloadService - Downloading "https://github.com/erkutaras/StateLayout/archive/master.zip", attempt 3
+2019-10-30 12:21:49,369 INFO  DownloadService - Downloaded https://github.com/erkutaras/StateLayout/archive/master.zip, attempt 3
+2019-10-30 12:21:49,370 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/master.zip": 2 MB
+2019-10-30 12:21:49,370 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-30 12:21:49,370 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/master.zip: true
+2019-10-30 12:21:49,371 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src'.
+2019-10-30 12:21:49,405 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-10-30 12:21:49,405 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src]
+2019-10-30 12:21:49,422 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/.git/
 
-2019-07-20 11:30:31,794 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/gradlew
-2019-07-20 11:30:31,799 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/build.gradle
-2019-07-20 11:30:31,804 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/settings.gradle
-2019-07-20 11:30:31,804 INFO  ProjectBuildService - Remote scripts: none
-2019-07-20 11:30:31,804 INFO  ProjectFixService - Fixing project...
-2019-07-20 11:30:31,815 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/library/local.properties
-2019-07-20 11:30:31,817 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-20 11:30:31,817 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-20 11:30:31,819 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/sample/local.properties
-2019-07-20 11:30:31,820 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-20 11:30:31,820 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-20 11:30:31,822 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/local.properties
-2019-07-20 11:30:31,822 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-20 11:30:31,823 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-20 11:30:31,825 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-20 11:30:31,826 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-20 11:30:31,827 INFO  ProjectFixService - Project was maybe fixed
-2019-07-20 11:30:31,827 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-20 11:30:31,827 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-20 11:30:40,542 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-07-20 11:30:40,543 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-20 11:30:40,543 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-20 11:31:01,803 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-30 12:21:49,424 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/gradlew
+2019-10-30 12:21:49,427 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/build.gradle
+2019-10-30 12:21:49,428 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/settings.gradle
+2019-10-30 12:21:49,429 INFO  ProjectBuildService - Remote scripts: none
+2019-10-30 12:21:49,429 INFO  ProjectFixService - Fixing project...
+2019-10-30 12:21:49,434 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/library/local.properties
+2019-10-30 12:21:49,435 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-10-30 12:21:49,435 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-10-30 12:21:49,436 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/sample/local.properties
+2019-10-30 12:21:49,437 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-10-30 12:21:49,437 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-10-30 12:21:49,437 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/local.properties
+2019-10-30 12:21:49,438 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-10-30 12:21:49,438 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-10-30 12:21:49,439 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-10-30 12:21:49,439 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-10-30 12:21:49,439 INFO  ProjectFixService - Project was maybe fixed
+2019-10-30 12:21:49,439 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-30 12:21:49,439 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-30 12:21:55,479 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-10-30 12:21:55,479 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-30 12:21:55,479 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-30 12:22:13,355 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:checkDebugManifest
 > Task :library:generateDebugBuildConfig
-> Task :library:compileDebugRenderscript NO-SOURCE
-> Task :library:compileDebugAidl NO-SOURCE
 > Task :library:generateDebugResValues
-> Task :library:generateDebugResources
 > Task :library:processDebugManifest
-> Task :library:packageDebugResources
-> Task :library:generateDebugRFile
-
-> Task :library:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/library/src/main/java/com/erkutaras/statelayout/StateLayout.kt: (303, 27): 'onStateLayoutListener: StateLayout.OnStateLayoutListener?' is deprecated. onInfoButtonClick is more convenient
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/library/src/main/java/com/erkutaras/statelayout/StateLayout.kt: (303, 56): 'infoButtonListener(StateLayout.OnStateLayoutListener?): StateLayout' is deprecated. infoButtonListener(block: () -> Unit) calling is more convenient
-
 > Task :library:prepareLintJar
-> Task :library:generateDebugSources
-> Task :library:javaPreCompileDebug
-> Task :library:compileDebugJavaWithJavac
-> Task :library:extractDebugAnnotations
 > Task :library:mergeDebugConsumerProguardFiles
 > Task :library:mergeDebugShaders
 > Task :library:compileDebugShaders
@@ -60,17 +46,31 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/
 > Task :library:packageDebugRenderscript NO-SOURCE
 > Task :library:prepareLintJarForPublish
 > Task :library:processDebugJavaRes NO-SOURCE
-> Task :library:transformResourcesWithMergeJavaResForDebug
-> Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :library:mergeDebugJniLibFolders
 > Task :library:transformNativeLibsWithMergeJniLibsForDebug
 > Task :library:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :library:transformNativeLibsWithSyncJniLibsForDebug
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :library:preReleaseBuild UP-TO-DATE
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:generateDebugResources
+> Task :library:packageDebugResources
+> Task :library:generateDebugRFile
+
+> Task :library:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/library/src/main/java/com/erkutaras/statelayout/StateLayout.kt: (303, 27): 'onStateLayoutListener: StateLayout.OnStateLayoutListener?' is deprecated. onInfoButtonClick is more convenient
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/library/src/main/java/com/erkutaras/statelayout/StateLayout.kt: (303, 56): 'infoButtonListener(StateLayout.OnStateLayoutListener?): StateLayout' is deprecated. infoButtonListener(block: () -> Unit) calling is more convenient
+
+> Task :library:generateDebugSources
+> Task :library:javaPreCompileDebug
+> Task :library:compileDebugJavaWithJavac
+> Task :library:extractDebugAnnotations
+> Task :library:transformResourcesWithMergeJavaResForDebug
+> Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :library:bundleDebugAar
 > Task :library:compileDebugSources
 > Task :library:assembleDebug
-> Task :library:preReleaseBuild UP-TO-DATE
-> Task :library:compileReleaseAidl NO-SOURCE
 > Task :library:compileReleaseRenderscript NO-SOURCE
 > Task :library:checkReleaseManifest
 > Task :library:generateReleaseBuildConfig
@@ -81,8 +81,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/
 > Task :library:generateReleaseRFile
 
 > Task :library:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/library/src/main/java/com/erkutaras/statelayout/StateLayout.kt: (303, 27): 'onStateLayoutListener: StateLayout.OnStateLayoutListener?' is deprecated. onInfoButtonClick is more convenient
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/library/src/main/java/com/erkutaras/statelayout/StateLayout.kt: (303, 56): 'infoButtonListener(StateLayout.OnStateLayoutListener?): StateLayout' is deprecated. infoButtonListener(block: () -> Unit) calling is more convenient
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/library/src/main/java/com/erkutaras/statelayout/StateLayout.kt: (303, 27): 'onStateLayoutListener: StateLayout.OnStateLayoutListener?' is deprecated. onInfoButtonClick is more convenient
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/library/src/main/java/com/erkutaras/statelayout/StateLayout.kt: (303, 56): 'infoButtonListener(StateLayout.OnStateLayoutListener?): StateLayout' is deprecated. infoButtonListener(block: () -> Unit) calling is more convenient
 
 > Task :library:generateReleaseSources
 > Task :library:javaPreCompileRelease
@@ -113,15 +113,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 20s
+BUILD SUCCESSFUL in 17s
 46 actionable tasks: 46 executed
 
-2019-07-20 11:31:01,848 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-20 11:31:01,848 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-20 11:31:09,395 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-20 11:31:09,395 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-20 11:31:09,395 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-20 11:32:01,282 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-30 12:22:13,389 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-30 12:22:13,389 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-30 12:22:19,341 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-30 12:22:19,341 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-30 12:22:19,341 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-30 12:23:02,885 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:compileDebugAidl NO-SOURCE
@@ -130,12 +130,12 @@ BUILD SUCCESSFUL in 20s
 > Task :library:generateDebugBuildConfig UP-TO-DATE
 > Task :library:generateDebugResValues UP-TO-DATE
 > Task :library:generateDebugResources UP-TO-DATE
-> Task :library:processDebugManifest UP-TO-DATE
 > Task :library:packageDebugResources UP-TO-DATE
-> Task :library:generateDebugRFile UP-TO-DATE
-> Task :library:compileDebugKotlin UP-TO-DATE
+> Task :library:processDebugManifest UP-TO-DATE
 > Task :library:prepareLintJar UP-TO-DATE
 > Task :library:generateDebugSources UP-TO-DATE
+> Task :library:generateDebugRFile UP-TO-DATE
+> Task :library:compileDebugKotlin UP-TO-DATE
 > Task :library:javaPreCompileDebug UP-TO-DATE
 > Task :library:compileDebugJavaWithJavac UP-TO-DATE
 > Task :library:bundleLibCompileDebug
@@ -144,13 +144,13 @@ BUILD SUCCESSFUL in 20s
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :library:packageDebugRenderscript NO-SOURCE
 > Task :sample:checkDebugManifest
-> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:mainApkListPersistenceDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
-> Task :sample:mergeDebugResources
 > Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:mergeDebugResources
 > Task :sample:processDebugManifest
 > Task :sample:processDebugResources
 > Task :sample:compileDebugKotlin
@@ -223,11 +223,11 @@ BUILD SUCCESSFUL in 20s
 > Task :sample:compileReleaseSources
 > Task :library:prepareLintJarForPublish UP-TO-DATE
 > Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:bundleLibResRelease
 
 > Task :sample:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/bfb2eb7d056d98f327a806ededfd373d/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-> Task :library:bundleLibResRelease
 > Task :library:bundleLibRuntimeRelease
 > Task :library:createFullJarRelease
 > Task :sample:checkReleaseDuplicateClasses
@@ -261,7 +261,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 51s
+BUILD SUCCESSFUL in 42s
 95 actionable tasks: 63 executed, 32 up-to-date
 
-2019-07-20 11:32:01,394 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563597028010-0/src/StateLayout-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-10-30 12:23:02,976 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412907022-0/src/StateLayout-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

@@ -1,173 +1,170 @@
-2019-02-23 18:25:25,561 INFO  DownloadService - Downloading "https://github.com/andrefrsousa/SuperToolbar/archive/master.zip", attempt 3
-2019-02-23 18:26:26,466 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-02-23 18:26:28,121 INFO  GithubDownloadService - Default branch of this repository: master
-2019-02-23 18:26:28,121 INFO  DownloadService - Downloading "https://github.com/andrefrsousa/SuperToolbar/archive/master.zip", attempt 3
-2019-02-23 18:27:30,014 DEBUG FullProcessService - Repository https://github.com/andrefrsousa/SuperToolbar available: true
-2019-02-23 18:27:30,014 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-02-23 18:27:30,014 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/andrefrsousa/SuperToolbar, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src]
-2019-02-23 18:27:32,040 INFO  SysUtils - 
-2019-02-23 18:27:32,073 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/.git": true
-2019-02-23 18:27:32,076 INFO  FullProcessService - Size of directory with sources: 954 KB
-2019-02-23 18:27:32,076 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src]
-2019-02-23 18:27:32,092 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/.git/
+2019-10-30 12:24:25,157 INFO  DownloadService - Downloading "https://github.com/andrefrsousa/SuperToolbar/archive/master.zip", attempt 3
+2019-10-30 12:24:28,254 INFO  DownloadService - Downloaded https://github.com/andrefrsousa/SuperToolbar/archive/master.zip, attempt 3
+2019-10-30 12:24:28,255 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/master.zip": 909 KB
+2019-10-30 12:24:28,255 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-30 12:24:28,260 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/master.zip: true
+2019-10-30 12:24:28,261 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src'.
+2019-10-30 12:24:28,283 INFO  FullProcessService - Size of directory with sources: 956 KB
+2019-10-30 12:24:28,283 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src]
+2019-10-30 12:24:28,300 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/.git/
 
-2019-02-23 18:27:32,094 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/gradlew
-2019-02-23 18:27:32,097 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/build.gradle
-2019-02-23 18:27:32,100 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/settings.gradle
-2019-02-23 18:27:32,100 INFO  ProjectBuildService - Remote scripts: none
-2019-02-23 18:27:32,100 INFO  ProjectFixService - Fixing project...
-2019-02-23 18:27:32,106 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/demo/local.properties
-2019-02-23 18:27:32,107 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-02-23 18:27:32,107 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-02-23 18:27:32,107 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/lib/local.properties
-2019-02-23 18:27:32,108 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-02-23 18:27:32,108 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-02-23 18:27:32,108 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/local.properties
-2019-02-23 18:27:32,109 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-02-23 18:27:32,109 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-02-23 18:27:32,110 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-02-23 18:27:32,110 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-02-23 18:27:32,110 INFO  ProjectFixService - Project was maybe fixed
-2019-02-23 18:27:32,110 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-23 18:27:32,111 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-23 18:27:39,222 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-02-23 18:27:39,222 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-23 18:27:39,222 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-23 18:28:19,004 INFO  SysUtils - Configuration on demand is an incubating feature.
-:demo:checkDebugClasspath
-:demo:preBuild UP-TO-DATE
-:lib:preBuild UP-TO-DATE
-:lib:preDebugBuild UP-TO-DATE
-:lib:checkDebugManifest
-:lib:processDebugManifest
-:demo:preDebugBuild
-:lib:compileDebugAidl NO-SOURCE
-:demo:compileDebugAidl NO-SOURCE
-:lib:packageDebugRenderscript NO-SOURCE
-:demo:compileDebugRenderscript
-:demo:checkDebugManifest
-:demo:generateDebugBuildConfig
-:demo:mainApkListPersistenceDebug
-:demo:generateDebugResValues
-:demo:generateDebugResources
-:lib:compileDebugRenderscript
-:lib:generateDebugResValues
-:lib:generateDebugResources
-:lib:packageDebugResources
-:demo:mergeDebugResources
-:demo:createDebugCompatibleScreenManifests
-:demo:processDebugManifest
-:demo:splitsDiscoveryTaskDebug
-:lib:generateDebugRFile
-:demo:processDebugResources
-:lib:generateDebugBuildConfig
-:lib:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/lib/src/main/java/com/andrefrsousa/supertoolbar/SuperToolbar.kt: (130, 27): 'setTextAppearance(Context!, Int): Unit' is deprecated. Overrides deprecated member in 'android.widget.TextView'. Deprecated in Java
-:lib:prepareLintJar
-:lib:generateDebugSources
-:lib:javaPreCompileDebug
-:lib:compileDebugJavaWithJavac
-:lib:processDebugJavaRes NO-SOURCE
-:lib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:demo:compileDebugKotlin
-:demo:prepareLintJar
-:demo:generateDebugSources
-:demo:javaPreCompileDebug
-:demo:compileDebugJavaWithJavac
-:demo:compileDebugNdk NO-SOURCE
-:demo:compileDebugSources
-:demo:mergeDebugShaders
-:demo:compileDebugShaders
-:demo:generateDebugAssets
-:lib:mergeDebugShaders
-:lib:compileDebugShaders
-:lib:generateDebugAssets
-:lib:packageDebugAssets
-:demo:mergeDebugAssets
-:demo:transformClassesWithDexBuilderForDebug
-:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
-:demo:transformDexArchiveWithDexMergerForDebug
-:demo:mergeDebugJniLibFolders
-:lib:compileDebugNdk NO-SOURCE
-:lib:mergeDebugJniLibFolders
-:lib:transformNativeLibsWithMergeJniLibsForDebug
-:lib:transformNativeLibsWithStripDebugSymbolForDebug
-:lib:transformNativeLibsWithIntermediateJniLibsForDebug
-:demo:transformNativeLibsWithMergeJniLibsForDebug
-:demo:transformNativeLibsWithStripDebugSymbolForDebug
-:demo:checkDebugLibraries
-:demo:processDebugJavaRes NO-SOURCE
-:demo:transformResourcesWithMergeJavaResForDebug
-:demo:validateSigningDebug
-:demo:packageDebug
-:demo:assembleDebug
-:demo:checkReleaseClasspath
-:lib:preReleaseBuild UP-TO-DATE
-:lib:checkReleaseManifest
-:lib:processReleaseManifest
-:demo:preReleaseBuild
-:lib:compileReleaseAidl NO-SOURCE
-:demo:compileReleaseAidl NO-SOURCE
-:lib:packageReleaseRenderscript NO-SOURCE
-:demo:compileReleaseRenderscript
-:demo:checkReleaseManifest
-:demo:generateReleaseBuildConfig
-:demo:mainApkListPersistenceRelease
-:demo:generateReleaseResValues
-:demo:generateReleaseResources
-:lib:compileReleaseRenderscript
-:lib:generateReleaseResValues
-:lib:generateReleaseResources
-:lib:packageReleaseResources
-:demo:mergeReleaseResources
-:demo:createReleaseCompatibleScreenManifests
-:demo:processReleaseManifest
-:demo:splitsDiscoveryTaskRelease
-:lib:generateReleaseRFile
-:demo:processReleaseResources
-:lib:generateReleaseBuildConfig
-:lib:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/lib/src/main/java/com/andrefrsousa/supertoolbar/SuperToolbar.kt: (130, 27): 'setTextAppearance(Context!, Int): Unit' is deprecated. Overrides deprecated member in 'android.widget.TextView'. Deprecated in Java
-:lib:generateReleaseSources
-:lib:javaPreCompileRelease
-:lib:compileReleaseJavaWithJavac
-:lib:processReleaseJavaRes NO-SOURCE
-:lib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:demo:compileReleaseKotlin
-:demo:generateReleaseSources
-:demo:javaPreCompileRelease
-:demo:compileReleaseJavaWithJavac
-:demo:compileReleaseNdk NO-SOURCE
-:demo:compileReleaseSources
-:demo:lintVitalRelease
-:demo:mergeReleaseShaders
-:demo:compileReleaseShaders
-:demo:generateReleaseAssets
-:lib:mergeReleaseShaders
-:lib:compileReleaseShaders
-:lib:generateReleaseAssets
-:lib:packageReleaseAssets
-:demo:mergeReleaseAssets
-:demo:transformClassesWithDexBuilderForRelease
-:demo:transformDexArchiveWithExternalLibsDexMergerForRelease
-:demo:transformDexArchiveWithDexMergerForRelease
-:demo:mergeReleaseJniLibFolders
-:lib:compileReleaseNdk NO-SOURCE
-:lib:mergeReleaseJniLibFolders
-:lib:transformNativeLibsWithMergeJniLibsForRelease
-:lib:transformNativeLibsWithStripDebugSymbolForRelease
-:lib:transformNativeLibsWithIntermediateJniLibsForRelease
-:demo:transformNativeLibsWithMergeJniLibsForRelease
-:demo:transformNativeLibsWithStripDebugSymbolForRelease
-:demo:checkReleaseLibraries
-:demo:processReleaseJavaRes NO-SOURCE
-:demo:transformResourcesWithMergeJavaResForRelease
-:demo:packageRelease
-:demo:assembleRelease
-:demo:assemble
-:demo:build
+2019-10-30 12:24:28,302 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/gradlew
+2019-10-30 12:24:28,304 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/build.gradle
+2019-10-30 12:24:28,306 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/settings.gradle
+2019-10-30 12:24:28,306 INFO  ProjectBuildService - Remote scripts: none
+2019-10-30 12:24:28,306 INFO  ProjectFixService - Fixing project...
+2019-10-30 12:24:28,311 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/demo/local.properties
+2019-10-30 12:24:28,311 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-30 12:24:28,311 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-30 12:24:28,312 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/lib/local.properties
+2019-10-30 12:24:28,313 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-30 12:24:28,313 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-30 12:24:28,313 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/local.properties
+2019-10-30 12:24:28,313 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.2-all.zip
+2019-10-30 12:24:28,314 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.2-bin.zip)
+2019-10-30 12:24:28,314 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-30 12:24:28,315 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-30 12:24:28,315 INFO  ProjectFixService - Project was maybe fixed
+2019-10-30 12:24:28,315 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-30 12:24:28,315 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-30 12:24:33,969 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-30 12:24:33,969 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-30 12:24:33,969 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-30 12:25:09,303 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :demo:preBuild UP-TO-DATE
+> Task :demo:preDebugBuild UP-TO-DATE
+> Task :lib:preBuild UP-TO-DATE
+> Task :lib:preDebugBuild UP-TO-DATE
+> Task :lib:compileDebugAidl NO-SOURCE
+> Task :demo:compileDebugAidl NO-SOURCE
+> Task :lib:packageDebugRenderscript NO-SOURCE
+> Task :demo:checkDebugManifest
+> Task :demo:compileDebugRenderscript NO-SOURCE
+> Task :demo:generateDebugBuildConfig
+> Task :demo:mainApkListPersistenceDebug
+> Task :demo:generateDebugResValues
+> Task :demo:generateDebugResources
+> Task :lib:generateDebugResValues
+> Task :lib:compileDebugRenderscript NO-SOURCE
+> Task :lib:generateDebugResources
+> Task :lib:packageDebugResources
+> Task :demo:createDebugCompatibleScreenManifests
+> Task :lib:checkDebugManifest
+> Task :lib:processDebugManifest
+> Task :demo:mergeDebugResources
+> Task :demo:processDebugManifest
+> Task :lib:parseDebugLibraryResources
+> Task :lib:generateDebugBuildConfig
+> Task :demo:mergeDebugShaders
+> Task :demo:compileDebugShaders
+> Task :demo:generateDebugAssets
+> Task :lib:mergeDebugShaders
+> Task :lib:compileDebugShaders
+> Task :lib:generateDebugAssets
+> Task :lib:packageDebugAssets
+> Task :demo:mergeDebugAssets
+> Task :demo:processDebugJavaRes NO-SOURCE
+> Task :lib:processDebugJavaRes NO-SOURCE
+> Task :demo:checkDebugDuplicateClasses
+> Task :demo:validateSigningDebug
+> Task :demo:signingConfigWriterDebug
+> Task :demo:mergeDebugJniLibFolders
+> Task :lib:mergeDebugJniLibFolders
+> Task :demo:preReleaseBuild UP-TO-DATE
+> Task :lib:preReleaseBuild UP-TO-DATE
+> Task :lib:compileReleaseAidl NO-SOURCE
+> Task :demo:compileReleaseAidl NO-SOURCE
+> Task :lib:packageReleaseRenderscript NO-SOURCE
+> Task :demo:compileReleaseRenderscript NO-SOURCE
+> Task :demo:checkReleaseManifest
+> Task :demo:generateReleaseBuildConfig
+> Task :demo:mainApkListPersistenceRelease
+> Task :demo:generateReleaseResValues
+> Task :demo:generateReleaseResources
+> Task :lib:compileReleaseRenderscript NO-SOURCE
+> Task :lib:generateReleaseResValues
+> Task :lib:generateReleaseResources
+> Task :lib:packageReleaseResources
+> Task :lib:generateDebugRFile
+> Task :demo:processDebugResources
+> Task :lib:compileDebugKotlin
+> Task :demo:mergeReleaseResources
+> Task :demo:createReleaseCompatibleScreenManifests
+> Task :lib:checkReleaseManifest
+> Task :lib:javaPreCompileDebug
+> Task :lib:compileDebugJavaWithJavac
+> Task :lib:processReleaseManifest
+> Task :lib:mergeDebugNativeLibs
+> Task :lib:stripDebugDebugSymbols
+> Task :lib:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :demo:processReleaseManifest
+> Task :lib:bundleLibResDebug
+> Task :lib:bundleLibRuntimeDebug
+> Task :lib:createFullJarDebug
+> Task :lib:generateReleaseBuildConfig
+> Task :lib:parseReleaseLibraryResources
+> Task :lib:bundleLibCompileDebug
+> Task :demo:compileDebugKotlin
+> Task :demo:mergeDebugNativeLibs
+> Task :demo:stripDebugDebugSymbols
+> Task :demo:javaPreCompileDebug
+> Task :demo:compileDebugJavaWithJavac
+> Task :demo:compileDebugSources
+> Task :demo:transformClassesWithDexBuilderForDebug
+> Task :lib:generateReleaseRFile
+> Task :demo:processReleaseResources
+> Task :lib:compileReleaseKotlin
+> Task :demo:mergeDebugJavaResource
+> Task :demo:mergeExtDexDebug
+> Task :lib:javaPreCompileRelease
+> Task :lib:compileReleaseJavaWithJavac
+> Task :demo:prepareLintJar
+> Task :lib:bundleLibCompileRelease
+> Task :demo:compileReleaseKotlin
+> Task :lib:processReleaseJavaRes NO-SOURCE
+> Task :demo:javaPreCompileRelease
+> Task :demo:compileReleaseJavaWithJavac
+> Task :demo:compileReleaseSources
+> Task :demo:checkReleaseDuplicateClasses
+> Task :lib:prepareLintJarForPublish
+> Task :demo:lintVitalRelease
+> Task :lib:bundleLibResRelease
+> Task :lib:bundleLibRuntimeRelease
+> Task :lib:createFullJarRelease
+> Task :demo:mergeDexDebug
+> Task :demo:packageDebug
+> Task :demo:assembleDebug
+> Task :demo:transformClassesWithDexBuilderForRelease
+> Task :demo:mergeReleaseShaders
+> Task :demo:compileReleaseShaders
+> Task :demo:generateReleaseAssets
+> Task :lib:mergeReleaseShaders
+> Task :lib:compileReleaseShaders
+> Task :lib:generateReleaseAssets
+> Task :lib:packageReleaseAssets
+> Task :demo:mergeReleaseAssets
+> Task :demo:processReleaseJavaRes NO-SOURCE
+> Task :demo:signingConfigWriterRelease
+> Task :demo:mergeReleaseJniLibFolders
+> Task :lib:mergeReleaseJniLibFolders
+> Task :lib:mergeReleaseNativeLibs
+> Task :lib:stripReleaseDebugSymbols
+> Task :lib:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :demo:mergeReleaseNativeLibs
+> Task :demo:stripReleaseDebugSymbols
+> Task :demo:mergeReleaseJavaResource
+> Task :demo:mergeExtDexRelease
+> Task :demo:mergeDexRelease
+> Task :demo:packageRelease
+> Task :demo:assembleRelease
+> Task :demo:assemble
+> Task :demo:build
 
-BUILD SUCCESSFUL in 38s
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.6.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 34s
 94 actionable tasks: 94 executed
 
-2019-02-23 18:28:19,111 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550921125557-0/src/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2019-10-30 12:25:09,371 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572413065148-0/src/SuperToolbar-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
