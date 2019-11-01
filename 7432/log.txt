@@ -1,36 +1,36 @@
-2019-05-17 11:08:35,636 INFO  DownloadService - Downloading "https://github.com/durranilab/LabProgressLayout/archive/master.zip", attempt 3
-2019-05-17 11:08:36,348 INFO  DownloadService - Downloaded https://github.com/durranilab/LabProgressLayout/archive/master.zip, attempt 3
-2019-05-17 11:08:36,348 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/master.zip": 175 KB
-2019-05-17 11:08:36,348 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-17 11:08:36,354 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/master.zip: true
-2019-05-17 11:08:36,354 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src'.
-2019-05-17 11:08:36,378 INFO  FullProcessService - Size of directory with sources: 224 KB
-2019-05-17 11:08:36,378 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src]
-2019-05-17 11:08:36,396 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/.git/
+2019-11-01 11:14:54,442 INFO  DownloadService - Downloading "https://github.com/durranilab/LabProgressLayout/archive/master.zip", attempt 3
+2019-11-01 11:14:56,738 INFO  DownloadService - Downloaded https://github.com/durranilab/LabProgressLayout/archive/master.zip, attempt 3
+2019-11-01 11:14:56,739 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/master.zip": 175 KB
+2019-11-01 11:14:56,739 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-01 11:14:56,739 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/master.zip: true
+2019-11-01 11:14:56,740 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src'.
+2019-11-01 11:14:56,761 INFO  FullProcessService - Size of directory with sources: 224 KB
+2019-11-01 11:14:56,761 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src]
+2019-11-01 11:14:56,781 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/.git/
 
-2019-05-17 11:08:36,400 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/gradlew
-2019-05-17 11:08:36,404 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/LabProgress/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/build.gradle
-2019-05-17 11:08:36,407 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/LabProgress/build.gradle
-2019-05-17 11:08:36,407 INFO  ProjectBuildService - Remote scripts: none
-2019-05-17 11:08:36,407 INFO  ProjectFixService - Fixing project...
-2019-05-17 11:08:36,416 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/LabProgress/local.properties
-2019-05-17 11:08:36,418 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/LabProgress/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-17 11:08:36,419 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/LabProgress/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-17 11:08:36,420 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/app/local.properties
-2019-05-17 11:08:36,422 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-17 11:08:36,422 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-17 11:08:36,423 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/local.properties
-2019-05-17 11:08:36,424 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-05-17 11:08:36,424 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-05-17 11:08:36,426 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-17 11:08:36,426 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-17 11:08:36,427 INFO  ProjectFixService - Project was maybe fixed
-2019-05-17 11:08:36,427 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-17 11:08:36,427 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/LabProgress/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-17 11:08:44,270 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-05-17 11:08:44,270 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-17 11:08:44,271 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/LabProgress/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-17 11:08:57,824 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-01 11:14:56,784 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/gradlew
+2019-11-01 11:14:56,787 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/LabProgress/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/build.gradle
+2019-11-01 11:14:56,790 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/LabProgress/build.gradle
+2019-11-01 11:14:56,790 INFO  ProjectBuildService - Remote scripts: none
+2019-11-01 11:14:56,790 INFO  ProjectFixService - Fixing project...
+2019-11-01 11:14:56,799 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/LabProgress/local.properties
+2019-11-01 11:14:56,801 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/LabProgress/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-11-01 11:14:56,802 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/LabProgress/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-11-01 11:14:56,803 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/app/local.properties
+2019-11-01 11:14:56,806 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-11-01 11:14:56,806 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-11-01 11:14:56,807 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/local.properties
+2019-11-01 11:14:56,808 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-11-01 11:14:56,808 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-11-01 11:14:56,811 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-11-01 11:14:56,811 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-11-01 11:14:56,812 INFO  ProjectFixService - Project was maybe fixed
+2019-11-01 11:14:56,812 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-01 11:14:56,812 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/LabProgress/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-01 11:15:05,847 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-11-01 11:15:05,847 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-11-01 11:15:05,847 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/LabProgress/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-11-01 11:15:23,209 INFO  SysUtils - Configuration on demand is an incubating feature.
 :LabProgress:preBuild UP-TO-DATE
 :LabProgress:preDebugBuild UP-TO-DATE
 :LabProgress:compileDebugAidl NO-SOURCE
@@ -97,7 +97,7 @@
 :LabProgress:mergeReleaseResources
 :LabProgress:verifyReleaseResources
 :LabProgress:assembleRelease
-:LabProgress:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/LabProgress/src/main/java/com/durranilab/labprogresslayout/LabProgressLayout.java:11: error: package android.support.annotation does not exist
+:LabProgress:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/LabProgress/src/main/java/com/durranilab/labprogresslayout/LabProgressLayout.java:11: error: package android.support.annotation does not exist
 import android.support.annotation.ColorRes;
                                  ^
 
@@ -107,15 +107,15 @@ import android.support.annotation.ColorRes;
 :LabProgress:assemble
 :LabProgress:build
 
-BUILD SUCCESSFUL in 13s
+BUILD SUCCESSFUL in 17s
 48 actionable tasks: 48 executed
 
-2019-05-17 11:08:57,880 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-17 11:08:57,881 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-17 11:09:03,564 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-05-17 11:09:03,564 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-17 11:09:03,564 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-17 11:09:24,123 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-01 11:15:23,260 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-01 11:15:23,260 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-01 11:15:30,974 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-11-01 11:15:30,974 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-01 11:15:30,975 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-01 11:16:01,105 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
 :app:preBuild UP-TO-DATE
 :LabProgress:preBuild UP-TO-DATE
@@ -216,6 +216,7 @@ BUILD SUCCESSFUL in 13s
 :app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
 :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/75ea1b58ebb55a12831c38b4842cfb9d/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -243,7 +244,7 @@ BUILD SUCCESSFUL in 13s
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 20s
+BUILD SUCCESSFUL in 29s
 90 actionable tasks: 59 executed, 31 up-to-date
 
-2019-05-17 11:09:24,238 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066115633-0/src/LabProgressLayout-master/app/build/outputs/apk/debug/app-debug.apk
+2019-11-01 11:16:01,211 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572581694438-0/src/LabProgressLayout-master/app/build/outputs/apk/debug/app-debug.apk
