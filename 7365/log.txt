@@ -1,30 +1,30 @@
-2019-10-25 15:34:12,856 INFO  DownloadService - Downloading "https://github.com/rewe-digital-incubator/katana/archive/master.zip", attempt 3
-2019-10-25 15:34:14,122 INFO  DownloadService - Downloaded https://github.com/rewe-digital-incubator/katana/archive/master.zip, attempt 3
-2019-10-25 15:34:14,123 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992452852-0/master.zip": 296 KB
-2019-10-25 15:34:14,123 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-25 15:34:14,123 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992452852-0/master.zip: true
-2019-10-25 15:34:14,124 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992452852-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992452852-0/src'.
-2019-10-25 15:34:14,183 INFO  FullProcessService - Size of directory with sources: 389 KB
-2019-10-25 15:34:14,184 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992452852-0/src]
-2019-10-25 15:34:14,208 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992452852-0/src/.git/
+2019-11-27 20:54:13,445 INFO  DownloadService - Downloading "https://github.com/rewe-digital-incubator/katana/archive/master.zip", attempt 3
+2019-11-27 20:54:16,542 INFO  DownloadService - Downloaded https://github.com/rewe-digital-incubator/katana/archive/master.zip, attempt 3
+2019-11-27 20:54:16,543 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862853440-0/master.zip": 297 KB
+2019-11-27 20:54:16,543 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-27 20:54:16,545 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862853440-0/master.zip: true
+2019-11-27 20:54:16,545 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862853440-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862853440-0/src'.
+2019-11-27 20:54:16,603 INFO  FullProcessService - Size of directory with sources: 390 KB
+2019-11-27 20:54:16,603 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862853440-0/src]
+2019-11-27 20:54:16,625 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862853440-0/src/.git/
 
-2019-10-25 15:34:14,214 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992452852-0/src/katana-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992452852-0/src/katana-master/android-example/gradlew
-2019-10-25 15:34:14,220 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992452852-0/src/katana-master/android-example/build.gradle
-2019-10-25 15:34:14,225 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992452852-0/src/katana-master/android-example/build.gradle
-2019-10-25 15:34:14,225 INFO  ProjectBuildService - Remote scripts: none
-2019-10-25 15:34:14,225 INFO  ProjectFixService - Fixing project...
-2019-10-25 15:34:14,239 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992452852-0/src/katana-master/android-example/local.properties
-2019-10-25 15:34:14,240 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.3-all.zip
-2019-10-25 15:34:14,240 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.3-bin.zip)
-2019-10-25 15:34:14,241 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992452852-0/src/katana-master/android-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:34:14,242 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992452852-0/src/katana-master/android-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:34:14,243 INFO  ProjectFixService - Project was maybe fixed
-2019-10-25 15:34:14,243 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:34:14,243 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992452852-0/src/katana-master/android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992452852-0/src/katana-master/android-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:35:02,621 INFO  ProjectTaskService - Detected possible tasks: 29
-2019-10-25 15:35:02,625 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-10-25 15:35:02,628 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992452852-0/src/katana-master/android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992452852-0/src/katana-master/android-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-10-25 15:35:06,749 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.3/userguide/gradle_daemon.html.
+2019-11-27 20:54:16,632 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862853440-0/src/katana-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862853440-0/src/katana-master/android-example/gradlew
+2019-11-27 20:54:16,639 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862853440-0/src/katana-master/android-example/build.gradle
+2019-11-27 20:54:16,644 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862853440-0/src/katana-master/android-example/build.gradle
+2019-11-27 20:54:16,645 INFO  ProjectBuildService - Remote scripts: none
+2019-11-27 20:54:16,645 INFO  ProjectFixService - Fixing project...
+2019-11-27 20:54:16,662 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862853440-0/src/katana-master/android-example/local.properties
+2019-11-27 20:54:16,663 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.3-all.zip
+2019-11-27 20:54:16,663 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.3-bin.zip)
+2019-11-27 20:54:16,664 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862853440-0/src/katana-master/android-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-27 20:54:16,666 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862853440-0/src/katana-master/android-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-27 20:54:16,667 INFO  ProjectFixService - Project was maybe fixed
+2019-11-27 20:54:16,667 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-27 20:54:16,668 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862853440-0/src/katana-master/android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862853440-0/src/katana-master/android-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-27 20:54:21,350 INFO  ProjectTaskService - Detected possible tasks: 24
+2019-11-27 20:54:21,350 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-11-27 20:54:21,351 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862853440-0/src/katana-master/android-example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862853440-0/src/katana-master/android-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-11-27 20:54:24,974 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.3/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -42,5 +42,5 @@ A web-based, searchable dependency report is available by adding the --scan opti
 BUILD SUCCESSFUL in 3s
 1 actionable task: 1 executed
 
-2019-10-25 15:35:06,770 ERROR FullProcessService - Project build has not produced APK file
-2019-10-25 15:35:06,777 ERROR FullProcessService - Could not find generated or existed APK file
+2019-11-27 20:54:24,982 ERROR FullProcessService - Project build has not produced APK file
+2019-11-27 20:54:24,991 ERROR FullProcessService - Could not find generated or existed APK file

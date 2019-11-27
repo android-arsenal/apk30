@@ -1,38 +1,37 @@
-2019-09-03 12:07:38,483 INFO  DownloadService - Downloading "https://github.com/josinSbazin/android_ExpandableLayout/archive/master.zip", attempt 3
-2019-09-03 12:07:39,167 INFO  DownloadService - Downloaded https://github.com/josinSbazin/android_ExpandableLayout/archive/master.zip, attempt 3
-2019-09-03 12:07:39,167 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/master.zip": 156 KB
-2019-09-03 12:07:39,167 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-03 12:07:39,172 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/master.zip: true
-2019-09-03 12:07:39,173 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src'.
-2019-09-03 12:07:39,193 INFO  FullProcessService - Size of directory with sources: 189 KB
-2019-09-03 12:07:39,193 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src]
-2019-09-03 12:07:39,210 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/.git/
+2019-11-27 21:09:31,966 INFO  DownloadService - Downloading "https://github.com/josinSbazin/android_ExpandableLayout/archive/master.zip", attempt 3
+2019-11-27 21:09:34,096 INFO  DownloadService - Downloaded https://github.com/josinSbazin/android_ExpandableLayout/archive/master.zip, attempt 3
+2019-11-27 21:09:34,096 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/master.zip": 156 KB
+2019-11-27 21:09:34,096 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-27 21:09:34,099 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/master.zip: true
+2019-11-27 21:09:34,099 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src'.
+2019-11-27 21:09:34,116 INFO  FullProcessService - Size of directory with sources: 189 KB
+2019-11-27 21:09:34,116 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src]
+2019-11-27 21:09:34,137 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/.git/
 
-2019-09-03 12:07:39,212 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/gradlew
-2019-09-03 12:07:39,215 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/constraintexpandablelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/build.gradle
-2019-09-03 12:07:39,217 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/constraintexpandablelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/settings.gradle
-2019-09-03 12:07:39,217 INFO  ProjectBuildService - Remote scripts: none
-2019-09-03 12:07:39,217 INFO  ProjectFixService - Fixing project...
-2019-09-03 12:07:39,223 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/app/local.properties
-2019-09-03 12:07:39,224 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-03 12:07:39,224 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-03 12:07:39,225 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/constraintexpandablelayout/local.properties
-2019-09-03 12:07:39,226 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/constraintexpandablelayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-03 12:07:39,226 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/constraintexpandablelayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-03 12:07:39,227 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/local.properties
-2019-09-03 12:07:39,227 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-09-03 12:07:39,227 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-09-03 12:07:39,228 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-03 12:07:39,229 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-03 12:07:39,229 INFO  ProjectFixService - Project was maybe fixed
-2019-09-03 12:07:39,229 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-03 12:07:39,229 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-03 12:07:57,698 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-09-03 12:07:57,698 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-03 12:07:57,698 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-03 12:08:46,753 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-27 21:09:34,139 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/gradlew
+2019-11-27 21:09:34,141 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/constraintexpandablelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/build.gradle
+2019-11-27 21:09:34,143 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/constraintexpandablelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/settings.gradle
+2019-11-27 21:09:34,143 INFO  ProjectBuildService - Remote scripts: none
+2019-11-27 21:09:34,143 INFO  ProjectFixService - Fixing project...
+2019-11-27 21:09:34,149 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/app/local.properties
+2019-11-27 21:09:34,150 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-27 21:09:34,150 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-27 21:09:34,150 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/constraintexpandablelayout/local.properties
+2019-11-27 21:09:34,151 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/constraintexpandablelayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-27 21:09:34,151 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/constraintexpandablelayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-27 21:09:34,152 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/local.properties
+2019-11-27 21:09:34,152 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-11-27 21:09:34,152 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-11-27 21:09:34,153 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-27 21:09:34,153 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-27 21:09:34,154 INFO  ProjectFixService - Project was maybe fixed
+2019-11-27 21:09:34,154 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-27 21:09:34,154 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-27 21:09:40,043 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-11-27 21:09:40,043 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-27 21:09:40,044 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-27 21:10:26,860 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.3.0/kotlin-stdlib-jdk7-1.3.0.jar
 :app:preBuild UP-TO-DATE
 :constraintexpandablelayout:preBuild UP-TO-DATE
 :constraintexpandablelayout:preDebugBuild UP-TO-DATE
@@ -175,7 +174,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 48s
+BUILD SUCCESSFUL in 46s
 94 actionable tasks: 94 executed
 
-2019-09-03 12:08:46,833 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567487258479-0/src/android_ExpandableLayout-master/app/build/outputs/apk/debug/app-debug.apk
+2019-11-27 21:10:26,935 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863771964-0/src/android_ExpandableLayout-master/app/build/outputs/apk/debug/app-debug.apk
