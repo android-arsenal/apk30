@@ -1,40 +1,40 @@
-2018-12-17 12:49:29,670 INFO  DownloadService - Downloading "https://github.com/BK24/BulkDownloader/archive/master.zip", attempt 3
-2018-12-17 12:49:31,591 INFO  DownloadService - Downloaded https://github.com/BK24/BulkDownloader/archive/master.zip, attempt 3
-2018-12-17 12:49:31,592 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/master.zip": 159 KB
-2018-12-17 12:49:31,592 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-17 12:49:31,597 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/master.zip: true
-2018-12-17 12:49:31,597 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src'.
-2018-12-17 12:49:31,628 INFO  FullProcessService - Size of directory with sources: 193 KB
-2018-12-17 12:49:31,628 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src]
-2018-12-17 12:49:31,656 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/.git/
+2019-11-27 18:49:43,856 INFO  DownloadService - Downloading "https://github.com/BalakrishnanPT/BulkDownloader/archive/master.zip", attempt 3
+2019-11-27 18:49:45,714 INFO  DownloadService - Downloaded https://github.com/BalakrishnanPT/BulkDownloader/archive/master.zip, attempt 3
+2019-11-27 18:49:45,714 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/master.zip": 159 KB
+2019-11-27 18:49:45,714 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-27 18:49:45,714 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/master.zip: true
+2019-11-27 18:49:45,715 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src'.
+2019-11-27 18:49:45,735 INFO  FullProcessService - Size of directory with sources: 193 KB
+2019-11-27 18:49:45,735 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src]
+2019-11-27 18:49:45,760 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/.git/
 
-2018-12-17 12:49:31,662 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/gradlew
-2018-12-17 12:49:31,668 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/bulkdownloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/build.gradle
-2018-12-17 12:49:31,674 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/bulkdownloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/settings.gradle
-2018-12-17 12:49:31,680 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle", attempt 3
-2018-12-17 12:49:32,444 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle, attempt 3
-2018-12-17 12:49:32,445 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle", attempt 3
-2018-12-17 12:49:32,615 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle, attempt 3
-2018-12-17 12:49:32,615 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle
-2018-12-17 12:49:32,615 INFO  ProjectFixService - Fixing project...
-2018-12-17 12:49:32,629 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/app/local.properties
-2018-12-17 12:49:32,630 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-17 12:49:32,632 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-17 12:49:32,634 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/bulkdownloader/local.properties
-2018-12-17 12:49:32,635 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/bulkdownloader/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-17 12:49:32,635 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/bulkdownloader/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-17 12:49:32,637 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/local.properties
-2018-12-17 12:49:32,637 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-17 12:49:32,638 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-17 12:49:32,640 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-17 12:49:32,641 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-17 12:49:32,641 INFO  ProjectFixService - Project was maybe fixed
-2018-12-17 12:49:32,641 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 12:49:32,642 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 12:49:39,901 INFO  ProjectTaskService - Detected possible tasks: 72
-2018-12-17 12:49:39,902 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-17 12:49:39,902 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-17 12:49:47,612 ERROR SysUtils - Could not process external command
+2019-11-27 18:49:45,764 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/gradlew
+2019-11-27 18:49:45,768 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/bulkdownloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/build.gradle
+2019-11-27 18:49:45,771 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/bulkdownloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/settings.gradle
+2019-11-27 18:49:45,778 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle", attempt 3
+2019-11-27 18:49:46,680 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle, attempt 3
+2019-11-27 18:49:46,681 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle", attempt 3
+2019-11-27 18:49:46,905 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle, attempt 3
+2019-11-27 18:49:46,906 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle
+2019-11-27 18:49:46,906 INFO  ProjectFixService - Fixing project...
+2019-11-27 18:49:46,917 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/app/local.properties
+2019-11-27 18:49:46,918 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-27 18:49:46,918 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-27 18:49:46,919 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/bulkdownloader/local.properties
+2019-11-27 18:49:46,923 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/bulkdownloader/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-27 18:49:46,923 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/bulkdownloader/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-27 18:49:46,925 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/local.properties
+2019-11-27 18:49:46,925 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-11-27 18:49:46,926 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-11-27 18:49:46,928 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-27 18:49:46,928 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-27 18:49:46,929 INFO  ProjectFixService - Project was maybe fixed
+2019-11-27 18:49:46,929 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-27 18:49:46,929 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-27 18:49:55,769 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-11-27 18:49:55,770 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-27 18:49:55,770 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-27 18:50:02,622 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,14 +55,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 12:49:47,613 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-27 18:50:02,622 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -140,63 +140,42 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 6s
 
-2018-12-17 12:49:47,613 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-12-17 12:49:47,613 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-17 12:50:38,820 INFO  SysUtils - Configuration on demand is an incubating feature.
-Download https://repo.maven.apache.org/maven2/com/android/tools/build/gradle/1.1.0/gradle-1.1.0.pom
-Download https://repo.maven.apache.org/maven2/com/android/tools/build/gradle-core/1.1.0/gradle-core-1.1.0.pom
-Download https://repo.maven.apache.org/maven2/com/android/tools/build/builder/1.1.0/builder-1.1.0.pom
-Download https://repo.maven.apache.org/maven2/net/sf/proguard/proguard-gradle/5.1/proguard-gradle-5.1.pom
-Download https://repo.maven.apache.org/maven2/com/android/tools/lint/lint/24.1.0/lint-24.1.0.pom
-Download https://repo.maven.apache.org/maven2/net/sf/proguard/proguard-parent/5.1/proguard-parent-5.1.pom
-Download https://repo.maven.apache.org/maven2/com/android/tools/sdklib/24.1.0/sdklib-24.1.0.pom
-Download https://repo.maven.apache.org/maven2/com/android/tools/build/builder-model/1.1.0/builder-model-1.1.0.pom
-Download https://repo.maven.apache.org/maven2/com/android/tools/build/manifest-merger/24.1.0/manifest-merger-24.1.0.pom
-Download https://repo.maven.apache.org/maven2/com/android/tools/common/24.1.0/common-24.1.0.pom
-Download https://repo.maven.apache.org/maven2/com/android/tools/sdk-common/24.1.0/sdk-common-24.1.0.pom
-Download https://repo.maven.apache.org/maven2/com/android/tools/ddms/ddmlib/24.1.0/ddmlib-24.1.0.pom
-Download https://repo.maven.apache.org/maven2/com/android/tools/build/builder-test-api/1.1.0/builder-test-api-1.1.0.pom
-Download https://repo.maven.apache.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.4/ecj-4.4.pom
-Download https://repo.maven.apache.org/maven2/com/android/tools/lint/lint-checks/24.1.0/lint-checks-24.1.0.pom
-Download https://repo.maven.apache.org/maven2/net/sf/proguard/proguard-base/5.1/proguard-base-5.1.pom
-Download https://repo.maven.apache.org/maven2/com/android/tools/annotations/24.1.0/annotations-24.1.0.pom
-Download https://repo.maven.apache.org/maven2/com/android/tools/layoutlib/layoutlib-api/24.1.0/layoutlib-api-24.1.0.pom
-Download https://repo.maven.apache.org/maven2/com/android/tools/dvlib/24.1.0/dvlib-24.1.0.pom
-Download https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.pom
-Download https://repo.maven.apache.org/maven2/com/android/tools/lint/lint-api/24.1.0/lint-api-24.1.0.pom
+2019-11-27 18:50:02,622 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-11-27 18:50:02,622 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-11-27 18:50:56,648 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://repo.maven.apache.org/maven2/com/android/tools/build/gradle-core/1.1.0/gradle-core-1.1.0.jar
+Download https://repo.maven.apache.org/maven2/net/sf/proguard/proguard-gradle/5.1/proguard-gradle-5.1.jar
 Download https://repo.maven.apache.org/maven2/com/android/tools/build/gradle/1.1.0/gradle-1.1.0.jar
-Download https://repo.maven.apache.org/maven2/com/android/tools/lint/lint-api/24.1.0/lint-api-24.1.0.jar
-Download https://repo.maven.apache.org/maven2/com/android/tools/lint/lint/24.1.0/lint-24.1.0.jar
+Download https://repo.maven.apache.org/maven2/com/android/tools/build/builder-model/1.1.0/builder-model-1.1.0.jar
+Download https://repo.maven.apache.org/maven2/com/android/tools/build/manifest-merger/24.1.0/manifest-merger-24.1.0.jar
+Download https://repo.maven.apache.org/maven2/com/android/tools/build/builder/1.1.0/builder-1.1.0.jar
 Download https://repo.maven.apache.org/maven2/com/android/tools/lint/lint-checks/24.1.0/lint-checks-24.1.0.jar
 Download https://repo.maven.apache.org/maven2/com/android/tools/sdk-common/24.1.0/sdk-common-24.1.0.jar
-Download https://repo.maven.apache.org/maven2/com/android/tools/build/builder/1.1.0/builder-1.1.0.jar
-Download https://repo.maven.apache.org/maven2/com/android/tools/build/gradle-core/1.1.0/gradle-core-1.1.0.jar
-Download https://repo.maven.apache.org/maven2/com/android/tools/build/builder-model/1.1.0/builder-model-1.1.0.jar
+Download https://repo.maven.apache.org/maven2/com/android/tools/lint/lint/24.1.0/lint-24.1.0.jar
 Download https://repo.maven.apache.org/maven2/com/android/tools/build/builder-test-api/1.1.0/builder-test-api-1.1.0.jar
 Download https://repo.maven.apache.org/maven2/com/android/tools/sdklib/24.1.0/sdklib-24.1.0.jar
 Download https://repo.maven.apache.org/maven2/com/android/tools/ddms/ddmlib/24.1.0/ddmlib-24.1.0.jar
-Download https://repo.maven.apache.org/maven2/com/android/tools/layoutlib/layoutlib-api/24.1.0/layoutlib-api-24.1.0.jar
 Download https://repo.maven.apache.org/maven2/com/android/tools/dvlib/24.1.0/dvlib-24.1.0.jar
+Download https://repo.maven.apache.org/maven2/com/android/tools/layoutlib/layoutlib-api/24.1.0/layoutlib-api-24.1.0.jar
 Download https://repo.maven.apache.org/maven2/com/android/tools/common/24.1.0/common-24.1.0.jar
+Download https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar
+Download https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar
+Download https://repo.maven.apache.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.4/ecj-4.4.jar
+Download https://repo.maven.apache.org/maven2/net/sf/proguard/proguard-base/5.1/proguard-base-5.1.jar
 Download https://repo.maven.apache.org/maven2/com/android/tools/annotations/24.1.0/annotations-24.1.0.jar
-Download https://repo.maven.apache.org/maven2/com/android/tools/build/manifest-merger/24.1.0/manifest-merger-24.1.0.jar
+Download https://repo.maven.apache.org/maven2/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar
+Download https://repo.maven.apache.org/maven2/com/android/tools/lint/lint-api/24.1.0/lint-api-24.1.0.jar
 Download https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle
 Download https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle
 :app:checkDebugClasspath
-Download https://dl.google.com/dl/android/maven2/android/arch/work/work-runtime/1.0.0-alpha10/work-runtime-1.0.0-alpha10.pom
-Download https://jcenter.bintray.com/com/squareup/okhttp/okhttp/2.7.2/okhttp-2.7.2.pom
-Download https://jcenter.bintray.com/com/squareup/okhttp/parent/2.7.2/parent-2.7.2.pom
-Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/runtime/1.1.1-rc1/runtime-1.1.1-rc1.pom
-Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/common/1.1.1-rc1/common-1.1.1-rc1.pom
-Download https://dl.google.com/dl/android/maven2/android/arch/persistence/db-framework/1.1.1-rc1/db-framework-1.1.1-rc1.pom
-Download https://dl.google.com/dl/android/maven2/android/arch/persistence/db/1.1.1-rc1/db-1.1.1-rc1.pom
-Download https://dl.google.com/dl/android/maven2/android/arch/persistence/db-framework/1.1.1-rc1/db-framework-1.1.1-rc1.aar
-Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/common/1.1.1-rc1/common-1.1.1-rc1.jar
-Download https://dl.google.com/dl/android/maven2/android/arch/work/work-runtime/1.0.0-alpha10/work-runtime-1.0.0-alpha10.aar
 Download https://dl.google.com/dl/android/maven2/android/arch/persistence/db/1.1.1-rc1/db-1.1.1-rc1.aar
 Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/runtime/1.1.1-rc1/runtime-1.1.1-rc1.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/persistence/db-framework/1.1.1-rc1/db-framework-1.1.1-rc1.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/common/1.1.1-rc1/common-1.1.1-rc1.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/extensions/1.1.0/extensions-1.1.0.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/work/work-runtime/1.0.0-alpha10/work-runtime-1.0.0-alpha10.aar
 Download https://jcenter.bintray.com/com/squareup/okhttp/okhttp/2.7.2/okhttp-2.7.2.jar
 :app:preBuild UP-TO-DATE
 :bulkdownloader:preBuild UP-TO-DATE
@@ -324,10 +303,10 @@ Download https://jcenter.bintray.com/com/squareup/okhttp/okhttp/2.7.2/okhttp-2.7
 :app:assemble
 :app:lint
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/9665be8265c2a5be06e64dad552d5ed3/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant debug: 3 issues found
-Ran lint on variant release: 3 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/app/build/reports/lint-results.xml
+Ran lint on variant release: 4 issues found
+Ran lint on variant debug: 4 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/app/build/reports/lint-results.xml
 :app:generateDebugUnitTestSources
 :app:preDebugUnitTestBuild UP-TO-DATE
 :app:javaPreCompileDebugUnitTest
@@ -344,7 +323,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 :app:check
 :app:build
 
-BUILD SUCCESSFUL in 50s
+BUILD SUCCESSFUL in 53s
 96 actionable tasks: 96 executed
 
-2018-12-17 12:50:38,946 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545025769666-0/src/BulkDownloader-master/app/build/outputs/apk/debug/app-debug.apk
+2019-11-27 18:50:56,741 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855383850-0/src/BulkDownloader-master/app/build/outputs/apk/debug/app-debug.apk

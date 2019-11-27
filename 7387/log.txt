@@ -1,174 +1,199 @@
-2018-12-28 20:18:59,633 INFO  DownloadService - Downloading "https://github.com/guy-4444/ExternalLogger-Android/archive/master.zip", attempt 3
-2018-12-28 20:19:02,412 INFO  DownloadService - Downloaded https://github.com/guy-4444/ExternalLogger-Android/archive/master.zip, attempt 3
-2018-12-28 20:19:02,413 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/master.zip": 369 KB
-2018-12-28 20:19:02,413 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-28 20:19:02,418 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/master.zip: true
-2018-12-28 20:19:02,419 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src'.
-2018-12-28 20:19:02,445 INFO  FullProcessService - Size of directory with sources: 402 KB
-2018-12-28 20:19:02,445 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src]
-2018-12-28 20:19:02,464 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/.git/
+2019-11-27 18:48:38,909 INFO  DownloadService - Downloading "https://github.com/guy-4444/ExternalLogger-Android/archive/master.zip", attempt 3
+2019-11-27 18:48:41,472 INFO  DownloadService - Downloaded https://github.com/guy-4444/ExternalLogger-Android/archive/master.zip, attempt 3
+2019-11-27 18:48:41,472 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/master.zip": 617 KB
+2019-11-27 18:48:41,472 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-27 18:48:41,478 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/master.zip: true
+2019-11-27 18:48:41,478 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src'.
+2019-11-27 18:48:41,503 INFO  FullProcessService - Size of directory with sources: 663 KB
+2019-11-27 18:48:41,503 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src]
+2019-11-27 18:48:41,537 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/.git/
 
-2018-12-28 20:19:02,468 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/gradlew
-2018-12-28 20:19:02,472 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/externalloggerlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/build.gradle
-2018-12-28 20:19:02,475 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/externalloggerlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/settings.gradle
-2018-12-28 20:19:02,476 INFO  ProjectBuildService - Remote scripts: none
-2018-12-28 20:19:02,476 INFO  ProjectFixService - Fixing project...
-2018-12-28 20:19:02,484 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/app/local.properties
-2018-12-28 20:19:02,485 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=28]
-2018-12-28 20:19:02,485 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=28]
-2018-12-28 20:19:02,486 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/externalloggerlibrary/local.properties
-2018-12-28 20:19:02,487 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/externalloggerlibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-12-28 20:19:02,487 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/externalloggerlibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-12-28 20:19:02,488 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/local.properties
-2018-12-28 20:19:02,489 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-28 20:19:02,489 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-28 20:19:02,491 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=28]
-2018-12-28 20:19:02,491 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=28]
-2018-12-28 20:19:02,491 INFO  ProjectFixService - Project was maybe fixed
-2018-12-28 20:19:02,492 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-28 20:19:02,492 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-28 20:19:08,588 INFO  ProjectTaskService - Detected possible tasks: 71
-2018-12-28 20:19:08,588 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-28 20:19:08,589 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-28 20:19:38,038 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-27 18:48:41,540 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/gradlew
+2019-11-27 18:48:41,543 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/externalloggerlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/build.gradle
+2019-11-27 18:48:41,545 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/externalloggerlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/settings.gradle
+2019-11-27 18:48:41,546 INFO  ProjectBuildService - Remote scripts: none
+2019-11-27 18:48:41,546 INFO  ProjectFixService - Fixing project...
+2019-11-27 18:48:41,552 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/app/local.properties
+2019-11-27 18:48:41,553 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=28]
+2019-11-27 18:48:41,553 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=28]
+2019-11-27 18:48:41,553 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/externalloggerlibrary/local.properties
+2019-11-27 18:48:41,554 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/externalloggerlibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-11-27 18:48:41,554 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/externalloggerlibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-11-27 18:48:41,555 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/local.properties
+2019-11-27 18:48:41,555 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-11-27 18:48:41,555 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-11-27 18:48:41,556 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=28]
+2019-11-27 18:48:41,556 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=28]
+2019-11-27 18:48:41,557 INFO  ProjectFixService - Project was maybe fixed
+2019-11-27 18:48:41,557 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-27 18:48:41,557 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-27 18:48:49,144 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-11-27 18:48:49,144 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-27 18:48:49,144 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-27 18:49:32,759 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-:app:checkDebugClasspath
-:app:preBuild UP-TO-DATE
-:externalloggerlibrary:preBuild UP-TO-DATE
-:externalloggerlibrary:preDebugBuild UP-TO-DATE
-:externalloggerlibrary:checkDebugManifest
-:externalloggerlibrary:processDebugManifest
-:app:preDebugBuild
-:externalloggerlibrary:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:externalloggerlibrary:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:prepareLintJar
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:externalloggerlibrary:compileDebugRenderscript
-:externalloggerlibrary:generateDebugResValues
-:externalloggerlibrary:generateDebugResources
-:externalloggerlibrary:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:externalloggerlibrary:generateDebugRFile
-:app:processDebugResources
-:app:generateDebugSources
-:externalloggerlibrary:generateDebugBuildConfig
-:externalloggerlibrary:prepareLintJar
-:externalloggerlibrary:generateDebugSources
-:externalloggerlibrary:javaPreCompileDebug
-:externalloggerlibrary:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/externalloggerlibrary/src/main/java/guy4444/extrnalloggerlibrary/MyLoggerDB.java:15: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+It will be removed soon. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :externalloggerlibrary:preBuild UP-TO-DATE
+> Task :externalloggerlibrary:preDebugBuild UP-TO-DATE
+> Task :externalloggerlibrary:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :externalloggerlibrary:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :externalloggerlibrary:compileDebugRenderscript NO-SOURCE
+> Task :externalloggerlibrary:checkDebugManifest
+> Task :externalloggerlibrary:generateDebugBuildConfig
+> Task :externalloggerlibrary:generateDebugResValues
+> Task :externalloggerlibrary:generateDebugResources
+> Task :externalloggerlibrary:packageDebugResources
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :externalloggerlibrary:processDebugManifest
+> Task :externalloggerlibrary:parseDebugLibraryResources
+> Task :app:mergeDebugResources
+> Task :externalloggerlibrary:javaPreCompileDebug
+> Task :externalloggerlibrary:generateDebugRFile
+
+> Task :externalloggerlibrary:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: room-compiler-2.0.0.jar (androidx.room:room-compiler:2.0.0), lifecycle-compiler-2.0.0.jar (androidx.lifecycle:lifecycle-compiler:2.0.0).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/externalloggerlibrary/src/main/java/guy4444/extrnalloggerlibrary/MyLoggerDB.java:18: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
 public abstract class MyLoggerDB extends RoomDatabase {
                 ^
 1 warning
 
-:externalloggerlibrary:processDebugJavaRes NO-SOURCE
-:externalloggerlibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:externalloggerlibrary:mergeDebugShaders
-:externalloggerlibrary:compileDebugShaders
-:externalloggerlibrary:generateDebugAssets
-:externalloggerlibrary:packageDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:externalloggerlibrary:compileDebugNdk NO-SOURCE
-:externalloggerlibrary:mergeDebugJniLibFolders
-:externalloggerlibrary:transformNativeLibsWithMergeJniLibsForDebug
-:externalloggerlibrary:transformNativeLibsWithStripDebugSymbolForDebug
-:externalloggerlibrary:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
-:externalloggerlibrary:preReleaseBuild UP-TO-DATE
-:externalloggerlibrary:checkReleaseManifest
-:externalloggerlibrary:processReleaseManifest
-:app:preReleaseBuild
-:externalloggerlibrary:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:externalloggerlibrary:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:externalloggerlibrary:compileReleaseRenderscript
-:externalloggerlibrary:generateReleaseResValues
-:externalloggerlibrary:generateReleaseResources
-:externalloggerlibrary:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:externalloggerlibrary:generateReleaseRFile
-:app:processReleaseResources
-:app:generateReleaseSources
-:externalloggerlibrary:generateReleaseBuildConfig
-:externalloggerlibrary:generateReleaseSources
-:externalloggerlibrary:javaPreCompileRelease
-:externalloggerlibrary:compileReleaseJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/externalloggerlibrary/src/main/java/guy4444/extrnalloggerlibrary/MyLoggerDB.java:15: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+> Task :externalloggerlibrary:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+
+> Task :app:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: room-compiler-2.0.0.jar (androidx.room:room-compiler:2.0.0), lifecycle-compiler-2.0.0.jar (androidx.lifecycle:lifecycle-compiler:2.0.0).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :externalloggerlibrary:mergeDebugShaders
+> Task :externalloggerlibrary:compileDebugShaders
+> Task :externalloggerlibrary:generateDebugAssets
+> Task :externalloggerlibrary:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :externalloggerlibrary:processDebugJavaRes NO-SOURCE
+> Task :externalloggerlibrary:bundleLibResDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:checkDebugDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :externalloggerlibrary:bundleLibRuntimeDebug
+> Task :externalloggerlibrary:createFullJarDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :externalloggerlibrary:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :externalloggerlibrary:preReleaseBuild UP-TO-DATE
+> Task :externalloggerlibrary:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :externalloggerlibrary:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :externalloggerlibrary:compileReleaseRenderscript NO-SOURCE
+> Task :externalloggerlibrary:checkReleaseManifest
+> Task :externalloggerlibrary:generateReleaseBuildConfig
+> Task :externalloggerlibrary:generateReleaseResValues
+> Task :externalloggerlibrary:generateReleaseResources
+> Task :externalloggerlibrary:packageReleaseResources
+> Task :externalloggerlibrary:mergeDebugNativeLibs
+> Task :externalloggerlibrary:stripDebugDebugSymbols
+> Task :externalloggerlibrary:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :externalloggerlibrary:parseReleaseLibraryResources
+> Task :app:mergeLibDexDebug
+> Task :externalloggerlibrary:processReleaseManifest
+> Task :externalloggerlibrary:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeProjectDexDebug
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :externalloggerlibrary:generateReleaseRFile
+
+> Task :externalloggerlibrary:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: room-compiler-2.0.0.jar (androidx.room:room-compiler:2.0.0), lifecycle-compiler-2.0.0.jar (androidx.lifecycle:lifecycle-compiler:2.0.0).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/externalloggerlibrary/src/main/java/guy4444/extrnalloggerlibrary/MyLoggerDB.java:18: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
 public abstract class MyLoggerDB extends RoomDatabase {
                 ^
 1 warning
 
-:externalloggerlibrary:processReleaseJavaRes NO-SOURCE
-:externalloggerlibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:externalloggerlibrary:mergeReleaseShaders
-:externalloggerlibrary:compileReleaseShaders
-:externalloggerlibrary:generateReleaseAssets
-:externalloggerlibrary:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:externalloggerlibrary:compileReleaseNdk NO-SOURCE
-:externalloggerlibrary:mergeReleaseJniLibFolders
-:externalloggerlibrary:transformNativeLibsWithMergeJniLibsForRelease
-:externalloggerlibrary:transformNativeLibsWithStripDebugSymbolForRelease
-:externalloggerlibrary:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:checkReleaseLibraries
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :externalloggerlibrary:bundleLibCompileRelease
+> Task :app:prepareLintJar
+> Task :externalloggerlibrary:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :externalloggerlibrary:bundleLibResRelease
+> Task :externalloggerlibrary:prepareLintJarForPublish
+> Task :app:javaPreCompileRelease
 
-BUILD SUCCESSFUL in 29s
-90 actionable tasks: 90 executed
+> Task :app:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: room-compiler-2.0.0.jar (androidx.room:room-compiler:2.0.0), lifecycle-compiler-2.0.0.jar (androidx.lifecycle:lifecycle-compiler:2.0.0).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
 
-2018-12-28 20:19:38,142 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546003139628-0/src/ExternalLogger-Android-master/app/build/outputs/apk/debug/app-debug.apk
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/19cd5748dc494550c7571de1af3fe3b3/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :externalloggerlibrary:bundleLibRuntimeRelease
+> Task :externalloggerlibrary:createFullJarRelease
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :externalloggerlibrary:mergeReleaseShaders
+> Task :externalloggerlibrary:compileReleaseShaders
+> Task :externalloggerlibrary:generateReleaseAssets
+> Task :externalloggerlibrary:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :externalloggerlibrary:mergeReleaseJniLibFolders
+> Task :externalloggerlibrary:mergeReleaseNativeLibs
+> Task :externalloggerlibrary:stripReleaseDebugSymbols
+> Task :externalloggerlibrary:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 43s
+91 actionable tasks: 91 executed
+
+2019-11-27 18:49:32,842 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574855318906-0/src/ExternalLogger-Android-master/app/build/outputs/apk/debug/app-debug.apk
