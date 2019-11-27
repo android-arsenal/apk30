@@ -1,36 +1,36 @@
-2019-10-05 19:21:27,916 INFO  DownloadService - Downloading "https://github.com/erkutaras/ShowcaseView/archive/master.zip", attempt 3
-2019-10-05 19:21:28,771 INFO  DownloadService - Downloaded https://github.com/erkutaras/ShowcaseView/archive/master.zip, attempt 3
-2019-10-05 19:21:28,771 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/master.zip": 764 KB
-2019-10-05 19:21:28,771 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-05 19:21:28,772 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/master.zip: true
-2019-10-05 19:21:28,772 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src'.
-2019-10-05 19:21:28,818 INFO  FullProcessService - Size of directory with sources: 876 KB
-2019-10-05 19:21:28,818 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src]
-2019-10-05 19:21:28,854 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/.git/
+2019-11-27 12:59:28,272 INFO  DownloadService - Downloading "https://github.com/erkutaras/ShowcaseView/archive/master.zip", attempt 3
+2019-11-27 12:59:31,452 INFO  DownloadService - Downloaded https://github.com/erkutaras/ShowcaseView/archive/master.zip, attempt 3
+2019-11-27 12:59:31,452 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/master.zip": 764 KB
+2019-11-27 12:59:31,452 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-27 12:59:31,458 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/master.zip: true
+2019-11-27 12:59:31,458 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src'.
+2019-11-27 12:59:31,481 INFO  FullProcessService - Size of directory with sources: 876 KB
+2019-11-27 12:59:31,481 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src]
+2019-11-27 12:59:31,505 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/.git/
 
-2019-10-05 19:21:28,856 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/gradlew
-2019-10-05 19:21:28,860 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/build.gradle
-2019-10-05 19:21:28,864 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/settings.gradle
-2019-10-05 19:21:28,865 INFO  ProjectBuildService - Remote scripts: none
-2019-10-05 19:21:28,865 INFO  ProjectFixService - Fixing project...
-2019-10-05 19:21:28,875 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/library/local.properties
-2019-10-05 19:21:28,877 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-10-05 19:21:28,878 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-10-05 19:21:28,879 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/sample/local.properties
-2019-10-05 19:21:28,881 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-10-05 19:21:28,881 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-10-05 19:21:28,883 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/local.properties
-2019-10-05 19:21:28,884 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-10-05 19:21:28,885 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-10-05 19:21:28,887 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-10-05 19:21:28,887 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-10-05 19:21:28,888 INFO  ProjectFixService - Project was maybe fixed
-2019-10-05 19:21:28,888 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-05 19:21:28,888 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-05 19:21:46,937 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-10-05 19:21:46,937 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-05 19:21:46,938 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-05 19:22:15,047 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-27 12:59:31,508 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/gradlew
+2019-11-27 12:59:31,511 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/build.gradle
+2019-11-27 12:59:31,513 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/settings.gradle
+2019-11-27 12:59:31,514 INFO  ProjectBuildService - Remote scripts: none
+2019-11-27 12:59:31,514 INFO  ProjectFixService - Fixing project...
+2019-11-27 12:59:31,521 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/library/local.properties
+2019-11-27 12:59:31,521 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-27 12:59:31,522 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-27 12:59:31,522 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/sample/local.properties
+2019-11-27 12:59:31,523 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-11-27 12:59:31,523 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-11-27 12:59:31,524 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/local.properties
+2019-11-27 12:59:31,524 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-11-27 12:59:31,524 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-11-27 12:59:31,525 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-27 12:59:31,525 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-27 12:59:31,526 INFO  ProjectFixService - Project was maybe fixed
+2019-11-27 12:59:31,526 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-27 12:59:31,526 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-27 12:59:39,459 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-11-27 12:59:39,459 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-11-27 12:59:39,460 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-11-27 13:00:06,143 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:checkDebugManifest
@@ -49,20 +49,6 @@
 > Task :library:generateReleaseBuildConfig
 > Task :library:generateReleaseResValues
 > Task :library:processDebugManifest
-> Task :library:mergeDebugNativeLibs
-> Task :library:stripDebugDebugSymbols
-> Task :library:processReleaseManifest
-> Task :library:compileDebugAidl NO-SOURCE
-> Task :library:compileDebugRenderscript NO-SOURCE
-> Task :library:generateDebugResources
-> Task :library:packageDebugResources
-> Task :library:transformNativeLibsWithSyncJniLibsForDebug
-> Task :library:compileReleaseAidl NO-SOURCE
-> Task :library:compileReleaseRenderscript NO-SOURCE
-> Task :library:generateReleaseResources
-> Task :library:packageReleaseResources
-> Task :library:parseDebugLibraryResources
-> Task :library:parseReleaseLibraryResources
 > Task :library:mergeReleaseShaders
 > Task :library:compileReleaseShaders
 > Task :library:generateReleaseAssets
@@ -70,35 +56,49 @@
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :library:processReleaseJavaRes NO-SOURCE
 > Task :library:mergeReleaseJniLibFolders
+> Task :library:mergeDebugNativeLibs
+> Task :library:stripDebugDebugSymbols
+> Task :library:transformNativeLibsWithSyncJniLibsForDebug
 > Task :library:mergeReleaseNativeLibs
+> Task :library:processReleaseManifest
 > Task :library:stripReleaseDebugSymbols
 > Task :library:transformNativeLibsWithSyncJniLibsForRelease
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:generateDebugResources
+> Task :library:packageDebugResources
+> Task :library:compileReleaseRenderscript NO-SOURCE
+> Task :library:generateReleaseResources
+> Task :library:packageReleaseResources
 > Task :library:mergeReleaseResources
-> Task :library:generateReleaseRFile
-> Task :library:compileReleaseKotlin
-> Task :library:verifyReleaseResources
+> Task :library:parseDebugLibraryResources
+> Task :library:parseReleaseLibraryResources
 > Task :library:generateDebugRFile
 > Task :library:compileDebugKotlin
-> Task :library:javaPreCompileRelease
-> Task :library:compileReleaseJavaWithJavac
-> Task :library:extractReleaseAnnotations
-> Task :library:mergeReleaseGeneratedProguardFiles
-> Task :library:mergeReleaseConsumerProguardFiles
-> Task :library:compileReleaseSources
+> Task :library:verifyReleaseResources
+> Task :library:generateReleaseRFile
+> Task :library:compileReleaseKotlin
 > Task :library:javaPreCompileDebug
 > Task :library:compileDebugJavaWithJavac
 > Task :library:extractDebugAnnotations
 > Task :library:mergeDebugGeneratedProguardFiles
 > Task :library:mergeDebugConsumerProguardFiles
 > Task :library:compileDebugSources
-> Task :library:mergeReleaseJavaResource
-> Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :library:bundleReleaseAar
-> Task :library:assembleRelease
+> Task :library:javaPreCompileRelease
+> Task :library:compileReleaseJavaWithJavac
+> Task :library:extractReleaseAnnotations
+> Task :library:mergeReleaseGeneratedProguardFiles
+> Task :library:mergeReleaseConsumerProguardFiles
+> Task :library:compileReleaseSources
 > Task :library:mergeDebugJavaResource
 > Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :library:bundleDebugAar
 > Task :library:assembleDebug
+> Task :library:mergeReleaseJavaResource
+> Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :library:bundleReleaseAar
+> Task :library:assembleRelease
 > Task :library:assemble
 > Task :library:build
 
@@ -106,15 +106,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 27s
+BUILD SUCCESSFUL in 26s
 49 actionable tasks: 49 executed
 
-2019-10-05 19:22:15,098 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-05 19:22:15,099 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-05 19:22:23,629 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-10-05 19:22:23,629 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-05 19:22:23,630 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-05 19:23:29,279 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-27 13:00:06,183 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-27 13:00:06,184 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-27 13:00:14,032 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-11-27 13:00:14,032 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-27 13:00:14,032 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-27 13:01:20,379 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:compileDebugAidl NO-SOURCE
@@ -134,21 +134,21 @@ BUILD SUCCESSFUL in 27s
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :library:packageDebugRenderscript NO-SOURCE
 > Task :sample:compileDebugAidl NO-SOURCE
-> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:checkDebugManifest
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
 > Task :sample:mainApkListPersistenceDebug
+> Task :library:bundleLibCompileDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
-> Task :library:bundleLibCompileDebug
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:processDebugManifest
 > Task :sample:mergeDebugResources
 > Task :sample:processDebugResources
 
 > Task :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/sample/src/main/java/com/erkutaras/showcaseview/sample/ShowcaseSampleActivity.kt: (113, 32): Parameter 'v' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/sample/src/main/java/com/erkutaras/showcaseview/sample/ShowcaseSampleActivity.kt: (174, 64): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/sample/src/main/java/com/erkutaras/showcaseview/sample/ShowcaseSampleActivity.kt: (113, 32): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/sample/src/main/java/com/erkutaras/showcaseview/sample/ShowcaseSampleActivity.kt: (174, 64): Parameter 'buttonView' is never used, could be renamed to _
 
 > Task :sample:javaPreCompileDebug
 > Task :sample:compileDebugJavaWithJavac
@@ -200,24 +200,24 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
 > Task :library:bundleLibCompileRelease
 > Task :library:prepareLintJarForPublish UP-TO-DATE
 > Task :sample:prepareLintJar
 > Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:bundleLibResRelease
 > Task :sample:checkReleaseDuplicateClasses
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
+> Task :library:bundleLibResRelease
 > Task :library:bundleLibRuntimeRelease
 > Task :library:createFullJarRelease
 > Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
 
 > Task :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/sample/src/main/java/com/erkutaras/showcaseview/sample/ShowcaseSampleActivity.kt: (113, 32): Parameter 'v' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/sample/src/main/java/com/erkutaras/showcaseview/sample/ShowcaseSampleActivity.kt: (174, 64): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/sample/src/main/java/com/erkutaras/showcaseview/sample/ShowcaseSampleActivity.kt: (113, 32): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/sample/src/main/java/com/erkutaras/showcaseview/sample/ShowcaseSampleActivity.kt: (174, 64): Parameter 'buttonView' is never used, could be renamed to _
 
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
@@ -261,7 +261,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 4s
+BUILD SUCCESSFUL in 1m 5s
 96 actionable tasks: 63 executed, 33 up-to-date
 
-2019-10-05 19:23:29,371 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278087911-0/src/ShowcaseView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-11-27 13:01:20,473 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834368267-0/src/ShowcaseView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
