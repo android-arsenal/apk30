@@ -1,36 +1,36 @@
-2019-03-30 21:40:19,883 INFO  DownloadService - Downloading "https://github.com/VladimirWrites/AnalogWatchFace/archive/master.zip", attempt 3
-2019-03-30 21:40:22,575 INFO  DownloadService - Downloaded https://github.com/VladimirWrites/AnalogWatchFace/archive/master.zip, attempt 3
-2019-03-30 21:40:22,576 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/master.zip": 224 KB
-2019-03-30 21:40:22,576 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-30 21:40:22,577 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/master.zip: true
-2019-03-30 21:40:22,578 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src'.
-2019-03-30 21:40:22,630 INFO  FullProcessService - Size of directory with sources: 297 KB
-2019-03-30 21:40:22,630 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src]
-2019-03-30 21:40:22,655 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/.git/
+2019-11-28 12:50:52,903 INFO  DownloadService - Downloading "https://github.com/VladimirWrites/AnalogWatchFace/archive/master.zip", attempt 3
+2019-11-28 12:50:55,099 INFO  DownloadService - Downloaded https://github.com/VladimirWrites/AnalogWatchFace/archive/master.zip, attempt 3
+2019-11-28 12:50:55,100 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/master.zip": 224 KB
+2019-11-28 12:50:55,100 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-28 12:50:55,106 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/master.zip: true
+2019-11-28 12:50:55,106 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src'.
+2019-11-28 12:50:55,130 INFO  FullProcessService - Size of directory with sources: 296 KB
+2019-11-28 12:50:55,130 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src]
+2019-11-28 12:50:55,158 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/.git/
 
-2019-03-30 21:40:22,660 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/gradlew
-2019-03-30 21:40:22,665 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/wear/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/build.gradle
-2019-03-30 21:40:22,669 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/wear/build.gradle
-2019-03-30 21:40:22,670 INFO  ProjectBuildService - Remote scripts: none
-2019-03-30 21:40:22,670 INFO  ProjectFixService - Fixing project...
-2019-03-30 21:40:22,681 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/app/local.properties
-2019-03-30 21:40:22,683 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-30 21:40:22,683 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-30 21:40:22,684 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/wear/local.properties
-2019-03-30 21:40:22,687 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/wear/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-30 21:40:22,687 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/wear/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-30 21:40:22,689 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/local.properties
-2019-03-30 21:40:22,689 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-03-30 21:40:22,690 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-03-30 21:40:22,692 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-30 21:40:22,692 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-30 21:40:22,693 INFO  ProjectFixService - Project was maybe fixed
-2019-03-30 21:40:22,693 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-30 21:40:22,693 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-30 21:40:37,588 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-03-30 21:40:37,589 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-30 21:40:37,589 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-30 21:40:53,885 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2019-11-28 12:50:55,161 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/gradlew
+2019-11-28 12:50:55,164 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/wear/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/build.gradle
+2019-11-28 12:50:55,167 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/wear/build.gradle
+2019-11-28 12:50:55,167 INFO  ProjectBuildService - Remote scripts: none
+2019-11-28 12:50:55,167 INFO  ProjectFixService - Fixing project...
+2019-11-28 12:50:55,174 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/app/local.properties
+2019-11-28 12:50:55,175 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-28 12:50:55,176 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-28 12:50:55,177 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/wear/local.properties
+2019-11-28 12:50:55,179 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/wear/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-28 12:50:55,179 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/wear/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-28 12:50:55,180 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/local.properties
+2019-11-28 12:50:55,181 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-11-28 12:50:55,182 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-11-28 12:50:55,184 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-28 12:50:55,184 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-28 12:50:55,184 INFO  ProjectFixService - Project was maybe fixed
+2019-11-28 12:50:55,185 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-28 12:50:55,185 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-28 12:51:26,388 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-11-28 12:51:26,388 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-28 12:51:26,388 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-28 12:51:40,844 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:processResources NO-SOURCE
@@ -56,9 +56,10 @@ Configuration on demand is an incubating feature.
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :app:mergeDebugResources
 > Task :app:createDebugCompatibleScreenManifests
+> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.3.2-5309881) with Aapt2Extractor
 > Task :app:processDebugManifest
+> Task :app:mergeDebugResources
 > Task :app:processDebugResources
 > Task :app:compileDebugKotlin
 > Task :app:prepareLintJar
@@ -104,7 +105,7 @@ Configuration on demand is an incubating feature.
 > Task :app:compileReleaseSources
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/266aa552693e78b054a49e6a54257ee3/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/9aa3f67ad204d5b6c8a6821a5b4cc5b5/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
 > Task :app:mergeExtDexRelease
 > Task :app:transformClassesWithDexBuilderForRelease
@@ -124,7 +125,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 15s
+BUILD SUCCESSFUL in 14s
 54 actionable tasks: 54 executed
 
-2019-03-30 21:40:53,908 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553956819880-0/src/AnalogWatchFace-master/app/build/outputs/apk/debug/app-debug.apk
+2019-11-28 12:51:40,863 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574920252899-0/src/AnalogWatchFace-master/app/build/outputs/apk/debug/app-debug.apk
