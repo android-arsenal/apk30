@@ -1,36 +1,36 @@
-2019-11-10 22:57:55,961 INFO  DownloadService - Downloading "https://github.com/AndreaCioccarelli/BillingProtector/archive/master.zip", attempt 3
-2019-11-10 22:57:58,008 INFO  DownloadService - Downloaded https://github.com/AndreaCioccarelli/BillingProtector/archive/master.zip, attempt 3
-2019-11-10 22:57:58,008 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/master.zip": 163 KB
-2019-11-10 22:57:58,008 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-10 22:57:58,013 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/master.zip: true
-2019-11-10 22:57:58,014 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src'.
-2019-11-10 22:57:58,035 INFO  FullProcessService - Size of directory with sources: 186 KB
-2019-11-10 22:57:58,035 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src]
-2019-11-10 22:57:58,053 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/.git/
+2019-11-28 12:15:58,446 INFO  DownloadService - Downloading "https://github.com/AndreaCioccarelli/BillingProtector/archive/master.zip", attempt 3
+2019-11-28 12:16:00,609 INFO  DownloadService - Downloaded https://github.com/AndreaCioccarelli/BillingProtector/archive/master.zip, attempt 3
+2019-11-28 12:16:00,610 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/master.zip": 163 KB
+2019-11-28 12:16:00,610 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-28 12:16:00,615 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/master.zip: true
+2019-11-28 12:16:00,615 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src'.
+2019-11-28 12:16:00,639 INFO  FullProcessService - Size of directory with sources: 186 KB
+2019-11-28 12:16:00,639 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src]
+2019-11-28 12:16:00,667 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/.git/
 
-2019-11-10 22:57:58,056 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/gradlew
-2019-11-10 22:57:58,059 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/build.gradle
-2019-11-10 22:57:58,062 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/settings.gradle
-2019-11-10 22:57:58,062 INFO  ProjectBuildService - Remote scripts: none
-2019-11-10 22:57:58,062 INFO  ProjectFixService - Fixing project...
-2019-11-10 22:57:58,069 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/app/local.properties
-2019-11-10 22:57:58,070 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-10 22:57:58,071 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-10 22:57:58,072 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/library/local.properties
-2019-11-10 22:57:58,073 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-10 22:57:58,073 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-10 22:57:58,074 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/local.properties
-2019-11-10 22:57:58,074 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.3-all.zip
-2019-11-10 22:57:58,075 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.3-bin.zip)
-2019-11-10 22:57:58,076 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-10 22:57:58,076 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-10 22:57:58,076 INFO  ProjectFixService - Project was maybe fixed
-2019-11-10 22:57:58,077 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-10 22:57:58,077 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-10 22:58:34,164 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-11-10 22:58:34,164 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-10 22:58:34,164 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-10 22:59:56,050 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-28 12:16:00,670 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/gradlew
+2019-11-28 12:16:00,672 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/build.gradle
+2019-11-28 12:16:00,675 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/settings.gradle
+2019-11-28 12:16:00,675 INFO  ProjectBuildService - Remote scripts: none
+2019-11-28 12:16:00,675 INFO  ProjectFixService - Fixing project...
+2019-11-28 12:16:00,682 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/app/local.properties
+2019-11-28 12:16:00,683 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-28 12:16:00,683 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-28 12:16:00,684 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/library/local.properties
+2019-11-28 12:16:00,684 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-28 12:16:00,685 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-28 12:16:00,686 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/local.properties
+2019-11-28 12:16:00,687 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.3-all.zip
+2019-11-28 12:16:00,687 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.3-bin.zip)
+2019-11-28 12:16:00,688 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-28 12:16:00,689 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-28 12:16:00,689 INFO  ProjectFixService - Project was maybe fixed
+2019-11-28 12:16:00,689 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-28 12:16:00,689 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-28 12:16:08,676 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-11-28 12:16:08,677 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-28 12:16:08,677 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-28 12:17:03,913 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
@@ -38,8 +38,8 @@
 > Task :library:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
@@ -51,14 +51,11 @@
 > Task :app:extractDeepLinksDebug
 > Task :library:extractDeepLinksDebug
 > Task :library:generateDebugBuildConfig
-> Task :app:mergeDebugResources
-> Task :library:compileDebugLibraryResources
-> Task :library:parseDebugLocalResources
 > Task :library:processDebugManifest
 > Task :app:processDebugManifest
-> Task :library:generateDebugRFile
-> Task :app:processDebugResources
-> Task :library:compileDebugKotlin
+> Task :library:compileDebugLibraryResources
+> Task :app:mergeDebugResources
+> Task :library:parseDebugLocalResources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -67,21 +64,24 @@
 > Task :library:generateDebugAssets
 > Task :library:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :library:generateDebugRFile
+> Task :app:processDebugResources
+> Task :library:compileDebugKotlin
 > Task :library:javaPreCompileDebug
 > Task :library:compileDebugJavaWithJavac
-> Task :library:bundleLibCompileDebug
-
-> Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/app/src/main/java/com/andreacioccarelli/billingprotectorsample/DetectionActivity.kt: (35, 17): 'vibrate(Long): Unit' is deprecated. Deprecated in Java
-
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :library:processDebugJavaRes NO-SOURCE
 > Task :library:bundleLibResDebug
+> Task :library:bundleLibCompileDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/app/src/main/java/com/andreacioccarelli/billingprotectorsample/DetectionActivity.kt: (35, 17): 'vibrate(Long): Unit' is deprecated. Deprecated in Java
+
 > Task :library:bundleLibRuntimeDebug
 > Task :library:createFullJarDebug
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
 > Task :app:dexBuilderDebug
 > Task :app:checkDebugDuplicateClasses
 > Task :app:mergeDebugJavaResource
@@ -102,18 +102,18 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:extractDeepLinksRelease
-> Task :library:extractDeepLinksRelease
-> Task :library:processReleaseManifest
-> Task :app:processReleaseManifest
 > Task :library:mergeDebugNativeLibs
 > Task :library:stripDebugDebugSymbols
 > Task :library:copyDebugJniLibsProjectOnly
-> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :library:extractDeepLinksRelease
 > Task :library:compileReleaseLibraryResources
-> Task :library:generateReleaseBuildConfig
 > Task :library:parseReleaseLocalResources
+> Task :library:generateReleaseBuildConfig
+> Task :library:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :app:mergeReleaseResources
 > Task :library:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :library:compileReleaseKotlin
@@ -121,22 +121,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/
 > Task :app:stripDebugDebugSymbols
 > Task :library:javaPreCompileRelease
 > Task :library:compileReleaseJavaWithJavac
-> Task :app:prepareLintJar
 > Task :library:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/app/src/main/java/com/andreacioccarelli/billingprotectorsample/DetectionActivity.kt: (35, 17): 'vibrate(Long): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/app/src/main/java/com/andreacioccarelli/billingprotectorsample/DetectionActivity.kt: (35, 17): 'vibrate(Long): Unit' is deprecated. Deprecated in Java
 
+> Task :app:prepareLintJar
 > Task :library:processReleaseJavaRes NO-SOURCE
-> Task :app:javaPreCompileRelease
-> Task :library:bundleLibResRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
 > Task :app:checkReleaseDuplicateClasses
-> Task :app:dexBuilderRelease
 > Task :library:bundleLibRuntimeRelease
-> Task :library:createFullJarRelease
-> Task :app:mergeExtDexDebug
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -148,25 +141,32 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:mergeReleaseJniLibFolders
 > Task :library:mergeReleaseJniLibFolders
-> Task :library:prepareLintJarForPublish
-> Task :app:mergeExtDexRelease
-> Task :app:mergeDexDebug
-> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexDebug
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:dexBuilderRelease
 > Task :library:mergeReleaseNativeLibs
-> Task :app:lintVitalRelease
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :library:stripReleaseDebugSymbols
 > Task :library:copyReleaseJniLibsProjectOnly
+> Task :library:prepareLintJarForPublish
+> Task :app:lintVitalRelease
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :library:bundleLibResRelease
+> Task :library:createFullJarRelease
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 20s
+BUILD SUCCESSFUL in 54s
 94 actionable tasks: 94 executed
 
-2019-11-10 22:59:56,103 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401475957-0/src/BillingProtector-master/app/build/outputs/apk/debug/app-debug.apk
+2019-11-28 12:17:03,959 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918158437-0/src/BillingProtector-master/app/build/outputs/apk/debug/app-debug.apk
