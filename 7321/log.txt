@@ -1,40 +1,40 @@
-2019-11-27 21:07:29,387 INFO  DownloadService - Downloading "https://github.com/iFanie/AccordionRecycler/archive/master.zip", attempt 3
-2019-11-27 21:07:33,420 INFO  DownloadService - Downloaded https://github.com/iFanie/AccordionRecycler/archive/master.zip, attempt 3
-2019-11-27 21:07:33,421 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/master.zip": 4 MB
-2019-11-27 21:07:33,421 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-27 21:07:33,422 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/master.zip: true
-2019-11-27 21:07:33,423 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src'.
-2019-11-27 21:07:33,471 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-11-27 21:07:33,471 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src]
-2019-11-27 21:07:33,489 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/.git/
+2019-12-02 20:23:29,613 INFO  DownloadService - Downloading "https://github.com/iFanie/AccordionRecycler/archive/master.zip", attempt 3
+2019-12-02 20:23:35,715 INFO  DownloadService - Downloaded https://github.com/iFanie/AccordionRecycler/archive/master.zip, attempt 3
+2019-12-02 20:23:35,716 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/master.zip": 4 MB
+2019-12-02 20:23:35,716 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-02 20:23:35,717 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/master.zip: true
+2019-12-02 20:23:35,718 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src'.
+2019-12-02 20:23:35,763 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-12-02 20:23:35,763 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src]
+2019-12-02 20:23:35,781 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/.git/
 
-2019-11-27 21:07:33,491 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/gradlew
-2019-11-27 21:07:33,494 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/accordionrecycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/build.gradle
-2019-11-27 21:07:33,496 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/accordionrecycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/settings.gradle
-2019-11-27 21:07:33,497 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-11-27 21:07:33,677 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-11-27 21:07:33,678 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-11-27 21:07:33,857 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-11-27 21:07:33,857 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-11-27 21:07:33,857 INFO  ProjectFixService - Fixing project...
-2019-11-27 21:07:33,866 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/accordionrecycler/local.properties
-2019-11-27 21:07:33,869 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/accordionrecycler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-27 21:07:33,869 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/accordionrecycler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-27 21:07:33,870 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/app/local.properties
-2019-11-27 21:07:33,873 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-27 21:07:33,873 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-27 21:07:33,874 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/local.properties
-2019-11-27 21:07:33,875 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-11-27 21:07:33,875 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-11-27 21:07:33,877 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-27 21:07:33,877 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-27 21:07:33,878 INFO  ProjectFixService - Project was maybe fixed
-2019-11-27 21:07:33,879 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-27 21:07:33,879 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/accordionrecycler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-27 21:07:43,189 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-11-27 21:07:43,190 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-11-27 21:07:43,190 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/accordionrecycler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-11-27 21:08:09,402 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-02 20:23:35,784 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/gradlew
+2019-12-02 20:23:35,788 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/accordionrecycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/build.gradle
+2019-12-02 20:23:35,790 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/accordionrecycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/settings.gradle
+2019-12-02 20:23:35,798 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-12-02 20:23:36,604 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-12-02 20:23:36,605 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-12-02 20:23:36,820 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-12-02 20:23:36,820 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-12-02 20:23:36,820 INFO  ProjectFixService - Fixing project...
+2019-12-02 20:23:36,831 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/accordionrecycler/local.properties
+2019-12-02 20:23:36,835 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/accordionrecycler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-02 20:23:36,835 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/accordionrecycler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-02 20:23:36,838 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/app/local.properties
+2019-12-02 20:23:36,841 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-02 20:23:36,841 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-02 20:23:36,843 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/local.properties
+2019-12-02 20:23:36,844 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-12-02 20:23:36,845 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-12-02 20:23:36,848 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-02 20:23:36,848 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-02 20:23:36,849 INFO  ProjectFixService - Project was maybe fixed
+2019-12-02 20:23:36,850 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-02 20:23:36,850 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/accordionrecycler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-02 20:23:46,849 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-12-02 20:23:46,850 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-02 20:23:46,850 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/accordionrecycler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-02 20:24:15,021 INFO  SysUtils - Configuration on demand is an incubating feature.
 :accordionrecycler:preBuild UP-TO-DATE
 :accordionrecycler:preDebugBuild UP-TO-DATE
 :accordionrecycler:compileDebugAidl NO-SOURCE
@@ -106,15 +106,15 @@
 :accordionrecycler:assemble
 :accordionrecycler:build
 
-BUILD SUCCESSFUL in 25s
+BUILD SUCCESSFUL in 27s
 47 actionable tasks: 47 executed
 
-2019-11-27 21:08:09,454 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-27 21:08:09,454 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-27 21:08:16,369 INFO  ProjectTaskService - Detected possible tasks: 72
-2019-11-27 21:08:16,369 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-27 21:08:16,369 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-27 21:08:22,770 ERROR SysUtils - Could not process external command
+2019-12-02 20:24:15,093 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-02 20:24:15,094 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-02 20:24:22,973 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-12-02 20:24:22,973 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-02 20:24:22,973 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-02 20:24:29,839 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -142,7 +142,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-11-27 21:08:22,770 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-02 20:24:29,840 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -222,9 +222,9 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 6s
 
-2019-11-27 21:08:22,770 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-11-27 21:08:22,770 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-11-27 21:09:19,162 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-02 20:24:29,840 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-12-02 20:24:29,840 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-02 20:25:26,281 INFO  SysUtils - Configuration on demand is an incubating feature.
 :accordionrecycler:preBuild UP-TO-DATE
 :accordionrecycler:preDebugBuild UP-TO-DATE
 :accordionrecycler:compileDebugAidl NO-SOURCE
@@ -355,11 +355,10 @@ BUILD FAILED in 6s
 :app:assembleRelease
 :app:assemble
 :app:lint
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/b8c73c5a8df0008eb188d2a78a10c0f9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 Ran lint on variant release: 10 issues found
 Ran lint on variant debug: 10 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/app/build/reports/lint-results.xml
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/app/build/reports/lint-results.xml
 :app:compileDebugUnitTestKotlin
 :app:generateDebugUnitTestSources
 :app:preDebugUnitTestBuild UP-TO-DATE
@@ -381,4 +380,4 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 BUILD SUCCESSFUL in 55s
 98 actionable tasks: 65 executed, 33 up-to-date
 
-2019-11-27 21:09:19,262 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574863649379-0/src/AccordionRecycler-master/app/build/outputs/apk/debug/app-debug.apk
+2019-12-02 20:25:26,428 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293009610-0/src/AccordionRecycler-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,61 +1,97 @@
-2019-03-09 18:14:01,448 INFO  DownloadService - Downloading "https://github.com/akhilbv1/CustomToastLibrary/archive/master.zip", attempt 3
-2019-03-09 18:14:03,891 INFO  DownloadService - Downloaded https://github.com/akhilbv1/CustomToastLibrary/archive/master.zip, attempt 3
-2019-03-09 18:14:03,891 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/master.zip": 204 KB
-2019-03-09 18:14:03,891 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-09 18:14:03,897 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/master.zip: true
-2019-03-09 18:14:03,897 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src'.
-2019-03-09 18:14:03,934 INFO  FullProcessService - Size of directory with sources: 236 KB
-2019-03-09 18:14:03,934 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src]
-2019-03-09 18:14:03,962 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/.git/
+2019-12-02 20:21:21,075 INFO  DownloadService - Downloading "https://github.com/akhilbv1/CustomToastLibrary/archive/master.zip", attempt 3
+2019-12-02 20:21:23,187 INFO  DownloadService - Downloaded https://github.com/akhilbv1/CustomToastLibrary/archive/master.zip, attempt 3
+2019-12-02 20:21:23,187 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/master.zip": 204 KB
+2019-12-02 20:21:23,187 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-02 20:21:23,193 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/master.zip: true
+2019-12-02 20:21:23,193 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src'.
+2019-12-02 20:21:23,222 INFO  FullProcessService - Size of directory with sources: 236 KB
+2019-12-02 20:21:23,223 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src]
+2019-12-02 20:21:23,241 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/.git/
 
-2019-03-09 18:14:03,971 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/gradlew
-2019-03-09 18:14:03,980 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/customToast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/build.gradle
-2019-03-09 18:14:03,987 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/customToast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/settings.gradle
-2019-03-09 18:14:03,988 INFO  ProjectBuildService - Remote scripts: none
-2019-03-09 18:14:03,988 INFO  ProjectFixService - Fixing project...
-2019-03-09 18:14:04,007 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/app/local.properties
-2019-03-09 18:14:04,009 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=26]
-2019-03-09 18:14:04,010 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=26]
-2019-03-09 18:14:04,011 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/customToast/local.properties
-2019-03-09 18:14:04,014 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/customToast/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
-2019-03-09 18:14:04,014 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/customToast/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
-2019-03-09 18:14:04,016 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/local.properties
-2019-03-09 18:14:04,017 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-03-09 18:14:04,018 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-03-09 18:14:04,020 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
-2019-03-09 18:14:04,020 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
-2019-03-09 18:14:04,021 INFO  ProjectFixService - Project was maybe fixed
-2019-03-09 18:14:04,021 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-09 18:14:04,021 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-09 18:14:12,479 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-03-09 18:14:12,480 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-09 18:14:12,480 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-09 18:15:05,996 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-02 20:21:23,246 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/gradlew
+2019-12-02 20:21:23,250 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/customToast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/build.gradle
+2019-12-02 20:21:23,254 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/customToast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/settings.gradle
+2019-12-02 20:21:23,254 INFO  ProjectBuildService - Remote scripts: none
+2019-12-02 20:21:23,254 INFO  ProjectFixService - Fixing project...
+2019-12-02 20:21:23,263 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/app/local.properties
+2019-12-02 20:21:23,264 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=26]
+2019-12-02 20:21:23,265 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=26]
+2019-12-02 20:21:23,266 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/customToast/local.properties
+2019-12-02 20:21:23,266 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/customToast/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2019-12-02 20:21:23,266 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/customToast/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2019-12-02 20:21:23,267 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/local.properties
+2019-12-02 20:21:23,268 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-12-02 20:21:23,268 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-12-02 20:21:23,269 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2019-12-02 20:21:23,269 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2019-12-02 20:21:23,270 INFO  ProjectFixService - Project was maybe fixed
+2019-12-02 20:21:23,270 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-02 20:21:23,270 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-02 20:21:32,150 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-12-02 20:21:32,150 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-02 20:21:32,150 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-02 20:22:32,185 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
 It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 :app:checkDebugClasspath
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-transformation/28.0.0-alpha1/design-transformation-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-widget/28.0.0-alpha1/design-widget-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/28.0.0-alpha1/design-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-theme/28.0.0-alpha1/design-theme-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-bottomsheet/28.0.0-alpha1/design-bottomsheet-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-bottomappbar/28.0.0-alpha1/design-bottomappbar-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-dialog/28.0.0-alpha1/design-dialog-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-button/28.0.0-alpha1/design-button-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-card/28.0.0-alpha1/design-card-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-chip/28.0.0-alpha1/design-chip-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-internal/28.0.0-alpha1/design-internal-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-bottomnavigation/28.0.0-alpha1/design-bottomnavigation-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-floatingactionbutton/28.0.0-alpha1/design-floatingactionbutton-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-navigation/28.0.0-alpha1/design-navigation-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-resources/28.0.0-alpha1/design-resources-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-tabs/28.0.0-alpha1/design-tabs-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-textfield/28.0.0-alpha1/design-textfield-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-typography/28.0.0-alpha1/design-typography-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-shape/28.0.0-alpha1/design-shape-28.0.0-alpha1.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/28.0.0-alpha1/appcompat-v7-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/28.0.0-alpha1/support-vector-drawable-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/28.0.0-alpha1/support-core-ui-28.0.0-alpha1.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/28.0.0-alpha1/animated-vector-drawable-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/28.0.0-alpha1/support-v4-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/28.0.0-alpha1/support-vector-drawable-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-media-compat/28.0.0-alpha1/support-media-compat-28.0.0-alpha1.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/28.0.0-alpha1/support-fragment-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/28.0.0-alpha1/recyclerview-v7-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-animation/28.0.0-alpha1/design-animation-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-circularreveal-coordinatorlayout/28.0.0-alpha1/design-circularreveal-coordinatorlayout-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-expandable/28.0.0-alpha1/design-expandable-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-stateful/28.0.0-alpha1/design-stateful-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/28.0.0-alpha1/support-core-ui-28.0.0-alpha1.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/28.0.0-alpha1/support-core-utils-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/loader/28.0.0-alpha1/loader-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/viewpager/28.0.0-alpha1/viewpager-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-ripple/28.0.0-alpha1/design-ripple-28.0.0-alpha1.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/coordinatorlayout/28.0.0-alpha1/coordinatorlayout-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/slidingpanelayout/28.0.0-alpha1/slidingpanelayout-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/swiperefreshlayout/28.0.0-alpha1/swiperefreshlayout-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/customview/28.0.0-alpha1/customview-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/viewpager/28.0.0-alpha1/viewpager-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/loader/28.0.0-alpha1/loader-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/28.0.0-alpha1/transition-28.0.0-alpha1.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/drawerlayout/28.0.0-alpha1/drawerlayout-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/slidingpanelayout/28.0.0-alpha1/slidingpanelayout-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/customview/28.0.0-alpha1/customview-28.0.0-alpha1.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/asynclayoutinflater/28.0.0-alpha1/asynclayoutinflater-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/swiperefreshlayout/28.0.0-alpha1/swiperefreshlayout-28.0.0-alpha1.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/28.0.0-alpha1/support-compat-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-circularreveal/28.0.0-alpha1/design-circularreveal-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-canvas/28.0.0-alpha1/design-canvas-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-circularreveal-cardview/28.0.0-alpha1/design-circularreveal-cardview-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-drawable/28.0.0-alpha1/design-drawable-28.0.0-alpha1.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/documentfile/28.0.0-alpha1/documentfile-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadcastmanager/28.0.0-alpha1/localbroadcastmanager-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/interpolator/28.0.0-alpha1/interpolator-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0-alpha1/cursoradapter-28.0.0-alpha1.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/print/28.0.0-alpha1/print-28.0.0-alpha1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0-alpha1/support-annotations-28.0.0-alpha1.jar
 Download https://dl.google.com/dl/android/maven2/com/android/support/collections/28.0.0-alpha1/collections-28.0.0-alpha1.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/interpolator/28.0.0-alpha1/interpolator-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadcastmanager/28.0.0-alpha1/localbroadcastmanager-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/cardview-v7/28.0.0-alpha1/cardview-v7-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0-alpha1/cursoradapter-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-color/28.0.0-alpha1/design-color-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0-alpha1/support-annotations-28.0.0-alpha1.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-math/28.0.0-alpha1/design-math-28.0.0-alpha1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design-snackbar/28.0.0-alpha1/design-snackbar-28.0.0-alpha1.aar
 :app:preBuild UP-TO-DATE
 :customToast:preBuild UP-TO-DATE
 :customToast:preDebugBuild UP-TO-DATE
@@ -72,6 +108,10 @@ Download https://dl.google.com/dl/android/maven2/com/android/support/collections
 :app:generateDebugResValues
 :app:generateDebugResources
 :customToast:compileDebugRenderscript
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/26.1.0/support-fragment-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/26.1.0/support-core-ui-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/26.1.0/support-compat-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/26.1.0/support-core-utils-26.1.0.aar
 :customToast:generateDebugResValues
 :customToast:generateDebugResources
 :customToast:packageDebugResources
@@ -83,7 +123,7 @@ Download https://dl.google.com/dl/android/maven2/com/android/support/collections
 :app:processDebugResources
 :customToast:generateDebugBuildConfig
 :customToast:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/customToast/src/main/java/com/ib/custom/toast/CustomToastView.kt: (85, 46): Parameter 'duration' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/customToast/src/main/java/com/ib/custom/toast/CustomToastView.kt: (85, 46): Parameter 'duration' is never used
 :customToast:prepareLintJar
 :customToast:generateDebugSources
 :customToast:javaPreCompileDebug
@@ -148,7 +188,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/
 :app:processReleaseResources
 :customToast:generateReleaseBuildConfig
 :customToast:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/customToast/src/main/java/com/ib/custom/toast/CustomToastView.kt: (85, 46): Parameter 'duration' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/customToast/src/main/java/com/ib/custom/toast/CustomToastView.kt: (85, 46): Parameter 'duration' is never used
 :customToast:generateReleaseSources
 :customToast:javaPreCompileRelease
 :customToast:compileReleaseJavaWithJavac
@@ -190,7 +230,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 52s
+BUILD SUCCESSFUL in 59s
 94 actionable tasks: 94 executed
 
-2019-03-09 18:15:06,143 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552130041444-0/src/CustomToastLibrary-master/app/build/outputs/apk/debug/app-debug.apk
+2019-12-02 20:22:32,293 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292881066-0/src/CustomToastLibrary-master/app/build/outputs/apk/debug/app-debug.apk

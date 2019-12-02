@@ -1,38 +1,38 @@
-2019-11-28 12:19:46,873 INFO  DownloadService - Downloading "https://github.com/KeenenCharles/SplashPicker/archive/master.zip", attempt 3
-2019-11-28 12:19:48,920 INFO  DownloadService - Downloaded https://github.com/KeenenCharles/SplashPicker/archive/master.zip, attempt 3
-2019-11-28 12:19:48,920 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/master.zip": 147 KB
-2019-11-28 12:19:48,920 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-28 12:19:48,926 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/master.zip: true
-2019-11-28 12:19:48,926 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src'.
-2019-11-28 12:19:48,945 INFO  FullProcessService - Size of directory with sources: 167 KB
-2019-11-28 12:19:48,945 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src]
-2019-11-28 12:19:48,971 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/.git/
+2019-12-02 20:35:02,132 INFO  DownloadService - Downloading "https://github.com/KeenenCharles/SplashPicker/archive/master.zip", attempt 3
+2019-12-02 20:35:04,544 INFO  DownloadService - Downloaded https://github.com/KeenenCharles/SplashPicker/archive/master.zip, attempt 3
+2019-12-02 20:35:04,544 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/master.zip": 147 KB
+2019-12-02 20:35:04,544 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-02 20:35:04,550 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/master.zip: true
+2019-12-02 20:35:04,550 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src'.
+2019-12-02 20:35:04,567 INFO  FullProcessService - Size of directory with sources: 167 KB
+2019-12-02 20:35:04,567 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src]
+2019-12-02 20:35:04,597 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/.git/
 
-2019-11-28 12:19:48,973 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/gradlew
-2019-11-28 12:19:48,975 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/splashpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/build.gradle
-2019-11-28 12:19:48,978 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/splashpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/settings.gradle
-2019-11-28 12:19:48,984 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-11-28 12:19:49,476 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-11-28 12:19:49,477 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-11-28 12:19:49,573 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-11-28 12:19:49,573 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-11-28 12:19:49,573 INFO  ProjectFixService - Fixing project...
-2019-11-28 12:19:49,580 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/app/local.properties
-2019-11-28 12:19:49,581 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-11-28 12:19:49,581 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/splashpicker/local.properties
-2019-11-28 12:19:49,582 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/splashpicker/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-28 12:19:49,582 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/local.properties
-2019-11-28 12:19:49,582 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-11-28 12:19:49,583 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-11-28 12:19:49,584 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-28 12:19:49,584 INFO  ProjectFixService - Project was maybe fixed
-2019-11-28 12:19:49,584 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-28 12:19:49,584 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-28 12:19:54,611 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-11-28 12:19:54,612 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-11-28 12:19:54,612 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-11-28 12:19:54,612 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-11-28 12:19:57,532 ERROR SysUtils - Could not process external command
+2019-12-02 20:35:04,599 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/gradlew
+2019-12-02 20:35:04,603 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/splashpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/build.gradle
+2019-12-02 20:35:04,606 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/splashpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/settings.gradle
+2019-12-02 20:35:04,607 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-12-02 20:35:05,591 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-12-02 20:35:05,591 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-12-02 20:35:05,827 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-12-02 20:35:05,827 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-12-02 20:35:05,827 INFO  ProjectFixService - Fixing project...
+2019-12-02 20:35:05,835 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/app/local.properties
+2019-12-02 20:35:05,836 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-12-02 20:35:05,837 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/splashpicker/local.properties
+2019-12-02 20:35:05,838 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/splashpicker/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-02 20:35:05,839 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/local.properties
+2019-12-02 20:35:05,839 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-12-02 20:35:05,840 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-12-02 20:35:05,841 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-02 20:35:05,841 INFO  ProjectFixService - Project was maybe fixed
+2019-12-02 20:35:05,841 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-02 20:35:05,841 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-02 20:35:09,692 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-02 20:35:09,692 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-12-02 20:35:09,693 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-12-02 20:35:09,693 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-12-02 20:35:12,656 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -60,12 +60,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-11-28 12:19:57,532 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-02 20:35:12,656 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/app/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/app/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -172,7 +172,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_4bgvtj2ctee3abkyvm9npwxdu.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/app/build.gradle:1)
+	at build_enn2nt1bmpqscoxrzsn10p3be.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/app/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 84 more
 Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 4.10.1. Current version is 4.6. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-4.10.1-all.zip
@@ -199,13 +199,13 @@ Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 4.10.
 
 BUILD FAILED in 2s
 
-2019-11-28 12:19:57,536 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-28 12:19:57,537 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/splashpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-28 12:20:00,470 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-11-28 12:20:00,470 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-11-28 12:20:00,470 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-11-28 12:20:00,470 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/splashpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-11-28 12:20:03,306 ERROR SysUtils - Could not process external command
+2019-12-02 20:35:12,659 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-02 20:35:12,660 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/splashpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-02 20:35:15,843 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-02 20:35:15,843 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-12-02 20:35:15,843 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-12-02 20:35:15,843 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/splashpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-12-02 20:35:19,050 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -233,12 +233,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-11-28 12:20:03,306 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-02 20:35:19,050 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/splashpicker/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/splashpicker/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':splashpicker'.
@@ -345,7 +345,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_dq223chr8d0q5im34zppwtzj3.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/splashpicker/build.gradle:1)
+	at build_5yalg0k91a5vg7aj6qokky2f.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/splashpicker/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 84 more
 Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 4.10.1. Current version is 4.6. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-4.10.1-all.zip
@@ -370,15 +370,15 @@ Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 4.10.
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 2s
+BUILD FAILED in 3s
 
-2019-11-28 12:20:03,310 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-28 12:20:03,310 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-28 12:20:06,054 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-11-28 12:20:06,054 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-11-28 12:20:06,054 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-11-28 12:20:06,054 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-11-28 12:20:08,864 ERROR SysUtils - Could not process external command
+2019-12-02 20:35:19,054 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-02 20:35:19,054 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-02 20:35:22,283 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-02 20:35:22,283 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-12-02 20:35:22,283 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-12-02 20:35:22,283 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-12-02 20:35:26,220 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -406,12 +406,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-11-28 12:20:08,864 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-02 20:35:26,220 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/app/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/app/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -520,7 +520,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_4bgvtj2ctee3abkyvm9npwxdu.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918386865-0/src/SplashPicker-master/app/build.gradle:1)
+	at build_enn2nt1bmpqscoxrzsn10p3be.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293702124-0/src/SplashPicker-master/app/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 86 more
 Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 4.10.1. Current version is 4.6. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-4.10.1-all.zip
@@ -545,7 +545,7 @@ Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 4.10.
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 2s
+BUILD FAILED in 3s
 
-2019-11-28 12:20:08,867 ERROR FullProcessService - Project build has not produced APK file
-2019-11-28 12:20:08,870 ERROR FullProcessService - Could not find generated or existed APK file
+2019-12-02 20:35:26,223 ERROR FullProcessService - Project build has not produced APK file
+2019-12-02 20:35:26,226 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,31 +1,31 @@
-2019-10-25 15:35:06,850 INFO  DownloadService - Downloading "https://github.com/SimonMarquis/InternalAppStore/archive/master.zip", attempt 3
-2019-10-25 15:35:11,478 INFO  DownloadService - Downloaded https://github.com/SimonMarquis/InternalAppStore/archive/master.zip, attempt 3
-2019-10-25 15:35:11,479 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/master.zip": 7 MB
-2019-10-25 15:35:11,479 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-25 15:35:11,481 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/master.zip: true
-2019-10-25 15:35:11,481 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src'.
-2019-10-25 15:35:11,631 INFO  FullProcessService - Size of directory with sources: 8 MB
-2019-10-25 15:35:11,631 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src]
-2019-10-25 15:35:11,687 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/.git/
+2019-12-02 20:28:50,842 INFO  DownloadService - Downloading "https://github.com/SimonMarquis/InternalAppStore/archive/master.zip", attempt 3
+2019-12-02 20:28:57,350 INFO  DownloadService - Downloaded https://github.com/SimonMarquis/InternalAppStore/archive/master.zip, attempt 3
+2019-12-02 20:28:57,351 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/master.zip": 7 MB
+2019-12-02 20:28:57,351 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-02 20:28:57,354 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/master.zip: true
+2019-12-02 20:28:57,354 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src'.
+2019-12-02 20:28:57,466 INFO  FullProcessService - Size of directory with sources: 8 MB
+2019-12-02 20:28:57,466 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src]
+2019-12-02 20:28:57,491 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/.git/
 
-2019-10-25 15:35:11,696 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/gradlew
-2019-10-25 15:35:11,701 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/build.gradle
-2019-10-25 15:35:11,709 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/settings.gradle
-2019-10-25 15:35:11,709 INFO  ProjectBuildService - Remote scripts: none
-2019-10-25 15:35:11,709 INFO  ProjectFixService - Fixing project...
-2019-10-25 15:35:11,756 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/local.properties
-2019-10-25 15:35:11,756 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-25 15:35:11,758 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/local.properties
-2019-10-25 15:35:11,758 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.3-all.zip
-2019-10-25 15:35:11,759 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.3-bin.zip)
-2019-10-25 15:35:11,759 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-25 15:35:11,760 INFO  ProjectFixService - Project was maybe fixed
-2019-10-25 15:35:11,760 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:35:11,760 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:35:24,191 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-10-25 15:35:24,194 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-25 15:35:24,197 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-25 15:35:39,920 ERROR SysUtils - Could not process external command
+2019-12-02 20:28:57,495 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/gradlew
+2019-12-02 20:28:57,499 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/build.gradle
+2019-12-02 20:28:57,503 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/settings.gradle
+2019-12-02 20:28:57,503 INFO  ProjectBuildService - Remote scripts: none
+2019-12-02 20:28:57,503 INFO  ProjectFixService - Fixing project...
+2019-12-02 20:28:57,512 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/local.properties
+2019-12-02 20:28:57,513 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-12-02 20:28:57,513 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/local.properties
+2019-12-02 20:28:57,513 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.3-all.zip
+2019-12-02 20:28:57,514 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.3-bin.zip)
+2019-12-02 20:28:57,514 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-12-02 20:28:57,515 INFO  ProjectFixService - Project was maybe fixed
+2019-12-02 20:28:57,515 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-02 20:28:57,515 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-02 20:29:05,857 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-12-02 20:29:05,857 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-02 20:29:05,857 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-02 20:29:25,882 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -53,7 +53,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-25 15:35:39,921 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-02 20:29:25,882 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:compileDebugAidl NO-SOURCE
@@ -71,12 +71,12 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':app:processDebugGoogleServices'.
 > File google-services.json is missing. The Google Services Plugin cannot function without it. 
    Searched Location: 
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/nullnull/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/debug/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/nullnullDebug/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/nullnull/debug/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/debug/nullnull/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/nullnull/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/debug/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/nullnullDebug/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/nullnull/debug/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/debug/nullnull/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/google-services.json
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -123,12 +123,12 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:pro
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 Caused by: org.gradle.api.GradleException: File google-services.json is missing. The Google Services Plugin cannot function without it. 
  Searched Location: 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/nullnull/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/debug/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/nullnullDebug/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/nullnull/debug/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/debug/nullnull/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/nullnull/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/debug/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/nullnullDebug/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/nullnull/debug/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/debug/nullnull/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/google-services.json
 	at com.google.gms.googleservices.GoogleServicesTask.action(GoogleServicesTask.java:142)
 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:103)
 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:49)
@@ -193,15 +193,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.6.3/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 15s
+BUILD FAILED in 19s
 5 actionable tasks: 5 executed
 
-2019-10-25 15:35:39,928 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:35:39,928 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:35:47,275 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-10-25 15:35:47,275 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-25 15:35:47,276 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-25 15:35:55,875 ERROR SysUtils - Could not process external command
+2019-12-02 20:29:25,891 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-02 20:29:25,892 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-02 20:29:41,044 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-12-02 20:29:41,044 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-02 20:29:41,044 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-02 20:29:56,557 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -229,7 +229,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-25 15:35:55,875 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-02 20:29:56,558 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:compileDebugAidl NO-SOURCE
@@ -247,12 +247,12 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':app:processDebugGoogleServices'.
 > File google-services.json is missing. The Google Services Plugin cannot function without it. 
    Searched Location: 
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/nullnull/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/debug/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/nullnullDebug/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/nullnull/debug/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/debug/nullnull/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/nullnull/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/debug/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/nullnullDebug/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/nullnull/debug/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/debug/nullnull/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/google-services.json
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -299,12 +299,12 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:pro
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 Caused by: org.gradle.api.GradleException: File google-services.json is missing. The Google Services Plugin cannot function without it. 
  Searched Location: 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/nullnull/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/debug/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/nullnullDebug/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/nullnull/debug/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/src/debug/nullnull/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992506845-0/src/InternalAppStore-master/app/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/nullnull/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/debug/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/nullnullDebug/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/nullnull/debug/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/src/debug/nullnull/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293330839-0/src/InternalAppStore-master/app/google-services.json
 	at com.google.gms.googleservices.GoogleServicesTask.action(GoogleServicesTask.java:142)
 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:103)
 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:49)
@@ -365,8 +365,8 @@ Caused by: org.gradle.api.GradleException: File google-services.json is missing.
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 8s
+BUILD FAILED in 15s
 5 actionable tasks: 1 executed, 4 up-to-date
 
-2019-10-25 15:35:55,887 ERROR FullProcessService - Project build has not produced APK file
-2019-10-25 15:35:55,892 ERROR FullProcessService - Could not find generated or existed APK file
+2019-12-02 20:29:56,565 ERROR FullProcessService - Project build has not produced APK file
+2019-12-02 20:29:56,573 ERROR FullProcessService - Could not find generated or existed APK file

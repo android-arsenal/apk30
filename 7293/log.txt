@@ -1,39 +1,39 @@
-2019-11-28 12:06:10,638 INFO  DownloadService - Downloading "https://github.com/huxq17/Pump/archive/master.zip", attempt 3
-2019-11-28 12:06:47,887 INFO  DownloadService - Downloaded https://github.com/huxq17/Pump/archive/master.zip, attempt 3
-2019-11-28 12:06:47,888 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/master.zip": 4 MB
-2019-11-28 12:06:47,888 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-28 12:06:47,893 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/master.zip: true
-2019-11-28 12:06:47,894 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src'.
-2019-11-28 12:06:47,974 INFO  FullProcessService - Size of directory with sources: 7 MB
-2019-11-28 12:06:47,974 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src]
-2019-11-28 12:06:47,991 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/.git/
+2019-12-02 20:29:56,640 INFO  DownloadService - Downloading "https://github.com/huxq17/Pump/archive/master.zip", attempt 3
+2019-12-02 20:30:02,347 INFO  DownloadService - Downloaded https://github.com/huxq17/Pump/archive/master.zip, attempt 3
+2019-12-02 20:30:02,348 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/master.zip": 4 MB
+2019-12-02 20:30:02,348 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-02 20:30:02,349 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/master.zip: true
+2019-12-02 20:30:02,350 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src'.
+2019-12-02 20:30:02,490 INFO  FullProcessService - Size of directory with sources: 7 MB
+2019-12-02 20:30:02,490 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src]
+2019-12-02 20:30:02,530 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/.git/
 
-2019-11-28 12:06:47,995 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/gradlew
-2019-11-28 12:06:48,003 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/kotlin_app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/build.gradle
-2019-11-28 12:06:48,007 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/kotlin_app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/library/gradle-jcenter-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/common.gradle
-2019-11-28 12:06:48,008 INFO  ProjectBuildService - Remote scripts: none
-2019-11-28 12:06:48,008 INFO  ProjectFixService - Fixing project...
-2019-11-28 12:06:48,021 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/app/local.properties
-2019-11-28 12:06:48,022 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-28 12:06:48,023 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-28 12:06:48,024 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/kotlin_app/local.properties
-2019-11-28 12:06:48,026 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/kotlin_app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-28 12:06:48,026 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/kotlin_app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-28 12:06:48,027 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/library/local.properties
-2019-11-28 12:06:48,030 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-28 12:06:48,030 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-28 12:06:48,031 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/local.properties
-2019-11-28 12:06:48,032 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-11-28 12:06:48,032 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-11-28 12:06:48,034 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-28 12:06:48,034 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-28 12:06:48,035 INFO  ProjectFixService - Project was maybe fixed
-2019-11-28 12:06:48,035 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-28 12:06:48,035 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-28 12:06:55,676 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-11-28 12:06:55,676 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-28 12:06:55,677 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-28 12:08:05,667 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-02 20:30:02,539 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/gradlew
+2019-12-02 20:30:02,553 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/kotlin_app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/build.gradle
+2019-12-02 20:30:02,561 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/kotlin_app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/library/gradle-jcenter-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/common.gradle
+2019-12-02 20:30:02,562 INFO  ProjectBuildService - Remote scripts: none
+2019-12-02 20:30:02,562 INFO  ProjectFixService - Fixing project...
+2019-12-02 20:30:02,587 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/app/local.properties
+2019-12-02 20:30:02,591 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-02 20:30:02,591 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-02 20:30:02,593 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/kotlin_app/local.properties
+2019-12-02 20:30:02,597 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/kotlin_app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-02 20:30:02,597 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/kotlin_app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-02 20:30:02,599 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/library/local.properties
+2019-12-02 20:30:02,602 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-02 20:30:02,603 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-02 20:30:02,605 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/local.properties
+2019-12-02 20:30:02,606 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-02 20:30:02,606 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-02 20:30:02,612 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-02 20:30:02,612 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-02 20:30:02,613 INFO  ProjectFixService - Project was maybe fixed
+2019-12-02 20:30:02,613 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-02 20:30:02,614 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-02 20:30:15,548 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-02 20:30:15,548 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-02 20:30:15,548 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-02 20:31:02,985 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
@@ -52,10 +52,17 @@
 > Task :library:packageDebugResources
 > Task :library:parseDebugLibraryResources
 > Task :library:javaPreCompileDebug
-> Task :library:processDebugManifest
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
+> Task :library:processDebugManifest
+> Task :app:createDebugCompatibleScreenManifests
+
+> Task :app:processDebugManifest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/app/src/main/AndroidManifest.xml:18:9-28:20 Warning:
+	provider#android.support.v4.content.FileProvider@android:authorities was tagged at AndroidManifest.xml:18 to replace other declarations but no other declaration present
+
+> Task :app:mergeDebugResources
 > Task :library:generateDebugRFile
 
 > Task :library:compileDebugJavaWithJavac
@@ -64,22 +71,8 @@ Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-> Task :app:mergeDebugResources
-> Task :library:bundleLibCompileDebug
-> Task :app:javaPreCompileDebug
-> Task :app:createDebugCompatibleScreenManifests
-
-> Task :app:processDebugManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/app/src/main/AndroidManifest.xml:18:9-28:20 Warning:
-	provider#android.support.v4.content.FileProvider@android:authorities was tagged at AndroidManifest.xml:18 to replace other declarations but no other declaration present
-
 > Task :app:processDebugResources
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/app/src/main/java/com/huxq17/download/demo/MainActivity.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :app:compileDebugJavaWithJavac
-
-> Task :app:compileDebugSources
+> Task :library:bundleLibCompileDebug
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -88,15 +81,22 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :library:generateDebugAssets
 > Task :library:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :app:javaPreCompileDebug
+
+> Task :app:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/app/src/main/java/com/huxq17/download/demo/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileDebugSources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :library:processDebugJavaRes NO-SOURCE
 > Task :library:bundleLibResDebug
 > Task :app:checkDebugDuplicateClasses
-> Task :app:mergeDebugJavaResource
+> Task :app:transformClassesWithDexBuilderForDebug
 > Task :library:jacocoDebug
+> Task :app:mergeDebugJavaResource
 > Task :library:bundleLibRuntimeDebug
 > Task :library:createFullJarDebug
-> Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
@@ -115,15 +115,26 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
-> Task :library:mergeDebugNativeLibs
-> Task :library:stripDebugDebugSymbols
-> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :library:parseReleaseLibraryResources
-> Task :library:processReleaseManifest
-> Task :library:javaPreCompileRelease
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
+> Task :library:parseReleaseLibraryResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :library:mergeDebugNativeLibs
+> Task :library:stripDebugDebugSymbols
+> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :library:javaPreCompileRelease
+> Task :app:prepareLintJar
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :library:processReleaseManifest
+
+> Task :app:processReleaseManifest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/app/src/main/AndroidManifest.xml:18:9-28:20 Warning:
+	provider#android.support.v4.content.FileProvider@android:authorities was tagged at AndroidManifest.xml:18 to replace other declarations but no other declaration present
+
+> Task :library:prepareLintJarForPublish
+> Task :app:mergeReleaseResources
 > Task :library:generateReleaseRFile
 
 > Task :library:compileReleaseJavaWithJavac
@@ -132,39 +143,25 @@ Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-> Task :app:createReleaseCompatibleScreenManifests
-
-> Task :app:processReleaseManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/app/src/main/AndroidManifest.xml:18:9-28:20 Warning:
-	provider#android.support.v4.content.FileProvider@android:authorities was tagged at AndroidManifest.xml:18 to replace other declarations but no other declaration present
-
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :library:bundleLibCompileRelease
-> Task :app:mergeReleaseResources
+> Task :app:mergeExtDexDebug
 > Task :app:processReleaseResources
+> Task :library:bundleLibCompileRelease
 > Task :app:javaPreCompileRelease
 
 > Task :app:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/app/src/main/java/com/huxq17/download/demo/MainActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/app/src/main/java/com/huxq17/download/demo/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseSources
-> Task :app:prepareLintJar
-> Task :library:processReleaseJavaRes NO-SOURCE
 > Task :library:bundleLibResRelease
-> Task :library:prepareLintJarForPublish
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/7b9df879a5c44a2761cfcf7ff5e40f51/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
-> Task :app:checkReleaseDuplicateClasses
-> Task :app:mergeExtDexDebug
-> Task :library:bundleLibRuntimeRelease
-> Task :library:createFullJarRelease
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
+> Task :library:bundleLibRuntimeRelease
+> Task :library:createFullJarRelease
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -195,7 +192,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 9s
+BUILD SUCCESSFUL in 46s
 91 actionable tasks: 91 executed
 
-2019-11-28 12:08:05,749 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917570634-0/src/Pump-master/app/build/outputs/apk/debug/app-debug.apk
+2019-12-02 20:31:03,071 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293396635-0/src/Pump-master/app/build/outputs/apk/debug/app-debug.apk

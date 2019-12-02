@@ -1,36 +1,36 @@
-2019-11-28 12:10:13,983 INFO  DownloadService - Downloading "https://github.com/angli13/SelectView/archive/master.zip", attempt 3
-2019-11-28 12:10:17,448 INFO  DownloadService - Downloaded https://github.com/angli13/SelectView/archive/master.zip, attempt 3
-2019-11-28 12:10:17,448 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/master.zip": 156 KB
-2019-11-28 12:10:17,448 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-28 12:10:17,454 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/master.zip: true
-2019-11-28 12:10:17,454 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src'.
-2019-11-28 12:10:17,478 INFO  FullProcessService - Size of directory with sources: 167 KB
-2019-11-28 12:10:17,479 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src]
-2019-11-28 12:10:17,499 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/.git/
+2019-12-02 20:32:17,399 INFO  DownloadService - Downloading "https://github.com/angli13/SelectView/archive/master.zip", attempt 3
+2019-12-02 20:32:18,066 INFO  DownloadService - Downloaded https://github.com/angli13/SelectView/archive/master.zip, attempt 3
+2019-12-02 20:32:18,066 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/master.zip": 156 KB
+2019-12-02 20:32:18,066 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-02 20:32:18,071 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/master.zip: true
+2019-12-02 20:32:18,072 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src'.
+2019-12-02 20:32:18,093 INFO  FullProcessService - Size of directory with sources: 167 KB
+2019-12-02 20:32:18,094 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src]
+2019-12-02 20:32:18,112 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/.git/
 
-2019-11-28 12:10:17,502 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/gradlew
-2019-11-28 12:10:17,505 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/selectview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/build.gradle
-2019-11-28 12:10:17,508 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/selectview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/settings.gradle
-2019-11-28 12:10:17,508 INFO  ProjectBuildService - Remote scripts: none
-2019-11-28 12:10:17,508 INFO  ProjectFixService - Fixing project...
-2019-11-28 12:10:17,516 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/app/local.properties
-2019-11-28 12:10:17,517 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-11-28 12:10:17,517 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-11-28 12:10:17,518 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/selectview/local.properties
-2019-11-28 12:10:17,519 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/selectview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-11-28 12:10:17,520 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/selectview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-11-28 12:10:17,520 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/local.properties
-2019-11-28 12:10:17,521 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-11-28 12:10:17,521 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-11-28 12:10:17,522 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-11-28 12:10:17,522 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-11-28 12:10:17,523 INFO  ProjectFixService - Project was maybe fixed
-2019-11-28 12:10:17,523 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-28 12:10:17,523 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-28 12:14:30,640 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-11-28 12:14:30,640 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-28 12:14:30,640 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-28 12:15:47,950 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-02 20:32:18,115 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/gradlew
+2019-12-02 20:32:18,118 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/selectview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/build.gradle
+2019-12-02 20:32:18,120 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/selectview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/settings.gradle
+2019-12-02 20:32:18,121 INFO  ProjectBuildService - Remote scripts: none
+2019-12-02 20:32:18,121 INFO  ProjectFixService - Fixing project...
+2019-12-02 20:32:18,127 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/app/local.properties
+2019-12-02 20:32:18,128 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-12-02 20:32:18,128 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-12-02 20:32:18,129 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/selectview/local.properties
+2019-12-02 20:32:18,129 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/selectview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-12-02 20:32:18,129 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/selectview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-12-02 20:32:18,130 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/local.properties
+2019-12-02 20:32:18,131 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-12-02 20:32:18,131 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-12-02 20:32:18,132 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-12-02 20:32:18,132 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-12-02 20:32:18,133 INFO  ProjectFixService - Project was maybe fixed
+2019-12-02 20:32:18,133 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-02 20:32:18,133 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-02 20:32:26,944 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-12-02 20:32:26,944 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-02 20:32:26,944 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-02 20:33:02,813 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -64,7 +64,7 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :selectview:generateDebugRFile
 > Task :app:processDebugResources
 > Task :selectview:generateDebugBuildConfig
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/selectview/src/main/java/com/fangli/selectview/SelectView.kt: (82, 13): Duplicate label in when
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/selectview/src/main/java/com/fangli/selectview/SelectView.kt: (82, 13): Duplicate label in when
 > Task :selectview:compileDebugKotlin
 > Task :selectview:prepareLintJar
 > Task :selectview:generateDebugSources
@@ -72,8 +72,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/
 > Task :selectview:compileDebugJavaWithJavac
 > Task :selectview:processDebugJavaRes NO-SOURCE
 > Task :selectview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/app/src/main/java/com/fangli/selectviewexample/TestActivity.kt: (47, 21): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/app/src/main/java/com/fangli/selectviewexample/TestActivity.kt: (53, 21): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/app/src/main/java/com/fangli/selectviewexample/TestActivity.kt: (47, 21): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/app/src/main/java/com/fangli/selectviewexample/TestActivity.kt: (53, 21): Parameter 'view' is never used
 > Task :app:compileDebugKotlin
 > Task :app:prepareLintJar
 > Task :app:generateDebugSources
@@ -131,25 +131,22 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/
 > Task :selectview:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :selectview:generateReleaseBuildConfig
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/selectview/src/main/java/com/fangli/selectview/SelectView.kt: (82, 13): Duplicate label in when
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/selectview/src/main/java/com/fangli/selectview/SelectView.kt: (82, 13): Duplicate label in when
 > Task :selectview:compileReleaseKotlin
 > Task :selectview:generateReleaseSources
 > Task :selectview:javaPreCompileRelease
 > Task :selectview:compileReleaseJavaWithJavac
 > Task :selectview:processReleaseJavaRes NO-SOURCE
 > Task :selectview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/app/src/main/java/com/fangli/selectviewexample/TestActivity.kt: (47, 21): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/app/src/main/java/com/fangli/selectviewexample/TestActivity.kt: (53, 21): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/app/src/main/java/com/fangli/selectviewexample/TestActivity.kt: (47, 21): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/app/src/main/java/com/fangli/selectviewexample/TestActivity.kt: (53, 21): Parameter 'view' is never used
 > Task :app:compileReleaseKotlin
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4e1f83ae6d89f59dd962f1db365b9e68/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :selectview:createFullJarRelease
 > Transform full.jar (project :selectview) with IdentityTransform
 > Task :app:mergeExtDexRelease
@@ -179,7 +176,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 16s
+BUILD SUCCESSFUL in 35s
 90 actionable tasks: 90 executed
 
-2019-11-28 12:15:48,019 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574917813974-0/src/SelectView-master/app/build/outputs/apk/debug/app-debug.apk
+2019-12-02 20:33:02,891 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575293537391-0/src/SelectView-master/app/build/outputs/apk/debug/app-debug.apk
