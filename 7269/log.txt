@@ -1,42 +1,40 @@
-2019-11-28 12:21:51,618 INFO  DownloadService - Downloading "https://github.com/dbof10/Bitmp4/archive/master.zip", attempt 3
-2019-11-28 12:21:56,288 INFO  DownloadService - Downloaded https://github.com/dbof10/Bitmp4/archive/master.zip, attempt 3
-2019-11-28 12:21:56,288 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/master.zip": 2 MB
-2019-11-28 12:21:56,288 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-28 12:21:56,289 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/master.zip: true
-2019-11-28 12:21:56,289 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src'.
-2019-11-28 12:21:56,328 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-11-28 12:21:56,328 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src]
-2019-11-28 12:21:56,350 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/.git/
+2019-12-03 13:57:06,846 INFO  DownloadService - Downloading "https://github.com/dbof10/Bitmp4/archive/master.zip", attempt 3
+2019-12-03 13:57:10,791 INFO  DownloadService - Downloaded https://github.com/dbof10/Bitmp4/archive/master.zip, attempt 3
+2019-12-03 13:57:10,791 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/master.zip": 2 MB
+2019-12-03 13:57:10,791 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-03 13:57:10,792 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/master.zip: true
+2019-12-03 13:57:10,792 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src'.
+2019-12-03 13:57:10,837 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-12-03 13:57:10,837 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src]
+2019-12-03 13:57:10,859 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/.git/
 
-2019-11-28 12:21:56,353 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/gradlew
-2019-11-28 12:21:56,356 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/lib-bitmp4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/build.gradle
-2019-11-28 12:21:56,359 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/lib-bitmp4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/settings.gradle
-2019-11-28 12:21:56,359 INFO  ProjectBuildService - Remote scripts: none
-2019-11-28 12:21:56,359 INFO  ProjectFixService - Fixing project...
-2019-11-28 12:21:56,365 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/app/local.properties
-2019-11-28 12:21:56,366 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-11-28 12:21:56,366 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-11-28 12:21:56,367 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/lib-bitmp4/local.properties
-2019-11-28 12:21:56,367 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/lib-bitmp4/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-11-28 12:21:56,367 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/lib-bitmp4/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-11-28 12:21:56,368 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/local.properties
-2019-11-28 12:21:56,368 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-11-28 12:21:56,369 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-11-28 12:21:56,370 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-11-28 12:21:56,370 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-11-28 12:21:56,370 INFO  ProjectFixService - Project was maybe fixed
-2019-11-28 12:21:56,370 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-28 12:21:56,371 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-28 12:22:02,941 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-11-28 12:22:02,941 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-28 12:22:02,941 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-28 12:22:54,608 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-03 13:57:10,862 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/gradlew
+2019-12-03 13:57:10,866 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/lib-bitmp4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/build.gradle
+2019-12-03 13:57:10,869 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/lib-bitmp4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/settings.gradle
+2019-12-03 13:57:10,870 INFO  ProjectBuildService - Remote scripts: none
+2019-12-03 13:57:10,870 INFO  ProjectFixService - Fixing project...
+2019-12-03 13:57:10,880 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/app/local.properties
+2019-12-03 13:57:10,882 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-03 13:57:10,883 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-03 13:57:10,885 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/lib-bitmp4/local.properties
+2019-12-03 13:57:10,886 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/lib-bitmp4/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-03 13:57:10,887 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/lib-bitmp4/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-03 13:57:10,888 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/local.properties
+2019-12-03 13:57:10,889 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-12-03 13:57:10,889 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-12-03 13:57:10,891 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-03 13:57:10,891 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-03 13:57:10,892 INFO  ProjectFixService - Project was maybe fixed
+2019-12-03 13:57:10,892 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-03 13:57:10,892 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-03 13:57:19,692 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-12-03 13:57:19,692 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-03 13:57:19,692 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-03 13:57:58,267 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
 It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 :app:checkDebugClasspath
-Download https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/0.3/core-ktx-0.3.aar
-Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.2.3/rxjava-2.2.3.jar
-WARNING: Conflict with dependency 'org.jetbrains:annotations' in project ':app'. Resolved versions for runtime classpath (16.0.1) and compile classpath (13.0) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/app/build.gradle:
+WARNING: Conflict with dependency 'org.jetbrains:annotations' in project ':app'. Resolved versions for runtime classpath (16.0.1) and compile classpath (13.0) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/app/build.gradle:
 dependencies {
     implementation("org.jetbrains:annotations:16.0.1")
 }
@@ -70,7 +68,7 @@ dependencies {
 :lib-bitmp4:prepareLintJar
 :lib-bitmp4:generateDebugSources
 :lib-bitmp4:javaPreCompileDebug
-:lib-bitmp4:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/lib-bitmp4/src/main/java/com/ctech/bitmp4/MP4Encoder.java uses or overrides a deprecated API.
+:lib-bitmp4:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/lib-bitmp4/src/main/java/com/ctech/bitmp4/MP4Encoder.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :lib-bitmp4:processDebugJavaRes NO-SOURCE
@@ -91,14 +89,6 @@ Note: Recompile with -Xlint:deprecation for details.
 :lib-bitmp4:packageDebugAssets
 :app:mergeDebugAssets
 :app:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
-  Attempt to read local this but no local information was associated with the value being read.
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
-  Attempt to read local this but no local information was associated with the value being read.
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 :app:mergeDebugJniLibFolders
@@ -116,7 +106,7 @@ D8: Stripped invalid locals information from 1 method.
 :app:packageDebug
 :app:assembleDebug
 :app:checkReleaseClasspath
-WARNING: Conflict with dependency 'org.jetbrains:annotations' in project ':app'. Resolved versions for runtime classpath (16.0.1) and compile classpath (13.0) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/app/build.gradle:
+WARNING: Conflict with dependency 'org.jetbrains:annotations' in project ':app'. Resolved versions for runtime classpath (16.0.1) and compile classpath (13.0) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/app/build.gradle:
 dependencies {
     implementation("org.jetbrains:annotations:16.0.1")
 }
@@ -147,7 +137,7 @@ dependencies {
 :lib-bitmp4:generateReleaseBuildConfig
 :lib-bitmp4:generateReleaseSources
 :lib-bitmp4:javaPreCompileRelease
-:lib-bitmp4:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/lib-bitmp4/src/main/java/com/ctech/bitmp4/MP4Encoder.java uses or overrides a deprecated API.
+:lib-bitmp4:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/lib-bitmp4/src/main/java/com/ctech/bitmp4/MP4Encoder.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :lib-bitmp4:processReleaseJavaRes NO-SOURCE
@@ -159,7 +149,6 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
 :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/0ed7e6fc9674c4cca613a36d0916ad0d/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -187,7 +176,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 50s
+BUILD SUCCESSFUL in 37s
 92 actionable tasks: 92 executed
 
-2019-11-28 12:22:54,678 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574918511615-0/src/Bitmp4-master/app/build/outputs/apk/debug/app-debug.apk
+2019-12-03 13:57:58,331 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575356226841-0/src/Bitmp4-master/app/build/outputs/apk/debug/app-debug.apk
