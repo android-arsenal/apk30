@@ -1,35 +1,35 @@
-2018-10-22 10:43:22,496 INFO  DownloadService - Downloading "https://github.com/andob/DeclarativeAdapter/archive/master.zip", attempt 3
-2018-10-22 10:43:29,168 INFO  DownloadService - Downloaded https://github.com/andob/DeclarativeAdapter/archive/master.zip, attempt 3
-2018-10-22 10:43:29,168 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/master.zip": 1 MB
-2018-10-22 10:43:29,168 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-22 10:43:29,174 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/master.zip: true
-2018-10-22 10:43:29,175 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src'.
-2018-10-22 10:43:29,218 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-10-22 10:43:29,218 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src]
-2018-10-22 10:43:29,235 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/.git/
+2019-12-22 22:25:52,606 INFO  DownloadService - Downloading "https://github.com/andob/DeclarativeAdapter/archive/master.zip", attempt 3
+2019-12-22 22:27:42,631 INFO  DownloadService - Downloaded https://github.com/andob/DeclarativeAdapter/archive/master.zip, attempt 3
+2019-12-22 22:27:42,632 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/master.zip": 1 MB
+2019-12-22 22:27:42,632 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-22 22:27:42,638 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/master.zip: true
+2019-12-22 22:27:42,638 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src'.
+2019-12-22 22:27:42,679 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-12-22 22:27:42,679 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src]
+2019-12-22 22:27:42,701 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/.git/
 
-2018-10-22 10:43:29,239 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/gradlew
-2018-10-22 10:43:29,242 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/declarative_adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/build.gradle
-2018-10-22 10:43:29,245 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/declarative_adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/settings.gradle
-2018-10-22 10:43:29,246 INFO  ProjectBuildService - Remote scripts: none
-2018-10-22 10:43:29,246 INFO  ProjectFixService - Fixing project...
-2018-10-22 10:43:29,253 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/declarative_adapter/local.properties
-2018-10-22 10:43:29,254 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/declarative_adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-22 10:43:29,255 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/declarative_adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-22 10:43:29,256 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/sample/local.properties
-2018-10-22 10:43:29,257 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-22 10:43:29,257 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-22 10:43:29,259 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/local.properties
-2018-10-22 10:43:29,260 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-22 10:43:29,260 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-22 10:43:29,261 INFO  ProjectFixService - Project was maybe fixed
-2018-10-22 10:43:29,261 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 10:43:29,261 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/declarative_adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 10:43:29,406 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-22 10:43:29,406 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-22 10:43:29,406 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-22 10:43:29,406 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/declarative_adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-22 10:43:29,550 ERROR SysUtils - Could not process external command
+2019-12-22 22:27:42,703 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/gradlew
+2019-12-22 22:27:42,705 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/declarative_adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/build.gradle
+2019-12-22 22:27:42,707 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/declarative_adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/settings.gradle
+2019-12-22 22:27:42,708 INFO  ProjectBuildService - Remote scripts: none
+2019-12-22 22:27:42,708 INFO  ProjectFixService - Fixing project...
+2019-12-22 22:27:42,714 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/declarative_adapter/local.properties
+2019-12-22 22:27:42,715 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/declarative_adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-22 22:27:42,715 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/declarative_adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-22 22:27:42,716 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/sample/local.properties
+2019-12-22 22:27:42,717 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-22 22:27:42,717 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-22 22:27:42,718 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/local.properties
+2019-12-22 22:27:42,719 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-22 22:27:42,719 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-12-22 22:27:42,720 INFO  ProjectFixService - Project was maybe fixed
+2019-12-22 22:27:42,720 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-22 22:27:42,720 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/declarative_adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-22 22:27:42,879 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-22 22:27:42,879 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-12-22 22:27:42,879 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-12-22 22:27:42,880 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/declarative_adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-22 22:27:43,038 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -57,15 +57,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-22 10:43:29,550 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-12-22 22:27:43,038 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2018-10-22 10:43:29,553 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 10:43:29,554 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 10:43:29,694 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-22 10:43:29,694 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-22 10:43:29,694 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-22 10:43:29,694 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-22 10:43:29,836 ERROR SysUtils - Could not process external command
+2019-12-22 22:27:43,040 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-22 22:27:43,040 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-22 22:27:43,203 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-22 22:27:43,203 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-12-22 22:27:43,203 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-12-22 22:27:43,204 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-22 22:27:43,396 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -93,15 +93,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-22 10:43:29,836 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-12-22 22:27:43,397 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2018-10-22 10:43:29,839 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 10:43:29,839 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 10:43:29,978 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-22 10:43:29,979 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-22 10:43:29,979 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-22 10:43:29,979 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540179802493-0/src/DeclarativeAdapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-22 10:43:30,138 ERROR SysUtils - Could not process external command
+2019-12-22 22:27:43,399 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-22 22:27:43,399 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-22 22:27:43,559 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-22 22:27:43,559 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-12-22 22:27:43,560 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-12-22 22:27:43,560 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028352602-0/src/DeclarativeAdapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-22 22:27:43,718 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -129,7 +129,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-22 10:43:30,138 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-12-22 22:27:43,718 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2018-10-22 10:43:30,141 ERROR FullProcessService - Project build has not produced APK file
-2018-10-22 10:43:30,144 ERROR FullProcessService - Could not find generated or existed APK file
+2019-12-22 22:27:43,720 ERROR FullProcessService - Project build has not produced APK file
+2019-12-22 22:27:43,722 ERROR FullProcessService - Could not find generated or existed APK file
