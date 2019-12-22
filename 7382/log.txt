@@ -1,38 +1,33 @@
-2019-11-27 20:52:05,246 INFO  DownloadService - Downloading "https://github.com/ahmedeltaher/Android-MVVM-architecture/archive/master.zip", attempt 3
-2019-11-27 20:52:09,066 INFO  DownloadService - Downloaded https://github.com/ahmedeltaher/Android-MVVM-architecture/archive/master.zip, attempt 3
-2019-11-27 20:52:09,067 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/master.zip": 512 KB
-2019-11-27 20:52:09,067 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-27 20:52:09,084 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/master.zip: true
-2019-11-27 20:52:09,085 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src'.
-2019-11-27 20:52:09,132 INFO  FullProcessService - Size of directory with sources: 569 KB
-2019-11-27 20:52:09,137 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src]
-2019-11-27 20:52:09,183 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/.git/
+2019-12-22 21:48:11,405 INFO  DownloadService - Downloading "https://github.com/ahmedeltaher/Android-MVVM-architecture/archive/master.zip", attempt 3
+2019-12-22 21:48:15,338 INFO  DownloadService - Downloaded https://github.com/ahmedeltaher/Android-MVVM-architecture/archive/master.zip, attempt 3
+2019-12-22 21:48:15,338 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/master.zip": 598 KB
+2019-12-22 21:48:15,338 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-22 21:48:15,339 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/master.zip: true
+2019-12-22 21:48:15,339 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src'.
+2019-12-22 21:48:15,378 INFO  FullProcessService - Size of directory with sources: 910 KB
+2019-12-22 21:48:15,378 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src]
+2019-12-22 21:48:15,403 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/.git/
 
-2019-11-27 20:52:09,200 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/gradlew
-2019-11-27 20:52:09,219 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/build.gradle
-2019-11-27 20:52:09,227 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/app/configuration.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/settings.gradle
-2019-11-27 20:52:09,234 INFO  ProjectBuildService - Remote scripts: none
-2019-11-27 20:52:09,235 INFO  ProjectFixService - Fixing project...
-2019-11-27 20:52:09,297 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2019-11-27 20:52:09,297 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2019-11-27 20:52:09,299 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
-2019-11-27 20:52:09,302 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 28.0.0-rc1 28.0.0-rc2
-2019-11-27 20:52:09,305 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2019-11-27 20:52:09,306 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
-2019-11-27 20:52:09,307 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/app/local.properties
-2019-11-27 20:52:09,312 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-11-27 20:52:09,315 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/local.properties
-2019-11-27 20:52:09,320 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-11-27 20:52:09,321 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-11-27 20:52:09,324 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-11-27 20:52:09,324 INFO  ProjectFixService - Project was maybe fixed
-2019-11-27 20:52:09,327 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-27 20:52:09,328 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-27 20:52:09,483 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-11-27 20:52:09,483 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-11-27 20:52:09,484 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-11-27 20:52:09,484 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-11-27 20:52:09,607 ERROR SysUtils - Could not process external command
+2019-12-22 21:48:15,406 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/app/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/gradlew
+2019-12-22 21:48:15,410 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/build.gradle
+2019-12-22 21:48:15,413 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/app/configuration.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/settings.gradle
+2019-12-22 21:48:15,413 INFO  ProjectBuildService - Remote scripts: none
+2019-12-22 21:48:15,413 INFO  ProjectFixService - Fixing project...
+2019-12-22 21:48:15,422 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/app/local.properties
+2019-12-22 21:48:15,422 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-22 21:48:15,422 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-22 21:48:15,423 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-12-22 21:48:15,423 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/local.properties
+2019-12-22 21:48:15,424 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-22 21:48:15,424 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-22 21:48:15,425 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-12-22 21:48:15,425 INFO  ProjectFixService - Project was maybe fixed
+2019-12-22 21:48:15,425 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-22 21:48:15,425 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/app/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-22 21:48:22,970 INFO  ProjectTaskService - Detected possible tasks: 90
+2019-12-22 21:48:22,970 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2019-12-22 21:48:22,970 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/app/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2019-12-22 21:49:55,677 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -60,15 +55,301 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-11-27 20:52:09,607 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-12-22 21:49:55,683 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preMockDebugBuild UP-TO-DATE
+> Task :app:compileMockDebugAidl NO-SOURCE
+> Task :app:checkMockDebugManifest
+> Task :app:compileMockDebugRenderscript NO-SOURCE
+> Task :app:generateMockDebugBuildConfig
+> Task :app:mainApkListPersistenceMockDebug
+> Task :app:generateMockDebugResValues
+> Task :app:generateMockDebugResources
+> Task :app:createMockDebugCompatibleScreenManifests
+> Task :app:processMockDebugManifest
+> Task :app:mergeMockDebugResources
+> Task :app:processMockDebugResources
 
-2019-11-27 20:52:09,613 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-27 20:52:09,613 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-27 20:52:09,745 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-11-27 20:52:09,745 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-11-27 20:52:09,745 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-11-27 20:52:09,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574862725160-0/src/MVVM-Kotlin-Android-Architecture-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-11-27 20:52:09,864 ERROR SysUtils - Could not process external command
+> Transform artifact objenesis.jar (org.objenesis:objenesis:3.0.1) with DexingWithClasspathTransform
+AGPBI: {"kind":"error","text":"MethodHandle.invoke and MethodHandle.invokeExact are only supported starting with Android O (--min-api 26)","sources":[{}],"tool":"D8"}
+
+> Task :app:kaptGenerateStubsMockDebugKotlin
+> Task :app:kaptMockDebugKotlin
+
+> Task :app:compileMockDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/app/src/main/java/com/task/utils/Network.kt: (5, 20): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/app/src/main/java/com/task/utils/Network.kt: (14, 55): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/app/src/main/java/com/task/utils/Network.kt: (16, 23): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/app/src/main/java/com/task/utils/Network.kt: (21, 41): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+
+> Task :app:javaPreCompileMockDebug
+> Task :app:compileMockDebugJavaWithJavac
+> Task :app:compileMockDebugSources
+> Task :app:checkMockDebugDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForMockDebug
+> Task :app:desugarMockDebugFileDependencies
+> Task :app:mergeMockDebugShaders
+> Task :app:compileMockDebugShaders
+> Task :app:generateMockDebugAssets
+> Task :app:mergeMockDebugAssets
+> Task :app:processMockDebugJavaRes NO-SOURCE
+> Task :app:validateSigningMockDebug
+> Task :app:signingConfigWriterMockDebug
+> Task :app:mergeMockDebugJniLibFolders
+> Task :app:preProdDebugBuild UP-TO-DATE
+> Task :app:compileProdDebugAidl NO-SOURCE
+> Task :app:compileProdDebugRenderscript NO-SOURCE
+> Task :app:checkProdDebugManifest
+> Task :app:generateProdDebugBuildConfig
+> Task :app:mainApkListPersistenceProdDebug
+> Task :app:generateProdDebugResValues
+> Task :app:generateProdDebugResources
+> Task :app:mergeMockDebugNativeLibs
+> Task :app:stripMockDebugDebugSymbols
+> Task :app:createProdDebugCompatibleScreenManifests
+> Task :app:processProdDebugManifest
+> Task :app:checkProdDebugDuplicateClasses
+> Task :app:desugarProdDebugFileDependencies
+> Task :app:mergeProdDebugShaders
+> Task :app:compileProdDebugShaders
+> Task :app:generateProdDebugAssets
+> Task :app:mergeProdDebugAssets
+> Task :app:processProdDebugJavaRes NO-SOURCE
+> Task :app:validateSigningProdDebug
+> Task :app:signingConfigWriterProdDebug
+> Task :app:mergeProdDebugJniLibFolders
+> Task :app:mergeProdDebugResources
+> Task :app:processProdDebugResources
+> Task :app:kaptGenerateStubsProdDebugKotlin
+> Task :app:kaptProdDebugKotlin
+
+> Task :app:compileProdDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/app/src/main/java/com/task/utils/Network.kt: (5, 20): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/app/src/main/java/com/task/utils/Network.kt: (14, 55): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/app/src/main/java/com/task/utils/Network.kt: (16, 23): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/app/src/main/java/com/task/utils/Network.kt: (21, 41): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+
+> Task :app:preMockReleaseBuild UP-TO-DATE
+> Task :app:compileMockReleaseAidl NO-SOURCE
+> Task :app:compileMockReleaseRenderscript NO-SOURCE
+> Task :app:checkMockReleaseManifest
+> Task :app:generateMockReleaseBuildConfig
+> Task :app:mainApkListPersistenceMockRelease
+> Task :app:generateMockReleaseResValues
+> Task :app:generateMockReleaseResources
+> Task :app:mergeProdDebugNativeLibs
+> Task :app:stripProdDebugDebugSymbols
+> Task :app:createMockReleaseCompatibleScreenManifests
+> Task :app:processMockReleaseManifest
+> Task :app:mergeMockDebugJavaResource
+> Task :app:javaPreCompileProdDebug
+> Task :app:compileProdDebugJavaWithJavac
+> Task :app:compileProdDebugSources
+> Task :app:transformClassesWithDexBuilderForProdDebug
+> Task :app:multiDexListMockDebug
+> Task :app:mergeDexMockDebug FAILED
+> Task :app:mergeMockReleaseResources
+> Task :app:mergeProdDebugJavaResource
+> Task :app:multiDexListProdDebug
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:mergeDexMockDebug'.
+> Could not resolve all files for configuration ':app:mockDebugRuntimeClasspath'.
+   > Failed to transform artifact 'objenesis.jar (org.objenesis:objenesis:3.0.1)' to match attributes {artifactType=android-dex, dexing-enable-desugaring=true, dexing-is-debuggable=true, dexing-min-sdk=16, org.gradle.usage=java-runtime-jars}.
+      > Execution failed for DexingWithClasspathTransform: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.0.1/11cfac598df9dc48bb9ed9357ed04212694b7808/objenesis-3.0.1.jar.
+         > Error while dexing.
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:mergeDexMockDebug'.
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:38)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':app:mockDebugRuntimeClasspath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:1195)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$2100(DefaultConfiguration.java:138)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:1170)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:72)
+	at org.gradle.internal.snapshot.impl.DefaultFileSystemSnapshotter$FileCollectionLeafVisitorImpl.visitCollection(DefaultFileSystemSnapshotter.java:240)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitLeafCollections(AbstractFileCollection.java:233)
+	at org.gradle.api.internal.file.CompositeFileCollection.visitLeafCollections(CompositeFileCollection.java:205)
+	at org.gradle.internal.snapshot.impl.DefaultFileSystemSnapshotter.snapshot(DefaultFileSystemSnapshotter.java:126)
+	at org.gradle.internal.fingerprint.impl.AbstractFileCollectionFingerprinter.fingerprint(AbstractFileCollectionFingerprinter.java:48)
+	at org.gradle.api.internal.tasks.execution.DefaultTaskFingerprinter.fingerprintTaskFiles(DefaultTaskFingerprinter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionStateTaskExecuter.createExecutionState(ResolveBeforeExecutionStateTaskExecuter.java:93)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionStateTaskExecuter.execute(ResolveBeforeExecutionStateTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:108)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionOutputsTaskExecuter.execute(ResolveBeforeExecutionOutputsTaskExecuter.java:67)
+	at org.gradle.api.internal.tasks.execution.ResolveAfterPreviousExecutionStateTaskExecuter.execute(ResolveAfterPreviousExecutionStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:94)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	... 24 more
+Caused by: org.gradle.api.internal.artifacts.transform.TransformException: Failed to transform artifact 'objenesis.jar (org.objenesis:objenesis:3.0.1)' to match attributes {artifactType=android-dex, dexing-enable-desugaring=true, dexing-is-debuggable=true, dexing-min-sdk=16, org.gradle.usage=java-runtime-jars}.
+	at org.gradle.api.internal.artifacts.transform.TransformingArtifactVisitor.lambda$visitArtifact$1(TransformingArtifactVisitor.java:61)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:191)
+	at org.gradle.api.internal.artifacts.transform.TransformingArtifactVisitor.visitArtifact(TransformingArtifactVisitor.java:50)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$SingleArtifactSet.visit(ArtifactBackedResolvedVariant.java:112)
+	at org.gradle.api.internal.artifacts.transform.TransformCompletion.visit(TransformCompletion.java:42)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.CompositeResolvedArtifactSet$CompositeResult.visit(CompositeResolvedArtifactSet.java:83)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ParallelResolveArtifactSet$VisitingSet.visit(ParallelResolveArtifactSet.java:64)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration.visitArtifacts(DefaultLenientConfiguration.java:256)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration.access$500(DefaultLenientConfiguration.java:69)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$2.run(DefaultLenientConfiguration.java:231)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration.visitArtifactsWithBuildOperation(DefaultLenientConfiguration.java:228)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration.access$200(DefaultLenientConfiguration.java:69)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$1.visitArtifacts(DefaultLenientConfiguration.java:133)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:1167)
+	... 43 more
+Caused by: org.gradle.api.internal.artifacts.transform.TransformException: Execution failed for DexingWithClasspathTransform: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.0.1/11cfac598df9dc48bb9ed9357ed04212694b7808/objenesis-3.0.1.jar.
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformerInvoker.lambda$invoke$1(DefaultTransformerInvoker.java:172)
+	at org.gradle.internal.Try$Failure.mapFailure(Try.java:182)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformerInvoker.lambda$invoke$2(DefaultTransformerInvoker.java:172)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformerInvoker.fireTransformListeners(DefaultTransformerInvoker.java:219)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformerInvoker.lambda$invoke$3(DefaultTransformerInvoker.java:117)
+	at org.gradle.api.internal.artifacts.transform.ImmutableTransformationWorkspaceProvider.lambda$withWorkspace$0(ImmutableTransformationWorkspaceProvider.java:81)
+	at org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess.withFileLock(LockOnDemandCrossProcessCacheAccess.java:90)
+	at org.gradle.cache.internal.DefaultCacheAccess.withFileLock(DefaultCacheAccess.java:194)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.withFileLock(DefaultPersistentDirectoryStore.java:170)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.withFileLock(DefaultCacheFactory.java:194)
+	at org.gradle.api.internal.artifacts.transform.ImmutableTransformationWorkspaceProvider.withWorkspace(ImmutableTransformationWorkspaceProvider.java:76)
+	at org.gradle.api.internal.artifacts.transform.AbstractCachingTransformationWorkspaceProvider.lambda$withWorkspace$0(AbstractCachingTransformationWorkspaceProvider.java:54)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4717)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3444)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2193)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2152)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2042)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3850)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4712)
+	at org.gradle.api.internal.artifacts.transform.AbstractCachingTransformationWorkspaceProvider.withWorkspace(AbstractCachingTransformationWorkspaceProvider.java:53)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformerInvoker.invoke(DefaultTransformerInvoker.java:116)
+	at org.gradle.api.internal.artifacts.transform.TransformationStep.lambda$transform$0(TransformationStep.java:104)
+	at org.gradle.internal.Try$Success.flatMap(Try.java:102)
+	at org.gradle.api.internal.artifacts.transform.TransformationStep.transform(TransformationStep.java:101)
+	at org.gradle.api.internal.artifacts.transform.TransformationNode$ChainedTransformationNode$1.lambda$transform$0(TransformationNode.java:191)
+	at org.gradle.internal.Try$Success.flatMap(Try.java:102)
+	at org.gradle.api.internal.artifacts.transform.TransformationNode$ChainedTransformationNode$1.transform(TransformationNode.java:190)
+	at org.gradle.api.internal.artifacts.transform.TransformationNode$ArtifactTransformationStepBuildOperation.call(TransformationNode.java:229)
+	at org.gradle.api.internal.artifacts.transform.TransformationNode$ArtifactTransformationStepBuildOperation.call(TransformationNode.java:212)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.artifacts.transform.TransformationNode$ChainedTransformationNode.execute(TransformationNode.java:187)
+	at org.gradle.api.internal.artifacts.transform.TransformationNodeExecutor.execute(TransformationNodeExecutor.java:37)
+	... 12 more
+Caused by: com.android.builder.dexing.DexArchiveBuilderException: Error while dexing.
+	at com.android.builder.dexing.D8DexArchiveBuilder.getExceptionToRethrow(D8DexArchiveBuilder.java:124)
+	at com.android.builder.dexing.D8DexArchiveBuilder.convert(D8DexArchiveBuilder.java:101)
+	at com.android.build.gradle.internal.dependency.BaseDexingTransform$transform$1.invoke(DexingTransform.kt:90)
+	at com.android.build.gradle.internal.dependency.BaseDexingTransform$transform$1.invoke(DexingTransform.kt:48)
+	at com.android.build.gradle.internal.tasks.BlocksUtilsKt.recordArtifactTransformSpan(BlocksUtils.kt:33)
+	at com.android.build.gradle.internal.dependency.BaseDexingTransform.transform(DexingTransform.kt:67)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformer.transform(DefaultTransformer.java:173)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformerInvoker$TransformerExecution.execute(DefaultTransformerInvoker.java:274)
+	at org.gradle.internal.execution.steps.ExecuteStep.lambda$execute$1(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:26)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:58)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:35)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:48)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:33)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:39)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:73)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:54)
+	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:35)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:51)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:45)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:31)
+	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:201)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:70)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:45)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:49)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:43)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:32)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:24)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:89)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:54)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:38)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:77)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:26)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:90)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:48)
+	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
+	at org.gradle.api.internal.artifacts.transform.DefaultTransformerInvoker.lambda$invoke$2(DefaultTransformerInvoker.java:148)
+	... 47 more
+Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed to complete
+	at com.android.tools.r8.utils.t.a(:55)
+	at com.android.tools.r8.D8.run(:11)
+	at com.android.builder.dexing.D8DexArchiveBuilder.convert(D8DexArchiveBuilder.java:99)
+	... 87 more
+Caused by: com.android.tools.r8.utils.AbortException: Error: MethodHandle.invoke and MethodHandle.invokeExact are only supported starting with Android O (--min-api 26)
+	at com.android.tools.r8.utils.Reporter.a(:21)
+	at com.android.tools.r8.utils.Reporter.a(:7)
+	at com.android.tools.r8.utils.t.a(:36)
+	... 89 more
+
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 1m 31s
+60 actionable tasks: 60 executed
+
+2019-12-22 21:49:55,799 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-22 21:49:55,799 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-22 21:49:55,938 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-22 21:49:55,938 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-12-22 21:49:55,938 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-12-22 21:49:55,938 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577026091402-0/src/MVVM-Kotlin-Android-Architecture-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-22 21:49:56,052 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -96,7 +377,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-11-27 20:52:09,864 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-12-22 21:49:56,053 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-11-27 20:52:09,870 ERROR FullProcessService - Project build has not produced APK file
-2019-11-27 20:52:09,874 ERROR FullProcessService - Could not find generated or existed APK file
+2019-12-22 21:49:56,155 ERROR FullProcessService - Project build has not produced APK file
+2019-12-22 21:49:56,252 ERROR FullProcessService - Could not find generated or existed APK file
