@@ -1,36 +1,37 @@
-2019-11-27 12:53:49,706 INFO  DownloadService - Downloading "https://github.com/skydoves/AndroidRibbon/archive/master.zip", attempt 3
-2019-11-27 12:53:50,593 INFO  DownloadService - Downloaded https://github.com/skydoves/AndroidRibbon/archive/master.zip, attempt 3
-2019-11-27 12:53:50,593 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/master.zip": 641 KB
-2019-11-27 12:53:50,594 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-27 12:53:50,595 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/master.zip: true
-2019-11-27 12:53:50,596 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src'.
-2019-11-27 12:53:50,619 INFO  FullProcessService - Size of directory with sources: 711 KB
-2019-11-27 12:53:50,620 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src]
-2019-11-27 12:53:50,636 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/.git/
+2020-01-06 20:17:28,735 INFO  DownloadService - Downloading "https://github.com/skydoves/AndroidRibbon/archive/master.zip", attempt 3
+2020-01-06 20:17:31,987 INFO  DownloadService - Downloaded https://github.com/skydoves/AndroidRibbon/archive/master.zip, attempt 3
+2020-01-06 20:17:31,988 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/master.zip": 639 KB
+2020-01-06 20:17:31,988 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-06 20:17:31,989 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/master.zip: true
+2020-01-06 20:17:31,989 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src'.
+2020-01-06 20:17:32,035 INFO  FullProcessService - Size of directory with sources: 708 KB
+2020-01-06 20:17:32,035 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src]
+2020-01-06 20:17:32,058 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/.git/
 
-2019-11-27 12:53:50,639 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/gradlew
-2019-11-27 12:53:50,641 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/androidribbon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/build.gradle
-2019-11-27 12:53:50,643 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/androidribbon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/versionsPlugin.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/spotless.gradle
-2019-11-27 12:53:50,644 INFO  ProjectBuildService - Remote scripts: none
-2019-11-27 12:53:50,644 INFO  ProjectFixService - Fixing project...
-2019-11-27 12:53:50,651 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/androidribbon/local.properties
-2019-11-27 12:53:50,653 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/androidribbon/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-27 12:53:50,653 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/androidribbon/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-27 12:53:50,654 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/app/local.properties
-2019-11-27 12:53:50,656 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-27 12:53:50,656 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-27 12:53:50,658 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/local.properties
-2019-11-27 12:53:50,658 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-11-27 12:53:50,659 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-11-27 12:53:50,662 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-27 12:53:50,662 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-27 12:53:50,662 INFO  ProjectFixService - Project was maybe fixed
-2019-11-27 12:53:50,662 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-27 12:53:50,663 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/androidribbon/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-27 12:53:58,922 INFO  ProjectTaskService - Detected possible tasks: 85
-2019-11-27 12:53:58,922 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-11-27 12:53:58,922 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/androidribbon/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-11-27 12:54:23,715 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-06 20:17:32,061 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/gradlew
+2020-01-06 20:17:32,064 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/androidribbon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/build.gradle
+2020-01-06 20:17:32,067 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/androidribbon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/versionsPlugin.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/spotless.gradle
+2020-01-06 20:17:32,070 INFO  ProjectBuildService - Remote scripts: none
+2020-01-06 20:17:32,070 INFO  ProjectFixService - Fixing project...
+2020-01-06 20:17:32,079 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/androidribbon/local.properties
+2020-01-06 20:17:32,084 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/androidribbon/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-06 20:17:32,085 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/androidribbon/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-06 20:17:32,086 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/app/local.properties
+2020-01-06 20:17:32,091 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-06 20:17:32,091 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-06 20:17:32,092 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/local.properties
+2020-01-06 20:17:32,093 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-06 20:17:32,094 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-06 20:17:32,098 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-06 20:17:32,098 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-06 20:17:32,099 INFO  ProjectFixService - Project was maybe fixed
+2020-01-06 20:17:32,099 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-06 20:17:32,099 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/androidribbon/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-06 20:17:39,487 INFO  VirusProcessorServiceImpl - Queued project 7507 to scan viruses
+2020-01-06 20:17:39,633 INFO  ProjectTaskService - Detected possible tasks: 85
+2020-01-06 20:17:39,633 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-06 20:17:39,633 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/androidribbon/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-06 20:18:07,499 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :androidribbon
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -47,26 +48,18 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :androidribbon:checkDebugManifest
 > Task :androidribbon:generateDebugBuildConfig
 > Task :androidribbon:generateDebugResValues
-> Task :androidribbon:processDebugManifest
-> Task :androidribbon:prepareLintJar
-> Task :androidribbon:mergeDebugConsumerProguardFiles
 > Task :androidribbon:mergeDebugShaders
 > Task :androidribbon:compileDebugShaders
 > Task :androidribbon:generateDebugAssets
 > Task :androidribbon:packageDebugAssets
 > Task :androidribbon:packageDebugRenderscript NO-SOURCE
-> Task :androidribbon:prepareLintJarForPublish
 > Task :androidribbon:processDebugJavaRes NO-SOURCE
 > Task :androidribbon:mergeDebugJniLibFolders
-> Task :androidribbon:transformNativeLibsWithMergeJniLibsForDebug
-> Task :androidribbon:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :androidribbon:transformNativeLibsWithSyncJniLibsForDebug
 > Task :androidribbon:preReleaseBuild UP-TO-DATE
 > Task :androidribbon:checkReleaseManifest
 > Task :androidribbon:generateReleaseBuildConfig
 > Task :androidribbon:generateReleaseResValues
-> Task :androidribbon:processReleaseManifest
-> Task :androidribbon:mergeReleaseConsumerProguardFiles
+> Task :androidribbon:processDebugManifest
 > Task :androidribbon:mergeReleaseShaders
 > Task :androidribbon:compileReleaseShaders
 > Task :androidribbon:generateReleaseAssets
@@ -74,57 +67,66 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :androidribbon:packageReleaseRenderscript NO-SOURCE
 > Task :androidribbon:processReleaseJavaRes NO-SOURCE
 > Task :androidribbon:mergeReleaseJniLibFolders
-> Task :androidribbon:transformNativeLibsWithMergeJniLibsForRelease
-> Task :androidribbon:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :androidribbon:mergeDebugNativeLibs
+> Task :androidribbon:stripDebugDebugSymbols
+> Task :androidribbon:mergeReleaseNativeLibs
+> Task :androidribbon:transformNativeLibsWithSyncJniLibsForDebug
+> Task :androidribbon:stripReleaseDebugSymbols
 > Task :androidribbon:transformNativeLibsWithSyncJniLibsForRelease
-> Task :androidribbon:compileDebugAidl NO-SOURCE
 > Task :androidribbon:compileDebugRenderscript NO-SOURCE
+> Task :androidribbon:compileDebugAidl NO-SOURCE
 > Task :androidribbon:generateDebugResources
 > Task :androidribbon:packageDebugResources
-> Task :androidribbon:generateDebugRFile
-> Task :androidribbon:compileDebugKotlin
-> Task :androidribbon:generateDebugSources
-> Task :androidribbon:javaPreCompileDebug
-> Task :androidribbon:compileDebugJavaWithJavac
-> Task :androidribbon:extractDebugAnnotations
-> Task :androidribbon:transformResourcesWithMergeJavaResForDebug
-> Task :androidribbon:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :androidribbon:bundleDebugAar
-> Task :androidribbon:compileDebugSources
-> Task :androidribbon:assembleDebug
 > Task :androidribbon:compileReleaseAidl NO-SOURCE
 > Task :androidribbon:compileReleaseRenderscript NO-SOURCE
 > Task :androidribbon:generateReleaseResources
 > Task :androidribbon:packageReleaseResources
+> Task :androidribbon:processReleaseManifest
+> Task :androidribbon:prepareLintJarForPublish
+> Task :androidribbon:mergeReleaseResources
+> Task :androidribbon:parseDebugLibraryResources
+> Task :androidribbon:parseReleaseLibraryResources
 > Task :androidribbon:generateReleaseRFile
 > Task :androidribbon:compileReleaseKotlin
-> Task :androidribbon:generateReleaseSources
+> Task :androidribbon:verifyReleaseResources
+> Task :androidribbon:generateDebugRFile
+> Task :androidribbon:compileDebugKotlin
 > Task :androidribbon:javaPreCompileRelease
 > Task :androidribbon:compileReleaseJavaWithJavac
 > Task :androidribbon:extractReleaseAnnotations
-> Task :androidribbon:transformResourcesWithMergeJavaResForRelease
+> Task :androidribbon:mergeReleaseGeneratedProguardFiles
+> Task :androidribbon:mergeReleaseConsumerProguardFiles
+> Task :androidribbon:javaPreCompileDebug
+> Task :androidribbon:compileDebugJavaWithJavac
+> Task :androidribbon:extractDebugAnnotations
+> Task :androidribbon:mergeDebugGeneratedProguardFiles
+> Task :androidribbon:mergeDebugConsumerProguardFiles
+> Task :androidribbon:compileDebugSources
+> Task :androidribbon:compileReleaseSources
+> Task :androidribbon:mergeReleaseJavaResource
 > Task :androidribbon:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :androidribbon:bundleReleaseAar
-> Task :androidribbon:compileReleaseSources
-> Task :androidribbon:mergeReleaseResources
-> Task :androidribbon:verifyReleaseResources
 > Task :androidribbon:assembleRelease
+> Task :androidribbon:mergeDebugJavaResource
+> Task :androidribbon:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :androidribbon:bundleDebugAar
+> Task :androidribbon:assembleDebug
 > Task :androidribbon:assemble
 > Task :androidribbon:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 24s
-46 actionable tasks: 46 executed
+BUILD SUCCESSFUL in 27s
+49 actionable tasks: 49 executed
 
-2019-11-27 12:54:23,753 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-27 12:54:23,753 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-27 12:54:30,925 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-11-27 12:54:30,925 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-27 12:54:30,925 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-27 12:55:18,702 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-06 20:18:07,537 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-06 20:18:07,538 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-06 20:18:14,308 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-01-06 20:18:14,308 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-06 20:18:14,308 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-06 20:19:07,382 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :androidribbon
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -138,38 +140,35 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 
 > Task :androidribbon:preBuild UP-TO-DATE
 > Task :androidribbon:preDebugBuild UP-TO-DATE
-> Task :androidribbon:checkDebugManifest UP-TO-DATE
-> Task :androidribbon:generateDebugBuildConfig UP-TO-DATE
 > Task :androidribbon:compileDebugAidl NO-SOURCE
+> Task :androidribbon:checkDebugManifest UP-TO-DATE
 > Task :androidribbon:compileDebugRenderscript NO-SOURCE
+> Task :androidribbon:generateDebugBuildConfig UP-TO-DATE
 > Task :androidribbon:generateDebugResValues UP-TO-DATE
 > Task :androidribbon:generateDebugResources UP-TO-DATE
-> Task :androidribbon:processDebugManifest UP-TO-DATE
 > Task :androidribbon:packageDebugResources UP-TO-DATE
+> Task :androidribbon:parseDebugLibraryResources UP-TO-DATE
+> Task :androidribbon:processDebugManifest UP-TO-DATE
 > Task :androidribbon:generateDebugRFile UP-TO-DATE
 > Task :androidribbon:compileDebugKotlin UP-TO-DATE
-> Task :androidribbon:prepareLintJar UP-TO-DATE
-> Task :androidribbon:generateDebugSources UP-TO-DATE
 > Task :androidribbon:javaPreCompileDebug UP-TO-DATE
 > Task :androidribbon:compileDebugJavaWithJavac UP-TO-DATE
-> Task :androidribbon:bundleLibCompileDebug
 > Task :app:preBuild UP-TO-DATE
-> Task :androidribbon:packageDebugRenderscript NO-SOURCE
-> Task :app:preDebugBuild
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :app:compileDebugAidl NO-SOURCE
+> Task :androidribbon:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
+> Task :androidribbon:bundleLibCompileDebug
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :app:mergeDebugResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
+> Task :app:mergeDebugResources
 > Task :app:processDebugResources
 > Task :app:compileDebugKotlin
-> Task :app:prepareLintJar
-> Task :app:generateDebugSources
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
@@ -182,22 +181,19 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:generateDebugAssets
 > Task :app:mergeDebugAssets
 > Task :androidribbon:processDebugJavaRes NO-SOURCE
+> Task :app:processDebugJavaRes NO-SOURCE
 > Task :androidribbon:bundleLibResDebug
 > Task :androidribbon:bundleLibRuntimeDebug
-> Task :androidribbon:createFullJarDebug
 > Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :androidribbon:mergeDebugJniLibFolders UP-TO-DATE
-> Task :androidribbon:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-> Task :androidribbon:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :androidribbon:mergeDebugNativeLibs UP-TO-DATE
+> Task :androidribbon:stripDebugDebugSymbols UP-TO-DATE
 > Task :androidribbon:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
 > Task :androidribbon:preReleaseBuild UP-TO-DATE
 > Task :androidribbon:compileReleaseAidl NO-SOURCE
 > Task :androidribbon:compileReleaseRenderscript NO-SOURCE
@@ -206,14 +202,13 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :androidribbon:generateReleaseResValues UP-TO-DATE
 > Task :androidribbon:generateReleaseResources UP-TO-DATE
 > Task :androidribbon:packageReleaseResources UP-TO-DATE
+> Task :androidribbon:parseReleaseLibraryResources UP-TO-DATE
 > Task :androidribbon:processReleaseManifest UP-TO-DATE
 > Task :androidribbon:generateReleaseRFile UP-TO-DATE
 > Task :androidribbon:compileReleaseKotlin UP-TO-DATE
-> Task :androidribbon:generateReleaseSources UP-TO-DATE
 > Task :androidribbon:javaPreCompileRelease UP-TO-DATE
 > Task :androidribbon:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :androidribbon:bundleLibCompileRelease
-> Task :app:preReleaseBuild
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :androidribbon:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
@@ -222,29 +217,25 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :androidribbon:bundleLibCompileRelease
+> Task :androidribbon:prepareLintJarForPublish UP-TO-DATE
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
+> Task :androidribbon:bundleLibRuntimeRelease
+> Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
 > Task :app:compileReleaseKotlin
-> Task :app:mergeExtDexDebug
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :androidribbon:prepareLintJarForPublish UP-TO-DATE
-> Task :androidribbon:processReleaseJavaRes NO-SOURCE
-> Task :androidribbon:bundleLibResRelease
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/742795e3ad80257075bca508664c3d9c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/892bde374f44f7da592744e5f6922881/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-> Task :androidribbon:bundleLibRuntimeRelease
-> Task :androidribbon:createFullJarRelease
-> Task :app:checkReleaseDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :androidribbon:mergeReleaseShaders UP-TO-DATE
 > Task :androidribbon:compileReleaseShaders UP-TO-DATE
@@ -254,16 +245,22 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
 > Task :app:mergeReleaseAssets
+> Task :androidribbon:processReleaseJavaRes NO-SOURCE
+> Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :androidribbon:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :androidribbon:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-> Task :androidribbon:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :androidribbon:mergeReleaseNativeLibs UP-TO-DATE
+> Task :androidribbon:stripReleaseDebugSymbols UP-TO-DATE
 > Task :androidribbon:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:mergeReleaseJniLibFolders
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :androidribbon:bundleLibResRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
@@ -273,9 +270,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 47s
-95 actionable tasks: 63 executed, 32 up-to-date
+BUILD SUCCESSFUL in 52s
+92 actionable tasks: 59 executed, 33 up-to-date
 
-2019-11-27 12:55:18,797 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574834029702-0/src/AndroidRibbon-master/app/build/outputs/apk/debug/app-debug.apk
+2020-01-06 20:19:07,483 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316648731-0/src/AndroidRibbon-master/app/build/outputs/apk/debug/app-debug.apk
