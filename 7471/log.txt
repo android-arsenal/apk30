@@ -1,192 +1,203 @@
-2019-06-16 15:33:05,726 INFO  DownloadService - Downloading "https://github.com/LordSaac/ProgressLottieIGB/archive/master.zip", attempt 3
-2019-06-16 15:33:08,308 INFO  DownloadService - Downloaded https://github.com/LordSaac/ProgressLottieIGB/archive/master.zip, attempt 3
-2019-06-16 15:33:08,308 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/master.zip": 328 KB
-2019-06-16 15:33:08,308 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-16 15:33:08,314 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/master.zip: true
-2019-06-16 15:33:08,314 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src'.
-2019-06-16 15:33:08,342 INFO  FullProcessService - Size of directory with sources: 674 KB
-2019-06-16 15:33:08,342 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src]
-2019-06-16 15:33:08,363 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/.git/
+2020-01-24 14:48:03,651 INFO  DownloadService - Downloading "https://github.com/LordSaac/ProgressLottieIGB/archive/master.zip", attempt 3
+2020-01-24 14:48:05,397 INFO  DownloadService - Downloaded https://github.com/LordSaac/ProgressLottieIGB/archive/master.zip, attempt 3
+2020-01-24 14:48:05,398 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/master.zip": 333 KB
+2020-01-24 14:48:05,398 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-24 14:48:05,398 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/master.zip: true
+2020-01-24 14:48:05,399 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src'.
+2020-01-24 14:48:05,427 INFO  FullProcessService - Size of directory with sources: 688 KB
+2020-01-24 14:48:05,427 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src]
+2020-01-24 14:48:05,476 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/.git/
 
-2019-06-16 15:33:08,367 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/gradlew
-2019-06-16 15:33:08,370 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/progresslitieigb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/build.gradle
-2019-06-16 15:33:08,374 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/progresslitieigb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/settings.gradle
-2019-06-16 15:33:08,374 INFO  ProjectBuildService - Remote scripts: none
-2019-06-16 15:33:08,374 INFO  ProjectFixService - Fixing project...
-2019-06-16 15:33:08,383 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/app/local.properties
-2019-06-16 15:33:08,384 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-06-16 15:33:08,385 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-06-16 15:33:08,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/progresslitieigb/local.properties
-2019-06-16 15:33:08,387 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/progresslitieigb/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-06-16 15:33:08,387 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/progresslitieigb/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-06-16 15:33:08,390 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/local.properties
-2019-06-16 15:33:08,390 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-06-16 15:33:08,391 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-06-16 15:33:08,392 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-06-16 15:33:08,392 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-06-16 15:33:08,393 INFO  ProjectFixService - Project was maybe fixed
-2019-06-16 15:33:08,393 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-16 15:33:08,393 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-16 15:33:17,195 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-06-16 15:33:17,195 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-06-16 15:33:17,195 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-06-16 15:34:07,677 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-24 14:48:05,480 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/gradlew
+2020-01-24 14:48:05,484 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/progresslitieigb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/build.gradle
+2020-01-24 14:48:05,487 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/progresslitieigb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/settings.gradle
+2020-01-24 14:48:05,488 INFO  ProjectBuildService - Remote scripts: none
+2020-01-24 14:48:05,488 INFO  ProjectFixService - Fixing project...
+2020-01-24 14:48:05,496 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/app/local.properties
+2020-01-24 14:48:05,498 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-01-24 14:48:05,498 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-01-24 14:48:05,499 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/progresslitieigb/local.properties
+2020-01-24 14:48:05,500 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/progresslitieigb/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-01-24 14:48:05,500 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/progresslitieigb/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-01-24 14:48:05,501 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/local.properties
+2020-01-24 14:48:05,502 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-24 14:48:05,502 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-24 14:48:05,504 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-01-24 14:48:05,504 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-01-24 14:48:05,504 INFO  ProjectFixService - Project was maybe fixed
+2020-01-24 14:48:05,504 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-24 14:48:05,505 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-24 14:48:12,436 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-24 14:48:12,437 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-24 14:48:12,437 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-24 14:48:21,423 INFO  VirusProcessorServiceImpl - Queued project 7489 to scan viruses
+2020-01-24 14:49:15,328 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :progresslitieigb
 user: key:
-:app:checkDebugClasspath
-:app:preBuild UP-TO-DATE
-:progresslitieigb:preBuild UP-TO-DATE
-:progresslitieigb:preDebugBuild UP-TO-DATE
-:progresslitieigb:checkDebugManifest
-:progresslitieigb:processDebugManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/progresslitieigb/src/main/AndroidManifest.xml:4:5-13:19 Warning:
-	application@android:appComponentFactory was tagged at AndroidManifest.xml:4 to replace other declarations but no other declaration present
-:app:preDebugBuild
-:progresslitieigb:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:progresslitieigb:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:progresslitieigb:compileDebugRenderscript
-:progresslitieigb:generateDebugResValues
-:progresslitieigb:generateDebugResources
-:progresslitieigb:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:progresslitieigb:generateDebugRFile
-:app:processDebugResources
-:progresslitieigb:generateDebugBuildConfig
-:progresslitieigb:kaptGenerateStubsDebugKotlin
-:progresslitieigb:kaptDebugKotlin
-:progresslitieigb:compileDebugKotlin
-:progresslitieigb:prepareLintJar
-:progresslitieigb:generateDebugSources
-:progresslitieigb:javaPreCompileDebug
-:progresslitieigb:compileDebugJavaWithJavac
-:progresslitieigb:processDebugJavaRes NO-SOURCE
-:progresslitieigb:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (21, 15): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (33, 22): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (42, 23): Parameter 'view' is never used
-:app:prepareLintJar
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:progresslitieigb:mergeDebugShaders
-:progresslitieigb:compileDebugShaders
-:progresslitieigb:generateDebugAssets
-:progresslitieigb:packageDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
-  Attempt to read local this but no local information was associated with the value being read.
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
-  Attempt to read local this but no local information was associated with the value being read.
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:progresslitieigb:compileDebugNdk NO-SOURCE
-:progresslitieigb:mergeDebugJniLibFolders
-:progresslitieigb:transformNativeLibsWithMergeJniLibsForDebug
-:progresslitieigb:transformNativeLibsWithStripDebugSymbolForDebug
-:progresslitieigb:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
-:progresslitieigb:preReleaseBuild UP-TO-DATE
-:progresslitieigb:checkReleaseManifest
-:progresslitieigb:processReleaseManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/progresslitieigb/src/main/AndroidManifest.xml:4:5-13:19 Warning:
-	application@android:appComponentFactory was tagged at AndroidManifest.xml:4 to replace other declarations but no other declaration present
-:app:preReleaseBuild
-:progresslitieigb:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:progresslitieigb:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:progresslitieigb:compileReleaseRenderscript
-:progresslitieigb:generateReleaseResValues
-:progresslitieigb:generateReleaseResources
-:progresslitieigb:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:progresslitieigb:generateReleaseRFile
-:app:processReleaseResources
-:progresslitieigb:generateReleaseBuildConfig
-:progresslitieigb:kaptGenerateStubsReleaseKotlin
-:progresslitieigb:kaptReleaseKotlin
-:progresslitieigb:compileReleaseKotlin
-:progresslitieigb:generateReleaseSources
-:progresslitieigb:javaPreCompileRelease
-:progresslitieigb:compileReleaseJavaWithJavac
-:progresslitieigb:processReleaseJavaRes NO-SOURCE
-:progresslitieigb:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (21, 15): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (33, 22): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (42, 23): Parameter 'view' is never used
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/37c1024913587bb4ed9485eb8792f1ac/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:progresslitieigb:mergeReleaseShaders
-:progresslitieigb:compileReleaseShaders
-:progresslitieigb:generateReleaseAssets
-:progresslitieigb:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:progresslitieigb:compileReleaseNdk NO-SOURCE
-:progresslitieigb:mergeReleaseJniLibFolders
-:progresslitieigb:transformNativeLibsWithMergeJniLibsForRelease
-:progresslitieigb:transformNativeLibsWithStripDebugSymbolForRelease
-:progresslitieigb:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:checkReleaseLibraries
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
 
-BUILD SUCCESSFUL in 49s
-98 actionable tasks: 98 executed
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :progresslitieigb:preBuild UP-TO-DATE
+> Task :progresslitieigb:preDebugBuild UP-TO-DATE
+> Task :progresslitieigb:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :progresslitieigb:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :progresslitieigb:compileDebugRenderscript NO-SOURCE
+> Task :progresslitieigb:generateDebugResValues
+> Task :progresslitieigb:generateDebugResources
+> Task :progresslitieigb:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :progresslitieigb:checkDebugManifest
+> Task :progresslitieigb:generateDebugBuildConfig
 
-2019-06-16 15:34:07,759 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560673985723-0/src/ProgressLottieIGB-master/app/build/outputs/apk/debug/app-debug.apk
+> Task :progresslitieigb:processDebugManifest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/progresslitieigb/src/main/AndroidManifest.xml:4:5-13:19 Warning:
+	application@android:appComponentFactory was tagged at AndroidManifest.xml:4 to replace other declarations but no other declaration present
+
+> Task :app:processDebugManifest
+> Task :progresslitieigb:parseDebugLibraryResources
+> Task :app:mergeDebugResources
+> Task :progresslitieigb:generateDebugRFile
+> Task :app:processDebugResources
+> Task :progresslitieigb:kaptGenerateStubsDebugKotlin
+> Task :progresslitieigb:kaptDebugKotlin
+> Task :progresslitieigb:compileDebugKotlin
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :progresslitieigb:mergeDebugShaders
+> Task :progresslitieigb:compileDebugShaders
+> Task :progresslitieigb:generateDebugAssets
+> Task :progresslitieigb:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :progresslitieigb:javaPreCompileDebug
+> Task :progresslitieigb:compileDebugJavaWithJavac
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :progresslitieigb:processDebugJavaRes NO-SOURCE
+> Task :progresslitieigb:bundleLibCompileDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (24, 15): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (42, 22): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (51, 23): Parameter 'view' is never used
+
+> Task :progresslitieigb:bundleLibRuntimeDebug
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :progresslitieigb:bundleLibResDebug
+> Task :progresslitieigb:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
+> Task :app:desugarDebugFileDependencies
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :progresslitieigb:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :progresslitieigb:preReleaseBuild UP-TO-DATE
+> Task :progresslitieigb:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :progresslitieigb:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :progresslitieigb:compileReleaseRenderscript NO-SOURCE
+> Task :progresslitieigb:generateReleaseResValues
+> Task :progresslitieigb:generateReleaseResources
+> Task :progresslitieigb:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :progresslitieigb:checkReleaseManifest
+
+> Task :progresslitieigb:processReleaseManifest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/progresslitieigb/src/main/AndroidManifest.xml:4:5-13:19 Warning:
+	application@android:appComponentFactory was tagged at AndroidManifest.xml:4 to replace other declarations but no other declaration present
+
+> Task :app:processReleaseManifest
+> Task :progresslitieigb:generateReleaseBuildConfig
+> Task :progresslitieigb:parseReleaseLibraryResources
+> Task :progresslitieigb:mergeDebugNativeLibs
+> Task :progresslitieigb:stripDebugDebugSymbols
+> Task :progresslitieigb:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:prepareLintJar
+> Task :progresslitieigb:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:desugarReleaseFileDependencies
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :progresslitieigb:mergeReleaseShaders
+> Task :progresslitieigb:compileReleaseShaders
+> Task :progresslitieigb:generateReleaseAssets
+> Task :progresslitieigb:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :progresslitieigb:mergeReleaseJniLibFolders
+> Task :app:mergeReleaseResources
+> Task :progresslitieigb:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :progresslitieigb:kaptGenerateStubsReleaseKotlin
+> Task :progresslitieigb:kaptReleaseKotlin
+> Task :progresslitieigb:compileReleaseKotlin
+> Task :progresslitieigb:mergeReleaseNativeLibs
+> Task :progresslitieigb:stripReleaseDebugSymbols
+> Task :progresslitieigb:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeExtDexRelease
+> Task :progresslitieigb:prepareLintJarForPublish
+> Task :progresslitieigb:javaPreCompileRelease
+> Task :progresslitieigb:compileReleaseJavaWithJavac
+> Task :app:mergeExtDexDebug
+> Task :progresslitieigb:bundleLibRuntimeRelease
+> Task :progresslitieigb:bundleLibResRelease
+> Task :progresslitieigb:createFullJarRelease
+> Task :progresslitieigb:bundleLibCompileRelease
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (24, 15): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (42, 22): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/app/src/main/java/com/forms/sti/progresslottieigb/MainActivity.kt: (51, 23): Parameter 'view' is never used
+
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/352c20dad82c830bc835b0a857189692/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/5f708fd48ff113fd6f7ee5bf0c238b19/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 2s
+100 actionable tasks: 100 executed
+
+2020-01-24 14:49:15,404 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579852083648-0/src/ProgressLottieIGB-master/app/build/outputs/apk/debug/app-debug.apk
