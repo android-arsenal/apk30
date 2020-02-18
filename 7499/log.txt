@@ -1,36 +1,37 @@
-2019-09-30 16:44:52,226 INFO  DownloadService - Downloading "https://github.com/thomhurst/ExpandableHintText/archive/master.zip", attempt 3
-2019-09-30 16:44:54,623 INFO  DownloadService - Downloaded https://github.com/thomhurst/ExpandableHintText/archive/master.zip, attempt 3
-2019-09-30 16:44:54,623 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/master.zip": 441 KB
-2019-09-30 16:44:54,623 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-30 16:44:54,624 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/master.zip: true
-2019-09-30 16:44:54,624 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src'.
-2019-09-30 16:44:54,645 INFO  FullProcessService - Size of directory with sources: 531 KB
-2019-09-30 16:44:54,645 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src]
-2019-09-30 16:44:54,662 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/.git/
+2020-02-18 12:10:11,256 INFO  DownloadService - Downloading "https://github.com/thomhurst/ExpandableHintText/archive/master.zip", attempt 3
+2020-02-18 12:10:13,648 INFO  DownloadService - Downloaded https://github.com/thomhurst/ExpandableHintText/archive/master.zip, attempt 3
+2020-02-18 12:10:13,649 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/master.zip": 441 KB
+2020-02-18 12:10:13,649 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-02-18 12:10:13,649 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/master.zip: true
+2020-02-18 12:10:13,649 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src'.
+2020-02-18 12:10:13,668 INFO  FullProcessService - Size of directory with sources: 531 KB
+2020-02-18 12:10:13,669 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src]
+2020-02-18 12:10:13,697 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/.git/
 
-2019-09-30 16:44:54,665 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/gradlew
-2019-09-30 16:44:54,668 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/expandablehinttext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/build.gradle
-2019-09-30 16:44:54,670 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/expandablehinttext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/settings.gradle
-2019-09-30 16:44:54,671 INFO  ProjectBuildService - Remote scripts: none
-2019-09-30 16:44:54,671 INFO  ProjectFixService - Fixing project...
-2019-09-30 16:44:54,677 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/app/local.properties
-2019-09-30 16:44:54,678 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-09-30 16:44:54,678 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-09-30 16:44:54,678 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/expandablehinttext/local.properties
-2019-09-30 16:44:54,679 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/expandablehinttext/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-09-30 16:44:54,679 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/expandablehinttext/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-09-30 16:44:54,680 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/local.properties
-2019-09-30 16:44:54,681 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-09-30 16:44:54,681 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-09-30 16:44:54,682 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-09-30 16:44:54,682 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-09-30 16:44:54,682 INFO  ProjectFixService - Project was maybe fixed
-2019-09-30 16:44:54,683 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-30 16:44:54,683 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-30 16:45:07,549 INFO  ProjectTaskService - Detected possible tasks: 74
-2019-09-30 16:45:07,550 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-30 16:45:07,550 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-30 16:46:03,244 INFO  SysUtils - Loading package information...                                                  Loading local repository...                                                     [                                       ] 3% Loading local repository...        [                                       ] 3% Fetch remote repository...         [                                       ] 3% Fetch remote repository...         [=                                      ] 3% Fetch remote repository...         [=                                      ] 4% Fetch remote repository...                                                                                         Warning: File /Users/vbauer/.android/repositories.cfg could not be loaded.
+2020-02-18 12:10:13,699 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/gradlew
+2020-02-18 12:10:13,702 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/expandablehinttext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/build.gradle
+2020-02-18 12:10:13,705 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/expandablehinttext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/settings.gradle
+2020-02-18 12:10:13,705 INFO  ProjectBuildService - Remote scripts: none
+2020-02-18 12:10:13,705 INFO  ProjectFixService - Fixing project...
+2020-02-18 12:10:13,712 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/app/local.properties
+2020-02-18 12:10:13,713 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-02-18 12:10:13,713 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-02-18 12:10:13,714 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/expandablehinttext/local.properties
+2020-02-18 12:10:13,715 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/expandablehinttext/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-02-18 12:10:13,715 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/expandablehinttext/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-02-18 12:10:13,716 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/local.properties
+2020-02-18 12:10:13,716 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-02-18 12:10:13,717 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-02-18 12:10:13,718 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-02-18 12:10:13,718 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-02-18 12:10:13,718 INFO  ProjectFixService - Project was maybe fixed
+2020-02-18 12:10:13,718 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-18 12:10:13,718 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-18 12:10:21,265 INFO  VirusProcessorServiceImpl - Queued project 7507 to scan viruses
+2020-02-18 12:10:28,716 INFO  ProjectTaskService - Detected possible tasks: 74
+2020-02-18 12:10:28,716 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-02-18 12:10:28,717 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-02-18 12:11:43,627 INFO  SysUtils - Loading package information...                                                  Loading local repository...                                                     [                                       ] 3% Loading local repository...        [                                       ] 3% Fetch remote repository...         [                                       ] 3% Fetch remote repository...         [=                                      ] 3% Fetch remote repository...         [=                                      ] 4% Fetch remote repository...                                                                                         Warning: File /Users/vbauer/.android/repositories.cfg could not be loaded.
 [=                                      ] 4% Fetch remote repository...         [=                                      ] 4% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Computing updates...               [===                                    ] 8% Computing updates...               [===                                    ] 8% Computing updates...               [===                                    ] 10% Computing updates...              [=======================================] 100% Computing updates...             
 Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
@@ -67,23 +68,22 @@ Configuration on demand is an incubating feature.
 > Task :app:mergeDebugAssets
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :expandablehinttext:processDebugJavaRes NO-SOURCE
-> Task :app:checkDebugDuplicateClasses
 > Task :expandablehinttext:generateDebugRFile
 > Task :app:processDebugResources
+> Task :app:checkDebugDuplicateClasses
 > Task :expandablehinttext:kaptGenerateStubsDebugKotlin
 > Task :expandablehinttext:kaptDebugKotlin
 
 > Task :expandablehinttext:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/expandablehinttext/src/main/java/com/tomlonghurst/expandablehinttext/ExpandableHintText.kt: (187, 33): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/expandablehinttext/src/main/java/com/tomlonghurst/expandablehinttext/ExpandableHintText.kt: (274, 26): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/expandablehinttext/src/main/java/com/tomlonghurst/expandablehinttext/ExpandableHintText.kt: (543, 23): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/expandablehinttext/src/main/java/com/tomlonghurst/expandablehinttext/ExpandableHintText.kt: (187, 33): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/expandablehinttext/src/main/java/com/tomlonghurst/expandablehinttext/ExpandableHintText.kt: (274, 26): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/expandablehinttext/src/main/java/com/tomlonghurst/expandablehinttext/ExpandableHintText.kt: (543, 23): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
 
 > Task :expandablehinttext:javaPreCompileDebug
 > Task :expandablehinttext:compileDebugJavaWithJavac
 > Task :expandablehinttext:bundleLibResDebug
-> Task :expandablehinttext:bundleLibRuntimeDebug
-> Task :expandablehinttext:createFullJarDebug
 > Task :expandablehinttext:bundleLibCompileDebug
+> Task :expandablehinttext:bundleLibRuntimeDebug
 > Task :app:kaptGenerateStubsDebugKotlin
 > Task :app:kaptDebugKotlin
 > Task :app:compileDebugKotlin
@@ -116,44 +116,41 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/
 > Task :expandablehinttext:mergeDebugNativeLibs
 > Task :expandablehinttext:stripDebugDebugSymbols
 > Task :expandablehinttext:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :expandablehinttext:parseReleaseLibraryResources
+> Task :expandablehinttext:generateReleaseBuildConfig
+> Task :app:prepareLintJar
 > Task :expandablehinttext:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :expandablehinttext:generateReleaseBuildConfig
-> Task :expandablehinttext:parseReleaseLibraryResources
-> Task :app:prepareLintJar
-> Task :expandablehinttext:processReleaseJavaRes NO-SOURCE
+> Task :app:mergeReleaseResources
 > Task :app:checkReleaseDuplicateClasses
-> Task :expandablehinttext:prepareLintJarForPublish
 > Task :expandablehinttext:generateReleaseRFile
+> Task :app:processReleaseResources
 > Task :expandablehinttext:kaptGenerateStubsReleaseKotlin
 > Task :expandablehinttext:kaptReleaseKotlin
 
 > Task :expandablehinttext:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/expandablehinttext/src/main/java/com/tomlonghurst/expandablehinttext/ExpandableHintText.kt: (187, 33): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/expandablehinttext/src/main/java/com/tomlonghurst/expandablehinttext/ExpandableHintText.kt: (274, 26): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/expandablehinttext/src/main/java/com/tomlonghurst/expandablehinttext/ExpandableHintText.kt: (543, 23): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/expandablehinttext/src/main/java/com/tomlonghurst/expandablehinttext/ExpandableHintText.kt: (187, 33): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/expandablehinttext/src/main/java/com/tomlonghurst/expandablehinttext/ExpandableHintText.kt: (274, 26): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/expandablehinttext/src/main/java/com/tomlonghurst/expandablehinttext/ExpandableHintText.kt: (543, 23): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
 
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
+> Task :expandablehinttext:prepareLintJarForPublish
 > Task :expandablehinttext:javaPreCompileRelease
 > Task :expandablehinttext:compileReleaseJavaWithJavac
-> Task :app:mergeReleaseResources
-> Task :app:processReleaseResources
 > Task :expandablehinttext:bundleLibCompileRelease
 > Task :app:kaptGenerateStubsReleaseKotlin
 > Task :app:kaptReleaseKotlin
 > Task :app:compileReleaseKotlin
 > Task :expandablehinttext:bundleLibRuntimeRelease
-> Task :app:mergeExtDexDebug
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
+
 > Task :app:lintVitalRelease
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :expandablehinttext:bundleLibResRelease
-> Task :expandablehinttext:createFullJarRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/8ae6803450cbe630cbcd4016c61881c9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :app:mergeExtDexDebug
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -164,15 +161,20 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/
 > Task :expandablehinttext:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
+> Task :expandablehinttext:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :expandablehinttext:mergeReleaseJniLibFolders
+> Task :expandablehinttext:bundleLibResRelease
 > Task :expandablehinttext:mergeReleaseNativeLibs
 > Task :expandablehinttext:stripReleaseDebugSymbols
 > Task :expandablehinttext:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
 > Task :app:mergeReleaseJavaResource
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
@@ -184,7 +186,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 52s
-102 actionable tasks: 102 executed
+BUILD SUCCESSFUL in 1m 12s
+100 actionable tasks: 100 executed
 
-2019-09-30 16:46:03,312 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836692219-0/src/ExpandableHintText-master/app/build/outputs/apk/debug/app-debug.apk
+2020-02-18 12:11:43,708 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002611251-0/src/ExpandableHintText-master/app/build/outputs/apk/debug/app-debug.apk

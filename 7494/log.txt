@@ -1,35 +1,35 @@
-2020-01-04 20:37:30,095 INFO  DownloadService - Downloading "https://github.com/akaish/KittyORM/archive/master.zip", attempt 3
-2020-01-04 20:37:35,772 INFO  DownloadService - Downloaded https://github.com/akaish/KittyORM/archive/master.zip, attempt 3
-2020-01-04 20:37:35,773 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/master.zip": 2 MB
-2020-01-04 20:37:35,773 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-04 20:37:35,778 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/master.zip: true
-2020-01-04 20:37:35,778 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src'.
-2020-01-04 20:37:36,144 INFO  FullProcessService - Size of directory with sources: 12 MB
-2020-01-04 20:37:36,144 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src]
-2020-01-04 20:37:36,162 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/.git/
+2020-02-18 12:11:44,423 INFO  DownloadService - Downloading "https://github.com/akaish/KittyORM/archive/master.zip", attempt 3
+2020-02-18 12:11:47,771 INFO  DownloadService - Downloaded https://github.com/akaish/KittyORM/archive/master.zip, attempt 3
+2020-02-18 12:11:47,772 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/master.zip": 2 MB
+2020-02-18 12:11:47,772 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-02-18 12:11:47,774 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/master.zip: true
+2020-02-18 12:11:47,774 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src'.
+2020-02-18 12:11:48,060 INFO  FullProcessService - Size of directory with sources: 12 MB
+2020-02-18 12:11:48,060 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src]
+2020-02-18 12:11:48,088 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/.git/
 
-2020-01-04 20:37:36,181 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/gradlew
-2020-01-04 20:37:36,201 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/kittyorm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/build.gradle
-2020-01-04 20:37:36,220 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/kittyorm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/settings.gradle
-2020-01-04 20:37:36,221 INFO  ProjectBuildService - Remote scripts: none
-2020-01-04 20:37:36,221 INFO  ProjectFixService - Fixing project...
-2020-01-04 20:37:36,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/app/local.properties
-2020-01-04 20:37:36,265 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2020-01-04 20:37:36,266 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2020-01-04 20:37:36,267 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/kittyorm/local.properties
-2020-01-04 20:37:36,268 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/kittyorm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=26]
-2020-01-04 20:37:36,268 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/kittyorm/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=26]
-2020-01-04 20:37:36,269 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/local.properties
-2020-01-04 20:37:36,271 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2020-01-04 20:37:36,271 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2020-01-04 20:37:36,271 INFO  ProjectFixService - Project was maybe fixed
-2020-01-04 20:37:36,272 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-04 20:37:36,272 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-04 20:37:36,408 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-04 20:37:36,409 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-04 20:37:36,409 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-04 20:37:36,409 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-04 20:37:36,526 ERROR SysUtils - Could not process external command
+2020-02-18 12:11:48,107 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/gradlew
+2020-02-18 12:11:48,125 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/kittyorm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/build.gradle
+2020-02-18 12:11:48,143 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/kittyorm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/settings.gradle
+2020-02-18 12:11:48,144 INFO  ProjectBuildService - Remote scripts: none
+2020-02-18 12:11:48,144 INFO  ProjectFixService - Fixing project...
+2020-02-18 12:11:48,181 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/app/local.properties
+2020-02-18 12:11:48,182 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2020-02-18 12:11:48,182 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2020-02-18 12:11:48,183 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/kittyorm/local.properties
+2020-02-18 12:11:48,184 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/kittyorm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=26]
+2020-02-18 12:11:48,184 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/kittyorm/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=26]
+2020-02-18 12:11:48,185 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/local.properties
+2020-02-18 12:11:48,187 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2020-02-18 12:11:48,187 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2020-02-18 12:11:48,187 INFO  ProjectFixService - Project was maybe fixed
+2020-02-18 12:11:48,187 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-18 12:11:48,187 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-18 12:11:48,325 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-02-18 12:11:48,326 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-02-18 12:11:48,326 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-02-18 12:11:48,326 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-02-18 12:11:48,450 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -57,15 +57,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-04 20:37:36,526 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2020-02-18 12:11:48,451 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2020-01-04 20:37:36,547 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-04 20:37:36,547 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/kittyorm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-04 20:37:36,662 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-04 20:37:36,662 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-04 20:37:36,662 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-04 20:37:36,663 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/kittyorm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-04 20:37:36,782 ERROR SysUtils - Could not process external command
+2020-02-18 12:11:48,472 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-18 12:11:48,472 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/kittyorm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-18 12:11:48,588 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-02-18 12:11:48,588 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-02-18 12:11:48,588 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-02-18 12:11:48,588 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/kittyorm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-02-18 12:11:48,705 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -93,15 +93,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-04 20:37:36,782 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2020-02-18 12:11:48,705 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2020-01-04 20:37:36,803 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-04 20:37:36,803 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-04 20:37:36,920 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-04 20:37:36,920 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-04 20:37:36,920 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-04 20:37:36,920 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578145050090-0/src/KittyORM-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-04 20:37:37,034 ERROR SysUtils - Could not process external command
+2020-02-18 12:11:48,724 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-18 12:11:48,724 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-18 12:11:48,838 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-02-18 12:11:48,838 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-02-18 12:11:48,838 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-02-18 12:11:48,838 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002704420-0/src/KittyORM-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-02-18 12:11:48,951 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -129,7 +129,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-04 20:37:37,034 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2020-02-18 12:11:48,951 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2020-01-04 20:37:37,055 ERROR FullProcessService - Project build has not produced APK file
-2020-01-04 20:37:37,078 ERROR FullProcessService - Could not find generated or existed APK file
+2020-02-18 12:11:48,970 ERROR FullProcessService - Project build has not produced APK file
+2020-02-18 12:11:48,987 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,37 +1,48 @@
-2019-06-18 12:48:50,463 INFO  DownloadService - Downloading "https://github.com/AliAsadi/android-mvvm-sample-app/archive/master.zip", attempt 3
-2019-06-18 12:48:52,507 INFO  DownloadService - Downloaded https://github.com/AliAsadi/android-mvvm-sample-app/archive/master.zip, attempt 3
-2019-06-18 12:48:52,507 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/master.zip": 157 KB
-2019-06-18 12:48:52,507 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-18 12:48:52,513 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/master.zip: true
-2019-06-18 12:48:52,513 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/src'.
-2019-06-18 12:48:52,535 INFO  FullProcessService - Size of directory with sources: 170 KB
-2019-06-18 12:48:52,536 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/src]
-2019-06-18 12:48:52,552 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/src/.git/
+2020-02-18 12:14:29,417 INFO  DownloadService - Downloading "https://github.com/AliAsadi/android-mvvm-sample-app/archive/master.zip", attempt 3
+2020-02-18 12:14:31,279 INFO  DownloadService - Downloaded https://github.com/AliAsadi/android-mvvm-sample-app/archive/master.zip, attempt 3
+2020-02-18 12:14:31,279 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/master.zip": 149 KB
+2020-02-18 12:14:31,279 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-02-18 12:14:31,284 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/master.zip: true
+2020-02-18 12:14:31,284 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/src'.
+2020-02-18 12:14:31,303 INFO  FullProcessService - Size of directory with sources: 166 KB
+2020-02-18 12:14:31,303 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/src]
+2020-02-18 12:14:31,325 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/src/.git/
 
-2019-06-18 12:48:52,556 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/src/android-mvvm-sample-app-master/gradlew
-2019-06-18 12:48:52,559 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/src/android-mvvm-sample-app-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/src/android-mvvm-sample-app-master/build.gradle
-2019-06-18 12:48:52,562 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/src/android-mvvm-sample-app-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/src/android-mvvm-sample-app-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/src/android-mvvm-sample-app-master/settings.gradle
-2019-06-18 12:48:52,562 INFO  ProjectBuildService - Remote scripts: none
-2019-06-18 12:48:52,563 INFO  ProjectFixService - Fixing project...
-2019-06-18 12:48:52,569 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/src/android-mvvm-sample-app-master/app/local.properties
-2019-06-18 12:48:52,570 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/src/android-mvvm-sample-app-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2019-06-18 12:48:52,570 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/src/android-mvvm-sample-app-master/local.properties
-2019-06-18 12:48:52,571 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-06-18 12:48:52,571 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-06-18 12:48:52,572 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/src/android-mvvm-sample-app-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2019-06-18 12:48:52,572 INFO  ProjectFixService - Project was maybe fixed
-2019-06-18 12:48:52,572 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-18 12:48:52,572 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/src/android-mvvm-sample-app-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/src/android-mvvm-sample-app-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-18 12:48:59,636 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-18 12:48:59,636 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-06-18 12:48:59,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/src/android-mvvm-sample-app-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/src/android-mvvm-sample-app-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-06-18 12:49:39,900 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-18 12:14:31,328 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/src/android-mvvm-sample-app-master/gradlew
+2020-02-18 12:14:31,331 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/src/android-mvvm-sample-app-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/src/android-mvvm-sample-app-master/build.gradle
+2020-02-18 12:14:31,336 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/src/android-mvvm-sample-app-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/src/android-mvvm-sample-app-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/src/android-mvvm-sample-app-master/settings.gradle
+2020-02-18 12:14:31,336 INFO  ProjectBuildService - Remote scripts: none
+2020-02-18 12:14:31,336 INFO  ProjectFixService - Fixing project...
+2020-02-18 12:14:31,345 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/src/android-mvvm-sample-app-master/app/local.properties
+2020-02-18 12:14:31,346 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/src/android-mvvm-sample-app-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2020-02-18 12:14:31,347 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/src/android-mvvm-sample-app-master/local.properties
+2020-02-18 12:14:31,348 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2020-02-18 12:14:31,349 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2020-02-18 12:14:31,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/src/android-mvvm-sample-app-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2020-02-18 12:14:31,350 INFO  ProjectFixService - Project was maybe fixed
+2020-02-18 12:14:31,350 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-18 12:14:31,350 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/src/android-mvvm-sample-app-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/src/android-mvvm-sample-app-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-18 12:14:36,717 INFO  VirusProcessorServiceImpl - Queued project 7410 to scan viruses
+2020-02-18 12:14:44,753 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-02-18 12:14:44,753 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-02-18 12:14:44,753 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/src/android-mvvm-sample-app-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/src/android-mvvm-sample-app-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-02-18 12:15:34,375 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild
-Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/runtime/1.0.0/runtime-1.0.0.aar
-Download https://dl.google.com/dl/android/maven2/android/arch/persistence/db-framework/1.0.0/db-framework-1.0.0.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/27.0.2/recyclerview-v7-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/27.0.2/support-fragment-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/27.0.2/appcompat-v7-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/runtime/1.0.0/runtime-1.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/27.0.2/support-core-ui-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/27.0.2/animated-vector-drawable-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/27.0.2/support-vector-drawable-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/27.0.2/support-core-utils-27.0.2.aar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/4.6.1/glide-4.6.1.aar
 Download https://jcenter.bintray.com/com/aliassadi/power-preference-lib/1.3.3/power-preference-lib-1.3.3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/27.0.2/support-compat-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/persistence/db-framework/1.0.0/db-framework-1.0.0.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/persistence/db/1.0.0/db-1.0.0.aar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/gifdecoder/4.6.1/gifdecoder-4.6.1.aar
 :app:compileDebugAidl
 :app:compileDebugRenderscript
 :app:checkDebugManifest
@@ -48,9 +59,14 @@ Download https://jcenter.bintray.com/com/aliassadi/power-preference-lib/1.3.3/po
 :app:generateDebugSources
 :app:javaPreCompileDebug
 Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/common/1.0.0/common-1.0.0.jar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/annotations/4.6.1/annotations-4.6.1.jar
 Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/compiler/1.0.0/compiler-1.0.0.jar
 Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/migration/1.0.0/migration-1.0.0.jar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/compiler/4.6.1/compiler-4.6.1.jar
 Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.1.3/kotlin-stdlib-1.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.0.2/support-annotations-27.0.2.jar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/disklrucache/4.6.1/disklrucache-4.6.1.jar
+Download https://jcenter.bintray.com/com/squareup/okhttp3/okhttp/3.8.0/okhttp-3.8.0.jar
 :app:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
@@ -92,6 +108,14 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
 :app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.0/lint-api-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.0/lint-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.0/lint-gradle-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.0/lint-kotlin-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.0/lint-checks-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.0/kotlin-compiler-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.0/intellij-core-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.0/uast-26.1.0.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -109,7 +133,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 39s
+BUILD SUCCESSFUL in 48s
 53 actionable tasks: 53 executed
 
-2019-06-18 12:49:39,954 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836930455-0/src/android-mvvm-sample-app-master/app/build/outputs/apk/debug/app-debug.apk
+2020-02-18 12:15:34,435 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002869415-0/src/android-mvvm-sample-app-master/app/build/outputs/apk/debug/app-debug.apk
