@@ -1,73 +1,62 @@
-2019-07-30 16:27:02,492 INFO  DownloadService - Downloading "https://github.com/bitvale/Switcher/archive/master.zip", attempt 3
-2019-07-30 16:27:05,744 INFO  DownloadService - Downloaded https://github.com/bitvale/Switcher/archive/master.zip, attempt 3
-2019-07-30 16:27:05,745 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/master.zip": 1 MB
-2019-07-30 16:27:05,745 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-30 16:27:05,746 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/master.zip: true
-2019-07-30 16:27:05,746 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src'.
-2019-07-30 16:27:05,773 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-07-30 16:27:05,773 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src]
-2019-07-30 16:27:05,796 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/.git/
+2020-03-25 13:51:26,126 INFO  DownloadService - Downloading "https://github.com/bitvale/Switcher/archive/master.zip", attempt 3
+2020-03-25 13:51:27,405 INFO  DownloadService - Downloaded https://github.com/bitvale/Switcher/archive/master.zip, attempt 3
+2020-03-25 13:51:27,405 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/master.zip": 1 MB
+2020-03-25 13:51:27,405 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-25 13:51:27,406 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/master.zip: true
+2020-03-25 13:51:27,406 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src'.
+2020-03-25 13:51:27,432 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-03-25 13:51:27,432 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src]
+2020-03-25 13:51:27,461 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/.git/
 
-2019-07-30 16:27:05,798 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/gradlew
-2019-07-30 16:27:05,802 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/build.gradle
-2019-07-30 16:27:05,805 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/settings.gradle
-2019-07-30 16:27:05,805 INFO  ProjectBuildService - Remote scripts: none
-2019-07-30 16:27:05,805 INFO  ProjectFixService - Fixing project...
-2019-07-30 16:27:05,813 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/demo/local.properties
-2019-07-30 16:27:05,815 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-07-30 16:27:05,816 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-07-30 16:27:05,818 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/library/local.properties
-2019-07-30 16:27:05,819 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-07-30 16:27:05,819 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-07-30 16:27:05,820 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/local.properties
-2019-07-30 16:27:05,821 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-30 16:27:05,821 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-30 16:27:05,823 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-07-30 16:27:05,823 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-07-30 16:27:05,824 INFO  ProjectFixService - Project was maybe fixed
-2019-07-30 16:27:05,824 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-30 16:27:05,824 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-30 16:27:13,259 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-30 16:27:13,259 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-30 16:27:13,260 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-30 16:28:02,114 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-25 13:51:27,464 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/gradlew
+2020-03-25 13:51:27,467 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/build.gradle
+2020-03-25 13:51:27,469 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/settings.gradle
+2020-03-25 13:51:27,470 INFO  ProjectBuildService - Remote scripts: none
+2020-03-25 13:51:27,470 INFO  ProjectFixService - Fixing project...
+2020-03-25 13:51:27,476 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/demo/local.properties
+2020-03-25 13:51:27,477 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-25 13:51:27,477 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-25 13:51:27,479 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/library/local.properties
+2020-03-25 13:51:27,479 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-25 13:51:27,480 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-25 13:51:27,480 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/local.properties
+2020-03-25 13:51:27,481 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-03-25 13:51:27,481 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-03-25 13:51:27,482 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-25 13:51:27,483 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-25 13:51:27,483 INFO  ProjectFixService - Project was maybe fixed
+2020-03-25 13:51:27,483 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-25 13:51:27,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-25 13:51:34,535 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-25 13:51:34,535 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-25 13:51:34,535 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-25 13:51:35,332 INFO  VirusProcessorServiceImpl - Queued project 7817 to scan viruses
+2020-03-25 13:52:17,937 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :demo:preBuild UP-TO-DATE
+> Task :demo:preDebugBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
-> Task :library:checkDebugManifest
-> Task :library:processDebugManifest
-> Task :library:compileDebugAidl NO-SOURCE
-> Task :demo:preDebugBuild
-> Task :demo:compileDebugAidl NO-SOURCE
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :demo:checkDebugManifest
-> Task :demo:generateDebugBuildConfig
 > Task :demo:compileDebugRenderscript NO-SOURCE
+> Task :demo:generateDebugBuildConfig
 > Task :demo:mainApkListPersistenceDebug
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :demo:compileDebugAidl NO-SOURCE
 > Task :demo:generateDebugResValues
 > Task :demo:generateDebugResources
 > Task :library:generateDebugResValues
 > Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugResources
 > Task :library:packageDebugResources
-> Task :demo:mergeDebugResources
 > Task :demo:createDebugCompatibleScreenManifests
+> Task :demo:extractDeepLinksDebug
+> Task :library:extractDeepLinksDebug
+> Task :demo:mergeDebugResources
+> Task :library:processDebugManifest
 > Task :demo:processDebugManifest
-> Task :library:generateDebugRFile
-> Task :demo:processDebugResources
+> Task :library:parseDebugLocalResources
+> Task :library:compileDebugLibraryResources
 > Task :library:generateDebugBuildConfig
-> Task :library:compileDebugKotlin
-> Task :library:prepareLintJar
-> Task :library:generateDebugSources
-> Task :library:javaPreCompileDebug
-> Task :library:compileDebugJavaWithJavac
-> Task :library:bundleLibCompileDebug
-> Task :demo:compileDebugKotlin
-> Task :demo:prepareLintJar
-> Task :demo:generateDebugSources
-> Task :demo:javaPreCompileDebug
-> Task :demo:compileDebugJavaWithJavac
-> Task :demo:compileDebugSources
 > Task :demo:mergeDebugShaders
 > Task :demo:compileDebugShaders
 > Task :demo:generateDebugAssets
@@ -76,32 +65,31 @@
 > Task :library:generateDebugAssets
 > Task :library:packageDebugAssets
 > Task :demo:mergeDebugAssets
+> Task :library:generateDebugRFile
+> Task :demo:processDebugResources
+> Task :library:compileDebugKotlin
+> Task :demo:processDebugJavaRes NO-SOURCE
 > Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:javaPreCompileDebug
+> Task :library:compileDebugJavaWithJavac
 > Task :library:bundleLibResDebug
 > Task :library:bundleLibRuntimeDebug
-> Task :library:createFullJarDebug
+> Task :library:bundleLibCompileDebug
+> Task :demo:compileDebugKotlin
 > Task :demo:checkDebugDuplicateClasses
-> Task :demo:transformClassesWithDexBuilderForDebug
-> Task :demo:validateSigningDebug
-> Task :demo:signingConfigWriterDebug
+> Task :demo:javaPreCompileDebug
+> Task :demo:compileDebugJavaWithJavac
+> Task :demo:compileDebugSources
+> Task :demo:dexBuilderDebug
 > Task :demo:mergeDebugJniLibFolders
 > Task :library:mergeDebugJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForDebug
-> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :demo:transformNativeLibsWithMergeJniLibsForDebug
-> Task :demo:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :demo:processDebugJavaRes NO-SOURCE
-> Task :demo:transformResourcesWithMergeJavaResForDebug
+> Task :demo:validateSigningDebug
+> Task :demo:preReleaseBuild UP-TO-DATE
 > Task :library:preReleaseBuild UP-TO-DATE
-> Task :library:checkReleaseManifest
-> Task :library:processReleaseManifest
-> Task :demo:preReleaseBuild
 > Task :library:compileReleaseAidl NO-SOURCE
 > Task :demo:compileReleaseAidl NO-SOURCE
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :demo:compileReleaseRenderscript NO-SOURCE
-> Task :demo:checkReleaseManifest
 > Task :demo:generateReleaseBuildConfig
 > Task :demo:mainApkListPersistenceRelease
 > Task :demo:generateReleaseResValues
@@ -110,37 +98,38 @@
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
-> Task :demo:mergeReleaseResources
 > Task :demo:createReleaseCompatibleScreenManifests
+> Task :demo:extractDeepLinksRelease
+> Task :library:extractDeepLinksRelease
+> Task :library:mergeDebugNativeLibs
+> Task :library:stripDebugDebugSymbols
+> Task :library:copyDebugJniLibsProjectOnly
+> Task :library:processReleaseManifest
 > Task :demo:processReleaseManifest
-> Task :library:generateReleaseRFile
-> Task :demo:processReleaseResources
+> Task :library:compileReleaseLibraryResources
 > Task :library:generateReleaseBuildConfig
+> Task :demo:mergeDebugJavaResource
+> Task :library:parseReleaseLocalResources
+> Task :demo:prepareLintJar
+> Task :demo:checkReleaseDuplicateClasses
+> Task :library:generateReleaseRFile
 > Task :library:compileReleaseKotlin
-> Task :demo:mergeExtDexDebug
-> Task :demo:mergeDexDebug
-> Task :demo:packageDebug
-> Task :demo:assembleDebug
-> Task :library:generateReleaseSources
+> Task :demo:mergeReleaseResources
+> Task :demo:processReleaseResources
+> Task :library:prepareLintJarForPublish
 > Task :library:javaPreCompileRelease
 > Task :library:compileReleaseJavaWithJavac
+> Task :demo:mergeDebugNativeLibs
+> Task :demo:stripDebugDebugSymbols
+> Task :library:bundleLibRuntimeRelease
 > Task :library:bundleLibCompileRelease
 > Task :demo:compileReleaseKotlin
-> Task :demo:generateReleaseSources
 > Task :demo:javaPreCompileRelease
 > Task :demo:compileReleaseJavaWithJavac
 > Task :demo:compileReleaseSources
-> Task :library:prepareLintJarForPublish
-> Task :library:processReleaseJavaRes NO-SOURCE
-
 > Task :demo:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/7a406f514863ddcab0dde77f146c2d64/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
-> Task :library:bundleLibResRelease
-> Task :library:bundleLibRuntimeRelease
-> Task :library:createFullJarRelease
-> Task :demo:checkReleaseDuplicateClasses
-> Task :demo:transformClassesWithDexBuilderForRelease
+> Task :demo:dexBuilderRelease
+> Task :demo:mergeExtDexDebug
 > Task :demo:mergeReleaseShaders
 > Task :demo:compileReleaseShaders
 > Task :demo:generateReleaseAssets
@@ -149,16 +138,20 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :library:generateReleaseAssets
 > Task :library:packageReleaseAssets
 > Task :demo:mergeReleaseAssets
-> Task :demo:signingConfigWriterRelease
+> Task :demo:processReleaseJavaRes NO-SOURCE
+> Task :library:processReleaseJavaRes NO-SOURCE
 > Task :demo:mergeReleaseJniLibFolders
 > Task :library:mergeReleaseJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForRelease
-> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :demo:transformNativeLibsWithMergeJniLibsForRelease
-> Task :demo:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :demo:processReleaseJavaRes NO-SOURCE
-> Task :demo:transformResourcesWithMergeJavaResForRelease
+> Task :library:bundleLibResRelease
+> Task :library:mergeReleaseNativeLibs
+> Task :library:stripReleaseDebugSymbols
+> Task :library:copyReleaseJniLibsProjectOnly
+> Task :demo:mergeReleaseNativeLibs
+> Task :demo:stripReleaseDebugSymbols
+> Task :demo:mergeReleaseJavaResource
+> Task :demo:mergeDexDebug
+> Task :demo:packageDebug
+> Task :demo:assembleDebug
 > Task :demo:mergeExtDexRelease
 > Task :demo:mergeDexRelease
 > Task :demo:packageRelease
@@ -166,11 +159,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :demo:assemble
 > Task :demo:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 42s
+92 actionable tasks: 92 executed
 
-BUILD SUCCESSFUL in 48s
-95 actionable tasks: 95 executed
-
-2019-07-30 16:28:02,222 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564478822488-0/src/Switcher-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2020-03-25 13:52:18,002 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119086121-0/src/Switcher-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

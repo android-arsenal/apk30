@@ -1,39 +1,40 @@
-2019-12-28 19:52:39,186 INFO  DownloadService - Downloading "https://github.com/solkin/disk-lru-cache/archive/master.zip", attempt 3
-2019-12-28 19:52:42,025 INFO  DownloadService - Downloaded https://github.com/solkin/disk-lru-cache/archive/master.zip, attempt 3
-2019-12-28 19:52:42,025 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/master.zip": 206 KB
-2019-12-28 19:52:42,025 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-28 19:52:42,027 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/master.zip: true
-2019-12-28 19:52:42,027 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src'.
-2019-12-28 19:52:42,047 INFO  FullProcessService - Size of directory with sources: 244 KB
-2019-12-28 19:52:42,048 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src]
-2019-12-28 19:52:42,068 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/.git/
+2020-03-25 13:53:24,650 INFO  DownloadService - Downloading "https://github.com/solkin/disk-lru-cache/archive/master.zip", attempt 3
+2020-03-25 13:53:27,222 INFO  DownloadService - Downloaded https://github.com/solkin/disk-lru-cache/archive/master.zip, attempt 3
+2020-03-25 13:53:27,223 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/master.zip": 200 KB
+2020-03-25 13:53:27,223 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-25 13:53:27,223 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/master.zip: true
+2020-03-25 13:53:27,223 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src'.
+2020-03-25 13:53:27,245 INFO  FullProcessService - Size of directory with sources: 237 KB
+2020-03-25 13:53:27,245 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src]
+2020-03-25 13:53:27,268 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/.git/
 
-2019-12-28 19:52:42,070 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/gradlew
-2019-12-28 19:52:42,073 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/cache/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/build.gradle
-2019-12-28 19:52:42,075 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/cache/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/settings.gradle
-2019-12-28 19:52:42,075 INFO  ProjectBuildService - Remote scripts: none
-2019-12-28 19:52:42,075 INFO  ProjectFixService - Fixing project...
-2019-12-28 19:52:42,082 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/app/local.properties
-2019-12-28 19:52:42,083 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-12-28 19:52:42,083 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-12-28 19:52:42,084 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/cache/local.properties
-2019-12-28 19:52:42,085 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/cache/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-12-28 19:52:42,085 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/cache/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-12-28 19:52:42,086 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/local.properties
-2019-12-28 19:52:42,086 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-12-28 19:52:42,086 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-12-28 19:52:42,088 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-12-28 19:52:42,088 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-12-28 19:52:42,088 INFO  ProjectFixService - Project was maybe fixed
-2019-12-28 19:52:42,088 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-28 19:52:42,089 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-28 19:52:48,339 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-12-28 19:52:48,339 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-28 19:52:48,340 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-28 19:53:26,768 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-25 13:53:27,271 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/gradlew
+2020-03-25 13:53:27,275 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/cache/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/build.gradle
+2020-03-25 13:53:27,278 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/cache/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/settings.gradle
+2020-03-25 13:53:27,278 INFO  ProjectBuildService - Remote scripts: none
+2020-03-25 13:53:27,278 INFO  ProjectFixService - Fixing project...
+2020-03-25 13:53:27,288 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/app/local.properties
+2020-03-25 13:53:27,290 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-03-25 13:53:27,290 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-03-25 13:53:27,291 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/cache/local.properties
+2020-03-25 13:53:27,293 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/cache/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-03-25 13:53:27,293 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/cache/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-03-25 13:53:27,294 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/local.properties
+2020-03-25 13:53:27,294 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-25 13:53:27,295 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-25 13:53:27,297 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-03-25 13:53:27,297 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-03-25 13:53:27,298 INFO  ProjectFixService - Project was maybe fixed
+2020-03-25 13:53:27,298 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-25 13:53:27,298 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-25 13:53:33,708 INFO  VirusProcessorServiceImpl - Queued project 7459 to scan viruses
+2020-03-25 13:53:36,736 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-25 13:53:36,736 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-25 13:53:36,736 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-25 13:54:20,719 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :cache
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/local.properties
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/local.properties
 
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
@@ -52,18 +53,21 @@
 > Task :cache:generateDebugResources
 > Task :cache:packageDebugResources
 > Task :cache:javaPreCompileDebug
-> Task :cache:parseDebugLibraryResources
 > Task :app:mainApkListPersistenceDebug
+> Task :cache:parseDebugLibraryResources
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :cache:processDebugManifest
 > Task :app:createDebugCompatibleScreenManifests
+> Task :cache:processDebugManifest
 > Task :app:processDebugManifest
 > Task :cache:generateDebugRFile
 > Task :cache:compileDebugJavaWithJavac
 > Task :app:mergeDebugResources
 > Task :app:processDebugResources
 > Task :cache:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -72,9 +76,6 @@
 > Task :cache:generateDebugAssets
 > Task :cache:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :cache:processDebugJavaRes NO-SOURCE
 > Task :cache:bundleLibResDebug
@@ -104,41 +105,41 @@
 > Task :cache:stripDebugDebugSymbols
 > Task :cache:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :cache:parseReleaseLibraryResources
-> Task :cache:processReleaseManifest
 > Task :cache:javaPreCompileRelease
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
-> Task :app:mergeReleaseResources
-> Task :cache:generateReleaseRFile
-> Task :cache:compileReleaseJavaWithJavac
-> Task :app:processReleaseResources
-> Task :cache:bundleLibCompileRelease
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :cache:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :cache:generateReleaseRFile
+> Task :cache:compileReleaseJavaWithJavac
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :cache:bundleLibCompileRelease
+> Task :app:prepareLintJar
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :app:prepareLintJar
-> Task :app:checkReleaseDuplicateClasses
 > Task :cache:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/9e5d01f7835b08996db240f0262156c4/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/35c5bcae0d48dd903dc35f3042560231/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
+> Task :app:checkReleaseDuplicateClasses
 > Task :cache:bundleLibRuntimeRelease
 > Task :app:mergeExtDexDebug
 > Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
 > Task :cache:mergeReleaseShaders
 > Task :cache:compileReleaseShaders
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :cache:generateReleaseAssets
 > Task :cache:packageReleaseAssets
 > Task :app:mergeReleaseAssets
@@ -165,7 +166,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 37s
+BUILD SUCCESSFUL in 43s
 88 actionable tasks: 88 executed
 
-2019-12-28 19:53:26,841 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537559179-0/src/disk-lru-cache-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-25 13:54:20,817 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585119204644-0/src/disk-lru-cache-master/app/build/outputs/apk/debug/app-debug.apk

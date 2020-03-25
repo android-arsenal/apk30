@@ -41,8 +41,8 @@
   "dexClasses" : 2812,
   "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.aliasadi.mvvm\">\n\t<uses-sdk android:minSdkVersion=\"19\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"AndroidMvvm\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\">\n\t\t<activity android:name=\"com.aliasadi.mvvm.ui.main.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.aliasadi.mvvm.ui.details.DetailsActivity\" />\n\t\t<provider android:name=\"com.preference.provider.PreferenceProvider\" android:enabled=\"true\" android:exported=\"false\" android:authorities=\"com.aliasadi.mvvm.content.provider\" />\n\t\t<activity android:name=\"com.preference.ui.activity.preference.PreferenceActivity\" />\n\t\t<provider android:name=\"android.arch.lifecycle.ProcessLifecycleOwnerInitializer\" android:exported=\"false\" android:multiprocess=\"true\" android:authorities=\"com.aliasadi.mvvm.lifecycle-trojan\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 2334694,
-  "crc32" : 44157566,
-  "sha256" : "127dad3e769b516a9e09b7eee4621b69ff3a05a5facd0d8abbaa44e6cb60778b",
-  "buildTime" : 1582002910000
+  "fileSize" : 2334729,
+  "crc32" : 579074912,
+  "sha256" : "06fe52380c73634c5e75bdae1a131b6430cdf39805ecbc4932b0edf568f6188e",
+  "buildTime" : 1585119607000
 }
