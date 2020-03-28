@@ -1,37 +1,37 @@
-2020-01-19 19:00:06,769 INFO  DownloadService - Downloading "https://github.com/skydoves/AndroidVeil/archive/master.zip", attempt 3
-2020-01-19 19:00:10,561 INFO  DownloadService - Downloaded https://github.com/skydoves/AndroidVeil/archive/master.zip, attempt 3
-2020-01-19 19:00:10,561 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/master.zip": 4 MB
-2020-01-19 19:00:10,561 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-19 19:00:10,563 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/master.zip: true
-2020-01-19 19:00:10,563 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src'.
-2020-01-19 19:00:10,606 INFO  FullProcessService - Size of directory with sources: 4 MB
-2020-01-19 19:00:10,606 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src]
-2020-01-19 19:00:10,633 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/.git/
+2020-03-29 02:01:17,369 INFO  DownloadService - Downloading "https://github.com/skydoves/AndroidVeil/archive/master.zip", attempt 3
+2020-03-29 02:01:20,381 INFO  DownloadService - Downloaded https://github.com/skydoves/AndroidVeil/archive/master.zip, attempt 3
+2020-03-29 02:01:20,382 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/master.zip": 4 MB
+2020-03-29 02:01:20,382 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-29 02:01:20,383 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/master.zip: true
+2020-03-29 02:01:20,383 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src'.
+2020-03-29 02:01:20,435 INFO  FullProcessService - Size of directory with sources: 4 MB
+2020-03-29 02:01:20,435 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src]
+2020-03-29 02:01:20,453 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/.git/
 
-2020-01-19 19:00:10,636 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/gradlew
-2020-01-19 19:00:10,639 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/androidveil/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/build.gradle
-2020-01-19 19:00:10,642 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/androidveil/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/spotless.gradle
-2020-01-19 19:00:10,643 INFO  ProjectBuildService - Remote scripts: none
-2020-01-19 19:00:10,643 INFO  ProjectFixService - Fixing project...
-2020-01-19 19:00:10,649 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/androidveil/local.properties
-2020-01-19 19:00:10,651 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/androidveil/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-01-19 19:00:10,651 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/androidveil/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-01-19 19:00:10,652 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/app/local.properties
-2020-01-19 19:00:10,654 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-01-19 19:00:10,654 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-01-19 19:00:10,655 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/local.properties
-2020-01-19 19:00:10,655 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-19 19:00:10,656 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-19 19:00:10,658 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-01-19 19:00:10,658 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-01-19 19:00:10,658 INFO  ProjectFixService - Project was maybe fixed
-2020-01-19 19:00:10,658 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-19 19:00:10,658 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/androidveil/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-19 19:00:19,820 INFO  ProjectTaskService - Detected possible tasks: 85
-2020-01-19 19:00:19,820 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-01-19 19:00:19,820 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/androidveil/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-01-19 19:00:31,075 INFO  VirusProcessorServiceImpl - Queued project 7314 to scan viruses
-2020-01-19 19:00:40,757 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 02:01:20,457 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/gradlew
+2020-03-29 02:01:20,460 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/androidveil/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/build.gradle
+2020-03-29 02:01:20,463 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/androidveil/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/spotless.gradle
+2020-03-29 02:01:20,464 INFO  ProjectBuildService - Remote scripts: none
+2020-03-29 02:01:20,464 INFO  ProjectFixService - Fixing project...
+2020-03-29 02:01:20,472 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/androidveil/local.properties
+2020-03-29 02:01:20,474 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/androidveil/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 02:01:20,474 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/androidveil/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 02:01:20,475 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/app/local.properties
+2020-03-29 02:01:20,478 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 02:01:20,478 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 02:01:20,479 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/local.properties
+2020-03-29 02:01:20,479 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-29 02:01:20,480 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-29 02:01:20,482 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 02:01:20,482 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 02:01:20,483 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 02:01:20,483 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 02:01:20,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/androidveil/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 02:01:22,808 INFO  VirusProcessorServiceImpl - Queued project 7522 to scan viruses
+2020-03-29 02:01:27,943 INFO  ProjectTaskService - Detected possible tasks: 85
+2020-03-29 02:01:27,943 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-29 02:01:27,943 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/androidveil/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-29 02:01:51,207 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :androidveil
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -55,62 +55,62 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :androidveil:packageDebugRenderscript NO-SOURCE
 > Task :androidveil:processDebugJavaRes NO-SOURCE
 > Task :androidveil:mergeDebugJniLibFolders
-> Task :androidveil:prepareLintJarForPublish
-> Task :androidveil:preReleaseBuild UP-TO-DATE
-> Task :androidveil:checkReleaseManifest
-> Task :androidveil:generateReleaseBuildConfig
-> Task :androidveil:generateReleaseResValues
-> Task :androidveil:processDebugManifest
-> Task :androidveil:mergeReleaseShaders
-> Task :androidveil:compileReleaseShaders
-> Task :androidveil:generateReleaseAssets
-> Task :androidveil:packageReleaseAssets
 > Task :androidveil:compileDebugAidl NO-SOURCE
 > Task :androidveil:compileDebugRenderscript NO-SOURCE
 > Task :androidveil:generateDebugResources
 > Task :androidveil:packageDebugResources
+> Task :androidveil:preReleaseBuild UP-TO-DATE
+> Task :androidveil:compileReleaseAidl NO-SOURCE
+> Task :androidveil:compileReleaseRenderscript NO-SOURCE
+> Task :androidveil:prepareLintJarForPublish
+> Task :androidveil:checkReleaseManifest
+> Task :androidveil:generateReleaseBuildConfig
+> Task :androidveil:generateReleaseResValues
+> Task :androidveil:generateReleaseResources
+> Task :androidveil:packageReleaseResources
 > Task :androidveil:mergeDebugNativeLibs
 > Task :androidveil:stripDebugDebugSymbols
 > Task :androidveil:transformNativeLibsWithSyncJniLibsForDebug
-> Task :androidveil:compileReleaseAidl NO-SOURCE
-> Task :androidveil:compileReleaseRenderscript NO-SOURCE
-> Task :androidveil:generateReleaseResources
-> Task :androidveil:packageReleaseResources
-> Task :androidveil:processReleaseManifest
+> Task :androidveil:mergeReleaseShaders
+> Task :androidveil:compileReleaseShaders
+> Task :androidveil:generateReleaseAssets
+> Task :androidveil:packageReleaseAssets
 > Task :androidveil:packageReleaseRenderscript NO-SOURCE
 > Task :androidveil:processReleaseJavaRes NO-SOURCE
 > Task :androidveil:mergeReleaseJniLibFolders
+> Task :androidveil:processDebugManifest
+> Task :androidveil:parseDebugLibraryResources
+> Task :androidveil:processReleaseManifest
 > Task :androidveil:mergeReleaseNativeLibs
 > Task :androidveil:stripReleaseDebugSymbols
 > Task :androidveil:transformNativeLibsWithSyncJniLibsForRelease
 > Task :androidveil:parseReleaseLibraryResources
-> Task :androidveil:parseDebugLibraryResources
 > Task :androidveil:mergeReleaseResources
-> Task :androidveil:generateDebugRFile
-> Task :androidveil:compileDebugKotlin
-> Task :androidveil:verifyReleaseResources
-> Task :androidveil:javaPreCompileDebug
-> Task :androidveil:compileDebugJavaWithJavac
-> Task :androidveil:extractDebugAnnotations
-> Task :androidveil:mergeDebugGeneratedProguardFiles
-> Task :androidveil:mergeDebugConsumerProguardFiles
-> Task :androidveil:compileDebugSources
 > Task :androidveil:generateReleaseRFile
 > Task :androidveil:compileReleaseKotlin
-> Task :androidveil:mergeDebugJavaResource
-> Task :androidveil:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :androidveil:bundleDebugAar
-> Task :androidveil:assembleDebug
+> Task :androidveil:verifyReleaseResources
+> Task :androidveil:generateDebugRFile
+> Task :androidveil:compileDebugKotlin
 > Task :androidveil:javaPreCompileRelease
 > Task :androidveil:compileReleaseJavaWithJavac
 > Task :androidveil:extractReleaseAnnotations
 > Task :androidveil:mergeReleaseGeneratedProguardFiles
 > Task :androidveil:mergeReleaseConsumerProguardFiles
 > Task :androidveil:compileReleaseSources
+> Task :androidveil:javaPreCompileDebug
+> Task :androidveil:compileDebugJavaWithJavac
+> Task :androidveil:extractDebugAnnotations
+> Task :androidveil:mergeDebugGeneratedProguardFiles
+> Task :androidveil:mergeDebugConsumerProguardFiles
+> Task :androidveil:compileDebugSources
 > Task :androidveil:mergeReleaseJavaResource
 > Task :androidveil:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :androidveil:bundleReleaseAar
 > Task :androidveil:assembleRelease
+> Task :androidveil:mergeDebugJavaResource
+> Task :androidveil:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :androidveil:bundleDebugAar
+> Task :androidveil:assembleDebug
 > Task :androidveil:assemble
 > Task :androidveil:build
 
@@ -118,15 +118,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 20s
+BUILD SUCCESSFUL in 22s
 49 actionable tasks: 49 executed
 
-2020-01-19 19:00:40,794 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-19 19:00:40,794 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-19 19:00:46,568 INFO  ProjectTaskService - Detected possible tasks: 68
-2020-01-19 19:00:46,568 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-19 19:00:46,569 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-19 19:01:36,863 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 02:01:51,272 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 02:01:51,272 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 02:01:57,696 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-03-29 02:01:57,696 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-29 02:01:57,697 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-29 02:02:52,509 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :androidveil
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -155,9 +155,9 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :androidveil:compileDebugJavaWithJavac UP-TO-DATE
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
-> Task :app:compileDebugAidl NO-SOURCE
 > Task :androidveil:packageDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
+> Task :app:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
 > Task :androidveil:bundleLibCompileDebug
@@ -226,10 +226,10 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :androidveil:prepareLintJarForPublish UP-TO-DATE
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
+> Task :androidveil:bundleLibRuntimeRelease
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
 > Task :app:compileReleaseKotlin
-> Task :androidveil:bundleLibRuntimeRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
@@ -240,6 +240,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:mergeExtDexDebug
 > Task :app:desugarReleaseFileDependencies
 > Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :androidveil:mergeReleaseShaders UP-TO-DATE
 > Task :androidveil:compileReleaseShaders UP-TO-DATE
 > Task :androidveil:generateReleaseAssets UP-TO-DATE
@@ -249,9 +252,6 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:generateReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :androidveil:processReleaseJavaRes NO-SOURCE
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :androidveil:mergeReleaseJniLibFolders UP-TO-DATE
@@ -274,7 +274,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 49s
+BUILD SUCCESSFUL in 54s
 94 actionable tasks: 61 executed, 33 up-to-date
 
-2020-01-19 19:01:36,953 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435206761-0/src/AndroidVeil-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-29 02:02:52,646 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422077366-0/src/AndroidVeil-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,69 +1,74 @@
-2019-10-27 21:22:10,029 INFO  DownloadService - Downloading "https://github.com/jraska/livedata-testing/archive/master.zip", attempt 3
-2019-10-27 21:22:12,156 INFO  DownloadService - Downloaded https://github.com/jraska/livedata-testing/archive/master.zip, attempt 3
-2019-10-27 21:22:12,156 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/master.zip": 114 KB
-2019-10-27 21:22:12,156 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-27 21:22:12,162 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/master.zip: true
-2019-10-27 21:22:12,162 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src'.
-2019-10-27 21:22:12,176 INFO  FullProcessService - Size of directory with sources: 149 KB
-2019-10-27 21:22:12,176 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src]
-2019-10-27 21:22:12,196 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/.git/
+2020-03-29 02:04:53,217 INFO  DownloadService - Downloading "https://github.com/jraska/livedata-testing/archive/master.zip", attempt 3
+2020-03-29 02:04:53,795 INFO  DownloadService - Downloaded https://github.com/jraska/livedata-testing/archive/master.zip, attempt 3
+2020-03-29 02:04:53,795 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/master.zip": 118 KB
+2020-03-29 02:04:53,795 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-29 02:04:53,795 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/master.zip: true
+2020-03-29 02:04:53,796 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src'.
+2020-03-29 02:04:53,813 INFO  FullProcessService - Size of directory with sources: 155 KB
+2020-03-29 02:04:53,813 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src]
+2020-03-29 02:04:53,834 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/.git/
 
-2019-10-27 21:22:12,198 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/gradlew
-2019-10-27 21:22:12,201 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/testing-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/testing/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/build.gradle
-2019-10-27 21:22:12,203 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/gradle/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/gradle/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/testing/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/testing-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/settings.gradle
-2019-10-27 21:22:12,203 INFO  ProjectBuildService - Remote scripts: none
-2019-10-27 21:22:12,203 INFO  ProjectFixService - Fixing project...
-2019-10-27 21:22:12,209 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/testing-ktx/local.properties
-2019-10-27 21:22:12,210 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/testing-ktx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-10-27 21:22:12,210 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/testing-ktx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-10-27 21:22:12,211 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/testing/local.properties
-2019-10-27 21:22:12,212 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/testing/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-10-27 21:22:12,212 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/testing/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-10-27 21:22:12,213 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/local.properties
-2019-10-27 21:22:12,214 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.3-all.zip
-2019-10-27 21:22:12,215 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.3-bin.zip)
-2019-10-27 21:22:12,216 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-10-27 21:22:12,217 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-10-27 21:22:12,217 INFO  ProjectFixService - Project was maybe fixed
-2019-10-27 21:22:12,217 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-27 21:22:12,217 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/testing-ktx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-27 21:22:21,905 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-10-27 21:22:21,905 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-27 21:22:21,905 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/testing-ktx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-27 21:22:43,652 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 02:04:53,836 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/gradlew
+2020-03-29 02:04:53,839 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/testing-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/testing/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/build.gradle
+2020-03-29 02:04:53,842 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/gradle/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/gradle/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/testing/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/testing-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/settings.gradle
+2020-03-29 02:04:53,843 INFO  ProjectBuildService - Remote scripts: none
+2020-03-29 02:04:53,843 INFO  ProjectFixService - Fixing project...
+2020-03-29 02:04:53,853 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/testing-ktx/local.properties
+2020-03-29 02:04:53,854 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/testing-ktx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-29 02:04:53,854 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/testing-ktx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-29 02:04:53,855 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/testing/local.properties
+2020-03-29 02:04:53,856 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/testing/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-29 02:04:53,856 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/testing/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-29 02:04:53,857 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/local.properties
+2020-03-29 02:04:53,857 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.2.2-all.zip
+2020-03-29 02:04:53,858 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.2.2-bin.zip)
+2020-03-29 02:04:53,861 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-29 02:04:53,861 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-29 02:04:53,862 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 02:04:53,862 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 02:04:53,862 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/testing-ktx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 02:04:54,366 INFO  VirusProcessorServiceImpl - Queued project 7265 to scan viruses
+2020-03-29 02:05:11,533 INFO  ProjectTaskService - Detected possible tasks: 71
+2020-03-29 02:05:11,533 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-29 02:05:11,533 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/testing-ktx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-29 02:05:37,155 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.2.2/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
 > Task :testing:preBuild UP-TO-DATE
 > Task :testing:preDebugBuild UP-TO-DATE
 > Task :testing:compileDebugAidl NO-SOURCE
 > Task :testing-ktx:preBuild UP-TO-DATE
 > Task :testing-ktx:preDebugBuild UP-TO-DATE
 > Task :testing-ktx:compileDebugAidl NO-SOURCE
+> Task :testing-ktx:mergeDebugJniLibFolders
 > Task :testing:compileDebugRenderscript NO-SOURCE
-> Task :testing:checkDebugManifest
 > Task :testing:generateDebugBuildConfig
 > Task :testing:generateDebugResValues
 > Task :testing:generateDebugResources
 > Task :testing:packageDebugResources
+> Task :testing-ktx:mergeDebugNativeLibs
+> Task :testing-ktx:stripDebugDebugSymbols
+> Task :testing-ktx:copyDebugJniLibsProjectAndLocalJars
 > Task :testing:packageDebugRenderscript NO-SOURCE
 > Task :testing-ktx:compileDebugRenderscript NO-SOURCE
-> Task :testing-ktx:checkDebugManifest
 > Task :testing-ktx:generateDebugBuildConfig
 > Task :testing-ktx:generateDebugResValues
 > Task :testing-ktx:generateDebugResources
 > Task :testing-ktx:packageDebugResources
+> Task :testing-ktx:parseDebugLocalResources
 > Task :testing-ktx:mergeDebugShaders
 > Task :testing-ktx:compileDebugShaders
 > Task :testing-ktx:generateDebugAssets
 > Task :testing-ktx:packageDebugAssets
 > Task :testing-ktx:packageDebugRenderscript NO-SOURCE
+> Task :testing:parseDebugLocalResources
 > Task :testing-ktx:processDebugJavaRes NO-SOURCE
-> Task :testing-ktx:mergeDebugJniLibFolders
-> Task :testing-ktx:parseDebugLibraryResources
 > Task :testing:preReleaseBuild UP-TO-DATE
 > Task :testing:compileReleaseAidl NO-SOURCE
 > Task :testing-ktx:preReleaseBuild UP-TO-DATE
 > Task :testing-ktx:compileReleaseAidl NO-SOURCE
+> Task :testing-ktx:mergeReleaseJniLibFolders
 > Task :testing:compileReleaseRenderscript NO-SOURCE
-> Task :testing:checkReleaseManifest
 > Task :testing:generateReleaseBuildConfig
 > Task :testing:generateReleaseResValues
 > Task :testing:generateReleaseResources
@@ -71,94 +76,91 @@
 > Task :testing-ktx:prepareLintJarForPublish
 > Task :testing:packageReleaseRenderscript NO-SOURCE
 > Task :testing-ktx:compileReleaseRenderscript NO-SOURCE
-> Task :testing-ktx:checkReleaseManifest
 > Task :testing-ktx:generateReleaseBuildConfig
 > Task :testing-ktx:generateReleaseResValues
 > Task :testing-ktx:generateReleaseResources
 > Task :testing-ktx:packageReleaseResources
-> Task :testing:processReleaseManifest
-> Task :testing:parseDebugLibraryResources
+> Task :testing-ktx:mergeReleaseNativeLibs
+> Task :testing-ktx:stripReleaseDebugSymbols
+> Task :testing-ktx:copyReleaseJniLibsProjectAndLocalJars
 > Task :testing-ktx:mergeReleaseShaders
 > Task :testing-ktx:compileReleaseShaders
 > Task :testing-ktx:generateReleaseAssets
 > Task :testing-ktx:packageReleaseAssets
 > Task :testing-ktx:packageReleaseRenderscript NO-SOURCE
 > Task :testing-ktx:processReleaseJavaRes NO-SOURCE
-> Task :testing-ktx:mergeReleaseJniLibFolders
 > Task :testing-ktx:processReleaseManifest
 > Task :testing-ktx:mergeReleaseResources
-> Task :testing:parseReleaseLibraryResources
-> Task :testing:processDebugManifest
-> Task :testing-ktx:mergeReleaseNativeLibs
-> Task :testing-ktx:stripReleaseDebugSymbols
-> Task :testing-ktx:transformNativeLibsWithSyncJniLibsForRelease
 > Task :testing-ktx:sourcesJar
-> Task :testing-ktx:processDebugManifest
-> Task :testing-ktx:parseReleaseLibraryResources
+> Task :testing-ktx:parseReleaseLocalResources
+> Task :testing:processDebugManifest
+> Task :testing:parseReleaseLocalResources
+> Task :testing:compileReleaseLibraryResources
+> Task :testing:processReleaseManifest
 > Task :testing:generateDebugRFile
 > Task :testing:compileDebugKotlin
-> Task :testing:javaPreCompileDebug
-> Task :testing:compileDebugJavaWithJavac
-> Task :testing-ktx:generateDebugRFile
-> Task :testing-ktx:mergeDebugNativeLibs
-> Task :testing-ktx:stripDebugDebugSymbols
-> Task :testing-ktx:transformNativeLibsWithSyncJniLibsForDebug
 > Task :testing:generateReleaseRFile
 > Task :testing:compileReleaseKotlin
-> Task :testing-ktx:verifyReleaseResources
-> Task :testing:bundleLibCompileDebug
-> Task :testing-ktx:compileDebugKotlin
+> Task :testing:javaPreCompileDebug
+> Task :testing:compileDebugJavaWithJavac
 > Task :testing:javaPreCompileRelease
 > Task :testing:compileReleaseJavaWithJavac
+> Task :testing-ktx:generateReleaseRFile
+> Task :testing:bundleLibCompileDebug
+> Task :testing-ktx:verifyReleaseResources
+> Task :testing-ktx:processDebugManifest
+> Task :testing:bundleLibCompileRelease
+> Task :testing-ktx:compileReleaseKotlin
+> Task :testing-ktx:generateDebugRFile
+> Task :testing-ktx:compileDebugKotlin
+> Task :testing-ktx:mergeReleaseJavaResource
+> Task :testing-ktx:javaPreCompileRelease
+> Task :testing-ktx:compileReleaseJavaWithJavac
+> Task :testing-ktx:extractReleaseAnnotations
+> Task :testing-ktx:mergeReleaseGeneratedProguardFiles
+> Task :testing-ktx:mergeReleaseConsumerProguardFiles
+> Task :testing-ktx:syncReleaseLibJars
+> Task :testing-ktx:bundleReleaseAar
+> Task :testing-ktx:compileReleaseSources
+> Task :testing-ktx:assembleRelease
 > Task :testing-ktx:javaPreCompileDebug
 > Task :testing-ktx:compileDebugJavaWithJavac
 > Task :testing-ktx:extractDebugAnnotations
 > Task :testing-ktx:mergeDebugGeneratedProguardFiles
 > Task :testing-ktx:mergeDebugConsumerProguardFiles
 > Task :testing-ktx:compileDebugSources
-> Task :testing-ktx:generateReleaseRFile
-> Task :testing:bundleLibCompileRelease
-> Task :testing-ktx:compileReleaseKotlin
 > Task :testing-ktx:mergeDebugJavaResource
-> Task :testing-ktx:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :testing-ktx:syncDebugLibJars
 > Task :testing-ktx:bundleDebugAar
 > Task :testing-ktx:assembleDebug
-> Task :testing-ktx:javaPreCompileRelease
-> Task :testing-ktx:compileReleaseJavaWithJavac
-> Task :testing-ktx:extractReleaseAnnotations
-> Task :testing-ktx:mergeReleaseGeneratedProguardFiles
-> Task :testing-ktx:mergeReleaseConsumerProguardFiles
-> Task :testing-ktx:compileReleaseSources
-> Task :testing-ktx:mergeReleaseJavaResource
-> Task :testing-ktx:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :testing-ktx:bundleReleaseAar
-> Task :testing-ktx:assembleRelease
 > Task :testing-ktx:assemble
 > Task :testing-ktx:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.6.3/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.2.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 21s
-72 actionable tasks: 72 executed
+BUILD SUCCESSFUL in 25s
+69 actionable tasks: 69 executed
 
-2019-10-27 21:22:43,684 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-27 21:22:43,684 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/testing/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-27 21:22:51,560 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-10-27 21:22:51,561 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-27 21:22:51,561 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/testing/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-27 21:23:00,577 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 02:05:37,195 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 02:05:37,196 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/testing/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 02:05:45,927 INFO  ProjectTaskService - Detected possible tasks: 71
+2020-03-29 02:05:45,927 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-29 02:05:45,927 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/testing/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-29 02:05:59,571 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.2.2/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
 > Task :testing:preBuild UP-TO-DATE
 > Task :testing:preDebugBuild UP-TO-DATE
 > Task :testing:compileDebugAidl NO-SOURCE
+> Task :testing:mergeDebugJniLibFolders
 > Task :testing:compileDebugRenderscript NO-SOURCE
-> Task :testing:checkDebugManifest UP-TO-DATE
 > Task :testing:generateDebugBuildConfig UP-TO-DATE
 > Task :testing:generateDebugResValues UP-TO-DATE
 > Task :testing:generateDebugResources UP-TO-DATE
 > Task :testing:packageDebugResources UP-TO-DATE
-> Task :testing:parseDebugLibraryResources UP-TO-DATE
+> Task :testing:parseDebugLocalResources UP-TO-DATE
 > Task :testing:processDebugManifest UP-TO-DATE
 > Task :testing:generateDebugRFile UP-TO-DATE
 > Task :testing:compileDebugKotlin UP-TO-DATE
@@ -173,17 +175,16 @@ BUILD SUCCESSFUL in 21s
 > Task :testing:packageDebugAssets
 > Task :testing:packageDebugRenderscript NO-SOURCE
 > Task :testing:processDebugJavaRes NO-SOURCE
-> Task :testing:mergeDebugJniLibFolders
 > Task :testing:compileDebugSources UP-TO-DATE
 > Task :testing:preReleaseBuild UP-TO-DATE
 > Task :testing:compileReleaseAidl NO-SOURCE
+> Task :testing:mergeReleaseJniLibFolders
 > Task :testing:compileReleaseRenderscript NO-SOURCE
-> Task :testing:checkReleaseManifest UP-TO-DATE
 > Task :testing:generateReleaseBuildConfig UP-TO-DATE
 > Task :testing:generateReleaseResValues UP-TO-DATE
 > Task :testing:generateReleaseResources UP-TO-DATE
 > Task :testing:packageReleaseResources UP-TO-DATE
-> Task :testing:parseReleaseLibraryResources UP-TO-DATE
+> Task :testing:parseReleaseLocalResources UP-TO-DATE
 > Task :testing:processReleaseManifest UP-TO-DATE
 > Task :testing:generateReleaseRFile UP-TO-DATE
 > Task :testing:compileReleaseKotlin UP-TO-DATE
@@ -198,22 +199,21 @@ BUILD SUCCESSFUL in 21s
 > Task :testing:packageReleaseAssets
 > Task :testing:packageReleaseRenderscript NO-SOURCE
 > Task :testing:processReleaseJavaRes NO-SOURCE
-> Task :testing:mergeReleaseJniLibFolders
-> Task :testing:mergeDebugJavaResource
-> Task :testing:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :testing:compileReleaseSources UP-TO-DATE
 > Task :testing:mergeReleaseResources
 > Task :testing:mergeReleaseNativeLibs
 > Task :testing:stripReleaseDebugSymbols
-> Task :testing:transformNativeLibsWithSyncJniLibsForRelease
+> Task :testing:copyReleaseJniLibsProjectAndLocalJars
 > Task :testing:sourcesJar
-> Task :testing:prepareLintJarForPublish
+> Task :testing:mergeDebugJavaResource
+> Task :testing:syncDebugLibJars
 > Task :testing:mergeReleaseJavaResource
-> Task :testing:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :testing:prepareLintJarForPublish
+> Task :testing:syncReleaseLibJars
 > Task :testing:bundleReleaseAar
 > Task :testing:mergeDebugNativeLibs
 > Task :testing:stripDebugDebugSymbols
-> Task :testing:transformNativeLibsWithSyncJniLibsForDebug
+> Task :testing:copyDebugJniLibsProjectAndLocalJars
 > Task :testing:bundleDebugAar
 > Task :testing:assembleDebug
 > Task :testing:verifyReleaseResources
@@ -221,25 +221,34 @@ BUILD SUCCESSFUL in 21s
 > Task :testing:assemble
 > Task :testing:build
 
-BUILD SUCCESSFUL in 8s
-50 actionable tasks: 30 executed, 20 up-to-date
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.2.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-10-27 21:23:00,615 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-27 21:23:00,615 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-27 21:23:08,994 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-10-27 21:23:08,994 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-27 21:23:08,995 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572186130024-0/src/livedata-testing-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-27 21:23:18,942 INFO  SysUtils - Configuration on demand is an incubating feature.
+BUILD SUCCESSFUL in 13s
+48 actionable tasks: 30 executed, 18 up-to-date
+
+2020-03-29 02:05:59,637 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 02:05:59,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 02:06:09,075 INFO  ProjectTaskService - Detected possible tasks: 72
+2020-03-29 02:06:09,075 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-29 02:06:09,075 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422293214-0/src/livedata-testing-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-29 02:06:20,577 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.2.2/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
 > Task :testing:preBuild UP-TO-DATE
 > Task :testing:preDebugBuild UP-TO-DATE
 > Task :testing:compileDebugAidl NO-SOURCE
+> Task :testing:mergeDebugJniLibFolders UP-TO-DATE
+> Task :testing:mergeDebugNativeLibs UP-TO-DATE
+> Task :testing:stripDebugDebugSymbols UP-TO-DATE
+> Task :testing:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
 > Task :testing:compileDebugRenderscript NO-SOURCE
-> Task :testing:checkDebugManifest UP-TO-DATE
 > Task :testing:generateDebugBuildConfig UP-TO-DATE
 > Task :testing:generateDebugResValues UP-TO-DATE
 > Task :testing:generateDebugResources UP-TO-DATE
 > Task :testing:packageDebugResources UP-TO-DATE
-> Task :testing:parseDebugLibraryResources UP-TO-DATE
+> Task :testing:parseDebugLocalResources UP-TO-DATE
 > Task :testing:processDebugManifest UP-TO-DATE
 > Task :testing:generateDebugRFile UP-TO-DATE
 > Task :testing:compileDebugKotlin UP-TO-DATE
@@ -256,23 +265,22 @@ BUILD SUCCESSFUL in 8s
 > Task :testing:prepareLintJarForPublish UP-TO-DATE
 > Task :testing:processDebugJavaRes NO-SOURCE
 > Task :testing:mergeDebugJavaResource UP-TO-DATE
-> Task :testing:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
-> Task :testing:mergeDebugJniLibFolders UP-TO-DATE
-> Task :testing:mergeDebugNativeLibs UP-TO-DATE
-> Task :testing:stripDebugDebugSymbols UP-TO-DATE
-> Task :testing:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :testing:syncDebugLibJars UP-TO-DATE
 > Task :testing:bundleDebugAar UP-TO-DATE
 > Task :testing:compileDebugSources UP-TO-DATE
 > Task :testing:assembleDebug UP-TO-DATE
 > Task :testing:preReleaseBuild UP-TO-DATE
 > Task :testing:compileReleaseAidl NO-SOURCE
+> Task :testing:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :testing:mergeReleaseNativeLibs UP-TO-DATE
+> Task :testing:stripReleaseDebugSymbols UP-TO-DATE
+> Task :testing:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
 > Task :testing:compileReleaseRenderscript NO-SOURCE
-> Task :testing:checkReleaseManifest UP-TO-DATE
 > Task :testing:generateReleaseBuildConfig UP-TO-DATE
 > Task :testing:generateReleaseResValues UP-TO-DATE
 > Task :testing:generateReleaseResources UP-TO-DATE
 > Task :testing:packageReleaseResources UP-TO-DATE
-> Task :testing:parseReleaseLibraryResources UP-TO-DATE
+> Task :testing:parseReleaseLocalResources UP-TO-DATE
 > Task :testing:processReleaseManifest UP-TO-DATE
 > Task :testing:generateReleaseRFile UP-TO-DATE
 > Task :testing:compileReleaseKotlin UP-TO-DATE
@@ -288,30 +296,25 @@ BUILD SUCCESSFUL in 8s
 > Task :testing:packageReleaseRenderscript NO-SOURCE
 > Task :testing:processReleaseJavaRes NO-SOURCE
 > Task :testing:mergeReleaseJavaResource UP-TO-DATE
-> Task :testing:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
-> Task :testing:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :testing:mergeReleaseNativeLibs UP-TO-DATE
-> Task :testing:stripReleaseDebugSymbols UP-TO-DATE
-> Task :testing:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :testing:syncReleaseLibJars UP-TO-DATE
 > Task :testing:bundleReleaseAar UP-TO-DATE
 > Task :testing:compileReleaseSources UP-TO-DATE
 > Task :testing:mergeReleaseResources UP-TO-DATE
-> Task :testing:verifyReleaseResources UP-TO-DATE
-> Task :testing:assembleRelease UP-TO-DATE
 > Task :testing:sourcesJar UP-TO-DATE
-> Task :testing:assemble UP-TO-DATE
-> Task :testing:build
 > Task :testing-ktx:preBuild UP-TO-DATE
 > Task :testing-ktx:preDebugBuild UP-TO-DATE
 > Task :testing-ktx:compileDebugAidl NO-SOURCE
+> Task :testing-ktx:mergeDebugJniLibFolders UP-TO-DATE
+> Task :testing-ktx:mergeDebugNativeLibs UP-TO-DATE
+> Task :testing-ktx:stripDebugDebugSymbols UP-TO-DATE
+> Task :testing-ktx:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
 > Task :testing:bundleLibCompileDebug UP-TO-DATE
 > Task :testing-ktx:compileDebugRenderscript NO-SOURCE
-> Task :testing-ktx:checkDebugManifest UP-TO-DATE
 > Task :testing-ktx:generateDebugBuildConfig UP-TO-DATE
 > Task :testing-ktx:generateDebugResValues UP-TO-DATE
 > Task :testing-ktx:generateDebugResources UP-TO-DATE
 > Task :testing-ktx:packageDebugResources UP-TO-DATE
-> Task :testing-ktx:parseDebugLibraryResources UP-TO-DATE
+> Task :testing-ktx:parseDebugLocalResources UP-TO-DATE
 > Task :testing-ktx:processDebugManifest UP-TO-DATE
 > Task :testing-ktx:generateDebugRFile UP-TO-DATE
 > Task :testing-ktx:compileDebugKotlin UP-TO-DATE
@@ -328,24 +331,23 @@ BUILD SUCCESSFUL in 8s
 > Task :testing-ktx:prepareLintJarForPublish UP-TO-DATE
 > Task :testing-ktx:processDebugJavaRes NO-SOURCE
 > Task :testing-ktx:mergeDebugJavaResource UP-TO-DATE
-> Task :testing-ktx:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
-> Task :testing-ktx:mergeDebugJniLibFolders UP-TO-DATE
-> Task :testing-ktx:mergeDebugNativeLibs UP-TO-DATE
-> Task :testing-ktx:stripDebugDebugSymbols UP-TO-DATE
-> Task :testing-ktx:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :testing-ktx:syncDebugLibJars UP-TO-DATE
 > Task :testing-ktx:bundleDebugAar UP-TO-DATE
 > Task :testing-ktx:compileDebugSources UP-TO-DATE
 > Task :testing-ktx:assembleDebug UP-TO-DATE
 > Task :testing-ktx:preReleaseBuild UP-TO-DATE
 > Task :testing-ktx:compileReleaseAidl NO-SOURCE
+> Task :testing-ktx:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :testing-ktx:mergeReleaseNativeLibs UP-TO-DATE
+> Task :testing-ktx:stripReleaseDebugSymbols UP-TO-DATE
+> Task :testing-ktx:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
 > Task :testing:bundleLibCompileRelease UP-TO-DATE
 > Task :testing-ktx:compileReleaseRenderscript NO-SOURCE
-> Task :testing-ktx:checkReleaseManifest UP-TO-DATE
 > Task :testing-ktx:generateReleaseBuildConfig UP-TO-DATE
 > Task :testing-ktx:generateReleaseResValues UP-TO-DATE
 > Task :testing-ktx:generateReleaseResources UP-TO-DATE
 > Task :testing-ktx:packageReleaseResources UP-TO-DATE
-> Task :testing-ktx:parseReleaseLibraryResources UP-TO-DATE
+> Task :testing-ktx:parseReleaseLocalResources UP-TO-DATE
 > Task :testing-ktx:processReleaseManifest UP-TO-DATE
 > Task :testing-ktx:generateReleaseRFile UP-TO-DATE
 > Task :testing-ktx:compileReleaseKotlin UP-TO-DATE
@@ -361,22 +363,27 @@ BUILD SUCCESSFUL in 8s
 > Task :testing-ktx:packageReleaseRenderscript NO-SOURCE
 > Task :testing-ktx:processReleaseJavaRes NO-SOURCE
 > Task :testing-ktx:mergeReleaseJavaResource UP-TO-DATE
-> Task :testing-ktx:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
-> Task :testing-ktx:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :testing-ktx:mergeReleaseNativeLibs UP-TO-DATE
-> Task :testing-ktx:stripReleaseDebugSymbols UP-TO-DATE
-> Task :testing-ktx:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :testing-ktx:syncReleaseLibJars UP-TO-DATE
 > Task :testing-ktx:bundleReleaseAar UP-TO-DATE
 > Task :testing-ktx:compileReleaseSources UP-TO-DATE
+> Task :testing:compileReleaseLibraryResources UP-TO-DATE
 > Task :testing-ktx:mergeReleaseResources UP-TO-DATE
 > Task :testing-ktx:verifyReleaseResources UP-TO-DATE
 > Task :testing-ktx:assembleRelease UP-TO-DATE
 > Task :testing-ktx:sourcesJar UP-TO-DATE
 > Task :testing-ktx:assemble UP-TO-DATE
 > Task :testing-ktx:build
+> Task :testing:verifyReleaseResources
+> Task :testing:assembleRelease
+> Task :testing:assemble
+> Task :testing:build
 
-BUILD SUCCESSFUL in 9s
-102 actionable tasks: 102 up-to-date
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.2.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-10-27 21:23:18,980 ERROR FullProcessService - Project build has not produced APK file
-2019-10-27 21:23:19,015 ERROR FullProcessService - Could not find generated or existed APK file
+BUILD SUCCESSFUL in 10s
+99 actionable tasks: 1 executed, 98 up-to-date
+
+2020-03-29 02:06:20,673 ERROR FullProcessService - Project build has not produced APK file
+2020-03-29 02:06:20,753 ERROR FullProcessService - Could not find generated or existed APK file
