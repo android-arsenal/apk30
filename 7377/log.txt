@@ -1,37 +1,90 @@
-2019-04-06 14:48:28,211 INFO  DownloadService - Downloading "https://github.com/AndroidLibrariesYoutube/SelectionDialog/archive/master.zip", attempt 3
-2019-04-06 14:48:29,164 INFO  DownloadService - Downloaded https://github.com/AndroidLibrariesYoutube/SelectionDialog/archive/master.zip, attempt 3
-2019-04-06 14:48:29,165 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/master.zip": 441 KB
-2019-04-06 14:48:29,165 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-06 14:48:29,170 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/master.zip: true
-2019-04-06 14:48:29,171 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src'.
-2019-04-06 14:48:29,200 INFO  FullProcessService - Size of directory with sources: 480 KB
-2019-04-06 14:48:29,200 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src]
-2019-04-06 14:48:29,217 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/.git/
+2020-03-28 22:09:34,538 INFO  DownloadService - Downloading "https://github.com/AndroidLibrariesYoutube/SelectionDialog/archive/master.zip", attempt 3
+2020-03-28 22:09:38,187 INFO  DownloadService - Downloaded https://github.com/AndroidLibrariesYoutube/SelectionDialog/archive/master.zip, attempt 3
+2020-03-28 22:09:38,188 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/master.zip": 441 KB
+2020-03-28 22:09:38,188 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-28 22:09:38,188 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/master.zip: true
+2020-03-28 22:09:38,189 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src'.
+2020-03-28 22:09:38,220 INFO  FullProcessService - Size of directory with sources: 480 KB
+2020-03-28 22:09:38,220 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src]
+2020-03-28 22:09:38,240 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/.git/
 
-2019-04-06 14:48:29,221 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/gradlew
-2019-04-06 14:48:29,225 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/selectionalertdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/build.gradle
-2019-04-06 14:48:29,229 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/selectionalertdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/settings.gradle
-2019-04-06 14:48:29,229 INFO  ProjectBuildService - Remote scripts: none
-2019-04-06 14:48:29,229 INFO  ProjectFixService - Fixing project...
-2019-04-06 14:48:29,239 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/app/local.properties
-2019-04-06 14:48:29,240 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-04-06 14:48:29,241 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-04-06 14:48:29,241 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/selectionalertdialog/local.properties
-2019-04-06 14:48:29,242 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/selectionalertdialog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-04-06 14:48:29,243 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/selectionalertdialog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-04-06 14:48:29,244 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/local.properties
-2019-04-06 14:48:29,244 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-04-06 14:48:29,244 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-04-06 14:48:29,246 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-04-06 14:48:29,246 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-04-06 14:48:29,246 INFO  ProjectFixService - Project was maybe fixed
-2019-04-06 14:48:29,246 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-06 14:48:29,247 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-06 14:48:37,384 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-04-06 14:48:37,384 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-06 14:48:37,384 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-06 14:49:08,167 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-28 22:09:38,243 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/gradlew
+2020-03-28 22:09:38,247 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/selectionalertdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/build.gradle
+2020-03-28 22:09:38,251 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/selectionalertdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/settings.gradle
+2020-03-28 22:09:38,252 INFO  ProjectBuildService - Remote scripts: none
+2020-03-28 22:09:38,252 INFO  ProjectFixService - Fixing project...
+2020-03-28 22:09:38,260 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/app/local.properties
+2020-03-28 22:09:38,261 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-28 22:09:38,262 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-28 22:09:38,263 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/selectionalertdialog/local.properties
+2020-03-28 22:09:38,264 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/selectionalertdialog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-28 22:09:38,264 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/selectionalertdialog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-28 22:09:38,265 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/local.properties
+2020-03-28 22:09:38,265 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2020-03-28 22:09:38,265 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2020-03-28 22:09:38,267 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-28 22:09:38,267 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-28 22:09:38,267 INFO  ProjectFixService - Project was maybe fixed
+2020-03-28 22:09:38,267 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-28 22:09:38,268 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-28 22:09:48,422 INFO  ProjectTaskService - Detected possible tasks: 70
+2020-03-28 22:09:48,422 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-28 22:09:48,423 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-28 22:10:20,965 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://dl.google.com/dl/android/maven2/androidx/constraintlayout/constraintlayout/1.1.2/constraintlayout-1.1.2.pom
+Download https://dl.google.com/dl/android/maven2/androidx/constraintlayout/constraintlayout-solver/1.1.2/constraintlayout-solver-1.1.2.pom
+Download https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.0.0-rc01/appcompat-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.0.0-rc01/annotation-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable-animated/1.0.0-rc01/vectordrawable-animated-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/core/core/1.0.0-rc01/core-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable/1.0.0-rc01/vectordrawable-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/legacy/legacy-support-core-utils/1.0.0-rc01/legacy-support-core-utils-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.0.0-rc01/fragment-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/cursoradapter/cursoradapter/1.0.0-rc01/cursoradapter-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.0.0-rc01/collection-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/versionedparcelable/versionedparcelable/1.0.0-rc01/versionedparcelable-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime/2.0.0-rc01/lifecycle-runtime-2.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/loader/loader/1.0.0-rc01/loader-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/documentfile/documentfile/1.0.0-rc01/documentfile-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/localbroadcastmanager/localbroadcastmanager/1.0.0-rc01/localbroadcastmanager-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/print/print/1.0.0-rc01/print-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.0.0-rc01/lifecycle-viewmodel-2.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/legacy/legacy-support-core-ui/1.0.0-rc01/legacy-support-core-ui-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.0.0-rc01/core-common-2.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.0.0-rc01/lifecycle-common-2.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-livedata-core/2.0.0-rc01/lifecycle-livedata-core-2.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/customview/customview/1.0.0-rc01/customview-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/swiperefreshlayout/swiperefreshlayout/1.0.0-rc01/swiperefreshlayout-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/asynclayoutinflater/asynclayoutinflater/1.0.0-rc01/asynclayoutinflater-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/slidingpanelayout/slidingpanelayout/1.0.0-rc01/slidingpanelayout-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/viewpager/viewpager/1.0.0-rc01/viewpager-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/drawerlayout/drawerlayout/1.0.0-rc01/drawerlayout-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/interpolator/interpolator/1.0.0-rc01/interpolator-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/coordinatorlayout/coordinatorlayout/1.0.0-rc01/coordinatorlayout-1.0.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/arch/core/core-runtime/2.0.0-rc01/core-runtime-2.0.0-rc01.pom
 :app:checkDebugClasspath
+Download https://dl.google.com/dl/android/maven2/androidx/constraintlayout/constraintlayout-solver/1.1.2/constraintlayout-solver-1.1.2.jar
+Download https://dl.google.com/dl/android/maven2/androidx/constraintlayout/constraintlayout/1.1.2/constraintlayout-1.1.2.aar
+Download https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.0.0-rc01/appcompat-1.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable-animated/1.0.0-rc01/vectordrawable-animated-1.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/loader/loader/1.0.0-rc01/loader-1.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/viewpager/viewpager/1.0.0-rc01/viewpager-1.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/drawerlayout/drawerlayout/1.0.0-rc01/drawerlayout-1.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable/1.0.0-rc01/vectordrawable-1.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/customview/customview/1.0.0-rc01/customview-1.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/core/core/1.0.0-rc01/core-1.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/cursoradapter/cursoradapter/1.0.0-rc01/cursoradapter-1.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.0.0-rc01/collection-1.0.0-rc01.jar
+Download https://dl.google.com/dl/android/maven2/androidx/interpolator/interpolator/1.0.0-rc01/interpolator-1.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/versionedparcelable/versionedparcelable/1.0.0-rc01/versionedparcelable-1.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.0.0-rc01/annotation-1.0.0-rc01.jar
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime/2.0.0-rc01/lifecycle-runtime-2.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.0.0-rc01/lifecycle-viewmodel-2.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-livedata-core/2.0.0-rc01/lifecycle-livedata-core-2.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.0.0-rc01/lifecycle-common-2.0.0-rc01.jar
+Download https://dl.google.com/dl/android/maven2/androidx/arch/core/core-runtime/2.0.0-rc01/core-runtime-2.0.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.0.0-rc01/core-common-2.0.0-rc01.jar
+Download https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.0.0-rc01/fragment-1.0.0-rc01.aar
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild
 :app:compileDebugAidl NO-SOURCE
@@ -88,7 +141,12 @@
 :app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
 :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/26d0d7b3fbfef90854ce41025c6d9020/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Download https://dl.google.com/dl/android/maven2/androidx/test/runner/1.1.0-alpha3/runner-1.1.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-core/3.1.0-alpha3/espresso-core-3.1.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/androidx/test/monitor/1.1.0-alpha3/monitor-1.1.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.0.0-alpha1/annotation-1.0.0-alpha1.pom
+Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-idling-resource/3.1.0-alpha3/espresso-idling-resource-3.1.0-alpha3.pom
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/97250431f4230d46658895cefe086e4d/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -107,7 +165,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 30s
+BUILD SUCCESSFUL in 31s
 55 actionable tasks: 55 executed
 
-2019-04-06 14:49:08,249 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536908208-0/src/SelectionDialog-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-28 22:10:21,037 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408174535-0/src/SelectionDialog-master/app/build/outputs/apk/debug/app-debug.apk

@@ -5,6 +5,14 @@
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
     "versionName" : "0.1.1",
     "versionCode" : 11,
+    "revisionCode" : null,
+    "sharedUserId" : null,
+    "sharedUserLabel" : null,
+    "split" : null,
+    "configForSplit" : null,
+    "isFeatureSplit" : false,
+    "isSplitRequired" : false,
+    "isolatedSplits" : false,
     "installLocation" : null,
     "minSdkVersion" : "17",
     "targetSdkVersion" : "29",
@@ -20,7 +28,9 @@
     "largeScreens" : false,
     "usesPermissions" : [ "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.FOREGROUND_SERVICE" ],
     "usesFeatures" : [ ],
-    "permissions" : [ ]
+    "permissions" : [ ],
+    "splitRequired" : false,
+    "featureSplit" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -31,8 +41,8 @@
   "dexClasses" : 3089,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"11\" android:versionName=\"0.1.1\" android:compileSdkVersion=\"29\" android:compileSdkVersionCodename=\"10\" package=\"xyz.aprildown.chromemenu.app\" platformBuildVersionCode=\"29\" platformBuildVersionName=\"10\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"29\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.FOREGROUND_SERVICE\" />\n\t<application android:theme=\"resourceId:0x7f100005\" android:label=\"ChromeMenu\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"xyz.aprildown.chromemenu.app.MainActivity\" android:windowSoftInputMode=\"0x3\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<service android:name=\"leakcanary.internal.HeapAnalyzerService\" android:exported=\"false\" />\n\t\t<provider android:name=\"leakcanary.internal.LeakCanaryFileProvider\" android:exported=\"false\" android:authorities=\"com.squareup.leakcanary.fileprovider.xyz.aprildown.chromemenu.app\" android:grantUriPermissions=\"true\">\n\t\t\t<meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"res/xml/leak_canary_file_paths.xml\" />\n\t\t</provider>\n\t\t<activity android:theme=\"resourceId:0x7f100165\" android:label=\"Leaks\" android:icon=\"res/mipmap-xxxhdpi-v4/leak_canary_icon.png\" android:name=\"leakcanary.internal.activity.LeakActivity\" android:taskAffinity=\"com.squareup.leakcanary.xyz.aprildown.chromemenu.app\" />\n\t\t<activity-alias android:theme=\"resourceId:0x7f100165\" android:label=\"Leaks\" android:icon=\"res/mipmap-xxxhdpi-v4/leak_canary_icon.png\" android:name=\"leakcanary.internal.activity.LeakLauncherActivity\" android:enabled=\"true\" android:taskAffinity=\"com.squareup.leakcanary.xyz.aprildown.chromemenu.app\" android:targetActivity=\"leakcanary.internal.activity.LeakActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity-alias>\n\t\t<activity android:theme=\"resourceId:0x7f100166\" android:label=\"Storage permission\" android:icon=\"res/mipmap-xxxhdpi-v4/leak_canary_icon.png\" android:name=\"leakcanary.internal.RequestStoragePermissionActivity\" android:taskAffinity=\"com.squareup.leakcanary.xyz.aprildown.chromemenu.app\" android:excludeFromRecents=\"true\" />\n\t\t<receiver android:name=\"leakcanary.internal.NotificationReceiver\" />\n\t\t<provider android:name=\"leakcanary.internal.AppWatcherInstaller$MainProcess\" android:exported=\"false\" android:authorities=\"xyz.aprildown.chromemenu.app.leakcanary-installer\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 2989653,
-  "crc32" : 3682805826,
-  "sha256" : "375717fed422886c2ec8460d4b14b11e18ff1e5972937c2a7e891869dd57fbc0",
-  "buildTime" : 1577877391000
+  "fileSize" : 2989955,
+  "crc32" : 4142645875,
+  "sha256" : "f46f4eee1f13e24868768825db886464a0b997a6ad52f81f903a475f6f9e0ed1",
+  "buildTime" : 1585408517000
 }

@@ -5,6 +5,14 @@
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
     "versionName" : "1.1",
     "versionCode" : 2,
+    "revisionCode" : null,
+    "sharedUserId" : null,
+    "sharedUserLabel" : null,
+    "split" : null,
+    "configForSplit" : null,
+    "isFeatureSplit" : false,
+    "isSplitRequired" : false,
+    "isolatedSplits" : false,
     "installLocation" : null,
     "minSdkVersion" : "19",
     "targetSdkVersion" : "28",
@@ -20,7 +28,9 @@
     "largeScreens" : false,
     "usesPermissions" : [ ],
     "usesFeatures" : [ ],
-    "permissions" : [ ]
+    "permissions" : [ ],
+    "splitRequired" : false,
+    "featureSplit" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -28,11 +38,11 @@
     "data" : "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",
     "file" : true
   },
-  "dexClasses" : 2659,
+  "dexClasses" : 2658,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"1.1\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.stfalcon.stfalconrangebarchart_example\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"19\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"StfalconPriceRangeBar-example\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.stfalcon.stfalconrangebarchartexample.MainActivity\" />\n\t\t<activity android:name=\"com.stfalcon.stfalconrangebarchartexample.Sample\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 2208702,
-  "crc32" : 2585764693,
-  "sha256" : "8365100e9f02769d2ec474ae0f5b3f6d3284b05804eb8786dc592121c890fa32",
-  "buildTime" : 1572347684000
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"1.1\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.stfalcon.stfalconrangebarchart_example\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"19\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"StfalconPriceRangeBar-example\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.stfalcon.stfalconrangebarchartexample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.stfalcon.stfalconrangebarchartexample.Sample\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2216374,
+  "crc32" : 237597498,
+  "sha256" : "20393625fb619998e120422c2e23f808744469f6d54902faecbc74c4a5a61ce3",
+  "buildTime" : 1585408698000
 }

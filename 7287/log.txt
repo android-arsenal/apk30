@@ -1,169 +1,180 @@
-2019-08-11 18:48:40,666 INFO  DownloadService - Downloading "https://github.com/Ferfalk/SimpleSearchView/archive/master.zip", attempt 3
-2019-08-11 18:48:43,058 INFO  DownloadService - Downloaded https://github.com/Ferfalk/SimpleSearchView/archive/master.zip, attempt 3
-2019-08-11 18:48:43,058 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/master.zip": 171 KB
-2019-08-11 18:48:43,058 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-11 18:48:43,064 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/master.zip: true
-2019-08-11 18:48:43,064 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src'.
-2019-08-11 18:48:43,093 INFO  FullProcessService - Size of directory with sources: 231 KB
-2019-08-11 18:48:43,093 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src]
-2019-08-11 18:48:43,117 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/.git/
+2020-03-28 22:24:58,456 INFO  DownloadService - Downloading "https://github.com/Ferfalk/SimpleSearchView/archive/master.zip", attempt 3
+2020-03-28 22:25:00,560 INFO  DownloadService - Downloaded https://github.com/Ferfalk/SimpleSearchView/archive/master.zip, attempt 3
+2020-03-28 22:25:00,561 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/master.zip": 171 KB
+2020-03-28 22:25:00,561 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-28 22:25:00,561 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/master.zip: true
+2020-03-28 22:25:00,561 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src'.
+2020-03-28 22:25:00,586 INFO  FullProcessService - Size of directory with sources: 231 KB
+2020-03-28 22:25:00,586 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src]
+2020-03-28 22:25:00,605 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/.git/
 
-2019-08-11 18:48:43,121 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/gradlew
-2019-08-11 18:48:43,124 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/simplesearchview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/build.gradle
-2019-08-11 18:48:43,128 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/simplesearchview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/settings.gradle
-2019-08-11 18:48:43,128 INFO  ProjectBuildService - Remote scripts: none
-2019-08-11 18:48:43,128 INFO  ProjectFixService - Fixing project...
-2019-08-11 18:48:43,137 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/app/local.properties
-2019-08-11 18:48:43,138 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=<null>]
-2019-08-11 18:48:43,138 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=29]
-2019-08-11 18:48:43,139 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/simplesearchview/local.properties
-2019-08-11 18:48:43,141 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/simplesearchview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=<null>]
-2019-08-11 18:48:43,141 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/simplesearchview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=29]
-2019-08-11 18:48:43,142 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/local.properties
-2019-08-11 18:48:43,143 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-08-11 18:48:43,143 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-08-11 18:48:43,144 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=<null>]
-2019-08-11 18:48:43,145 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=29]
-2019-08-11 18:48:43,145 INFO  ProjectFixService - Project was maybe fixed
-2019-08-11 18:48:43,145 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-11 18:48:43,145 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-11 18:48:50,185 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-08-11 18:48:50,186 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-11 18:48:50,186 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-11 18:49:27,752 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:checkDebugClasspath
-:app:preBuild UP-TO-DATE
-:simplesearchview:preBuild UP-TO-DATE
-:simplesearchview:preDebugBuild UP-TO-DATE
-:simplesearchview:checkDebugManifest
-:simplesearchview:processDebugManifest
-:app:preDebugBuild
-:simplesearchview:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:simplesearchview:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:prepareLintJar
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:simplesearchview:compileDebugRenderscript
-:simplesearchview:generateDebugResValues
-:simplesearchview:generateDebugResources
-:simplesearchview:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:simplesearchview:generateDebugRFile
-:app:processDebugResources
-:app:generateDebugSources
-:simplesearchview:generateDebugBuildConfig
-:simplesearchview:prepareLintJar
-:simplesearchview:generateDebugSources
-:simplesearchview:javaPreCompileDebug
-:simplesearchview:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/simplesearchview/src/main/java/com/ferfalk/simplesearchview/SimpleSearchView.java uses or overrides a deprecated API.
+2020-03-28 22:25:00,609 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/gradlew
+2020-03-28 22:25:00,613 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/simplesearchview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/build.gradle
+2020-03-28 22:25:00,617 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/simplesearchview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/settings.gradle
+2020-03-28 22:25:00,618 INFO  ProjectBuildService - Remote scripts: none
+2020-03-28 22:25:00,618 INFO  ProjectFixService - Fixing project...
+2020-03-28 22:25:00,626 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/app/local.properties
+2020-03-28 22:25:00,628 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=<null>]
+2020-03-28 22:25:00,628 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=29]
+2020-03-28 22:25:00,629 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/simplesearchview/local.properties
+2020-03-28 22:25:00,631 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/simplesearchview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=<null>]
+2020-03-28 22:25:00,631 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/simplesearchview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=29]
+2020-03-28 22:25:00,632 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/local.properties
+2020-03-28 22:25:00,632 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-03-28 22:25:00,632 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-03-28 22:25:00,634 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=<null>]
+2020-03-28 22:25:00,634 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=29]
+2020-03-28 22:25:00,634 INFO  ProjectFixService - Project was maybe fixed
+2020-03-28 22:25:00,634 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-28 22:25:00,635 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-28 22:25:06,791 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-28 22:25:06,792 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-28 22:25:06,792 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-28 22:25:13,275 INFO  VirusProcessorServiceImpl - Queued project 7293 to scan viruses
+2020-03-28 22:25:45,416 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :simplesearchview:preBuild UP-TO-DATE
+> Task :simplesearchview:preDebugBuild UP-TO-DATE
+> Task :simplesearchview:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :simplesearchview:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :simplesearchview:generateDebugBuildConfig
+> Task :simplesearchview:compileDebugRenderscript NO-SOURCE
+> Task :simplesearchview:generateDebugResValues
+> Task :simplesearchview:generateDebugResources
+> Task :simplesearchview:packageDebugResources
+> Task :simplesearchview:parseDebugLocalResources
+> Task :simplesearchview:javaPreCompileDebug
+> Task :simplesearchview:processDebugManifest
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :simplesearchview:generateDebugRFile
+
+> Task :simplesearchview:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/simplesearchview/src/main/java/com/ferfalk/simplesearchview/SimpleSearchView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:simplesearchview:processDebugJavaRes NO-SOURCE
-:simplesearchview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:simplesearchview:mergeDebugShaders
-:simplesearchview:compileDebugShaders
-:simplesearchview:generateDebugAssets
-:simplesearchview:packageDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:simplesearchview:compileDebugNdk NO-SOURCE
-:simplesearchview:mergeDebugJniLibFolders
-:simplesearchview:transformNativeLibsWithMergeJniLibsForDebug
-:simplesearchview:transformNativeLibsWithStripDebugSymbolForDebug
-:simplesearchview:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
-:simplesearchview:preReleaseBuild UP-TO-DATE
-:simplesearchview:checkReleaseManifest
-:simplesearchview:processReleaseManifest
-:app:preReleaseBuild
-:simplesearchview:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:simplesearchview:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:simplesearchview:compileReleaseRenderscript
-:simplesearchview:generateReleaseResValues
-:simplesearchview:generateReleaseResources
-:simplesearchview:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:simplesearchview:generateReleaseRFile
-:app:processReleaseResources
-:app:generateReleaseSources
-:simplesearchview:generateReleaseBuildConfig
-:simplesearchview:generateReleaseSources
-:simplesearchview:javaPreCompileRelease
-:simplesearchview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/simplesearchview/src/main/java/com/ferfalk/simplesearchview/SimpleSearchView.java uses or overrides a deprecated API.
+> Task :app:mergeDebugResources
+> Task :simplesearchview:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :simplesearchview:extractDeepLinksDebug
+> Task :app:processDebugManifest
+> Task :simplesearchview:compileDebugLibraryResources
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/app/src/main/java/com/ferfalk/simplesearchviewexample/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:simplesearchview:processReleaseJavaRes NO-SOURCE
-:simplesearchview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/1ffc82ae0ee857e3ecaeb1359293ab76/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:simplesearchview:mergeReleaseShaders
-:simplesearchview:compileReleaseShaders
-:simplesearchview:generateReleaseAssets
-:simplesearchview:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:simplesearchview:compileReleaseNdk NO-SOURCE
-:simplesearchview:mergeReleaseJniLibFolders
-:simplesearchview:transformNativeLibsWithMergeJniLibsForRelease
-:simplesearchview:transformNativeLibsWithStripDebugSymbolForRelease
-:simplesearchview:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:checkReleaseLibraries
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :simplesearchview:mergeDebugShaders
+> Task :simplesearchview:compileDebugShaders
+> Task :simplesearchview:generateDebugAssets
+> Task :simplesearchview:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :simplesearchview:processDebugJavaRes NO-SOURCE
+> Task :simplesearchview:bundleLibResDebug
+> Task :simplesearchview:bundleLibRuntimeDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJniLibFolders
+> Task :simplesearchview:mergeDebugJniLibFolders
+> Task :simplesearchview:mergeDebugNativeLibs
+> Task :simplesearchview:stripDebugDebugSymbols
+> Task :simplesearchview:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:extractProguardFiles
+> Task :app:preReleaseBuild
+> Task :simplesearchview:preReleaseBuild UP-TO-DATE
+> Task :simplesearchview:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :simplesearchview:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :simplesearchview:compileReleaseRenderscript NO-SOURCE
+> Task :simplesearchview:generateReleaseBuildConfig
+> Task :simplesearchview:generateReleaseResValues
+> Task :simplesearchview:generateReleaseResources
+> Task :simplesearchview:packageReleaseResources
+> Task :simplesearchview:parseReleaseLocalResources
+> Task :simplesearchview:processReleaseManifest
+> Task :simplesearchview:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :simplesearchview:extractDeepLinksRelease
+> Task :app:processReleaseManifest
+> Task :simplesearchview:generateReleaseRFile
 
-BUILD SUCCESSFUL in 36s
-90 actionable tasks: 90 executed
+> Task :simplesearchview:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/simplesearchview/src/main/java/com/ferfalk/simplesearchview/SimpleSearchView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
-2019-08-11 18:49:27,839 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524120662-0/src/SimpleSearchView-master/app/build/outputs/apk/debug/app-debug.apk
+> Task :simplesearchview:compileReleaseLibraryResources
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :simplesearchview:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+
+> Task :app:compileReleaseJavaWithJavac
+
+> Task :app:compileReleaseSources
+> Task :app:prepareLintJar
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :simplesearchview:mergeReleaseShaders
+> Task :simplesearchview:compileReleaseShaders
+> Task :simplesearchview:generateReleaseAssets
+> Task :simplesearchview:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/app/src/main/java/com/ferfalk/simplesearchviewexample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+> Task :simplesearchview:prepareLintJarForPublish
+> Task :app:lintVitalRelease
+> Task :simplesearchview:mergeReleaseGeneratedProguardFiles
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeReleaseGeneratedProguardFiles
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :simplesearchview:processReleaseJavaRes NO-SOURCE
+> Task :app:mergeReleaseJniLibFolders
+> Task :simplesearchview:mergeReleaseJniLibFolders
+> Task :simplesearchview:bundleLibResRelease
+> Task :simplesearchview:bundleLibRuntimeRelease
+> Task :simplesearchview:mergeReleaseNativeLibs
+> Task :simplesearchview:stripReleaseDebugSymbols
+> Task :simplesearchview:copyReleaseJniLibsProjectOnly
+> Task :simplesearchview:exportReleaseConsumerProguardFiles
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:minifyReleaseWithR8
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 37s
+91 actionable tasks: 91 executed
+
+2020-03-28 22:25:45,465 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585409098454-0/src/SimpleSearchView-master/app/build/outputs/apk/debug/app-debug.apk
