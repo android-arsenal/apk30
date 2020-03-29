@@ -1,55 +1,54 @@
-2019-09-26 14:09:09,742 INFO  DownloadService - Downloading "https://github.com/mmoamenn/AnimationsPlus/archive/master.zip", attempt 3
-2019-09-26 14:09:10,615 INFO  DownloadService - Downloaded https://github.com/mmoamenn/AnimationsPlus/archive/master.zip, attempt 3
-2019-09-26 14:09:10,615 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/master.zip": 356 KB
-2019-09-26 14:09:10,615 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-26 14:09:10,621 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/master.zip: true
-2019-09-26 14:09:10,621 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src'.
-2019-09-26 14:09:10,645 INFO  FullProcessService - Size of directory with sources: 732 KB
-2019-09-26 14:09:10,645 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src]
-2019-09-26 14:09:10,662 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/.git/
+2020-03-29 16:29:56,701 INFO  DownloadService - Downloading "https://github.com/mmoamenn/AnimationsPlus/archive/master.zip", attempt 3
+2020-03-29 16:29:57,900 INFO  DownloadService - Downloaded https://github.com/mmoamenn/AnimationsPlus/archive/master.zip, attempt 3
+2020-03-29 16:29:57,900 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/master.zip": 356 KB
+2020-03-29 16:29:57,900 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-29 16:29:57,906 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/master.zip: true
+2020-03-29 16:29:57,906 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src'.
+2020-03-29 16:29:57,937 INFO  FullProcessService - Size of directory with sources: 732 KB
+2020-03-29 16:29:57,937 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src]
+2020-03-29 16:29:57,955 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/.git/
 
-2019-09-26 14:09:10,666 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/gradlew
-2019-09-26 14:09:10,668 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/animationplus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/build.gradle
-2019-09-26 14:09:10,671 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/animationplus/build.gradle
-2019-09-26 14:09:10,671 INFO  ProjectBuildService - Remote scripts: none
-2019-09-26 14:09:10,671 INFO  ProjectFixService - Fixing project...
-2019-09-26 14:09:10,678 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/animationplus/local.properties
-2019-09-26 14:09:10,679 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/animationplus/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-09-26 14:09:10,679 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/animationplus/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-09-26 14:09:10,679 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/app/local.properties
-2019-09-26 14:09:10,680 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-09-26 14:09:10,680 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-09-26 14:09:10,681 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/local.properties
-2019-09-26 14:09:10,681 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-09-26 14:09:10,682 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-09-26 14:09:10,683 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-09-26 14:09:10,683 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-09-26 14:09:10,683 INFO  ProjectFixService - Project was maybe fixed
-2019-09-26 14:09:10,683 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-26 14:09:10,683 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/animationplus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-26 14:09:18,114 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-09-26 14:09:18,115 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-09-26 14:09:18,115 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/animationplus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-09-26 14:09:28,692 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 16:29:57,960 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/gradlew
+2020-03-29 16:29:57,964 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/animationplus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/build.gradle
+2020-03-29 16:29:57,968 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/animationplus/build.gradle
+2020-03-29 16:29:57,969 INFO  ProjectBuildService - Remote scripts: none
+2020-03-29 16:29:57,969 INFO  ProjectFixService - Fixing project...
+2020-03-29 16:29:57,979 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/animationplus/local.properties
+2020-03-29 16:29:57,981 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/animationplus/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-29 16:29:57,981 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/animationplus/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-29 16:29:57,982 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/app/local.properties
+2020-03-29 16:29:57,983 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-29 16:29:57,983 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-29 16:29:57,984 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/local.properties
+2020-03-29 16:29:57,985 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-29 16:29:57,985 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-29 16:29:57,986 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-29 16:29:57,987 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-29 16:29:57,987 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 16:29:57,987 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 16:29:57,987 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/animationplus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 16:30:03,821 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-03-29 16:30:03,821 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-29 16:30:03,822 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/animationplus/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-29 16:30:06,962 INFO  VirusProcessorServiceImpl - Queued project 7915 to scan viruses
+2020-03-29 16:30:16,443 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :animationplus:preBuild UP-TO-DATE
 > Task :animationplus:preDebugBuild UP-TO-DATE
 > Task :animationplus:checkDebugManifest
 > Task :animationplus:generateDebugBuildConfig
 > Task :animationplus:generateDebugResValues
+> Task :animationplus:compileDebugAidl NO-SOURCE
+> Task :animationplus:compileDebugRenderscript NO-SOURCE
+> Task :animationplus:generateDebugResources
+> Task :animationplus:packageDebugResources
 > Task :animationplus:mergeDebugShaders
 > Task :animationplus:compileDebugShaders
 > Task :animationplus:generateDebugAssets
 > Task :animationplus:packageDebugAssets
 > Task :animationplus:packageDebugRenderscript NO-SOURCE
+> Task :animationplus:parseDebugLibraryResources
 > Task :animationplus:processDebugJavaRes NO-SOURCE
 > Task :animationplus:mergeDebugJniLibFolders
-> Task :animationplus:compileDebugAidl NO-SOURCE
-> Task :animationplus:compileDebugRenderscript NO-SOURCE
-> Task :animationplus:generateDebugResources
-> Task :animationplus:packageDebugResources
-> Task :animationplus:mergeDebugNativeLibs
-> Task :animationplus:stripDebugDebugSymbols
-> Task :animationplus:transformNativeLibsWithSyncJniLibsForDebug
 > Task :animationplus:preReleaseBuild UP-TO-DATE
 > Task :animationplus:compileReleaseAidl NO-SOURCE
 > Task :animationplus:compileReleaseRenderscript NO-SOURCE
@@ -58,8 +57,9 @@
 > Task :animationplus:generateReleaseResValues
 > Task :animationplus:generateReleaseResources
 > Task :animationplus:packageReleaseResources
-> Task :animationplus:parseDebugLibraryResources
+> Task :animationplus:processDebugManifest
 > Task :animationplus:parseReleaseLibraryResources
+> Task :animationplus:prepareLintJarForPublish
 > Task :animationplus:mergeReleaseShaders
 > Task :animationplus:compileReleaseShaders
 > Task :animationplus:generateReleaseAssets
@@ -67,36 +67,37 @@
 > Task :animationplus:packageReleaseRenderscript NO-SOURCE
 > Task :animationplus:processReleaseJavaRes NO-SOURCE
 > Task :animationplus:mergeReleaseJniLibFolders
+> Task :animationplus:javaPreCompileRelease
+> Task :animationplus:mergeDebugNativeLibs
+> Task :animationplus:stripDebugDebugSymbols
+> Task :animationplus:transformNativeLibsWithSyncJniLibsForDebug
 > Task :animationplus:processReleaseManifest
-> Task :animationplus:javaPreCompileDebug
-> Task :animationplus:prepareLintJarForPublish
 > Task :animationplus:mergeReleaseNativeLibs
 > Task :animationplus:stripReleaseDebugSymbols
 > Task :animationplus:transformNativeLibsWithSyncJniLibsForRelease
-> Task :animationplus:processDebugManifest
-> Task :animationplus:javaPreCompileRelease
+> Task :animationplus:javaPreCompileDebug
 > Task :animationplus:mergeReleaseResources
+> Task :animationplus:generateReleaseRFile
+> Task :animationplus:compileReleaseJavaWithJavac
+> Task :animationplus:extractReleaseAnnotations
+> Task :animationplus:mergeReleaseGeneratedProguardFiles
+> Task :animationplus:mergeReleaseConsumerProguardFiles
+> Task :animationplus:verifyReleaseResources
+> Task :animationplus:compileReleaseSources
+> Task :animationplus:mergeReleaseJavaResource
+> Task :animationplus:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :animationplus:bundleReleaseAar
+> Task :animationplus:assembleRelease
 > Task :animationplus:generateDebugRFile
 > Task :animationplus:compileDebugJavaWithJavac
 > Task :animationplus:extractDebugAnnotations
 > Task :animationplus:mergeDebugGeneratedProguardFiles
 > Task :animationplus:mergeDebugConsumerProguardFiles
 > Task :animationplus:compileDebugSources
-> Task :animationplus:verifyReleaseResources
-> Task :animationplus:generateReleaseRFile
-> Task :animationplus:compileReleaseJavaWithJavac
-> Task :animationplus:extractReleaseAnnotations
-> Task :animationplus:mergeReleaseGeneratedProguardFiles
-> Task :animationplus:mergeReleaseConsumerProguardFiles
-> Task :animationplus:compileReleaseSources
 > Task :animationplus:mergeDebugJavaResource
 > Task :animationplus:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :animationplus:bundleDebugAar
 > Task :animationplus:assembleDebug
-> Task :animationplus:mergeReleaseJavaResource
-> Task :animationplus:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :animationplus:bundleReleaseAar
-> Task :animationplus:assembleRelease
 > Task :animationplus:assemble
 > Task :animationplus:build
 
@@ -104,15 +105,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 10s
+BUILD SUCCESSFUL in 12s
 47 actionable tasks: 47 executed
 
-2019-09-26 14:09:28,728 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-26 14:09:28,728 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-26 14:09:35,064 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-09-26 14:09:35,064 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-26 14:09:35,064 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-26 14:10:02,938 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 16:30:16,501 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 16:30:16,501 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 16:30:23,188 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-29 16:30:23,188 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-29 16:30:23,189 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-29 16:31:00,476 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :animationplus:preBuild UP-TO-DATE
 > Task :animationplus:preDebugBuild UP-TO-DATE
 > Task :animationplus:compileDebugAidl NO-SOURCE
@@ -138,13 +139,11 @@ BUILD SUCCESSFUL in 10s
 > Task :animationplus:bundleLibCompileDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :app:javaPreCompileDebug
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
 > Task :app:mergeDebugResources
 > Task :app:processDebugResources
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
+> Task :app:compileDebugKotlin
 > Task :animationplus:mergeDebugShaders UP-TO-DATE
 > Task :animationplus:compileDebugShaders UP-TO-DATE
 > Task :animationplus:generateDebugAssets UP-TO-DATE
@@ -153,13 +152,14 @@ BUILD SUCCESSFUL in 10s
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
 > Task :app:mergeDebugAssets
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
 > Task :animationplus:processDebugJavaRes NO-SOURCE
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :animationplus:bundleLibResDebug
 > Task :animationplus:bundleLibRuntimeDebug
-> Task :animationplus:createFullJarDebug
 > Task :app:checkDebugDuplicateClasses
-> Task :app:mergeDebugJavaResource
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
@@ -181,7 +181,6 @@ BUILD SUCCESSFUL in 10s
 > Task :animationplus:generateReleaseRFile UP-TO-DATE
 > Task :animationplus:javaPreCompileRelease UP-TO-DATE
 > Task :animationplus:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :animationplus:bundleLibCompileRelease
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :animationplus:packageReleaseRenderscript NO-SOURCE
@@ -191,23 +190,26 @@ BUILD SUCCESSFUL in 10s
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
-> Task :app:javaPreCompileRelease
-> Task :animationplus:prepareLintJarForPublish UP-TO-DATE
-> Task :app:prepareLintJar
-> Task :animationplus:processReleaseJavaRes NO-SOURCE
-> Task :app:checkReleaseDuplicateClasses
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :animationplus:bundleLibCompileRelease
+> Task :app:mergeDebugJavaResource
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
+> Task :app:compileReleaseKotlin
+> Task :animationplus:prepareLintJarForPublish UP-TO-DATE
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
+
 > Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/8ececedfd1359f2ec217975439afffd0/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :animationplus:bundleLibRuntimeRelease
-> Task :animationplus:bundleLibResRelease
-> Task :animationplus:createFullJarRelease
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :animationplus:mergeReleaseShaders UP-TO-DATE
 > Task :animationplus:compileReleaseShaders UP-TO-DATE
@@ -217,6 +219,7 @@ BUILD SUCCESSFUL in 10s
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
 > Task :app:mergeReleaseAssets
+> Task :animationplus:processReleaseJavaRes NO-SOURCE
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :animationplus:mergeReleaseJniLibFolders UP-TO-DATE
@@ -224,6 +227,7 @@ BUILD SUCCESSFUL in 10s
 > Task :animationplus:stripReleaseDebugSymbols UP-TO-DATE
 > Task :animationplus:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:mergeReleaseJniLibFolders
+> Task :animationplus:bundleLibResRelease
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
 > Task :app:mergeReleaseJavaResource
@@ -242,7 +246,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 27s
+BUILD SUCCESSFUL in 36s
 90 actionable tasks: 59 executed, 31 up-to-date
 
-2019-09-26 14:10:03,012 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569481749738-0/src/AnimationsPlus-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-29 16:31:00,641 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585474196692-0/src/AnimationsPlus-master/app/build/outputs/apk/debug/app-debug.apk
