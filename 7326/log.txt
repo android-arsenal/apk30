@@ -1,37 +1,36 @@
-2020-01-31 11:20:41,015 INFO  DownloadService - Downloading "https://github.com/Trendyol/medusa/archive/master.zip", attempt 3
-2020-01-31 11:20:43,147 INFO  DownloadService - Downloaded https://github.com/Trendyol/medusa/archive/master.zip, attempt 3
-2020-01-31 11:20:43,148 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/master.zip": 226 KB
-2020-01-31 11:20:43,148 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-31 11:20:43,149 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/master.zip: true
-2020-01-31 11:20:43,149 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src'.
-2020-01-31 11:20:43,191 INFO  FullProcessService - Size of directory with sources: 274 KB
-2020-01-31 11:20:43,191 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src]
-2020-01-31 11:20:43,228 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/.git/
+2020-04-28 13:07:25,464 INFO  DownloadService - Downloading "https://github.com/Trendyol/medusa/archive/master.zip", attempt 3
+2020-04-28 13:07:26,136 INFO  DownloadService - Downloaded https://github.com/Trendyol/medusa/archive/master.zip, attempt 3
+2020-04-28 13:07:26,136 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/master.zip": 227 KB
+2020-04-28 13:07:26,136 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-04-28 13:07:26,137 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/master.zip: true
+2020-04-28 13:07:26,137 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src'.
+2020-04-28 13:07:26,167 INFO  FullProcessService - Size of directory with sources: 276 KB
+2020-04-28 13:07:26,167 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src]
+2020-04-28 13:07:26,186 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/.git/
 
-2020-01-31 11:20:43,235 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/gradlew
-2020-01-31 11:20:43,244 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/medusalib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/build.gradle
-2020-01-31 11:20:43,251 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/medusalib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/settings.gradle
-2020-01-31 11:20:43,252 INFO  ProjectBuildService - Remote scripts: none
-2020-01-31 11:20:43,252 INFO  ProjectFixService - Fixing project...
-2020-01-31 11:20:43,271 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/app/local.properties
-2020-01-31 11:20:43,273 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-31 11:20:43,273 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-31 11:20:43,275 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/medusalib/local.properties
-2020-01-31 11:20:43,277 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/medusalib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-31 11:20:43,277 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/medusalib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-31 11:20:43,279 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/local.properties
-2020-01-31 11:20:43,280 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-31 11:20:43,281 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-31 11:20:43,283 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-31 11:20:43,284 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-31 11:20:43,285 INFO  ProjectFixService - Project was maybe fixed
-2020-01-31 11:20:43,285 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-31 11:20:43,285 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-31 11:20:59,305 INFO  VirusProcessorServiceImpl - Queued project 7518 to scan viruses
-2020-01-31 11:21:08,472 INFO  ProjectTaskService - Detected possible tasks: 73
-2020-01-31 11:21:08,472 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-31 11:21:08,472 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-31 11:22:53,240 INFO  SysUtils - Loading package information...                                                  Loading local repository...                                                     [                                       ] 3% Loading local repository...        [                                       ] 3% Fetch remote repository...         [                                       ] 3% Fetch remote repository...         [=                                      ] 3% Fetch remote repository...         [=                                      ] 4% Fetch remote repository...                                                                                         Warning: File /Users/vbauer/.android/repositories.cfg could not be loaded.
+2020-04-28 13:07:26,190 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/gradlew
+2020-04-28 13:07:26,195 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/medusalib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/build.gradle
+2020-04-28 13:07:26,199 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/medusalib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/settings.gradle
+2020-04-28 13:07:26,199 INFO  ProjectBuildService - Remote scripts: none
+2020-04-28 13:07:26,199 INFO  ProjectFixService - Fixing project...
+2020-04-28 13:07:26,209 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/app/local.properties
+2020-04-28 13:07:26,210 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-04-28 13:07:26,210 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-04-28 13:07:26,211 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/medusalib/local.properties
+2020-04-28 13:07:26,211 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/medusalib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-04-28 13:07:26,211 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/medusalib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-04-28 13:07:26,212 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/local.properties
+2020-04-28 13:07:26,213 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.2-all.zip
+2020-04-28 13:07:26,213 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.2-bin.zip)
+2020-04-28 13:07:26,214 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-04-28 13:07:26,214 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-04-28 13:07:26,215 INFO  ProjectFixService - Project was maybe fixed
+2020-04-28 13:07:26,215 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-28 13:07:26,215 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-28 13:07:52,629 INFO  ProjectTaskService - Detected possible tasks: 80
+2020-04-28 13:07:52,629 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-04-28 13:07:52,630 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-04-28 13:09:01,601 INFO  SysUtils - Loading package information...                                                  Loading local repository...                                                     [                                       ] 3% Loading local repository...        [                                       ] 3% Fetch remote repository...         [                                       ] 3% Fetch remote repository...         [=                                      ] 3% Fetch remote repository...         [=                                      ] 4% Fetch remote repository...                                                                                         Warning: File /Users/vbauer/.android/repositories.cfg could not be loaded.
 [=                                      ] 4% Fetch remote repository...         [=                                      ] 4% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Computing updates...               [===                                    ] 8% Computing updates...               [===                                    ] 8% Computing updates...               [===                                    ] 10% Computing updates...              [=======================================] 100% Computing updates...             
 Loading package information...                                                  Loading local repository...                                                     [                                       ] 3% Loading local repository...        [                                       ] 3% Fetch remote repository...         [                                       ] 3% Fetch remote repository...         [=                                      ] 3% Fetch remote repository...         [=                                      ] 4% Fetch remote repository...                                                                                         Warning: File /Users/vbauer/.android/repositories.cfg could not be loaded.
 [=                                      ] 4% Fetch remote repository...         [=                                      ] 4% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Computing updates...               [===                                    ] 8% Computing updates...               [===                                    ] 8% Computing updates...               [===                                    ] 10% Computing updates...              [=======================================] 100% Computing updates...             
@@ -43,9 +42,9 @@ Configuration on demand is an incubating feature.
 > Task :medusalib:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :medusalib:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
@@ -57,9 +56,14 @@ Configuration on demand is an incubating feature.
 > Task :medusalib:checkDebugManifest
 > Task :medusalib:processDebugManifest
 > Task :app:processDebugManifest
-> Task :app:mergeDebugResources
 > Task :medusalib:parseDebugLibraryResources
+> Task :app:mergeDebugResources
+> Task :medusalib:generateDebugRFile
+> Task :app:processDebugResources
 > Task :medusalib:generateDebugBuildConfig
+> Task :medusalib:compileDebugKotlin
+> Task :medusalib:javaPreCompileDebug
+> Task :medusalib:compileDebugJavaWithJavac
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -68,22 +72,18 @@ Configuration on demand is an incubating feature.
 > Task :medusalib:generateDebugAssets
 > Task :medusalib:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :medusalib:processDebugJavaRes NO-SOURCE
-> Task :app:checkDebugDuplicateClasses
-> Task :medusalib:generateDebugRFile
-> Task :app:processDebugResources
-> Task :medusalib:compileDebugKotlin
-> Task :medusalib:javaPreCompileDebug
-> Task :medusalib:compileDebugJavaWithJavac
-> Task :medusalib:bundleLibResDebug
 > Task :medusalib:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
-> Task :medusalib:bundleLibRuntimeDebug
-> Task :medusalib:createFullJarDebug
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :medusalib:processDebugJavaRes NO-SOURCE
+> Task :medusalib:bundleLibResDebug
+> Task :medusalib:bundleLibRuntimeDebug
+> Task :medusalib:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
@@ -104,45 +104,44 @@ Configuration on demand is an incubating feature.
 > Task :medusalib:generateReleaseResValues
 > Task :medusalib:generateReleaseResources
 > Task :medusalib:packageReleaseResources
+> Task :medusalib:mergeDebugNativeLibs
+> Task :medusalib:stripDebugDebugSymbols
+> Task :medusalib:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :medusalib:checkReleaseManifest
 > Task :medusalib:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :medusalib:mergeDebugNativeLibs
-> Task :medusalib:stripDebugDebugSymbols
-> Task :medusalib:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :medusalib:generateReleaseBuildConfig
-> Task :app:mergeDebugJavaResource
 > Task :medusalib:parseReleaseLibraryResources
+> Task :app:prepareLintJar
+> Task :medusalib:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :medusalib:prepareLintJarForPublish
 > Task :app:mergeReleaseResources
 > Task :medusalib:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :medusalib:compileReleaseKotlin
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
 > Task :medusalib:javaPreCompileRelease
 > Task :medusalib:compileReleaseJavaWithJavac
+> Task :medusalib:bundleLibResRelease
 > Task :medusalib:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
 > Task :app:mergeExtDexDebug
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :app:prepareLintJar
-> Task :medusalib:processReleaseJavaRes NO-SOURCE
-> Task :app:checkReleaseDuplicateClasses
-> Task :medusalib:bundleLibResRelease
-> Task :medusalib:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e5bcc856678d4e5a25783bb3137b22ab/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/5bfe6519393979fcd094bc0330c8ce41/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/955671ce37099d26bd6d8455a5f23ee6/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/5393ff7f1794a81072373d8420a9aa0a/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
+> Task :medusalib:bundleLibRuntimeRelease
+> Task :medusalib:createFullJarRelease
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :medusalib:bundleLibRuntimeRelease
-> Task :medusalib:createFullJarRelease
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -171,9 +170,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.6.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 35s
+BUILD SUCCESSFUL in 1m 4s
 94 actionable tasks: 94 executed
 
-2020-01-31 11:22:53,349 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444441011-0/src/medusa-master/app/build/outputs/apk/debug/app-debug.apk
+2020-04-28 13:09:01,701 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588054045461-0/src/medusa-master/app/build/outputs/apk/debug/app-debug.apk
