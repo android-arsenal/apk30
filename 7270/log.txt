@@ -1,37 +1,37 @@
-2020-03-29 02:02:53,580 INFO  DownloadService - Downloading "https://github.com/ernestoyaquello/drag-drop-swipe-recyclerview/archive/master.zip", attempt 3
-2020-03-29 02:02:58,379 INFO  DownloadService - Downloaded https://github.com/ernestoyaquello/drag-drop-swipe-recyclerview/archive/master.zip, attempt 3
-2020-03-29 02:02:58,380 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/master.zip": 5 MB
-2020-03-29 02:02:58,380 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-29 02:02:58,381 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/master.zip: true
-2020-03-29 02:02:58,382 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src'.
-2020-03-29 02:02:58,454 INFO  FullProcessService - Size of directory with sources: 5 MB
-2020-03-29 02:02:58,454 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src]
-2020-03-29 02:02:58,475 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/.git/
+2020-05-18 13:49:09,041 INFO  DownloadService - Downloading "https://github.com/ernestoyaquello/drag-drop-swipe-recyclerview/archive/master.zip", attempt 3
+2020-05-18 13:49:14,966 INFO  DownloadService - Downloaded https://github.com/ernestoyaquello/drag-drop-swipe-recyclerview/archive/master.zip, attempt 3
+2020-05-18 13:49:14,966 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/master.zip": 5 MB
+2020-05-18 13:49:14,966 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-05-18 13:49:14,967 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/master.zip: true
+2020-05-18 13:49:14,967 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src'.
+2020-05-18 13:49:15,109 INFO  FullProcessService - Size of directory with sources: 5 MB
+2020-05-18 13:49:15,110 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src]
+2020-05-18 13:49:15,166 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/.git/
 
-2020-03-29 02:02:58,479 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/gradlew
-2020-03-29 02:02:58,483 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/build.gradle
-2020-03-29 02:02:58,487 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview/build.gradle
-2020-03-29 02:02:58,488 INFO  ProjectBuildService - Remote scripts: none
-2020-03-29 02:02:58,488 INFO  ProjectFixService - Fixing project...
-2020-03-29 02:02:58,497 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview-sample/local.properties
-2020-03-29 02:02:58,499 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-03-29 02:02:58,499 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-03-29 02:02:58,500 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview/local.properties
-2020-03-29 02:02:58,501 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-03-29 02:02:58,501 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-03-29 02:02:58,502 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/local.properties
-2020-03-29 02:02:58,502 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-03-29 02:02:58,503 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-03-29 02:02:58,504 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-03-29 02:02:58,504 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-03-29 02:02:58,505 INFO  ProjectFixService - Project was maybe fixed
-2020-03-29 02:02:58,505 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-29 02:02:58,505 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-29 02:03:04,921 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-03-29 02:03:04,921 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-29 02:03:04,921 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-29 02:03:07,876 INFO  VirusProcessorServiceImpl - Queued project 7278 to scan viruses
-2020-03-29 02:04:16,168 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-05-18 13:49:15,176 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/gradlew
+2020-05-18 13:49:15,188 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/build.gradle
+2020-05-18 13:49:15,202 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview/build.gradle
+2020-05-18 13:49:15,203 INFO  ProjectBuildService - Remote scripts: none
+2020-05-18 13:49:15,203 INFO  ProjectFixService - Fixing project...
+2020-05-18 13:49:15,230 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview-sample/local.properties
+2020-05-18 13:49:15,233 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-05-18 13:49:15,234 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-05-18 13:49:15,236 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview/local.properties
+2020-05-18 13:49:15,240 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-05-18 13:49:15,240 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-05-18 13:49:15,243 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/local.properties
+2020-05-18 13:49:15,244 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-05-18 13:49:15,245 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-05-18 13:49:15,249 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-05-18 13:49:15,249 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-05-18 13:49:15,251 INFO  ProjectFixService - Project was maybe fixed
+2020-05-18 13:49:15,251 INFO  ProjectTaskService - Detecting possible tasks...
+2020-05-18 13:49:15,255 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-05-18 13:49:23,174 INFO  VirusProcessorServiceImpl - Queued project 7278 to scan viruses
+2020-05-18 13:49:38,640 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-05-18 13:49:38,640 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-05-18 13:49:38,640 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-05-18 13:53:38,174 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :drag-drop-swipe-recyclerview:preBuild UP-TO-DATE
 > Task :drag-drop-swipe-recyclerview:preDebugBuild UP-TO-DATE
 > Task :drag-drop-swipe-recyclerview:compileDebugAidl NO-SOURCE
@@ -43,16 +43,16 @@
 > Task :drag-drop-swipe-recyclerview:packageDebugResources
 > Task :drag-drop-swipe-recyclerview-sample:preBuild UP-TO-DATE
 > Task :drag-drop-swipe-recyclerview-sample:preDebugBuild UP-TO-DATE
-> Task :drag-drop-swipe-recyclerview-sample:compileDebugAidl NO-SOURCE
 > Task :drag-drop-swipe-recyclerview:packageDebugRenderscript NO-SOURCE
 > Task :drag-drop-swipe-recyclerview-sample:checkDebugManifest
+> Task :drag-drop-swipe-recyclerview-sample:compileDebugAidl NO-SOURCE
 > Task :drag-drop-swipe-recyclerview-sample:compileDebugRenderscript NO-SOURCE
 > Task :drag-drop-swipe-recyclerview-sample:generateDebugBuildConfig
 > Task :drag-drop-swipe-recyclerview-sample:mainApkListPersistenceDebug
-> Task :drag-drop-swipe-recyclerview:parseDebugLibraryResources
 > Task :drag-drop-swipe-recyclerview-sample:generateDebugResValues
 > Task :drag-drop-swipe-recyclerview-sample:generateDebugResources
 > Task :drag-drop-swipe-recyclerview:processDebugManifest
+> Task :drag-drop-swipe-recyclerview:parseDebugLibraryResources
 > Task :drag-drop-swipe-recyclerview-sample:createDebugCompatibleScreenManifests
 > Task :drag-drop-swipe-recyclerview-sample:processDebugManifest
 > Task :drag-drop-swipe-recyclerview-sample:mergeDebugResources
@@ -98,6 +98,7 @@
 > Task :drag-drop-swipe-recyclerview:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :drag-drop-swipe-recyclerview:parseReleaseLibraryResources
 > Task :drag-drop-swipe-recyclerview-sample:preReleaseBuild UP-TO-DATE
+> Task :drag-drop-swipe-recyclerview:processReleaseManifest
 > Task :drag-drop-swipe-recyclerview-sample:compileReleaseAidl NO-SOURCE
 > Task :drag-drop-swipe-recyclerview:packageReleaseRenderscript NO-SOURCE
 > Task :drag-drop-swipe-recyclerview-sample:compileReleaseRenderscript NO-SOURCE
@@ -106,34 +107,33 @@
 > Task :drag-drop-swipe-recyclerview-sample:mainApkListPersistenceRelease
 > Task :drag-drop-swipe-recyclerview-sample:generateReleaseResValues
 > Task :drag-drop-swipe-recyclerview-sample:generateReleaseResources
-> Task :drag-drop-swipe-recyclerview:processReleaseManifest
-> Task :drag-drop-swipe-recyclerview:generateReleaseRFile
-> Task :drag-drop-swipe-recyclerview:compileReleaseKotlin
 > Task :drag-drop-swipe-recyclerview-sample:createReleaseCompatibleScreenManifests
 > Task :drag-drop-swipe-recyclerview-sample:processReleaseManifest
-> Task :drag-drop-swipe-recyclerview-sample:mergeDebugNativeLibs
-> Task :drag-drop-swipe-recyclerview-sample:stripDebugDebugSymbols
-> Task :drag-drop-swipe-recyclerview:javaPreCompileRelease
-> Task :drag-drop-swipe-recyclerview:compileReleaseJavaWithJavac
+> Task :drag-drop-swipe-recyclerview:generateReleaseRFile
+> Task :drag-drop-swipe-recyclerview:compileReleaseKotlin
 > Task :drag-drop-swipe-recyclerview-sample:mergeReleaseResources
 > Task :drag-drop-swipe-recyclerview-sample:processReleaseResources
+> Task :drag-drop-swipe-recyclerview:javaPreCompileRelease
+> Task :drag-drop-swipe-recyclerview:compileReleaseJavaWithJavac
+> Task :drag-drop-swipe-recyclerview-sample:mergeDebugNativeLibs
+> Task :drag-drop-swipe-recyclerview-sample:stripDebugDebugSymbols
 > Task :drag-drop-swipe-recyclerview:bundleLibCompileRelease
 > Task :drag-drop-swipe-recyclerview-sample:compileReleaseKotlin
-> Task :drag-drop-swipe-recyclerview-sample:mergeExtDexDebug
+> Task :drag-drop-swipe-recyclerview-sample:prepareLintJar
+> Task :drag-drop-swipe-recyclerview-sample:checkReleaseDuplicateClasses
 > Task :drag-drop-swipe-recyclerview-sample:javaPreCompileRelease
 > Task :drag-drop-swipe-recyclerview-sample:compileReleaseJavaWithJavac
 > Task :drag-drop-swipe-recyclerview-sample:compileReleaseSources
-> Task :drag-drop-swipe-recyclerview-sample:prepareLintJar
-> Task :drag-drop-swipe-recyclerview-sample:checkReleaseDuplicateClasses
+> Task :drag-drop-swipe-recyclerview:bundleLibRuntimeRelease
+> Task :drag-drop-swipe-recyclerview-sample:mergeExtDexDebug
 > Task :drag-drop-swipe-recyclerview:prepareLintJarForPublish
 
 > Task :drag-drop-swipe-recyclerview-sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/53ef0760fa841cb4a9c0bdf122d5cb6e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e76da39dfb13461e2b33904162461ee0/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
 > Task :drag-drop-swipe-recyclerview-sample:mergeDexDebug
 > Task :drag-drop-swipe-recyclerview-sample:packageDebug
 > Task :drag-drop-swipe-recyclerview-sample:assembleDebug
-> Task :drag-drop-swipe-recyclerview:bundleLibRuntimeRelease
 > Task :drag-drop-swipe-recyclerview-sample:transformClassesWithDexBuilderForRelease
 > Task :drag-drop-swipe-recyclerview:mergeReleaseShaders
 > Task :drag-drop-swipe-recyclerview:compileReleaseShaders
@@ -147,11 +147,11 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :drag-drop-swipe-recyclerview-sample:processReleaseJavaRes NO-SOURCE
 > Task :drag-drop-swipe-recyclerview-sample:signingConfigWriterRelease
 > Task :drag-drop-swipe-recyclerview:mergeReleaseJniLibFolders
+> Task :drag-drop-swipe-recyclerview-sample:mergeReleaseJniLibFolders
 > Task :drag-drop-swipe-recyclerview:bundleLibResRelease
 > Task :drag-drop-swipe-recyclerview:mergeReleaseNativeLibs
 > Task :drag-drop-swipe-recyclerview:stripReleaseDebugSymbols
 > Task :drag-drop-swipe-recyclerview:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :drag-drop-swipe-recyclerview-sample:mergeReleaseJniLibFolders
 > Task :drag-drop-swipe-recyclerview-sample:mergeReleaseNativeLibs
 > Task :drag-drop-swipe-recyclerview-sample:stripReleaseDebugSymbols
 > Task :drag-drop-swipe-recyclerview-sample:mergeReleaseJavaResource
@@ -166,7 +166,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 10s
+BUILD SUCCESSFUL in 3m 58s
 92 actionable tasks: 92 executed
 
-2020-03-29 02:04:16,278 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585422173572-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview-sample/build/outputs/apk/release/drag-drop-swipe-recyclerview-sample-release-unsigned.apk
+2020-05-18 13:53:38,587 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589784549033-0/src/DragDropSwipeRecyclerview-master/drag-drop-swipe-recyclerview-sample/build/outputs/apk/release/drag-drop-swipe-recyclerview-sample-release-unsigned.apk

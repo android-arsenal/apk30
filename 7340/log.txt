@@ -1,40 +1,39 @@
-2020-03-28 22:15:22,523 INFO  DownloadService - Downloading "https://github.com/jaredrummler/Cyanea/archive/master.zip", attempt 3
-2020-03-28 22:15:36,172 INFO  VirusProcessorServiceImpl - Queued project 7343 to scan viruses
-2020-03-28 22:15:46,937 INFO  DownloadService - Downloaded https://github.com/jaredrummler/Cyanea/archive/master.zip, attempt 3
-2020-03-28 22:15:46,937 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/master.zip": 3 MB
-2020-03-28 22:15:46,937 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-28 22:15:46,939 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/master.zip: true
-2020-03-28 22:15:46,939 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src'.
-2020-03-28 22:15:47,021 INFO  FullProcessService - Size of directory with sources: 4 MB
-2020-03-28 22:15:47,021 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src]
-2020-03-28 22:15:47,041 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/.git/
+2020-05-18 13:29:15,726 INFO  DownloadService - Downloading "https://github.com/jaredrummler/Cyanea/archive/master.zip", attempt 3
+2020-05-18 13:29:19,418 INFO  DownloadService - Downloaded https://github.com/jaredrummler/Cyanea/archive/master.zip, attempt 3
+2020-05-18 13:29:19,419 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/master.zip": 3 MB
+2020-05-18 13:29:19,419 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-05-18 13:29:19,420 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/master.zip: true
+2020-05-18 13:29:19,420 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src'.
+2020-05-18 13:29:19,593 INFO  FullProcessService - Size of directory with sources: 4 MB
+2020-05-18 13:29:19,593 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src]
+2020-05-18 13:29:19,661 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/.git/
 
-2020-03-28 22:15:47,048 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/gradlew
-2020-03-28 22:15:47,055 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/demo-main/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/demo-simple-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/build.gradle
-2020-03-28 22:15:47,062 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/demo-simple-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/demo-main/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/settings.gradle
-2020-03-28 22:15:47,062 INFO  ProjectBuildService - Remote scripts: none
-2020-03-28 22:15:47,062 INFO  ProjectFixService - Fixing project...
-2020-03-28 22:15:47,079 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/demo-main/local.properties
-2020-03-28 22:15:47,081 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/demo-main/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2020-03-28 22:15:47,081 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/demo-main/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2020-03-28 22:15:47,082 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/demo-simple-java/local.properties
-2020-03-28 22:15:47,083 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/demo-simple-java/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2020-03-28 22:15:47,083 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/demo-simple-java/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2020-03-28 22:15:47,084 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/library/local.properties
-2020-03-28 22:15:47,086 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2020-03-28 22:15:47,086 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2020-03-28 22:15:47,087 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/local.properties
-2020-03-28 22:15:47,087 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2020-03-28 22:15:47,087 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2020-03-28 22:15:47,089 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2020-03-28 22:15:47,089 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2020-03-28 22:15:47,090 INFO  ProjectFixService - Project was maybe fixed
-2020-03-28 22:15:47,090 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-28 22:15:47,090 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/demo-main/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-28 22:15:56,980 INFO  ProjectTaskService - Detected possible tasks: 75
-2020-03-28 22:15:56,981 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-28 22:15:56,981 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/demo-main/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-28 22:17:04,725 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2020-05-18 13:29:19,679 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/gradlew
+2020-05-18 13:29:19,702 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/demo-main/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/demo-simple-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/build.gradle
+2020-05-18 13:29:19,719 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/demo-simple-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/demo-main/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/settings.gradle
+2020-05-18 13:29:19,720 INFO  ProjectBuildService - Remote scripts: none
+2020-05-18 13:29:19,720 INFO  ProjectFixService - Fixing project...
+2020-05-18 13:29:19,777 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/demo-main/local.properties
+2020-05-18 13:29:19,789 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/demo-main/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2020-05-18 13:29:19,789 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/demo-main/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2020-05-18 13:29:19,794 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/demo-simple-java/local.properties
+2020-05-18 13:29:19,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/demo-simple-java/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2020-05-18 13:29:19,799 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/demo-simple-java/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2020-05-18 13:29:19,803 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/library/local.properties
+2020-05-18 13:29:19,808 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2020-05-18 13:29:19,808 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2020-05-18 13:29:19,810 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/local.properties
+2020-05-18 13:29:19,811 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-05-18 13:29:19,811 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-05-18 13:29:19,815 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2020-05-18 13:29:19,820 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2020-05-18 13:29:19,822 INFO  ProjectFixService - Project was maybe fixed
+2020-05-18 13:29:19,822 INFO  ProjectTaskService - Detecting possible tasks...
+2020-05-18 13:29:19,823 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/demo-main/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-05-18 13:30:16,464 INFO  ProjectTaskService - Detected possible tasks: 75
+2020-05-18 13:30:16,464 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-05-18 13:30:16,465 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/demo-main/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-05-18 13:34:12,952 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 > Task :demo-main:preBuild UP-TO-DATE
@@ -47,33 +46,8 @@ Configuration on demand is an incubating feature.
 > Task :library:generateDebugBuildConfig
 > Task :library:prepareLintJar
 > Task :demo-main:prepareLintJar
-> Task :library:mergeDebugShaders
-> Task :library:compileDebugShaders
-> Task :library:generateDebugAssets
-> Task :library:packageDebugAssets
-> Task :library:processDebugJavaRes NO-SOURCE
-> Task :library:mergeDebugJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForDebug
-> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :library:preReleaseBuild UP-TO-DATE
-> Task :library:checkReleaseManifest
-> Task :library:processReleaseManifest
-> Task :library:packageReleaseRenderscript NO-SOURCE
-> Task :library:generateReleaseResValues
-> Task :library:generateReleaseBuildConfig
-> Task :library:prepareLintJarForPublish
-> Task :library:mergeReleaseShaders
-> Task :library:compileReleaseShaders
-> Task :library:generateReleaseAssets
-> Task :library:packageReleaseAssets
-> Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:mergeReleaseJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForRelease
-> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :demo-main:preDebugBuild
 > Task :library:compileDebugAidl NO-SOURCE
+> Task :demo-main:preDebugBuild
 > Task :demo-main:compileDebugAidl NO-SOURCE
 > Task :demo-main:compileDebugRenderscript NO-SOURCE
 > Task :demo-main:checkDebugManifest
@@ -102,25 +76,38 @@ Configuration on demand is an incubating feature.
 > Task :demo-main:mergeDebugShaders
 > Task :demo-main:compileDebugShaders
 > Task :demo-main:generateDebugAssets
+> Task :library:mergeDebugShaders
+> Task :library:compileDebugShaders
+> Task :library:generateDebugAssets
+> Task :library:packageDebugAssets
 > Task :demo-main:mergeDebugAssets
 > Task :demo-main:validateSigningDebug
 > Task :demo-main:signingConfigWriterDebug
-> Task :demo-main:checkDebugDuplicateClasses
 > Task :library:bundleLibRuntimeDebug
+> Task :demo-main:checkDebugDuplicateClasses
 > Task :demo-main:transformClassesWithDexBuilderForDebug
 > Task :demo-main:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :demo-main:transformDexArchiveWithDexMergerForDebug
 > Task :demo-main:mergeDebugJniLibFolders
+> Task :library:processDebugJavaRes NO-SOURCE
 > Task :library:bundleLibResDebug
+> Task :library:mergeDebugJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForDebug
+> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :demo-main:transformNativeLibsWithMergeJniLibsForDebug
 > Task :demo-main:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :demo-main:processDebugJavaRes NO-SOURCE
 > Task :demo-main:transformResourcesWithMergeJavaResForDebug
 > Task :demo-main:packageDebug
 > Task :demo-main:assembleDebug
+> Task :library:preReleaseBuild UP-TO-DATE
+> Task :library:checkReleaseManifest
+> Task :library:processReleaseManifest
 > Task :demo-main:preReleaseBuild
 > Task :library:compileReleaseAidl NO-SOURCE
 > Task :demo-main:compileReleaseAidl NO-SOURCE
+> Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :demo-main:compileReleaseRenderscript NO-SOURCE
 > Task :demo-main:checkReleaseManifest
 > Task :demo-main:generateReleaseBuildConfig
@@ -128,6 +115,7 @@ Configuration on demand is an incubating feature.
 > Task :demo-main:generateReleaseResValues
 > Task :demo-main:generateReleaseResources
 > Task :library:compileReleaseRenderscript NO-SOURCE
+> Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
 > Task :demo-main:mergeReleaseResources
@@ -135,6 +123,7 @@ Configuration on demand is an incubating feature.
 > Task :demo-main:processReleaseManifest
 > Task :library:generateReleaseRFile
 > Task :demo-main:processReleaseResources
+> Task :library:generateReleaseBuildConfig
 > Task :library:compileReleaseKotlin
 > Task :library:generateReleaseSources
 > Task :library:javaPreCompileRelease
@@ -145,23 +134,33 @@ Configuration on demand is an incubating feature.
 > Task :demo-main:javaPreCompileRelease
 > Task :demo-main:compileReleaseJavaWithJavac
 > Task :demo-main:compileReleaseSources
+> Task :library:prepareLintJarForPublish
 > Task :demo-main:mergeReleaseShaders
-
-> Task :demo-main:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f63b5f921b44d53ad2f05731d117ef54/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/4faf208a24f77eb13c97b86d8dfc9c57/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :demo-main:compileReleaseShaders
 > Task :demo-main:generateReleaseAssets
+> Task :library:mergeReleaseShaders
+> Task :library:compileReleaseShaders
+> Task :library:generateReleaseAssets
+> Task :library:packageReleaseAssets
 > Task :demo-main:mergeReleaseAssets
 > Task :demo-main:signingConfigWriterRelease
 > Task :demo-main:checkReleaseDuplicateClasses
+
+> Task :demo-main:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c819733d554965d42c9ab37e5c7578d3/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/3a3e95129f6d2690bf2356112985df5a/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :library:bundleLibRuntimeRelease
 > Task :demo-main:transformClassesWithDexBuilderForRelease
 > Task :demo-main:transformDexArchiveWithExternalLibsDexMergerForRelease
 > Task :demo-main:transformDexArchiveWithDexMergerForRelease
 > Task :demo-main:mergeReleaseJniLibFolders
+> Task :library:processReleaseJavaRes NO-SOURCE
 > Task :library:bundleLibResRelease
+> Task :library:mergeReleaseJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForRelease
+> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :demo-main:transformNativeLibsWithMergeJniLibsForRelease
 > Task :demo-main:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :demo-main:processReleaseJavaRes NO-SOURCE
@@ -175,7 +174,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 7s
+BUILD SUCCESSFUL in 3m 55s
 93 actionable tasks: 93 executed
 
-2020-03-28 22:17:04,850 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585408522518-0/src/Cyanea-master/demo.apk
+2020-05-18 13:34:13,280 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783355681-0/src/Cyanea-master/demo.apk

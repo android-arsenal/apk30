@@ -1,36 +1,37 @@
-2019-12-02 20:22:46,043 INFO  DownloadService - Downloading "https://github.com/rehmanmuradali/ticker/archive/master.zip", attempt 3
-2019-12-02 20:22:48,097 INFO  DownloadService - Downloaded https://github.com/rehmanmuradali/ticker/archive/master.zip, attempt 3
-2019-12-02 20:22:48,097 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/master.zip": 151 KB
-2019-12-02 20:22:48,097 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-02 20:22:48,097 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/master.zip: true
-2019-12-02 20:22:48,098 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src'.
-2019-12-02 20:22:48,119 INFO  FullProcessService - Size of directory with sources: 173 KB
-2019-12-02 20:22:48,119 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src]
-2019-12-02 20:22:48,138 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/.git/
+2020-05-18 13:34:16,367 INFO  DownloadService - Downloading "https://github.com/rehmanmuradali/ticker/archive/master.zip", attempt 3
+2020-05-18 13:34:18,699 INFO  DownloadService - Downloaded https://github.com/rehmanmuradali/ticker/archive/master.zip, attempt 3
+2020-05-18 13:34:18,700 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/master.zip": 151 KB
+2020-05-18 13:34:18,700 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-05-18 13:34:18,700 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/master.zip: true
+2020-05-18 13:34:18,700 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src'.
+2020-05-18 13:34:18,749 INFO  FullProcessService - Size of directory with sources: 174 KB
+2020-05-18 13:34:18,749 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src]
+2020-05-18 13:34:18,818 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/.git/
 
-2019-12-02 20:22:48,141 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/gradlew
-2019-12-02 20:22:48,145 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/ticker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/build.gradle
-2019-12-02 20:22:48,148 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/ticker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/settings.gradle
-2019-12-02 20:22:48,148 INFO  ProjectBuildService - Remote scripts: none
-2019-12-02 20:22:48,148 INFO  ProjectFixService - Fixing project...
-2019-12-02 20:22:48,155 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/app/local.properties
-2019-12-02 20:22:48,156 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-12-02 20:22:48,156 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-12-02 20:22:48,157 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/ticker/local.properties
-2019-12-02 20:22:48,158 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/ticker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-12-02 20:22:48,158 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/ticker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-12-02 20:22:48,159 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/local.properties
-2019-12-02 20:22:48,160 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-12-02 20:22:48,160 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-12-02 20:22:48,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-12-02 20:22:48,161 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-12-02 20:22:48,162 INFO  ProjectFixService - Project was maybe fixed
-2019-12-02 20:22:48,162 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-02 20:22:48,163 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-02 20:22:55,692 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-12-02 20:22:55,692 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-02 20:22:55,692 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-02 20:23:19,688 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-05-18 13:34:18,828 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/gradlew
+2020-05-18 13:34:18,839 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/ticker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/build.gradle
+2020-05-18 13:34:18,851 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/ticker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/settings.gradle
+2020-05-18 13:34:18,851 INFO  ProjectBuildService - Remote scripts: none
+2020-05-18 13:34:18,852 INFO  ProjectFixService - Fixing project...
+2020-05-18 13:34:18,875 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/app/local.properties
+2020-05-18 13:34:18,877 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-05-18 13:34:18,877 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-05-18 13:34:18,879 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/ticker/local.properties
+2020-05-18 13:34:18,881 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/ticker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-05-18 13:34:18,882 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/ticker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-05-18 13:34:18,883 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/local.properties
+2020-05-18 13:34:18,884 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2020-05-18 13:34:18,885 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2020-05-18 13:34:18,887 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-05-18 13:34:18,888 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-05-18 13:34:18,889 INFO  ProjectFixService - Project was maybe fixed
+2020-05-18 13:34:18,889 INFO  ProjectTaskService - Detecting possible tasks...
+2020-05-18 13:34:18,889 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-05-18 13:34:31,029 INFO  VirusProcessorServiceImpl - Queued project 7340 to scan viruses
+2020-05-18 13:34:51,014 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-05-18 13:34:51,014 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-05-18 13:34:51,015 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-05-18 13:36:23,810 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :ticker:preBuild UP-TO-DATE
 :ticker:preDebugBuild UP-TO-DATE
@@ -144,6 +145,22 @@
 :app:compileReleaseJavaWithJavac
 :app:compileReleaseSources
 :app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.3/lint-gradle-26.1.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.3/uast-26.1.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.3/lint-26.1.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.3/intellij-core-26.1.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.3/kotlin-compiler-26.1.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.3/lint-kotlin-26.1.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.3/lint-checks-26.1.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.3/lint-api-26.1.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.3/lint-gradle-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.3/lint-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.3/lint-checks-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.3/lint-kotlin-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.3/lint-api-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.3/uast-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.3/intellij-core-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.3/kotlin-compiler-26.1.3.jar
 :app:transformClassesWithDexBuilderForRelease
 :app:transformDexArchiveWithExternalLibsDexMergerForRelease
 :app:transformDexArchiveWithDexMergerForRelease
@@ -155,7 +172,7 @@
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 23s
+BUILD SUCCESSFUL in 1m 31s
 91 actionable tasks: 91 executed
 
-2019-12-02 20:23:19,757 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575292966038-0/src/ticker-master/app/build/outputs/apk/debug/app-debug.apk
+2020-05-18 13:36:24,112 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589783656360-0/src/ticker-master/app/build/outputs/apk/debug/app-debug.apk
